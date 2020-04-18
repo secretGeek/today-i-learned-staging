@@ -1,0 +1,19 @@
+# Find all the TODO's in a file or folder
+
+	function todo()
+	{
+		# recursively search for TODO followed by colon, or [ ] with an underscore in between.
+		findtext ("TODO" + ":|\[_\]")
+	}
+
+...which relies on my ever-evolving sense of 'findtext'
+
+Currently something like.... (this is dynamically loaded from util)
+
+{powershell: 
+
+cat (join-path $env:util powershell\scriptlets\findtext.ps1) | % {
+ "`t" + $_ }
+
+
+:}

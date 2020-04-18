@@ -1,0 +1,2 @@
+.\quick.ps1 # import .md etc from util\til
+dir -rec -Exclude .git,*node_modules* | ?{ $_.PSIsContainer -ne $true } | ? { $_.DirectoryName -notmatch "node_modules|_book|\.git|\.hg" } | group-object -property { ($_.extension) } | sort  # group/count file types, exclude some folders

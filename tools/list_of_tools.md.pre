@@ -1,0 +1,46 @@
+
+# List of tools in utils folder
+
+Below is a list of all tools in the root of my [utils repo](utils_repo.md) (generated using [pre](https://github.com/secretGeek/pre)).
+
+When looking for new tools, obviously the first place to look is [Scott Hanselman's amazing list of tools](http://hanselman.com/tools).
+
+
+## Types of files:
+
+{powershell:
+
+# this list all files (excludes folders and .hg files), groups then and returns them as a markdown list, using the power of -f (format string)
+
+dir -Path $env:util *.* -exclude ".hg*" | 
+    ?{ !$_.PSIsContainer } | 
+    % { $_.Extension } | 
+    group | 
+    sort -property Count -desc | 
+    % { ' * {0} ({1} files)' -f $_.Name, $_.Count  }
+
+:}
+
+## Executables
+
+{powershell:
+
+dir -Path $env:util *.exe | % { " * " +  $_.Name}
+
+:}
+
+## Batch Files
+
+{powershell:
+
+dir -Path $env:util *.bat | % { " * " +  $_.Name}
+
+:}
+
+## Dlls
+
+{powershell:
+
+dir -Path $env:util *.dll | % { " * " +  $_.Name}
+
+:}

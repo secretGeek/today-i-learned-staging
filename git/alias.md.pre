@@ -1,0 +1,14 @@
+# Aliases in git
+
+This is one of my favorite things about git, the alias system. I could play with this all day.
+
+Aliases from my `~\.gitconfig` file:
+
+{powershell:
+$x=$false; cat ~\.gitconfig | % { if ($_ -eq "[alias]") { $x = $true}; if ($x) { echo `t$_;}}
+:}
+
+
+## See also
+
+ * [TheUltimate Git Alias Setup](https://gist.github.com/mwhite/6887990)
