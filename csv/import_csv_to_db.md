@@ -72,7 +72,7 @@ Below are many different solutions to this common problem, for a variety of data
 
 ## Any database with Windows
 
- - [LinqPad](https://www.linqpad.net/) &mdash; [CSV to IEnumerable (or Array) in Linqpad](/linqpad/csv_to_array.md)
+ - [LinqPad](https://www.linqpad.net/) &mdash; [CSV to IEnumerable (or Array) in Linqpad](../linqpad/csv_to_array.md)
  - Microsoft Log Parser
 
         Logparser -o sql -server 127.0.0.1 -database -createtable on "select * into newtable from C:\Apps\Logs\Logfile.log" 

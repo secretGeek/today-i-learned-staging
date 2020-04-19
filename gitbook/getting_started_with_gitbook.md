@@ -11,14 +11,14 @@ So it looks like this (for example)
     # Summary
 
     * asp.net mvc
-        * [clear caches](/asp.net_mvc/clear_caches.md)
-        * [elmah](/asp.net_mvc/elmah.md)
-        * [from memory](/asp.net_mvc/from_memory.md)
-        * [helpful error page](/asp.net_mvc/helpful_error_page.md)
-        * [return 404](/asp.net_mvc/return_404.md)
-        * [serve some static files from mvc but not all](/asp.net_mvc/serve_some_static_files_from_mvc_but_not_all.md)
+        * [clear caches](../asp.net_mvc/clear_caches.md)
+        * [elmah](../asp.net_mvc/elmah.md)
+        * [from memory](../asp.net_mvc/from_memory.md)
+        * [helpful error page](../asp.net_mvc/helpful_error_page.md)
+        * [return 404](../asp.net_mvc/return_404.md)
+        * [serve some static files from mvc but not all](../asp.net_mvc/serve_some_static_files_from_mvc_but_not_all.md)
     * git 
-         * [how to git](/git/how_to_git.md)
+         * [how to git](../git/how_to_git.md)
 
 
 I generate that file using [pre](https://github.com/secretGeek/pre) though it's easy enough to generate with a bit of powershell.

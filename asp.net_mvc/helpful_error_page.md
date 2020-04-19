@@ -22,5 +22,5 @@ Since you're leaking details to the outside world I don't recommend it for all s
     </customErrors>
 
 
-I use Elmah.axd to log errors. See [elmah](/elmah.md) &mdash; make sure it's secure!
+I use `Elmah.axd` to log errors. See [elmah](elmah.md) &mdash; make sure it's secure!
 

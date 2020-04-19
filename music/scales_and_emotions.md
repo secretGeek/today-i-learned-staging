@@ -31,4 +31,4 @@ Here's my source, an excellent guide!
 
 ## See also
 
-* [Guitar Dashboard](/Help/guitar_dashboard.md)
+* [Guitar Dashboard](guitar_dashboard.md)

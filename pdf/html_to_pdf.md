@@ -8,6 +8,6 @@ e.g.
 
 On linux (or windows subsystem for linux) you can use:
 
-* [wkhtmltopdf](/linux/wkhtmltopdf.md)
+* [wkhtmltopdf](../linux/wkhtmltopdf.md)
 
 

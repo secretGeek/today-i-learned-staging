@@ -3,12 +3,16 @@
 
 # Today I Learned
 
-This is a place where I store short descriptions of things I learn each day.
-<br />&mdash;Leon Bambrick.
+> This is a place where I store short descriptions of things I learn each day.
+>
+> &mdash;Leon Bambrick.
 
-Available as an online gitbook: https://TIL.secretGeek.net/ and as [pdf](https://www.gitbook.com/download/pdf/book/secretgeek/til), [epub](https://www.gitbook.com/download/epub/book/secretgeek/til) and [mobi](https://www.gitbook.com/download/mobi/book/secretgeek/til)
+Available online: 
 
-Repository here: https://github.com/secretGeek/til
+ * [TIL.secretGeek.net](https://TIL.secretGeek.net/)
+ * [HTML Source repo](https://github.com/secretGeek/today-i-learned)
+ * [Markdown Source repo](https://github.com/secretGeek/today-i-learned-staging)
+ * Generated with [clowncar](https://github.com/secretGeek/clowncar), markdown conversion by [markdig](https://github.com/lunet-io/markdig)
 
 ## Guidelines
 
@@ -18,27 +22,22 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## Inspired by
 
- * https://github.com/jbranchaud/til &mdash; as seen on https://news.ycombinator.com/item?id=11068902
- * https://github.com/thoughtbot/til
- * https://github.com/jwworth/til
+ * [Josh Branchaud's til](https://github.com/jbranchaud/til) &mdash; and [this Hacker news thread](https://news.ycombinator.com/item?id=11068902)
+ * [thoughbot inc.'s til](https://github.com/thoughtbot/til)
+ * [Jake Worth's til](https://github.com/jwworth/til)
 
 ## See Also
 
- * http://wiki.secretGeek.net (wiki for things I find fascinating)
- * http://www.secretGeek.net (blog)
+ * [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
+ * [secretGeek.net](http://www.secretGeek.net) &mdash; my blog
 
 ## Get this book...
 
 <p><a href='https://YourFirstProduct.com'><img src='yfp_book.png' title='Your First Product' alt='Your First Product' /></a></p>
 
-
 Though this site is published as a free digital-only book, I've also published a *real* book.
 
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [https://YourFirstProduct.com](https://YourFirstProduct.com). Thank you.
-
-
-
-
 
 
 
@@ -140,4 +139,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 546 articles
-130063 words
+130092 words

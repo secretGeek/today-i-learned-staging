@@ -174,5 +174,5 @@ Some blues musicians will noodle around on just those five locations for an enti
 
 ## See also
 
-* [Guitar Dashboard](/guitar_dashboard.md)
-* [Scales and Emotions](/scales_and_emotions.md)
+* [Guitar Dashboard](guitar_dashboard.md)
+* [Scales and Emotions](scales_and_emotions.md)
