@@ -1,12 +1,13 @@
 # Zip a single file
 
-This is a minimal C# function (usable from Linqpad) to Zip a single file into its own archive.
+This is a minimal C# function (usable from [Linqpad](../linqpad/01_summary.md)) to Zip a single file into its own archive.
 
 References these libraries:
 
  * `System.IO.Compression.dll`
  * `System.IO.Compression.FileSystem.dll`
 
+Code:
 
 	using System.IO.Compression;
 

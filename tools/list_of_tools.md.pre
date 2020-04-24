@@ -16,7 +16,7 @@ dir -Path $env:util *.* -exclude ".hg*" |
     ?{ !$_.PSIsContainer } | 
     % { $_.Extension } | 
     group | 
-    sort -property Count -desc | 
+    sort -property @{Expression="Count";Descending=$true},@{Expression="Name";Descending=$false} | 
     % { ' * {0} ({1} files)' -f $_.Name, $_.Count  }
 
 :}

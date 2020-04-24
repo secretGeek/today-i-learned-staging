@@ -1,12 +1,11 @@
 # Collation....
 
-# Find default collation of the database
+## Find default collation of the database
 
 	Select DatabasePropertyEx('DATABASE_NAME','Collation')
-	
-	
 
-# Find collation of a column
+
+## Find collation of a column
 
 
 	SELECT name, collation_name
@@ -19,7 +18,7 @@
 	AND name = 'MyColumn'
 
 
-# Compare two values that have different collation
+## Compare two values that have different collation
 
 
 	Select p.Name, w.Age
@@ -29,13 +28,13 @@
 	on p.id = w.id collate database_default
 
 
-	
-# Find all collations used in a database
+
+## Find all collations used in a database
 
 
 	SELECT distinct collation_name
 	FROM sys.columns
-	
+
 e.g.
 
 |Collation_Name|
@@ -47,7 +46,7 @@ e.g.
 |SQL_Latin1_General_CP1_CI_AS|
 
 
-# Change Collation of an entire database
+## Change Collation of an entire database
 
 First try and change the collation directly
 
@@ -76,7 +75,15 @@ First try and change the collation directly
 
 	GO
 
-Note that having a mismatch between TempDb and your collation is the shortcut to madness.
+*Note that having a mismatch between TempDb and your collation is the shortcut to madness.*
+
+## Mood Tracker
+
+Here is a mood tracker I have on my wall so I can move the little yellow pointer to indicate which of the only two possible moods I am currently in:
+
+
+![TODAY we are angry about: NULLs or Collation](TODAY_we_are_angry_about_NULLs_Collation.jpg)
+
 
 ## References
 

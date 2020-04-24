@@ -14,7 +14,6 @@ A blog post from Deborah to support the course is here:
 * <https://blogs.msmvps.com/deborahk/angular-2-getting-started-problem-solver/>
 
 
-
 	git clone https://github.com/DeborahK/Angular-GettingStarted.git
 	cd .\Angular-GettingStarted\
 
@@ -69,14 +68,6 @@ Already have it? check you have version at least `6.9.0` (from 2019)
 
 Fiiiine.
 
-**But how do we get the angular cli?**
-
-	npm install -g @angular/cli
-
-That's how you get the super dooper useful angular cli.
-
-
-
 Basic angular application has:
 
 - package definition and configuration files
@@ -86,6 +77,71 @@ Basic angular application has:
 - host web page (index.html)
 
 Can use angular cli to do all this...
+
+
+
+**But how do we get the angular cli?**
+
+  npm install -g @angular/cli
+
+That's how you get the super dooper useful angular cli.
+
+
+## Make a new app
+
+Make a new app with:
+
+    ng new my-app --skip-install --dry-run
+
+(And if you are happy with the output remove the `--dry-run`)
+
+It will prompt you regarding routing, and what technology to use for styling (css, scss (sass), less, etc.)
+
+    cd my-app # go into the folder of our newly created app
+    tree # look at all these files!
+    npm install # because we skipped install earlier. I did that because installing is flaky for me. Just me??
+
+* If anything went *quite* wrong when installing npm dependencies, run `npm install` again.
+* If anything went *majorly* wrong when installing npm dependencies, delete the lock file `package-lock.json` and remove the `node_modules` folder; then run `npm install` again. As many times as it takes. (wtaf).
+
+Edit the `package.json` so that the `start` script passes an `-o` parameter to the `ng serve` command. This way when you start your app in the console, it will also `open` the browser.
+
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve -0",
+
+## Generate some stufff.....
+
+
+In our new app we can generate some stuff....
+
+Generate a new component, called xyz...
+
+	ng generate component xyz
+
+In fact we can generate any of these:
+
+		appShell
+		application
+		class
+		component
+		directive
+		enum
+		guard
+		interceptor
+		interface
+		library
+		module
+		pipe
+		service
+		serviceWorker
+		webWorker
+
+(This is just what we get from the `Collection` `@schematics/angular` ok.
+
+As a scientist you can commit everything to your repo. Generate one of those. Then inspect what was added.
+
+
 
 
 In:
@@ -153,7 +209,7 @@ if you look inside the file `package.json` you will find a node like this:
 
 Those scripts are a map of friendly little names on the left to 'complex' commands on the right.
 
-So when we run `npm start` it is a shortcut to running:  `npm run ng serve -o`
+So, for this project, when we run `npm start` it is a shortcut to running:  `npm run ng serve -o`
 
 
 
@@ -168,6 +224,17 @@ https://app.pluralsight.com/library/courses/angular-2-getting-started-update/exe
 
 (I've put them in my `~learning/angular/` folder)
 
+## Concepts
+
+ - angular module
+  - component 
+   - template
+ - directives
+ - data-binding
+  - pipes
+ - services
+ - routing
+   - guards
 
 
 

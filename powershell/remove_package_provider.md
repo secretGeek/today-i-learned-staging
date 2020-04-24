@@ -3,31 +3,30 @@
 Somehow I ended up with two conflicting nuget package providers.
 I had to remove them both before it would use the correct one.
 
-        nuget                    2.8.5.202
-        NuGet                    2.8.5.127        Destination, SkipDependencies, Con
-        
-        
+	nuget                    2.8.5.202
+	NuGet                    2.8.5.127        Destination, SkipDependencies, Con
+
 To remove a package provider:
 
 Find the path of the provider, for example:
 
-(Get-packageProvider -name nuget).ProviderPath
+	(Get-packageProvider -name nuget).ProviderPath
 
 Gave this file name:
 
-    $env:localappdata\PackageManagement\ProviderAssembles\nuget-anycpu.exe
-    
-So -- close Powershell (so that the file is not locked).
+	$env:localappdata\PackageManagement\ProviderAssembles\nuget-anycpu.exe
+
+Now, close Powershell (so that the file is not locked).
 
 Then **delete** that exe (or move it somewhere else if you're more comfortable with that)
 
 Once I'd removed the first one, this command
 
-    (Get-packageProvider -name nuget).ProviderPath
+	(Get-packageProvider -name nuget).ProviderPath
 
 now returned:
 
-    C:\Program Files (x86)\PackageManagement\ProviderAssemblies\nuget\2.8.5.202\Microsoft.PackageManagement.NuGetProvider.dll
+	C:\Program Files (x86)\PackageManagement\ProviderAssemblies\nuget\2.8.5.202\Microsoft.PackageManagement.NuGetProvider.dll
 
 There are several places where PackageProviders can live, see https://github.com/OneGet/oneget/wiki/Provider-assembly-search-locations
 
@@ -35,13 +34,13 @@ Either nuget package provider switched from one location to another some time be
 
 These are the two different commands I used for installing it
 
-    Install-PackageProvider -Name NuGet -Force    
+    Install-PackageProvider -Name NuGet -Force
     (installed 2.8.5.127)
 
-    Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force    
+    Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
     (installed 2.8.5.201)
 
-I may have used a -ForceBootstrap parameter in there too, just for fun.
+I may have used a `-ForceBootstrap` parameter in there too, just for fun.
 
 
 

@@ -12,7 +12,7 @@ Available online:
  * [TIL.secretGeek.net](https://TIL.secretGeek.net/)
  * [HTML Source repo](https://github.com/secretGeek/today-i-learned)
  * [Markdown Source repo](https://github.com/secretGeek/today-i-learned-staging)
- * Generated with [clowncar](https://github.com/secretGeek/clowncar), markdown conversion by [markdig](https://github.com/lunet-io/markdig)
+ * Generated with [clowncar🤡🚗](https://github.com/secretGeek/clowncar), markdown conversion by [markdig](https://github.com/lunet-io/markdig)
 
 ## Guidelines
 
@@ -60,7 +60,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
  | [csharp](csharp/01_summary.md) | 5 articles |
- | [css](css/01_summary.md) | 5 articles |
+ | [css](css/01_summary.md) | 7 articles |
  | [csv](csv/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 2 articles |
  | [education](education/01_summary.md) | 1 article |
@@ -75,7 +75,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [graphics](graphics/01_summary.md) | 9 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [habits](habits/01_summary.md) | 1 article |
- | [html](html/01_summary.md) | 2 articles |
+ | [html](html/01_summary.md) | 4 articles |
  | [http](http/01_summary.md) | 1 article |
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
@@ -104,7 +104,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 75 articles |
+ | [powershell](powershell/01_summary.md) | 76 articles |
  | [productivity](productivity/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -138,5 +138,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-546 articles
-130092 words
+551 articles
+131833 words

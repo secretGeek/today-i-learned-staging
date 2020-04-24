@@ -1,4 +1,4 @@
-#Powershell prompt
+# Powershell prompt
 
 This is a powershell prompt i've been using for a while.
 you put this in your [$PROFILE](create_profile.md)
