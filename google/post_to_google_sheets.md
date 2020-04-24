@@ -12,7 +12,7 @@ See [capture email](.\capture-email.html) for a live example.
 		<head><title>Minimal Signup form</title></head>
 		<body>
 			<h1>Minimal Signup form</h1>
-			<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxxknLpNqiFLPIJN4uJk9a1olIZVHigYHEn4ifur0_vK6WnB3NW/exec">  
+			<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxxknLpNqiFLPIJN4uJk9a1olIZVHigYHEn4ifur0_vK6WnB3NW/exec">
 				<div>name <input id="name" name="name" /></div>
 				<div>email <input id="email" name="email" type="email" required /></div>
 				<button>Sign up!</button>
@@ -20,7 +20,7 @@ See [capture email](.\capture-email.html) for a live example.
 			<script type="text/javascript" src="form-handler.js"></script>
 		</body>
 	</html>
-	
+
 And `form-handler.js` is:
 
 
@@ -46,12 +46,12 @@ And `form-handler.js` is:
 			var str = ""; // declare empty string outside of loop to allow
 										// it to be appended to for each item in the loop
 			if(elements[k].type === "checkbox") { // special case for Edge's html collection
-				str = str + elements[k].checked + ", "; // take the string and append 
-																								// the current checked value to 
-																								// the end of it, along with 
+				str = str + elements[k].checked + ", "; // take the string and append
+																								// the current checked value to
+																								// the end of it, along with
 																								// a comma and a space
-				data[k] = str.slice(0, -2); // remove the last comma and space 
-																		// from the  string to make the output 
+				data[k] = str.slice(0, -2); // remove the last comma and space
+																		// from the  string to make the output
 																		// prettier in the spreadsheet
 			} else if(elements[k].length) {
 				for(var i = 0; i < elements[k].length; i++) {
@@ -74,7 +74,7 @@ And `form-handler.js` is:
 		var xhr = new XMLHttpRequest();
 		xhr.open('POST', url);
 		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-		
+
 		xhr.onreadystatechange = function() {
 			console.log(xhr.status, xhr.statusText);
 			log(xhr.status);
@@ -85,7 +85,7 @@ And `form-handler.js` is:
 				//document.getElementById('thankyou_message').style.display = 'block';
 				return;
 		};
-		
+
 		// url encode form data for sending as post data
 		var encoded = Object.keys(data).map(function(k) {
 			return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
