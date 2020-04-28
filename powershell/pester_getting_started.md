@@ -6,6 +6,33 @@ Pester is *the* framework for testing your powershell scripts, functions and mod
 
 	Find-Module pester -Repository psgallery | Install-Module
 
+*Must run as an admin.* May get this warning:
+
+> You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository  cmdlet. Are you sure you want to install the modules from 'https://www.powershellgallery.com/api/v2'?
+
+...which is resolved with.
+
+	Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
+
+That succeeded then retried installing pester.
+
+
+I then received this error message:
+
+	> Find-Module pester -Repository psgallery | Install-Module
+	PackageManagement\Install-Package : A Microsoft-signed module named 'Pester' with version '3.4.0' that was previously installed conflicts with the new module
+	'Pester' from publisher 'CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US' with version '4.10.1'. Installing the new module may
+	result in system instability. If you still want to install or update, use -SkipPublisherCheck parameter.
+	At C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1.0.0.1\PSModule.psm1:1912 char:34
+	+ ...          $null = PackageManagement\Install-Package @PSBoundParameters
+	+                      ~~~~~ ~~~~~~~~~ ~~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~ ~~~~~
+			+ CategoryInfo          : InvalidOperation: (Microsoft.Power....InstallPackage:InstallPackage) [Install-Package], Exception
+			+ FullyQualifiedErrorId : PublishersMismatch,Validate-ModuleAuthenticodeSignature,Microsoft.PowerShell.PackageManagement.Cmdlets.InstallPackage
+
+So I tried:
+
+Find-Module pester -Repository psgallery | Install-Module -SkipPublisherCheck
+
 
 ## Get Help
 
@@ -27,19 +54,18 @@ Will create two pre-populated files:
 ## Example of a test file:
 
 	Describe "Fire-LaserWeapon" {
-			It "tries the impossible" {
-					$true | Should Be $false
-			}
-			It "tries something ease" {
-					$true | Should Be $false
-			}
+		It "tries the impossible" {
+			$true | Should Be $false
+		}
+		It "tries something easy" {
+			$true | Should Be $true
+		}
 	}
 
 
 ## Running our tests
 
 We can run those tests with:
-
 
 	Invoke-Pester -Script ./Fire-LaserWeapon.Tests.ps1
 

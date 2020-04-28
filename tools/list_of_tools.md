@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (142 files)
+ * .exe (143 files)
  * .dll (27 files)
  * .txt (24 files)
  * .bat (13 files)
@@ -38,6 +38,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Executables
 
+ * 7za.exe
  * accesschk.exe
  * AccessEnum.exe
  * acldiag.exe
