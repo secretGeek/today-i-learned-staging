@@ -25,6 +25,8 @@ download it here:
 
 <https://github.com/bruderstein/nppPluginManager/releases>
 
+(Check if you have 32 bit or 64 bit notepad++ before choosing the correct download)
+
 Unzip it and copy the extracted files to your notepad++ plugins and updater folder. (which, as described about is:
 
 	$env:APPDATA\Notepad++\plugins\Config

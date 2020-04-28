@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (141 files)
+ * .exe (142 files)
  * .dll (27 files)
  * .txt (24 files)
  * .bat (13 files)
@@ -67,6 +67,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * coreinfo.exe
  * CryPing.exe
  * curl.exe
+ * daybar.exe
  * depends.exe
  * dfsutil.exe
  * dhcploc.exe

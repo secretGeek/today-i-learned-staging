@@ -33,8 +33,30 @@ Or to try every possible foreground/background combo:
     }
 
 
-<!--  [enum]::GetValues([System.ConsoleColor]) | % { " * {0}" -f $_ }  -->
+<!--  [enum]::GetValues([System.ConsoleColor]) | % { Write-Host " * $($_)" -f ($_) }  -->
 
+
+	$host.ui.rawui.ForegroundColor = <ConsoleColor>
+	$host.ui.rawui.BackgroundColor = <ConsoleColor>
+	$Host.PrivateData.ErrorForegroundColor = <ConsoleColor>
+	$Host.PrivateData.ErrorBackgroundColor = <ConsoleColor>
+	$Host.PrivateData.WarningForegroundColor = <ConsoleColor>
+	$Host.PrivateData.WarningBackgroundColor = <ConsoleColor>
+	$Host.PrivateData.DebugForegroundColor = <ConsoleColor>
+	$Host.PrivateData.DebugBackgroundColor = <ConsoleColor>
+	$Host.PrivateData.VerboseForegroundColor = <ConsoleColor>
+	$Host.PrivateData.VerboseBackgroundColor = <ConsoleColor>
+	$Host.PrivateData.ProgressForegroundColor = <ConsoleColor>
+	$Host.PrivateData.ProgressBackgroundColor = <ConsoleColor>
+
+
+	$host.ui.rawui
+	$host.ui.rawui | select *color
+
+	Get-PSReadlineOption
+	Get-PSReadlineOption | Select *color
+
+	$Host.PrivateData
 
 ## Source
 

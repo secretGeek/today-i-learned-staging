@@ -10,7 +10,7 @@ If you want *ALL* static files to be served from MVC (rather than IIS) you add t
 
     <modules runAllManagedModulesForAllRequests="true">
 
-...under &lt;system.WebServer>
+...under `<system.WebServer>`
 
 aka &mdash; [THE  DREADED RAMMFAR!!](http://www.hanselman.com/blog/BackToBasicsDynamicImageGenerationASPNETControllersRoutingIHttpHandlersAndRunAllManagedModulesForAllRequests.aspx)
 

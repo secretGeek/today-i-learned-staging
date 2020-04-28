@@ -7,7 +7,7 @@
 >
 > &mdash;Leon Bambrick.
 
-Available online: 
+Available online:
 
  * [TIL.secretGeek.net](https://TIL.secretGeek.net/)
  * [HTML Source repo](https://github.com/secretGeek/today-i-learned)
@@ -71,7 +71,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [github](github/01_summary.md) | 1 article |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [go](go/01_summary.md) | 1 article |
- | [google](google/01_summary.md) | 11 articles |
+ | [google](google/01_summary.md) | 12 articles |
  | [graphics](graphics/01_summary.md) | 9 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [habits](habits/01_summary.md) | 1 article |
@@ -97,14 +97,14 @@ Though this site is published as a free digital-only book, I've also published a
  | [music](music/01_summary.md) | 13 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
- | [notepad++](notepad++/01_summary.md) | 10 articles |
+ | [notepad++](notepad++/01_summary.md) | 12 articles |
  | [npm](npm/01_summary.md) | 8 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 76 articles |
+ | [powershell](powershell/01_summary.md) | 79 articles |
  | [productivity](productivity/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -118,7 +118,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 1 article |
- | [sql server](sql_server/01_summary.md) | 54 articles |
+ | [sql server](sql_server/01_summary.md) | 55 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -132,11 +132,11 @@ Though this site is published as a free digital-only book, I've also published a
  | [vs code](vs_code/01_summary.md) | 6 articles |
  | [web](web/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 15 articles |
- | [windows.forms](windows.forms/01_summary.md) | 6 articles |
+ | [windows.forms](windows.forms/01_summary.md) | 7 articles |
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [writing](writing/01_summary.md) | 2 articles |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-551 articles
-131833 words
+559 articles
+132895 words

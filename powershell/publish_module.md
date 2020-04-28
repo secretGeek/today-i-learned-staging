@@ -1,6 +1,6 @@
 # How to publish a module
 
-For now -- this is based entirely on [Building a PowerShell Module](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) by Warren Frame.
+For now &mdash; this is based entirely on [Building a PowerShell Module](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) by Warren Frame.
 
 1. Create a module (.psm1)
 2. Create a module manifest (using New-ModuleManifest)
@@ -49,7 +49,10 @@ A module manifest is a script with a ".psd1" extension. It describes the module,
                        -PowerShellVersion 3.0 `
                        -Author $Author `
                        -FormatsToProcess "$ModuleName.Format.ps1xml"
-                       
+
+## See also
+
+* [What is a module?](module_what_is_it.md)
 
 
 
@@ -95,3 +98,7 @@ Once you have your API key, please remember to keep it secret for if it falls in
 ## Source
 
  * [Building a PowerShell Module](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) by Warren Frame.
+ 
+ ## See also
+ 
+ * [What is a module?](module_what_is_it.md)
