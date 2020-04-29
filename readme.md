@@ -47,7 +47,7 @@ Though this site is published as a free digital-only book, I've also published a
 |-----|----------|
 | [.net](.net/01_summary.md) | 6 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
- | [7z](7z/01_summary.md) | 1 article |
+ | [7z](7z/01_summary.md) | 2 articles |
  | [angular](angular/01_summary.md) | 1 article |
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 13 articles |
@@ -139,5 +139,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-561 articles
-135216 words
+562 articles
+135769 words
