@@ -7,8 +7,6 @@
 * Empathic curiosity - trying to understand a person as in citizen Kane plot
 * Morbid curiosity - can't look away
 
-
-
 ## Details about Leonardo
 
 He started many more projects than he finished

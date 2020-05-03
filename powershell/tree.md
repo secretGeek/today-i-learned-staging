@@ -1,6 +1,6 @@
-#Tree
+# Tree
 
-tree command is great 
+Tree command is great 
 
     > tree
     C:.
@@ -11,3 +11,7 @@ tree command is great
 and to see files:
 
     tree /f
+
+But I'd love to see a Better Tree.
+
+Surely there is a powershell module someone has built that improves on this greatly - but still provides the tree feel.
