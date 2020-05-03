@@ -13,6 +13,9 @@ A blog post from Deborah to support the course is here:
 
 * <https://blogs.msmvps.com/deborahk/angular-2-getting-started-problem-solver/>
 
+**If you sign up to PluralSight, [please use this referral link and we'll both get a discount](http://referral.pluralsight.com/mQgodIs)**
+
+
 
 	git clone https://github.com/DeborahK/Angular-GettingStarted.git
 	cd .\Angular-GettingStarted\

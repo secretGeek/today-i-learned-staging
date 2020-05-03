@@ -24,9 +24,10 @@ To a tab separated string (columns are "Size (Bytes)", "Days Old", "Full Name")
 Or just find the 10 oldest files 
 
 
-	dir -rec | sort lastwritetime | select -f 10 
+	dir -rec | sort lastwritetime | select -first 10 
 
 Or find the 10 oldest files and show them in a neat table
 
 
-	dir -rec | sort lastwritetime | select -f 10 |format-table -property @{Expression={(New-TimeSpan -start $_.LastWriteTime -End (Get-Date)).Days};Label="Days"},Length, FullName
+	dir -rec | sort lastwritetime | select -first 10 |format-table -property @{Expression={(New-TimeSpan -start $_.LastWriteTime -End (Get-Date)).Days};Label="Days"},Length, FullName
+	
