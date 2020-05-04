@@ -1,6 +1,5 @@
 ![Today I Learned](today_i_learned.png)
 
-
 # Today I Learned
 
 > This is a place where I store short descriptions of things I learn each day.
@@ -9,10 +8,10 @@
 
 Available online:
 
- * [TIL.secretGeek.net](https://TIL.secretGeek.net/)
- * [HTML Source repo](https://github.com/secretGeek/today-i-learned)
- * [Markdown Source repo](https://github.com/secretGeek/today-i-learned-staging)
- * Generated with [clowncar🤡🚗](https://github.com/secretGeek/clowncar), markdown conversion by [markdig](https://github.com/lunet-io/markdig)
+- [TIL.secretGeek.net](https://TIL.secretGeek.net/)
+- [HTML Source repo](https://github.com/secretGeek/today-i-learned)
+- [Markdown Source repo](https://github.com/secretGeek/today-i-learned-staging)
+- Generated with [clowncar🤡🚗](https://github.com/secretGeek/clowncar), markdown conversion by [markdig](https://github.com/lunet-io/markdig)
 
 ## Guidelines
 
@@ -22,22 +21,22 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## Inspired by
 
- * [Josh Branchaud's til](https://github.com/jbranchaud/til) &mdash; and [this Hacker news thread](https://news.ycombinator.com/item?id=11068902)
- * [thoughbot inc.'s til](https://github.com/thoughtbot/til)
- * [Jake Worth's til](https://github.com/jwworth/til)
+- [Josh Branchaud's til](https://github.com/jbranchaud/til) &mdash; and [this Hacker news thread](https://news.ycombinator.com/item?id=11068902)
+- [thoughbot inc.'s til](https://github.com/thoughtbot/til)
+- [Jake Worth's til](https://github.com/jwworth/til)
 
 ## See Also
 
- * [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
- * [secretGeek.net](http://www.secretGeek.net) &mdash; my blog
+- [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
+- [secretGeek.net](http://www.secretGeek.net) &mdash; my blog
 
-## Get this book...
+## Get this book
 
-<p><a href='https://YourFirstProduct.com'><img src='yfp_book.png' title='Your First Product' alt='Your First Product' /></a></p>
+[![Choose Your First Product](yfp_book.png)](https://YourFirstProduct.com)
 
 Though this site is published as a free digital-only book, I've also published a *real* book.
 
-**[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [https://YourFirstProduct.com](https://YourFirstProduct.com). Thank you.
+**[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
 
 
 

@@ -1,8 +1,6 @@
-#slow and long running queries
+# slow and long running queries
 
-Query to show which queries are the worst performers.
-
-
+Famous query to show which queries are the worst performers.
 
 
     SELECT TOP 50 creation_time 
@@ -25,9 +23,9 @@ Query to show which queries are the worst performers.
     ORDER BY total_elapsed_time / execution_count DESC;
 
     
-You may want to change the Order by...
+You may want to change the `Order by`...
 
-You may lacks permissions to run this. Specifically:
+You may lack permissions to run this. Specifically:
 
 	VIEW SERVER STATE permission was denied on object 'server', database 'master'.
 
