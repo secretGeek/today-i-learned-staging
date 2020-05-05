@@ -39,7 +39,6 @@ Though this site is published as a free digital-only book, I've also published a
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
 
 
-
 ## Topics
 
 |Topic|# Articles|
@@ -131,12 +130,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
  | [vs code](vs_code/01_summary.md) | 6 articles |
  | [web](web/01_summary.md) | 1 article |
- | [windows](windows/01_summary.md) | 15 articles |
+ | [windows](windows/01_summary.md) | 16 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [writing](writing/01_summary.md) | 2 articles |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-565 articles
-135950 words
+566 articles
+136196 words
