@@ -30,18 +30,20 @@ You may need to restart notepad, and close and reopen relevant files, before not
 
 See [github nea markdownviewer++](https://github.com/nea/MarkdownViewerPlusPlus)
 
-Download the 32 or 64 bit (check what you have in `? > about`
+Download the 32 or 64 bit (check what you have in the men of notepad++, `? > about`) from [releases](https://github.com/nea/MarkdownViewerPlusPlus/releases) (expand "&lt; Assets")
 
 Unzip the dll and copy it to your `plugins` folder (open it with `Plugins > Open plugins folder...`)
 
 May need to restart notepad++.
+
+(I'm happy to note that it uses [markdig](https://github.com/lunet-io/markdig), which I also use at [TIL](https://til.secretGeek.net) and [wiki](http://wiki.secretgeek.net). Also, it is written in C#, so could be a useful reference if I ever wish to write a notepad++ plugin. And I could always fork/contribute.)
 
 You can set custom CSS. It seems to be internet explorer browser, so CSS support is quite old.
 
 Consider using this one: [darkdown css](https://github.com/yrgoldteeth/darkdowncss/blob/master/darkdown.css)
 ...though I found I had to make minor changes.
 
-Here's my current one:
+Here's my current style-sheet:
 
 	/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
 	td, h1, h2, h3, h4, h5, p, ul, ol, li {

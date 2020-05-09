@@ -167,7 +167,7 @@ In any case, we had to explicitly add such a handler, demonstrating that two-way
 
 ## See Also
 
- * `npm` &mdash; to install: see [install npm](..\npm\install_npm.md)
+ * `npm` &mdash; to install: see [install npm](../npm/install_npm.md)
  * `browserify` &mdash; to install: `npm install -g browserify`
  * [javascript 1.7](javascript_1.7.md)
 

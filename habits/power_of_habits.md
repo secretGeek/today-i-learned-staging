@@ -52,7 +52,7 @@ Changing one habit can lead to others changed.
 
 ### Chapter 7: How Target knows what you want before you do - When Companies Predict (and Manipulate) Habits
 
-##PART 3: THE HABITS OF SOCIETIES
+## PART 3: THE HABITS OF SOCIETIES
 
 ### Chapter 8: Saddleback Church and the Montgomery Bus Boycott - How Movements Happen
 

@@ -2,30 +2,32 @@
 
 For now &mdash; this is based entirely on [Building a PowerShell Module](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) by Warren Frame.
 
-1. Create a module (.psm1)
-2. Create a module manifest (using New-ModuleManifest)
-3. Register at PowershellGallery, and get an API key
-4. Publish using Publish-Module
+1. Create a module (`.psm1`)
+2. Create a module manifest (`.psd1`)(using `New-ModuleManifest`)
+3. Register at PowershellGallery, and get an `API key`
+4. Publish using `Publish-Module`
 
 
 ## Create a module (.psm1)
 
-This is just a script file but with a .psm1 extension, and an 'export-moduleMember' declaration(s) at the end, for example:
+This is just a script file but with a `.psm1` extension, and an `export-moduleMember` declaration(s) at the end, for example:
 
-    export-modulemember *-*
-    
-...means export every function that has a hyphen in the name, i.e. standard cmdLet syntax.
+    Export-Module<ember *-*
 
-You can also individually specify the functions to be exported.
-    
-    Export-modulemember -function Invoke-CupHolder
+...means "export every function that has a hyphen in the name", i.e. standard cmdLet syntax.
 
-    
+You can also individually specify the functions to be exported, e.g.:
+
+    Export-ModuleMember -function Invoke-CupHolder
+
+
+(The alternative: if you don't use `Export-ModuleMember` then *everything* is automatically exported from your `.psm1` file)
+
+
 ## Create a module manifest.
 
-A module manifest is a script with a ".psd1" extension. It describes the module, and is needed for publication.
+A module manifest is a script with a `.psd1` extension. It describes the module, and is needed for publication.
 
-    
     $Path = 'C:\sc\PSStackExchange'
     $ModuleName = 'PSStackExchange'
     $Author = 'RamblingCookieMonster'
@@ -55,7 +57,6 @@ A module manifest is a script with a ".psd1" extension. It describes the module,
 * [What is a module?](module_what_is_it.md)
 
 
-
 ## Register at PowershellGallery, and get an API key
 
 To publish it to the [Powershell Gallery](https://www.powershellgallery.com/) you'll need to register yourself as a user there, and then you'll need an API key. Once registered, you'll find your API key here: https://www.powershellgallery.com/account
@@ -81,11 +82,11 @@ Once you have your API key, please remember to keep it secret for if it falls in
     # As admin:
     Install-Module -Name PSScriptAnalyzer -force
     Invoke-ScriptAnalyzer -Path $Path
-    
+
     # Or if not as admin...
     Install-Module -Name PSScriptAnalyzer -Scope CurrentUser
     Invoke-ScriptAnalyzer -Path $Path
-    
+
 
     # ScriptAnalyzer passed! Let's publish
     Publish-Module @PublishParams
@@ -97,8 +98,9 @@ Once you have your API key, please remember to keep it secret for if it falls in
 
 ## Source
 
- * [Building a PowerShell Module](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) by Warren Frame.
- 
+- [Building a PowerShell Module](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) by Warren Frame.
+- [Powershell: Building a Module, one microstep at a time](https://powershellexplained.com/2017-05-27-Powershell-module-building-basics/)
+
  ## See also
- 
- * [What is a module?](module_what_is_it.md)
+
+- [What is a module?](module_what_is_it.md)

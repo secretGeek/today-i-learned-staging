@@ -1,32 +1,44 @@
 # Robocopy by Example
 
+## Normal use: Mirroring
 
 
 You usually want `/MIR` though it does `PURGE` things away from the target if they're not present in the source:
 
 	/MIR :: MIRror a directory tree (equivalent to /E plus /PURGE).
 
-Example:
+
+### Example for Mirror
 
 	robocopy.exe "C:\source\" "C:\target" *.mp3 /MIR # Mirror from source to target, includes purging within target if file is missing in source
+
+
+## Mirror but don't purge
 
 So the next most common need is `/E` by itself, which is effectively "mirror but don't purge"
 
 	/E :: copy subdirectories, including Empty ones.
 
-see:
+### Example for mirror but don't purge
 
 	robocopy.exe "C:\source\" "C:\target" *.mp3 /E # don't purge just copy, including subfolders (even empty ones)
+
+
+## Mirror with 'List Only' (what-if)
 
 
 The closest to a `what-if` or `dry-run` is to use `/L`:
 
 	/L :: List only - don't copy, timestamp or delete any files.
 
-see:
+### Example for Mirror with List Only
 
 	robocopy.exe "C:\source\" "C:\target" *.mp3 /MIR /L # Mirror but LISTONLY
 
+
+***
+
+## Common options
 
 Often want to add on `/R:3` (only retry 3 times, not 1 million) and `/W:3` (only wait 3 seconds between retries not 30 seconds)
 
@@ -35,10 +47,12 @@ Often want to add on `/R:3` (only retry 3 times, not 1 million) and `/W:3` (only
 
 So add these:
 
+## Example (lower retry and wait between retry)
+
 	/R:3 /W:3
 
 
-## Look at all the other options...
+## Other options...
 
 But all of the options are worth reading about!
 
@@ -49,6 +63,9 @@ How awesome are these.... it's dropbox!
 
 
 ## Complete list
+
+
+Got a lazy afternoon -- the whole list is worth reading!
 
 	---------------------------------------------------
 		 ROBOCOPY     ::     Robust File Copy for Windows

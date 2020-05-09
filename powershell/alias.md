@@ -1,7 +1,28 @@
-# To Set An Alias:
+# Alias: a guide to powershell and aliases.
+
+## To Set An Alias:
 
     set-alias -name gito -value git_off
+		
 
+## To check an alias:
+
+		> get-alias *cls*
+
+...produces a list of aliases that match your pattern.
+
+
+	CommandType     Name
+	Alias           cls -> Clear-Host
+
+## To find aliases for a command
+
+Wonder what aliases exist for a command (or commands)? add the `-def` parameter
+
+	get-alias -def "push-location"
+
+
+## To get the source of an alias
 
 # Aliases can't have parameters
 

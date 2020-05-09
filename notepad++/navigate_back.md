@@ -26,4 +26,4 @@ And then voil&aacute;!
 
 ## See also
 
-* [VS Code: Navigate back](..\vs_code\navigate_back.md)
+- [VS Code: Navigate back](../vs_code/navigate_back.md)
