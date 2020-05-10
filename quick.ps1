@@ -7,8 +7,8 @@ write-host "...DONE" -foregroundcolor   "green"
 write-host -NoNewline "Putting chapter summary into each folder" -foregroundcolor   "white"
 
 Get-ChildItem . | 
-    ? { $_.PSIsContainer -and ($_.Name -ne ".hg") -and ($_.Name -ne "_book") -and ($_.Name -ne ".git") -and ($_.Name -ne "node_modules") } | 
-    % { copy .\chapter_summary.txt (".\" + $_.Name + "\01_summary.md.pre") }
+    Where-Object { $_.PSIsContainer -and ($_.Name -ne ".hg") -and ($_.Name -ne "_book") -and ($_.Name -ne ".git") -and ($_.Name -ne "node_modules") } | 
+    ForEach-Object { Copy-Item .\chapter_summary.txt (".\" + $_.Name + "\01_summary.md.pre") }
 
 write-host "...DONE" -foregroundcolor   "green"
 
@@ -18,10 +18,10 @@ Add-Content .\readme.md "`r`n`r`n## Topics`r`n"
 $totalCount = 0;
 
 $topLevelTopics = (Get-ChildItem . |
-     ? { $_.PSIsContainer -and ($_.Name -ne ".hg") -and ($_.Name -ne "_book") -and ($_.Name -ne ".git") -and ($_.Name -ne "node_modules") } |
-        % { 
-            $count = (dir ($_.Name) *.md -recurse |
-                        ? { !$_.PSIsContainer -and ($_.Name -ne "01_summary.md") -and ($_.Name -ne "summary.md") } | 
+     Where-Object { $_.PSIsContainer -and ($_.Name -ne ".hg") -and ($_.Name -ne "_book") -and ($_.Name -ne ".git") -and ($_.Name -ne "node_modules") } |
+        ForEach-Object { 
+            $count = (Get-ChildItem ($_.Name) *.md -recurse |
+                        Where-Object { !$_.PSIsContainer -and ($_.Name -ne "01_summary.md") -and ($_.Name -ne "summary.md") } | 
                             measure-object).Count
             $totalCount += $count;                
             #" * [{0}]({1}/01_summary.md) &mdash; {2} article{3}" -f $_.Name.replace("_"," "), $_.Name, $count, (plural $count "s") 

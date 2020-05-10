@@ -1,11 +1,11 @@
 {powershell:
 
 $currentFolder = ($file -split '\\')[-2]
-$currentPath = ((pwd).path -split '\\')[-1]
+$currentPath = ((Get-Location).path -split '\\')[-1]
 
 if ($currentPath -ne $currentfolder) 
 { 
-    pushd $currentFolder; 
+    Push-Location $currentFolder; 
     $doPop = $true 
 }
 
@@ -16,9 +16,9 @@ if ($currentPath -ne $currentfolder)
 #" * [$currentFolder](01_summary.md)"
 
 Get-ChildItem . *.md |    
-    ? { $_.Name -ne "01_summary.md" } |
-    % { "* [" + ($_.Name.replace(".md","").replace("_"," ")) + "]($_)"}
+    Where-Object { $_.Name -ne "01_summary.md" } |
+    ForEach-Object { "* [" + ($_.Name.replace(".md","").replace("_"," ")) + "]($_)"}
 
-if ($doPop) { popd; $doPop = $false; }
+if ($doPop) { pop-location; $doPop = $false; }
 
 :}

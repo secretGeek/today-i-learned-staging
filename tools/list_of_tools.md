@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (143 files)
+ * .exe (141 files)
  * .dll (27 files)
  * .txt (24 files)
  * .bat (13 files)
@@ -97,11 +97,9 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * httpcfg.exe
  * ipseccmd.exe
  * jq.exe
- * k.exe
  * k2pdfopt.exe
  * kp.exe
  * ksetup.exe
- * ktpass.exe
  * kv.exe
  * ldp.exe
  * licecap.exe

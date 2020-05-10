@@ -48,7 +48,3 @@ That's the plan!
 	-quickPrint : Print the file given as argument then quit Notepad++
 	-openFoldersAsWorkspace: open filePath of folder(s) as workspace
 	filePath : file or folder name to open (absolute or relative path name)
-
-	---------------------------
-	OK   
-	---------------------------
