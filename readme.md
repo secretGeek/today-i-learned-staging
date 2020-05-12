@@ -98,7 +98,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
  | [notepad++](notepad++/01_summary.md) | 13 articles |
- | [npm](npm/01_summary.md) | 8 articles |
+ | [npm](npm/01_summary.md) | 9 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 6 articles |
@@ -130,7 +130,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [usql](usql/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
- | [vs code](vs_code/01_summary.md) | 6 articles |
+ | [vs code](vs_code/01_summary.md) | 8 articles |
  | [web](web/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 16 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
@@ -139,5 +139,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-571 articles
-136993 words
+574 articles
+137628 words
