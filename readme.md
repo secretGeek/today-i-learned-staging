@@ -118,7 +118,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
- | [sqlite](sqlite/01_summary.md) | 1 article |
+ | [sqlite](sqlite/01_summary.md) | 2 articles |
  | [sql server](sql_server/01_summary.md) | 57 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
@@ -139,5 +139,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-575 articles
-137806 words
+576 articles
+137862 words

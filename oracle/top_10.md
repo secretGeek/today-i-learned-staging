@@ -15,3 +15,4 @@ And, although it's offtopic, let me add that in mysql you use LIMIT, e.g.
 ## See also
 
 - [Firebird TOP 10](../firebird/select_top_10.md)
+- [SQLite Select Top 10](../sqlite/select_top_10.md)
