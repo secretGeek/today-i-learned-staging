@@ -111,6 +111,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [robocopy](robocopy/01_summary.md) | 1 article |
+ | [r language](r_language/01_summary.md) | 1 article |
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 2 articles |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
  | [sharepoint](sharepoint/01_summary.md) | 1 article |
@@ -119,7 +120,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 2 articles |
- | [sql server](sql_server/01_summary.md) | 57 articles |
+ | [sql server](sql_server/01_summary.md) | 58 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -139,5 +140,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-576 articles
-137862 words
+578 articles
+138464 words
