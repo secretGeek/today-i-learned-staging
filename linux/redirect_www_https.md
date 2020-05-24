@@ -17,7 +17,7 @@ redirect to this:
 
 First, though: Why do this at all?
 
-1. For security we want it all to be https`
+1. For security we want it all to be `https`
 2. We want a single canonical url, for SEO/traffic/google-juice/google search console purposes.
 
 

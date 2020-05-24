@@ -42,7 +42,7 @@ Currently something like.... (this is dynamically loaded from util)
 	        select-string -pattern $pattern |
 	        format-table -property @{Expression={$_.Path.SubString($path.Length+1)};Label="Location"},
 	            @{Expression={$_.LineNumber};Label="Line"},
-	            @{Expression={$_.Line};Label="Match"} -auto
+	            @{Expression={$_.Line.Replace("  "," ")};Label="Match"} -auto
 	
 	    return
 	
