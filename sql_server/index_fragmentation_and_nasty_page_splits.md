@@ -71,3 +71,26 @@ Note that although it is "online" it does still take locks, just less aggressive
 
 One of the conclusions at the end of the course by Paul Randall was that the Index maintenance scripts from Ola Hallengren https://ola.hallengren.com are really the gold standard and do all of the work that would need to do if you built your own solution.
 
+Alter index reorganize 
+
+
+
+Checking fragmentation of a column store index is quite different:
+
+
+From <https://docs.microsoft.com/en-us/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#to-check-the-fragmentation-of-a-columnstore-index-using->
+
+
+
+	SELECT i.object_id,
+		object_name(i.object_id) AS TableName,
+		i.index_id,
+		i.name AS IndexName,
+		100*(ISNULL(SUM(CSRowGroups.deleted_rows),0))/NULLIF(SUM(CSRowGroups.total_rows),0) AS 'Fragmentation'
+	FROM sys.indexes AS i  
+	INNER JOIN sys.dm_db_column_store_row_group_physical_stats AS CSRowGroups
+		ON i.object_id = CSRowGroups.object_id
+		AND i.index_id = CSRowGroups.index_id
+	WHERE object_name(i.object_id) = 'FactResellerSalesXL_CCI'
+	GROUP BY i.object_id, i.index_id, i.name
+	ORDER BY object_name(i.object_id), i.name;
