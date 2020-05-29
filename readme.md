@@ -93,6 +93,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [math](math/01_summary.md) | 2 articles |
  | [memorize](memorize/01_summary.md) | 3 articles |
  | [mercurial](mercurial/01_summary.md) | 21 articles |
+ | [microsoft terminal](microsoft_terminal/01_summary.md) | 2 articles |
  | [minecraft](minecraft/01_summary.md) | 3 articles |
  | [music](music/01_summary.md) | 13 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
@@ -140,5 +141,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-578 articles
-138557 words
+580 articles
+138660 words

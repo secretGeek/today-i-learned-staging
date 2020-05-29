@@ -52,14 +52,14 @@ But if you do use real `params` you can also enforce simple validation:
 For example -- string, length from 1 to 10...
 
     Param(
-        [ValidateLength(1,10)][string]$string
+        [ValidateLength(1,10)][string]$mystring
     )
 
 Or how about a number that must be within a range...
 
 
    Param(
-        [ValidateRange(0,10)][int]$integer
+        [ValidateRange(0,10)][int]$myinteger
     )
     
 What about -- a filename that must be an existing file...

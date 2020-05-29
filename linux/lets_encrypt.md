@@ -70,13 +70,13 @@ Or for a subdomain:
 
     sudo certbot --nginx -d blog.example.com
 
-To do a dry run (i.e. to see what would happen without making any changes) you can use the `dry-run` parameter like so:
+To do a dry run (i.e. to see what would happen without making any changes) you can allegedly use the `dry-run` parameter like so:
 
-(for the domain)
+(for the domain) -- but this doesn't work -- ignore this bit...
 
 	sudo certbot --dry-run --nginx -d example.com -d www.example.com
 
-(for the subdomain)
+(for the subdomain) -- but this doesn't work -- ignore this bit...
 
 	sudo certbot --dry-run --nginx -d blog.example.com
 
