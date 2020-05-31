@@ -1,4 +1,4 @@
-# .nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll could not be found
+# Microsoft.CodeAnalysis.CSharp.Analyzers.dll could not be found
 
 This was frustrating and inexplicable (so far)
 
