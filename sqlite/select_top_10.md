@@ -2,14 +2,14 @@
 
 Limit! Put the limit at the end...
 
-		SELECT * FROM PERSONS
-		LIMIT 10
+	SELECT * FROM PERSONS
+	LIMIT 10
 
 Exactly the same as MySQL....
 
-    SELECT *
-    FROM Persons
-    LIMIT 5;
+	SELECT *
+	FROM Persons
+	LIMIT 5;
 
 Different from Firebird and oracle....
 

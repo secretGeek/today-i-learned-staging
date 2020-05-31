@@ -10,7 +10,7 @@ Here's a general 'vanilla js' solution:
 		const textArea = document.createElement('textarea');
 		textArea.style.position = "absolute";
 		textArea.style.left = "-100%";
-		textArea.textContent = copyText;
+		textArea.textContent = copyText.trim();
 		document.body.appendChild(textArea);
 		textArea.select();
 		document.execCommand("copy");
