@@ -17,9 +17,11 @@
 ## Tools
 
 - [Twitter thread that demonstrates many design/UX tools](https://twitter.com/JoshWComeau/status/1212416797254832130)	
-- [TIL: Color Resources](../design/color_resources.md)
-- Color format conversion tools
-- [Color Scheme Tools](https://yourfirstproduct.com/info/colorsschemes]
+- Color
+	- [TIL: Color Resources](../design/color_resources.md)
+	- [Color format conversion tool](https://www.w3schools.com/colors/colors_converter.asp) (always looking for a better one though)
+	- [Color Scheme Tools](https://yourfirstproduct.com/info/colorsschemes)
+	- Color Picker Tool (wanted: a better color picker tool for use on Windows [trying](http://instant-eyedropper.com/))
 - [Mockup tools](https://yourfirstproduct.com/info/mockups)
 - Typography: need resources on terminology, font choice/tweaks and "thinking in fonts".
 - [Font Pairing](https://yourfirstproduct.com/info/fonts-and-font-pairing)
