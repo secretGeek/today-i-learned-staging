@@ -25,7 +25,7 @@ Aliases from my `~\.gitconfig` file:
 		l6 = log --graph --decorate --pretty=oneline --abbrev-commit #LOL
 		lg = !"git l4" # points at my current favorite out of those
 	
-		cheat = !cat 'C:/users/leonb/Dropbox/secretGeek/util/powershell/scriptlets/git_cheat.txt'
+		cheat = !cat 'C:/users/leonb/Dropbox/secretGeek/gh/util/powershell/scriptlets/git_cheat.txt'
 	
 		# Phil Haack's aliases, see http://haacked.com/archive/2014/07/28/github-flow-aliases/
 		co = checkout

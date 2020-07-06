@@ -212,6 +212,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Fitness function
  * Flow chart - decision tree
  * Flywheel (momentum and efficiency)
+ * FMEA - Failure Mode and Effects Analysis (FMEA)
  * FOMO
  * Force amplification, leverage
  * Forcing function

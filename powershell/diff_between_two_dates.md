@@ -4,7 +4,7 @@
 
     $StartDate = '15/02/2016 10:31:41 AM';
     $EndDate = (Get-Date);
-    NEW-TIMESPAN –Start $StartDate –End $EndDate
+    NEW-TIMESPAN -Start $StartDate -End $EndDate
     
     Days              : 381
     Hours             : 0
@@ -22,8 +22,8 @@
 
 ## Source
 
- * [Get Time Difference between Dates with PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2013/12/28/powertip-get-time-difference-between-dates-with-powershell/)
+ - [Get Time Difference between Dates with PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2013/12/28/powertip-get-time-difference-between-dates-with-powershell/)
  
 ## Keywords
 
-* DateDiff
+- DateDiff

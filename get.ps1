@@ -5,7 +5,7 @@ Copy-Item $from $to -recurse -force -exclude .ok
 #>
 #<#
 $from = ($env:util + "\til\")
-$to = ($env:util + "\..\all_someday_projects\git_playground\today-i-learned-staging")
+$to = ($env:util + "\..\..\all_someday_projects\git_playground\today-i-learned-staging")
 #
 #                /MIR :: MIRror a directory tree (equivalent to /E plus /PURGE).
 #                /R:n :: number of Retries on failed copies: default 1 million.

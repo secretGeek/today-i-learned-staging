@@ -48,3 +48,48 @@ But it got the job done, and allowed me to use the dormant GDI+ neurons I develo
 
 ![checked items render correctly](toolstrip_renderer_checkitem_right.png)
 
+For extra credit... make it work in high DPI scenarios. Oh, and support dark mode, or custom themes.
+
+For high DPI scenarios, the critical piece of logic I use is this: 
+
+	var height = (int)(19 * DisplayScaleFactor.Height);
+
+And then abstract some more things away. Instead of drawing the lines twice, I have a helper function. I'll just give you the codes....
+
+        // Custom rendered to overcome bug in WindowsForms
+        protected override void OnRenderItemCheck(ToolStripItemImageRenderEventArgs e)
+        {
+            var g = e.Graphics;
+            var width = 19;
+            var height = (int)(19 * DisplayScaleFactor.Height);
+            var offset = 6;
+            // Determine fillcolor of rectangle around check mark
+            var fillColor = (e.Item.Selected ? this.ColorTable.CheckSelectedBackground : this.ColorTable.CheckBackground);
+            var rectangle = new Rectangle(2, 0, width, height);
+
+            using (var fillBrush = new SolidBrush(fillColor))
+            {
+                g.FillRectangle(fillBrush, rectangle);
+            }
+
+            using (var highlightBrush = new SolidBrush(this.ColorTable.ButtonCheckedHighlightBorder))
+            using (var highlightPen = new Pen(highlightBrush, 1))
+            {
+                g.DrawRectangle(highlightPen, rectangle);
+            }
+            
+            DrawCheckMark(g, 0 + offset);
+            DrawCheckMark(g, 1 + offset);
+
+            // base.OnRenderItemCheck(e); <-- don't do the underlying render.
+        }
+
+        private void DrawCheckMark(Graphics g, int offset)
+        {
+            g.DrawLines(Pens.Black, new Point[] {
+                    new Point(9, 9 + offset),
+                        new Point(11, 11 + offset),
+                            new Point(15, 7 + offset) });
+        }
+
+(This isn't very cool... I just make the checkmark centred, but no bigger... so with a sufficiently dense DPI it becomes a very small checkmark.)
