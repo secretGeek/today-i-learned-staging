@@ -125,6 +125,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
+ | [svg](svg/01_summary.md) | 1 article |
  | [tools](tools/01_summary.md) | 3 articles |
  | [tutorials](tutorials/01_summary.md) | 1 article |
  | [twitter](twitter/01_summary.md) | 1 article |
@@ -142,5 +143,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-581 articles
-139122 words
+582 articles
+140774 words

@@ -13,3 +13,21 @@ Several of the pages here:
 	
 	
 * <http://Everytimezone.com> of course... so beautiful	
+
+
+
+
+* I like the heading/body font combo here: [Deep C Diving - Fast and Scalable Text Interfaces at the Bottom](https://cpponsea.uk/2020/sessions/deep-c-diving-fast-and-scalable-text-interfaces-at-the-bottom.html)
+ - Heading font is called:
+
+	font-family: 'Exo', sans-serif;
+
+included via:
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat%7CExo" rel="stylesheet">
+
+ - body font is:
+ 
+     font-family: "Avenir Next", 'Exo', sans-serif;
+
+(it's just that 'Exo' font, Avenir is not loaded.)
