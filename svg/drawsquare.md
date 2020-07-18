@@ -108,6 +108,8 @@ Can define a stroke using another element.
 |   __Z__ | Close path |
 
 
+(Some ideas for a NimbleText logo redesign.)
+
 
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:#FFF'>
   <defs>
@@ -197,7 +199,7 @@ Can define a stroke using another element.
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:black'>
   <defs>
     <pattern id="gridNWhiteTGrayBackBlack" width="39" height="39" patternUnits="userSpaceOnUse">
-	<rect width="35" height="35" style="fill:black;stroke:none" />
+	<rect width="36" height="36" style="fill:black;stroke:none" />
 	<path d="M 0 0 L 17.5 0 26.25 10 26.25 0 35 0 35 15 17.5 15 8.75 5 8.75 15 0 15 0 0 C" fill="white" stroke="none" />
 	<path d="M 0 15 L 35 15 35 25 26.25 25 26.25 35 8.75 35 8.75 25 0 25 0 15 C" fill="#88A" stroke="none" />
     </pattern>
@@ -218,5 +220,106 @@ Can define a stroke using another element.
   <rect width="380" height="380" fill="url(#gridNBlackTGrayBackWhite)" />
 </svg>
 
+<div id="svg-container" style="width:20px;height:20px;">
+    <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none" style='background-color: whitesmoke'>
+		<rect width="100%" height="100%" style="fill:white;stroke:none" />
+	<path d="M 0% 0% L 50% 0% 50% 50% 0% 50% 0% 0% C" fill="black" stroke="none" />	
+	</svg>
+</div>
 
-(Idea for a NimbleText logo redesign.)
+
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#F1F1F1'>
+  <g transform="scale(2.8571 2.8571)">
+		<rect width="35" height="35" style="fill:none;stroke:none" />
+		<path d="M 0 0 L 17.5 0 26.25 10 26.25 0 35 0 35 15 17.5 15 8.75 5 8.75 15 0 15 0 0 C" fill="#222" stroke="none" />
+		<path d="M 0 15 L 35 15 35 25 26.25 25 26.25 35 8.75 35 8.75 25 0 25 0 15 C" fill="#88A" stroke="none" />
+	</g>
+</svg>
+
+
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#222'>
+  <g transform="scale(2.8571 2.8571)">
+		<rect width="35" height="35" style="fill:none;stroke:none" />
+		<path d="M 0 0 L 17.5 0 26.25 10 26.25 0 35 0 35 15 17.5 15 8.75 5 8.75 15 0 15 0 0 C" fill="#F1F1F1" stroke="none" />
+		<path d="M 0 15 L 35 15 35 25 26.25 25 26.25 35 8.75 35 8.75 25 0 25 0 15 C" fill="#88A" stroke="none" />
+	</g>
+</svg>
+
+
+<svg class='wiggle' width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#222'>
+  <g transform="scale(2.8571 2.8571)">
+		<rect width="35" height="35" style="fill:none;stroke:none" />
+		<path d="M 0 0 L 17.5 0 26.25 10 26.25 0 35 0 35 15 17.5 15 8.75 5 8.75 15 0 15 0 0 C" fill="#F1F1F1" stroke="none" />
+		<path d="M 0 15 L 35 15 35 25 26.25 25 26.25 35 8.75 35 8.75 25 0 25 0 15 C" fill="#88A" stroke="none" />
+	</g>
+</svg>
+
+# Here's a squiggly one...
+
+
+<svg class='squiggle' width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#222'>
+  <g transform="scale(2.8571 2.8571)">
+		<rect width="35" height="35" style="fill:none;stroke:none" />
+		<path d="M 0 0 L 17.5 0 26.25 10 26.25 0 35 0 35 15 17.5 15 8.75 5 8.75 15 0 15 0 0 C" fill="#F1F1F1" stroke="none" />
+		<path d="M 0 15 L 35 15 35 25 26.25 25 26.25 35 8.75 35 8.75 25 0 25 0 15 C" fill="#88A" stroke="none" />
+	</g>
+</svg>
+
+
+<style>
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   17% { transform: rotate(2deg); }
+   24% { transform: rotate(8deg); }
+   33% { transform: rotate(2deg); }
+   50% { transform: rotate(0deg); }
+   67% { transform: rotate(-2deg); }
+   75% { transform: rotate(-8deg); }
+   83% { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
+svg.wiggle {
+  display: inline-block;
+  animation: wiggle 0.5s ease infinite;
+}
+svg.wiggle:hover {
+  animation: none;
+}
+@keyframes squiggle {
+    0% { transform: rotate(0deg) scaleX(1.0)}
+   17% { transform: rotate(2deg)  scale(0.8)}
+   24% { transform: rotate(8deg) scale(0.7)}
+   33% { transform: rotate(2deg)  scaleY(0.6)}
+   50% { transform: rotate(0deg) scale(0.5)}
+   67% { transform: rotate(-2deg)  scale(0.8)}
+   75% { transform: rotate(-8deg)  scale(0.9)}
+   83% { transform: rotate(-2deg) scale(1.2)}
+  100% { transform: rotate(0deg) scale(1.0)}
+}
+svg.squiggle {
+  display: inline-block;
+  animation: squiggle 0.5s ease infinite;
+}
+svg.squiggle:hover {
+  animation: none;
+}
+</style>
+
+
+Also consider applying some rounding -- or animating some rounding... https://stackoverflow.com/questions/10177985/svg-rounded-corner
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:none'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="white" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#222" stroke="none" />
+	</g>
+</svg>
