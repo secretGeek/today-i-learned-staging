@@ -20,28 +20,27 @@ Here is the codes:
 Can define a stroke using another element.
 
 
-
 <svg width="200" height="200">
-	<circle cx="100" cy="100" r="97" fill="none"
-			stroke="url(#myGradient)" />
-	<defs>
-		<linearGradient id="myGradient">
-		<stop offset="0%"   stop-color="green" />
-		<stop offset="100%" stop-color="white" />
-		</linearGradient>
-	</defs>
+  <circle cx="100" cy="100" r="97" fill="none"
+      stroke="url(#myGradient)" />
+  <defs>
+    <linearGradient id="myGradient">
+    <stop offset="0%"   stop-color="green" />
+    <stop offset="100%" stop-color="white" />
+    </linearGradient>
+  </defs>
 </svg>
 
-	<svg width="200" height="200">
-		<circle cx="100" cy="100" r="97" fill="none"
-				stroke="url(#myGradient)" />
-		<defs>
-			<linearGradient id="myGradient">
-			<stop offset="0%"   stop-color="green" />
-			<stop offset="100%" stop-color="white" />
-			</linearGradient>
-		</defs>
-	</svg>
+  <svg width="200" height="200">
+    <circle cx="100" cy="100" r="97" fill="none"
+        stroke="url(#myGradient)" />
+    <defs>
+      <linearGradient id="myGradient">
+      <stop offset="0%"   stop-color="green" />
+      <stop offset="100%" stop-color="white" />
+      </linearGradient>
+    </defs>
+  </svg>
 
 
 
@@ -80,19 +79,20 @@ Can define a stroke using another element.
 
 # svg path commands
 
+(in the following rel. means relative and abs. means absolute.
 
 | __Letter__ | Meaning | `Sample` | Params | _Note_ |
 |--------|---------|--------|------|----|
-|   __M__    | Move to | `M 10 30` | (X,Y)+ | _set current point to_ (10,30) |
-|   __m__   | move delta | `m 1 2` | (dx,dy)+ | _change current point by_ (1,2) |
-|   __L__    | Line to | `L 10 20` | (dx,dy)+ | _line from current point to_ (10,20) |
-|        |  | `L 10 20 30 40` | (dx,dy)+ | _line from current point to_ (10,20) _and line from there to_ (30,40) |
-|   __H__    | Horiz Line to | `H 10` | x+ | _horiz line from current point to_ x _of_ 10 |
-|   __h__    | Horiz Line delta | `h 10` | dx+ | _horiz line from current point to_ x _of_ x + 10 |
-|        |  | `h -10` | dx+ | _horiz line from current point to_ x _of_ x - 10 |
+|   __M__    | Move to | `M 10 30` | (X,Y)+ | _set current point to abs. _ (10,30) |
+|   __m__   | move delta | `m 1 2` | (dx,dy)+ | _change current point by rel. _ (1,2) |
+|   __L__    | Line to | `L 10 20` | (dx,dy)+ | _line from current point, to rel. _ (10,20) |
+|        |  | `L 10 20 30 40` | (dx,dy)+ | _line from current point to rel. _ (10,20) _and line from there to rel. _ (30,40) |
+|   __H__    | Horiz Line to | `H 10` | x+ | _horiz line from current point to abs. _ x _of_ 10 |
+|   __h__    | Horiz Line delta | `h 10` | dx+ | _horiz line from current point to rel. _ x _of_ x + 10 |
+|        |  | `h -10` | dx+ | _horiz line from current point to rel. _ x _of_ x - 10 |
 |   __V__    | Vert Line to | `V 10` | y+ | _vertical from current point to_ y _of_ 10 |
-|   __v__    | Vert Line delta | `v 10` | dy+ | _vertical from current point to_ y _of_ y + 10 |
-|            |                 | `v -10` | dy+ | _vertical from current point to_ y _of_ y - 10 |
+|   __v__    | Vert Line delta | `v 10` | dy+ | _vertical from current point to rel. _ y _of_ y + 10 |
+|            |                 | `v -10` | dy+ | _vertical from current point to rel. _ y _of_ y - 10 |
 |   __C__    | Cubic Bézier | `C 30,90 25,10 50,10` | (x1,y1, x2,y2, x,y)+ | _from current point to end point_ x,y _with control points at_ x1,y1 _and_ x2,y2 |
 |    |  | `C 30,90 25,10 50,10 10,25 90,30 10,50` | (x1,y1, x2,y2, x,y)+ | _subsequent triplets of pairs continue the curve_ |
 |   __c__    | relative Cubic Bézier  | `C 30,90 25,10 50,10` | (dx1,dy1, dx2,dy2, dx,dy)+ | _from current point to relative end point_ x,y _with relative control points at_ dx1,dy1 _and_ dx2,dy2 |
@@ -320,6 +320,104 @@ Also consider applying some rounding -- or animating some rounding... https://st
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:none'>
   <g transform="scale(1 1)">
   <circle cx="203" cy="203" r="203" fill="white" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#333" stroke="none" />
+	</g>
+</svg>
+
+<div style='padding:30px;background-color:white;'>
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:white'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="#333" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="white" stroke="none" />
+	</g>
+</svg>
+</div>
+
+
+![svg](nt.svg)
+
+
+
+
+
+
+<div style='padding:30px;background-color:#333;'>
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#333'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="#F1F1F1" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#CCC" stroke="none" />
+	</g>
+</svg>
+</div>
+
+
+
+<div style='padding:30px;background-color:#333;'>
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#333'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="#F1F1F1" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#888" stroke="none" />
+	</g>
+</svg>
+</div>
+
+
+
+
+<div style='padding:30px;background-color:#111;'>
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="#888" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#333" stroke="none" />
+	</g>
+</svg>
+</div>
+
+
+
+
+
+<div style='padding:30px;background-color:#111;'>
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="#888" stroke="none"/>
 		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#222" stroke="none" />
 	</g>
 </svg>
+</div>
+
+
+
+
+<div style='padding:30px;background-color:#111;'>
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="#444" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#222" stroke="none" />
+	</g>
+</svg>
+</div>
+
+
+
+
+<div style='padding:30px;background-color:#111;'>
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="#444" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#111" stroke="none" />
+	</g>
+</svg>
+</div>
+
+![nt.svg](nt.svg)
+
+
+<div style='padding:30px;background-color:#111;'>
+<svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
+  <g transform="scale(1 1)">
+  <circle cx="203" cy="203" r="203" fill="#383838" stroke="none"/>
+		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#000" stroke="none" />
+	</g>
+</svg>
+</div>
