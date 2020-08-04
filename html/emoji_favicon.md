@@ -12,3 +12,8 @@ Substitute with whatever emoji you prefer.
 
 * [Lea Verou tweeted the original idea](https://twitter.com/LeaVerou/status/1241619866475474946)
 * [Chris Coyier: Emojis as Favicons](https://css-tricks.com/emojis-as-favicons/) &mdash; Chris credits Lea and writes some more about it
+
+## See also
+
+- [How to use an svg as a website or web page's favicon, including supporting legacy platforms and rich application platforms.](..\svg\svg-to-favicon.md)
+- [How to convert an svg to a Windows .ico icon file, with inkscape and magick](..\svg\svg-to-ico-file.md)

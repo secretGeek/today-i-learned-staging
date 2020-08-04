@@ -66,7 +66,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 4 articles |
  | [firebird](firebird/01_summary.md) | 1 article |
- | [git](git/01_summary.md) | 18 articles |
+ | [git](git/01_summary.md) | 19 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 1 article |
  | [gmail](gmail/01_summary.md) | 1 article |
@@ -98,7 +98,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [music](music/01_summary.md) | 13 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
- | [notepad++](notepad++/01_summary.md) | 13 articles |
+ | [notepad++](notepad++/01_summary.md) | 14 articles |
  | [npm](npm/01_summary.md) | 9 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
@@ -125,8 +125,9 @@ Though this site is published as a free digital-only book, I've also published a
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
- | [svg](svg/01_summary.md) | 1 article |
+ | [svg](svg/01_summary.md) | 3 articles |
  | [tools](tools/01_summary.md) | 3 articles |
+ | [trello](trello/01_summary.md) | 1 article |
  | [tutorials](tutorials/01_summary.md) | 1 article |
  | [twitter](twitter/01_summary.md) | 1 article |
  | [typescript](typescript/01_summary.md) | 1 article |
@@ -143,5 +144,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-583 articles
-141705 words
+588 articles
+142780 words
