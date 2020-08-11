@@ -1,7 +1,6 @@
 # Finding unused indexes in sql server
 
-Before finding (and eliminating) unused indexes, you have to know that sometimes primary keys and uniqueness indexes are not specifically used as indexes (i.e. they may not be involves in seeks/scans or lookups) but they might be useful in assisting the query planner to make wise decisions. So don't blindly delete PK's or uniqueness constraints based off the results of looking at 'unused indexes'.
-
+Before finding (and eliminating) unused indexes, you have to know that sometimes primary keys and uniqueness indexes are not specifically used as indexes (i.e. they may not be involved in seeks/scans or lookups) but they might be useful in assisting the query planner to make wise decisions. So please don't blindly delete `PK`s or uniqueness constraints based off the results of looking at 'unused' indexes!
 
 
 	SELECT
@@ -17,7 +16,7 @@ Before finding (and eliminating) unused indexes, you have to know that sometimes
 		INNER JOIN sys.objects ON stats.OBJECT_ID = objects.OBJECT_ID
 		INNER JOIN sys.indexes ON indexes.index_id = stats.index_id AND stats.OBJECT_ID = indexes.OBJECT_ID
 	WHERE
-	--		stats.user_lookups = 0
+	--	stats.user_lookups = 0
 	--	AND	stats.user_seeks = 0
 	--	AND	stats.user_scans = 0
 	--  AND
@@ -45,7 +44,7 @@ And you may then have to either find someone who does have this permission, or g
 Some of you will find no data! When SQL Server service is reset, `dm_db_index_usage_stats` is cleared, so this works best after SQl Server has been up for a decent amount of time -- enough to give reasonable info about the pattern of usage for you datbase. (You can find when it was reset  using `SELECT sqlserver_start_time FROM sys.dm_os_sys_info` see [start_time](start_time.md))
 
 
-If you do find results, you may see::
+If you do find results, you may see:
 
 - For `heap` tables, the index name may be `NULL`.
 - You might find completely unused indexes -- those where `user_seeks`, `user_scans` and `user_lookups` are *all* Zero. Or you may find cases where these numbers are very very small, close to zero.
@@ -56,3 +55,8 @@ If you do find results, you may see::
 
 -[Nikola Dimitrijevic: How to identify and monitor unused indexes in SQL Server](https://www.sqlshack.com/how-to-identify-and-monitor-unused-indexes-in-sql-server/)
 
+
+
+## See also
+
+- [Find missing indexes in sql server](find_missing_indexes_in_sql_server.md)
