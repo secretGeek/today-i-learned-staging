@@ -9,7 +9,7 @@ There's a lot of word cloud generators, all inspired by "[Wordle](http://www.wor
 
 ## Source
 
-- [worlde faq](http://www.wordle.net/faq)
+- [wordle faq](http://www.wordle.net/faq)
 
 
 
