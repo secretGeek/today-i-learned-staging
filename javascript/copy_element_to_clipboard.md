@@ -71,3 +71,5 @@ Which relies on these functions:
 	function $(selector) {
 		return document.querySelectorAll(selector);
 	}
+
+Above is copies **text**. If you want to copy (non-markdown) formatting, you might want to consider [ClipboardJS](https://clipboardjs.com).
