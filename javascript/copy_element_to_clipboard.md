@@ -71,3 +71,5 @@ Which relies on these functions:
 	function $(selector) {
 		return document.querySelectorAll(selector);
 	}
+
+Above copies **text** only. If you want to copy (non-markdown) formatted text or other content (like images), you might want to consider [ClipboardJS](https://clipboardjs.com).
