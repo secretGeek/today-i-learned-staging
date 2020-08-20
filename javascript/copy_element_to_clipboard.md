@@ -19,6 +19,8 @@ Here's a general 'vanilla js' solution:
 	}
 	</script>
 
+(Note the `trim()`... most people forget that, i think it matters a lot. You don't want leading/trailing spaces, tabs, new lines. It's standard in enough browsers no, and happily it's not just spaces)
+
 When you want just a single word/term that is copyable....
 
 	<code onclick="copytext('%name%');" class="copyable" title="click to copy">%name%</code>

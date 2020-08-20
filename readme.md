@@ -66,7 +66,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 4 articles |
  | [firebird](firebird/01_summary.md) | 1 article |
- | [git](git/01_summary.md) | 19 articles |
+ | [git](git/01_summary.md) | 20 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 1 article |
  | [gmail](gmail/01_summary.md) | 1 article |
@@ -145,5 +145,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-592 articles
-144265 words
+593 articles
+144434 words
