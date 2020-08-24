@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (141 files)
+ * .exe (142 files)
  * .dll (27 files)
  * .txt (25 files)
  * .bat (13 files)
@@ -94,6 +94,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * gflags.exe
  * GifCam.exe
  * handle.exe
+ * handle64.exe
  * httpcfg.exe
  * ipseccmd.exe
  * jq.exe

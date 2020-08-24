@@ -14,7 +14,7 @@ And found this short instructional video....
 
 * [Piano Quickie 6: 7th Chords Explained](https://www.youtube.com/watch?v=g9SolFRzPyc)
 
-So the chord with the flattened 7th is a "dominant" 7th (not a "Major 7", which would've had the non-flattened 7th). So "A7" (pronounced "A" by some blues rhythm guitarists) is `A dom 7`. It's also known as a "Major Minor 7th chord" which is perfectly [COIK](..\concepts\coik.md).
+So the chord with the flattened 7th is a "dominant" 7th (not a "Major 7", which would've had the non-flattened 7th). So "A7" (pronounced "A" by some blues rhythm guitarists) is `A dom 7`. It's also known as a "Major Minor 7th chord" which is perfectly [COIK](../concepts/coik.md).
 
 ...then he goes through the **8** different kinds of `7th chord`....
 

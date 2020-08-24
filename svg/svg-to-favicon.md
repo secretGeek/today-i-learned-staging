@@ -58,5 +58,5 @@ for this.
 ## See also
 
 - [How to convert an svg to a Windows .ico icon file, with inkscape and magick](svg-to-ico-file.md)
-- [Use an Emoji as a favicon](..\html\emoji_favicon.md)
-- [How to use an svg as a website or web page's favicon, including supporting legacy platforms and rich application platforms.](..\svg\svg-to-favicon.md)
+- [Use an Emoji as a favicon](../html/emoji_favicon.md)
+- [How to use an svg as a website or web page's favicon, including supporting legacy platforms and rich application platforms.](../svg/svg-to-favicon.md)

@@ -18,6 +18,17 @@ Currently something like.... (this is dynamically loaded from util)
 	#function findtext_raw_casesensitive($pattern)
 	#function findtext_type($types, $pattern, $recursive){
 	
+	## Commands:
+	## findtext $pattern   <-- search all text type files for a particular regex
+	###                       if it's not valid as a regex we'll treat it as a literal string.
+	## findtext_raw $pattern   <-- search all text type files for a literal string.
+	## findtext_type $types $pattern $recurse   <-- e.g. findtext
+	## findtext_raw $patten   <-- search all text type files for a literal string.
+	## findtext_raw $patten   <-- search all text type files for a literal string.
+	## pre_help          <-- help on pre
+	## pre_help_detailed <-- verbose help on pre, with details about codeblocks.
+	
+	
 	function findtext($pattern, $recursive)
 	{
 	    if ($null -eq $pattern) {
@@ -107,5 +118,9 @@ Currently something like.... (this is dynamically loaded from util)
 		$fileTypes = $originalTypes;
 	}
 	
+	function findtext_help () {
+	 
+	
+	}
 	
 	set-alias fi FindText # can't use "ft", it's "format-table" already

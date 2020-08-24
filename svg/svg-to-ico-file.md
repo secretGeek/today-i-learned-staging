@@ -53,6 +53,6 @@ If you're happy with those png's you can convert them to a .ico in various ways.
 ## See also
 
 - [How to use an svg as a website or web page's favicon, including supporting legacy platforms and rich application platforms.](svg-to-favicon.md)
-- [Edit icon online](..\graphics\icon_edit_online.md) 
+- [Edit icon online](../graphics/icon_edit_online.md) 
 - [How to convert an svg to a Windows .ico icon file, with inkscape and magick](svg-to-ico-file.md)
 

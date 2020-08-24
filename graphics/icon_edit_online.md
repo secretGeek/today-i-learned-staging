@@ -35,5 +35,5 @@ Answer:
  
 ## See also
 
-- [How to convert an svg to a Windows .ico icon file, with inkscape and magick](..\svg\svg-to-ico-file.md)
-- [Use an Emoji as a favicon](..\html\emoji_favicon.md)
+- [How to convert an svg to a Windows .ico icon file, with inkscape and magick](../svg/svg-to-ico-file.md)
+- [Use an Emoji as a favicon](../html/emoji_favicon.md)
