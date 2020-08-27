@@ -106,3 +106,9 @@ This one,
 		FROM   csvtbl
 		WHERE  stop > 0
 
+
+# See also
+
+- [Csv To Html function in SQL](CsvToHtml_Function_in_SQL.md)
+- [Import CSV using SSMS tools](import_csv.md)
+- [Aggregate table strings into one csv value (with SQL Server)](table_to_csv.md) - i.e. concatenate strings in SQL Server

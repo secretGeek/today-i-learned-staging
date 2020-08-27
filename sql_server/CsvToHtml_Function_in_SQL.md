@@ -73,3 +73,10 @@ Imagine we have a fictional blogging system with an annoying CSV column called `
 ...and now we have a list of all the tags, 1 per row, adjacent to its article name.
 
 
+
+
+## See also
+
+- [Import CSV using SSMS tools](import_csv.md)
+- [Split string in SQL Server](split_string.md)
+- [Aggregate table strings into one csv value (with SQL Server)](table_to_csv.md) - i.e. concatenate strings in SQL Server

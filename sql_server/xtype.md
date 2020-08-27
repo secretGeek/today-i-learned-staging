@@ -52,7 +52,7 @@ You can find the above table via:
 
 	$x = "Select Schema_Name(o.UID) + '.' + o.Name , o.Xtype, tt.[name]
 	from sysobjects o inner join  master..spt_values tt 
-	on tt.name like o.xtype + '%' collate database_default
+	on tt.type = 'O9T' and tt.name like o.xtype + '%' collate database_default
 	where
 	tt.[name] like 
 	'%proc%' --e.g. function table proc

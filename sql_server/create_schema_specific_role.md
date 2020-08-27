@@ -15,3 +15,7 @@ as follows:
 
     EXEC sp_addrolemember 'SpecificSchemaSuperPowers', 'AD\BambrickL';
 
+
+## See also
+
+- [Create Schema with Authorization](Create_Schema_Authorization.md)
