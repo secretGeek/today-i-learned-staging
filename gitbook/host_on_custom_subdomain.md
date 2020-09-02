@@ -1,6 +1,6 @@
 # Host a gitbook on a custom subdomain
 
-(e.g. http://TIL.secretGeek.net)
+(Previously this site (<https://TIL.secretGeek.net>) was hosted by gitbook, but now I use github pages and my own [.net core static site generator, clown car](https://github.com/secretGeek/clowncar))
 
 By default the book is hosted on http://{author}.gitbooks.io/{book}/
 and can be read at https://www.gitbook.com/read/book/{author}/{book}
