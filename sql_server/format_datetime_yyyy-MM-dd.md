@@ -2,6 +2,15 @@
 
 You want ISO8601 formats in SQL Server, here you go.
 
+
+In SQL Server 2014 forward you can do this...
+
+	select Format(GetDate(), 'yyyy-MM-dd HH:mm:ss.ffffff')
+
+
+I'm not sure exactly when that came into existence. Here's the older techniques, which were maddening...
+
+
 For `yyyy-MM-dd` :
 
     CONVERT(VARCHAR(10), GetDate(), 120)
@@ -36,9 +45,14 @@ To get milliseconds (and 24 hour time) use format "121" -- it extends 120 by inc
 (Any length 23 or larger will suffice)
 
 
+## Sources
+
+- [Doc.Microsoft: Format T-Sql](https://docs.microsoft.com/en-us/sql/t-sql/functions/format-transact-sql?view=sql-server-ver15))
+
 
 ## See also
 
- * [SQL: just the date portion of a datetime](datetime_trim_hours_milliseconds.md)
- * [Excel: Extract Year/Month (for grouping/reporting)](../excel/extract_year_and_month_from_date_for_grouping_purposes.md)
- * [Parse varchar into DateTime](parse_varchar_into_datetime.md)
+ - [SQL: just the date portion of a datetime](datetime_trim_hours_milliseconds.md)
+ - [Excel: Extract Year/Month (for grouping/reporting)](../excel/extract_year_and_month_from_date_for_grouping_purposes.md)
+ - [Parse varchar into DateTime](parse_varchar_into_datetime.md)
+ 

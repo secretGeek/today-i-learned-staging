@@ -22,3 +22,4 @@ Note: If all you want to do is **count** the number of lines, use `Measure-Objec
 e.g. to count all the date entries (Date & Time Long Format) in a file called `journal.md` you can do this
 
     cat journal.md | ? { $_ -match '^[0-9]+:[0-9]+ (A|P)M [A-Z]+day, [0-9]+ [A-Z]+ [0-9]+' } | measure | % count
+

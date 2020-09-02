@@ -1,8 +1,8 @@
+# Markdown: Syntax
+
 The following is from [http://daringfireball.net/projects/markdown/syntax.text](http://daringfireball.net/projects/markdown/syntax.text), Copyright &copy; 2004, John Gruber [http://daringfireball.net/](http://daringfireball.net/)
 All rights reserved. It is provided hopefully in accord with the [BSD style license provided here](http://daringfireball.net/projects/markdown/license).
 
-Markdown: Syntax
-================
 
 *   [Overview](#overview)
     *   [Philosophy](#philosophy)

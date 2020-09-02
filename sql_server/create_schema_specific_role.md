@@ -16,6 +16,22 @@ as follows:
     EXEC sp_addrolemember 'SpecificSchemaSuperPowers', 'AD\BambrickL';
 
 
+For a "reporting-only" role, on a single schema called MyReportingSchema...
+
+
+    CREATE ROLE ReportingRole AUTHORIZATION dbo;
+
+    GRANT EXECUTE, REFERENCES, SELECT,
+              VIEW DEFINITION ON SCHEMA::MyReportingSchema TO ReportingRole;
+
+
+Then add the relevant group or user to that role:
+
+
+    EXEC sp_addrolemember 'ReportingRole', 'AD\ReportingUser';
+
+
+
 ## See also
 
 - [Create Schema with Authorization](Create_Schema_Authorization.md)

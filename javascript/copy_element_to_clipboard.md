@@ -89,10 +89,8 @@ Which relies on these functions:
 
 ## Fading out Tooltip at Copy Time...
 
-
 Here's another variation, this time with a fading out tooltip.
 
-Here's the function that shows the tool tip. It is centered above the `element` passed to it.
 
 To support the tooltip I have these two CSS classes:
 
@@ -122,6 +120,7 @@ To support the tooltip I have these two CSS classes:
 		transition: opacity 1s ease-in-out, margin 1s ease-in-out;
 	}
 
+And here's the function that shows the tool tip. It is centered above the `element` passed to it.
 
 And the function to show a message that floats away is like this:
 
@@ -186,20 +185,22 @@ And wire that up to every `pre`/`code` element like this:
 The methods above are all vanilla JS. If wiring it up with jQuery, note that you have to pass a `DOM` element, not a `JQuery` element.
 
 
-For example
+For example:
 
 	// Inject a button before every pre...
 	$("<button class='copy-text btn btn-sm' title='copy code to clipboard'>copy</button>").insertBefore($("pre"));
 
 
 	// And have it call 'copy to clipboard'
-	$(".copy-text").click(function (i) {
+	$(".copy-text").click(function (e) {
 		copyToClipboard($(this).next("pre").text(), this); // that final *this* is the DOM element.
+		// stop any other consequence fo this click from occurring. 
+		e.preventDefault();
+		return false;
 	});
 
 
 And to style that little button, this CSS is my starting point:
-
 
 	.copy-text {
 		float: right;

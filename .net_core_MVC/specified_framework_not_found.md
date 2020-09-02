@@ -76,3 +76,14 @@ On a "more recent" machine with (hopefully) .net core 2.2 I see:
 	dotnet-runtime-deps-2.2                         install
 	dotnet-sdk-2.2                                  install
 
+And on another seemingly with 2.1 I get....
+
+	$ dpkg --get-selections | grep -v deinstall | grep dot
+	dotnet-dev-1.0.0-preview2-003121                install
+	dotnet-host                                     install
+	dotnet-hostfxr-1.0.1                            install
+	dotnet-hostfxr-2.1                              install
+	dotnet-runtime-2.1                              install
+	dotnet-runtime-deps-2.1                         install
+	dotnet-sdk-2.1                                  install
+	dotnet-sharedframework-microsoft.netcore.app-1.0.0      install

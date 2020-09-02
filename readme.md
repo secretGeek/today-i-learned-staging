@@ -39,6 +39,8 @@ Though this site is published as a free digital-only book, I've also published a
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
 
 
+
+
 ## Topics
 
 |Topic|# Articles|
@@ -146,4 +148,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 597 articles
-145605 words
+145744 words

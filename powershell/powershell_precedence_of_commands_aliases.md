@@ -1,5 +1,5 @@
 
-# 
+# Command Precedence in Powershell
 
 PowerShell uses the following precedence order when it runs commands for all items loaded in the current session:
 
