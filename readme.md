@@ -108,7 +108,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
  | [powershell](powershell/01_summary.md) | 85 articles |
- | [productivity](productivity/01_summary.md) | 1 article |
+ | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
@@ -147,5 +147,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-597 articles
-145766 words
+598 articles
+146620 words
