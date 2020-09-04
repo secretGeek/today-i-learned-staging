@@ -1,5 +1,26 @@
 # Using TaskWarrior on Windows
 
+**Table of Content**
+
+- [Install on windows (WSL)]
+- [Add a really plain task...]
+- [Mark a task as done]
+- [Add a tag to a task]
+- [Add multiple tags to a task]
+- [Remove a tag from a task]
+- [Add AND Remove...]
+- [Add a tag to all tasks]
+- [List tasks with a tag]
+- [List all completed tasks]
+- [List all tasks completed today]
+- [Set the priority on a new task]
+- [Set no priority to be higher than 'low' priority]
+- [.taskrc file: what is in there?]
+- [sources]
+
+
+## Install on windows (WSL)
+
 Install on [WSL (windows subsystem for linux)](../windows/bash_on_windows.md) with:
 
 	sudo apt-get install taskwarrior
@@ -18,7 +39,7 @@ Type `task` to see if it's there....
 
 - `Task help` -- gives help (bit technical for right now though)
 
-# Add a really plain task...
+## Add a really plain task...
 
 
 	task add buy milk
@@ -40,7 +61,7 @@ Now see all your tasks...
 
 See that the current task id for that task is "1". (It's actual primary key is hidden and won't change.)
 
-# Mark a task as done
+## Mark a task as done
 
 Mark that task as done like this:
 
@@ -78,6 +99,13 @@ Or add another `tag` to an existing task like this:
 	task 1 modify +tw
 	
 (Added the tag "tw". Obviously you could've added more than 1 at once, with `+tw +fun +easy` etc.)
+
+And note you can shorten `modify` to `mod`, as I just did:
+
+	task 8 mod +bug
+
+(Clearly there are aliases, I haven't worked out details, but can tell you that just `m` by itself does not work. So they are probably defined somewhere.)
+
 
 ## Remove a tag from a task
 
@@ -144,6 +172,23 @@ I learned also that I can see *all* tasks open or closed with:
 
 
 ## List all tasks completed today
+
+
+## Set the priority on a new task
+
+
+Priorities as `H` for "High", `M` for "Medium", `L` for "Low". And if not assigned it is blank (and empty string).
+
+Set it on a new task, e.g.
+
+  task add put out fire priority:H
+
+Or update it on an existing task:
+
+  task 1 mod pri:H
+
+...by which I am showing you that `pri:` works as an alias for `priority:`
+
 
 
 ## Set no priority to be higher than 'low' priority
