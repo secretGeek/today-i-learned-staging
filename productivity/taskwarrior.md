@@ -170,6 +170,12 @@ I learned also that I can see *all* tasks open or closed with:
 
 	task all
 
+## mark a task as started
+
+To mark a task as started:
+
+	task 21 start
+
 
 ## List all tasks completed today
 
@@ -191,7 +197,7 @@ Or update it on an existing task:
 
 
 
-## Set no priority to be higher than 'low' priority
+## Set 'no priority' to be higher than 'low' priority
 
 As described here [taskwarrior priority](https://taskwarrior.org/docs/priority.html), priority is a user-defined attribute.
 

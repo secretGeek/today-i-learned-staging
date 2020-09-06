@@ -57,3 +57,20 @@ The most fundamental concepts of productivity are
 * capture of ideas/resources
 * habits (good habits, bad habits)
 
+## Tables:
+
+	- Next Action
+	- Tasks
+	- Projects
+	- Urls
+	- Tags
+	- Snippets
+	- Calendar-items
+	- Chores (recurring once completed)
+	- Dependencies
+	- Notes
+	- Quotes
+	- Articles
+	- Memorisation
+	- Surveys
+	- Focus tools
