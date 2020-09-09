@@ -61,12 +61,60 @@ They both produce the same tokens, with the same content.
 If we try to write our own syntax highlighter, how do we know to highlight the two strings differently?
 
 
+## Answer, thanks to Lee Holmes and Doug Finke
 
 
+Lee -- https://twitter.com/Lee_Holmes/status/1303685263806181380?s=20
+Doug -- https://twitter.com/dfinke/status/1303687569968857091?s=20
 
 
+Need to use the newer V3 API. 
+
+	[System.Management.Automation.Language.Parser]::ParseInput('echo "$hello"', [ref] $tokens, [ref] $errors) | out-null;
+	$tokens | format-table
+
+Gives... 
+
+	Text             TokenFlags             Kind HasError Extent
+	----             ----------             ---- -------- ------
+	echo            CommandName       Identifier    False echo
+	"$hello" ParseModeInvariant StringExpandable    False "$hello"
+					 ParseModeInvariant       EndOfInput    False
+
+Whereas, 
 
 
+	[System.Management.Automation.Language.Parser]::ParseInput("echo '`$hello'", [ref] $tokens, [ref] $errors); | out-null;
+	$tokens | format-table
+
+Gives:
+
+	Text             TokenFlags          Kind HasError Extent
+	----             ----------          ---- -------- ------
+	echo            CommandName    Identifier    False echo
+	'$hello' ParseModeInvariant StringLiteral    False '$hello'
+					 ParseModeInvariant    EndOfInput    False
 
 
+Note that "ParseInput" directly returns an Abstract Syntax Tree (which is more than I need for this exercise, but super useful when you do need it.) and the `$tokens` variable is a reference to an array of Tokens 
+
+What sort of tokens?
+
+Here's there Assembly Qualified Name: 
+
+  System.Management.Automation.Language.Token, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+
+
+Whereas my earlier code was return an array of PSToken -- this type:
+
+	System.Management.Automation.PSToken, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+
+
+(I wonder if they're related at all though? Is the full token info hidden inside the token in any way?)
+
+While on the topic of AST's -- Doug points out you can do this:
+
+	{echo "$hello"; echo '$hello'}.ast
+
+And directly access the `AST`.
 
