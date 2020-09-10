@@ -23,8 +23,8 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 
 You can have properties that can be gotten but cannot be set:
 
-		public string FirstName { get; }
-		public string LastName { get; }
+	public string FirstName { get; }
+	public string LastName { get; }
 
 Wait! What? Then how do they ever get set!? Are they like a one way street out of a deadend ?
 
