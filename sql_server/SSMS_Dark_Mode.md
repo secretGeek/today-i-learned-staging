@@ -1,16 +1,21 @@
 # SSMS Dark Mode in SQL Server Management Studio
 
-In SQl Server management studio you can enable the hidden Dark Mode.
+In SQL Server Management Studio you can enable the hidden Dark Mode, by altering one line in one file.
 
-Caveats -- it's not great. A few things are not themed, and some menus have black text on gray background.
+Caveats -- it's not a great dark mode implementation, yet. A few things are not themed, and some menus have black text on gray background.
 
 ![SSMS Dark Mode Broken](SSMS_Dark_Mode_Broken.png)
 
 
-Before applying the registry hack:
+Despite this I still prefer it, very much. Better for the eyes.
 
-	Tools -> Options -> General -> the only two color themes available are Blue and Light.
 
+Before applying the change you will only have two color themes (Blue and Light) available under:
+
+	Tools -> Options -> General -> Color themes
+
+
+To fix this:
 
 Find the folder SSMS is running from, e.g.
 
