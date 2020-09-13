@@ -1,14 +1,12 @@
 # using sylvan tools for csvz
 
-First attempt to install:
+The first tool I've seen that supports the [csvz specification](https://github.com/secretGeek/csvz) is `csvz.exe` from [Sylvan.Data.CsvZip](https://github.com/MarkPflug/Sylvan.Data.CsvZip) by [Mark Pflug](https://markpflug.github.io/).
 
+I've installed it like this:
 
-This worked: 
-
-	dotnet tool install -g Sylvan.Data.CsvZip --version 0.1.0-b0002
+	dotnet tool install -g Sylvan.Tools.CsvZip --version 0.1.0-b0002
 
 Result:
-
 
 	> dotnet tool install -g Sylvan.Tools.CsvZip --version 0.1.0-b0002
 	mate best match of Sylvan.Tools.CsvZip 0.1.0 was resolved.
@@ -96,6 +94,9 @@ Let's see if it got it right?
 | people.csv | Age | 1 | int | False | 4 | True | False |  |  |  |  |
 
 Awesome. It's guessed the types as `string` and `int`. True enough!
+
+I've added it to the [list of known tools for csvz](https://github.com/secretGeek/csvz#a-list-of-csvz-compliant-tools-and-libraries). Nice work Mark!
+
 
 	
 ## Source(s)
