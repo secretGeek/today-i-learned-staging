@@ -23,6 +23,12 @@ Add all files a *new zip* (or add to an existing zip), including subfolders:
 - **Nasty trick**: the wildcard `*` will match "all" files whereas `*.*` will only match files with an extension (it will not match files with no extension).
 
 
+-----
+
+Unzip a .zip file to a folder (they call it eXtract)
+
+	7z x "MyZip.zip" -oMyFolder
+
 
 
 -----

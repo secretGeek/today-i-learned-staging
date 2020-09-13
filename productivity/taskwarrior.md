@@ -177,6 +177,12 @@ To mark a task as started:
 	task 21 start
 
 
+## To see a graphical burndown chart of what is pending, started, done...
+
+To see a graphical burndown of tasks, with a granularity of day:
+
+		task burndown.daily
+
 ## List all tasks completed today
 
 
