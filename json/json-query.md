@@ -1,23 +1,25 @@
 # Tools for querying JSON
 
-The first tool I found for querying json, at the commandline was `jq`
+The first tool I found for querying json, at the commandline was [`jq`](https://stedolan.github.io/jq)
 
 There's quite a few more now!
 
-- <https://stedolan.github.io/jq/>
-- <https://github.com/fiatjaf/awesome-jq>
-- <https://github.com/TomConlin/json2xpath>
-- <https://github.com/antonmedv/fx>
-- <https://github.com/fiatjaf/jiq>
-- <https://github.com/simeji/jid>
-- <https://github.com/jmespath/jp>
-- <https://github.com/cube2222/jql>
-- <https://jsonnet.org>
-- <https://github.com/borkdude/jet>
-- <https://github.com/jzelinskie/faq>
-- <https://github.com/dflemstr/rq>
-- <https://github.com/jsqry/jsqry-cli2>
-- <https://github.com/tidwall/jj>
+- [awesome-jq](https://github.com/fiatjaf/awesome-jq)
+- [faq](https://github.com/jzelinskie/faq)
+- [fx](https://github.com/antonmedv/fx)
+- [jet](https://github.com/borkdude/jet)
+- [jid](https://github.com/simeji/jid)
+- [jiq](https://github.com/fiatjaf/jiq)
+- [jj](https://github.com/tidwall/jj)
+- [jp](https://github.com/jmespath/jp)
+- [jq](https://stedolan.github.io/jq)
+- [jql](https://github.com/cube2222/jql)
+- [json2xpath](https://github.com/TomConlin/json2xpath)
+- [jsonnet.org](https://jsonnet.org)
+- [jsqry-cli2](https://github.com/jsqry/jsqry-cli2)
+- [query-json](https://github.com/davesnx/query-json)
+- [rq](https://github.com/dflemstr/rq)
+
 
 ## Also...
 
