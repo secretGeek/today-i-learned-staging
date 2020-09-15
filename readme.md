@@ -85,6 +85,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [javascript](javascript/01_summary.md) | 10 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
+ | [json](json/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 11 articles |
  | [linux](linux/01_summary.md) | 34 articles |
@@ -148,5 +149,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-606 articles
-149868 words
+607 articles
+149965 words

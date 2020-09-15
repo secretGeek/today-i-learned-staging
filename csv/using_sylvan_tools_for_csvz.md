@@ -19,7 +19,7 @@ I ran this command:
 
 	csvz --dir .\business\ --file business.csvz
 
-It seemed to have worked!
+Here's what happened
 
 	> csvz --dir .\business\ --file business.csvz
 	Creating: business.csvz
@@ -27,6 +27,8 @@ It seemed to have worked!
 		Analyzing. 00:00:00.0085868
 		Writing.   00:00:00.0238635
 	Done.
+
+It seemed to have worked! There is now a "business.csvz" file.
 
 I copied the resulting `.csvz` file to `.zip`:
 
@@ -63,8 +65,8 @@ Now I'll inspect the output folder and see what we have....
 	│   people.csv
 	│
 	└───_meta
-					columns.csv
-					tables.csv	
+          columns.csv
+          tables.csv	
 
 Look ^^  It even has a `_meta` subfolder with `columns.csv` and `tables.csv`
 
