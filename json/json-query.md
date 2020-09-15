@@ -5,8 +5,10 @@ The first tool I found for querying json, at the commandline was [`jq`](https://
 There's quite a few more now!
 
 - [awesome-jq](https://github.com/fiatjaf/awesome-jq)
+- [emuto](https://kantord.github.io/emuto/)
 - [faq](https://github.com/jzelinskie/faq)
 - [fx](https://github.com/antonmedv/fx)
+- [jello](https://github.com/kellyjonbrazil/jello)
 - [jet](https://github.com/borkdude/jet)
 - [jid](https://github.com/simeji/jid)
 - [jiq](https://github.com/fiatjaf/jiq)
@@ -32,4 +34,4 @@ There's quite a few more now!
 ## Source
 
 - List originally collected by [aaasad](https://news.ycombinator.com/user?id=aasasd) [here](https://news.ycombinator.com/item?id=24470715)
-
+- [Alternativeto.net: jq](https://alternativeto.net/software/jq/)
