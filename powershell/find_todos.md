@@ -97,7 +97,6 @@ Currently something like.... (this is dynamically loaded from util)
 	    get-childitem -Path * -Include $fileTypes -Exclude .git,.hg,*jquery*,modernizr* -Recurse:$recursive |
 	        Where-Object { $_.DirectoryName -notmatch "_book" } |
 					% { 
-							write-host $_.FullName -f yellow;
 							$_ | select-string -pattern $pattern -SimpleMatch |
 							Format-Table -property @{Expression={$_.Path.SubString($path.Length+1)};Label="Location"},
 									@{Expression={$_.LineNumber};Label="Line"},
@@ -118,7 +117,6 @@ Currently something like.... (this is dynamically loaded from util)
 	    } else {
 	        #"recursive was not null it was $recursive"
 	    }
-	
 	
 	    $path = (get-location | ForEach-Object { $_.ProviderPath })
 	
@@ -161,3 +159,4 @@ Currently something like.... (this is dynamically loaded from util)
 	set-alias f.raw-type findtext_raw_type
 	set-alias f.raw-ci findtext_raw_casesensitive
 	set-alias f.no-rec findtext_norecurse
+	set-alias ftx findtext_norecurse

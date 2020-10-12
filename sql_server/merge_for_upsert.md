@@ -18,6 +18,15 @@ SQL Server supports a Merge statement which lets you Update, Insert, Delete (for
 		THEN DELETE;
 
 
+
+That's fun and alll....
+
+
+I want "when not matched by source then update with condition"
+
+
+
+
 ## Source(s)
 
 - [SQL Server MERGE](https://www.sqlservertutorial.net/sql-server-basics/sql-server-merge/)

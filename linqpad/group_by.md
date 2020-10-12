@@ -10,26 +10,26 @@ By far the most common query I've every run in SQL Server is:
 
 Here's the equivalent in Linq:
 
-    var tableSummary = someTable.GroupBy(p=> p.SomeColumn).Select(group => new { 
-                            Count = group.Count(), 
+    var tableSummary = someTable.GroupBy(p=> p.SomeColumn).Select(group => new {
+                            Count = group.Count(),
                             SomeColumn = group.Key
                         }).OrderByDescending(x => x.Count);
     tableSummary.Dump();
 
 Here's a more complex example:
 
-    var data = new Person[] { 
-        new Person { Name = "Jim", Height = 1000}, 
+    var data = new Person[] {
+        new Person { Name = "Jim", Height = 1000},
         new Person { Name = "Jack", Height = 2000},
         new Person { Name = "Jack", Height = 2300},
         new Person { Name = "Jim", Height = 5000},
         new Person { Name = "Jim", Height = 12}
     };
     var groups = data.GroupBy(p => p.Name, (key, values)
-        => new { 
-            Name = key, 
-            Count = values.Count(), 
-            Avg_Height = values.Average(a => a.Height), 
+        => new {
+            Name = key,
+            Count = values.Count(),
+            Avg_Height = values.Average(a => a.Height),
             Total_Height = values.Sum(a => a.Height),
             Name_Length = values.Average(a => a.Name.Length),
             Name_Length2 = key.Length,
@@ -39,3 +39,19 @@ Here's a more complex example:
             Members = values}
             ).Where(g => g.Count > 1).OrderByDescending(gg => gg.Variance_Height);
     groups.Dump();
+
+
+
+![result is 1 row per name with many aggregated properties regarding that name and child rows: of type person, with name matching their parent group](linqpad\group_by.png)
+
+
+(Supporting code....
+
+
+	public class Person
+	{
+		public string Name { get; set; }
+		public int Height { get; set; }
+	}
+
+...)

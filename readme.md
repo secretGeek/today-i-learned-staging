@@ -88,7 +88,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [json](json/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 11 articles |
- | [linux](linux/01_summary.md) | 34 articles |
+ | [linux](linux/01_summary.md) | 35 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
@@ -99,6 +99,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [microsoft terminal](microsoft_terminal/01_summary.md) | 2 articles |
  | [minecraft](minecraft/01_summary.md) | 3 articles |
  | [music](music/01_summary.md) | 13 articles |
+ | [neo4j](neo4j/01_summary.md) | 1 article |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
  | [notepad++](notepad++/01_summary.md) | 14 articles |
@@ -108,8 +109,8 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 86 articles |
- | [productivity](productivity/01_summary.md) | 2 articles |
+ | [powershell](powershell/01_summary.md) | 87 articles |
+ | [productivity](productivity/01_summary.md) | 3 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
@@ -124,7 +125,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 2 articles |
- | [sql server](sql_server/01_summary.md) | 64 articles |
+ | [sql server](sql_server/01_summary.md) | 65 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -146,8 +147,9 @@ Though this site is published as a free digital-only book, I've also published a
  | [wordle](wordle/01_summary.md) | 1 article |
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [writing](writing/01_summary.md) | 2 articles |
+ | [yarn](yarn/01_summary.md) | 1 article |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-607 articles
-149974 words
+613 articles
+151187 words
