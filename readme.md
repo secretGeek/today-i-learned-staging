@@ -109,7 +109,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 87 articles |
+ | [powershell](powershell/01_summary.md) | 88 articles |
  | [productivity](productivity/01_summary.md) | 3 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -119,7 +119,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [r language](r_language/01_summary.md) | 1 article |
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 2 articles |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
- | [sharepoint](sharepoint/01_summary.md) | 1 article |
+ | [sharepoint](sharepoint/01_summary.md) | 2 articles |
  | [sleep](sleep/01_summary.md) | 4 articles |
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [sparql](sparql/01_summary.md) | 1 article |
@@ -151,5 +151,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-613 articles
-151187 words
+615 articles
+151447 words
