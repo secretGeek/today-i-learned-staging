@@ -23,7 +23,7 @@ Whereas:
 
 ...worked correctly *and* displayed correctly.
 
-Compare '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_(social_psychology))' to '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)'
+Compare '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_(social_psychology))' to '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)' to see if the current toolchain for TIL is working ok. (It is, thanks [clowncar](https://github.com/secretGeek/clowncar) and markdig.)
 
 *Test it [here without encoding](http://en.wikipedia.org/wiki/Reciprocity_(social_psychology)) and [here with encoding](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)*
 

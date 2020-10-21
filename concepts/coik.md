@@ -1,5 +1,6 @@
 # COIK
 
+
 > "A four year old child could understand this! Run out and find me a four year old child, I can't make head or tail out of it."
 >
 >&mdash;Groucho Marx in Duck Soup
@@ -35,6 +36,11 @@ It's [quoted here](https://www.bkwpartners.com/tappers-and-listeners-an-excerpt-
 
 ## The Curse of Jargon
 
+> "Jargon is magic within groups and poison between them."
+>
+> &mdash;[Chris Donnelly](https://twitter.com/distractable/status/997171046951288832?s=20)
+
+
 A few other observations I want to make about the "curse of knowledge".
 
 When studying a topic that is new to you, the jargon is not just a problem: it is a whole set of problems.
@@ -69,9 +75,9 @@ Generally examples are very helpful things to include, but they are not sufficie
 
 Here's an example of the use of examples leading to cyclic definitions:
 
- * Orange: a type of citrus fruit
- * Lemon: a type of citrus fruit
- * Citrus fruit: see for example Lemon and Orange.
+- Orange: a type of citrus fruit
+- Lemon: a type of citrus fruit
+- Citrus fruit: see for example Lemon and Orange.
 
 
 ## Hiding in plain sight
@@ -79,6 +85,6 @@ Here's an example of the use of examples leading to cyclic definitions:
 
 But worse than all of these is the situation where the field you're trying to understand uses normal words in a special way. You do not even recognise that these words are jargon: they look like normal words. 
 
-When a mechanic is trying to fix your motorbike and she says "Ok, kick it over now," they do not expect you to kick your bike over and will be surprised when you do. You will need to go and pick up your bike and then attempt to kick-start the bike. This is an example of jargon hiding inside every day words.
+When a mechanic is trying to fix your motorbike and she says "Ok, kick it over now," they do not expect you to go into a Karate stance, and swiftly kick your bike across the room. You will need to go and pick up your bike and then attempt to `kick-start` the bike. This is an example of jargon hiding inside every-day words.
 
 
