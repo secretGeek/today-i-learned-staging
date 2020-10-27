@@ -159,11 +159,11 @@ I re-run the pagespeed test and my scores are up by 3 points.
 	
 ## Source
 
- * <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>
- * <https://docs.asp.net/en/latest/publishing/linuxproduction.html>
- * [How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
- * [NGINX for ASP.NET Core In-Depth](http://rehansaeed.com/nginx-asp-net-core-depth/)
+- <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>
+- <https://docs.asp.net/en/latest/publishing/linuxproduction.html>
+- [How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
+- [NGINX for ASP.NET Core In-Depth](http://rehansaeed.com/nginx-asp-net-core-depth/)
 
 ## See also
 
- * [IP Address in .net core MVC](../.net_core_MVC/ip_address.md)
+- [IP Address in .net core MVC](../.net_core_MVC/ip_address.md)

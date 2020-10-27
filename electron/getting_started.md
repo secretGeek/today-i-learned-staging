@@ -94,6 +94,18 @@ Now trying this other approach....
 
 Okay -- nifty demo it has menus.
 
+And it doesn't have that warning... Let me check something....
+
+Okay I copied over the line from the erroring project to the working project, the line that says....
+
+
+    We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+
+...and now that failed to run *and* I got this massive error message....
+
+	Refused to execute inline script because it violates the following Content Security Policy directive: "default-src 'self' script-src 'self'". Either the 'unsafe-inline' keyword, a hash ('sha256-I/aHv1UwJJBBNPzXh7y8431zWAJCeFzsD1fvSu1KqMw='), or a nonce ('nonce-...') is required to enable inline execution. Note also that 'script-src' was not explicitly set, so 'default-src' is used as a fallback.
 
 	https://www.electronjs.org/docs/tutorial/boilerplates-and-clis
 	

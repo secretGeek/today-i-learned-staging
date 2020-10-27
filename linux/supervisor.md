@@ -53,7 +53,11 @@ I noticed that supervisor did not successfully restart when I [rebooted my linux
 
 I restarted it with `service supervisor start` (which required me to type my password)
 
-First though, I checked the status with `service supervisor status`, and saw:
+First though, I checked the status with:
+
+	service supervisor status
+	
+and saw:
 
     user1@machine1:~$ service supervisor status
     ? supervisor.service - Supervisor process control system for UNIX
