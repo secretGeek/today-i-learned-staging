@@ -13,7 +13,9 @@
 
 
 	CommandType     Name
+	===========     ====
 	Alias           cls -> Clear-Host
+
 
 
 ## To find aliases for a command

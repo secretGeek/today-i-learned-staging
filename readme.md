@@ -89,7 +89,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [json](json/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 11 articles |
- | [linux](linux/01_summary.md) | 35 articles |
+ | [linux](linux/01_summary.md) | 37 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
@@ -152,5 +152,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-616 articles
-153886 words
+618 articles
+154399 words
