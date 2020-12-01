@@ -1,4 +1,4 @@
-# getting started with neo4j on windows
+# Getting started with neo4j on windows
 
 As a hobbyist/dabbler -- first thing was:
 
@@ -55,6 +55,10 @@ I need to store something in csv that is interesting (to me at least)
 
 and then load it up in the graph database.
 
+
+-- a goal here is to get to a point where I'm playing with [cypher - the neo4j query language](https://www.quackit.com/neo4j/tutorial/neo4j_query_language_cypher.cfm)
+
+(a fun idea would be to export my genealogical data et al from `boothby` as csv into `neo4j` desktop and explore that;
 
 
 ## Source(s)

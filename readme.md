@@ -69,6 +69,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 4 articles |
  | [firebird](firebird/01_summary.md) | 1 article |
+ | [games](games/01_summary.md) | 1 article |
  | [git](git/01_summary.md) | 20 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 1 article |
@@ -149,8 +150,9 @@ Though this site is published as a free digital-only book, I've also published a
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [writing](writing/01_summary.md) | 2 articles |
  | [yarn](yarn/01_summary.md) | 1 article |
+ | [zettel](zettel/01_summary.md) | 1 article |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-618 articles
-154399 words
+620 articles
+154729 words

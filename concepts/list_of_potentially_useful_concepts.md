@@ -417,8 +417,10 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Root Mean Square
  * S-Curve Adoption
  * sabotage
+ * Satir Interaction Model
  * Scale
  * Scarcity
+ * Schelling Point, https://en.wikipedia.org/wiki/Focal_point_(game_theory)
  * Science advances one tombstone at a time
  * Second Order Effects/Second Order thinking
  * Second wind

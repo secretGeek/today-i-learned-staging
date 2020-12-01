@@ -62,4 +62,4 @@ Here's a list of the books in chronological order, (though in the book they are 
 
 ## Reference
 
-* [50 Psychology Classics](http://www.butler-bowdon.com/50-psychology-classics.html]
+- [50 Psychology Classics](http://www.butler-bowdon.com/50-psychology-classics.html)
