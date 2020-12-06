@@ -4,6 +4,9 @@
 
 - [Game Programming Patterns](https://news.ycombinator.com/item?id=23203699) 
 
+- [The Game UI Database](https://www.gameuidatabase.com/) &mdash; "325 Games and 11569 Screenshots. The ultimate reference tool for interface designers."
+	- "Filter by Materials and Patterns" -- "Such as Wood, Grunge, Paper, Circles and many more!"
+	- "Browse 80+ Screen Types" -- Including Popup Menus, Shop Screens, Mission Logs, and HUD Elements!
 
 ## See also
 
