@@ -9,7 +9,7 @@
 
 		get-command *cls*
 
-...produces a list of not just aliases but commands that match your pattern. (so i prefer it over `get-alias`)
+...produces a list of not just aliases but commands that match your pattern. (so i sometimes prefer it over `get-alias` though it can produce unwanted results.)
 
 
 	CommandType     Name
