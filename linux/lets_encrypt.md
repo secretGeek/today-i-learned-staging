@@ -8,6 +8,8 @@ Let's Encrypt provide a tool called `certbot` which you need to get.
 
 (Some older instructions call this the "letsencrypt" tool, and other even older instructions say you need to get the source code of the tool)
 
+Get certbot like this:
+
 	sudo add-apt-repository ppa:certbot/certbot
 	sudo apt-get update
 	sudo apt-get install python-certbot-nginx

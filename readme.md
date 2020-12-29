@@ -15,7 +15,9 @@ Available online:
 
 ## Guidelines
 
-Should be factoids that you expect to need to refer to again. Hence, any factoid that is "Well that's interesting!" but would *never* be referenced again is NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) category is a major exception).
+Each page included within this site should be a factoids that you **expect to refer to again**.
+
+Hence, any factoid that is merely "Well that's interesting!" but would *never* be referenced again is NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) category is somewhat of an exception).
 
 The folder structure means things are categorised by ONE main topic, not tagged with endless topics/subtopics.
 
@@ -27,8 +29,11 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## See Also
 
+
 - [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
 - [secretGeek.net](http://www.secretGeek.net) &mdash; my blog
+- [List of Second Brains](https://github.com/KasperZutterman/Second-Brain/blob/master/README.md) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
+- (Still looking for a suitable list of digital gardens)
 
 ## Get this book
 
@@ -45,7 +50,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 6 articles |
+| [.net](.net/01_summary.md) | 7 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
  | [7z](7z/01_summary.md) | 2 articles |
  | [active directory](active_directory/01_summary.md) | 1 article |
@@ -66,6 +71,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [css](css/01_summary.md) | 7 articles |
  | [csv](csv/01_summary.md) | 3 articles |
  | [design](design/01_summary.md) | 2 articles |
+ | [digital gardens](digital_gardens/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 4 articles |
@@ -91,7 +97,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [json](json/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 11 articles |
- | [linux](linux/01_summary.md) | 37 articles |
+ | [linux](linux/01_summary.md) | 38 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
@@ -106,7 +112,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
  | [notepad++](notepad++/01_summary.md) | 14 articles |
- | [npm](npm/01_summary.md) | 10 articles |
+ | [npm](npm/01_summary.md) | 11 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 6 articles |
@@ -115,7 +121,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [powershell](powershell/01_summary.md) | 88 articles |
  | [productivity](productivity/01_summary.md) | 3 articles |
  | [python](python/01_summary.md) | 8 articles |
- | [react](react/01_summary.md) | 2 articles |
+ | [react](react/01_summary.md) | 3 articles |
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [robocopy](robocopy/01_summary.md) | 1 article |
@@ -133,6 +139,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
  | [svg](svg/01_summary.md) | 4 articles |
+ | [todo](todo/01_summary.md) | 1 article |
  | [tools](tools/01_summary.md) | 3 articles |
  | [trello](trello/01_summary.md) | 1 article |
  | [tutorials](tutorials/01_summary.md) | 1 article |
@@ -155,5 +162,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-621 articles
-154839 words
+627 articles
+157098 words
