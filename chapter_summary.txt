@@ -17,7 +17,12 @@ if ($currentPath -ne $currentfolder)
 
 Get-ChildItem . *.md |    
     Where-Object { $_.Name -ne "01_summary.md" } |
-    ForEach-Object { "* [" + ($_.Name.replace(".md","").replace("_"," ")) + "]($_)"}
+    ForEach-Object { "* [" + (get-title($_)) + "]($_)"} | sort
+
+
+#Get-ChildItem . *.md |    
+#    Where-Object { $_.Name -ne "01_summary.md" } |
+#    ForEach-Object { "* [" + ($_.Name.replace(".md","").replace("_"," ")) + "]($_)"}
 
 if ($doPop) { pop-location; $doPop = $false; }
 

@@ -11,13 +11,13 @@ Available online:
 - [TIL.secretGeek.net](https://TIL.secretGeek.net/)
 - [HTML Source repo](https://github.com/secretGeek/today-i-learned)
 - [Markdown Source repo](https://github.com/secretGeek/today-i-learned-staging)
-- Generated with [clowncar🤡🚗](https://github.com/secretGeek/clowncar), markdown conversion by [markdig](https://github.com/lunet-io/markdig)
+- This site is generated with [clowncar🤡🚗](https://github.com/secretGeek/clowncar), with markdown conversion by [markdig](https://github.com/lunet-io/markdig)
 
 ## Guidelines
 
-Each page included within this site should be a factoids that you **expect to refer to again**.
+Each page included within this site should be a factoid that you **expect to refer to again**.
 
-Hence, any factoid that is merely "Well that's interesting!" but would *never* be referenced again is NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) category is somewhat of an exception).
+Hence, any factoid that is merely "Well that's interesting!" but would *never* be referenced again is "trivia" and NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) category is an exception).
 
 The folder structure means things are categorised by ONE main topic, not tagged with endless topics/subtopics.
 
@@ -32,14 +32,14 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 - [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
 - [secretGeek.net](http://www.secretGeek.net) &mdash; my blog
-- [List of Second Brains](https://github.com/KasperZutterman/Second-Brain/blob/master/README.md) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
-- (Still looking for a suitable list of digital gardens)
+- [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
+- [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
 
-## Get this book
+## Oh and I wrote this:
 
 [![Choose Your First Product](yfp_book.png)](https://YourFirstProduct.com)
 
-Though this site is published as a free digital-only book, I've also published a *real* book.
+Though this site is published as a free digital-only book, I've also published a *real* book to help product creators.
 
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
 
@@ -163,4 +163,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 627 articles
-157098 words
+157117 words

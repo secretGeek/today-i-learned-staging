@@ -2,4 +2,4 @@
 
 (Typo above, I meant `FileInfo` not `FileSystemInfo`)
  
-* See [Get Parts of a FileInfo object](parts_of_a_fileInfo_object.md)
+- See [Get Parts of a FileInfo object](parts_of_a_fileInfo_object.md)

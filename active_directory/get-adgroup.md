@@ -10,17 +10,15 @@ To get this module you need to install "RSAT" or "Remote Server Administration T
 			Manage Optional Features | 
 				Add a feature | 
 					"RSAT: Active Directory Domain Services and Lightweight Directory Services Tools"
-				
+
 ...bit of a mouthful. (There are a lot of other RSAT features to pick from.)				
 
 Once that's installed, you can get Ad group info via:
-
 
 	get-adgroup "THE-GROUPS-NAME" -properties *
 
 
 And similarly:
-
 
 	get-aduser "my-user-name" -properties *
 

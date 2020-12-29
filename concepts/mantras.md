@@ -1,4 +1,4 @@
-# mantras
+# Mantras
 
  * be kind.
  * this too shall pass.

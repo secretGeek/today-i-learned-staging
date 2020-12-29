@@ -14,18 +14,25 @@ Create a *new zip* (or add to an existing zip) called `example1.zip`, and add al
 -----
 
 
-Add all files a *new zip* (or add to an existing zip), including subfolders:
+## Add all files to a *new zip*
+
+(or add to an existing zip) including subfolders:
 
 
 	7za a example1.zip -r *
 
 
-- **Nasty trick**: the wildcard `*` will match "all" files whereas `*.*` will only match files with an extension (it will not match files with no extension).
+`Nasty gotcha` 
+
+- the wildcard `*` will match **all** files
+- whereas `*.*` will *only* match files **with** an extension (i.e. it will not match files with *no* extension)
 
 
 -----
 
-Unzip a .zip file to a folder (they call it eXtract)
+## Unzip a .zip file to a folder 
+
+(they call it eXtract)
 
 	7z x "MyZip.zip" -oMyFolder
 
@@ -33,6 +40,8 @@ Unzip a .zip file to a folder (they call it eXtract)
 
 -----
 
+
+## Help output
 
 	7-Zip (a) 19.00 (x86) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
 

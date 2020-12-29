@@ -1,6 +1,9 @@
-write-host -NoNewline "Getting TIL content from mercurial util subfolder" -foregroundcolor   "white"
+write-host -NoNewline "Getting TIL content from util subfolder" -foregroundcolor   "white"
 
 .\get.ps1
+
+
+. .\get-title.ps1
 
 write-host "...DONE" -foregroundcolor   "green"
 
