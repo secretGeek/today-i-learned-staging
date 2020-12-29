@@ -1,4 +1,4 @@
-# vs2017: How to Fix, Refresh credenitals produces 'Unknown error'
+# VS 2017: How to Fix, Refresh credentials produces 'Unknown error'
 
 
 

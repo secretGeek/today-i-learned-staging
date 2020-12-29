@@ -1,4 +1,4 @@
-# cron and crontab
+# Cron and crontab
 
 cron runs commands periodically.
 

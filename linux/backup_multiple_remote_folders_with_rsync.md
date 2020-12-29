@@ -1,4 +1,4 @@
-# backup multiple remote folders with rsync
+# Backup multiple remote folders with rsync
 
 Yes you can [Backup remote folders with rsync](backup_remote_folders_with_rsync.md) (and ssh) but when backing up multiple folders you don't want to enter your ssh password multiple times.
 

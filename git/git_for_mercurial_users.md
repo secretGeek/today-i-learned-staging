@@ -27,7 +27,6 @@ See: <https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone>
 
 
 
-
 ## git config example
 
 	[http]
@@ -35,7 +34,7 @@ See: <https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone>
 	[https]
 		proxy = {your proxy if needed}
 	[user]
-		name = Leon 
+		name = Leon
 		email = Leon@example.com
 	[credential]
 		helper = manager
@@ -50,7 +49,7 @@ See: <https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone>
 		path = !"git paths"
 		heads = show-ref
 		alias = config --get-regexp alias
-		
+
 
 ## set up your config
 
@@ -64,5 +63,5 @@ See: <https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone>
 
 ## See also
 
-* [Phil Haack's aliases](http://haacked.com/archive/2014/07/28/github-flow-aliases/)
-* [Rosetta stone](https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone)
+- [Phil Haack's aliases](http://haacked.com/archive/2014/07/28/github-flow-aliases/)
+- [Rosetta stone](https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone)

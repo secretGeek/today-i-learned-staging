@@ -1,4 +1,4 @@
-# resolve: mercurial abort: error: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+# Resolve: mercurial abort: error: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
 
 When trying to pull from bitbucket while behind a corporate firewall i had this error:
 

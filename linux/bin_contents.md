@@ -1,4 +1,4 @@
-# what's in /bin
+# What's in /bin
 
 Here's what's in the /bin of a linux VM i've been messing with lately.
 

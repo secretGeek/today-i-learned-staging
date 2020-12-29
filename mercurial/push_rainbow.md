@@ -1,4 +1,4 @@
-# hg push to bitbucket resulted in a rainbow
+# hg push to bitbucket resulted in a rainbow... why?
 
 ![hg_push_resulted_in_this.png](hg_push_resulted_in_this.png)
 

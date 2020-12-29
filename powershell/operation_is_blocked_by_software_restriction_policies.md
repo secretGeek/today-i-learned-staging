@@ -1,4 +1,4 @@
-# operation is blocked by software restriction policies
+# Operation is blocked by software restriction policies
 
 On loading my [profile](create_profile.md) on a new machine, as a mortal account, I would suffer this problem:
 
@@ -9,7 +9,7 @@ When running as admin I did not get the same issue.
 
 When running as a mortal account:
 
-    Get-ExecutionPolicy -List
+	Get-ExecutionPolicy -List
 
 ...showed me that the execution policy was `RemoteSigned`
 
@@ -20,4 +20,4 @@ The trick was... it was a 0 byte file! It had been created but never populated. 
 
 ## See Also
 
- * [create profile](create_profile.md)
+- [create profile](create_profile.md)

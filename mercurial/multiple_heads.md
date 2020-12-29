@@ -1,4 +1,4 @@
-# multiple heads when trying to update or trying to fetch.
+# Multiple heads when trying to update or trying to fetch.
 
     hg fetch
     abort: multiple heads in this branch (use "hg heads ." and "hg merge" to merge)

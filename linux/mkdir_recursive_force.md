@@ -1,4 +1,4 @@
-# mkdir recursive/force
+# Make Deep Directory, Recursive, As Needed
 
 If you want to make directories in linux and *force* it to recursively make parent directories as needed, use:
 

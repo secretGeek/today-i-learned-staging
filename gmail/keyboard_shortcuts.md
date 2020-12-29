@@ -1,4 +1,4 @@
-# gmail keyboard shortcuts
+# Gmail keyboard shortcuts
 
 ![keyboard shortcuts gmail](dashkard-gmail.png 'keyboard shortcuts')
 

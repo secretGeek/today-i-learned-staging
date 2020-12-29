@@ -1,4 +1,4 @@
-# add or remove a class
+# Add or remove a class
 
 We're going to look at all the elements with a class of cat, and then test for a class, remove a class, and add a class.
 
@@ -14,8 +14,7 @@ Everything you need to do with a class. Pretty much.
 
 
 
-(I just noticed that this example uses a little helper function I keep handy...)
-
+(I just noticed that this example uses a little helper function I keep handy...
 
 	function $(selector) {
 		return document.querySelectorAll(selector);
@@ -27,4 +26,4 @@ Everything you need to do with a class. Pretty much.
 		return document.getElementById(id);
 	}
 
-)
+...)

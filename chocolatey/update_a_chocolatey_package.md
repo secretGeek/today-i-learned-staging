@@ -1,10 +1,9 @@
-# update a chocolatey package
+# Update a chocolatey package
 
 Actually called  "upgrade"
 
-
-choco upgrade <pkg|all> [<pkg2> <pkgN>] [<options/switches>]
-cup <pkg|all> [<pkg2> <pkgN>] [<options/switches>]
+	choco upgrade <pkg|all> [<pkg2> <pkgN>] [<options/switches>]
+	cup <pkg|all> [<pkg2> <pkgN>] [<options/switches>]
 
 e.g.
 

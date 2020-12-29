@@ -1,5 +1,4 @@
-# format number with padding
-
+# Format number with padding
 
 
 	write-host ([string]$n).padleft(3,"_") -f green -n

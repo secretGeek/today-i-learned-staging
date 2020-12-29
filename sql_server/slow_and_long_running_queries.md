@@ -1,4 +1,4 @@
-# slow and long running queries
+# Slow and long running queries
 
 Famous query to show which queries are the worst performers.
 

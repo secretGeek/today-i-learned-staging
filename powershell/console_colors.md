@@ -1,7 +1,7 @@
-# see all console colors:
+# See all console colors:
 
 
-    [enum]::GetValues([System.ConsoleColor]) | Foreach-Object {Write-Host $_ -ForegroundColor $_}
+	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object {Write-Host $_ -ForegroundColor $_}
 
 
  * Black
@@ -23,14 +23,14 @@
 
 Or to try every possible foreground/background combo:
 
-    $colors = [enum]::GetValues([System.ConsoleColor])
-    foreach( $fcolor in $colors )
-    {
-        foreach( $bcolor in $colors )
-        {
-            Write-Host -NoNewLine "$fcolor/$bcolor "-ForegroundColor $fcolor -BackgroundColor $bcolor
-        }
-    }
+	$colors = [enum]::GetValues([System.ConsoleColor])
+	foreach( $fcolor in $colors )
+	{
+		foreach( $bcolor in $colors )
+		{
+			Write-Host -NoNewLine "$fcolor/$bcolor "-ForegroundColor $fcolor -BackgroundColor $bcolor
+		}
+	}
 
 
 <!--  [enum]::GetValues([System.ConsoleColor]) | % { Write-Host " * $($_)" -f ($_) }  -->

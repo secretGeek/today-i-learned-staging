@@ -1,8 +1,8 @@
-# setup as new ipad?
+# Setup as new ipad?
 
-we have an existing ipad, have used it for a year, but have never plugged it into a computer here. (it's a school ipad)
+We have an existing ipad, have used it for a year, but have never plugged it into a computer here. (it's a school ipad)
 
-we just plugged it in for the first time and were given two options:
+We just plugged it in for the first time and were given two options:
 
  1. restore from backup
  2. setup as new ipad

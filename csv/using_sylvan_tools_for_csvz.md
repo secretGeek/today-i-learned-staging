@@ -1,4 +1,4 @@
-# using sylvan tools for csvz
+# Using sylvan tools for csvz
 
 The first tool I've seen that supports the [csvz specification](https://github.com/secretGeek/csvz) is `csvz.exe` from [Sylvan.Data.CsvZip](https://github.com/MarkPflug/Sylvan.Data.CsvZip) by [Mark Pflug](https://markpflug.github.io/).
 
@@ -54,7 +54,7 @@ I copied the resulting `.csvz` file to `.zip`:
 	Files: 3
 	Size:       319
 	Compressed: 596
-	
+
 Now I'll inspect the output folder and see what we have....	
 
 	> cd .\output\

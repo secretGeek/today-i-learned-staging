@@ -1,4 +1,4 @@
-# install yarn on windows 2020
+# Install yarn on windows 2020
 
 Tired of errors from `npm`, i now want errors from `yarn` too.
 

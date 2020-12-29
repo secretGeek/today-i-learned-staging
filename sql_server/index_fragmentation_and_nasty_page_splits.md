@@ -1,4 +1,4 @@
-# index fragmentation and nasty page splits
+# Index fragmentation and nasty page splits
 
 
 I learned most about index fragmentation and 'nasty' page splits from Paul Randal in his pluralsight course '[SQL Server: Index Fragmentation Internals, Analysis, and Solutions]'(https://app.pluralsight.com/library/courses/sqlserver-index-fragmentation-internals-analysis-solutions/table-of-contents)

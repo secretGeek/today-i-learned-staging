@@ -1,4 +1,4 @@
-# nano 
+# Nano 
 
 Common shortcut keys which are worth committing to finger memory are:
 

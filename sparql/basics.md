@@ -1,4 +1,4 @@
-# sparql -- basics
+# Sparql -- basics
 
 
 	SELECT ?a ?b ?c

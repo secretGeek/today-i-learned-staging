@@ -1,4 +1,4 @@
-# date format in powershell
+# Date format in powershell
 
 Simple!
 

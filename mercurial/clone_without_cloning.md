@@ -1,4 +1,4 @@
-# clone without cloning
+# Clone without cloning
 
 Scenario:
 

@@ -1,4 +1,4 @@
-# shutdown from commandline
+# Shutdown from commandline
 
 To shutdown a machine use:
 

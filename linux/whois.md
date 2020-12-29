@@ -1,4 +1,4 @@
-# use whois on linux to see if a domain is registered (and other uses)
+# Use whois on linux to see if a domain is registered (and other uses)
 
 
 

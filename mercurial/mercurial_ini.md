@@ -1,4 +1,4 @@
-# mercurial.ini -- home of mercurial's config.
+# Mercurial.ini -- home of mercurial's config.
 
 (or on non-windows machines, your `.hgrc` file.)
 

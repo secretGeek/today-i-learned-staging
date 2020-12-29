@@ -1,4 +1,4 @@
-# how to draw a circle with svg
+# How to draw a circle with svg
 
 
 	<svg>

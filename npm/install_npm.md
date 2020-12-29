@@ -1,4 +1,4 @@
-# install npm 
+# Install npm 
 
 Install npm by installing node. 
 

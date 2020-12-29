@@ -1,4 +1,4 @@
-# install node on windows subsystem for linux / ubuntu
+# Install node on windows subsystem for linux / ubuntu
 
 The guide referenced in the source section is useful.
 
@@ -9,14 +9,14 @@ Ensure you have a `~/.bashrc`, as the following script depends on it existing.
 	$ touch ~/.bashrc
 
 Download and execute the script listed here. (The full content of the script is provided further down, for inspection....)
-	
+
 	$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 
-	
+
 All going well, that will have put nvm - the node version manager - on your system.
 
-To use it you need to restart bash...	
-	
+To use it you need to restart bash...
+
 	// restart bash
 
 
@@ -24,7 +24,7 @@ Now use nvm to install node....
 
 	$ nvm install node
 
-	
+
 Result was something like this:
 
 
@@ -36,8 +36,8 @@ Result was something like this:
 	Checksums matched!
 	Now using node v10.8.0 (npm v6.2.0)
 	Creating default alias: default -> node (-> v10.8.0)
-	
-	
+
+
 
 Here's the full content of the script from <https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh>
 
@@ -435,9 +435,8 @@ Here's the full content of the script from <https://raw.githubusercontent.com/cr
 
 	[ "_$NVM_ENV" = "_testing" ] || nvm_do_install
 
-	} # this ensures the entire script is downloaded #	
-	
+	} # this ensures the entire script is downloaded #
+
 ## source
 
  * [WSL install Node](https://gist.github.com/micahgodbolt/8b9a338c8bab7bc147975646ea20826c)
- 
