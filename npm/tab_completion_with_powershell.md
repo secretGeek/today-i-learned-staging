@@ -43,7 +43,7 @@ You need to install the NuGet Package Provider.
     
  * Doug blog post on it: [3 Ways to Speed up Visual Studio Code Extension Development](http://dougfinke.com/blog/3-ways-to-speed-up-visual-studio-code-extension-development/)
  * [Github dfinke/NPMTabCompletion](https://github.com/dfinke/NPMTabCompletion)
- * [npm is not just for node... npm is for EVERYTHING](http://www.secretgeek.net/npm_tab)
+ * [npm is not just for node... npm is for EVERYTHING](https://secretgeek.net/npm_tab)
     
 ## See also
 

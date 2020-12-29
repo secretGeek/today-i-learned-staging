@@ -10,5 +10,5 @@ But i've had to disable that because it fails if i have a local commit that adde
 
 ## See also
 
- * [The little known beauty of .ensure files](http://www.secretgeek.net/ensure)
+ * [The little known beauty of .ensure files](https://secretgeek.net/ensure)
 

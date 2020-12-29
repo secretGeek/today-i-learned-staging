@@ -1,6 +1,6 @@
 # Search all views functions or sprocs for a piece of text
 
-This is my most used snippet in "[kv](http://www.secretgeek.net/kv)" (key value snippet storer). "kv sysc"
+This is my most used snippet in "[kv](https://secretgeek.net/kv)" (key value snippet storer). "kv sysc"
 
     Select distinct 'sp_helptext ''' + Schema_Name(UID) + '.' + so.Name + '''
     go' from sysobjects so inner join syscomments sc on so.id = sc.id where sc.text like

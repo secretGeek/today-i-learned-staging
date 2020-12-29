@@ -1,4 +1,4 @@
-## Places to get ebooks
+# Places to get ebooks
 
 Apart from your local library (for example [Brisbane City Council free ebooks and audiobooks](ebooks_and_audiobooks.md)), here are some useful sites:
 
@@ -6,8 +6,6 @@ Apart from your local library (for example [Brisbane City Council free ebooks an
  * [Standard EBooks](https://standardebooks.org) -- beautifully formatted free ebooks.
  * [Open Library](https://openlibrary.org/) -- part of the Internet Archive. (which is great!)
  * [Google ebook store](https://play.google.com/store/books/collection/topselling_free) - access to the topselling free ebooks
-
-
 
 
 There is a system called Library Genesis or LibGen, currently available at https://libgen.is/ which allows you to find ebooks. It's similar to sci-hub.
@@ -18,6 +16,8 @@ Free audio books at:
 * <http://www.openculture.com/freeaudiobooks>
 * [librivox](https://librivox.org) 
 * <https://audiobookreviews.com>
+
+And:
 
 > On iOS, for those of us addicted to convenience, the Oldio app provides free Audible-style listening to Librivo
 > <br />&mdash;[hn comments](https://news.ycombinator.com/item?id=22104143)

@@ -19,4 +19,4 @@
 
 Not even sure what all of these do.
 
-Some are left over from when I was playing with [writing mercurial extensions](http://www.secretgeek.net/mercurial_extensions)
+Some are left over from when I was playing with [writing mercurial extensions](https://secretgeek.net/mercurial_extensions)

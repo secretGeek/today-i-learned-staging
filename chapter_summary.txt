@@ -3,26 +3,22 @@
 $currentFolder = ($file -split '\\')[-2]
 $currentPath = ((Get-Location).path -split '\\')[-1]
 
-if ($currentPath -ne $currentfolder) 
-{ 
-    Push-Location $currentFolder; 
-    $doPop = $true 
+if ($currentPath -ne $currentfolder)
+{
+	Push-Location $currentFolder;
+	$doPop = $true
 }
 
 ""
-("# " + $currentFolder.replace("_"," "))
-"### chapter contents"
+("# " + $currentFolder.replace("_"," ") + "{.chapter}")
+"### content"
 " "
 #" * [$currentFolder](01_summary.md)"
 
-Get-ChildItem . *.md |    
-    Where-Object { $_.Name -ne "01_summary.md" } |
-    ForEach-Object { "* [" + (get-title($_)) + "]($_)"} | sort
+Get-ChildItem . *.md |
+	Where-Object { $_.Name -ne "01_summary.md" } |
+	ForEach-Object { "* [" + (get-title($_)) + "]($_)"} | sort
 
-
-#Get-ChildItem . *.md |    
-#    Where-Object { $_.Name -ne "01_summary.md" } |
-#    ForEach-Object { "* [" + ($_.Name.replace(".md","").replace("_"," ")) + "]($_)"}
 
 if ($doPop) { pop-location; $doPop = $false; }
 

@@ -101,5 +101,5 @@ Four files:
 ## See also
 
  * [markjump in powershell](https://github.com/secretGeek/markjump)
- * [CRUMBS! Commandline navigation tool for Powershell](http://www.secretgeek.net/crumbs)
+ * [CRUMBS! Commandline navigation tool for Powershell](https://secretgeek.net/crumbs)
  

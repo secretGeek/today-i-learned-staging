@@ -104,7 +104,7 @@ Others recommend:
 
 Previously I wrote this nasty article which showed a way to get very confused by custom errors in asp.net mvc (including deliberate typos) 
 
-[Custom Errors in ASP.Net MVC: It couldn't be simpler, right?](http://www.secretgeek.net/custom_errors_mvc)
+[Custom Errors in ASP.Net MVC: It couldn't be simpler, right?](https://secretgeek.net/custom_errors_mvc)
 
 One comment there was very helpful, but a particular stack overflow answer was most helpful
 

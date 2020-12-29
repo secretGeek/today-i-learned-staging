@@ -31,7 +31,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 
 - [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
-- [secretGeek.net](http://www.secretGeek.net) &mdash; my blog
+- [secretGeek.net](https://secretGeek.net) &mdash; my blog
 - [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
 - [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
 
@@ -163,4 +163,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 626 articles
-157123 words
+157164 words

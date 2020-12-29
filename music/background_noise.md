@@ -19,7 +19,7 @@ Note also that spotify has a headspace playlist. This can be a good way to get i
 
 * [Carl Franklin: Music to Code by](http://mtcb.pwop.com/)
 * <http://musicforprogramming.net>
-* [The Deep Focus playlist](https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ?si=AnAvIpDkTD2nTSSEEKfcSQ) at spotify is pretty good. see: <http://www.secretgeek.net/DeepFocus>
+* [The Deep Focus playlist](https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ?si=AnAvIpDkTD2nTSSEEKfcSQ) at spotify is pretty good. see: <https://secretgeek.net/DeepFocus>
 * Trance playlists
 * Psychedelic and neo-psychedelic guitar
 * Lo-fi beats

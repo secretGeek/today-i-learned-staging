@@ -1,6 +1,11 @@
-## Logarithms
+# Logarithms
 
 
+First some notation....
+
+	n^x = n to the power of x
+
+and
 
 	Log_n (n^x) = x   (where the _n denotes "subscript n" and means the Log was in base n)
 
@@ -17,7 +22,7 @@ Similarly:
 
 	Log_e (e) = 1
 
-Log base e is referred to as "the natural log" and written as the function "ln" (pronounced “Lin”)
+Log base `e` is referred to as "the natural log" and written as the function "ln" (pronounced `Lin`)
 
 Where e is [Euler's numbers](eulers_number.md)
 
@@ -35,7 +40,7 @@ By convention, if you write Log(x) without specifying a base, then you assume it
 	Because n^0 = 1
 
 
-## Log is undefined for 0 and negative numbers.	
+## Log is undefined for 0 and negative numbers.
 
 As a positive number get smaller and smaller and closer to zero the Log of the number becomes a huge negative number
 
@@ -44,7 +49,7 @@ e.g. 10^-10000000   is 0.0000001
 So   Log(0.00000001) = -7
 
 What happens when the number reaches 0? We are in spooky 'undefined' territory
-	
+
 
 	ln(0) = undefined
 
@@ -53,7 +58,7 @@ What happens when the number reaches 0? We are in spooky 'undefined' territory
 
 
 
-	
+
 ## Basic log rules(these work for any base)
 
 	Log(m^n) = n Log(m)
@@ -61,26 +66,27 @@ What happens when the number reaches 0? We are in spooky 'undefined' territory
 
 	Log(a) + Log(b) = Log(a*b)
 
-e.g. 
+e.g.
 	Log(10) + Log(1000) = 1+3 = 4
     Log(10000) = 4
-	10000 = 10*1000 
+	10000 = 10*1000
 
-	
+
 	Log(a) - Log(b) = Log(a/b)
 
-e.g. 
-	Log(10000) - Log(100) = Log(10000/100) = Log(100) = 2
-	
+e.g.
 
-The Log base switch rule
+	Log(10000) - Log(100) = Log(10000/100) = Log(100) = 2
+
+
+The "Log base switch rule"
 
 
 	log_b(c) = 1 / log_c(b)
 
-	
-	
-## Convert to the natural log.	
+
+
+## Convert to the natural log.
 
 
 Sometimes you'll have an equation that has a base other than 10 or `e`. To be able to get an answer on your calculator you'll need to convert it to base 10 or base `e`.
@@ -93,11 +99,11 @@ So perhaps you've ended up with an answer of: `log_12 (14)`
 
 To turn this into a number....
 
-	log_12 (14) = ln(14) / ln(12) 
-	
-Which you can plug into a calculator (provided it has a `ln` button, i.e. it is a 'scientific' calculator)	
+	log_12 (14) = ln(14) / ln(12)
+
+Which you can plug into a calculator (provided it has a `ln` button, i.e. it is a 'scientific' calculator)
 
 
-	
+
 
 

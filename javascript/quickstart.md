@@ -1,6 +1,6 @@
 # Quick start javascript snippet...
 
-When I want to test something in vanilla js quickly, i use the `js` snippet I keep in [kv](http://www.secretgeek.net/kv)
+When I want to test something in vanilla js quickly, i use the `js` snippet I keep in [kv](https://secretgeek.net/kv)
 
 In other words, I type `kv js` and then a suitable starting script is on my clipboard, I put that into a new file, and I'm away.
 
@@ -44,6 +44,6 @@ Here's how to add such a script to your own `kv`. (it should be in your [utils r
 
 ## See also
 
- * [kv](http://www.secretgeek.net/kv)
+ * [kv](https://secretgeek.net/kv)
  * [here-strings](../powershell/here-strings)
  * [tools](../tools/list_of_tools.md)

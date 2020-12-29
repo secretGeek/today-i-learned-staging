@@ -1,6 +1,6 @@
 # Javascript function to generate a guid
 
-As seen at [HotGuids](http://www.secretgeek.net/hotGuids/index.htm)
+As seen at [HotGuids](https://secretgeek.net/hotGuids/index.htm)
 
 
 

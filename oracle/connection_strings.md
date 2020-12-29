@@ -54,4 +54,4 @@ Inside that file, if you specify
 
 ## Source
 
- * <http://www.secretgeek.net/tnsnames>
+ * [The Secret Life of Connection Strings In Oracle! (Oracle DBA's Hate Me.)](https://secretgeek.net/tnsnames) &mdash; blogpost developed alongside these notes

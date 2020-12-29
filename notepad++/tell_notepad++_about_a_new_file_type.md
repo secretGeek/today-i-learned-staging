@@ -12,4 +12,4 @@
 
 ## Source
 
- * [The Zen of Telling Notepad++ That .Config Files are XML](http://www.secretgeek.net/notepad_plus_plus_config)
+ * [The Zen of Telling Notepad++ That .Config Files are XML](https://secretgeek.net/notepad_plus_plus_config)

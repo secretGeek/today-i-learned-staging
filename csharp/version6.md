@@ -234,7 +234,7 @@ And if it's a local static class, you need to give its fully qualified name, whi
 
 ## null conditional operators
 
-I've said [previously](http://www.secretgeek.net/cruel_compiler) that statements like this are basically `NullReferenceException` generators:
+I've said [previously](https://secretgeek.net/cruel_compiler) that statements like this are basically `NullReferenceException` generators:
 
     return Person.Manager.Manager.Employees[3].Manager.Name;
 
@@ -365,7 +365,7 @@ Because this format can already contain ':' chars, e.g. {name:F2} -- it presents
 
 Many more details at [this tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/string-interpolation)
 
-C# has needed this for a long time, I use it every chance I get. Here's ancient articles wishing for it: [previously](http://www.secretgeek.net/string_templating) and [phil haack 10years earlier](https://haacked.com/archive/2009/01/04/fun-with-named-formats-string-parsing-and-edge-cases.aspx/)
+C# has needed this for a long time, I use it every chance I get. Here's ancient articles wishing for it: [previously](https://secretgeek.net/string_templating) and [phil haack 10years earlier](https://haacked.com/archive/2009/01/04/fun-with-named-formats-string-parsing-and-edge-cases.aspx/)
 
 
 ## exception filters
