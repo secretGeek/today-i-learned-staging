@@ -24,3 +24,14 @@ And:
 
 * ["Non-resident" library cards](https://weightywords.net/best-non-resident-library-cards-for-overdrive-access/) - as a way to get access in overdrive to more collections.
 * https://wiki.mobileread.com/wiki/EBook_Lending_Libraries#Widely_Accessible_Libraries_and_Subscription_Services
+
+And another thing is the smithsonian open access:
+
+- <https://www.si.edu/openaccess>
+
+> ...where you can download, share, and reuse millions of the Smithsonian’s images—right now, without asking. With new platforms and tools, you have easier access to more than 3 million 2D and 3D digital items from our collections—with many more to come. This includes images and data from across the Smithsonian’s 19 museums, nine research centers, libraries, archives, and the National Zoo
+
+(I'm not really sure where/how to catalog that? When will I need this? It has awesome old pictures, and machines and diagrams and drawings of animals and places and buildings...)
+
+![smithsonian-example][smithsonian-example.jpg]
+

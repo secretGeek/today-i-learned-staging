@@ -50,7 +50,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 7 articles |
+| [.net](.net/01_summary.md) | 8 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
  | [7z](7z/01_summary.md) | 2 articles |
  | [active directory](active_directory/01_summary.md) | 1 article |
@@ -91,7 +91,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 10 articles |
+ | [javascript](javascript/01_summary.md) | 11 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [json](json/01_summary.md) | 1 article |
@@ -118,7 +118,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 87 articles |
+ | [powershell](powershell/01_summary.md) | 89 articles |
  | [productivity](productivity/01_summary.md) | 3 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 3 articles |
@@ -134,11 +134,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 2 articles |
- | [sql server](sql_server/01_summary.md) | 65 articles |
+ | [sql server](sql_server/01_summary.md) | 66 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
  | [svg](svg/01_summary.md) | 4 articles |
+ | [tcl](tcl/01_summary.md) | 1 article |
  | [todo](todo/01_summary.md) | 1 article |
  | [tools](tools/01_summary.md) | 3 articles |
  | [trello](trello/01_summary.md) | 1 article |
@@ -162,5 +163,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-626 articles
-157164 words
+632 articles
+158757 words

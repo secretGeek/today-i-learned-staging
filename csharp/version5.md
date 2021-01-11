@@ -20,6 +20,7 @@ and
 
 > For CPU-bound code, you `await` an operation which is started on a background thread with the `Task.Run` method.
 
+
 ### CPU-Bound example:
 
 
@@ -33,7 +34,7 @@ Imagine we have a very expensive CPU-bound calculation, such as:
 
 (Ideally it would be doing something intensely cool and mathematical instead of just sleeping. This is just a tribute to such code...)
 
-How can we ensure our code stays responsive, even while we do such am *instense* calculation?
+How can we ensure our code stays responsive, even while we do such an *intense* calculation?
 
 This is an example designed for linqPad...
 
@@ -100,22 +101,23 @@ If the 'Do something with our data' was going to be a CPU-intensive operation...
 
 ## Caller info attributes 
 
-
 Well look at this!
 
-By applying these attributes to some members you can have them magically populated with some info from the compiler....
+By applying these "Caller" related attributes from `System.Runtime.CompilerServices` to some members you can have them magically populated with some info from the compiler....
 
 This is a strange magic!
 
+	// using System.Runtime.CompilerServices;
+	
 	void Main()
 	{
-		DoThing("Thing");
+		LogThisMomentInTime("Here I am!");
 	}
 
-	void DoThing(string message,
-			[System.Runtime.CompilerServices.CallerMemberName] string memberName = "",
-			[System.Runtime.CompilerServices.CallerFilePath] string sourceFilePath = "",
-			[System.Runtime.CompilerServices.CallerLineNumber] int sourceLineNumber = 0)
+	void LogThisMomentInTime(string message,
+			[CallerMemberName] string memberName = "",
+			[CallerFilePath] string sourceFilePath = "",
+			[CallerLineNumber] int sourceLineNumber = 0)
 	{
 		message.Dump("Message");
 		memberName.Dump("MemberName");
@@ -123,10 +125,31 @@ This is a strange magic!
 		sourceLineNumber.Dump("SourceLineNumber");
 	}
 
-([Shared online with linqpad query sharing....](http://share.linqpad.net/dul59u.linq))
+- [Shared online with linqpad query sharing....](http://share.linqpad.net/dul59u.linq)
+
+**Bonus** -- we can also add on top the [version 6](version6.md) feature, `nameof`, and even get rid of the hard-coded "Message" string and others above!
+
+	//using System.Runtime.CompilerServices;
+	
+	void LogThisMomentInTime(string message,
+			[CallerMemberName] string memberName = "",
+			[CallerFilePath] string sourceFilePath = "",
+			[CallerLineNumber] int sourceLineNumber = 0)
+	{
+		// Look ma, no hard coded strings!!
+		message.Dump(nameof(message));
+		memberName.Dump(nameof(memberName));
+		sourceFilePath.Dump(nameof(sourceFilePath));
+		sourceLineNumber.Dump(nameof(sourceLineNumber));
+	}
+
+- [Shared online with linqpad query sharing....](http://share.linqpad.net/59a2ti.linq) -- includes version 6 features
 
 This would've avoided a few NT1 errors back in T-S days.
 
-* [Further Reading](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/caller-information)
+- [Further Reading](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/caller-information)
 
 
+## see also
+
+- [C Sharp version 6](version6.md)
