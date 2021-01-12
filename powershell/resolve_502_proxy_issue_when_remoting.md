@@ -9,12 +9,12 @@ You try to use powershell remoting to connect to a machine.
 
 You receive this message:
 
-	New-PSSession : [YourServer] Connecting to remote server failed with the following error message :
-	The WinRM client received an HTTP status code of 502 from the remote WS-Management service.
-	For more information, see the about_Remote_Troubleshooting Help topic.
+>	New-PSSession : [YourServer] Connecting to remote server failed with the following error message :<br />
+>	The WinRM client received an HTTP status code of 502 from the remote WS-Management service.<br />
+>	For more information, see the about_Remote_Troubleshooting Help topic.
 
 
-502 means `502 Bad Gateway` -- and I tend to think "Hmmmm, proxy?"
+502 means `502 Bad Gateway` -- and I tend to think "Hmmmm, proxy?" 🤔💭
 
 Here's the code that failed...
 

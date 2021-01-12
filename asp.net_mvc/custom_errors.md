@@ -5,11 +5,11 @@
 
 1. Inside `system.web` element in the `web.config` file:
 
-		&lt;customErrors defaultRedirect="~/Error" mode="On"&gt;
-			&lt;error statusCode="404" redirect="~/Error/NotFound" /&gt;
-			&lt;error statusCode="403" redirect="~/Error/Forbidden" /&gt;
-			&lt;error statusCode="407" redirect="~/Error/Security" /&gt;
-		&lt;/customErrors&gt;
+		<customErrors defaultRedirect="~/Error" mode="On">
+			<error statusCode="404" redirect="~/Error/NotFound" />
+			<error statusCode="403" redirect="~/Error/Forbidden" />
+			<error statusCode="407" redirect="~/Error/Security" />
+		</customErrors>
 
 2. In FilterConfig ensure you are *not* adding a `HandleErrorAttribute`
 
