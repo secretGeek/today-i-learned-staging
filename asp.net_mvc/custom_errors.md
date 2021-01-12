@@ -49,9 +49,9 @@
 
 
 
-In an action where you look for a resource but can't find it... don't do this:
+In an action where you look for a resource but can't find it... **don't do this**:
 
-	return this.HttpNotFound();
+	return this.HttpNotFound(); // don't do this! see below...
 
 ...as that will end up at the IIS error page, not your custom error page.
 instead do this:
