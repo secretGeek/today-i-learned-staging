@@ -184,3 +184,12 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
 - [q](https://harelba.github.io/q/) &mdash; Run SQL directly on CSV Files
 - [RBQL](https://rbql.org) &mdash; Rainbow Query Language, a SQL-like language with JavaScript or Python backend.
 - [PSKit Query](https://github.com/dfinke/PSKit#sql-query) &mdash; Powershell module lets you run simple queries over objects, including imported with csv.
+
+## Sponsor
+
+♥ Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transforming needs.
+
+
+## See also
+
+- [LinqPad](https://www.linqpad.net/) &mdash; [CSV to IEnumerable (or Array) in Linqpad](../linqpad/csv_to_array.md)
