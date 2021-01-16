@@ -25,7 +25,7 @@ Wonder what aliases exist for a command (or commands)? add the `-def` parameter 
 	get-alias -def "push-location"
 
 
-# Aliases can't have parameters: make little functions instead
+## Aliases *can't* have parameters: make little functions instead
 
 in bash, an alias can include parameters. Not so in PowerShell. It's just an abbreviation.
 

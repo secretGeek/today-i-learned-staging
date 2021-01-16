@@ -6,12 +6,12 @@ By default, statistics are configured to be updated automatically, and SQL Serve
 
 
 
-# Actual smaller than estimated:
+## Actual smaller than estimated:
 
 Kendra Little gives a counter example in the article [Query Plans: Memory Grants and High Row Estimates](https://www.brentozar.com/archive/2013/08/query-plans-what-happens-when-row-estimates-get-high/) where she shows that using functions in your predicates can make SQL Server pessimistic about the expected number of matches, which in turn causes `estimated` to be much greater than `actual`, consuming unneccessary resources etc.
 
 
-# Actual LARGER than estimated:
+## Actual LARGER than estimated:
 
 [Grant Fritchey says](http://www.sqlservercentral.com/Forums/Topic513086-360-1.aspx) that when  a table valued function, particularly a multi-statement function, is used:
 
@@ -22,7 +22,7 @@ GSquared, in that same thread, adds that **Table variables** and **Recursive CTE
 
 
 
-# Tools
+## Tools
 
 I've been using SQL Sentry's free Plan Explorer from http://sqlsentry.net/plan-explorer/.
 

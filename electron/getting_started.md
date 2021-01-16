@@ -5,14 +5,12 @@ What is it?
 > Electron enables you to create desktop applications with pure JavaScript by providing a runtime with rich native (operating system) APIs. You could see it as a variant of the Node.js runtime that is focused on desktop applications instead of web servers.
 
 
-
 Okay -- I installed yarn instead (see [install yarn on windows](../yarn/install-yarn-on-windows-2020.md)
 
 
 	yarn init
-	
-Tell it things.
 
+Tell it things.
 
 	yarn install electron
 
@@ -73,10 +71,10 @@ Done in 7.46s. That's nice.
 
 Now added a `main.js` and a `index.html` based on the tutorial i'm following -- this one.
 
-  // Open the DevTools.
-  win.webContents.openDevTools()
+	// Open the DevTools.
+	win.webContents.openDevTools()
 
-^ I like that.
+`^` I like that.
 
 I don't like this warning:
 
@@ -99,17 +97,15 @@ And it doesn't have that warning... Let me check something....
 Okay I copied over the line from the erroring project to the working project, the line that says....
 
 
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+	We are using node <script>document.write(process.versions.node)</script>,
+	Chrome <script>document.write(process.versions.chrome)</script>,
+	and Electron <script>document.write(process.versions.electron)</script>.
 
 ...and now that failed to run *and* I got this massive error message....
 
-	Refused to execute inline script because it violates the following Content Security Policy directive: "default-src 'self' script-src 'self'". Either the 'unsafe-inline' keyword, a hash ('sha256-I/aHv1UwJJBBNPzXh7y8431zWAJCeFzsD1fvSu1KqMw='), or a nonce ('nonce-...') is required to enable inline execution. Note also that 'script-src' was not explicitly set, so 'default-src' is used as a fallback.
+> Refused to execute inline script because it violates the following Content Security Policy directive: "default-src 'self' script-src 'self'". Either the 'unsafe-inline' keyword, a hash ('sha256-I/aHv1UwJJBBNPzXh7y8431zWAJCeFzsD1fvSu1KqMw='), or a nonce ('nonce-...') is required to enable inline execution. Note also that 'script-src' was not explicitly set, so 'default-src' is used as a fallback.
 
-	https://www.electronjs.org/docs/tutorial/boilerplates-and-clis
-	
-	
+See https://www.electronjs.org/docs/tutorial/boilerplates-and-clis
 
 
 ## Source
@@ -117,8 +113,9 @@ Okay I copied over the line from the erroring project to the working project, th
 - [electron first app](https://www.electronjs.org/docs/tutorial/first-app)
 
 
-/EOF
-# Everything after here is a historical note. /EOF
+	/EOF
+
+## Everything after here is a historical note.
 
 
 Getting started is as easy as:
@@ -171,49 +168,47 @@ Now:
 This goes horribly because `npm` is useless on my machine.
 
 
-
-
-# Historical Note
+## Historical Note
 
 Previous Version of this file read:
 
 Get started is as easy as:
 
-    # Clone the Quick Start repository
-    > git clone https://github.com/atom/electron-quick-start
+	# Clone the Quick Start repository
+	> git clone https://github.com/atom/electron-quick-start
 
-    # Go into the repository
-    > cd electron-quick-start
+	# Go into the repository
+	> cd electron-quick-start
 
-    # Install the dependencies and run
-    > npm install; npm start
+	# Install the dependencies and run
+	> npm install; npm start
 
 (This assumes you have [git](../git/01_summary.md) and [npm](../npm/01_summary.md).)
 
 Next, read the quick start tutorial...
 
- * http://electron.atom.io/docs/latest/tutorial/quick-start/
+ - http://electron.atom.io/docs/latest/tutorial/quick-start/
 
 [_] TODO: Wanted, examples of electron apps doing the following:
 
- * [creating a menu](https://github.com/atom/electron/blob/master/docs/api/menu.md)
- * [saving to local file system](save_to_file.md)
- * [reading from local file system](save_to_file.md)
- * self-updating
- * crash reporting
- * calling a webservice (of any sort at all)
- * obfuscation/IP protection.
- * save/load "settings" (other than explicitly using dialogs)
+ - [creating a menu](https://github.com/atom/electron/blob/master/docs/api/menu.md)
+ - [saving to local file system](save_to_file.md)
+ - [reading from local file system](save_to_file.md)
+ - self-updating
+ - crash reporting
+ - calling a webservice (of any sort at all)
+ - obfuscation/IP protection.
+ - save/load "settings" (other than explicitly using dialogs)
 
 
 
 ## Source
 
- * http://electron.atom.io/#get-started
- * http://electron.atom.io/docs/latest/tutorial/quick-start/
+ - http://electron.atom.io/#get-started
+ - http://electron.atom.io/docs/latest/tutorial/quick-start/
 
 Please watch this 9 min video. https://m.youtube.com/watch?v=ojX5yz35v4M
 
 
-# end of historical note.
+## end of historical note.
 

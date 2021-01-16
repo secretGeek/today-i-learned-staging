@@ -10,7 +10,7 @@ That way, for example, your `web.config`, your `application.config` (for some ot
 Or if you have 3 different web applications that all want the same config for just part of their config file, you can use this trick.
 
 
-# Or dynamically load connection string info...
+## Or dynamically load connection string info...
 
 
 More extremem is this method:

@@ -26,8 +26,7 @@ For example:
 Note that this allows positive *and negative* integers.
 
 
-
-# Ensure String Is a Positive Integer
+## Ensure String Is a Positive Integer
 
 
 To further check if a string is a *positive* integer.

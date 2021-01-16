@@ -16,7 +16,8 @@ Here is the codes:
 
 
 
-# Stroke Example (also a circle example)
+## Stroke Example (also a circle example)
+
 Can define a stroke using another element.
 
 
@@ -77,7 +78,7 @@ Can define a stroke using another element.
   <rect width="100%" height="100%" fill="url(#grid)" />
 </svg>
 
-# svg path commands
+## svg path commands
 
 (in the following rel. means relative and abs. means absolute.
 
@@ -254,7 +255,7 @@ Can define a stroke using another element.
 	</g>
 </svg>
 
-# Here's a squiggly one...
+## Here's a squiggly one...
 
 
 <svg class='squiggle' width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#222'>

@@ -82,7 +82,7 @@ Okay -- the answer to that is... the app's starting page is `public/index.html` 
 
 ...and `index.js` is called by `npm start` -- loads the `App` component, mounts it onto that `#root` div of `public/index.html`.
 
-# Simple things to change...
+## Simple things to change...
 
 - Look at `src/App.js`.
 - The `App` function is a component - it returns elements.
@@ -201,7 +201,7 @@ encapsulation
 move component to separate file
 
 
-# the effects of running an `eject`
+## the effects of running an `eject`
 
 	npm run eject
 
@@ -383,4 +383,4 @@ Finally: babel configured like this.
 
 ## see also
 
-- [npx](..\npm\npx.md)
+- [npx](../npm/npx.md)

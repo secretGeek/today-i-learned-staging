@@ -22,7 +22,7 @@ Make sure that if you die you don't lose your inventory with:
 ...launches TNT where you are pointing.
 
 
-# Teleport
+## Teleport
 
 	/tp ~ ~ ~
 
@@ -33,10 +33,10 @@ Make sure that if you die you don't lose your inventory with:
 (Where x y and z are values) will take you somewhere.
 
 
-# give yourself a command block
+## give yourself a command block
 
 	/give @s command_block
 
-## External
+## External references
 
 * <http://minecraftbedrock.wikia.com/wiki/Commands/List_of_Commands>

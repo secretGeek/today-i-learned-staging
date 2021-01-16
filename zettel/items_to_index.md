@@ -1,27 +1,28 @@
-# Items to index:
+# Zettelkasten: Items to index:
 
 - [Ask HN: How to organize personal knowledge?](https://news.ycombinator.com/item?id=17892731)
 
 ## Tools for Making Personal Knowledge Repositories/Systems
 
-- roam
-- notion
-- tiddlywiki
-- evernote
-- zotero
-- orgmode
-- folder of markdowns
-- docuwiki 
+- [roam](https://roamresearch.com/)
+- [notion](https://www.notion.so/) - the all in one workspace
+- [tiddlywiki](https://tiddlywiki.com/) - a non-linear personal notebook
+- [evernote](https://evernote.com/) - 
+- [zotero](https://zotero.org) - your personal research assistant
+- [orgmode](https://orgmode.org/) - your life in plain text
+- [foam](https://foambubble.github.io/foam/) - open source, inspired by roam
+- [org-roam](https://www.orgroam.com/) - combined ideas of org-mode and roam
+- [folder of markdowns](https://til.secretgeek.net)
+- [docuwiki](https://www.dokuwiki.org/dokuwiki)
 - [onemodel](http://onemodel.org/1/e-9223372036854618119.html)
-- boostnote
+- [boostnote](https://boostnote.io/) - an open source markdown editor for developers
 - [dnote](https://github.com/dnote/dnote)
 - [digraph](https://digraph.app/)
-- ZimWiki
-- bear.app
+- [ZimWiki](https://zim-wiki.org/) - a graphical text editor used to maintain a collection of wiki pages
+- [bear.app](https://bear.app)
 - [bookstack app](https://www.bookstackapp.com/)
 
 ## people with personal knowledge repositories
-
 
  - https://find.xyz/map/list-of-personal-knowledge-bases
  - https://blog.kowalczyk.info/
@@ -39,7 +40,9 @@
 
 ## meta to the topic above
 
- - [ curated list of public zettelkasten / second brains / digital gardens ](https://github.com/KasperZutterman/Second-Brain) - ([discussion at hn](https://news.ycombinator.com/item?id=23383333))
+ - [curated list of public zettelkasten / second brains / digital gardens](https://github.com/KasperZutterman/Second-Brain) - ([discussion at hn](https://news.ycombinator.com/item?id=23383333))
+ - [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
+ - [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
 
 
 ## research by researchers
@@ -92,7 +95,4 @@
 	- headings/outline structure
 	- tags/interlinks
 	- INBOUND links
-	
-	
-	
-	
+

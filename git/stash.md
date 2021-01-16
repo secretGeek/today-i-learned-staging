@@ -47,7 +47,7 @@ To see a specific item in the stack use:
 ...where {3} is the item you're looking at.
 
 
-# Avoiding the "Too many revisions specified" error
+## Avoiding the "Too many revisions specified" error
 
 Note that with powershell, if you leave out the double-quotes, i.e.
 
@@ -58,6 +58,6 @@ Note that with powershell, if you leave out the double-quotes, i.e.
 	Too many revisions specified: 'stash@' 'MAA=' 'xml' 'text'
 
 
-# Further reading
+## Further reading
 
 - [git-stash](https://git-scm.com/docs/git-stash/1.5.5)

@@ -12,6 +12,6 @@ ImageMagick is here (and is in my `path`)
 
 	C:\Program Files\ImageMagick-7.0.7-Q16\magick.exe
 
-# See also
+## See also
 
 * [Set path](../powershell/PATH.md)

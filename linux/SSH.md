@@ -46,7 +46,7 @@ What I should've done: look at the public key in PuTTYgen, where they provide a 
 
 
 
-# WARNING: UNPROTECTED PRIVATE KEY FILE!
+## WARNING: UNPROTECTED PRIVATE KEY FILE!
 
 Got this error:
 

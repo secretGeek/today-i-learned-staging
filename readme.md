@@ -67,7 +67,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
- | [csharp](csharp/01_summary.md) | 5 articles |
+ | [csharp](csharp/01_summary.md) | 6 articles |
  | [css](css/01_summary.md) | 7 articles |
  | [csv](csv/01_summary.md) | 3 articles |
  | [design](design/01_summary.md) | 2 articles |
@@ -96,7 +96,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [json](json/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
- | [linqpad](linqpad/01_summary.md) | 11 articles |
+ | [linqpad](linqpad/01_summary.md) | 12 articles |
  | [linux](linux/01_summary.md) | 38 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
@@ -163,4 +163,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-632 articles
+634 articles
+159723 words

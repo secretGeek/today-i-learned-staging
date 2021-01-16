@@ -17,7 +17,7 @@ set-alias tre treee
 tre --ignore node_modules
 
 
-### Options....
+## Options....
 
 
 	> treee --help
@@ -83,3 +83,4 @@ tre --ignore node_modules
 	$ tree
 
 	$ tree -l 2, -o out.txt --ignore [node_modules, test] -d --noreport
+

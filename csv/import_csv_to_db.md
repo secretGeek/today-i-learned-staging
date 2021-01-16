@@ -11,16 +11,17 @@ Below are many different solutions to this common problem, for a variety of data
 
 ## Table of contents:
 
-* [Any database with any OS](#any-database-with-any-os)
-* [Any database with Windows](#any-database-with-windows)
-* [Any Database with MacOS](#any-database-with-macos)
-* [MS SQL Server Specific](#ms-sql-server-specific)
-* [SQLite specific](#sqlite-specific)
-* [MySQL specific](#mysql-specific)
-* [Postgresql specific](#postgresql-specific)
-* [Oracle specific](#oracle-specific)
-* [Hadoop specific](#hadoop-specific)
-* [Alternative: Just treat the CSV as SQL](#alternative-just-treat-the-csv-as-sql)
+ - [Any database with any OS](#any-database-with-any-os)
+   - [Some brute force approaches (common!)]
+ - [Any database with Windows](#any-database-with-windows)
+ - [Any Database with MacOS](#any-database-with-macos)
+ - [MS SQL Server Specific](#ms-sql-server-specific)
+ - [SQLite specific](#sqlite-specific)
+ - [MySQL specific](#mysql-specific)
+ - [Postgresql specific](#postgresql-specific)
+ - [Oracle specific](#oracle-specific)
+ - [Hadoop specific](#hadoop-specific)
+ - [Alternative: Just treat the CSV as SQL](#alternative-just-treat-the-csv-as-sql)
 
 
 ## Any database with any OS
@@ -48,7 +49,7 @@ Below are many different solutions to this common problem, for a variety of data
 - [Navicat](https://www.navicat.com/en/) ($$$)
 
 
-#### Some brute force approaches (common!)
+### Some brute force approaches (common!)
 
 - Sublime (editor), use Multiple line edit to turn the data into SQL
 - vim, "A combination of macros, regex, and standard commands that change each line to an insert statement." (via [OJ](https://twitter.com/TheColonial/status/1180595464535601155?s=20))

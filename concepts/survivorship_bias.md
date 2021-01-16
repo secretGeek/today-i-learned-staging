@@ -15,7 +15,7 @@ We discount the role of luck (particularly when telling our own stories).
 
 If enough scientists study a phenomenon, some will find statistically significant results by chance, and these are the experiments submitted for publication. Additionally, papers showing positive results may be more appealing to editors.
 
-### Another example of a selection bias
+## Another example of a selection bias
 
 When scientists began finding exo-planets (planets that orbit a star other than the sun) the first exo planets they found were massive. These were the only exo-planets that their methods were capable of detecting.
 

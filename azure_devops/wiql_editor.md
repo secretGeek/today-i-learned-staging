@@ -38,7 +38,7 @@
 		AND NOT [System.State] CONTAINS 'Closed'
 	ORDER BY [System.BoardColumn]
 
-# Avoiding Socket Exceptions when using WorkItemTrackingHttpClient
+## Avoiding Socket Exceptions when using WorkItemTrackingHttpClient
 
 When writing a C# asp.net MVC app that queries azure devops with the `WorkItemTrackingHttpClient` -- I found I was receiving 
 

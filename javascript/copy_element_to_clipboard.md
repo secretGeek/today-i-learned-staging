@@ -180,7 +180,7 @@ And wire that up to every `pre`/`code` element like this:
 	}
 
 
-# Using this with JQuery
+## Using this with JQuery
 
 The methods above are all vanilla JS. If wiring it up with jQuery, note that you have to pass a `DOM` element, not a `JQuery` element.
 

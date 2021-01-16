@@ -20,7 +20,7 @@ The `.psm1` file ends with an `Export-ModuleMember` statement saying which funct
 	Export-ModuleMember -Function Get-Foo, New-Bar, ... -Alias gf, ..
 
 
-# How to import a local .psm1 module file
+## How to import a local .psm1 module file
 
 If you have a module as a local `.psm1` file, you can import it like this:
 

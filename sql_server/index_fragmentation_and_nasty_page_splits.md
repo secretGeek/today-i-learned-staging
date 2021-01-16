@@ -67,7 +67,7 @@ About reorganize:
 Note that although it is "online" it does still take locks, just less aggressively so. And you can run it for a little while, stop it, and allow other things to continue: it will not roll back everything it has done (as a rebuild would) -- so in that manner you could proceed a little at a time, if you must.
 
 
-# Tools to help reorganize your fragmented indexes
+## Tools to help reorganize your fragmented indexes
 
 One of the conclusions at the end of the course by Paul Randall was that the Index maintenance scripts from Ola Hallengren https://ola.hallengren.com are really the gold standard and do all of the work that would need to do if you built your own solution.
 

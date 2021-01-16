@@ -10,6 +10,6 @@ You can activate LINQPad on a machine without Internet connectivity if you go th
 Paste that code into the box on this page: https://www.linqpad.net/licensing/offline.aspx
 
 
-# Source
+## Source
 
  * https://www.linqpad.net/licensing/offline.aspx

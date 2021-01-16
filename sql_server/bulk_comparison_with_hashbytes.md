@@ -75,10 +75,10 @@ e.g.
 The maximum input to `hashbytes` -- prior to `SQL Server 2016` -- is 8000 bytes.
 
 
-# Solution for versions less than SQL Server 2016
+## Solution for versions less than SQL Server 2016
 
 
-This yak took a lot of shaving cream!
+This yak took many cans of shaving cream!
 
 
 You can use this function to hash `varbinary(max)` ... (note you don't specify which hash function is used... so I'm guessing it's possible that two different database instances *might* use different hash functions inside the repl hash binary... it may be configurable? but within one database instance this should work consistently...)

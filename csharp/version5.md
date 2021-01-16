@@ -36,7 +36,7 @@ Imagine we have a very expensive CPU-bound calculation, such as:
 
 How can we ensure our code stays responsive, even while we do such an *intense* calculation?
 
-This is an example designed for linqPad...
+(This is an example designed for linqPad...)
 
 
 	void Main()

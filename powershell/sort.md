@@ -6,7 +6,7 @@ e.g.
 
 	1..100 | % { $_ % 5} | sort -unique
 
-# To Sort by a Property
+## To Sort by a Property
 
 use:
 

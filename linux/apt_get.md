@@ -133,7 +133,7 @@ And indeed
 ...does correct the problem.
 
 
-# dpkg: unrecoverable fatal error
+## dpkg: unrecoverable fatal error
 
 	dpkg: unrecoverable fatal error, aborting:
 	fork failed: Cannot allocate memory

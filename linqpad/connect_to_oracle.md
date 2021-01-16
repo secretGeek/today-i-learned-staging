@@ -60,7 +60,7 @@ Optionallly, you can set a default schema, if you know a schema that you're most
 Hit `test` to test. And Bob's your Uncle.
 
 
-# Upgrading the "IQ Driver"
+## Upgrading the "IQ Driver"
 
 
 Although this worked perfectly well at first, one day the Oracle DBA's upgraded something on the servers and suddenly my linqpad queries returned this error:

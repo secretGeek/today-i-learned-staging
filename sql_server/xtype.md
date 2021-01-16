@@ -48,7 +48,7 @@ You can find the above table via:
 ...[see stackoverflow](https://stackoverflow.com/a/16243935)
 
 
-# Query to filter by type of object
+## Query to filter by type of object
 
 	$x = "Select Schema_Name(o.UID) + '.' + o.Name , o.Xtype, tt.[name]
 	from sysobjects o inner join  master..spt_values tt 

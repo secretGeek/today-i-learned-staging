@@ -57,11 +57,10 @@ Common mistakes people make are:
 4. Only check for embedded fieldSeparators, don't check for embedded record separators, etc.
 
 
-### Sponsor
+## Sponsor
     
 Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transforming needs.
 
 ## External link:
 
-
- * [Falsehoods programmers believe about CSVs](https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs)
+ - [Falsehoods programmers believe about CSVs](https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs)

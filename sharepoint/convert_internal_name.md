@@ -44,7 +44,6 @@ Convert the character's ascii representation to a four digit hex number, prefixe
 I don't know how a *literal* "_x" is encoded, but no doubt there is a convention, such as encoding literal `_x` as  `_xx` (thus a `_x(x)+` decodes to `_($1)` )(But this is just speculation.)
 
 
-
-# See also 
+## See also
 
 - [This NimbleText Pattern for converting sharepoint names](https://nimbletext.com/Live/-864084882/)

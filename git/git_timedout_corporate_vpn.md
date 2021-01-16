@@ -1,11 +1,8 @@
 # Fix git push timed out with corporate proxy (e.g. visual studio .com)
 
-
 ## Problem:
 
 Any commands like `git push` or  `git pull` or `git clone` were failing by timing out, while connected to the VPN.
-
-
 
 	> git push
 	fatal: unable to access 'https://exampleteamname.visualstudio.com/exampleprojectname/_git/examplereponame/': Failed to connect to exampleteamname.visualstudio.com port 443: Timed out
@@ -49,7 +46,7 @@ It was a lengthy javascript file (800 lines long), starting like this:
 
 		if(tmpURL.indexOf('://') == -1)
 		{
-				 url='http://' + url;
+			url='http://' + url;
 		}
 
 Near the end it told you the general proxy settings to use....
@@ -69,7 +66,7 @@ Near the end it told you the general proxy settings to use....
 So I took one of the proxy addresses from there 
 
 
-# What if you don't have a password?
+## What if you don't have a password?
 
 Some users use some kind of single-sign on token system where they don't really have a password. That's great and modern... but what do you stick in the config?
 
