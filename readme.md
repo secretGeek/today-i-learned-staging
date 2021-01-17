@@ -15,7 +15,7 @@ Available online:
 
 ## Guidelines
 
-Each page included within this site should be a factoid that you **expect to refer to again**.
+Each page of this site should be a factoid that you **expect to refer to again**.
 
 Hence, any factoid that is merely "Well that's interesting!" but would *never* be referenced again is "trivia" and NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) category is an exception).
 
@@ -114,7 +114,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [notepad++](notepad++/01_summary.md) | 14 articles |
  | [npm](npm/01_summary.md) | 11 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
- | [office](office/01_summary.md) | 1 article |
+ | [office](office/01_summary.md) | 2 articles |
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
@@ -163,5 +163,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-634 articles
-159750 words
+635 articles
+160056 words

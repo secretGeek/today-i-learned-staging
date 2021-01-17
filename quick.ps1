@@ -42,19 +42,13 @@ write-host "...DONE" -foregroundcolor   "green"
 
 write-host "Building summary.md and chapter summaries using pre -- the friendly pre-processor" -foregroundcolor   "white"
 
-pre
+$timeofPREcommand = measure-command {
+	pre | out-host
+}
+write-host "PRE command: $($timeofPREcommand.TotalMilliseconds)ms"  -f cyan;
 
 write-host "...DONE" -foregroundcolor   "green"
 
-write-host "NOT Building book with gitbook, so you can see it for yourself." -foregroundcolor   "white"
-# gitbook install  # re-installs all plugins
-# gitbook build .
-
-#write-host "Suggestions: " -foregroundcolor   "white"
-#write-host " * to see in browser: gitbook serve .; browse to http://localhost:4000/"
-#write-host " * see in editor: n _book\index.html"
-write-host " * git add *; git commit . -m 'blah blah'; kp git; git push"
-write-host ""
 
 write-host -NoNewline "TODO Items: " -foregroundcolor   "white"
 .\todo.ps1
