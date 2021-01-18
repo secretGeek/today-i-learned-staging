@@ -11,15 +11,14 @@ Here's a general 'vanilla js' solution:
 	function copytext(copyText) {
 		const textArea = document.createElement('textarea');
 		textArea.style.position = "absolute";
-		// to prevent scrolling on IE/Safari, place the element beside us...
+		// to prevent scrolling on IE/Safari, place the element beside us... (not a perfect solution)
 		textArea.style.top = "" + ((document.documentElement && document.documentElement.scrollTop) ||  document.body.scrollTop) + "px";
 		textArea.style.left = "-100%";
 		textArea.textContent = copyText.trim();
 		document.body.appendChild(textArea);
 		textArea.select();
 		document.execCommand("copy");
-		//Consider: visually indicate success...
-		//alert(copyText);
+		// Consider: visually indicate success... (see example below)
 		textArea.parentNode.removeChild(textArea);
 	}
 	</script>
@@ -149,11 +148,8 @@ And here's the *revised* function that does the copying itself, and which then n
 	function copyToClipboard(value, element) {
 		const textArea = document.createElement('textarea');
 		textArea.style.position = "absolute";
-		var rect = element.getBoundingClientRect();
-
 		// top is at current height, to avoid causing a scroll on IE/Safari.
-		var top = rect.top + ((document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop);
-		textArea.style.top = top + "px";
+		var lastScrollHeight = element.scrollHeight; // this is used to prevent any unwanted scrolling (particularly in IE and Safari)
 		textArea.style.left = "-100%"; // off screen
 		textArea.style.width = "200px";
 		textArea.textContent = value.trim();
@@ -162,6 +158,9 @@ And here's the *revised* function that does the copying itself, and which then n
 		document.execCommand("copy");
 		textArea.parentNode.removeChild(textArea);
 		showFloatingMessage("copied to clipboard.", element);
+		var scrollDiff = element.scrollHeight - lastScrollHeight;
+		element.scrollTop += scrollDiff; // scroll us back where we were... if there has been any change.
+
 	}
 
 
@@ -207,6 +206,6 @@ And to style that little button, this CSS is my starting point:
 		background-color: #F5F5F5; /* same as pre */
 		box-shadow: 0 0 3px #AAA, 0 0 3px #AAA;
 		margin-top: 5px;
-		margin-right:5px;
+		margin-right: 5px;
 	}
 

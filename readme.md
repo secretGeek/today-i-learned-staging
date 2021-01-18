@@ -57,7 +57,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [airtable](airtable/01_summary.md) | 1 article |
  | [angular](angular/01_summary.md) | 1 article |
  | [appharbor](appharbor/01_summary.md) | 1 article |
- | [asp.net mvc](asp.net_mvc/01_summary.md) | 13 articles |
+ | [asp.net mvc](asp.net_mvc/01_summary.md) | 14 articles |
  | [azure devops](azure_devops/01_summary.md) | 1 article |
  | [banking](banking/01_summary.md) | 1 article |
  | [boring ideas](boring_ideas/01_summary.md) | 1 article |
@@ -163,5 +163,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-635 articles
-160056 words
+636 articles
+160221 words
