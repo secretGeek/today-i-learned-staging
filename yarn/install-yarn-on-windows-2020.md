@@ -2,7 +2,7 @@
 
 Tired of errors from `npm`, i now want errors from `yarn` too.
 
-## Pre-Requisite: node.
+## Pre-Requisite: node
 
 (Check your version: `node -v`)
 
@@ -29,9 +29,7 @@ Ah... I think that worked.
 	yarn --version
 
 
-
-## Common yarn commands...
-
+## Common yarn commands
 
 
 Start a package

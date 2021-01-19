@@ -65,7 +65,7 @@ So i load it up in visual studio code, by running "code.exe ." from the commandl
     code .
 
 
-## Problem: running old version despite installing new version.
+## Problem: running old version despite installing new version
 
 
 The output from `tsc --help` above said my tsc version was `1.0.3.0`, even though the installer said "`typescript@2.0.10`"
@@ -88,7 +88,7 @@ So that old exe was found, instead of finding the one installed by npm, which is
 So I edited my path to *remove* that folder from it (notes on [editing environment variables here...](../windows/environment_variables.md))
 
 
-## Resume getting started....
+## Resume getting started
 
 You can compile multiple files at once:
 
@@ -107,7 +107,7 @@ But howbout this for clever... you can tell typescript to watch files and recomp
     tsc *.ts --out example.js --watch
 
 
-## Doing more with visual studio code.
+## Doing more with visual studio code
 
 The first step in working on a TypeScript project in visual studio code is to add a `tsconfig.json` file to the root of the project.
 
@@ -138,7 +138,7 @@ Choices under 'target' are currently:
 Knowing what these mysterious things mean is part of the magic of being a web developer in 2017. Know one knows the whole path around the elephant.
 
 
-## Configure a task runner in vs code...
+## Configure a task runner in vs code
 
 Press `ctrl shift P` (and do it sort of casually, like you knew that was the right thing to do all along)
 

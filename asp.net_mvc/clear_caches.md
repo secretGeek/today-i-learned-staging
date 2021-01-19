@@ -2,9 +2,11 @@
 
 It's not as simple as:
 
-    MemoryCache.Default.Dispose();
+    MemoryCache.Default.Dispose(); //DON'T DO THIS!
 
 Once you've done that, subsequently adding items to the cache will silently fail.
+
+All you've done is *murder* the cache.
 
 A method that *does* work &mdash; but is reportedly too drastic as it is:
 
@@ -19,7 +21,7 @@ A method that *does* work &mdash; but is reportedly too drastic as it is:
         }
     }
 
-For the small-scale sites I'm used to, that is adequate.
+For most of the small-scale sites I'm used to, **that is perfectly adequate**.
 
 An actually correct method, from http://stackoverflow.com/a/22388943/49
 
@@ -124,7 +126,11 @@ An actually correct method, from http://stackoverflow.com/a/22388943/49
 I hate this, but haven't found anything better.
 
 
-## See Also
+## Sources
 
- * http://stackoverflow.com/questions/4183270/how-to-clear-the-net-4-memorycache
- * http://stackoverflow.com/questions/8043381/how-do-i-clear-a-system-runtime-caching-memorycache/8043556#8043556
+ - http://stackoverflow.com/questions/4183270/how-to-clear-the-net-4-memorycache
+ - http://stackoverflow.com/questions/8043381/how-do-i-clear-a-system-runtime-caching-memorycache/8043556#8043556
+ 
+## See also
+
+ - [Handy Cache helper method](from_memory.md)

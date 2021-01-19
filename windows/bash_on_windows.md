@@ -1,4 +1,4 @@
-# Installing bash on windows.
+# Installing bash on windows
 
 You need to have (at least) Windows 10 anniversary edition:
 
@@ -176,7 +176,7 @@ after this line:
     127.0.0.1 localhost
 
 
-## Another error...
+## Another error
 
 If you see this...
 
