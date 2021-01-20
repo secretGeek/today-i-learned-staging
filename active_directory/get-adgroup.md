@@ -13,19 +13,78 @@ To get this module you need to install "RSAT" or "Remote Server Administration T
 
 ...bit of a mouthful. (There are a lot of other RSAT features to pick from.)				
 
+
+## Details of a group
+
 Once that's installed, you can get Ad group info via:
 
 	get-adgroup "THE-GROUPS-NAME" -properties *
 
+
+## Details of a user
 
 And similarly:
 
 	get-aduser "my-user-name" -properties *
 
 
+Usually I want:
+
+- [Details of a user]
+- [Details of a group]
+- [Which groups is a user in?]
+- [Which users are in a group?]
+- [When was the user's password last set?]
+
+## Which groups is a user in?
+
+	(Get-ADUser "MyUser" –Properties MemberOf).MemberOf
+
+But since the results are in "X.500 Directory Specification" which looks like this.... 
+
+	CN=GroupNameHere,OU=AnOrgUnit3,OU=AnOrgUnit2,OU=AnOrgUnit1,DC=aDomainComponent3,DC=aDomainComponent2,DC=aDomainComponent1
+
+...and we only want the group name (say) -- we can split it by the commas, then keep only the bits that start with "CN=" and then split that on the equals sign and keep the values of the first item in the result.
+
+	(Get-ADUser "leon.bambrick-b" –Properties MemberOf).MemberOf | % { ($_ -split "," -like "CN=*" -split "=" )[1] }
+
+
+(I did like this alternative form [at serverfault from user Canoas](https://serverfault.com/a/594724/17154) which doesn't rely on RSAT....
+
+	(New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$($env:username)))")).FindOne().GetDirectoryEntry().memberOf
+
+...)
+
+
+## Which users are in a group?
+
+	Get-ADGroupMember
+
+e.g.
+
+	get-adgroupmember "A-SPECIAL-GROUP" | % SamAccountName
+
+
+## When was the user's password last set?
+
+	$userName = "my-user-name"
+	(Get-ADUser –Identity $userName -Properties "PasswordLastSet")."PasswordLastSet"
+
+(Can be the best way to guess when it will be reset/expire..)
+
+
+## Try to find the property you want to find...
+
+What if we want to find all properties that mention "pass" -- we can do it like this:
+
+	(Get-ADUser "leon.bambrick-b" –Properties "*") | get-member | ? { $_.MemberType -eq "Property" -and $_.Name -like "*pass*" }
+
+Then we use the syntax in the examples above to fetch and return that property.
+
+
+## All other `Get` methods in `RSAT`
 
 In fact here's all the 'get' methods that are available:
-
 
  - `Get-ADAccountAuthorizationGroup`
  - `Get-ADAccountResultantPasswordReplicationPolicy`
@@ -70,38 +129,6 @@ In fact here's all the 'get' methods that are available:
  - `Get-ADTrust`
  - `Get-ADUser`
  - `Get-ADUserResultantPasswordPolicy`
-
-
-
-Usually I want:
-
-- details of a user/group (see above)
-- which groups is a user in
-- which users are in a group
-
-
-## which groups is a user in
-
-	(Get-ADUser "MyUser" –Properties MemberOf).MemberOf
-
-
-
-(I did like this alternative form [at serverfault from user Canoas](https://serverfault.com/a/594724/17154) which doesn't rely on RSAT....
-
-	(New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$($env:username)))")).FindOne().GetDirectoryEntry().memberOf
-
-...)
-
-
-## which users are in a group
-
-	Get-ADGroupMember
-
-e.g.
-
-	get-adgroupmember "A-SPECIAL-GROUP" | % SamAccountName
-
-
 
 
 
