@@ -1,7 +1,7 @@
 # Index fragmentation and nasty page splits
 
 
-I learned most about index fragmentation and 'nasty' page splits from Paul Randal in his pluralsight course '[SQL Server: Index Fragmentation Internals, Analysis, and Solutions]'(https://app.pluralsight.com/library/courses/sqlserver-index-fragmentation-internals-analysis-solutions/table-of-contents)
+I learned most about index fragmentation and 'nasty' page splits from Paul Randal in his pluralsight course '[SQL Server: Index Fragmentation Internals, Analysis, and Solutions](https://app.pluralsight.com/library/courses/sqlserver-index-fragmentation-internals-analysis-solutions/table-of-contents)'
 
 There's no point looking at every page split as some are "good page splits" -- e.g. when an append happens at the end of a table, and others are "nasty" e.g. inserts, updates deletes within an index that cause page splits.
 
@@ -71,15 +71,14 @@ Note that although it is "online" it does still take locks, just less aggressive
 
 One of the conclusions at the end of the course by Paul Randall was that the Index maintenance scripts from Ola Hallengren https://ola.hallengren.com are really the gold standard and do all of the work that would need to do if you built your own solution.
 
-Alter index reorganize 
+Alter index reorganize
 
 
 
 Checking fragmentation of a column store index is quite different:
 
 
-From <https://docs.microsoft.com/en-us/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#to-check-the-fragmentation-of-a-columnstore-index-using->
-
+From [Resolve index fragmentation by reorganizing or rebuilding indexes](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#to-check-the-fragmentation-of-a-columnstore-index-using-) &mdash;
 
 
 	SELECT i.object_id,
@@ -87,19 +86,17 @@ From <https://docs.microsoft.com/en-us/sql/relational-databases/indexes/reorgani
 		i.index_id,
 		i.name AS IndexName,
 		100*(ISNULL(SUM(CSRowGroups.deleted_rows),0))/NULLIF(SUM(CSRowGroups.total_rows),0) AS 'Fragmentation'
-	FROM sys.indexes AS i  
+	FROM sys.indexes AS i
 	INNER JOIN sys.dm_db_column_store_row_group_physical_stats AS CSRowGroups
 		ON i.object_id = CSRowGroups.object_id
 		AND i.index_id = CSRowGroups.index_id
 	WHERE object_name(i.object_id) = 'FactResellerSalesXL_CCI'
 	GROUP BY i.object_id, i.index_id, i.name
 	ORDER BY object_name(i.object_id), i.name;
-	
 
 
 ## More about Ola Hallengren's SQL Server Maintenance Solution
 
->
 > - Download [MaintenanceSolution.sql](https://ola.hallengren.com/scripts/MaintenanceSolution.sql). This script creates all the objects and jobs that you need.
 >
 > Learn more about using the SQL Server Maintenance Solution:
@@ -109,5 +106,5 @@ From <https://docs.microsoft.com/en-us/sql/relational-databases/indexes/reorgani
 > -	[IndexOptimize](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html): SQL Server Index and Statistics Maintenance
 > -	The SQL Server Maintenance Solution is available on [GitHub](https://github.com/olahallengren/sql-server-maintenance-solution).
 >
-> from [Ola Hallengren's SQL Server Maintenance Solution](https://ola.hallengren.com/)
+> &mdash;from [Ola Hallengren's SQL Server Maintenance Solution](https://ola.hallengren.com/)
 
