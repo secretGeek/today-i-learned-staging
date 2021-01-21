@@ -94,3 +94,20 @@ From <https://docs.microsoft.com/en-us/sql/relational-databases/indexes/reorgani
 	WHERE object_name(i.object_id) = 'FactResellerSalesXL_CCI'
 	GROUP BY i.object_id, i.index_id, i.name
 	ORDER BY object_name(i.object_id), i.name;
+	
+
+
+## More about Ola Hallengren's SQL Server Maintenance Solution
+
+>
+> - Download [MaintenanceSolution.sql](https://ola.hallengren.com/scripts/MaintenanceSolution.sql). This script creates all the objects and jobs that you need.
+>
+> Learn more about using the SQL Server Maintenance Solution:
+>
+> - [DatabaseBackup](https://ola.hallengren.com/sql-server-backup.html): SQL Server Backup
+> - [DatabaseIntegrityCheck](https://ola.hallengren.com/sql-server-integrity-check.html): SQL Server Integrity Check
+> -	[IndexOptimize](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html): SQL Server Index and Statistics Maintenance
+> -	The SQL Server Maintenance Solution is available on [GitHub](https://github.com/olahallengren/sql-server-maintenance-solution).
+>
+> from [Ola Hallengren's SQL Server Maintenance Solution](https://ola.hallengren.com/)
+
