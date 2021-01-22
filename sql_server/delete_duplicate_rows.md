@@ -58,4 +58,4 @@ Boya!
 
 ## See also
 
- - [Window Functions in SQL Server](window_functions.md)
+ - [Window Functions in SQL Server](windowed_functions.md)

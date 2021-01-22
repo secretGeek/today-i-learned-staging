@@ -5,13 +5,13 @@
 
 ## todo tracking
 
+- next/previous buttons
 
-- pre blocks... correct language:
-	- plaintext
-	- language-powershell
-	- ...idea: have a default "language" for each folder?
+- more application of `plaintext` fenced code blocks.
 
+- Linting: 404 check all internal .md references!
 
+- make vs-code use tab (for markdown files, not for other files)
 
 - improve scroll bars, and write them up while you're there
 
@@ -23,11 +23,18 @@
 
 	(many are put in an ignore list.)
 
-- code block highlighting
-
 - code block extraction and listing
 
-- next/previous buttons
 
 - hyperlink extraction and listing
 
+# done
+
+9:56 AM Friday, 22 January 2021
+
+-[x] code block highlighting
+
+-[x]  pre blocks... correct language:
+	- plaintext
+	- language-powershell
+	- ...idea: have a default "language" for each folder?

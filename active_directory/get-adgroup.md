@@ -2,16 +2,18 @@
 
 Traditionally I use some C# Linq files to query active directory, but they're a bit of a mess. I was trying to get some help online and most articles talked about using powershell cmdlets like `Get-ADGroup`
 
+(Other people use `ADSI Edit`, `C:\windows\system32\adsiedit.msc`)
+
 To get this module you need to install "RSAT" or "Remote Server Administration Tools". In Windows 10, this is available as an optional feature.
 
 
-	Start Menu | 
-		Apps & Features | 
-			Manage Optional Features | 
-				Add a feature | 
+	Start Menu |
+		Apps & Features |
+			Manage Optional Features |
+				Add a feature |
 					"RSAT: Active Directory Domain Services and Lightweight Directory Services Tools"
 
-...bit of a mouthful. (There are a lot of other RSAT features to pick from.)				
+...bit of a mouthful. (There are a lot of other RSAT features to pick from.)
 
 
 ## Details of a group
@@ -40,7 +42,7 @@ Usually I want:
 
 	(Get-ADUser "MyUser" –Properties MemberOf).MemberOf
 
-But since the results are in "X.500 Directory Specification" which looks like this.... 
+But since the results are in "X.500 Directory Specification" which looks like this....
 
 	CN=GroupNameHere,OU=AnOrgUnit3,OU=AnOrgUnit2,OU=AnOrgUnit1,DC=aDomainComponent3,DC=aDomainComponent2,DC=aDomainComponent1
 
@@ -81,6 +83,29 @@ What if we want to find all properties that mention "pass" -- we can do it like 
 
 Then we use the syntax in the examples above to fetch and return that property.
 
+
+## Find user details of a user from a different Domain Controller
+
+Say I'm on a subnet called `Australia.Company.Example.Com` and the user account I want to inspect if from the parent domain, `Company.Example.Com` -- don't prefix the domain before the user... specifiy `server=` parameter!
+
+	get-aduser "USER-NAME" -server "Company.Example.com" -properties *
+
+
+## Convert `badPasswordTime` and or accountExpires from 18 digit LDAP time to DateTime
+
+
+Some dates are 18 digits long and represent "the number of 100-nanosecond intervals that have elapsed since the 0 hour on January 1, 1601"
+
+	> w32tm.exe /ntte "131755762378066802"
+	152495 02:17:17.8066802 - 9/07/2018 12:17:17 PM
+
+
+	accountExpires                       : 9223372036854775807
+
+	>w32tm.exe /ntte "9223372036854775807"
+	10675199 02:48:05.4775807 -
+
+see [How to convert date/time attributes in Active Directory to standard time format](https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/convert-datetime-attributes-to-standard-format)
 
 ## All other `Get` methods in `RSAT`
 
@@ -152,7 +177,7 @@ To list all the features (whiether installed or not)
 
 
 	dism /Online /Get-Capabilities
-	
+
 
 
 ...this will list many capabilities (why are they sometmies called 'optional features','feature on demand','Capabilities' ... which is it!?!?!)

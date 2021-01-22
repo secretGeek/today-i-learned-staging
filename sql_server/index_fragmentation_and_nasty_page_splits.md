@@ -71,7 +71,8 @@ Note that although it is "online" it does still take locks, just less aggressive
 
 One of the conclusions at the end of the course by Paul Randall was that the Index maintenance scripts from Ola Hallengren https://ola.hallengren.com are really the gold standard and do all of the work that would need to do if you built your own solution.
 
-Alter index reorganize
+
+	Alter index reorganize
 
 
 
