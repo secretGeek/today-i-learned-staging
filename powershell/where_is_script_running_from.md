@@ -12,20 +12,20 @@ We run this script, from the location "C:\CurrentPath\" like so:
 	
 We want the script to output:
 
-    The script is located in C:\Scripts
+	The script is located in C:\Scripts
 	
-	The script is called C:\Scripts\HelloWorld.ps1 
+	The script's full name and path is C:\Scripts\HelloWorld.ps1 
 	
-	You are running it from C:\CurrentPath
+	You are running it *from* C:\CurrentPath
 	
 How do we do it??
 
 	write-host "The script is located in $(Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)" 
 	# e.g. C:\Scripts
-		
-	write-host "The script is called $($MyInvocation.MyCommand.Path)"
+
+	write-host "The script's full name is called $($MyInvocation.MyCommand.Path)"
 	# e.g. C:\Scripts\HelloWorld.ps1 
-		
+
 	write-host "You are running it from $((Resolve-Path .\).Path)"
 	# e.g. C:\CurrentPath
 
@@ -37,14 +37,13 @@ And in Powershell 3.0 and above, the first two can be simplified to:
 	write-host "The script is located in $PSScriptRoot" 
 	# e.g. C:\Scripts
 	
-	write-host "The script is called $PSCommandPath	"
+	write-host "The script is called $PSCommandPath"
 	# e.g. C:\Scripts\HelloWorld.ps1 
-	
+
 
 ## Caveat!
-	
-One caveat with these scripts... they are unlike most powershell scripts because they only work properly when they are inside a script. They don't behave the same if you just paste them into the commandline.
 
+One caveat with these scripts... they are unlike most powershell scripts because they only work properly when they are inside a script. They don't behave the same if you just paste them into the commandline.
 
 ## Bonus questions...
 

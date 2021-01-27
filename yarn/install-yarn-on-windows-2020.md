@@ -8,7 +8,9 @@ Tired of errors from `npm`, i now want errors from `yarn` too.
 
 I have version `14.4.0`
 
-Install if needed, or upgrade. (TODO: Link to node install/upgrade)
+Install if needed, or upgrade. 
+
+(e.g. [Install node on windows subsystem for linux / ubuntu](..\node\install_node_on_ubuntu_wsl.md));
 
 (`Get-Command node` tells me node is here: `C:\Program Files\nodejs\node.exe`)
 
@@ -47,3 +49,8 @@ Add a package (pick a technique..)
 	yarn add [package]
 	yarn add [package]@[version]
 	yarn add [package]@[tag]
+
+## See also
+
+- [Install node on windows subsystem for linux / ubuntu](..\node\install_node_on_ubuntu_wsl.md)
+- [Install node (first step in install npm)(..\npm\install_npm.md)

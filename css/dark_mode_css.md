@@ -83,7 +83,7 @@ Here's the full poor man's dark mode stylesheet...
 		html {
 			filter: invert(100%);
 		}
-		img:not(.ignore-color-scheme) {
+		img:not(.ignore-color-scheme),video:not(.ignore-color-scheme) {
 			filter: brightness(50%) invert(100%);
 		}
 		.ignore-color-scheme {
@@ -93,6 +93,32 @@ Here's the full poor man's dark mode stylesheet...
 	</style>
 
 I've added this to the default built-in template used by [clowncar](https://github.com/secretGeek/clowncar) (my static site generator)
+
+
+## Poor man's dark mode stylesheet, take 2:
+
+
+Here's a different take on the same goal. This time instead of straight up "inverting" the whole thing (like a negative) - I want to only invert the "lightness".
+
+So if something was very light before -- I now want it to be very dark. But the "tone", the hue, should be the same.
+
+I also turn down the brightness, which to my mind makes it less saturated. But I'm no graphic designer.
+
+Try it for yourself.
+
+	<style>
+	html { background-color: white;}
+	
+	/* dark mode support */
+	@media (prefers-color-scheme: dark) {
+		html {
+			filter: invert(100%) hue-rotate(180deg) brightness(75%);
+		}
+		img:not(.ignore-color-scheme), video:not(.ignore-color-scheme), .ignore-color-scheme {
+			filter: invert(100%) hue-rotate(180deg) brightness(150%) !important;
+		}
+	}
+	</style>
 
 
 ## Source
