@@ -2,12 +2,11 @@
 
 ## To Set An Alias:
 
-    set-alias -name gito -value git_off
-		
+	set-alias -name gito -value git_off
 
 ## To check an alias:
 
-		get-command *cls*
+	get-command *cls*
 
 ...produces a list of not just aliases but commands that match your pattern. (so i sometimes prefer it over `get-alias` though it can produce unwanted results.)
 
@@ -35,9 +34,9 @@ To create an alias with parameters you're advised to create a tiny function in y
 
 e.g.
 
-    function tf() {
-        tree /f
-    }
+	function tf() {
+		tree /f
+	}
 
 
 ...and over time: grow it into a cmdLet and eventually put it into a module.

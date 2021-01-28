@@ -55,7 +55,7 @@ And ends with an export:
 
 Other than that it defines a function called `App` which returns... a JSX element!
 
-This stuff is compiled via Blazor.
+This `jsx` is compiled via Babel.
 
 
 	function App() {
@@ -376,6 +376,17 @@ Finally: babel configured like this.
 		]
 	}
 
+
+## Deploying to production
+
+If you are using the [react dev tools](https://reactjs.org/blog/2019/08/15/new-react-devtools.html) in chrome you will see an indicator that your site is in development mode.
+
+Clicking that info takes you to [this page about what to do to get it into production](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build)
+
+
+>	npm run build
+
+> This will create a production build of your app in the build/ folder of your project.
 
 ## Reference
 

@@ -5,7 +5,7 @@
 
 
 if: You've started to do some work but haven't committed anything yet.
-or: you're about to start some work...
+(or: you're about to start some work) and decide you'd like it to go to a new branch:
 
 
 It's as easy as this...

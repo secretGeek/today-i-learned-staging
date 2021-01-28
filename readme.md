@@ -91,7 +91,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 11 articles |
+ | [javascript](javascript/01_summary.md) | 12 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [json](json/01_summary.md) | 1 article |
@@ -119,9 +119,9 @@ Though this site is published as a free digital-only book, I've also published a
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
  | [powershell](powershell/01_summary.md) | 90 articles |
- | [productivity](productivity/01_summary.md) | 3 articles |
+ | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
- | [react](react/01_summary.md) | 3 articles |
+ | [react](react/01_summary.md) | 2 articles |
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [robocopy](robocopy/01_summary.md) | 1 article |
@@ -163,5 +163,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-637 articles
-161046 words
+636 articles
+161127 words

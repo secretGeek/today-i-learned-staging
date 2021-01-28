@@ -27,7 +27,7 @@ Add this to "~\.gitconfig"
 
 and to find out my proxy... well that was tricky, but same as described in [resolve: mercurial abort: error](../mercurial/proxy_connection_attempt_failure.md)
 
-i.e........
+i.e.
 
 Proxy settings are found here:
 
@@ -48,18 +48,22 @@ It was a lengthy javascript file (800 lines long), starting like this:
 		{
 			url='http://' + url;
 		}
+	...
 
-Near the end it told you the general proxy settings to use....
+Near the end it told you the general proxy settings to use...
 
 
-	if (shExpMatch(url, "https://*"))
-	{
-		return "PROXY machinename1.adomain:8080; PROXY machinename2.adomain:8080;";
+		...
+		if (shExpMatch(url, "https://*"))
+		{
+			return "PROXY machinename1.adomain:8080; PROXY machinename2.adomain:8080;";
+		}
+		else
+		{
+			return "PROXY machinename1.adomain:8080; PROXY machinename2.adomain:8080;";
+		}
 	}
-	else
-	{
-		return "PROXY machinename1.adomain:8080; PROXY machinename2.adomain:8080;";
-	}
+
 
 (Names have been changed to protect the LAN)
 
@@ -77,5 +81,5 @@ In visual studio .com you can create a token, called a private access token -- t
 	[http]
 	proxy = http://anything:PAT@myproxy.domain.com:8080
 
-Where PAT is the private access token, and the proxy is found as described above.
+Where `PAT` is the `private access token`, and the proxy is found as described above.
 

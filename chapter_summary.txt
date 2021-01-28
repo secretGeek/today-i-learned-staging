@@ -11,13 +11,14 @@ if ($currentPath -ne $currentfolder)
 
 ""
 ("# " + $currentFolder.replace("_"," ") + "{.chapter}")
+""
 "### content"
-" "
-#" * [$currentFolder](01_summary.md)"
+""
+#" - [$currentFolder](01_summary.md)"
 
 Get-ChildItem . *.md |
 	Where-Object { $_.Name -ne "01_summary.md" } |
-	ForEach-Object { "* [" + (get-title($_)) + "]($_)"} | sort
+	ForEach-Object { "- [" + (get-title($_)) + "]($_)"} | sort
 
 
 if ($doPop) { pop-location; $doPop = $false; }
