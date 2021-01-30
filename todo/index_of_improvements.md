@@ -5,6 +5,25 @@
 
 ## todo tracking
 
+
+- title of pages to be shown on page (not just the friendlified file name).
+
+- a tag for including the {toc:} in the document.
+	- a page for showing details of toc and other embedded macros used by clowncar.
+		- an improved meta language allowing these other meta features.
+			- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.)
+
+Other features that can be embedded in macros:
+	- next/previous buttons
+
+
+
+# Auto Linting of the TIL.
+
+
+
+
+
 - next/previous buttons
 
 - more application of `plaintext` fenced code blocks.

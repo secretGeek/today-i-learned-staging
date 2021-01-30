@@ -4,7 +4,7 @@ List all four like this:
 
     $profile | get-member -type noteproperty | ft -prop Name, Definition
 
-For example:
+result:
 
     Name                   Definition
     ----                   ----------
@@ -22,16 +22,22 @@ And they are listed in the order in which they are loaded (if they are present t
  * CurrentUserCurrentHost   This profile applies to the current user and the current host (WindowsPowerShell) only. (i.e. not loaded if you are in ISE or in a third party host, unless they've gone to extra effort.)
 
 
-As mentioned -- the file (and even its containing folder) may not exist for you.
 
-So to create it, use:
+### Create new file, use:
+
+As mentioned -- the file (and even its containing folder) may not exist for you. So you need to know how to create folder and *force* the creation of the folder it is in, if needed:
+
 
     New-Item -path {filename} -type file -force
 
-for example:
+### Create new profile 
+
+This creates a new profile file, and folder if needed
 
     New-Item -path $profile -type file -force
 
+
+## Google for profiles
 
 To see example profiles on the internet google for either:
 
