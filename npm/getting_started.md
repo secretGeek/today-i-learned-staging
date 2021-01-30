@@ -173,4 +173,4 @@ You will end up with something like this:
 
 ## See also
 
-- [install node on ubuntu](.\node\install_node_on_ubuntu_wsl.md)
+- [install node on ubuntu](../node/install_node_on_ubuntu_wsl.md)

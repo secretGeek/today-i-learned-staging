@@ -10,7 +10,7 @@ I have version `14.4.0`
 
 Install if needed, or upgrade. 
 
-(e.g. [Install node on windows subsystem for linux / ubuntu](..\node\install_node_on_ubuntu_wsl.md));
+(e.g. [Install node on windows subsystem for linux / ubuntu](../node/install_node_on_ubuntu_wsl.md));
 
 (`Get-Command node` tells me node is here: `C:\Program Files\nodejs\node.exe`)
 
