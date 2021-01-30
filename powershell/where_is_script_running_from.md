@@ -1,22 +1,20 @@
 # Where is the current script running from?
 
-
 Scenario:
 
 We have a script, `HelloWorld.ps1` located in `C:\Scripts\`
 
 We run this script, from the location "C:\CurrentPath\" like so:
 
-    C:\CurrentPath\> C:\Scripts\HelloWorld.ps1 
-	
+	C:\CurrentPath\> C:\Scripts\HelloWorld.ps1 
 	
 We want the script to output:
 
-	The script is located in C:\Scripts
-	
-	The script's full name and path is C:\Scripts\HelloWorld.ps1 
-	
-	You are running it *from* C:\CurrentPath
+>	The script is located in C:\Scripts
+>	
+>	The script's full name and path is C:\Scripts\HelloWorld.ps1 
+>	
+>	You are running it *from* C:\CurrentPath
 	
 How do we do it??
 
