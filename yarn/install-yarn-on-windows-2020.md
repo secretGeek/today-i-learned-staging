@@ -52,5 +52,5 @@ Add a package (pick a technique..)
 
 ## See also
 
-- [Install node on windows subsystem for linux / ubuntu](..\node\install_node_on_ubuntu_wsl.md)
-- [Install node (first step in install npm)(..\npm\install_npm.md)
+- [Install node on windows subsystem for linux / ubuntu](../node/install_node_on_ubuntu_wsl.md)
+- [Install node (first step in install npm)](../npm/install_npm.md)
