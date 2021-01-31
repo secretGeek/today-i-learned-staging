@@ -32,7 +32,7 @@
 - [Format-Table with Expressions.](format_table_with_expressions.md)
 - [Get a random number in Powershell](Random.md)
 - [Get Parts of a FileInfo object (such as FileName Without Extension)](parts_of_a_fileInfo_object.md)
-- [Get Powershell Tokens](get_powershell_tokens.md)
+- [Get Powershell Tokens (i.e. for parsing/syntax highlighting)](get_powershell_tokens.md)
 - [get-aduser is useful to set info about a user account](get_aduser.md)
 - [Get-Member is awesome](get-member.md)
 - [Getting started with Powershell -- the first five minutes.](getting_started.md)

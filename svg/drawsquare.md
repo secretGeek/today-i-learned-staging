@@ -1,4 +1,4 @@
-# Drawing a square with svg
+﻿# Drawing a square with svg
 
 Here is the codes:
 
@@ -6,20 +6,16 @@ Here is the codes:
 		<rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 	</svg>
 
-
 <svg width="400" height="110">
   <rect width="300" height="100" style="fill:rgb(255,255,30,0.0);stroke-width:1;stroke:rgb(255,128,0)" />
 </svg>
 
  - `stroke-width` e.g. 1, 2, 10%.
- - `stroke` (color) e.g. rgb(255,127,63), green 
-
-
+ - `stroke` (color) e.g. rgb(255,127,63), green
 
 ## Stroke Example (also a circle example)
 
 Can define a stroke using another element.
-
 
 <svg width="200" height="200">
   <circle cx="100" cy="100" r="97" fill="none"
@@ -43,12 +39,9 @@ Can define a stroke using another element.
     </defs>
   </svg>
 
-
-
 <svg width="110" height="110" style='padding:10;background-color:red;'>
 	<rect width="100" height="100" style="fill:rgb(255,200,64);stroke-width:3;stroke:rgb(255,255,255)" />
 </svg>
-
 
 <svg width="110" height="110" style='margin:5;padding:5;background-color:purple;'>
 	<rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
@@ -61,8 +54,6 @@ Can define a stroke using another element.
 <svg width="110" height="110">
 	<rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
 </svg>
-
-
 
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -99,18 +90,16 @@ Can define a stroke using another element.
 |   __c__    | relative Cubic Bézier  | `C 30,90 25,10 50,10` | (dx1,dy1, dx2,dy2, dx,dy)+ | _from current point to relative end point_ x,y _with relative control points at_ dx1,dy1 _and_ dx2,dy2 |
 |   __C__    | Cubic Bézier | `C 30,90 25,10 50,10` | (x1,y1, x2,y2, x,y)+ | _from current point to end point_ x,y _with control points at_ x1,y1 _and_ x2,y2 |
 |    |  | `C 30,90 25,10 50,10 10,25 90,30 10,50` | (x1,y1, x2,y2, x,y)+ | _subsequent triplets of pairs continue the curve_ |
-|   __S__    | Smooth Cubic Bézier  | `S 20,50 80,110` | (x2, y2, x, y)+ | _from current point to end point_ x,y _with end control point_ x2, y2 _and start control point of previous control point or current point if previous curve wasn't a cubic bezier_ |
-|   __Q__    | Quadratic Bézier  | 
+|   __S__    | Smooth Cubic Bézier  | `S 20,50 80,110` | (x2, y2, x, y)+ | _from current point to end point_ x,y _with end control point_ x2, y2 _and start control point of previous control point or current point if previous curve wasn't a cubic bézier_ |
+|   __Q__    | Quadratic Bézier  |
 |   __q__ | Relative Quad Béz |
 |   __T__ | Smooth Quad Béz |
-|   __t__ | Realitve smooth quaz Béz |
-|   __A__    | Arc curve | 
+|   __t__ | Realitve smooth quad Béz |
+|   __A__    | Arc curve |
 |   __a__ | Relative Arc curve |
 |   __Z__ | Close path |
 
-
 (Some ideas for a NimbleText logo redesign.)
-
 
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:#FFF'>
   <defs>
@@ -121,7 +110,6 @@ Can define a stroke using another element.
   <rect width="100%" height="100%" fill="url(#grid2)" />
 </svg>
 
-
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:#FFF'>
   <defs>
     <pattern id="grid1212" width="12" height="12" patternUnits="userSpaceOnUse">
@@ -130,8 +118,6 @@ Can define a stroke using another element.
   </defs>
   <rect width="100%" height="100%" fill="url(#grid1212)" />
 </svg>
-
-
 
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:none'>
   <defs>
@@ -144,8 +130,6 @@ Can define a stroke using another element.
   <rect width="380" height="380" fill="url(#gridcc)" />
 </svg>
 
-
-
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:none'>
   <defs>
     <pattern id="gridcc2" width="39" height="39" patternUnits="userSpaceOnUse">
@@ -156,7 +140,6 @@ Can define a stroke using another element.
   </defs>
   <rect width="380" height="380" fill="url(#gridcc2)" />
 </svg>
-
 
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:none'>
   <defs>
@@ -169,7 +152,6 @@ Can define a stroke using another element.
   <rect width="380" height="380" fill="url(#gridcc3)" />
 </svg>
 
-
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:none'>
   <defs>
     <pattern id="gridcc4" width="39" height="39" patternUnits="userSpaceOnUse">
@@ -181,7 +163,6 @@ Can define a stroke using another element.
   <rect width="380" height="380" fill="url(#gridcc4)" />
 </svg>
 
-
 <svg width="401" height="401" xmlns="http://www.w3.org/2000/svg" style='background-color:none'>
   <defs>
     <pattern id="gridcc5" width="39" height="39" patternUnits="userSpaceOnUse">
@@ -192,8 +173,6 @@ Can define a stroke using another element.
   </defs>
   <rect width="380" height="380" fill="url(#gridcc5)" />
 </svg>
-
-
 
 ## On Dark Mode
 
@@ -224,10 +203,9 @@ Can define a stroke using another element.
 <div id="svg-container" style="width:20px;height:20px;">
     <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none" style='background-color: whitesmoke'>
 		<rect width="100%" height="100%" style="fill:white;stroke:none" />
-	<path d="M 0% 0% L 50% 0% 50% 50% 0% 50% 0% 0% C" fill="black" stroke="none" />	
+	<path d="M 0% 0% L 50% 0% 50% 50% 0% 50% 0% 0% C" fill="black" stroke="none" />
 	</svg>
 </div>
-
 
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#F1F1F1'>
   <g transform="scale(2.8571 2.8571)">
@@ -237,7 +215,6 @@ Can define a stroke using another element.
 	</g>
 </svg>
 
-
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#222'>
   <g transform="scale(2.8571 2.8571)">
 		<rect width="35" height="35" style="fill:none;stroke:none" />
@@ -245,7 +222,6 @@ Can define a stroke using another element.
 		<path d="M 0 15 L 35 15 35 25 26.25 25 26.25 35 8.75 35 8.75 25 0 25 0 15 C" fill="#88A" stroke="none" />
 	</g>
 </svg>
-
 
 <svg class='wiggle' width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#222'>
   <g transform="scale(2.8571 2.8571)">
@@ -257,7 +233,6 @@ Can define a stroke using another element.
 
 ## Here's a squiggly one...
 
-
 <svg class='squiggle' width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#222'>
   <g transform="scale(2.8571 2.8571)">
 		<rect width="35" height="35" style="fill:none;stroke:none" />
@@ -265,7 +240,6 @@ Can define a stroke using another element.
 		<path d="M 0 15 L 35 15 35 25 26.25 25 26.25 35 8.75 35 8.75 25 0 25 0 15 C" fill="#88A" stroke="none" />
 	</g>
 </svg>
-
 
 <style>
 @keyframes wiggle {
@@ -306,7 +280,6 @@ svg.squiggle:hover {
 }
 </style>
 
-
 Also consider applying some rounding -- or animating some rounding... https://stackoverflow.com/questions/10177985/svg-rounded-corner
 
 <br />
@@ -334,13 +307,7 @@ Also consider applying some rounding -- or animating some rounding... https://st
 </svg>
 </div>
 
-
 ![svg](nt.svg)
-
-
-
-
-
 
 <div style='padding:30px;background-color:#333;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#333'>
@@ -351,8 +318,6 @@ Also consider applying some rounding -- or animating some rounding... https://st
 </svg>
 </div>
 
-
-
 <div style='padding:30px;background-color:#333;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#333'>
   <g transform="scale(1 1)">
@@ -361,9 +326,6 @@ Also consider applying some rounding -- or animating some rounding... https://st
 	</g>
 </svg>
 </div>
-
-
-
 
 <div style='padding:30px;background-color:#111;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
@@ -374,10 +336,6 @@ Also consider applying some rounding -- or animating some rounding... https://st
 </svg>
 </div>
 
-
-
-
-
 <div style='padding:30px;background-color:#111;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
   <g transform="scale(1 1)">
@@ -387,9 +345,6 @@ Also consider applying some rounding -- or animating some rounding... https://st
 </svg>
 </div>
 
-
-
-
 <div style='padding:30px;background-color:#111;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
   <g transform="scale(1 1)">
@@ -398,9 +353,6 @@ Also consider applying some rounding -- or animating some rounding... https://st
 	</g>
 </svg>
 </div>
-
-
-
 
 <div style='padding:30px;background-color:#111;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
@@ -412,7 +364,6 @@ Also consider applying some rounding -- or animating some rounding... https://st
 </div>
 
 ![nt.svg](nt.svg)
-
 
 <div style='padding:30px;background-color:#111;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
