@@ -16,7 +16,6 @@ Pester is *the* framework for testing your powershell scripts, functions and mod
 
 That succeeded then retried installing pester.
 
-
 I then received this error message:
 
 	> Find-Module pester -Repository psgallery | Install-Module
@@ -32,7 +31,6 @@ I then received this error message:
 So I tried:
 
 Find-Module pester -Repository psgallery | Install-Module -SkipPublisherCheck
-
 
 ## Get Help
 
@@ -61,7 +59,6 @@ Will create two pre-populated files:
 			$true | Should Be $true
 		}
 	}
-
 
 ## Running our tests
 

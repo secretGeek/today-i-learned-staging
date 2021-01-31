@@ -1,6 +1,5 @@
 ﻿# How to find how much free space is left on a drive
 
-
 In short:
 
 	get-psdrive C

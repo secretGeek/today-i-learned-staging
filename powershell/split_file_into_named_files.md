@@ -11,7 +11,6 @@ Given an input file like this:
 
 You can split it into two files, named `Hello.txt` and `Hello2.txt` by using the following line of powershell....
 
-
 	get-content .\file1.txt |
 		foreach {
 			if ($_ -like 'FILE:*') {

@@ -10,7 +10,6 @@ Or to view specific properties:
 
 Or to output it to CSV (perhaps to append to a log file...)
 
-
 	get-aduser user1 -properties LockedOut, AccountLockoutTime | convertto-csv -notypeinformation
 
 If you *do* want to append it to a file then you'll want to skip the header row, e.g.

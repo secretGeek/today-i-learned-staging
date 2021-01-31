@@ -1,6 +1,5 @@
 ﻿# Rename all files and folders to lower case
 
-
 For the files....
 
     Get-ChildItem -recurse |

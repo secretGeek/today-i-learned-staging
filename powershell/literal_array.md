@@ -4,7 +4,6 @@
 
 	$data = @()
 
-
 This works....
 
 ## A literal array
@@ -31,7 +30,6 @@ result:
 	-------- -------- ----                                     --------
 	True     True     Object[]                                 System.Array
 
-
 And both contain strings...
 
 	> $MyArray | % { $_.GetType() }
@@ -45,7 +43,6 @@ result:
 	True     True     String                                   System.Object
 
 So I think the second one is simpler. Go with that.
-
 
 ## Use an array
 
@@ -64,7 +61,6 @@ and
 and
 
 	$MyArray[-1..-4]
-
 
 ## Count Items in an arrays
 
@@ -87,9 +83,6 @@ returns
 
 ## Add an item to an array
 
-
-
 ## Sources
-
 
 - [Everything you wanted to know about arrays](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.1)

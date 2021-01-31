@@ -2,12 +2,9 @@
 
 (in Powershell)
 
-
 ## Checking CPU Percentage with Get-Counter (and a Job)
 
 Checking the processor time or processor percentage, using counters or wmi...
-
-
 
 	$JobObject = Start-Job -Name "MyJob" -ScriptBlock {
 			Get-Counter -Counter "\Processor(_Total)\% Processor Time" -SampleInterval 1 -Continuous
@@ -23,9 +20,7 @@ Checking the processor time or processor percentage, using counters or wmi...
 
 From [Retrieve average CPU-workload with Get-Counter](https://stackoverflow.com/questions/59051743/retrieve-average-cpu-workload-with-get-counter) (by Duke Donnovan and AdminOfThings)
 
-
 ## Checking CPU Percentage with WMI...
-
 
 	Get-WmiObject -computer $env:computername -class win32_processor |
 		Measure-Object -property LoadPercentage -Average |

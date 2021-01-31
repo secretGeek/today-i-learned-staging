@@ -10,7 +10,6 @@ To get the current PATH environment variable:
 
 (or in `cmd.exe` just `%path%`, or in Windows, see [Environment variables -- view/edit them on windows](../windows/environment_variables.md))
 
-
 To split the path into its constituents:
 
     $env:path.Split(";")
@@ -18,8 +17,6 @@ To split the path into its constituents:
 or
 
     $env:path.Split(";", [System.StringSplitOptions]::RemoveEmptyEntries)
-
-
 
 ## Adding to it
 
@@ -32,9 +29,6 @@ To add a folder to the `PATH`, only for the **current session**:
 To persist the current session's path (requires admin)
 
     [Environment]::SetEnvironmentVariable( "Path", $env:Path, [System.EnvironmentVariableTarget]::Machine )
-
-
-
 
 ## See also
 

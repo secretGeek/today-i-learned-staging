@@ -32,9 +32,6 @@ To sort by a secondary column, instead pass a hash table as the property.
 
 (Not quite as eloquent as you'd hope.)
 
-
-
-
 ## Source
 
 * [PowerTip: Sorting More than One Column](https://devblogs.microsoft.com/scripting/powertip-sorting-more-than-one-column/)

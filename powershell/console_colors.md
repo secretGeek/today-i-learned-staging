@@ -1,8 +1,6 @@
 ﻿# See all console colors:
 
-
 	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object {Write-Host $_ -ForegroundColor $_}
-
 
  * Black
  * DarkBlue
@@ -32,9 +30,7 @@ Or to try every possible foreground/background combo:
 		}
 	}
 
-
 <!--  [enum]::GetValues([System.ConsoleColor]) | % { Write-Host " * $($_)" -f ($_) }  -->
-
 
 	$host.ui.rawui.ForegroundColor = <ConsoleColor>
 	$host.ui.rawui.BackgroundColor = <ConsoleColor>
@@ -48,7 +44,6 @@ Or to try every possible foreground/background combo:
 	$Host.PrivateData.VerboseBackgroundColor = <ConsoleColor>
 	$Host.PrivateData.ProgressForegroundColor = <ConsoleColor>
 	$Host.PrivateData.ProgressBackgroundColor = <ConsoleColor>
-
 
 	$host.ui.rawui
 	$host.ui.rawui | select *color

@@ -7,7 +7,6 @@ For now &mdash; this is based entirely on [Building a PowerShell Module](http://
 3. Register at PowershellGallery, and get an `API key`
 4. Publish using `Publish-Module`
 
-
 ## Create a module (.psm1)
 
 This is just a script file but with a `.psm1` extension, and an `export-moduleMember` declaration(s) at the end, for example:
@@ -20,9 +19,7 @@ You can also individually specify the functions to be exported, e.g.:
 
     Export-ModuleMember -function Invoke-CupHolder
 
-
 (The alternative: if you don't use `Export-ModuleMember` then *everything* is automatically exported from your `.psm1` file)
-
 
 ## Create a module manifest.
 
@@ -56,16 +53,13 @@ A module manifest is a script with a `.psd1` extension. It describes the module,
 
 * [What is a module?](module_what_is_it.md)
 
-
 ## Register at PowershellGallery, and get an API key
 
 To publish it to the [Powershell Gallery](https://www.powershellgallery.com/) you'll need to register yourself as a user there, and then you'll need an API key. Once registered, you'll find your API key here: https://www.powershellgallery.com/account
 
 Once you have your API key, please remember to keep it secret for if it falls into enemy hands, then god help us all.
 
-
 ## Publish using Publish-Module
-
 
     # This assumes you are running PowerShell 5
 
@@ -87,14 +81,11 @@ Once you have your API key, please remember to keep it secret for if it falls in
     Install-Module -Name PSScriptAnalyzer -Scope CurrentUser
     Invoke-ScriptAnalyzer -Path $Path
 
-
     # ScriptAnalyzer passed! Let's publish
     Publish-Module @PublishParams
 
     # The module is now listed on the PowerShell Gallery
     Find-Module PSStackExchange
-
-
 
 ## Source
 

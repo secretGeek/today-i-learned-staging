@@ -14,11 +14,9 @@ e.g. (I'll explain them all here)
 	C:\Program Files\WindowsPowerShell\Modules											# Modules for all users
 	C:\Windows\system32\WindowsPowerShell\v1.0\Modules							# Modules that windows installed...
 
-
 The `.psm1` file ends with an `Export-ModuleMember` statement saying which functions and aliases to export., e.g.
 
 	Export-ModuleMember -Function Get-Foo, New-Bar, ... -Alias gf, ..
-
 
 ## How to import a local .psm1 module file
 
@@ -29,12 +27,6 @@ If you have a module as a local `.psm1` file, you can import it like this:
 That will create a folder called `cowsay` (in this case), under one of the `$env:PSModulePath` folders mentioned above, and put the `cowsay.psm1` file into it.
 
 Normally you would instead import it from an online repository. And you may also want to know how to publish to one of those.
-
-
-
-
-
-
 
 ## Sources
 

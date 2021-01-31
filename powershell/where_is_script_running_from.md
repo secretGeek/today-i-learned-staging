@@ -27,17 +27,13 @@ How do we do it??
 	write-host "You are running it from $((Resolve-Path .\).Path)"
 	# e.g. C:\CurrentPath
 
-
-
 And in Powershell 3.0 and above, the first two can be simplified to:
-
 
 	write-host "The script is located in $PSScriptRoot"
 	# e.g. C:\Scripts
 
 	write-host "The script is called $PSCommandPath"
 	# e.g. C:\Scripts\HelloWorld.ps1
-
 
 ## Caveat!
 

@@ -4,7 +4,6 @@ I am trying to use `[System.Management.Automation.PSParser]::Tokenize` to syntax
 
 But I have a problem!
 
-
 First a simple case (that works ok)
 
 Consider this line of code:
@@ -22,17 +21,13 @@ What tokens does it have? We can find out like this:
 	echo    Command     0      4         1           1       1         5
 	hello    String     5      7         1           6       1        13
 
-
-
 That's awesome. It is the `Command` `echo` followed by the `String` `hello`.
 
 But I am confused by the next example.
 
 Consider these two lines of code:
 
-
 	echo "$hello"; echo '$hello'
-
 
 These are similar but *different*.
 
@@ -57,16 +52,12 @@ They both produce the same tokens, with the same content.
 	echo    Command     0      4         1           1       1         5
 	$hello   String     5      8         1           6       1        14
 
-
 If we try to write our own syntax highlighter, how do we know to highlight the two strings differently?
-
 
 ## Answer, thanks to Lee Holmes and Doug Finke
 
-
 Lee -- https://twitter.com/Lee_Holmes/status/1303685263806181380?s=20
 Doug -- https://twitter.com/dfinke/status/1303687569968857091?s=20
-
 
 Need to use the newer V3 API.
 
@@ -83,7 +74,6 @@ Gives...
 
 Whereas,
 
-
 	[System.Management.Automation.Language.Parser]::ParseInput("echo '`$hello'", [ref] $tokens, [ref] $errors); | out-null;
 	$tokens | format-table
 
@@ -94,7 +84,6 @@ Gives:
 	echo            CommandName    Identifier    False echo
 	'$hello' ParseModeInvariant StringLiteral    False '$hello'
 					 ParseModeInvariant    EndOfInput    False
-
 
 Note that "ParseInput" directly returns an Abstract Syntax Tree (which is more than I need for this exercise, but super useful when you do need it.) and the `$tokens` variable is a reference to an array of Tokens
 
@@ -108,9 +97,7 @@ Whereas my earlier code was return an array of PSToken -- this type:
 
 	System.Management.Automation.PSToken, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 
-
 (I wonder if they're related at all though? Is the full token info hidden inside the PSToken in any way?)
-
 
 While on the topic of AST's -- Doug points out you can do this:
 

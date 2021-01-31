@@ -1,8 +1,6 @@
 ﻿# How to count mercurial repositories (or git repositories)
 
-
 This recursive function will find all the repositories in a given location, and output their names/locations.
-
 
 	function SearchForRepos($fullPath) {
 		$isRepo = (gci $fullpath ".hg" | measure-object | % { $_.Count })

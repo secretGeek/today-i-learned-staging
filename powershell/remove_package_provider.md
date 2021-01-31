@@ -42,8 +42,6 @@ These are the two different commands I used for installing it
 
 I may have used a `-ForceBootstrap` parameter in there too, just for fun.
 
-
-
 ## Source:
 
  * http://stackoverflow.com/questions/32508133/powershell-packagemanagement-how-to-uninstall-a-package-provider

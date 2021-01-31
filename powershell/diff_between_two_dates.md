@@ -1,7 +1,5 @@
 ﻿# Difference between two dates (using powershell)
 
-
-
     $StartDate = '15/02/2016 10:31:41 AM';
     $EndDate = (Get-Date);
     NEW-TIMESPAN -Start $StartDate -End $EndDate
@@ -17,8 +15,6 @@
     TotalMinutes      : 548655.630281685
     TotalSeconds      : 32919337.8169011
     TotalMilliseconds : 32919337816.9011
-
-
 
 ## Source
 

@@ -4,8 +4,6 @@ The emoji module is mentioned in the [dumb or fun](dumb_or_fun_ideas.md) article
 
 Here's a complete list of all emoji, and their names, including attributes and html entity codes for each emoji.
 
-
-
 ## People
 
 |Emoji|Name|Unicode|HTML Entity Code|Attributes|
@@ -543,9 +541,7 @@ Here's a complete list of all emoji, and their names, including attributes and h
 |💍|RING|U+1F48D|&amp;#1F48D;|diamond, emotion, object, person, ring, romance|
 |💎|GEM STONE|U+1F48E|&amp;#1F48E;|diamond, emotion, gem, jewel, object, person, romance|
 
-
 ## Animals
-
 
 |Emoji|Name|Unicode|HTML Entity Code|Attributes|
 |-----|----|-------|----------------|----------|
@@ -621,7 +617,6 @@ Here's a complete list of all emoji, and their names, including attributes and h
 |🕷|SPIDER|U+1F577|&amp;#1F577;|animal, insect, object, spider|
 |🕸|SPIDER WEB|U+1F578|&amp;#1F578;|animal, object, spider, web|
 |🦂|SCORPION|U+1F982|&amp;#1F982;|animal, nature, scorpio, scorpion, scorpius, zodiac|
-
 
 ## Plants and Food
 
@@ -719,7 +714,6 @@ Here's a complete list of all emoji, and their names, including attributes and h
 |🍴|FORK AND KNIFE|U+1F374|&amp;#1F374;|cooking, food, fork, knife, nature, object|
 |🔪|HOCHO|U+1F52A|&amp;#1F52A;|cooking, hocho, knife, object, tool, weapon|
 |🏺|AMPHORA|U+1F3FA|&amp;#1F3FA;|amphora, aquarius, cooking, drink, jug, nature, tool, weapon, zodiac|
-
 
 ## Places
 
@@ -1052,7 +1046,6 @@ Here's a complete list of all emoji, and their names, including attributes and h
 |🀄|MAHJONG TILE RED DRAGON|U+1F004|&amp;#1F004;|game, mahjong, object, red|
 |🎴|FLOWER PLAYING CARDS|U+1F3B4|&amp;#1F3B4;|activity, card, entertainment, flower, game, japanese, object, playing|
 
-
 ## Sound
 
 |🔇|SPEAKER WITH CANCELLATION STROKE|U+1F507|&amp;#1F507;|mute, object, quiet, silent, sound, speaker, volume|
@@ -1150,7 +1143,6 @@ Here's a complete list of all emoji, and their names, including attributes and h
 |💹|CHART WITH UPWARDS TREND AND YEN SIGN|U+1F4B9|&amp;#1F4B9;|bank, chart, currency, graph, growth, market, money, object, office, rise, symbol, trend, upward, yen|
 |💱|CURRENCY EXCHANGE|U+1F4B1|&amp;#1F4B1;|bank, currency, exchange, money, object, office, symbol|
 |💲|HEAVY DOLLAR SIGN|U+1F4B2|&amp;#1F4B2;|currency, dollar, money, object, office, symbol|
-
 
 ## Mail
 
@@ -1445,7 +1437,6 @@ Here's a complete list of all emoji, and their names, including attributes and h
 |🏴|WAVING BLACK FLAG|U+1F3F4|&amp;#1F3F4;|flag, object, waving|
 |🏳|WAVING WHITE FLAG|U+1F3F3|&amp;#1F3F3;|flag, object, waving|
 
-
 ## National Flags
 
 |Emoji|Name|Unicode|HTML Entity Code|Attributes|
@@ -1702,12 +1693,7 @@ Here's a complete list of all emoji, and their names, including attributes and h
 |🇿🇲|Flag for Zambia|U+1F1FF U+1F1F2|&amp;#1F1FF; &amp;#1F1F2;|flag, other, zambia|
 |🇿🇼|Flag for Zimbabwe|U+1F1FF U+1F1FC|&amp;#1F1FF; &amp;#1F1FC;|flag, other, zimbabwe|
 
-
-
-
-
 Retrieved from emoji module (see 'source') and formatted to markdown table, via this script:
-
 
     $emojiPath = get-module -listavailable emoji* | % Path | Get-Item | % DirectoryName
     $emojiPath = Join-Path $emojiPath "Unicode-Emojis.json"

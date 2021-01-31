@@ -20,13 +20,9 @@ And if you try to Get-Content of that file, before stopping the recording, it wi
 
 ...until your hard drive is full, or some other resources is exhausted.
 
-
-
-
 To do all of this in one line try the following:
 
     stop-transcript; start-transcript | % { $tfile = $_.Replace("Transcript started, output file is ","") }; cat $tfile; stop-transcript
-
 
 To get the location of the current or most recent transcript file:
 
@@ -40,7 +36,6 @@ To get the location of the current or most recent transcript file:
     }
 
 ...allegedly. Though so far that only works on half my machines.
-
 
 ## External links
  * [Colorize PowerShell Transcript with CSS](http://www.spjeff.com/2014/10/02/colorize-powershell-transcript-with-css/)

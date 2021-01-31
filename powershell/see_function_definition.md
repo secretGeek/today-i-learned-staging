@@ -6,9 +6,7 @@ A quick way to see a function definition
 
     dir function:nprof | % { $_.definition }
 
-
 A way to search for the definition....
-
 
 	Get-Command findtext |  Foreach-Object Definition
 

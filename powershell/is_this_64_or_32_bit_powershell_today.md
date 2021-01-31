@@ -1,10 +1,8 @@
 ﻿# Is this 64 or 32 bit PowerShell today?
 
-
 On PowerShell [version](version.md) 4.0 and up:
 
     [Environment]::Is64BitProcess
-
 
 More thorough again...
 

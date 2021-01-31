@@ -24,10 +24,7 @@ You can rename a photo, such that its name is based on the *second* at which it 
 
 Note that you can still have problems caused by timezones!
 
-
-
-
 ## Source
 
  * <http://exif.regex.info/exif.cgi>
- * [StackOverflow: How can I get programmatic access to the â€œDate takenâ€ field of an image or video using powershell?](http://stackoverflow.com/questions/6834259/how-can-i-get-programmatic-access-to-the-date-taken-field-of-an-image-or-video)
+ * [StackOverflow: How can I get programmatic access to the "Date taken" field of an image or video using powershell?](http://stackoverflow.com/questions/6834259/how-can-i-get-programmatic-access-to-the-date-taken-field-of-an-image-or-video)

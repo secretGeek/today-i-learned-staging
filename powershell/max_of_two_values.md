@@ -6,7 +6,6 @@ To return the largest of two numbers:
 
 ...returns `2`.
 
-
 Similarly:
 
   [Math]::Max(1,2)

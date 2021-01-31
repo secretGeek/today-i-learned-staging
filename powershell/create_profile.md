@@ -12,9 +12,7 @@ To create your profile file (and create a folder to stick it in), use this comma
  * `-type file` -- We tell New-Item that we want to create a file.
  * `-force` -- We tell New-Item to 'just do it' (and in this case it might mean creating the directory to put the file in!)
 
-
 Now you can edit your profile and start putting all the good things in.
-
 
 ## See Also
 

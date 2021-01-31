@@ -17,15 +17,12 @@ Perhaps `Write-Host` *is* the right thing for a lot of my usages.
 
 Scripting guys recommend this approach to changing text color when using Write-Output:
 
-
-
     $t = $host.ui.RawUI.ForegroundColor
     $host.ui.RawUI.ForegroundColor = "DarkGreen"
     Write-Output "this is green output"
     $host.ui.RawUI.ForegroundColor = $t
 
 Really?
-
 
 And someone provides this helpful example on stackoverflow of wrapping it into a "Write-ColorOutput" function.
 
@@ -53,7 +50,6 @@ And someone provides this helpful example on stackoverflow of wrapping it into a
     Write-ColorOutput red (ls)
     Write-ColorOutput green (ls)
     ls | Write-ColorOutput yellow
-
 
 It doesn't solve the no new line feature, and it is horribly un-parallel-able (if you lose sleep over that kind of thing like some of my buddies)
 

@@ -13,7 +13,6 @@ You can parse it into TAGS (e.g. "SYNOPSIS") and bodies (e.g. "This script does 
 
 ... using this function:
 
-
 	function parseComment ($comment) {
 		$token = $null
 		$body = $null

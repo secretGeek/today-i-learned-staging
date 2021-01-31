@@ -1,6 +1,5 @@
 ﻿# Add note property to object in pipeline
 
-
 Here's an example Function that add' members to an object in a pipeline.
 
 	function ConvertTo-Object($hashtable)
@@ -13,7 +12,6 @@ Here's an example Function that add' members to an object in a pipeline.
 	}
 
 Now imagine we have this hashtable:
-
 
 	$hash = @{Name='Richard'; Status='Online'; Color='Green'; Hat='Reversed'}
 
@@ -30,18 +28,15 @@ If we inspect it, here is what we see:
 
 Now if we run it through our "ConvertTo-Object" function, we'll see a very different object emerge...
 
-
 	> ConvertTo-Object $hash | format-table
 
 	Color Status Name    Hat
 	----- ------ ----    ---
 	Green Online Richard Reversed
 
-
 And I believe I used this particular one, to make it easier to export a hashtable to a csv file.
 
 	ConvertTo-Object $hash | Export-Csv test.csv -NoTypeInformation
-
 
 I know I used a function (in MarkJimp) that is somewhat the reverse of this, and turns a custom object into a hash...
 
@@ -55,11 +50,6 @@ I know I used a function (in MarkJimp) that is somewhat the reverse of this, and
 		}
 		$hash;
 	}
-
-
-
-
-
 
 ## Source
 

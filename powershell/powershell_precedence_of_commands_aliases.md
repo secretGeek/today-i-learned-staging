@@ -13,8 +13,6 @@ Powershell decides what to run based on this precedence:
   - `.bat`
   - `.cmd`
 
-
-
 If you type 'doit' at a prompt in powershell, it will look for:
 
 - An `alias` called `go`
@@ -24,6 +22,5 @@ If you type 'doit' at a prompt in powershell, it will look for:
 - An exectuable on the path called `go.exe`
 - An batch file on the path called `go.bat`
 - An batch file on the path called `go.cmd`
-
 
 ...and it will run the first one it finds.

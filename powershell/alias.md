@@ -10,19 +10,15 @@
 
 ...produces a list of not just aliases but commands that match your pattern. (so i sometimes prefer it over `get-alias` though it can produce unwanted results.)
 
-
 	CommandType     Name
 	===========     ====
 	Alias           cls -> Clear-Host
-
-
 
 ## To find aliases for a command
 
 Wonder what aliases exist for a command (or commands)? add the `-def` parameter to `get-alias`
 
 	get-alias -def "push-location"
-
 
 ## Aliases *can't* have parameters: make little functions instead
 
@@ -37,6 +33,5 @@ e.g.
 	function tf() {
 		tree /f
 	}
-
 
 ...and over time: grow it into a cmdLet and eventually put it into a module.

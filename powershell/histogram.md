@@ -45,11 +45,9 @@ Group by file type:
 
     dir -rec | group-object -property { ($_.extension) } | sort @{e={$_.Name -as [int]}}
 
-
 Exclude directories (but include their files)
 
 	dir -rec | ?{ $_.PSIsContainer -ne $true } | group-object -property { ($_.extension) } | sort
-
 
 ...for looking at size of all markdown files in TIL...
 

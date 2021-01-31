@@ -12,7 +12,6 @@ Otherwise:
 
 	Install-Module -Name PSScriptAnalyzer -Scope CurrentUser -Force
 
-
 Then you can either run it against a specific script:
 
 	Invoke-ScriptAnalyzer $profile
@@ -20,8 +19,6 @@ Then you can either run it against a specific script:
 or against an entire path... and you can include subfolders by using -recurse
 
 	Invoke-ScriptAnalyzer -Path ($pwd).Path -recurse
-
-
 
 	RuleName                            Severity     FileName   Line  Message
 	--------                            --------     --------   ----  -------

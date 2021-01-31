@@ -6,7 +6,6 @@ Say you have two variables, `$name` and `$count` -- and you want to create a cus
 
 Or say you are in a pipeline, within which `$name` and `$count` become available... you want to pipe out a custom object with those two properties...
 
-
 	dir *.xml | % {
 		$name = $_.FullPath
 		$count = $_.Length

@@ -6,7 +6,6 @@ e.g.
 
     alias | get-member
 
-
     Name                MemberType     Definition
     ----                ----------     ----------
     Equals              Method         bool Equals(System.Object obj)
@@ -17,7 +16,6 @@ e.g.
     CommandType         Property       System.Management.Automation.CommandTypes CommandType {get;}
     Definition          Property       string Definition {get;}
     DisplayName         ScriptProperty System.Object DisplayName {get=if ($this.Name.IndexOf('-') -lt 0)..
-
 
 etc.
 

@@ -13,7 +13,6 @@ You receive this message:
 >	The WinRM client received an HTTP status code of 502 from the remote WS-Management service.<br />
 >	For more information, see the about_Remote_Troubleshooting Help topic.
 
-
 502 means `502 Bad Gateway` -- and I tend to think "Hmmmm, proxy?" ðŸ¤”ðŸ’­
 
 Here's the code that failed...
@@ -29,9 +28,7 @@ Here's the code that failed...
 
 	}
 
-
 What we will do is specify "No Proxy". To do that we need to create a `PSSessionOption` and add that to the call to `New-PSSession`, like so
-
 
 	$Credentials = Get-Credential -Message "Provide the credentials for remote access" # prompts for credentials
 	$TargetServer = "YourServer.YourDomain"
@@ -43,18 +40,13 @@ What we will do is specify "No Proxy". To do that we need to create a `PSSession
 		dir;
 	}
 
-
 i.e.
-
 
 	$PSSessionOption = New-PSSessionOption -ProxyAccessType NoProxyServer
 
-
 And don't forget to append it to the `New-PSSession` call:
 
-
 	-SessionOption $PSSessionOption
-
 
 ## See also
 

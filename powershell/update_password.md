@@ -7,14 +7,11 @@
 
 To see how many days until expiry:
 
-	(([datetime]::FromFileTime((Get-ADUser â€“Identity $username -Properties "msDS-UserPasswordExpiryTimeComputed")."msDS-UserPasswordExpiryTimeComputed"))-(Get-Date)).Days
-
+	(([datetime]::FromFileTime((Get-ADUser -Identity $username -Properties "msDS-UserPasswordExpiryTimeComputed")."msDS-UserPasswordExpiryTimeComputed"))-(Get-Date)).Days
 
 All of this requires the `Active Directory` module in powershell.
 
 Exactly how to make that a part of your windows install seems to vary from one minor version to the next. [Try this guide](https://4sysops.com/wiki/how-to-install-the-powershell-active-directory-module/).
-
-
 
 ## See also
 

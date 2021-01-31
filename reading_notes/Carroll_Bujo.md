@@ -57,7 +57,7 @@ That's the weird one
 
 In gtd they have `@` for place/context - `@bunnings`
 
-Events are "an open circle bullet" circle `â­•ï¸`
+Events are "an open circle bullet" circle `o`
 
 What if i had syntax highlighting for these different syntaxes
 

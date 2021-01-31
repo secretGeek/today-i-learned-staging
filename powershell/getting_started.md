@@ -18,7 +18,6 @@ What's happening here? Is `dir` a command in powershell? No, it's an `alias`, pr
 
 If you type `alias dir` you will see the real name of the command you are calling...
 
-
     > alias dir
 
     CommandType     Name                                                Definition
@@ -39,7 +38,6 @@ Or you can look at *ALL* the available commands by typing simply:
 
     Get-Command
 
-
 ## What can I do with this object?
 
 To find out what you can *do* with an object, any object, use `Get-Member`
@@ -58,8 +56,6 @@ This means: run the `dir` command, send the output to a foreach (%) and return t
 
 So `Get-Member` is one of the fundamental ways you teach yourself about powershell.
 
-
-
 ## About_Signing
 
 set-executionpolicy
@@ -68,13 +64,7 @@ powershell.exe -ExecutionPolicy bypass
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-
-
-
-
-
 
 If you want more help on a command you can type:
 

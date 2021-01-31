@@ -1,11 +1,8 @@
 ﻿# Use Google Maps from the PowerShell
 
-
 	Install-Module GoogleMap -Scope CurrentUser
 
-
 That worked great, now let's try and use it....
-
 
 	"White House", "Eiffel Tower" | Get-GeoCoding
 
@@ -15,7 +12,6 @@ result:
 >
 >	Follow this link and get the API Key - http://developers.google.com/maps/documentation/geocoding/get-api-key
 
-
 So I follow that link... I have to accept some terms and conditions. It sees that I have no projects with google maps, and it auto-creates one called "MyProject"
 
 I receive the key eventually (I have an option to limit the acceptable IPs for this key, but don't take it)
@@ -23,7 +19,6 @@ I receive the key eventually (I have an option to limit the acceptable IPs for t
 Then in powershell I set the environment variable as requested.
 
 	$env:GoogleGeocode_API_KEY = "...my API key..."
-
 
 Thereafter, I try again:
 
@@ -43,7 +38,7 @@ result:
 	InputAddress : Eiffel Tower
 	Address      : Eiffel Tower, Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France
 	Country      : France
-	State        : Île-de-France
+	State        : �le-de-France
 	PostalCode   : 75007
 	Latitude     : 48.8583701
 	Longitude    : 2.2944813
@@ -57,7 +52,6 @@ Now I try
 
 This one fails with a familiar though slightly different error...
 
-
 	You need to register and get an API key and save it as environment variable $env:GoogleGeoloc_API_Key = "YOUR API KEY"
 	Follow this link and get the API Key - https://developers.google.com/maps/documentation/geolocation/get-api-key
 
@@ -69,7 +63,6 @@ This one fails with a familiar though slightly different error...
 			+ FullyQualifiedErrorId : You need to register and get an API key and save it as environment variable $env:GoogleGeoloc_API
 		 _Key = "YOUR API KEY"
 	Follow this link and get the API Key - https://developers.google.com/maps/documentation/geolocation/get-api-key
-
 
 i.e. This time it's `GoogleGeoloc_API_Key` (not `GoogleGeocode_API_Key`)
 
@@ -107,22 +100,18 @@ To do that in isolation I changed this line of code:
 
 But the resulting address that was returned was not any more accurate. So I will leave the code as it was.
 
-
 Okay, moving on to Get-Direction... similar error:
-
 
 	You need to register and get an API key from below link and have to setup an Environment variable like
 	$env:GoogleDirection_API_Key = "YOUR API KEY" to make this function work. You can save this $Env variable in your profile, so
 	that it automatically loads when you open powershell console.
 	API Key Link - https://developers.google.com/maps/documentation/directions/get-api-key
 
-
 Again I visited the URI provided and then all was good.
 
 When I tried:
 
 	Get-Direction -from "250 Adelaide St, Brisbane" -to "30 Mary St, Brisbane" | ft -autosize
-
 
 One of the directions read:
 
@@ -149,7 +138,6 @@ And when I bypassed that method, the result was:
 
 So I updated that method to put a single space where that `&lt;div`... had been.
 
-
 	# To Clear unwanted data from the String
 	Function Remove-UnwantedString($Str)
 	{
@@ -163,12 +151,9 @@ So I updated that method to put a single space where that `&lt;div`... had been.
 
 And then I got the result I was expecting.
 
-
 Finally onto the fun one....
 
-
 	("cyberhub, dlf phase 3, Gurgaon" | Get-GeoCoding).Coordinates | Get-NearbyPlace -Radius 3000 -TypeOfPlace bar -Keyword beer
-
 
 This gave no result at first. It just returned nothing (no error either)
 
@@ -182,7 +167,6 @@ Finally, to find local pizza joints....
 
 	(Get-GeoLocation -WithCoordinates).Coordinates | Get-NearbyPlace -Radius 2000 -TypeOfPlace Restaurant -Keyword Pizza | % { $_.Name + " (" + $_.Address + ")" }
 
-
 And nearest beer:
 
 	(Get-GeoLocation -WithCoordinates).Coordinates | Get-NearbyPlace -Radius 1000 -TypeOfPlace Bar -Keyword Beer | % Name
@@ -193,9 +177,7 @@ And nearest beer:
 	Puccini Pizza Pasta Gelati Bar (Shop 2/6 Gapap Street, Tarragindi)
 	Mediterranean Flavours - Gourmet Pizza and Pasta (1A 398 Tarragindi Road, Tarragindi)
 
-
 Fantastic!
-
 
 ## Source
 

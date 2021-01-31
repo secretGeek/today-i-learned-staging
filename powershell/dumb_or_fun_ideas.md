@@ -1,6 +1,5 @@
 ﻿# Sample scripts for dumb or fun ideas...
 
-
 ## Fractals
 
 A mandelbrot one liner:
@@ -41,7 +40,6 @@ Which produces output like:
     :::::::::--------------------------------------------------------:::::::::::::::::::
     :::::::::::::------------------------------------------------:::::::::::::::::::::::
 
-
 ...from WaiKin Kong, in 2006, shared here: [Mandelbrot One-liner](https://blogs.msdn.microsoft.com/powershell/2006/12/28/mandelbrot-one-liner/)
 
 A less condensed version, from [poshcode, by user Zefram](http://poshcode.org/5845) which writes colored squares.
@@ -74,10 +72,7 @@ A less condensed version, from [poshcode, by user Zefram](http://poshcode.org/58
         Write-Host " "
     }
 
-
-
 ## Emojis
-
 
     Install-Module -Name Emojis -Scope CurrentUser -Force;
     Get-Command -Module Emojis -CommandType All;
@@ -85,7 +80,6 @@ A less condensed version, from [poshcode, by user Zefram](http://poshcode.org/58
     emoji airplane | scb;
 
 From: [Emojis in PowerShell? Yes!](https://artofshell.com/2016/04/emojis-in-powershell-yes/)
-
 
 ## Cowsay
 
@@ -96,9 +90,7 @@ See:
 1. [Posh-Cowsay](https://github.com/kanej/Posh-Cowsay) "A shell cannot be called civilised until it has a talking cow."
 2. [Luke Sampson's implementation](http://blog.lukesampson.com/cowsay-in-powershell)
 
-
 ## Speech Synthesis
-
 
     Add-Type -AssemblyName System.Speech;
     $synth = New-Object -TypeName System.Speech.Synthesis.SpeechSynthesizer;
@@ -107,7 +99,6 @@ See:
     $synth.Dispose();
 
 ## Beautiful music
-
 
 From [Luiz Henrique Lima Campos](https://blogs.technet.microsoft.com/wikininjas/2013/11/13/wiki-life-geek/), quoted here: ["Music from the Command Line": Performed by Powershell](http://social.technet.microsoft.com/wiki/contents/articles/20989.music-from-the-command-line-performed-by-powershell.aspx), though maybe previously from [Jeff Wouters](http://jeffwouters.nl/index.php/2012/03/get-your-geek-on-with-powershell-and-some-music/)
 

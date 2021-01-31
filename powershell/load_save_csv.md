@@ -1,10 +1,8 @@
 ﻿# Load or Save CSV with Powershell
 
-
 ## Save CSV to a file
 
 Save an object as CSV with "Export-Csv"
-
 
 	dir | Export-Csv dir.csv -NoTypeInformation
 
@@ -16,15 +14,11 @@ Can also convert any object to csv before doing something with it, such as writi
 
 	dir | select Name, Length | convertto-csv -notypeinformation | out-file -append dirinfo.csv -encoding utf8;
 
-
-
 ## Load CSV from a file
 
 	$myDir = import-csv "dirinfo.csv";
 
-
 What type do we end up with? A custom object, with a `NoteProperty` for each column that was encountered...
-
 
 	> $mydir | get-member
 
@@ -40,6 +34,5 @@ What type do we end up with? A custom object, with a `NoteProperty` for each col
 	Name        NoteProperty string Name=fred.md
 
 ## Group CSV
-
 
 	import-csv "dirinfo.csv" | group -property Name | sort -desc count

@@ -3,7 +3,6 @@
 This is a powershell prompt i've been using for a while.
 you put this in your [$PROFILE](create_profile.md)
 
-
     function prompt {
         # LEON prompt in progress
         $cdelim = [ConsoleColor]::DarkCyan

@@ -16,8 +16,6 @@
 
 (As we are accessing the static member `today` from the class `datetime`
 
-
-
 ## See also
 
 - [Date format in powershell](date_format.md)

@@ -1,6 +1,5 @@
 ﻿# Avoid 'access is denied' when using Powershell Remoting to Copy to a Shared Network Folder (i.e. Defeating Kerberos)
 
-
 **Scenario** You are using remoting, and have assigned credentials to the remoting session...
 
 Within the remote session block you are trying to talk a network fileshare, but failing with Access Denied. (`UnauthorizedAccessException`)
@@ -23,15 +22,11 @@ For example:
 		dir $using:TargetFolder
 	}
 
-
-
-
 But it errors with "Access is Denied"
 
 You can't believe it, because when you remote onto the same machine with Remote Desktop Connection Manager (etc) and run the same command in powershell, with the exact same user -- you *do* have permission!
 
 What's going on?
-
 
 It **kerberos** of course! It's always kerberos!
 
@@ -46,7 +41,6 @@ Instead -- do this...
 
 	$TargetFolder = "\\OtherServer\ShareName\Pathy\Path"
 
-
 	write-host "HOW ABOUT THESE APPLES..." -f green
 	Invoke-Command -Session $RemoteSession {
 		# This still works: we can view local folders on machine
@@ -60,11 +54,7 @@ Instead -- do this...
 		# ^^ Remember to remove it... (though it will dissappear anyway if it doesn't have a "-persist" flag)
 	}
 
-
-
-
 ...i.e. create a new drive, and pass the credentials in when creating that drive... and then use that new drive name, instead of the UNC path of the share.
-
 
 ## Historical Note
 
@@ -76,15 +66,12 @@ And here's something we tried along the way that failed -- but gave an error mes
 		copy $using:SourceFile $using:TargetFolder -credential $using:Credentials
 	}
 
-
 ...the error message said
-
 
 	The FileSystem provider supports credentials only on the New-PSDrive cmdlet. Perform the operation again without specifying credentials.
 		+ CategoryInfo          : NotImplemented: (:) [], PSNotSupportedException
 		+ FullyQualifiedErrorId : NotSupported
 		+ PSComputerName        : YourServer.YourDomain.com
-
 
 What a sneaky message!
 
@@ -98,13 +85,9 @@ It's really giving you a clue about how to achieve the workaround. So even thoug
 
 > Use `New-PsDrive` with your credential to make a new, temporary, PsDrive, and then use *that* PsDrive to achieve your File Operation!
 
-
 ## Credits
 
-
 Big thanks to Paul Gaske for developing this as we paired on it. He has a lot of very neat powershell bits n pieces.
-
-
 
 ## See also
 

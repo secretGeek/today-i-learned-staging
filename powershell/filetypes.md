@@ -4,7 +4,6 @@ THis is a snippet that I use all the time, for seeing how many files of each typ
 
 	dir -rec -Exclude .git,*node_modules* | ?{ $_.PSIsContainer -ne $true } | ? { $_.DirectoryName -notmatch "node_modules|_book|\.git|\.hg" } | group-object -property { ($_.extension) } | sort -desc Count
 
-
 I explicitly exlude the `.git` and `node_modules` folders, because I am usually not interested in those.
 
 To **include** node modules...

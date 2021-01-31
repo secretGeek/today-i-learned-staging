@@ -13,7 +13,6 @@ Grouping is useful. I've mentioned it also in [Count distinct rows](count_distin
 		}
 	} | sort -desc Size
 
-
 	dir -rec |
 	group-object -property { ($_.extension) } |
 	% {
@@ -25,10 +24,7 @@ Grouping is useful. I've mentioned it also in [Count distinct rows](count_distin
 		}
 	} | sort -desc Size
 
-
-
 ## Group by multiple properties
-
 
 This example is from stackoverflow (see sources)
 
@@ -40,7 +36,6 @@ This example is from stackoverflow (see sources)
 					'Sum Value' = ($_.group | measure value -sum).sum
 			}
 	}
-
 
 Group my tasks by Source and Category
 
@@ -55,7 +50,6 @@ Group my tasks by Source and Category
 					'Sum Value' = ($_.group.Length | measure -sum).sum
 			}
 	}
-
 
 ## Source
 

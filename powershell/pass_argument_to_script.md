@@ -22,28 +22,23 @@ A simple if brutal way to bail if a required argument was not specified
 
     param ( [string]$comment = $(throw "Please specify a comment" ))
 
-
 Can also use a type of boolean parameter called a `switch`
 
     Param([switch]$IsGood)
 
 Then $IsGood will be $false, unless the parameter was specified
 
-
     ".\script1.ps1"                 #  $IsGood = $false
     ".\script1.ps1 -IsGood"         #  $IsGood = $true
     ".\script1.ps1 -isGood:$true"   #  $IsGood = $true
     ".\script1.ps1 -isGood:$false"  #  $IsGood = $false
 
-
 ## Don't like named parameters? Fine! Use positional...
-
 
     $name=$args[0]
     $height=$args[1]
 
 ...like it's 1999.
-
 
 ## Validate the parameters...
 
@@ -57,18 +52,15 @@ For example -- string, length from 1 to 10...
 
 Or how about a number that must be within a range...
 
-
    Param(
         [ValidateRange(0,10)][int]$myinteger
     )
 
 What about -- a filename that must be an existing file...
 
-
     Param(
         [ValidateScript({Test-Path $_})][string]$smolibrary
     )
-
 
 ## Source
 

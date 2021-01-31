@@ -10,8 +10,6 @@ In Powershell 3+
 
     Get-CimInstance -ClassName win32_operatingsystem | select csname, lastbootuptime
 
-
-
 ## Source
 
  * [PowerTip: Get the Last Boot Time with PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2013/03/27/powertip-get-the-last-boot-time-with-powershell/)

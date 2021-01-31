@@ -6,19 +6,15 @@ I wanted to repeat this every 5 seconds:
 
     dir . *.* -recurse | measure | % Count
 
-
 And used this command to achieve it:
 
 	cls; while ($true) { dir . *.* -recurse | measure | % Count; start-sleep -seconds 5; }
-
-
 
 This example will show you the file size, every second (expressed in GB)
 
     while($true) { dir *wellsrv* | % { $_.Length / 1gb; sleep 1} }
 
 Here's one that shows the current time, the file name and size every 20 seconds
-
 
 	while($true) { dir outputlog.txt | % {
 				"" +  (get-date -f "yyyy-MM-dd HH:mm:ss") +
@@ -28,7 +24,6 @@ Here's one that shows the current time, the file name and size every 20 seconds
 				sleep 30
 				}
 	}
-
 
 Here's one that shows how much space is left on the drive...
 
@@ -40,8 +35,6 @@ Here's one that shows how much space is left on the drive...
 			};
 			sleep 3;
 	}
-
-
 
 ## See also
 
