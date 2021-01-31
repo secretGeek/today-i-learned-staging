@@ -1,4 +1,4 @@
-# How to publish a module
+﻿# How to publish a module
 
 For now &mdash; this is based entirely on [Building a PowerShell Module](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) by Warren Frame.
 

@@ -1,4 +1,4 @@
-# Find Files Older than X Days
+﻿# Find Files Older than X Days
 
 
 
@@ -17,17 +17,16 @@ To a table with just the attributes I want:
 
 To a tab separated string (columns are "Size (Bytes)", "Days Old", "Full Name")
 
-	dir -rec | ? {$_.LastWriteTime -lt (Get-Date).AddDays(-30)} | 
+	dir -rec | ? {$_.LastWriteTime -lt (Get-Date).AddDays(-30)} |
 		% { "" +$_.Length + "`t" + $(New-TimeSpan -start $_.LastWriteTime -End (Get-Date)).Days + "`t" + $_.FullName } | clipp
 
 
-Or just find the 10 oldest files 
+Or just find the 10 oldest files
 
 
-	dir -rec | sort lastwritetime | select -first 10 
+	dir -rec | sort lastwritetime | select -first 10
 
 Or find the 10 oldest files and show them in a neat table
 
 
 	dir -rec | sort lastwritetime | select -first 10 |format-table -property @{Expression={(New-TimeSpan -start $_.LastWriteTime -End (Get-Date)).Days};Label="Days"},Length, FullName
-	

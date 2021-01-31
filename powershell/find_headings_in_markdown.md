@@ -1,4 +1,4 @@
-# Find headings in markdown...
+﻿# Find headings in markdown...
 
 To list the headings from a markdown document
 
@@ -9,5 +9,3 @@ To list the headings from a markdown document
 	And the common alias for `select-string` is `sls`, so for brevity:
 
 	cat .\20_Find_Your_Product.md | sls "^( )*#.*"
-
-

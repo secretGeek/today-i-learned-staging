@@ -1712,15 +1712,15 @@ Retrieved from emoji module (see 'source') and formatted to markdown table, via 
     $emojiPath = get-module -listavailable emoji* | % Path | Get-Item | % DirectoryName
     $emojiPath = Join-Path $emojiPath "Unicode-Emojis.json"
     $json = Get-Content $emojiPath | Out-String | ConvertFrom-Json
-    
-    $json | % { 
-    "|" + (get-emoji -Name $_.Name) + 
-    "|" + $_.Name + 
-    "|" + $_.Code + 
+
+    $json | % {
+    "|" + (get-emoji -Name $_.Name) +
+    "|" + $_.Name +
+    "|" + $_.Code +
     "|" + (($_.code -replace "U[+]", "&amp;#") -replace " ",";") + ";" +
-    "|" + $_.Annotations + "|" 
+    "|" + $_.Annotations + "|"
     } | set-clipboard
 
 ## Source
 
- * [Emojis in PowerShell? Yes!](https://artofshell.com/2016/04/emojis-in-powershell-yes/)    
+ * [Emojis in PowerShell? Yes!](https://artofshell.com/2016/04/emojis-in-powershell-yes/)

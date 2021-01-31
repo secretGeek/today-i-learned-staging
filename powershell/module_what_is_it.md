@@ -1,4 +1,4 @@
-# What is a module?
+﻿# What is a module?
 
 > In its simplest form a module is a subfolder in one of the folders listed in `$env:PSModulePath` with a PowerShell script of the same name (but with the extension `.psm1` instead of `.ps1`)
 >

@@ -1,10 +1,10 @@
-# Replace a line in a file
+﻿# Replace a line in a file
 
 This is a common admin task. You might need to replace the publishing date, or the copyright year, or the author's name or some other piece of information. How to replace it... Like so:
 
 
     $targetFile = 'FileName.ps1'
-    $regex = '^This is the old line$"' 
+    $regex = '^This is the old line$"'
     $with = "This is the new line"
     (Get-Content $targetFile) -replace $regex, $hashyLine | Set-Content $targetFile
 

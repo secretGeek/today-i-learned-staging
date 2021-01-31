@@ -4,7 +4,7 @@ I often find that I need to send emails to people that include a table of data, 
 
 Here's some principles that I use for these data emails.
 
-1. Tailor the writing to the recipient. 
+1. Tailor the writing to the recipient.
 
 2. Always include the query at the foot of the email. It may not be useful to the person you sent it to, but it will be useful to yourself when you have to tweak your work later.
 
@@ -18,8 +18,6 @@ For example:
 
 ![art of the data email](art_of_the_data_email.png)
 
-
-An alternative is to include a second table that is just a list of each column heading, with a description of what it means. 
+An alternative is to include a second table that is just a list of each column heading, with a description of what it means.
 
 Charts are another useful way to make a wall of figures immediately tell a story. Knowing when to use a line chart, a bar chart and when to use a pie chart (i.e. sparingly!) is important knowledge.
-

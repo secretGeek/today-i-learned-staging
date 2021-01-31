@@ -1,4 +1,4 @@
-# Create custom objects.
+﻿# Create custom objects.
 
 Say you have two variables, `$name` and `$count` -- and you want to create a custom object that contains just those two properies....
 

@@ -1,12 +1,12 @@
-# Get Parts of a FileInfo object (such as FileName Without Extension)
+﻿# Get Parts of a FileInfo object (such as FileName Without Extension)
 
 ...That would be the `BaseName`.
 
 e.g.
-    
+
     > Get-ChildItem . *.linq | ft -property BaseName
     calendar
-    
+
 Here's all the members of `FileInfo` that are most relevant:
 
 Example:
@@ -17,7 +17,7 @@ Example:
  * `BaseName` = "calendar"  (the filename without extension)
  * `Extension` = ".linq"   (the extension including the dot)
  * `FullName` = "C:\users\leon\dropbox\secretGeek\util\linqPad\calendar.linq"
- * `DirectoryName` = "C:\users\leon\dropbox\secretGeek\util\linqPad" 
+ * `DirectoryName` = "C:\users\leon\dropbox\secretGeek\util\linqPad"
  * `Directory` = a `DirectoryInfo` object where:
     * `Directory.Name` = "linqPad"
     * `Directory.FullName` = "C:\users\leon\dropbox\secretGeek\util\linqPad"

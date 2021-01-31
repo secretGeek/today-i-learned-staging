@@ -1,4 +1,4 @@
-# Creating a record of all your powershell commands
+﻿# Creating a record of all your powershell commands
 
 You can create a transcript of everything you do in powershell via "Start-Transcript"
 
@@ -11,7 +11,7 @@ The file will contain every command you type.
 
 And when you're done, stop recording with
 
-    > stop-transcript    
+    > stop-transcript
     Transcript stopped, output file is C:\Users\Jack\Documents\PowerShell_transcript.20160526143256.txt
 
 And if you try to Get-Content of that file, before stopping the recording, it will open a wormhole in space and time, and the output becomes the input.
@@ -40,9 +40,8 @@ To get the location of the current or most recent transcript file:
     }
 
 ...allegedly. Though so far that only works on half my machines.
-    
+
 
 ## External links
  * [Colorize PowerShell Transcript with CSS](http://www.spjeff.com/2014/10/02/colorize-powershell-transcript-with-css/)
  * [Unbounded recursion](http://wiki.secretgeek.net/unbounded-recursion)
-

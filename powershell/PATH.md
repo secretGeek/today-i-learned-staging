@@ -1,4 +1,4 @@
-# PATH: getting it, adding to it and managing it
+﻿# PATH: getting it, adding to it and managing it
 
 The PATH is a semi-colon separated list of locations that the OS will search when trying to lcoate an executable program.
 

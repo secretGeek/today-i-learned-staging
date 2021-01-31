@@ -74,7 +74,7 @@
 - [Sample scripts for dumb or fun ideas...](dumb_or_fun_ideas.md)
 - [See all console colors:](console_colors.md)
 - [See Function Definition](see_function_definition.md)
-- [Sleep for N Milliseconds ](sleep_milliseconds.md)
+- [Sleep for N Milliseconds](sleep_milliseconds.md)
 - [Split file into named files](split_file_into_named_files.md)
 - [Store and use password via secure string](store_and_use_password_via_securestring.md)
 - [Test-Path is how you check if a file exists](Test_Path.md)

@@ -1,4 +1,4 @@
-# How do you update a password via powershell (solved)
+﻿# How do you update a password via powershell (solved)
 
 	$username = "Jane.Doe"
 	$oldpassword = "OldPasswordHere"
@@ -7,7 +7,7 @@
 
 To see how many days until expiry:
 
-	(([datetime]::FromFileTime((Get-ADUser –Identity $username -Properties "msDS-UserPasswordExpiryTimeComputed")."msDS-UserPasswordExpiryTimeComputed"))-(Get-Date)).Days
+	(([datetime]::FromFileTime((Get-ADUser â€“Identity $username -Properties "msDS-UserPasswordExpiryTimeComputed")."msDS-UserPasswordExpiryTimeComputed"))-(Get-Date)).Days
 
 
 All of this requires the `Active Directory` module in powershell.

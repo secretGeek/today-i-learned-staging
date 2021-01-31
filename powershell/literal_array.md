@@ -1,4 +1,4 @@
-# How to create a literal array in powershell
+﻿# How to create a literal array in powershell
 
 ## Create an Empty array
 
@@ -24,13 +24,13 @@ Hell, even this works:
 Both have same type:
 
 	> $MyArray.GetType()
-	
-result:	
-	
+
+result:
+
 	IsPublic IsSerial Name                                     BaseType
 	-------- -------- ----                                     --------
 	True     True     Object[]                                 System.Array
-	
+
 
 And both contain strings...
 
@@ -43,7 +43,7 @@ result:
 	True     True     String                                   System.Object
 	True     True     String                                   System.Object
 	True     True     String                                   System.Object
-	
+
 So I think the second one is simpler. Go with that.
 
 
@@ -93,4 +93,3 @@ returns
 
 
 - [Everything you wanted to know about arrays](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.1)
-

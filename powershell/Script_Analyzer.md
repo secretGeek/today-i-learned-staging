@@ -1,4 +1,4 @@
-# Use Script Analyzer to Find Style Problems with your Scripts
+﻿# Use Script Analyzer to Find Style Problems with your Scripts
 
 Script analyzer finds errors and gives warnings about your dodgy scripts.
 
@@ -33,4 +33,3 @@ or against an entire path... and you can include subfolders by using -recurse
 																									 PowerShell       possible problems and make scripts hard to maintain. Please
 																									 _profile.p       consider changing alias to its full content.
 																									 s1
-

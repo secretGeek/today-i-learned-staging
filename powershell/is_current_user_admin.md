@@ -1,4 +1,4 @@
-# To test if the current user is an admin
+﻿# To test if the current user is an admin
 
 Is the current user an administrator?
 

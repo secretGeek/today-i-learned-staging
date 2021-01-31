@@ -1,4 +1,4 @@
-# Maximum of two values (or minimum)
+﻿# Maximum of two values (or minimum)
 
 To return the largest of two numbers:
 
@@ -12,4 +12,3 @@ Similarly:
   [Math]::Max(1,2)
 
 ...returns `1`.
-

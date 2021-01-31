@@ -1,4 +1,4 @@
-# How to convert between kilobytes megabytes gigabytes etc?
+﻿# How to convert between kilobytes megabytes gigabytes etc?
 
 It's easy!
 
@@ -15,7 +15,7 @@ How bout gigabytes, terrabytes or petabytes?
 
     (763392)/ 1TB
     6.94300979375839E-07
-    
+
     (763392)/ 1PB
     6.78028300171718E-10
 

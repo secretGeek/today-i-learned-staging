@@ -1,4 +1,4 @@
-# PsGet Conflicts with PowershellGet
+﻿# PsGet Conflicts with PowershellGet
 
 There's a new microsoft thing called PowershellGet which lets you install modules from various places.
 

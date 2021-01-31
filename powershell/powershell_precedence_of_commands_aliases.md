@@ -1,4 +1,4 @@
-# Command Precedence in Powershell
+﻿# Command Precedence in Powershell
 
 PowerShell uses the following precedence order when it runs commands for all items loaded in the current session:
 
@@ -27,4 +27,3 @@ If you type 'doit' at a prompt in powershell, it will look for:
 
 
 ...and it will run the first one it finds.
-

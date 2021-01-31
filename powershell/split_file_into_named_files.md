@@ -1,4 +1,4 @@
-# Split file into named files
+﻿# Split file into named files
 
 Given an input file like this:
 
@@ -29,4 +29,3 @@ You can split it into two files, named `Hello.txt` and `Hello2.txt` by using the
 Here's a shorter version of the same script (using common aliases)
 
 	cat .\file1.txt | % { if ($_ -like 'FILE:*') { $file = ($_ -split ':')[1];if (test-path $file) {del $file}} else { $_ | out-file -append $file Unicode } }
-

@@ -1,4 +1,4 @@
-# Date format in powershell
+﻿# Date format in powershell
 
 Simple!
 
@@ -15,4 +15,4 @@ or better (worse) yet
 
 Formatting a list of dates...
 
-	dir *.txt | % { $_.LastWriteTime.ToString("yyyy-MM-dd") }	
+	dir *.txt | % { $_.LastWriteTime.ToString("yyyy-MM-dd") }

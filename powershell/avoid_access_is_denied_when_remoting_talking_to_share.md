@@ -1,7 +1,7 @@
-# Avoid 'access is denied' when using Powershell Remoting to Copy to a Shared Network Folder (i.e. Defeating Kerberos)
+﻿# Avoid 'access is denied' when using Powershell Remoting to Copy to a Shared Network Folder (i.e. Defeating Kerberos)
 
 
-**Scenario** You are using remoting, and have assigned credentials to the remoting session... 
+**Scenario** You are using remoting, and have assigned credentials to the remoting session...
 
 Within the remote session block you are trying to talk a network fileshare, but failing with Access Denied. (`UnauthorizedAccessException`)
 
@@ -11,18 +11,18 @@ For example:
 	$TargetServer = "YourServer"
 	$PSSessionOption = New-PSSessionOption -ProxyAccessType NoProxyServer
 	$RemoteSession = New-PSSession -ComputerName $TargetServer -Credential $Credentials -SessionOption $PSSessionOption
-	
+
 	$TargetFolder = "\\OtherServer\ShareName\Pathy\Path"
 	write-host "THIS WON'T WORK..." -f red
 	Invoke-Command -Session $RemoteSession {
-	
+
 		# This works: we can view local folders on machine
-		dir; 
-		
+		dir;
+
 		# This doesn't work: we cannot authenticate to view restricted network shares
 		dir $using:TargetFolder
 	}
-	
+
 
 
 
@@ -43,16 +43,16 @@ Instead -- do this...
 	$TargetServer = "YourServer"
 	$PSSessionOption = New-PSSessionOption -ProxyAccessType NoProxyServer
 	$RemoteSession = New-PSSession -ComputerName $TargetServer -Credential $Credentials -SessionOption $PSSessionOption
-	
+
 	$TargetFolder = "\\OtherServer\ShareName\Pathy\Path"
 
 
 	write-host "HOW ABOUT THESE APPLES..." -f green
 	Invoke-Command -Session $RemoteSession {
 		# This still works: we can view local folders on machine
-		dir; 
-		
-		# NOW, we create a new PS-Drive to the share. (You can give it a nice name, not just one letter). 
+		dir;
+
+		# NOW, we create a new PS-Drive to the share. (You can give it a nice name, not just one letter).
 		# And provide the credential to it!
 		new-psdrive  -name "MyNewDrive" -root $using:TargetFolder -PSProvider "FileSystem" -Credential $using:Credentials | out-null
 		dir "MyNewDrive:\"
@@ -77,7 +77,7 @@ And here's something we tried along the way that failed -- but gave an error mes
 	}
 
 
-...the error message said 
+...the error message said
 
 
 	The FileSystem provider supports credentials only on the New-PSDrive cmdlet. Perform the operation again without specifying credentials.
@@ -90,7 +90,7 @@ What a sneaky message!
 
 The command we're using (copy... really it's copy-item) *has* a `credential` parameter. But with the underlying provider (`FileSystem`) -- it throws this message.
 
-It's really giving you a clue about how to achieve the workaround. So even though they say 
+It's really giving you a clue about how to achieve the workaround. So even though they say
 
 > Perform the operation again without specifying credentials
 

@@ -1,4 +1,4 @@
-# For a new process to runas a different (admin) user from powershell
+﻿# For a new process to runas a different (admin) user from powershell
 
 Run a new console window as admin, like so:
 

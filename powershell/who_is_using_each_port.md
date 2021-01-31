@@ -1,4 +1,4 @@
-# Who is using each port?
+﻿# Who is using each port?
 
 To see if a port is in use, and by which process, use this command:
 

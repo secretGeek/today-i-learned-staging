@@ -1,12 +1,12 @@
-# Add note property to object in pipeline
+﻿# Add note property to object in pipeline
 
 
 Here's an example Function that add' members to an object in a pipeline.
 
-	function ConvertTo-Object($hashtable) 
+	function ConvertTo-Object($hashtable)
 	{
 		$object = New-Object PSObject
-		$hashtable.GetEnumerator() | 
+		$hashtable.GetEnumerator() |
 			ForEach-Object { Add-Member -inputObject $object `
 				-memberType NoteProperty -name $_.Name -value $_.Value }
 		 $object

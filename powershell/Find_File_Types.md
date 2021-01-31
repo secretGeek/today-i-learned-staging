@@ -1,4 +1,4 @@
-# Find File Types in a Folder
+﻿# Find File Types in a Folder
 
 
     dir *.* | % Extension | sort | Unique

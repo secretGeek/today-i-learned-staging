@@ -1,4 +1,4 @@
-# Test-Path is how you check if a file exists
+﻿# Test-Path is how you check if a file exists
 
     > Test-Path Test_Path.md
     true
@@ -31,6 +31,3 @@ And how do we test for the existence of a folder/directory, with the "PathType" 
 
     > test-path MyFiles -PathType Container
     true
-
-
-

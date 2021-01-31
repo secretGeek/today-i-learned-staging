@@ -1,4 +1,4 @@
-# See Function Definition
+﻿# See Function Definition
 
 A quick way to see a function definition
 
@@ -15,7 +15,7 @@ A way to search for the definition....
 (And with my aliases...)
 
 	which findtext | % Definition
- 
+
 Or
 
 	which findtext | Select Name,Definition

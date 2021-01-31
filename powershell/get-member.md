@@ -1,12 +1,12 @@
-# Get-Member is awesome
+﻿# Get-Member is awesome
 
 you use it to work out the properties (and methods and more) of an object
 
 e.g.
 
     alias | get-member
-    
-    
+
+
     Name                MemberType     Definition
     ----                ----------     ----------
     Equals              Method         bool Equals(System.Object obj)
@@ -18,11 +18,11 @@ e.g.
     Definition          Property       string Definition {get;}
     DisplayName         ScriptProperty System.Object DisplayName {get=if ($this.Name.IndexOf('-') -lt 0)..
 
-    
-etc.    
+
+etc.
 
 Sometimes I think you use get-member like this:
 
-    alias | % {get-member $_ }  
+    alias | % {get-member $_ }
 
 BUT NO -- that's not needed and it doesn't work.

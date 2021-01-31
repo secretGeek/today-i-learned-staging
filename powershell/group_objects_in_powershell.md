@@ -1,9 +1,9 @@
-# Group objects in powershell
+﻿# Group objects in powershell
 
 Grouping is useful. I've mentioned it also in [Count distinct rows](count_distinct_rows.md), [Count Files by Type](file_types.md) and [histogram](histogram.md).
 
-	dir -rec | 
-	group-object -property { ($_.extension) } | 
+	dir -rec |
+	group-object -property { ($_.extension) } |
 	% {
 		[PSCustomObject]@{
 			Id = $_.Name
@@ -14,8 +14,8 @@ Grouping is useful. I've mentioned it also in [Count distinct rows](count_distin
 	} | sort -desc Size
 
 
-	dir -rec | 
-	group-object -property { ($_.extension) } | 
+	dir -rec |
+	group-object -property { ($_.extension) } |
 	% {
 		[PSCustomObject]@{
 			Id = $_.Name
@@ -57,6 +57,6 @@ Group my tasks by Source and Category
 	}
 
 
-## Source 
+## Source
 
 - [stackoverflow - group by multiple properties](https://stackoverflow.com/questions/30769809/powershell-group-by-multiple-properties)

@@ -1,4 +1,4 @@
-# Where is the current script running from?
+﻿# Where is the current script running from?
 
 Scenario:
 
@@ -6,23 +6,23 @@ We have a script, `HelloWorld.ps1` located in `C:\Scripts\`
 
 We run this script, from the location "C:\CurrentPath\" like so:
 
-	C:\CurrentPath\> C:\Scripts\HelloWorld.ps1 
-	
+	C:\CurrentPath\> C:\Scripts\HelloWorld.ps1
+
 We want the script to output:
 
 >	The script is located in C:\Scripts
->	
->	The script's full name and path is C:\Scripts\HelloWorld.ps1 
->	
+>
+>	The script's full name and path is C:\Scripts\HelloWorld.ps1
+>
 >	You are running it *from* C:\CurrentPath
-	
+
 How do we do it??
 
-	write-host "The script is located in $(Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)" 
+	write-host "The script is located in $(Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)"
 	# e.g. C:\Scripts
 
 	write-host "The script's full name is called $($MyInvocation.MyCommand.Path)"
-	# e.g. C:\Scripts\HelloWorld.ps1 
+	# e.g. C:\Scripts\HelloWorld.ps1
 
 	write-host "You are running it from $((Resolve-Path .\).Path)"
 	# e.g. C:\CurrentPath
@@ -32,11 +32,11 @@ How do we do it??
 And in Powershell 3.0 and above, the first two can be simplified to:
 
 
-	write-host "The script is located in $PSScriptRoot" 
+	write-host "The script is located in $PSScriptRoot"
 	# e.g. C:\Scripts
-	
+
 	write-host "The script is called $PSCommandPath"
-	# e.g. C:\Scripts\HelloWorld.ps1 
+	# e.g. C:\Scripts\HelloWorld.ps1
 
 
 ## Caveat!
@@ -50,4 +50,3 @@ What if one script is invoked from another? How do you indication that chain? Go
 (I think the -Scope in this old code might've been put there for that reason...)
 
 	$scriptpath = (split-path (Get-Variable MyInvocation -Scope Script).Value.MyCommand.Path)
-

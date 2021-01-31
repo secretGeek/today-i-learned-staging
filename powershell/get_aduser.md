@@ -1,4 +1,4 @@
-# get-aduser is useful to set info about a user account
+﻿# get-aduser is useful to set info about a user account
 
 TO see all of the properties of a user account (example account called "User1")
 

@@ -1,4 +1,4 @@
-# Match Operator Examples
+﻿# Match Operator Examples
 
 Match with a regular expression
 
@@ -13,4 +13,3 @@ But it is case insensitive by default.
 PascalCase cmdLets should maybe follow this regex.
 
 	"GetFunction" -cmatch "^([A-Z][a-z]+){2,}$"
-

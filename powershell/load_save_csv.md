@@ -1,4 +1,4 @@
-# Load or Save CSV with Powershell
+﻿# Load or Save CSV with Powershell
 
 
 ## Save CSV to a file
@@ -21,7 +21,7 @@ Can also convert any object to csv before doing something with it, such as writi
 ## Load CSV from a file
 
 	$myDir = import-csv "dirinfo.csv";
-	
+
 
 What type do we end up with? A custom object, with a `NoteProperty` for each column that was encountered...
 
@@ -36,5 +36,10 @@ What type do we end up with? A custom object, with a `NoteProperty` for each col
 	GetHashCode Method       int GetHashCode()
 	GetType     Method       type GetType()
 	ToString    Method       string ToString()
-	Length      NoteProperty string Length=0
-	Name        NoteProperty string Name=.md	
+	Length      NoteProperty string Length=12
+	Name        NoteProperty string Name=fred.md
+
+## Group CSV
+
+
+	import-csv "dirinfo.csv" | group -property Name | sort -desc count

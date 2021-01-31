@@ -1,4 +1,4 @@
-# Alias: a guide to powershell and aliases.
+﻿# Alias: a guide to powershell and aliases.
 
 ## To Set An Alias:
 
@@ -40,4 +40,3 @@ e.g.
 
 
 ...and over time: grow it into a cmdLet and eventually put it into a module.
-

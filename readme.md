@@ -17,7 +17,7 @@ Available online:
 
 Each page of this site should be a factoid that you **expect to refer to again**.
 
-Hence, any factoid that is merely "Well that's interesting!" but would *never* be referenced again is "trivia" and NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) category is an exception).
+Hence, any factoid that is merely "Well that's interesting!" but would _never_ be referenced again is "trivia" and NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) category is an exception).
 
 The folder structure means things are categorised by ONE main topic, not tagged with endless topics/subtopics.
 
@@ -29,21 +29,19 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## See Also
 
-
 - [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
 - [secretGeek.net](https://secretGeek.net) &mdash; my blog
 - [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
 - [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
 
-## Oh and I wrote this:
+## Oh and I wrote this
 
 [![Choose Your First Product](yfp_book.png)](https://YourFirstProduct.com)
 
-Though this site is published as a free digital-only book, I've also published a *real* book to help product creators.
+Though this site is published as a free digital-only book, I've also published a _real_ book to help product creators.
 
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
-
-
+<!-- markdownlint-disable-file MD041 -->
 
 
 ## Topics
@@ -164,4 +162,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 638 articles
-161674 words
+161706 words

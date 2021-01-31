@@ -2,7 +2,6 @@
 
 This could include graphic design and user interface and user experience tips. I'll let it be a grab-bag of ideas. Basically these are [little big details](http://littlebigdetails.com/) ;)
 
-
 * A "help me decide" link I saw in visual studio just now was a) a good idea and b) good wording!
 * Don't go [completely black](https://ianstormtaylor.com/design-tip-never-use-black/) or completely white
 * Design Guidelines: [7 practical tips for cheating at design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886) -- and as [twitter thread](https://mobile.twitter.com/i/moments/994601867987619840)
@@ -10,20 +9,19 @@ This could include graphic design and user interface and user experience tips. I
 * [Web desgin in 4 minutes](https://jgthms.com/web-design-in-4-minutes/)
 * [UI/Design Quiz](https://cantunsee.space)
 
-
 Elements are:
 
- - Space
- - Line
- - Shape
- - Color
-   - sets (color-schemes)
-   - gradients [gradients in UI design](https://uxplanet.org/gradients-in-ui-design-b97146f63df3)
- - Font
-   - font face
-   - style
-   - kerning
-   - line space
-   - height
-   - weight
-   - Sets (font-pairing)
+- Space
+- Line
+- Shape
+- Color
+	 - sets (color-schemes)
+	 - gradients [gradients in UI design](https://uxplanet.org/gradients-in-ui-design-b97146f63df3)
+- Font
+	 - font face
+	 - style
+	 - kerning
+	 - line space
+	 - height
+	 - weight
+	 - Sets (font-pairing)

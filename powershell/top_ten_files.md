@@ -1,4 +1,4 @@
-# Top 10 files by size, in all subfolders
+﻿# Top 10 files by size, in all subfolders
 
 
 	dir . -r | sort Length -d | select -f 10 | ft FullName, Length

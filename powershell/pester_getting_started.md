@@ -1,4 +1,4 @@
-# Pester: Getting Started with using Pester to test powershell
+﻿# Pester: Getting Started with using Pester to test powershell
 
 Pester is *the* framework for testing your powershell scripts, functions and modules. It is a BDD (behavior driven design) framework. Tests are written in, and executed by, powershell.
 

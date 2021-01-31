@@ -4,7 +4,9 @@
 - [steam indie tag](https://store.steampowered.com/tags/en/Indie/)
 - [gog (good old games)](https://www.gog.com/games?page=1&sort=popularity&category=indie)
 - [humble bundle](https://humblebundle.com)
+- [game jolt](https://gamejolt.com/)
 - [roast my game](https://roastmygame.com/) - actual feedback. Is this place trollish?
+
 - apple app store
 - google play
 

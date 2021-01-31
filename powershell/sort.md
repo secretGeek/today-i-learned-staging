@@ -1,4 +1,4 @@
-# To Sort Unique
+﻿# To Sort Unique
 
 	sort -unique
 
@@ -12,7 +12,7 @@ use:
 
 	sort -property "propertyName"
 
-e.g. 
+e.g.
 
 	get-alias -def "get*" | sort -property definition | ft -property Name, Definition
 
@@ -30,7 +30,7 @@ To sort by a secondary column, instead pass a hash table as the property.
 
 	dir | sort -property @{Expression="lastwritetime";Descending=$true},@{Expression="Name";Descending=$false} | select -f 10
 
-(Not quite as eloquent as you'd hope.) 
+(Not quite as eloquent as you'd hope.)
 
 
 

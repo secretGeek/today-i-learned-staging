@@ -1,4 +1,4 @@
-# Use Job to measure Processors
+﻿# Use Job to measure Processors
 
 (in Powershell)
 
@@ -16,9 +16,9 @@ Checking the processor time or processor percentage, using counters or wmi...
 	Start-Sleep -Seconds 5 # give it time to load
 	$Result = Receive-Job -Job $JobObject
 
-	$Result.Readings | 
+	$Result.Readings |
 		Foreach-Object { ($_ -split ':')[-1].Trim() } |
-		Measure-Object -Average | 
+		Measure-Object -Average |
 		Select-Object @{n='Average';e={"{0:f2}" -f $_.Average}}
 
 From [Retrieve average CPU-workload with Get-Counter](https://stackoverflow.com/questions/59051743/retrieve-average-cpu-workload-with-get-counter) (by Duke Donnovan and AdminOfThings)
@@ -27,7 +27,6 @@ From [Retrieve average CPU-workload with Get-Counter](https://stackoverflow.com/
 ## Checking CPU Percentage with WMI...
 
 
-	Get-WmiObject -computer $env:computername -class win32_processor | 
-		Measure-Object -property LoadPercentage -Average | 
+	Get-WmiObject -computer $env:computername -class win32_processor |
+		Measure-Object -property LoadPercentage -Average |
 		Select-Object -ExpandProperty Average
-

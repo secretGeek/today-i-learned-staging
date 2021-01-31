@@ -1,4 +1,4 @@
-# Determine the width of the console
+﻿# Determine the width of the console
 
 To determine the width of the console in powershell:
 

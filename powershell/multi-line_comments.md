@@ -1,4 +1,4 @@
-# Multi line comments in powershell
+﻿# Multi line comments in powershell
 
 Apparently it's done with this variety of bee string <#   #>
 

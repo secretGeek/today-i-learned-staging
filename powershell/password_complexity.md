@@ -1,14 +1,14 @@
-# How to determine password complexity rules (from powershell)
+﻿# How to determine password complexity rules (from powershell)
 
 If you receive an error such as:
 
 	Set-ADAccountPassword : The password does not meet the length, complexity, or history requirement of the domain.
-	
+
 (When using `Set-ADAccountPassword` to [set your password with powershell](update_password.md) -- then you can check the complexity rules with:
 
 
 	Get-ADDefaultDomainPasswordPolicy
-	
+
 It gives results like this:
 
 	> Get-ADDefaultDomainPasswordPolicy
@@ -28,7 +28,7 @@ It gives results like this:
 	ReversibleEncryptionEnabled : False
 
 
-	
+
 ...I think in my case the 'MinPasswordAge' might be what's tripping me up... I'm trying to change a password that is 0 days old.
 
 

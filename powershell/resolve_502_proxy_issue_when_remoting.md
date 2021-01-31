@@ -1,4 +1,4 @@
-# Resolve 502 error (proxy issue) when using Powershell Remoting
+﻿# Resolve 502 error (proxy issue) when using Powershell Remoting
 
 You try to use powershell remoting to connect to a machine.
 	- You've done everything right.
@@ -14,7 +14,7 @@ You receive this message:
 >	For more information, see the about_Remote_Troubleshooting Help topic.
 
 
-502 means `502 Bad Gateway` -- and I tend to think "Hmmmm, proxy?" 🤔💭
+502 means `502 Bad Gateway` -- and I tend to think "Hmmmm, proxy?" ðŸ¤”ðŸ’­
 
 Here's the code that failed...
 

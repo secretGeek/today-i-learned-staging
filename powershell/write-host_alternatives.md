@@ -1,4 +1,4 @@
-# Write-Host considered Harmful, so what should we do?
+﻿# Write-Host considered Harmful, so what should we do?
 
 Jeffrey Snover says [Write-Host Considered Harmful](http://www.jsnover.com/blog/2013/12/07/write-host-considered-harmful/)
 
@@ -27,7 +27,7 @@ Scripting guys recommend this approach to changing text color when using Write-O
 Really?
 
 
-And someone provides this helpful example on stackoverflow of wrapping it into a "Write-ColorOutput" function.    
+And someone provides this helpful example on stackoverflow of wrapping it into a "Write-ColorOutput" function.
 
     function Write-ColorOutput($ForegroundColor)
     {
@@ -62,11 +62,11 @@ So here's what I'm going to do:
 Keep on using `Write-host` for a little longer, if I am using colors or `nonewline` flag. Yes I am.
 
 (And I reserve the right to change this at any second.)
-    
-Tag: Don't follow me I'm lost too.    
-    
+
+Tag: Don't follow me I'm lost too.
+
 ## Source
 
  * [Write-Host Considered Harmful](http://www.jsnover.com/blog/2013/12/07/write-host-considered-harmful/)
- * [Scripting Guys: PowerTip: Write PowerShell Output in Color Without Using Write-Host](https://blogs.technet.microsoft.com/heyscriptingguy/2012/10/11/powertip-write-powershell-output-in-color-without-using-write-host/)    
+ * [Scripting Guys: PowerTip: Write PowerShell Output in Color Without Using Write-Host](https://blogs.technet.microsoft.com/heyscriptingguy/2012/10/11/powertip-write-powershell-output-in-color-without-using-write-host/)
  * [SO: Is there a way to specify a font color when using write-output](http://stackoverflow.com/questions/4647756/is-there-a-way-to-specify-a-font-color-when-using-write-output)

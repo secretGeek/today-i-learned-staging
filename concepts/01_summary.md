@@ -18,6 +18,6 @@
 - [Opportunity Cost](opportunity_cost.md)
 - [Other useful concepts not documented yet](list_of_potentially_useful_concepts.md)
 - [Regression to the mean](regression_to_the_mean.md)
-- [Survivorship Bias.](survivorship_bias.md)
+- [Survivorship Bias](survivorship_bias.md)
 - [The Wisdom or Madness of Crowds](idea_transmission.md)
 - [Usability: little tips](usability.md)

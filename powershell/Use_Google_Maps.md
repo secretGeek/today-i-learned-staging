@@ -1,4 +1,4 @@
-# Use Google Maps from the PowerShell
+﻿# Use Google Maps from the PowerShell
 
 
 	Install-Module GoogleMap -Scope CurrentUser
@@ -43,7 +43,7 @@ result:
 	InputAddress : Eiffel Tower
 	Address      : Eiffel Tower, Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France
 	Country      : France
-	State        : �le-de-France
+	State        : Île-de-France
 	PostalCode   : 75007
 	Latitude     : 48.8583701
 	Longitude    : 2.2944813
@@ -200,5 +200,3 @@ Fantastic!
 ## Source
 
 - Prateek Singh [Powershell Module for Google Map](https://geekeefy.wordpress.com/2016/05/17/powershell-module-for-google-map/)
-
-

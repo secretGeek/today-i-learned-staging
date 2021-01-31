@@ -1,4 +1,4 @@
-# Calculate sha256 filehash of a file
+﻿# Calculate sha256 filehash of a file
 
 PowerShell 4+ includes a built-in `Get-FileHash` commandlet that does this for you:
 

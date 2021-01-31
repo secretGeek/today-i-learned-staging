@@ -1,4 +1,4 @@
-# Operation is blocked by software restriction policies
+﻿# Operation is blocked by software restriction policies
 
 On loading my [profile](create_profile.md) on a new machine, as a mortal account, I would suffer this problem:
 

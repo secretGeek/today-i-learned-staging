@@ -1,4 +1,4 @@
-# Base64 Encode and Decode string
+﻿# Base64 Encode and Decode string
 
 First, from <https://adsecurity.org/?p=478>
 

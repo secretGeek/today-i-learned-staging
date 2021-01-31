@@ -1,28 +1,28 @@
-# To pass an argument to a powershell script
+﻿# To pass an argument to a powershell script
 
 For named parameters, first line in the script has to be a `param` declaration:
 
     param([string]$comment)
 
-or to declare multiple named parameters    
-    
+or to declare multiple named parameters
+
     param(
         [string]$comment,
         [int32]$LicenseID
     )
 
-Then you can do validation and handle gracefully, for example     
-    
+Then you can do validation and handle gracefully, for example
+
     if ($comment -eq "") {
         write-host "you must give a comment"
         exit
     }
-    
+
 A simple if brutal way to bail if a required argument was not specified
 
     param ( [string]$comment = $(throw "Please specify a comment" ))
-    
-    
+
+
 Can also use a type of boolean parameter called a `switch`
 
     Param([switch]$IsGood)
@@ -38,10 +38,10 @@ Then $IsGood will be $false, unless the parameter was specified
 
 ## Don't like named parameters? Fine! Use positional...
 
-    
-    $name=$args[0]    
-    $height=$args[1]    
-    
+
+    $name=$args[0]
+    $height=$args[1]
+
 ...like it's 1999.
 
 
@@ -61,14 +61,14 @@ Or how about a number that must be within a range...
    Param(
         [ValidateRange(0,10)][int]$myinteger
     )
-    
+
 What about -- a filename that must be an existing file...
 
 
     Param(
         [ValidateScript({Test-Path $_})][string]$smolibrary
-    )    
-    
+    )
+
 
 ## Source
 
@@ -79,4 +79,3 @@ What about -- a filename that must be an existing file...
 ## See Also
 
  * [console: ndesk options](../console/ndesk_options.md) -- for doing the same in a C# console app.
-

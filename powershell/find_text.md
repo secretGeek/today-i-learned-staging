@@ -1,4 +1,4 @@
-# Find text (from powershell)
+﻿# Find text (from powershell)
 
 Use `Select-String` (alias `sls`) and -Pattern (patt)
 
@@ -21,4 +21,3 @@ Some custom formatting out of the output, example
 If the pattern is not a regex, and just a simple string, use "-SimpleMatch"  (also useful if you want a simple match for some weird text that looks like a malformed regex, as in this example)
 
     sls *.md -patt "](" -SimpleMatch
-

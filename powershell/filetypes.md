@@ -1,4 +1,4 @@
-# Count Files by Type
+﻿# Count Files by Type
 
 THis is a snippet that I use all the time, for seeing how many files of each type are in a folder/tree.
 
@@ -13,8 +13,8 @@ To **include** node modules...
 
 Here's another version with a Size property (which is a sum of the length)
 
-	dir -rec | 
-	group-object -property { ($_.extension) } | 
+	dir -rec |
+	group-object -property { ($_.extension) } |
 	% {
 		[PSCustomObject]@{
 			Id = $_.Name
@@ -25,10 +25,10 @@ Here's another version with a Size property (which is a sum of the length)
 	} | sort -desc Size
 
 Here's same, explicitly excluding `.git` and `node_modules` again.
-	
-	dir -rec -Exclude .git,*node_modules*,.hg | 
+
+	dir -rec -Exclude .git,*node_modules*,.hg |
 	? { $_.PSIsContainer -ne $true } | ? { $_.DirectoryName -notmatch "node_modules|\.git|\.hg" } |
-	group-object -property { ($_.extension) } | 
+	group-object -property { ($_.extension) } |
 	% {
 		[PSCustomObject]@{
 			Id = $_.Name

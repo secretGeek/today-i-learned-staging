@@ -1,4 +1,4 @@
-# In powershell you don't have 1 profile, you have 4 different ones.
+﻿# In powershell you don't have 1 profile, you have 4 different ones.
 
 List all four like this:
 
@@ -30,7 +30,7 @@ As mentioned -- the file (and even its containing folder) may not exist for you.
 
     New-Item -path {filename} -type file -force
 
-### Create new profile 
+### Create new profile
 
 This creates a new profile file, and folder if needed
 

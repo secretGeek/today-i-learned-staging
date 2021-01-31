@@ -1,4 +1,4 @@
-# Rename with Force
+﻿# Rename with Force
 
 You want to rename a file, but the new file already exists.
 
@@ -6,7 +6,7 @@ You want to rename a file, but the new file already exists.
     ren : Cannot create a file when that file already exists.
 
 (ren is an alias for `Rename-Item`)
-    
+
 You think "I know, I'll use (the) force!"
 
     ren file.old file.new -Force
@@ -19,4 +19,3 @@ You google and feel like a fool, but eventually determine you need to use `Move-
     mv file.old file.new -Force
 
 Q.E.D.
-

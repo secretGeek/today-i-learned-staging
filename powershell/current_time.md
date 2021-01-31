@@ -1,4 +1,4 @@
-# How Do I Get the Current Time or Current Date or TODAY in Powershell
+﻿# How Do I Get the Current Time or Current Date or TODAY in Powershell
 
 	Get-Date
 

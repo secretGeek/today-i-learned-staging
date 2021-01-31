@@ -1,4 +1,4 @@
-# How to remove a package provider
+﻿# How to remove a package provider
 
 Somehow I ended up with two conflicting nuget package providers.
 I had to remove them both before it would use the correct one.

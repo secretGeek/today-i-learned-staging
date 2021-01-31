@@ -1,4 +1,4 @@
-# An issue with Powershell Tokenize
+﻿# An issue with Powershell Tokenize
 
 I am trying to use `[System.Management.Automation.PSParser]::Tokenize` to syntax highlight some code.
 
@@ -117,4 +117,3 @@ While on the topic of AST's -- Doug points out you can do this:
 	{echo "$hello"; echo '$hello'}.ast
 
 And directly access the `AST`.
-
