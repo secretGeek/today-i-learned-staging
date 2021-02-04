@@ -1,4 +1,4 @@
-﻿# get-aduser is useful to set info about a user account
+﻿# get-aduser is useful to get info about a user account
 
 TO see all of the properties of a user account (example account called "User1")
 
@@ -17,3 +17,8 @@ If you *do* want to append it to a file then you'll want to skip the header row,
 	get-aduser user1 -properties LockedOut, AccountLockoutTime | convertto-csv -notypeinformation | select -Skip 1 | Out-File $filenamestring -append
 
 But I digress.
+
+
+## see also
+
+- [Get-AdGroup in powershell via RSAT (Remote server administration tools)](../active_directory/get-adgroup.md)

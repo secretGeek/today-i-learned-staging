@@ -9,7 +9,7 @@ And now, thanks to the magic of the `Invoke-LinqPadScript` commandlet, if I type
 ![inspect_clipboard_2.png](inspect_clipboard_2.png)
 
 
-Code (requires a reference to, and "Additional namespace import" of, `System.Windows.Forms` (hit F4)
+Code (requires a reference to, and "Additional namespace import" of, `System.Windows.Forms` (hit F4))
 
     void Main()
     {
@@ -32,10 +32,7 @@ Code (requires a reference to, and "Additional namespace import" of, `System.Win
         Console.ResetColor();
     }
 
-	
-	
-	
-	
+
 And another problem arose today that required clipboard inspections.
 
 Some code I'd copied from a comment at StackOverflow did not work as expected. I used a variation on the code above to inspect every byte of my cliboard. I found the snippet  contained character 8203 (U+200b -- the infamous zero width space or zwsp) and character 8204 (U+200c zero-width non joiner)

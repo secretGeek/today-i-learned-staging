@@ -1,6 +1,5 @@
 # Delete old branches
 
-
 When I merge a pull request back into main, I delete the branch on the server
 
 But that doesn't delete it locally.
@@ -12,7 +11,7 @@ If I switch to such branches I see a message that "the upstream is gone."
 	> git checkout feature/1234-weaponise-space
 	Switched to branch 'feature/1234-weaponise-space'
 	Your branch is based on 'origin/feature/1234-weaponise-space', but the upstream is gone.
-	  (use "git branch --unset-upstream" to fixup)
+		(use "git branch --unset-upstream" to fixup)
 
 Yes. The upstream is *gone*. Because when the pull request was completed we chose to delete the branch on the server.
 
@@ -23,15 +22,14 @@ Now it's time to delete the local branch.
 To delete a local branch.
 
 1. Make sure you want it gone.
-2.
-
+2. Delete it...
 
 
 > Delete Local Branch
 > To delete the local branch use one of the following:
 >
->    $ git branch -d branch_name
->    $ git branch -D branch_name
+>	$ git branch -d branch_name
+>	$ git branch -D branch_name
 >
 > Note: The `-d` option is an alias for `--delete`, which only deletes the branch if it has already been fully merged in its upstream branch. You could also use `-D`, which is an alias for `--delete --force`, which deletes the branch "irrespective of its merged status." [Source: man git-branch]
 

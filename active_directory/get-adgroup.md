@@ -40,7 +40,7 @@ Usually I want:
 
 ## Which groups is a user in?
 
-	(Get-ADUser "MyUser" –Properties MemberOf).MemberOf
+	(Get-ADUser "MyUser" -Properties MemberOf).MemberOf
 
 But since the results are in "X.500 Directory Specification" which looks like this....
 
@@ -48,7 +48,7 @@ But since the results are in "X.500 Directory Specification" which looks like th
 
 ...and we only want the group name (say) -- we can split it by the commas, then keep only the bits that start with "CN=" and then split that on the equals sign and keep the values of the first item in the result.
 
-	(Get-ADUser "leon.bambrick-b" –Properties MemberOf).MemberOf | % { ($_ -split "," -like "CN=*" -split "=" )[1] }
+	(Get-ADUser "leon.bambrick" -Properties MemberOf).MemberOf | % { ($_ -split "," -like "CN=*" -split "=" )[1] }
 
 
 (I did like this alternative form [at serverfault from user Canoas](https://serverfault.com/a/594724/17154) which doesn't rely on RSAT....
@@ -70,7 +70,7 @@ e.g.
 ## When was the user's password last set?
 
 	$userName = "my-user-name"
-	(Get-ADUser –Identity $userName -Properties "PasswordLastSet")."PasswordLastSet"
+	(Get-ADUser -Identity $userName -Properties "PasswordLastSet")."PasswordLastSet"
 
 (Can be the best way to guess when it will be reset/expire..)
 
@@ -79,7 +79,7 @@ e.g.
 
 What if we want to find all properties that mention "pass" -- we can do it like this:
 
-	(Get-ADUser "leon.bambrick-b" –Properties "*") | get-member | ? { $_.MemberType -eq "Property" -and $_.Name -like "*pass*" }
+	(Get-ADUser "leon.bambrick" -Properties "*") | get-member | ? { $_.MemberType -eq "Property" -and $_.Name -like "*pass*" }
 
 Then we use the syntax in the examples above to fetch and return that property.
 
@@ -528,6 +528,7 @@ You can find out more about any one of those via:
 
 	DISM /Online /Get-CapabilityInfo /CapabilityName:Language.Basic~~~en-US~0.0.1.0
 
+...from an elevated console.
 
 Read [More about DISM.](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options)
 
@@ -537,3 +538,6 @@ Read [More about DISM.](https://docs.microsoft.com/en-us/windows-hardware/manufa
 - [All RSAT Components](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod#remote-server-administration-tools-rsat)
 - [DISM: Add Capability](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities#using-dism-add-capability-to-add-or-remove-fods)
 
+## See also
+
+- [get-aduser is useful to get info about a user account](../powershell/get_aduser.md)
