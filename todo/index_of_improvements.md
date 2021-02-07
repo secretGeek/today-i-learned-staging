@@ -16,9 +16,12 @@
 Other features that can be embedded in macros:
 	- next/previous buttons
 
+		[ ] a "next" link (and a previous) at each one...
+		[ ] Ability to do "REDIRECT" for crappy pages I don't like.
 
 
 # Auto Linting of the TIL.
+
 
 
 
@@ -46,6 +49,12 @@ Other features that can be embedded in macros:
 
 
 - hyperlink extraction and listing
+
+## Consider
+
+- [ ] Collapsible menus treemap
+- [ ] Squarified treemap of topics and items
+
 
 # done
 

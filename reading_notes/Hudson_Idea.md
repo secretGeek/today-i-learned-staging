@@ -1,18 +1,10 @@
 # The idea generator, Ken Hudson
 
-
-
 You look at the problem p1 through a lens l1 ... all your ideas are going to be similar.
-
-
 
 Try a different lens l2 for looking at the same p1
 
-
-
 Or try looking at a different problem p2
-
-
 
 Different lens is also called a different mindset.
 
@@ -28,9 +20,9 @@ Pick a letter of the alphabet and pick several types of people or profession for
 
 How can we rephrase the problem in
 
-* rational language
-* Emotional language
-* Inspiring imaginative language
+- rational language
+- Emotional language
+- Inspiring imaginative language
 
 Think in threes not twos (the pmi is an example of this) instead of plus/minus, pass fail, good bad, divide things in three ways. (Similar variant beyond binary thinking - put things along two axes that are continuous not just plus minus)
 
@@ -40,9 +32,9 @@ Note: this book is largely about divergent thinking practices. And other books I
 
 A product or presentation or sales pitch must have three types of appeal:
 
-Emotional (they must love it with their heart, be reassured that support and quality won't disappoint )
-Logical (they must be rationally persuaded, price trading terms)
-Imaginative (inspiring, interesting, engaging, surprising, entertaining)
+- Emotional (they must love it with their heart, be reassured that support and quality won't disappoint )
+- Logical (they must be rationally persuaded, price, trading terms)
+- Imaginative (inspiring, interesting, engaging, surprising, entertaining)
 
 ## Book 2 - Idea accelerator
 
