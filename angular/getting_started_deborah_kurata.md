@@ -1,5 +1,4 @@
-# Getting Started with Angular (Deborah Kurata)
-
+﻿# Getting Started with Angular (Deborah Kurata)
 
 These are my study notes for the coure [Angular: Getting Started](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) from Deborah Kurata, on pluralsight.
 
@@ -124,21 +123,23 @@ Generate a new component, called xyz...
 
 In fact we can generate any of these:
 
-		appShell
-		application
-		class
-		component
-		directive
-		enum
-		guard
-		interceptor
-		interface
-		library
-		module
-		pipe
-		service
-		serviceWorker
-		webWorker
+```plaintext
+appShell
+application
+class
+component
+directive
+enum
+guard
+interceptor
+interface
+library
+module
+pipe
+service
+serviceWorker
+webWorker
+```
 
 (This is just what we get from the `Collection` `@schematics/angular` ok.
 
@@ -150,7 +151,7 @@ As a scientist you can commit everything to your repo. Generate one of those. Th
 In:
 
 	~\learning\Angular\Angular-GettingStarted\APM-Start\
-	
+
 Run:
 
 	npm install
@@ -201,14 +202,14 @@ When we run `npm start` we are `run`ning an npm `script` like this:
 
 if you look inside the file `package.json` you will find a node like this:
 
-		"scripts": {
-			"ng": "ng",
-			"start": "ng serve -o",
-			"build": "ng build",
-			"test": "ng test",
-			"lint": "ng lint",
-			"e2e": "ng e2e"
-		},
+	"scripts": {
+		"ng": "ng",
+		"start": "ng serve -o",
+		"build": "ng build",
+		"test": "ng test",
+		"lint": "ng lint",
+		"e2e": "ng e2e"
+	},
 
 Those scripts are a map of friendly little names on the left to 'complex' commands on the right.
 
