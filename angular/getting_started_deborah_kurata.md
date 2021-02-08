@@ -1,6 +1,6 @@
 ﻿# Getting Started with Angular (Deborah Kurata)
 
-These are my study notes for the coure [Angular: Getting Started](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) from Deborah Kurata, on pluralsight.
+These are my study notes for the course [Angular: Getting Started](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) from Deborah Kurata, on pluralsight.
 
 The course duration is 5h43m.
 
