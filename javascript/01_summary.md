@@ -7,6 +7,7 @@
 - [Copy element to clipboard](copy_element_to_clipboard.md)
 - [Eval is Evil, so use this instead](eval.md)
 - [How do you take a screenshot of a div in javascript?](take_screenshot_of_div.md)
+- [How to perform two way interaction with a hosted iframe or a popup](interactive_iframes_and_popups.md)
 - [Immediately-invoked function expression](iife.md)
 - [Javascript 1.7](javascript_1.7.md)
 - [Javascript function to generate a guid](generate_guid.md)
