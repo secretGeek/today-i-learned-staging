@@ -84,7 +84,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [graphics](graphics/01_summary.md) | 9 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [habits](habits/01_summary.md) | 1 article |
- | [html](html/01_summary.md) | 4 articles |
+ | [html](html/01_summary.md) | 5 articles |
  | [http](http/01_summary.md) | 1 article |
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
@@ -116,7 +116,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 92 articles |
+ | [powershell](powershell/01_summary.md) | 94 articles |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -161,5 +161,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-642 articles
-162101 words
+645 articles
+162325 words

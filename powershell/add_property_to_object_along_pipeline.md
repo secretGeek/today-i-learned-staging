@@ -6,8 +6,7 @@ Here's an example Function that add' members to an object in a pipeline.
 	{
 		$object = New-Object PSObject
 		$hashtable.GetEnumerator() |
-			ForEach-Object { Add-Member -inputObject $object `
-				-memberType NoteProperty -name $_.Name -value $_.Value }
+			ForEach-Object { Add-Member -inputObject $object -memberType NoteProperty -name $_.Name -value $_.Value }
 		 $object
 	}
 
@@ -54,3 +53,9 @@ I know I used a function (in MarkJimp) that is somewhat the reverse of this, and
 ## Source
 
 - [convert hash to PS objects in pipeline](https://community.idera.com/database-tools/powershell/ask_the_experts/f/learn_powershell_from_don_jones-24/2824/exporting-key-value-pair-using-export-csv-cmdlet)
+
+
+## See also
+
+- [How to make a custom class](how_to_make_a_custom_class.md)
+- [Create custom objects](custom_objects.md)

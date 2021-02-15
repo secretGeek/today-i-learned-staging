@@ -1,4 +1,6 @@
-﻿# Create custom objects.
+﻿# Create dynamic custom objects
+
+(To define an actual class see [How to make a custom class](how_to_make_a_custom_class.md))
 
 Say you have two variables, `$name` and `$count` -- and you want to create a custom object that contains just those two properies....
 
@@ -16,3 +18,9 @@ Or say you are in a pipeline, within which `$name` and `$count` become available
 		# ^^ Return our custom object... for the next actor in the pipeline to deal with...
 
 	} | ConvertTo-CSV  -NoTypeInformation | out-file "Name_And_Count.csv"
+
+
+## See also
+
+- [Add note property to object in pipeline](add_property_to_object_along_pipeline.md)
+- [How to make a custom class](how_to_make_a_custom_class.md)
