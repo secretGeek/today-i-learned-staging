@@ -39,7 +39,7 @@ Once expanded, this is the details you will see.
 
 Note that the summary text is visible both before and after the details are expanded.
 
-You can alter that behaviour with css that checks if the boolean "open" attribute is defined on the details element, for example>
+You can alter that behaviour with css that checks if the boolean "open" attribute is defined on the details element, for example:
 
 This style:
 
@@ -69,8 +69,6 @@ details.example3[open] > summary { background-color:red;color:black;outline:none
 </style>
 
 
-- It's not supported in IE. We're finally getting to a point where those words don't mean so much. 😅.
-- There's no standard CSS animation/transition that works with it.
 
 ## Animation example....
 
@@ -158,12 +156,16 @@ Some other selectors/pseudo elements to consider are:
 
 ## And add a cursor pointer to the summary
 
-Generally a good idea... (not useful for mobile)
+Generally a good idea... (though not useful for mobile)
 
 	summary {
 		cursor: pointer;
 	}
 
+## Caveat...
+
+
+- It's not supported in IE. We're finally getting to a point where those words don't mean so much. 😅.
 
 
 ## Source
