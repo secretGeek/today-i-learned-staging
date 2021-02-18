@@ -2,7 +2,7 @@
 
 Here's something that escaped me for far too long.
 
-You can create expand/collapse regions with plain html using the `details` tag (and the `summary` tag)
+You can create expand/collapse regions (also known as 'twisties') with plain html using the `details` tag (and the `summary` tag)
 
 e.g. this code:
 
@@ -168,9 +168,21 @@ Generally a good idea... (though not useful for mobile)
 - It's not supported in IE. We're finally getting to a point where those words don't mean so much. 😅.
 
 
+## History
+
+Expand/collapse sections are *similar* to Ted Nelson's 1967 idea "Stretch-Text", which I first learned about from [Brad Neuberg's stretchtext.js](http://codinginparadise.org/ebooks/html/blog/stretchtext.html).
+
+"Similar" is doing a lot of work in the previous paragraph. The stretch-text idea is pretty interesting and more nuanced than the common expand/collapse region.
+
+> Stretchtext consists of ordinary continuous text which can be "stretched", or made longer and more detailed. By pointing at specific areas and pulling the throttle in the "magnify" direction, the reader may obtain a greater detail on a specific subject, or area of the text. The text stretches, becoming longer, with replacement phrases, new details and additional clauses popping into place.
+>
+> *Ted Nelson, Hypertext Note 8, 1967*
+
+
+
 ## Source
 
-- [Css-tricks: Quick Reminder that Details/Summary is the Easiest Way Ever to Make an Accordion](https://css-tricks.com/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion/) -- found via [Chase McCoy / Notes / Css-recipes](https://chasem.co/notes/css-recipes/#accordions)
+- [Css-tricks: Quick Reminder that Details/Summary is the Easiest Way Ever to Make an Accordion](https://css-tricks.com/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion/) -- found via [Chase McCoy / Notes / Css-recipes](https://chasem.co/notes/css-recipes/#accordions) -- found via [Maggie Appleton's Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory)
 - [Css-tricks: Using &lt;details&gt; for Menus and Dialogs is an Interesting Idea](https://css-tricks.com/using-details-for-menus-and-dialogs-is-an-interesting-idea/)
 - [Mozilla docs: details](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) &amp; [Summary](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary)
 - [Css-Tricks: Exploring What the Details and Summary Elements Can Do](https://css-tricks.com/exploring-what-the-details-and-summary-elements-can-do/)

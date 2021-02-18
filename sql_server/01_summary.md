@@ -11,6 +11,7 @@
 - [Check if Column exists, or if constraint exists or if index exists (including spatial index)](check_if_column_constraint_index_exists.md)
 - [Collation....](collation_find_change_compare.md)
 - [Convert a timestamp column to a varchar](convert_timestamp_to_varchar.md)
+- [Count occurrences of string](Count_Occurrences_of_String.md)
 - [Create a role that gives a user permissions on a specific schema.](create_schema_specific_role.md)
 - [Create active directory user on SQL Server](create_active_directory_user_on_sql_server.md)
 - [Create of alter for stored procedures and views etc](create-or-alter.md)

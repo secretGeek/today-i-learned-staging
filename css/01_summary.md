@@ -4,6 +4,7 @@
 ### content
 
 - [Detect retina display or high DPI display and send specific image](detect_retina_high_dpi_display.md)
+- [Historic CSS](historic.md)
 - [How to center in CSS](center.md)
 - [How to implement dark mode with css](dark_mode_css.md)
 - [How to show a little arrow glyph after 'target="_blank"' anchors](glyph_after_blank_anchors.md)

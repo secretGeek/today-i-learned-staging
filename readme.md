@@ -66,7 +66,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
  | [csharp](csharp/01_summary.md) | 6 articles |
- | [css](css/01_summary.md) | 7 articles |
+ | [css](css/01_summary.md) | 8 articles |
  | [csv](csv/01_summary.md) | 3 articles |
  | [design](design/01_summary.md) | 2 articles |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article |
@@ -94,7 +94,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [json](json/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
- | [linqpad](linqpad/01_summary.md) | 12 articles |
+ | [linqpad](linqpad/01_summary.md) | 14 articles |
  | [linux](linux/01_summary.md) | 38 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
@@ -132,7 +132,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 2 articles |
- | [sql server](sql_server/01_summary.md) | 66 articles |
+ | [sql server](sql_server/01_summary.md) | 67 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -161,5 +161,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-645 articles
-162767 words
+649 articles
+163031 words
