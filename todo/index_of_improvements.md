@@ -6,7 +6,6 @@
 ## todo tracking
 
 
-- title of pages to be shown on page (not just the friendlified file name).
 
 - a tag for including the {toc:} in the document.
 	- a page for showing details of toc and other embedded macros used by clowncar.
@@ -47,7 +46,6 @@ Other features that can be embedded in macros:
 
 ## Consider
 
-- [ ] Collapsible menus treemap
 - [ ] Squarified treemap of topics and items
 
 
@@ -61,3 +59,10 @@ Other features that can be embedded in macros:
 	- plaintext
 	- language-powershell
 	- ...idea: have a default "language" for each folder?
+
+
+1:09 AM Sunday, 21 February 2021
+
+- [x] Collapsible menus treemap
+- [x] title of pages to be shown on page (not just the friendlified file name).
+- [x] toc - expandable at top of page

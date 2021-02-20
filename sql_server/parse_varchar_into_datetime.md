@@ -10,19 +10,19 @@ So -- step 1 -- I built a case statement that used 'patindex' to determine which
 
 	Select
 		[Date],
-		case 
-			when Patindex('[0-9][0-9]-[A-Z][a-z][a-z]-[0-9][0-9][0-9][0-9]', [Date]) = 1 then 
+		case
+			when Patindex('[0-9][0-9]-[A-Z][a-z][a-z]-[0-9][0-9][0-9][0-9]', [Date]) = 1 then
 				'dd-MMM-yyyy'
-			when Patindex('[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]', [Date]) = 1 then 
+			when Patindex('[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]', [Date]) = 1 then
 				'yyyy-MM-dd HH:mm:ss'
-			when Patindex('[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]', [Date]) = 1 then 
+			when Patindex('[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]', [Date]) = 1 then
 				'yyyy/MM/dd'
-			when Patindex('[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]', [Date]) = 1 then 
+			when Patindex('[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]', [Date]) = 1 then
 				'MM/dd/yyyy'
-			when isnull([Date],'') = '' then 
+			when isnull([Date],'') = '' then
 				'(blank)'
-			else 
-				'unknown' 
+			else
+				'unknown'
 		end as DateValue
 	from YUCKY_SOURCE_DATA
 	order by 2, 1
@@ -33,24 +33,24 @@ The classic help page on this is https://docs.microsoft.com/en-us/sql/t-sql/func
 
 	Select
 		[Date],
-		case 
-			when Patindex('[0-9][0-9]-[A-Z][a-z][a-z]-[0-9][0-9][0-9][0-9]', [Date]) = 1 then 
+		case
+			when Patindex('[0-9][0-9]-[A-Z][a-z][a-z]-[0-9][0-9][0-9][0-9]', [Date]) = 1 then
 				--'dd-MMM-yyyy'
 				Convert(datetime, [date], 106)
-			when Patindex('[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]', [Date]) = 1 then 
+			when Patindex('[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]', [Date]) = 1 then
 				--'yyyy-MM-dd HH:mm:ss'
 				Convert(datetime, [date], 120)
-			when Patindex('[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]', [Date]) = 1 then 
+			when Patindex('[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]', [Date]) = 1 then
 				--'yyyy/MM/dd'
 				Convert(datetime, [date], 111)
-			when Patindex('[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]', [Date]) = 1 then 
+			when Patindex('[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]', [Date]) = 1 then
 				--'MM/dd/yyyy'
 				Convert(datetime, [date], 101)
-			when isnull([Date],'') = '' then 
+			when isnull([Date],'') = '' then
 				--'(blank)'
 				NULL
-			else 
-				--'unknown' 
+			else
+				--'unknown'
 				NULL
 		end as DateValue
 	from YUCKY_SOURCE_DATA
