@@ -43,7 +43,7 @@ You can alter that behaviour with css that checks if the boolean "open" attribut
 
 This style:
 
-	details.example3[open] > summary { 
+	details.example3[open] > summary {
 		background-color:red;
 		color:black;
 		outline:none;
@@ -55,7 +55,7 @@ And this html...
 	<summary>Expand to see the details....</summary>
 	Once expanded, this is the details you will see.
 	</details>
-	
+
 Behaves like this:
 
 

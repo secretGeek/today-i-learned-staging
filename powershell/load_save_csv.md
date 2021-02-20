@@ -13,7 +13,7 @@ You may want to restrict which properties you save, e.g...
 Can also convert any object to csv before doing something with it, such as writing to a file...
 
 	dir | select Name, Length | convertto-csv -notypeinformation | out-file -append dirinfo.csv -encoding utf8;
-	
+
 
 ## Append to a file - skip header!
 
