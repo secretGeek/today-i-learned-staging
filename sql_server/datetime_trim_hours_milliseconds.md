@@ -1,7 +1,7 @@
-# Trim or zero-out a portion of a datetime....
+# Trim or zero-out a portion of a datetime
 
 
-To trim off the milliseconds.... (this was necessary when sending to XML for consumption by Excel...)
+To trim off the milliseconds... (this was necessary when sending to XML for consumption by Excel...)
 
     DATEADD(ms, -DATEPART(ms, YourDate), YourDate)
 
@@ -24,4 +24,4 @@ A function to do it for you....
 
 ## See also
 
- * [First (and last) day of the month.](first_day_of_month.md)
+ - [First (and last) day of the month.](first_day_of_month.md)

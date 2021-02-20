@@ -10,9 +10,11 @@
 
 ...produces a list of not just aliases but commands that match your pattern. (so i sometimes prefer it over `get-alias` though it can produce unwanted results.)
 
-	CommandType     Name
-	===========     ====
-	Alias           cls -> Clear-Host
+```plaintext
+CommandType     Name
+===========     ====
+Alias           cls -> Clear-Host
+```
 
 ## To find aliases for a command
 

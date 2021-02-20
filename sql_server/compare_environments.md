@@ -1,4 +1,4 @@
-## Compare environments
+# Compare environments
 
 
 ## To compare object names between environments, compare the result of a query such as:

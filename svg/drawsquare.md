@@ -231,7 +231,7 @@ Can define a stroke using another element.
 	</g>
 </svg>
 
-## Here's a squiggly one...
+## Here's a squiggly one
 
 <svg class='squiggle' width="100" height="100" xmlns="http://www.w3.org/2000/svg" style='background-color:#222'>
   <g transform="scale(2.8571 2.8571)">

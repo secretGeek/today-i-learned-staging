@@ -8,13 +8,11 @@
  - https://maggieappleton.com/garden/
 
 
-## related tools 
+## Related tools 
 
-- [gardening tools (Maggie Appleton)](https://github.com/MaggieAppleton/digital-gardeners/#gardening-tools)
+- [Gardening tools (Maggie Appleton)](https://github.com/MaggieAppleton/digital-gardeners/#gardening-tools)
 
 
-https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory
+## See also
 
-## see also
-
-- [zettelkasten, items to index](../items_to_index.md)
+- [zettelkasten, items to index](../zettel/items_to_index.md)

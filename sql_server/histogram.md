@@ -1,4 +1,4 @@
-# Example query for bucketing up a bunch of values.
+# Example query for bucketing up a bunch of values
 
 Example of sorting results into buckets (ranges), and showing the count in each bucket, as well as the average of some other column, for members in that bucket.
 

@@ -28,7 +28,7 @@ No way to see the code while the program is running. I accept that you can't set
 
 No auto saving. 
 
-## About auto saving... 
+## About auto saving
 
 If you want to automatically save files, you would need to automatically assign a name. 
 

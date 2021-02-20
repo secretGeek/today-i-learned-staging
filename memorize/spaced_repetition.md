@@ -16,17 +16,17 @@ A single fact may be best represented by more than 3 cards:
 
 ## Topics to gather
 
-* Basic strategy for 21
-* Birthdays of people I know
-* Children's (and pet's) names of friends
-* Bash commands
-* Ubuntu paths
-* Guitar chords
-* Guitar scales
-* git commands
-* interesting words
-* words I commonly misspell
-* Mental Models"
+ - Basic strategy for 21
+ - Birthdays of people I know
+ - Children's (and pet's) names of friends
+ - Bash commands
+ - Ubuntu paths
+ - Guitar chords
+ - Guitar scales
+ - git commands
+ - interesting words
+ - words I commonly misspell
+ - Mental Models"
 
 (See cheatsheets)
 

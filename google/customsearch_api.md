@@ -41,7 +41,7 @@ There are three tricks:
 
 More detail:
 
-## 1. Obtain an API key. 
+## 1. Obtain an API key
 
 To do this you need to "enable" the API.
 
@@ -64,7 +64,7 @@ This is so ridiculously convoluted.
 At this point you can easily add 'restrictions' to the API key to prevent 'quota theft'. So yeh, do that if you want.
 
 
-## 2. Create a custom search engine. 
+## 2. Create a custom search engine
 
 
 You can see your custom search engines here: https://cse.google.com/cse/all
@@ -107,7 +107,7 @@ In the Details section click on `Search Engine ID` and you will see a small moda
 
 Copy that and use it for the `cx` parameter in your search, above.
 
-## 3. Tell your custom search engine to allow image search.
+## 3. Tell your custom search engine to allow image search
 
 By default a customer search engine does not allow image search.
 

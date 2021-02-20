@@ -70,7 +70,7 @@ e.g.
 
 
 
-## Problem...
+## Problem
 
 The maximum input to `hashbytes` -- prior to `SQL Server 2016` -- is 8000 bytes.
 

@@ -16,10 +16,13 @@ What tokens does it have? We can find out like this:
 
 ...which produces this table.
 
-	Content    Type Start Length StartLine StartColumn EndLine EndColumn
-	-------    ---- ----- ------ --------- ----------- ------- ---------
-	echo    Command     0      4         1           1       1         5
-	hello    String     5      7         1           6       1        13
+```plaintext
+Content    Type Start Length StartLine StartColumn EndLine EndColumn
+-------    ---- ----- ------ --------- ----------- ------- ---------
+echo    Command     0      4         1           1       1         5
+hello    String     5      7         1           6       1        13
+```
+
 
 That's awesome. It is the `Command` `echo` followed by the `String` `hello`.
 
@@ -47,10 +50,12 @@ Now look at what happens when we tokenize them...
 
 They both produce the same tokens, with the same content.
 
-	Content    Type Start Length StartLine StartColumn EndLine EndColumn
-	-------    ---- ----- ------ --------- ----------- ------- ---------
-	echo    Command     0      4         1           1       1         5
-	$hello   String     5      8         1           6       1        14
+```plaintext
+Content    Type Start Length StartLine StartColumn EndLine EndColumn
+-------    ---- ----- ------ --------- ----------- ------- ---------
+echo    Command     0      4         1           1       1         5
+$hello   String     5      8         1           6       1        14
+```
 
 If we try to write our own syntax highlighter, how do we know to highlight the two strings differently?
 
@@ -79,11 +84,13 @@ Whereas,
 
 Gives:
 
-	Text             TokenFlags          Kind HasError Extent
-	----             ----------          ---- -------- ------
-	echo            CommandName    Identifier    False echo
-	'$hello' ParseModeInvariant StringLiteral    False '$hello'
-					 ParseModeInvariant    EndOfInput    False
+```plaintext
+Text             TokenFlags          Kind HasError Extent
+----             ----------          ---- -------- ------
+echo            CommandName    Identifier    False echo
+'$hello' ParseModeInvariant StringLiteral    False '$hello'
+         ParseModeInvariant    EndOfInput    False
+```
 
 Note that "ParseInput" directly returns an Abstract Syntax Tree (which is more than I need for this exercise, but super useful when you do need it.) and the `$tokens` variable is a reference to an array of Tokens
 
@@ -91,7 +98,7 @@ What sort of tokens?
 
 Here's there Assembly Qualified Name:
 
-  System.Management.Automation.Language.Token, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+	System.Management.Automation.Language.Token, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 
 Whereas my earlier code was return an array of PSToken -- this type:
 
@@ -104,3 +111,6 @@ While on the topic of AST's -- Doug points out you can do this:
 	{echo "$hello"; echo '$hello'}.ast
 
 And directly access the `AST`.
+
+
+TODO: use this in .ok syntax highlighter

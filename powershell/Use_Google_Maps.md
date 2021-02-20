@@ -26,23 +26,25 @@ Thereafter, I try again:
 
 result:
 
-	InputAddress : White House
-	Address      : The White House, 1600 Pennsylvania Ave NW, Washington, DC 20500, USA
-	Country      : United States
-	State        : District of Columbia
-	PostalCode   : 20500
-	Latitude     : 38.8976763
-	Longitude    : -77.0365298
-	Coordinates  : 38.8976763,-77.0365298
+```plaintext
+InputAddress : White House
+Address      : The White House, 1600 Pennsylvania Ave NW, Washington, DC 20500, USA
+Country      : United States
+State        : District of Columbia
+PostalCode   : 20500
+Latitude     : 38.8976763
+Longitude    : -77.0365298
+Coordinates  : 38.8976763,-77.0365298
 
-	InputAddress : Eiffel Tower
-	Address      : Eiffel Tower, Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France
-	Country      : France
-	State        : Île-de-France
-	PostalCode   : 75007
-	Latitude     : 48.8583701
-	Longitude    : 2.2944813
-	Coordinates  : 48.8583701,2.2944813
+InputAddress : Eiffel Tower
+Address      : Eiffel Tower, Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France
+Country      : France
+State        : Île-de-France
+PostalCode   : 75007
+Latitude     : 48.8583701
+Longitude    : 2.2944813
+Coordinates  : 48.8583701,2.2944813
+```
 
 Success!
 

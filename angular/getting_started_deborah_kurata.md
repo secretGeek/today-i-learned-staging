@@ -6,11 +6,11 @@ The course duration is 5h43m.
 
 Get source code from here:
 
-* <https://github.com/DeborahK/Angular-GettingStarted>
+- <https://github.com/DeborahK/Angular-GettingStarted>
 
 A blog post from Deborah to support the course is here:
 
-* <https://blogs.msmvps.com/deborahk/angular-2-getting-started-problem-solver/>
+- <https://blogs.msmvps.com/deborahk/angular-2-getting-started-problem-solver/>
 
 **If you sign up to PluralSight, [please use this referral link and we'll both get a discount](http://referral.pluralsight.com/mQgodIs)**
 
@@ -103,8 +103,8 @@ It will prompt you regarding routing, and what technology to use for styling (cs
     tree # look at all these files!
     npm install # because we skipped install earlier. I did that because installing is flaky for me. Just me??
 
-* If anything went *quite* wrong when installing npm dependencies, run `npm install` again.
-* If anything went *majorly* wrong when installing npm dependencies, delete the lock file `package-lock.json` and remove the `node_modules` folder; then run `npm install` again. As many times as it takes. (wtaf).
+- If anything went *quite* wrong when installing npm dependencies, run `npm install` again.
+- If anything went *majorly* wrong when installing npm dependencies, delete the lock file `package-lock.json` and remove the `node_modules` folder; then run `npm install` again. As many times as it takes. (wtaf).
 
 Edit the `package.json` so that the `start` script passes an `-o` parameter to the `ng serve` command. This way when you start your app in the console, it will also `open` the browser.
 
@@ -244,4 +244,4 @@ https://app.pluralsight.com/library/courses/angular-2-getting-started-update/exe
 
 ## See also
 
-* [Discussion group for the course here](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/discussion) with 6404 comments
+- [Discussion group for the course here](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/discussion) with 6404 comments

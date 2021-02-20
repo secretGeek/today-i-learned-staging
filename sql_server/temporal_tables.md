@@ -34,7 +34,7 @@ Adding a column is tricky -- because you want it to be inserted as null into the
 
 
 
-## Bulk loading... 
+## Bulk loading
 
 before:
 

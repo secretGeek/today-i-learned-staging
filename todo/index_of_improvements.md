@@ -20,12 +20,7 @@ Other features that can be embedded in macros:
 		[ ] Ability to do "REDIRECT" for crappy pages I don't like.
 
 
-# Auto Linting of the TIL.
-
-
-
-
-
+## Auto Linting of the TIL
 
 - next/previous buttons
 
@@ -56,7 +51,7 @@ Other features that can be embedded in macros:
 - [ ] Squarified treemap of topics and items
 
 
-# done
+## done
 
 9:56 AM Friday, 22 January 2021
 

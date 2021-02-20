@@ -3,4 +3,4 @@
 
 ### content
 
-- [Zettelkasten: Items to index:](items_to_index.md)
+- [Zettelkasten: Items to index](items_to_index.md)

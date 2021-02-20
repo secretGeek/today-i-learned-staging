@@ -1,3 +1,10 @@
-# Format your queries...
+# Format your queries
 
-With <http://poorsql.com>
+
+This is the one I use:
+
+- [Poor Sql](https://poorsql.com)
+
+
+
+

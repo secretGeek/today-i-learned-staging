@@ -1,6 +1,5 @@
-# Zettelkasten: Items to index:
+# Zettelkasten: Items to index
 
-- [Ask HN: How to organize personal knowledge?](https://news.ycombinator.com/item?id=17892731)
 
 ## Tools for Making Personal Knowledge Repositories/Systems
 
@@ -22,7 +21,7 @@
 - [bear.app](https://bear.app)
 - [bookstack app](https://www.bookstackapp.com/)
 
-## people with personal knowledge repositories
+## People with personal knowledge repositories
 
  - https://find.xyz/map/list-of-personal-knowledge-bases
  - https://blog.kowalczyk.info/
@@ -38,18 +37,18 @@
  - https://github.com/ajkavanagh/vimwik-publishing-system
  - https://notes.andymatuschak.org/
 
-## meta to the topic above
+## Meta to the topic above
 
- - [curated list of public zettelkasten / second brains / digital gardens](https://github.com/KasperZutterman/Second-Brain) - ([discussion at hn](https://news.ycombinator.com/item?id=23383333))
+ - [Curated list of public zettelkasten / second brains / digital gardens](https://github.com/KasperZutterman/Second-Brain) - ([discussion at hn](https://news.ycombinator.com/item?id=23383333))
  - [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
  - [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
 
 
-## research by researchers
+## Research by researchers
 
-- https://www.researchgate.net/publication/221464145_Semantic_Wikis_for_Personal_Knowledge_Management
+- [Semantic Wikis for Personal Knowledge Management](https://www.researchgate.net/publication/221464145_Semantic_Wikis_for_Personal_Knowledge_Management)
 
-## wikipedia
+## Wikipedia
 
  - [Note-taking](https://en.wikipedia.org/wiki/Note-taking)
    - clustering,
@@ -64,8 +63,7 @@
    - model maps
    - the pyramid principle
    - semantic networks
-   - SmartWisdom.
-
+   - SmartWisdom
  - [Hypomnema](https://en.wikipedia.org/wiki/Hypomnema) 
  - [Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management)
  - [Personal wiki](https://en.wikipedia.org/wiki/Personal_wiki)
@@ -80,10 +78,9 @@
  - [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)
 
 
-
 ## Tools needed to perform this analysis
 
-- a spider
+- a simple spider/crawler
 - summarizer:
 	- url (in various forms)
 	- content as plain text
@@ -96,3 +93,10 @@
 	- tags/interlinks
 	- INBOUND links
 
+## Sources
+
+- [Ask HN: How to organize personal knowledge?](https://news.ycombinator.com/item?id=17892731)
+
+## See also
+
+- [Lists of digital gardens](../digital_gardens/lists_of_digital_gardens.md)

@@ -6,7 +6,7 @@ R can be used if you have R Services installed. It's available in SQL Server 201
 
 if the services are installed, you also need to configure SQL Server it allow external scripts to be enabled.
 
-## Check if currently enabled:
+## Check if currently enabled
 
 	EXEC sp_configure  'external scripts enabled'
 
@@ -22,7 +22,7 @@ However, because I didn't restart SQL Server after enabling it, it still doesn't
 
 
 
-## Enable it....
+## Enable it
 
 	sp_configure 'external scripts enabled', 1;
 	RECONFIGURE WITH OVERRIDE; 
