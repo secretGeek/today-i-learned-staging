@@ -55,7 +55,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [airtable](airtable/01_summary.md) | 1 article |
  | [angular](angular/01_summary.md) | 1 article |
  | [appharbor](appharbor/01_summary.md) | 1 article |
- | [asp.net mvc](asp.net_mvc/01_summary.md) | 14 articles |
+ | [asp.net mvc](asp.net_mvc/01_summary.md) | 15 articles |
  | [azure devops](azure_devops/01_summary.md) | 1 article |
  | [banking](banking/01_summary.md) | 1 article |
  | [boring ideas](boring_ideas/01_summary.md) | 1 article |
@@ -132,7 +132,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 2 articles |
- | [sql server](sql_server/01_summary.md) | 67 articles |
+ | [sql server](sql_server/01_summary.md) | 68 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -161,5 +161,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-649 articles
-163031 words
+651 articles
+163541 words

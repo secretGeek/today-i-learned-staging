@@ -3,6 +3,7 @@
 
 ### content
 
+- [## Compare environments](compare_environments.md)
 - [Aggregate table strings into one csv value (with SQL Server)](table_to_csv.md)
 - [Backup restore script](backup_restore_script.md)
 - [Basic data dictionary](data_dictionary.md)
