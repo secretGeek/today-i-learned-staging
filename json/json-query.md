@@ -23,7 +23,7 @@ There's quite a few more now!
 - [rq](https://github.com/dflemstr/rq)
 
 
-## Also...
+## Also
 
 - <https://github.com/jmespath/jmespath.terminal> interactive
 - <https://github.com/homeport/dyff> (JSON and YAML conversions and diffs)

@@ -5,7 +5,7 @@
 
 - [Adding more files/changes to a commit you've just done](add_more_to_commit.md)
 - [Aliases in git](alias.md)
-- [Branching in git...](branch.md)
+- [Branching in git](branch.md)
 - [Compare branches](compare_branches.md)
 - [Delete old branches](delete_old_branches.md)
 - [Diff of staged files](diff.md)

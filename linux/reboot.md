@@ -1,4 +1,4 @@
-# Reboot linux...
+# Reboot linux
 
 ## TL/DR: 	
 

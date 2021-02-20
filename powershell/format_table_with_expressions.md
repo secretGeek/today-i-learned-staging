@@ -1,4 +1,4 @@
-﻿# Format-Table with Expressions.
+﻿# Format-Table with Expressions
 
 This is a custom Get-ChildItem command, for use with the TIL folder.
 

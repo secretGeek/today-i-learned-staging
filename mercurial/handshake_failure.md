@@ -1,4 +1,4 @@
-# Handshake failure on hg clone ...bitbucket...
+# Handshake failure on hg clone ...bitbucket
 
 
 This error:

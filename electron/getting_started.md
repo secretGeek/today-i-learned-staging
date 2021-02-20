@@ -115,7 +115,7 @@ See https://www.electronjs.org/docs/tutorial/boilerplates-and-clis
 
 	/EOF
 
-## Everything after here is a historical note.
+## Everything after here is a historical note
 
 
 Getting started is as easy as:
@@ -210,5 +210,5 @@ Next, read the quick start tutorial...
 Please watch this 9 min video. https://m.youtube.com/watch?v=ojX5yz35v4M
 
 
-## end of historical note.
+## end of historical note
 

@@ -29,7 +29,7 @@ use Ctrl C (displayed as ^C) to break the current activity.  (same as dos)
     echo hello | xclip -selection c   ...pipe to the clipboard (sort of)
 
 
-## Bash extra Notes....
+## Bash extra Notes
 
 clear: (same as cls) clears the screen, well....
 

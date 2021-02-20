@@ -34,33 +34,36 @@ To upgrade packages
 
 When asked:
 
-    Do you want to continue [Y/n]
+```plaintext
+Do you want to continue [Y/n]
+```
 
 The capital 'Y' means it is the default. So for 'Yes' just press enter.
 
 
 If your machine says something like:
 
-    27 packages can be updated.
-    14 updates are security updates.
+```plaintext
+27 packages can be updated.
+14 updates are security updates.
+```
 
 Then you can see which packages need to be upgraded, with:
 
-    sudo apt-get update
+	sudo apt-get update
 	sudo apt-get -u upgrade --assume-no
 
 If you want to upgrade them (hint: you *do*) then go with:
 
-    sudo apt-get update
+	sudo apt-get update
 	sudo apt-get upgrade
 
 After performing an upgrade, you may have messages like this:
 
-
-    The following packages have been kept back:
-      linux-headers-generic linux-headers-virtual linux-image-virtual linux-virtual snapd
-      ubuntu-core-launcher
-    0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+	The following packages have been kept back:
+		linux-headers-generic linux-headers-virtual linux-image-virtual linux-virtual snapd
+		ubuntu-core-launcher
+	0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
 
 
 What is this 'kept back' business?
@@ -76,28 +79,28 @@ There are (briefly) three commands you can use to release these "kept back" pack
 The winner is:
 
 
-    sudo apt-get update
+	sudo apt-get update
 	sudo apt full-upgrade
 
 ...less letters. ;)
 
 To update just a single package, and only if it is already installed....
 
-    sudo apt-get update
+	sudo apt-get update
 	apt-get install --only-upgrade <packagename>
 
 e.g.
 
-    sudo apt-get update
+	sudo apt-get update
 	sudo apt-get install --only-upgrade python-certbot-nginx
 
 
-## Removing unwanted packages....
+## Removing unwanted packages
 
-You may see a message like this....
+You may see a message like this...
 
 	The following package was automatically installed and is no longer required:
-	  libllvm3.8
+		libllvm3.8
 	Use 'sudo apt autoremove' to remove it.
 
 Example of the output:
@@ -107,7 +110,7 @@ Example of the output:
 	Building dependency tree
 	Reading state information... Done
 	The following packages will be REMOVED:
-	  libllvm3.8
+		libllvm3.8
 	0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
 	After this operation, 41.6 MB disk space will be freed.
 	Do you want to continue? [Y/n]

@@ -41,7 +41,7 @@ Give time for jQuery to load, then type:
 	jQuery.noConflict();
 
 
-## Step 3: find the content you want to extract.
+## Step 3: find the content you want to extract
 
 
 Now you need to explore the DOM to find the content you're after.

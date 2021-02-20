@@ -21,7 +21,7 @@ You can also individually specify the functions to be exported, e.g.:
 
 (The alternative: if you don't use `Export-ModuleMember` then *everything* is automatically exported from your `.psm1` file)
 
-## Create a module manifest.
+## Create a module manifest
 
 A module manifest is a script with a `.psd1` extension. It describes the module, and is needed for publication.
 

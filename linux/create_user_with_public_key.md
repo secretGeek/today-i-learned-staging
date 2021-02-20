@@ -28,7 +28,7 @@ Add a user to the sudo group with:
 
 You must be root or have sudo privileges in order to do this.
 
-## test that the new user can use sudo privileges.
+## test that the new user can use sudo privileges
 
 use `su` (switch user) to switch to the new user...
 
@@ -47,7 +47,7 @@ Now sudo do it!
 (and enter fred's password...)
 
 
-## test that the new user can connect through SSH.
+## test that the new user can connect through SSH
 
 	//TODO:
 

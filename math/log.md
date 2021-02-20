@@ -40,7 +40,7 @@ By convention, if you write Log(x) without specifying a base, then you assume it
 	Because n^0 = 1
 
 
-## Log is undefined for 0 and negative numbers.
+## Log is undefined for 0 and negative numbers
 
 As a positive number get smaller and smaller and closer to zero the Log of the number becomes a huge negative number
 
@@ -59,7 +59,7 @@ What happens when the number reaches 0? We are in spooky 'undefined' territory
 
 
 
-## Basic log rules(these work for any base)
+## Basic log rules (these work for any base)
 
 	Log(m^n) = n Log(m)
 
@@ -67,8 +67,9 @@ What happens when the number reaches 0? We are in spooky 'undefined' territory
 	Log(a) + Log(b) = Log(a*b)
 
 e.g.
+
 	Log(10) + Log(1000) = 1+3 = 4
-    Log(10000) = 4
+	Log(10000) = 4
 	10000 = 10*1000
 
 
@@ -86,7 +87,7 @@ The "Log base switch rule"
 
 
 
-## Convert to the natural log.
+## Convert to the natural log
 
 
 Sometimes you'll have an equation that has a base other than 10 or `e`. To be able to get an answer on your calculator you'll need to convert it to base 10 or base `e`.
@@ -101,7 +102,7 @@ To turn this into a number....
 
 	log_12 (14) = ln(14) / ln(12)
 
-Which you can plug into a calculator (provided it has a `ln` button, i.e. it is a 'scientific' calculator)
+...which you can plug into a calculator (provided it has a `ln` button, i.e. it is a 'scientific' calculator)
 
 
 

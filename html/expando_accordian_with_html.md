@@ -70,7 +70,7 @@ details.example3[open] > summary { background-color:red;color:black;outline:none
 
 
 
-## Animation example....
+## Animation example
 
 This example uses this style:
 
@@ -118,7 +118,7 @@ details.example4[open] p {
 </details>
 
 
-## Consider "::before" and "::after" pseudo elements...
+## Consider "::before" and "::after" pseudo elements
 
 This article [A (terrible?) way to do footnotes in HTML](https://shkspr.mobi/blog/2020/12/a-terrible-way-to-do-footnotes-in-html/) includes some before/after pseudo elements... in some cases that might be a useful idea.
 
@@ -140,7 +140,7 @@ Some other selectors/pseudo elements to consider are:
 ...For styling details or summary when the detail is *not* open.
 
 
-## Remove the list style with...
+## Remove the list style
 
 ...and you may wish to change the list style. Remove it like this...
 
@@ -162,10 +162,10 @@ Generally a good idea... (though not useful for mobile)
 		cursor: pointer;
 	}
 
-## Caveat...
+## Caveat
 
 
-- It's not supported in IE. We're finally getting to a point where those words don't mean so much. 😅.
+Details/Summary are not supported in IE. And we're finally getting to a point where those words don't mean so much. 😅.
 
 
 ## History

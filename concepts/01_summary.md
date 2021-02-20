@@ -10,7 +10,7 @@
 - [Expected Value](expected_value.md)
 - [Follow up and recurring emails](follow_up_and_recurring_emails.md)
 - [Generals Always Fight The Last War](generals_fight_the_last_war.md)
-- [Getting unblocked.](getting_unblocked.md)
+- [Getting unblocked](getting_unblocked.md)
 - [Happy Path](happy_path.md)
 - [Mantras](mantras.md)
 - [Mere Exposure](mere_exposure.md)

@@ -23,7 +23,7 @@ Relies on [npm](../npm/getting_started.md)
 You may need to restart notepad, and close and reopen relevant files, before notepad++ will apply the correct user defined language to them.
 
 
-## Real time previews....
+## Real time previews
 
 
 > MarkdownViewer++ is a Notepad++ plugin that lets you type a file using Markdown and see the preview in real time, in a preview panel

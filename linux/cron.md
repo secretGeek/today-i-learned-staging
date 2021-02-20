@@ -66,7 +66,7 @@ e.g.
 	15 3 * * * /usr/bin/certbot renew --quiet
 	@reboot /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf 2>&1
 
-## check cron logs....
+## check cron logs
 
 	sudo grep CRON /var/log/syslog
 

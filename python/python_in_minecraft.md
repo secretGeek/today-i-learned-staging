@@ -169,7 +169,7 @@ whereami:
 	
 	
 
-## Place 7 blocks....
+## Place 7 blocks
 
 	from mine import *
 	mc = Minecraft()

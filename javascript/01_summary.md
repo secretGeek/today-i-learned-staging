@@ -13,6 +13,6 @@
 - [Javascript function to generate a guid](generate_guid.md)
 - [Javascript fundamentals in 2019](in_2019.md)
 - [Poor Man's JQuery](poor_mans_jquery.md)
-- [Quick start javascript snippet...](quickstart.md)
+- [Quick start javascript snippet](quickstart.md)
 - [Retrieve a random item from an array](random_item.md)
 - [Write errors to the console](console_error.md)

@@ -1,4 +1,4 @@
-# Disable automatic parens completion.
+# Disable automatic parens completion
 
 Notepad++ has this annoying built in feature where it autocompletes quotes brackets angle brackets braces parens parentheses etc.
 

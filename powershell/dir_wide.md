@@ -7,7 +7,7 @@ The nearest equivalent in powershell is:
 
 	dir | fw -col 5
 
-## without aliases...
+## Without aliases
 
 	Get-ChildItem | Format-Wide -Column 5
 

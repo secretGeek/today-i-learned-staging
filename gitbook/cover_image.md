@@ -12,7 +12,7 @@ Step 2: There is no step 2.
 
 
 
-## To auto generate a cover...
+## To auto generate a cover
 
 Tl;dr; Never do this.
 

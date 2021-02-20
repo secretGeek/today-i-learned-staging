@@ -1,4 +1,4 @@
-# The specified framework 'Microsoft.NETCore.App', version '1.0.0' was not found.
+# The specified framework 'Microsoft.NETCore.App', version '1.0.0' was not found
 
 I knew this day would come...
 
@@ -64,7 +64,7 @@ So I run this:
 After that it seems to work okay.
 
 
------
+---
 
 On a "more recent" machine with (hopefully) .net core 2.2 I see:
 

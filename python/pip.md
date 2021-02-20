@@ -31,7 +31,7 @@ Here are two folders I added in this case:
 I found that installing things with `pip` often requires an elevated shell.
 
 
-## Upgrading pip...
+## Upgrading pip
 
 Sometimes you see a message like this
 

@@ -21,7 +21,7 @@
 - [Delete duplicate rows](delete_duplicate_rows.md)
 - [Deleting millions of rows from SQL Server](delete_millions_of_rows.md)
 - [Ensure String Is an Integer](ensure_string_is_an_integer.md)
-- [Example query for bucketing up a bunch of values](histogram.md)
+- [Example query for bucketing up a bunch of values in SQL Server](histogram.md)
 - [Find (and fix) large tables](find_large_tables.md)
 - [Find current sessions/users/who is locking](find_current_sessions.md)
 - [Find missing indexes in sql server](find_missing_indexes_in_sql_server.md)

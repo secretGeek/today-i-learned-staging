@@ -33,7 +33,7 @@ Unzip it and copy the extracted files to your notepad++ plugins and updater fold
 
 
 
-## Updating plugins...
+## Updating plugins
 
 These plugins need to be updated, apparently.
 

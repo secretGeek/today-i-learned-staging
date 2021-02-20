@@ -8,7 +8,7 @@ You can use it for profiling .net applications in production, for example for pr
 ## Troubleshooting cpu-analyzer
 
 
-### Debuggee and debugger are on incompatible platforms.
+### Debuggee and debugger are on incompatible platforms
 
 	Error: failed to attach to process: System.Runtime.InteropServices.COMException (0x80131C30): The operation failed because debuggee and debugger are on incompatible platforms. (Exception from HRESULT: 0x80131C30)
 

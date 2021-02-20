@@ -28,7 +28,7 @@ I then exit Notepad++ so I'm no longer running as administrator.
 When I restart Notepad++ as non admin I still have the "TextFX" menu, so the plugin has worked.
 
 
-## Things that don't work....
+## Things that don't work
 
 Use the technique above, as the following leads nowhere:
 

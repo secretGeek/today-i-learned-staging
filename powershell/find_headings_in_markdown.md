@@ -1,11 +1,18 @@
-﻿# Find headings in markdown...
+﻿# Find headings in markdown
 
 To list the headings from a markdown document
 
-	cat .\20_Find_Your_Product.md | select-string -pattern "^( )*#.*"
+	cat .\20_Find_Your_Product.md | select-string -pattern "^#.*"
 
-(Assuming it's pure markdown, no mixed in html)
+(Assuming it's pure markdown, not mixed in html)
 
-	And the common alias for `select-string` is `sls`, so for brevity:
+And the common alias for `select-string` is `sls`, so for brevity:
 
-	cat .\20_Find_Your_Product.md | sls "^( )*#.*"
+	cat .\20_Find_Your_Product.md | sls "^#.*"
+
+-----
+
+## See also
+
+ - [Markdown Syntax](../markdown/syntax.md)
+

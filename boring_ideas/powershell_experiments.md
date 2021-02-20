@@ -1,7 +1,7 @@
 # Powershell experiments with Alias
 
 
-## See if there's any alias for a command...
+## See if there's any alias for a commands
 
 Often you know the alias and not the command.
 

@@ -1,4 +1,4 @@
-# ConsoleZ as a replacement over Console2.
+# ConsoleZ as a replacement over Console2
 
     choco install consoleZ
     

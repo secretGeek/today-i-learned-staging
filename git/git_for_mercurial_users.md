@@ -1,12 +1,12 @@
 # git for mercurial users
 
 
-## how mercurial does it...
+## how mercurial does it
 
 ![mercurial overview](mercurial_overview.png)
 
 
-## how git does it...
+## how git does it
 
 ![git overview](git_overview.png)
 

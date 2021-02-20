@@ -33,14 +33,14 @@ Then $IsGood will be $false, unless the parameter was specified
     ".\script1.ps1 -isGood:$true"   #  $IsGood = $true
     ".\script1.ps1 -isGood:$false"  #  $IsGood = $false
 
-## Don't like named parameters? Fine! Use positional...
+## Don't like named parameters? Fine! Use positional
 
     $name=$args[0]
     $height=$args[1]
 
 ...like it's 1999.
 
-## Validate the parameters...
+## Validate the parameters
 
 But if you do use real `params` you can also enforce simple validation:
 

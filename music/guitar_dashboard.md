@@ -18,7 +18,7 @@ I've now got this image on the wall of my office:
 
 ![dorian aeolian phrygian](dorian_aeolian_phrygian.png)
 
-## How to read the diagram above.
+## How to read the diagram above
 
 First ignore the circles. Pretend they're completely not present. All that's left are some note names in small black letters. 
 

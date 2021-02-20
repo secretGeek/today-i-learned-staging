@@ -43,7 +43,7 @@ To create a new service for supervisor to supervise, add a file, e.g. `helloworl
 	stopsignal=INT
 
 
-## View supervisor logs...
+## View supervisor logs
 
 Here's how to view the last 20 lines of the supervisor log, using `tail`
 

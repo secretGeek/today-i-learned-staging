@@ -39,7 +39,7 @@ Type `task` to see if it's there....
 
 - `Task help` -- gives help (bit technical for right now though)
 
-## Add a really plain task...
+## Add a really plain task
 
 
 	task add buy milk
@@ -115,7 +115,7 @@ Remove a `tag` by using minues (`-`) e.g.
 
 (Removed the tag `tw` from task 1)
 
-## Add AND Remove...
+## Add AND Remove
 
 	task 1 modify -tw +tech
 
@@ -177,7 +177,7 @@ To mark a task as started:
 	task 21 start
 
 
-## To see a graphical burndown chart of what is pending, started, done...
+## To see a graphical burndown chart of what is pending, started, done
 
 To see a graphical burndown of tasks, with a granularity of day:
 

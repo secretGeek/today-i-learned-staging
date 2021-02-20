@@ -1,8 +1,8 @@
-# Clear results....
+# Clear results in Linqpad
 
 As easy as:
 
-    Util.ClearResults();
+	Util.ClearResults();
 
 ## Reference
 

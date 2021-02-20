@@ -1,4 +1,4 @@
-﻿# Histogram
+﻿# Histograms in Powershell
 
 You can use the group-object to do standard grouping.
 
@@ -14,7 +14,7 @@ Each bucket is 1000 bytes.
 
 *Consider* running the initial `dir` recursively with `-rec`
 
-## Group by file type...
+## Group by file type
 
 Exclude directories (but include their files)
 
@@ -34,3 +34,8 @@ Exclude directories (but include their files)
 			@{Expression={$_.Count};Label="Count";width=10},
 			@{Expression={$_.Group};Label="Members";width=50} -autosize
 
+-----
+
+## See also
+
+- [SQL Server: Example query for bucketing up a bunch of values](../sql_server/histogram.md)

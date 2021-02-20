@@ -1,4 +1,4 @@
-# Developing .net core app and deploying to linux at digital ocean.
+# Developing .net core app and deploying to linux at digital ocean
 
 materials you will need:
 
@@ -69,7 +69,7 @@ from a browser:
 
  
  
-## Here was my preliminary list....
+## Here was my preliminary list
 
 
 

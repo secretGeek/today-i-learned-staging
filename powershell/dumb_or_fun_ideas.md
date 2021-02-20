@@ -1,4 +1,4 @@
-﻿# Sample scripts for dumb or fun ideas...
+﻿# Sample scripts for dumb or fun ideas
 
 ## Fractals
 

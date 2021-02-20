@@ -20,7 +20,7 @@ Checking the processor time or processor percentage, using counters or wmi...
 
 From [Retrieve average CPU-workload with Get-Counter](https://stackoverflow.com/questions/59051743/retrieve-average-cpu-workload-with-get-counter) (by Duke Donnovan and AdminOfThings)
 
-## Checking CPU Percentage with WMI...
+## Checking CPU Percentage with WMI
 
 	Get-WmiObject -computer $env:computername -class win32_processor |
 		Measure-Object -property LoadPercentage -Average |

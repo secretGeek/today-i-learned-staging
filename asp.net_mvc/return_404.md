@@ -1,4 +1,4 @@
-# Want to return 404 from a method...
+# Want to return 404 from a method in asp.net MVC?
 
 It's as easy as 
 
@@ -34,7 +34,7 @@ etc... for each `http code`
 See [Custom Errors in asp.net mvc 5](custom_errors.md) -- to get this perfected!
 
 
-## Breaking news...
+## Breaking news
 
 In `asp.net core` you do this:
 

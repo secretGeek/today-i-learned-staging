@@ -86,7 +86,7 @@ Which relies on these functions:
 
 -----
 
-## Fading out Tooltip at Copy Time...
+## Fading out Tooltip at Copy Time
 
 Here's another variation, this time with a fading out tooltip.
 

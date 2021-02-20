@@ -22,7 +22,7 @@ Can also use `Ctrl V` or Right Click, though they give slightly different behavi
 Also turn on "Automatically remove newline when pasting single line." That looks good.
 
 
-## Using Powershell with Cmder...
+## Using Powershell with Cmder
 
 Set cmder to load powershell by default, via:
 

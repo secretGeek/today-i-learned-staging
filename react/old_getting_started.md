@@ -44,7 +44,7 @@ The body of that page contains this:
 
 So `#content` is where all the html will go, and there's also an example script we will dig into. You can model your own application's behavior to be a bit like example.js. Note the script type of text/babel!
 
-## Babel...
+## Babel
 
 First let's deal with babel.
  

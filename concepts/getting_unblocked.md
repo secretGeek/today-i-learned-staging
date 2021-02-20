@@ -1,4 +1,4 @@
-# Getting unblocked.
+# Getting unblocked
 
 I've written an interactive tutorial on this:
 

@@ -1,4 +1,4 @@
-# Rebasing in mercurial for dimwits like me.
+# Rebasing in mercurial for dimwits like me
 
 
 ## Step 1. Get rebase

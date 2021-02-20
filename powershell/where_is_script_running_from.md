@@ -39,7 +39,7 @@ And in Powershell 3.0 and above, the first two can be simplified to:
 
 One caveat with these scripts... they are unlike most powershell scripts because they only work properly when they are inside a script. They don't behave the same if you just paste them into the commandline.
 
-## Bonus questions...
+## Bonus questions
 
 What if one script is invoked from another? How do you indication that chain? Good question. I don't know the answer yet. Do you?
 

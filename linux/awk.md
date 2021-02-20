@@ -1,4 +1,4 @@
-# Getting started with awk.
+# Getting started with awk
 
 
 	$ awk 'BEGIN { print 42 }'

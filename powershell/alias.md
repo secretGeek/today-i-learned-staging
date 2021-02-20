@@ -1,4 +1,4 @@
-﻿# Alias: a guide to powershell and aliases.
+﻿# Alias: a guide to powershell and aliases
 
 ## To Set An Alias:
 

@@ -30,7 +30,7 @@ And it says right there:
 
 ...which we will do in a moment.
 
-## Get your environment set up a little better...
+## Get your environment set up a little better
 
 
 Some environment tips before proceeding:
@@ -82,7 +82,7 @@ Okay -- the answer to that is... the app's starting page is `public/index.html` 
 
 ...and `index.js` is called by `npm start` -- loads the `App` component, mounts it onto that `#root` div of `public/index.html`.
 
-## Simple things to change...
+## Simple things to change
 
 - Look at `src/App.js`.
 - The `App` function is a component - it returns elements.

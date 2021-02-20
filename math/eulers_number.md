@@ -4,7 +4,7 @@
 
 Approx. 2.718 it is the limit of (1+1/x)^x  as x approaches infinity.
 
-## How to display e on a scientific calculator.
+## How to display `e` on a scientific calculator
 
 (How to display Euler's number on a calculator in Windows)
 

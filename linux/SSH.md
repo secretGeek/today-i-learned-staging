@@ -9,8 +9,8 @@ On windows, you can use PuTTY to connect to your digital ocean droplet via SSH.
 Soon I think windows will have better ssh features built in. Powershell will get them for example.)
 
 
-## Creating private/public key pair for use in SSH, using PuTTYgen.
-   
+## Creating private/public key pair for use in SSH, using PuTTYgen
+
 First need to generate private/public key pair, using PuTTYgen.
 
 Guide I followed for this is: <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-PuTTY-on-digitalocean-droplets-windows-users>
@@ -27,7 +27,7 @@ Store the passphrase in your password manager. Note that the passphrase is somet
 
 (Originally I created a long and complex password... but then it was too hard to type. I found I could change the passphrase, using PuTTYgen -- I just had to re-save the private key afterwards.)
 
-## Add your public key to digital ocean...
+## Add your public key to digital ocean
 
 Go to your profile: https://cloud.digitalocean.com/settings/profile
 
@@ -87,22 +87,22 @@ Simple right!? No, not simple.
 
 
 
-## Host Identification has changed.
+## Host Identification has changed
 
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-    It is also possible that a host key has just been changed.
-    The fingerprint for the ECDSA key sent by the remote host is
-    7e:5e:42:31:34:82:c7:97:e3:3a:f2:e1:b4:4f:d4:56.
-    Please contact your system administrator.
-    Add correct host key in /home/user1/.ssh/known_hosts to get rid of this message.
-    Offending ECDSA key in /home/user1/.ssh/known_hosts:2
-      remove with: ssh-keygen -f "/home/user1/.ssh/known_hosts" -R 555.55.55.555
-    ECDSA host key for 555.55.55.555 has changed and you have requested strict checking.
-    Host key verification failed.
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+	Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+	It is also possible that a host key has just been changed.
+	The fingerprint for the ECDSA key sent by the remote host is
+	7e:3e:42:31:34:82:47:97:e3:3f:f2:e1:c1:8c:d4:56.
+	Please contact your system administrator.
+	Add correct host key in /home/user1/.ssh/known_hosts to get rid of this message.
+	Offending ECDSA key in /home/user1/.ssh/known_hosts:2
+		remove with: ssh-keygen -f "/home/user1/.ssh/known_hosts" -R 555.55.55.555
+	ECDSA host key for 555.55.55.555 has changed and you have requested strict checking.
+	Host key verification failed.
 
 
     ssh-keygen -R [IP_ADDRESS]

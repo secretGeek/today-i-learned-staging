@@ -75,7 +75,7 @@ e.g.
 (Can be the best way to guess when it will be reset/expire..)
 
 
-## Try to find the property you want to find...
+## Try to find the property you want to find
 
 What if we want to find all properties that mention "pass" -- we can do it like this:
 
@@ -157,7 +157,7 @@ In fact here's all the 'get' methods that are available:
 
 
 
-## Optional Features...
+## Optional Features
 
 Optional features, also known as FODs - Feature On Demand  - can also be installed via `DISM /add-capability`.
 

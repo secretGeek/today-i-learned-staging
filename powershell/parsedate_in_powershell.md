@@ -1,8 +1,6 @@
 # How do you parse a date in powershell?
 
 
-## $dirDate will be defined....
-
 ## Use TryParseExact... not easy from powershell
 
 
@@ -28,6 +26,7 @@
 	$exactDate = [datetime]::ParseExact($DateAsAString,"dd-MM-yyyy",$Null)
 	write-host $exactDate -f blue;
 
+-----
 
 ## See also
 

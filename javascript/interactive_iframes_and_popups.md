@@ -8,19 +8,19 @@ And `window.opener.postMessage` to talk to the host page, from the embedded gues
 
 e.g.
 
-## Sending message to popup...
+## Sending message to popup
 
 	var popup = window.open(/* popup details */);
 	/* wait for the popup to load, then */
 	popup.postMessage("The user is 'bob' and the password is 'secret'","https://secure.example.net");
 
 
-## Sending message to iFrame...
+## Sending message to iFrame
 
 	document.getElementById('cross_domain_page').contentWindow.postMessage("The user is 'bob' and the password is 'terces'","https://secure.example.net")
 
 
-## Receiving messages in the guest page...
+## Receiving messages in the guest page
 
 	window.addEventListener("message", (event) => {
 	  // Do we trust the sender of this message?
@@ -39,8 +39,7 @@ e.g.
 							   event.origin);
 	}, false);
 
-## Receiving messages in the host...
-
+## Receiving messages in the host
 
 We can also receive events *back* from the guest page (the popup/iframe) -- provided it has a way to call "postMessage" on this window's window object.
 

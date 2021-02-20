@@ -52,7 +52,7 @@ So add these:
 	/R:3 /W:3
 
 
-## Other options...
+## Other options
 
 But all of the options are worth reading about!
 

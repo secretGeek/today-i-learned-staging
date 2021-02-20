@@ -1,4 +1,4 @@
-﻿# Getting started with Powershell -- the first five minutes.
+﻿# Getting started with Powershell -- the first five minutes
 
 The first five minutes with powershell are the hardest. After that it's all easy.
 

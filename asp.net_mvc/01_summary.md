@@ -17,4 +17,4 @@
 - [Scripts and Sections](scripts_sections.md)
 - [Serving some images from MVC but not all](serve_some_static_files_from_mvc_but_not_all.md)
 - [Troller &mdash; the trollful way of working with asp.net MVC](troller.md)
-- [Want to return 404 from a method...](return_404.md)
+- [Want to return 404 from a method in asp.net MVC?](return_404.md)

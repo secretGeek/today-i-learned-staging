@@ -1,7 +1,7 @@
 # How to make a custom class
 
 
-## Define a new class like that...
+## Define a new class like that
 
 	class JournalNode {
 		[string]$NodeType;
@@ -16,15 +16,15 @@
 
 And then you can create it like this:
 
-		$journalNode = [JournalNode]::new();
-		$journalNode.NodeType = $nodeType;
-		$journalNode.Date = $dateTime;
-		$journalNode.Text = $text;
-		$journalNode.LineNumber = $lineNumber;
-		$journalNode.SourceFile = $fileName
-		$journalNode;
+	$journalNode = [JournalNode]::new();
+	$journalNode.NodeType = $nodeType;
+	$journalNode.Date = $dateTime;
+	$journalNode.Text = $text;
+	$journalNode.LineNumber = $lineNumber;
+	$journalNode.SourceFile = $fileName
+	$journalNode;
 
-
+-----
 
 ## See also
 

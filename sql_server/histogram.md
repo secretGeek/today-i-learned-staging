@@ -1,4 +1,4 @@
-# Example query for bucketing up a bunch of values
+# Example query for bucketing up a bunch of values in SQL Server
 
 Example of sorting results into buckets (ranges), and showing the count in each bucket, as well as the average of some other column, for members in that bucket.
 
@@ -19,3 +19,9 @@ Example of sorting results into buckets (ranges), and showing the count in each 
     having COUNT(*) > 15
     order by 
         Floor(DirectDistance/@interval)  --order by bucket
+
+-----
+
+## See also
+
+- [Histograms in Powershell](../powershell/histogram)

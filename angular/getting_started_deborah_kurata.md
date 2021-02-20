@@ -112,7 +112,7 @@ Edit the `package.json` so that the `start` script passes an `-o` parameter to t
       "ng": "ng",
       "start": "ng serve -0",
 
-## Generate some stufff.....
+## Generate some stuff
 
 
 In our new app we can generate some stuff....

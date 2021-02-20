@@ -6,7 +6,7 @@ When you install `npm` it also installs a handy little executable called `npx`. 
 
 I'll explain it by way of an example...
 
-## An example...
+## An example
 
 There's a useful npm package called `http-server` and you can install it globally and then use it to server a folder of html files, like this:
 
