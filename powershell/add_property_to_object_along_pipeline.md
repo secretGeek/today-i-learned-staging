@@ -1,6 +1,6 @@
 ﻿# Add note property to object in pipeline
 
-Here's an example Function that add' members to an object in a pipeline.
+Here's an example Function that adds members to an object in a pipeline.
 
 	function ConvertTo-Object($hashtable)
 	{
@@ -12,32 +12,43 @@ Here's an example Function that add' members to an object in a pipeline.
 
 Now imagine we have this hashtable:
 
-	$hash = @{Name='Richard'; Status='Online'; Color='Green'; Hat='Reversed'}
+	$hash = @{
+		Name='Richard';
+		Status='Online';
+		Color='Green';
+		Hat='Reversed'}
 
 If we inspect it, here is what we see:
 
 	> $hash | format-table
 
-	Name                           Value
-	----                           -----
-	Color                          Green
-	Status                         Online
-	Name                           Richard
-	Hat                            Reversed
+	Name    Value
+	----    -----
+	Color   Green
+	Status  Online
+	Name    Richard
+	Hat     Reversed
 
-Now if we run it through our "ConvertTo-Object" function, we'll see a very different object emerge...
+Now if we run it through our `ConvertTo-Object` function, we'll see a very different object emerge...
 
 	> ConvertTo-Object $hash | format-table
 
-	Color Status Name    Hat
-	----- ------ ----    ---
-	Green Online Richard Reversed
+	Color  Status  Name     Hat
+	-----  ------  ----     ---
+	Green  Online  Richard  Reversed
 
-And I believe I used this particular one, to make it easier to export a hashtable to a csv file.
+(Essentially it's been pivoted! see [sql server pivot](../sql_server/pivot.md))
+
+And I believe I used this particular one, so our hashtable can be [exported to a csv file](load_save_csv.md).
 
 	ConvertTo-Object $hash | Export-Csv test.csv -NoTypeInformation
 
-I know I used a function (in MarkJimp) that is somewhat the reverse of this, and turns a custom object into a hash...
+
+## Convert custom object to hash table...
+
+
+And I found that in [MarkJump](https://github.com/secretGeek/markjump) I wrote a function that is somewhat the reverse of this, and turns a custom object into a hash...
+
 
 	# ConvertTo-Hash is used by Get-marks to convert the custom psObject into a hash table.
 	function ConvertTo-Hash($i) {
@@ -52,10 +63,12 @@ I know I used a function (in MarkJimp) that is somewhat the reverse of this, and
 
 ## Source
 
-- [convert hash to PS objects in pipeline](https://community.idera.com/database-tools/powershell/ask_the_experts/f/learn_powershell_from_don_jones-24/2824/exporting-key-value-pair-using-export-csv-cmdlet)
+- [Convert hash to PS objects in pipeline](https://community.idera.com/database-tools/powershell/ask_the_experts/f/learn_powershell_from_don_jones-24/2824/exporting-key-value-pair-using-export-csv-cmdlet)
 
 
 ## See also
 
-- [How to make a custom class](how_to_make_a_custom_class.md)
-- [Create custom objects](custom_objects.md)
+- [How to Make a Custom Class](how_to_make_a_custom_class.md)
+- [Create Custom Objects](custom_objects.md)
+- [Sql Server Pivot](../sql_server/pivot.md)
+- [Load or Save CSV with Powershell](load_save_csv.md)
