@@ -23,6 +23,7 @@
 - [How to edit a file in linux](how_to_edit_a_file.md)
 - [How to enable Brotli compression in nginx on ubuntu](brotli_nginx.md)
 - [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](lets_encrypt.md)
+- [ls when files have leading dash](ls_when_files_have_leading_dash.md)
 - [Make Deep Directory, Recursive, As Needed](mkdir_recursive_force.md)
 - [Nano ](nano.md)
 - [nginx - a web server](nginx.md)
