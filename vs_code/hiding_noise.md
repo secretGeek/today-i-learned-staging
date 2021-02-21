@@ -1,4 +1,4 @@
-# Hiding noise
+﻿# Hiding noise
 
 In Visual Studio Code, to give you more of a clean feeling, you can hide things &mdash; but you need to know how to bring them back.
 
@@ -30,4 +30,3 @@ And to use a white theme:
 ## Keywords
 
 darkroom, lightroom
-

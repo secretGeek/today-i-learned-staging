@@ -1,4 +1,4 @@
-# Delete old branches
+﻿# Delete old branches
 
 When I merge a pull request back into main, I delete the branch on the server
 
@@ -62,7 +62,7 @@ Lists all branches and has `: gone]` if their remote component has been removed.
 So the real point here is `: gone]` substring referring to the missing origin.
 
 
-## To delete the origin 
+## To delete the origin
 
 (for example, if you forgot to delete it when merging your pull request)
 
@@ -75,5 +75,3 @@ Then delete it locally (may need to switch out of it first with `git co master`,
 	git branch -d feature/5992-monkey-magnet-current-archive
 
 May need to use `-D` to force the delete if there's some discard-worthy change in there.
-
-

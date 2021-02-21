@@ -1,4 +1,4 @@
-# Form Wide Hotkeys
+﻿# Form Wide Hotkeys
 
 For the form, make sure to set `this.KeyPreview = true;`
 
@@ -27,4 +27,3 @@ Then you can define form-wide hotkeys like so...
             return;
         }
     }
-

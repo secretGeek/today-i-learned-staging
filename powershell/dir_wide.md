@@ -1,4 +1,4 @@
-# How to do the equivalent of "dir /w" in powershell?
+﻿# How to do the equivalent of "dir /w" in powershell?
 
 In DOS you can use "dir/w" to show a "wide" listing of files, in multiple columns.
 

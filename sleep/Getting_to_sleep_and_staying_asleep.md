@@ -1,9 +1,9 @@
-# Getting to Sleep and Staying Asleep
+﻿# Getting to Sleep and Staying Asleep
 
 Before seeking medical help for "insomnia", take care of the following.
 
 1. Reduce caffeine intake. Definitely no caffeine after 3pm
-2. Reduce alcohol intake. 
+2. Reduce alcohol intake.
 3. Remove screen technology from the bedroom. Use software that reduces blue light after dark.
 4. Reduce bedroom temperature (ideal: 17 degrees C.) May require lighter nightwear and bedding.
 5. Establish regular bedtime, even on weekends.

@@ -1,11 +1,11 @@
-# Jquery event on textarea change
+﻿# Jquery event on textarea change
 
 This is surprising and has gone through a few changes across the years.
 
 
 
     var oldVal = "";
-    
+
     $("#textarea").on("change keyup paste", function() {
         var currentVal = $(this).val();
         if(currentVal == oldVal) {
@@ -16,6 +16,3 @@ This is surprising and has gone through a few changes across the years.
         //action to be performed on textarea changed
         alert("changed!");
     });
-    
-    
-    

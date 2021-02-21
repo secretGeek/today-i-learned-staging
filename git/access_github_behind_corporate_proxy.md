@@ -1,4 +1,4 @@
-# How to access github behind a corporate proxy
+﻿# How to access github behind a corporate proxy
 
 If you receive an error when attempting to use `git://` github addresses behind your corporate proxy, try adding these to config:
 

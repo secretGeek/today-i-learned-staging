@@ -1,4 +1,4 @@
-# Log with template
+﻿# Log with template
 
 You can use templates with hg log, for example:
 

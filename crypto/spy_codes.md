@@ -1,4 +1,4 @@
-# Codes
+﻿# Codes
 
 Useful for field agents who need to crack codes they encounter.
 
@@ -282,4 +282,3 @@ Useful for field agents who need to crack codes they encounter.
 | 125 | 7D | 01111101 | }  |
 | 126 | 7E | 01111110 | ~  |
 | 127 | 7F | 01111111 | (Delete character)  |
-

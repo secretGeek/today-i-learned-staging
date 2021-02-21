@@ -1,13 +1,13 @@
-# (Old) Getting started with react
+﻿# (Old) Getting started with react
 
- 
+
 React concepts:
 
  * JSX
  * components
  * virtual DOM
  * props
-    
+
 
 Reacts.js is: A javascript library, from facebook, for building user interfaces (in HTML).
 
@@ -17,19 +17,19 @@ Unlike other recent frameworks (e.g. Angular, Polymer) it doesn't do "two-way da
 Okay - the [official getting started](https://facebook.github.io/react/docs/getting-started.html) with react.js is utterly [COIK](../concepts/coik.md). So I've had to write my own, mostly by walking through the react-tutorial.
 
 Start by getting the code.
-    
+
 	> git clone https://github.com/reactjs/react-tutorial.git
 	> cd react-tutorial
-	> npm install  # ..may have to run that multiple times!!   
-	> npm start 
-    
+	> npm install  # ..may have to run that multiple times!!
+	> npm start
+
     # Now browse to http://localhost:3000 ...
 
 This example runs a local webserver (using node). (start, in this case, is an [npm script](../npm/npm_run_scripts.md) in the `package.json` file). The part we're interested in examining is the front end app, not what happens on the server. But I've been looking in the server (a file `server.js`) just long enough to see that:
 
-1. it is a node app, 
-2. i don't speak node, 
-3. The root path (/) simply serves out the subfolder `public`. 
+1. it is a node app,
+2. i don't speak node,
+3. The root path (/) simply serves out the subfolder `public`.
 
 So the place to start is by examining `public/index.html`.
 
@@ -47,7 +47,7 @@ So `#content` is where all the html will go, and there's also an example script 
 ## Babel
 
 First let's deal with babel.
- 
+
 There's a reference to this babel library:
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
@@ -60,7 +60,7 @@ From this I can assume:
 
 The babel javascript library is loaded, and the `text/babel` scripts are not executed by the browser. The babel library then looks for any `text/babel` scripts, and *transpiles* them into javascript, adding them to the page. (Kids actually do this kind of thing on purpose... Wow.)
 
-Inside the babel scripts we see the intermingling of javascript with XML. The XML is called `JSX`. Babel turns the `JSX` into regular javascript. Again -- kids do this kind of thing on purpose. I know, right. The scariest part isn't that they're doing this sort of business, but that they're actually making it work for them. Really freaking nicely. 
+Inside the babel scripts we see the intermingling of javascript with XML. The XML is called `JSX`. Babel turns the `JSX` into regular javascript. Again -- kids do this kind of thing on purpose. I know, right. The scariest part isn't that they're doing this sort of business, but that they're actually making it work for them. Really freaking nicely.
 
 Take this snippet from the example.js
 
@@ -82,7 +82,7 @@ How was it defined? in some code that looks like this:
        ...});
 
 Note the capital C on CommentBox. That's a convention, whereby they're saying "Hey, this thing is a Component! It's kind of a big deal!"
-       
+
 Inside that createClass piece of JSON, there's a whoooole bunch of crazy going on.
 
 Let's look at a different component, and pick it apart piece by piece.
@@ -170,5 +170,3 @@ In any case, we had to explicitly add such a handler, demonstrating that two-way
  - `npm` &mdash; to install: see [install npm](../npm/install_npm.md)
  - `browserify` &mdash; to install: `npm install -g browserify`
  - [javascript 1.7](javascript_1.7.md)
-
-

@@ -1,4 +1,4 @@
-# Designs i love
+﻿# Designs i love
 
 I worked out that as part of working toward creating your branding/personality feel it's good to keep track of the things that catch your eye and which you love.
 
@@ -10,7 +10,7 @@ Several of the pages here:
 
 - <https://officehours.io/>
 - <https://officehours.io/pro>
-- <http://Everytimezone.com> of course... so beautiful	
+- <http://Everytimezone.com> of course... so beautiful
 
 
 
@@ -24,7 +24,7 @@ included via:
 	<link href="https://fonts.googleapis.com/css?family=Montserrat%7CExo" rel="stylesheet">
 
 - body font is:
- 
+
 		font-family: "Avenir Next", 'Exo', sans-serif;
 
 (It's just that 'Exo' font, Avenir is not loaded.)

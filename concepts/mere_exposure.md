@@ -1,4 +1,4 @@
-# Mere Exposure
+﻿# Mere Exposure
 
 If you see something often enough you begin to think it is as it should be.
 

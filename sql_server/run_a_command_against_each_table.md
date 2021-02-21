@@ -1,4 +1,4 @@
-# Run a command against each table
+﻿# Run a command against each table
 
 While I generally use NimbleText to [run a command against each table](http://nimbletext.com/HowTo/OneQueryManyTables), there are some handy features built into SQL Server that let you do this in a quite seamless manner.
 

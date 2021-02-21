@@ -1,4 +1,4 @@
-# Adding more files/changes to a commit you've just done
+﻿# Adding more files/changes to a commit you've just done
 
 Assuming you haven't done more commits or pushed... you can "amend" a commit to add more to it.
 
@@ -14,7 +14,6 @@ And then:
 	git commit --amend --no-edit
 
 
-## Source 
+## Source
 
 - [SO: 40503417](https://stackoverflow.com/questions/40503417/how-to-add-a-file-to-the-last-commit-in-git) - and a million other places.
-

@@ -1,12 +1,12 @@
-# Reboot linux
+﻿# Reboot linux
 
-## TL/DR: 	
+## TL/DR:
 
     $ sudo reboot
 
 
-## Story	
-	
+## Story
+
 When sshing onto my fave droplet (at digital ocean)...
 
     27 packages can be updated.

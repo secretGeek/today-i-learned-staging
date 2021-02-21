@@ -1,4 +1,4 @@
-# Troller &mdash; the trollful way of working with asp.net MVC
+﻿# Troller &mdash; the trollful way of working with asp.net MVC
 
 This is an approach called variously 'troller', 'beCool' or WTFLeon?. A more accurate name would be "AjaxAwareController".
 
@@ -281,4 +281,3 @@ The page will get the same behavior on load, and when new parts of the page are 
 
 1. All of the page's behavior will then be applied to the newPart. And:
 2. Behavior will not be *reapplied* to any other part of the page.
-

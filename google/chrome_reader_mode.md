@@ -1,4 +1,4 @@
-# Chrome reader mode: 'Distill page'
+﻿# Chrome reader mode: 'Distill page'
 
 When reading a hard-to-read-due-to-formatting webpage on my iPhone I hit a little icon, called 'reader mode' that makes it all magically readable.
 

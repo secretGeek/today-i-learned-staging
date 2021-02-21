@@ -1,4 +1,4 @@
-# PIP: Pip installs Packages
+﻿# PIP: Pip installs Packages
 
 Pip is a package manager that comes bundled with Python (since version 2.7.9, and since 3.4)
 
@@ -12,9 +12,9 @@ Here's a very easy to follow guide to [using pip on windows](https://projects.ra
 
 ## Making pip available (for visual studio users)
 
-What I found in my case is that I didn't have `pip` available on my `path`, nor `python` for that matter. 
+What I found in my case is that I didn't have `pip` available on my `path`, nor `python` for that matter.
 
-But when I searched my program files, I found *several* versions of python under: 
+But when I searched my program files, I found *several* versions of python under:
 
 	C:\Program Files (x86)\Microsoft Visual Studio\Shared\
 
@@ -41,4 +41,3 @@ Sometimes you see a message like this
 So here is the upgrade command... again, need an `elevated` shell
 
 	python -m pip install --upgrade pip
-

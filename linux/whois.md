@@ -1,4 +1,4 @@
-# Use whois on linux to see if a domain is registered (and other uses)
+﻿# Use whois on linux to see if a domain is registered (and other uses)
 
 
 
@@ -14,4 +14,3 @@ no response (it just returns immediately...) then it's not installed!
 ## install whois
 
 	apt-get install whois
-

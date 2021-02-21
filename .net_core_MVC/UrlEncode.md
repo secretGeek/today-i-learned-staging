@@ -1,4 +1,4 @@
-# Url Encode
+﻿# Url Encode
 
 Previously...
 

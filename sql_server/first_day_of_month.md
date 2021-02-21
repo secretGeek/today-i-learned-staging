@@ -1,4 +1,4 @@
-# First (and last) day of the month
+﻿# First (and last) day of the month
 
 Given a datetime, tells you the first day of the month.
 

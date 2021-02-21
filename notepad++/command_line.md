@@ -1,5 +1,4 @@
-
-# Notepad++ command line help
+﻿# Notepad++ command line help
 
 
 Note I can scroll to a particular line using:

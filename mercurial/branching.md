@@ -1,4 +1,4 @@
-# Branching with Mercurial
+﻿# Branching with Mercurial
 
 I've got a [detailed tutorial on branching with mercurial](https://secretgeek.net/branching) but here's just the cheatsheet for branching with mercurial:
 
@@ -20,4 +20,3 @@ I've got a [detailed tutorial on branching with mercurial](https://secretgeek.ne
 ## Source
 
 * [Mercurial Workflow with Branching](https://secretgeek.net/branching)
-

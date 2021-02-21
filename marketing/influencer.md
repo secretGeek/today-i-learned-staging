@@ -1,8 +1,8 @@
-# Influencer marketing
+﻿# Influencer marketing
 
 
 
-## Swag Bombs 
+## Swag Bombs
 
 * <https://tim.blog/2013/09/29/marc-ecko/>
 
@@ -13,4 +13,3 @@
 ## Outreach email
 
 * Example templates
-

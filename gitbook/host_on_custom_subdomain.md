@@ -1,22 +1,22 @@
-# Host a gitbook on a custom subdomain
+﻿# Host a gitbook on a custom subdomain
 
 (Previously this site (<https://TIL.secretGeek.net>) was hosted by gitbook, but now I use github pages and my own [.net core static site generator, clown car](https://github.com/secretGeek/clowncar))
 
 By default the book is hosted on http://{author}.gitbooks.io/{book}/
 and can be read at https://www.gitbook.com/read/book/{author}/{book}
 
-If you want to host it on a custom sub domain then you may need to add a `cname` record at your webhost. 
+If you want to host it on a custom sub domain then you may need to add a `cname` record at your webhost.
 
 
 
 
 Then, at gitbook.com tell it the custom domain.
 
- * Settings -> 
-   * Domains -> 
-    * Custom domains -> 
-     * For content: TIL.secretGeek.net 
-     
+ * Settings ->
+   * Domains ->
+    * Custom domains ->
+     * For content: TIL.secretGeek.net
+
 ## Source
 
  * https://help.gitbook.com/platform/domains.html
@@ -26,4 +26,3 @@ Then, at gitbook.com tell it the custom domain.
  * [Getting started with gitbook](getting_started_with_gitbook.md)
  * [To have your gitbook updated whenever you push to a github repo](web_hooks.md)
  * [Use gitbook locally](use_gitbook_locally.md)
-

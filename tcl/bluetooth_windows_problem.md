@@ -1,6 +1,6 @@
-# Bluetooth Windows Problem with TCL Television
+﻿# Bluetooth Windows Problem with TCL Television
 
-There is a tcl television near a particular Windows 10 Computer, as of Thursday, the 31 December 2020, 7:53 PM. 
+There is a tcl television near a particular Windows 10 Computer, as of Thursday, the 31 December 2020, 7:53 PM.
 
 In `Settings > Bluetooth and other devices` the television is listed there, with the name we gave it -- a 3 letter long name. Let's alias this as TIP.
 
@@ -36,7 +36,7 @@ I tried to remove just 1 of them, by running this command...
 
 	> Get-PnpDevice | ? {$_.FriendlyName -eq "TIP" } | select -first 1 | disable-pnpdevice
 
-...it asked me to confirm, which I did... then it errored, with the message below. 
+...it asked me to confirm, which I did... then it errored, with the message below.
 
 
 	disable-pnpdevice : Generic failure
@@ -99,4 +99,3 @@ so i'll try:
  - [Devcon Commands](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon-general-commands)
  - [Devcon `find`](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon-find)
  - [Devcon `remove`](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon-remove)
- 

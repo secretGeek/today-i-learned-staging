@@ -1,4 +1,4 @@
-# Convert excel spreadsheet to csv on linux (xlsx to csv)
+﻿# Convert excel spreadsheet to csv on linux (xlsx to csv)
 
 
 Get gnumeric

@@ -1,4 +1,4 @@
-# What is U-SQL
+﻿# What is U-SQL
 
 U-SQL is a language that Unifies SQL and C# (using Roslyn compiler).
 
@@ -27,16 +27,16 @@ Any paths mentioned in the query will be relevant to the local `USQLDataRoot`, i
 Example query:
 
 
-  
-    @t = EXTRACT 
+
+    @t = EXTRACT
             name string, age int
          FROM "fred.csv"
          USING Extractors.Csv(skipFirstNRows:1);
 
     @g =
-        SELECT 
-               name.ToLower().ToUpper().ToLower() AS name_lower, 
-               USQLApplication1.Udfs.Transformo(name) AS name_transformed, 
+        SELECT
+               name.ToLower().ToUpper().ToLower() AS name_lower,
+               USQLApplication1.Udfs.Transformo(name) AS name_transformed,
                *
         FROM @t;
 
@@ -75,4 +75,3 @@ We can use custom methods defined in a 'code behind' file. The example above is:
 
 
 Other than code-behind files, We can also load assemblies into a database in SQL Azure Data Lake, and reference those assemblies, thus sharing more complex logic.
-

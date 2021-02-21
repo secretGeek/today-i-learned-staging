@@ -1,10 +1,10 @@
-# Background noise
+﻿# Background noise
 
 When working from home or in a noisy office it can be helpful to have some background noise.
 
 For example [Coffitivity](https://coffitivity.com/) "recreates the ambient sounds of a cafe"
 
-This site -- [noise machines](https://mynoise.net/noiseMachines.php) is extremely thorough. 
+This site -- [noise machines](https://mynoise.net/noiseMachines.php) is extremely thorough.
 
 White noise is particularly helpful to "camouflage the annoyance caused by tinnitus, a ringing in the ear occurring without any stimulus."
 
@@ -27,4 +27,3 @@ Note also that spotify has a headspace playlist. This can be a good way to get i
 - Psy-Trance-ambient-lofi-beats
 - Gym workout playlists are good if your energy level is high enough (or if you want to increase your energy level)
 - Funk and Jazz are good but I can't take them before about 2pm
-

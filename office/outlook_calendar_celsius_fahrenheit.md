@@ -1,4 +1,4 @@
-# Show Celsius instead of Fehrenheit in the outlook calendar
+﻿# Show Celsius instead of Fehrenheit in the outlook calendar
 
 I didn't ask for this, but for some reason the Office 365 Outlook calendar tells me about the weather... in washington... in Fahrenheit.
 

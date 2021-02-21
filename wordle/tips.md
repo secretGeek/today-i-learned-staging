@@ -1,4 +1,4 @@
-# Wordle for Word Clouds or Tag Clouds: Tips!
+﻿# Wordle for Word Clouds or Tag Clouds: Tips!
 
 There's a lot of word cloud generators, all inspired by "[Wordle](http://www.wordle.net/)" -- the original and still the best, created by [Jonathan Feinberg](http://www.wordle.net/contact). Sadly it requires java to run it properly. If you do get it, here's some tips to get the best out of it:
 
@@ -10,8 +10,3 @@ There's a lot of word cloud generators, all inspired by "[Wordle](http://www.wor
 ## Source
 
 - [wordle faq](http://www.wordle.net/faq)
-
-
-
-
-

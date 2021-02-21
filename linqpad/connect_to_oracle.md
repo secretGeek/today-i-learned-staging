@@ -1,4 +1,4 @@
-# Connect Linqpad to Oracle
+﻿# Connect Linqpad to Oracle
 
 ...using an IQ Connection.
 
@@ -35,7 +35,7 @@ Given this connection string
 
 
 	"Data Source=SRV1238xx1.example.com:1234/DS128x; User Id=UserUser; Password=PassPass;"
-	
+
 
 On the dialog, you would set:
 
@@ -52,7 +52,7 @@ Then on the 'Advanced' tab Set:
 And in addition connection string options, type:
 
 	Service Name=DS128x
-	
+
 **Note the space between Service and Name**
 
 Optionallly, you can set a default schema, if you know a schema that you're most interested in. (It's not mentioned in the example connection string above. Setting one will allow you to browse the schema details: list of tables, views, columns, etc.)
@@ -76,11 +76,11 @@ Click "Add connection" as shown above, select the "IQ (Support Oracle, MySQL, SQ
 
 ![Delete Driver](delete_iq_driver.png)
 
-	
+
 Then add the driver back in, as explained above. i.e. click "View more drivers..." and select the one you're interested in.
 
 It will now be upgraded, and your problem may be resolved.
 
 Or it may not.
 
-What do I know? I'm just some guy in the internet.	
+What do I know? I'm just some guy in the internet.

@@ -1,4 +1,4 @@
-# NDesk Options
+﻿# NDesk Options
 
 Writing a console app?
 
@@ -20,7 +20,7 @@ Example from an early version of NimbleText.
         { "r|rowdelim=",        "the row delimiter", v => settings.RowDelimiter = v},
         { "c|coldelim=",        "the column delimiter", v => settings.ColumnDelimiter = v},
         { "o|outputfile=",      "a filename to store the results", v => settings.ResultsFile = v},
-        { "g|gui",              "show the Graphical User Interface", v => show_gui = v != null}, 
+        { "g|gui",              "show the Graphical User Interface", v => show_gui = v != null},
         { "?|h|help",           "show this message and exit", v => show_help = v != null },
     };
 
@@ -29,14 +29,14 @@ Example from an early version of NimbleText.
         unprocessedArgs = p.Parse(args);
     }
 
-    
+
 And to show help (display all options) -- it's as easy as:
 
 
     Console.WriteLine("Options:");
     p.WriteOptionDescriptions(Console.Out);
-    
-    
+
+
 But in the common case that you're trying to detect that an invalid option was received, you might do this first.
 
 

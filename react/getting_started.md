@@ -1,6 +1,6 @@
-# Getting started with react
+﻿# Getting started with react
 
- 
+
 (My old version of this is here: [old_getting_started](old_getting_started.md) -- but things are easier in 2020, luckily.)
 
 
@@ -76,7 +76,7 @@ Okay, so we'll tinker with that for fun and to learn.
 
 But what we won't learn by doing that is... how is that `App` function "wired in" to be the heart and soul of this application?
 
-Okay -- the answer to that is... the app's starting page is `public/index.html` which has an element: 
+Okay -- the answer to that is... the app's starting page is `public/index.html` which has an element:
 
 	<div id="root"></div>
 
@@ -89,7 +89,7 @@ Okay -- the answer to that is... the app's starting page is `public/index.html` 
 - Note that regular html tags are written in lowercase. Note that "class" is written as "className"
 - Note that when elements are written on more than one line, they are wrapped in "(" and ")".
 - Change the app function so it returns some slightly different HTML. Use lowercase.
-- Call another, new function, that you write. e.g. 
+- Call another, new function, that you write. e.g.
 
 e.g.,
 
@@ -164,11 +164,11 @@ Instead -- let's make it that the state is updated when a user clicks the compon
 
 With `props` -- we can use a special `props.children` property to return *any* arbitrary elements that have been nested inside that component.
 
-e.g. 
+e.g.
 
 imagine we want to nest various different things inside special, propietary "cool looking rounded box"
 
-We can implement the cool looking rounded box like this --- 
+We can implement the cool looking rounded box like this ---
 
 	function MyCoolContainer(props) {
 		return <div className="my-cool-looking-rounded-box">{props.children}</div>;
@@ -192,7 +192,7 @@ and in another...
 		);
 	}
 
-	
+
 
 
 
@@ -313,7 +313,7 @@ Jest - we can now explicitly see that the testing framework is configured like s
 		"setupFilesAfterEnv": [
 			"<rootDir>/src/setupTests.js"
 		],
-		
+
 		"testMatch": [
 			"<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
 			"<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
@@ -330,7 +330,7 @@ Jest - we can now explicitly see that the testing framework is configured like s
 			"[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$",
 			"^.+\\.module\\.(css|sass|scss)$"
 		],
-		
+
 		"modulePaths": [],
 		"moduleNameMapper": {
 			"^react-native$": "react-native-web",

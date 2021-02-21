@@ -1,4 +1,4 @@
-# Grit Angela Duckworth
+﻿# Grit Angela Duckworth
 
 
 
@@ -265,6 +265,3 @@ Good leadership like good parenting is supportive AND demanding.
 Intrapersonal (Eg grit, self control, mental health) aka resume virtues.
 Interpersonal aka eulogy virtues (according to David Brookes)
 Intellectual - curiosity and zest, engagement with the world of ideas.
-
-
-

@@ -1,4 +1,4 @@
-# How to make a custom class
+﻿# How to make a custom class
 
 
 ## Define a new class like that

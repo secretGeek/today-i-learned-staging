@@ -1,4 +1,4 @@
-# Sparql -- basics
+﻿# Sparql -- basics
 
 
 	SELECT ?a ?b ?c
@@ -9,15 +9,15 @@
 	  ?b f ?c.
 	}
 	LIMIT 10
-	
+
 Note that `x y ?a.`
 
 ..means "x relates-in-way-y to value ?a"
 
 ..e.g. `y` could be... "hasColor", "car hasColor green" ... or some other arbitrary relationship indicator.
 
-	
-	
+
+
 ## Source
 
  * <https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial>

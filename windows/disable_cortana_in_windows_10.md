@@ -1,4 +1,4 @@
-# How to disable Cortana in Windows 10 (Anniversary Edition)
+﻿# How to disable Cortana in Windows 10 (Anniversary Edition)
 
 > Click Start, type `gpedit.msc` and hit enter.
 > Navigate to `Computer Configuration` > `Administrative Templates` > `Windows Components` > `Search`.

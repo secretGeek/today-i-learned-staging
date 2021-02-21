@@ -1,4 +1,4 @@
-# Awesome fun commands for use in minecraft
+﻿# Awesome fun commands for use in minecraft
 
 There's no better command...
 
@@ -10,7 +10,7 @@ Set the time to dawn:
 
 Note:
 
->  0 for dawn, 6000 for midday, 12000 for dusk and 18000 for night.	
+>  0 for dawn, 6000 for midday, 12000 for dusk and 18000 for night.
 
 
 Make sure that if you die you don't lose your inventory with:

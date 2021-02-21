@@ -14,7 +14,7 @@ There is a system called Library Genesis or LibGen, currently available at https
 Free audio books at:
 
 * <http://www.openculture.com/freeaudiobooks>
-* [librivox](https://librivox.org) 
+* [librivox](https://librivox.org)
 * <https://audiobookreviews.com>
 
 And:
@@ -34,4 +34,3 @@ And another thing is the smithsonian open access:
 (I'm not really sure where/how to catalog that? When will I need this? It has awesome old pictures, and machines and diagrams and drawings of animals and places and buildings...)
 
 ![smithsonian-example][smithsonian-example.jpg]
-

@@ -1,4 +1,4 @@
-# Auto Insert close tag
+﻿# Auto Insert close tag
 
 When I type &lt;p&gt; and it automatically inserts &lt;/p&gt; .... I find that strangely annoying...
 
@@ -17,4 +17,3 @@ Under:
 > "Automatic formatting options"
 
 > "Auto Insert close tag" &larr; uncheck that!!
-

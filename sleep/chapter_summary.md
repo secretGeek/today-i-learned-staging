@@ -1,4 +1,4 @@
-Summary of "Why We Sleep" by Matthew Walker
+﻿Summary of "Why We Sleep" by Matthew Walker
 
 # TABLE OF CONTENTS:
 
@@ -32,12 +32,12 @@ For me, this was the book I got the most out of in 2018.
 
 ## Criticisms of "Why We Sleep"
 
-There was a rather hard-hitting criticism of the book, by Alexey Guzey: 
+There was a rather hard-hitting criticism of the book, by Alexey Guzey:
 
-* [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors](https://guzey.com/books/why-we-sleep/) 
+* [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors](https://guzey.com/books/why-we-sleep/)
 
 
-...and a later response to criticisms from Dr Walker here: 
+...and a later response to criticisms from Dr Walker here:
 
 * [Why We Sleep: Responses to questions from readers](https://sleepdiplomat.wordpress.com/2019/12/19/why-we-sleep-responses-to-questions-from-readers/)
 
@@ -55,4 +55,4 @@ Personally I don't think those initial criticisms do nearly as much as Alexey th
 I'll be looking forward to *that.*
 
 
-It is important to know that "Why We Sleep" is not a guide to helping you get better sleep. It gives you so much information about sleep that it can create or exacerbate anxiety, particularly for people who already have sleep-related problems. This is a major issue and thankfully Dr Walker will be putting a note to that effect on the next edition. 
+It is important to know that "Why We Sleep" is not a guide to helping you get better sleep. It gives you so much information about sleep that it can create or exacerbate anxiety, particularly for people who already have sleep-related problems. This is a major issue and thankfully Dr Walker will be putting a note to that effect on the next edition.

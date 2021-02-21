@@ -1,4 +1,4 @@
-# Nano 
+﻿# Nano
 
 Common shortcut keys which are worth committing to finger memory are:
 
@@ -11,4 +11,4 @@ But here's the one I want to remember...
 
 ## See also
 
- * [bg,fg: background and foreground](bg_fg_background_and_foreground.md)    
+ * [bg,fg: background and foreground](bg_fg_background_and_foreground.md)

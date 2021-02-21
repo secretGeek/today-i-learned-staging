@@ -1,4 +1,4 @@
-# Bulk Comparison with Hashbytes
+﻿# Bulk Comparison with Hashbytes
 
 Imagine we have two tables (or views), `TableNew` and `TableOld`, and we want to know if their data is the same or different.
 
@@ -7,9 +7,9 @@ Assume they have the same schema.
 Further assume that their primary key is a composite key with two columns, `PK1` and `PK2`.
 
 
-	With 
+	With
 	NEWSET as (
-	SELECT 
+	SELECT
 		MBT.PK1,
 		MBT.PK2,
 	   hashbytes('MD5',
@@ -18,8 +18,8 @@ Further assume that their primary key is a composite key with two columns, `PK1`
 					FOR xml auto)) AS [Hash]
 	FROM TableNew AS MBT)
 	,OLDSET as (
-	SELECT 
-		MBT.PK1, 
+	SELECT
+		MBT.PK1,
 		MBT.PK2,
 	   hashbytes('MD5',
 				   (SELECT MBT.*
@@ -30,7 +30,7 @@ Further assume that their primary key is a composite key with two columns, `PK1`
 	Select
 		n.PK1,
 		n.PK2,
-		Case 
+		Case
 			when o.[Hash] is null then 'Not in old set'
 			when o.[Hash] != n.[Hash] then 'Changed'
 			else 'Same'
@@ -58,7 +58,7 @@ This will give you a summary table that tells you:
 * how many are in both sets but with different details in at least one column `Changed`
 * how many are in both sets and with identical details in every column `Same`
 
-e.g. 
+e.g.
 
 |Summary|Count|
 |-------|-----|
@@ -94,7 +94,7 @@ So cast the `nvarchar(max)` to `varbinary(max)` before running the function....
 
 ...And that appears to work, in SSMS... but the output is actually an array of bytes, not a varchar of any sort.
 
-I found the trick this time is to convert the result to varchar(32) with a third parameter of `2`, i.e. 
+I found the trick this time is to convert the result to varchar(32) with a third parameter of `2`, i.e.
 
 
 	Convert(varchar(32), master.sys.fn_repl_hash_binary(cast(SOME_NVARCHAR_MAX as varbinary(max))), 2) as Hasho
@@ -103,9 +103,9 @@ I found the trick this time is to convert the result to varchar(32) with a third
 So here's our function modified to work with large nvarchar's prior to `SQL Server 2016`. (I'm writing/needing this in 2020!)
 
 
-	With 
+	With
 	NEWSET as (
-	SELECT 
+	SELECT
 		MBT.PK1,
 		MBT.PK2,
 		Convert(varchar(32), master.sys.fn_repl_hash_binary(cast((SELECT MBT.*
@@ -113,8 +113,8 @@ So here's our function modified to work with large nvarchar's prior to `SQL Serv
 				FOR xml auto) as varbinary(max))), 2) as [Hash]
 		FROM TableNew AS MBT)
 	,OLDSET as (
-	SELECT 
-		MBT.PK1, 
+	SELECT
+		MBT.PK1,
 		MBT.PK2,
 		Convert(varchar(32), master.sys.fn_repl_hash_binary(cast((SELECT MBT.*
 				FROM (VALUES(NULL))foo(bar)
@@ -124,7 +124,7 @@ So here's our function modified to work with large nvarchar's prior to `SQL Serv
 	Select
 		n.PK1,
 		n.PK2,
-		Case 
+		Case
 			when o.[Hash] is null then 'Not in old set'
 			when o.[Hash] != n.[Hash] then 'Changed'
 			else 'Same'
@@ -144,4 +144,3 @@ So here's our function modified to work with large nvarchar's prior to `SQL Serv
 	Select Summary, Count(*) as [Count] from Comparison group by Summary
 	UNION
 	Select Summary, Count(*) as [Count] from Comparison2 group by Summary
-

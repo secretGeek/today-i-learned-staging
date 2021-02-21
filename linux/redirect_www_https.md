@@ -1,4 +1,4 @@
-# Use nginx to redirect www and non https to bare https
+﻿# Use nginx to redirect www and non https to bare https
 
 Given any url like *any* of these:
 
@@ -25,7 +25,7 @@ First, though: Why do this at all?
 
 ## nginx config
 
-Here's an nginx config file that does it... 
+Here's an nginx config file that does it...
 
 
 	server {

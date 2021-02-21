@@ -1,4 +1,4 @@
-# View Imports file
+﻿# View Imports file
 
 Behold the wonders of "_ViewImports.cshtml"
 
@@ -10,4 +10,3 @@ It contains such wise utterances as these:
     @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 And thus, by adding `@usings` to't, you can avoid the need for peppering your views with more usings.
-    

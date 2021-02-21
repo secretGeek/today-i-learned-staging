@@ -1,4 +1,4 @@
-# Nodejs on ubuntu linux
+﻿# Nodejs on ubuntu linux
 
 
 >I've found this is often a misnaming error, if you install from a package manager you bin may be called nodejs so you just need to symlink it like so

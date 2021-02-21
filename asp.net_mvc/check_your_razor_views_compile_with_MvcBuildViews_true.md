@@ -1,4 +1,4 @@
-# Check Your Razor Views Compile with MvcBuildViews=true
+﻿# Check Your Razor Views Compile with MvcBuildViews=true
 
 Instead of finding out in production that a particular view no longer compiles due to a refactoring... have the visual studio build system verify that the views compile during build.
 
@@ -10,7 +10,7 @@ Edit the `.csproj` file and set this:
 (it defaults to false)
 
 
-And, according to my sources: 
+And, according to my sources:
 
 
 > Note that this won't compile your views into a .dll file, this action will only check them for any compile time errors

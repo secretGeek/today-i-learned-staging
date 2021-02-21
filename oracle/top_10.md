@@ -1,4 +1,4 @@
-# Select top (10) in oracle
+﻿# Select top (10) in oracle
 
     SELECT * FROM (
         ... Your query here...   SELECT FROM WHERE

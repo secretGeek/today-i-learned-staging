@@ -1,4 +1,4 @@
-# Atomic Habits, James Clear
+﻿# Atomic Habits, James Clear
 
 
 
@@ -51,4 +51,3 @@ The craving is what motivates us.
 This summary is very accurate -- brings back all the main points:
 
 * [Atomic Habits Summary](https://www.samuelthomasdavies.com/book-summaries/self-help/atomic-habits/)
-

@@ -1,4 +1,4 @@
-# CPU Analyzer
+﻿# CPU Analyzer
 
 This is a tool originally created by Sam Saffron and since forked by jitbit. Available here: <https://github.com/jitbit/cpu-analyzer>
 

@@ -1,4 +1,4 @@
-# Have a utils repo
+﻿# Have a utils repo
 
 I have a `utils` repo and you should too.
 
@@ -17,9 +17,3 @@ In the utils repo I keep:
  3. Handy LinqPad scripts
  3. My 'Today I learned' notes -- it's where they are originally written, in a folder called `TIL`.
     (I also have a git repo which grabs that TIL folder, and publishes it as a gitbook at http://TIL.secretGeek.net)
-
-
-
-
-
-

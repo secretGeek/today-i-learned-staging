@@ -1,4 +1,4 @@
-# Info Message: Processing Info returned from SQL (in C#)
+﻿# Info Message: Processing Info returned from SQL (in C#)
 
 Just want to take note of this for next time I need it:
 
@@ -17,7 +17,7 @@ where the message handler is, for example:
 
 	static void conn_InfoMessage(object sender, SqlInfoMessageEventArgs e)
 	{
-			MessageBox.Show("InfoMessage Handled Error Level-" + 	e.Errors[0].Class.ToString() + ":" + e.Message);           
+			MessageBox.Show("InfoMessage Handled Error Level-" + 	e.Errors[0].Class.ToString() + ":" + e.Message);
 	}
 
 

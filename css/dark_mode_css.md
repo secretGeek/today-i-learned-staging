@@ -1,4 +1,4 @@
-# How to implement dark mode with css
+﻿# How to implement dark mode with css
 
 The way I like to implement this is by combining "custom properties" with `prefers-color-scheme`.
 
@@ -108,7 +108,7 @@ Try it for yourself.
 
 	<style>
 	html { background-color: white;}
-	
+
 	/* dark mode support */
 	@media (prefers-color-scheme: dark) {
 		html {

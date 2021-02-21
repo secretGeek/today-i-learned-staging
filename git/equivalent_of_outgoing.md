@@ -1,4 +1,4 @@
-# git equivalent of 'hg outgoing'
+﻿# git equivalent of 'hg outgoing'
 
 Well this took a while to find.
 

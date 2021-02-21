@@ -1,4 +1,4 @@
-# Create Schema with Authorization
+﻿# Create Schema with Authorization
 
 When Creating schemas, if you don't specify the 'Authorization' then the 'owner' of the schema will be the user who ran the script.
 

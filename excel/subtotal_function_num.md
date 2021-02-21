@@ -1,4 +1,4 @@
-# Subtotal function (used in tables) what is the function num?
+﻿# Subtotal function (used in tables) what is the function num?
 
 I frequently use little tables, particularly to format data in preparation for sending in an email.
 
@@ -8,11 +8,11 @@ It added just one aggregate figure, and it had a formula like this:
 
     =SUBTOTAL(103,[TotalSpaceMB])
 
-    
+
 It was doing a count of rows, not a SUM as I wanted. Looking into it,  `103` was described as a function number. (This is not peak-lambda).
 
 What is the function number for SUM ? Use this handy table!
-    
+
 
 |Function|Include hidden|Ignore hidden|
 |----|----|----|

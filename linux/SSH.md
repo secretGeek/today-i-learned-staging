@@ -1,11 +1,11 @@
-# SSH to a linux machine from windows
+﻿# SSH to a linux machine from windows
 
 On windows, you can use PuTTY to connect to your digital ocean droplet via SSH.
 
-(I've since found two better ways to do this: 
-   1. with [bash.exe](../windows/bash_on_windows.md) or 
+(I've since found two better ways to do this:
+   1. with [bash.exe](../windows/bash_on_windows.md) or
    2. with `cmder` which I think is using OpenSSH by way of gitbash.
-   
+
 Soon I think windows will have better ssh features built in. Powershell will get them for example.)
 
 
@@ -59,7 +59,7 @@ Got this error:
     bad permissions: ignore key: /home/geek/.ssh/id_rs
 
 To limit the permissiveness of those files I used these commands...
-    
+
     sudo chmod 600 ~/.ssh/id_dsa
     sudo chmod 600 ~/.ssh/id_dsa_com.pub
 
@@ -83,7 +83,7 @@ Create the RFC 4716 version of the public key using  ssh-keygen
 
     ssh-keygen -i -f ~/.ssh/id_dsa_com.pub > ~/.ssh/id_dsa.pub
 
-Simple right!? No, not simple.    
+Simple right!? No, not simple.
 
 
 
@@ -111,4 +111,3 @@ Simple right!? No, not simple.
 
  * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-PuTTY-on-digitalocean-droplets-windows-users> -- includes how to configure PuTTY itself.
  * <http://stackoverflow.com/questions/20840012/ssh-remote-host-identification-has-changed>
-   

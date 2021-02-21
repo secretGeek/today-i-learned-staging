@@ -1,4 +1,4 @@
-# npx - a fun and simple npm package runner
+﻿# npx - a fun and simple npm package runner
 
 Okay -- [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) is a fun idea.
 
@@ -32,7 +32,3 @@ So npx is like renting instead of buying. Use it, thow it away. Next time, use t
 ## Local scripts
 
 The other great thing is inside projects... you want each project to be able to talk about the local scripts it uses, without it requiring that you install them globally and worrying about version collisions on those globally installed projects. Previously this meant you had to use `npm run-script` to use a locally installed version. But -- on top of what is stated above -- `npx` will first check for a locally installed version, inside the project you are tinkering in.
-
-
-
-

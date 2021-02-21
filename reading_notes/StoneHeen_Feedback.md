@@ -1,4 +1,4 @@
-# Thanks for the feedback
+﻿# Thanks for the feedback
 
 
 
@@ -76,10 +76,3 @@ In HR we're not happy until you're not happy.
 * Power
 * Autonomy
 * Fun/entertainment
-
-
-
-
-
-
-

@@ -1,4 +1,4 @@
-# Need to delete backup files?
+﻿# Need to delete backup files?
 
 I did -- i had some adhoc .bak files taking up many gig. I remoted onto the server to delete them but I lacked the permission to perform the delete.
 

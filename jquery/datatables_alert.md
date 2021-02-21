@@ -1,4 +1,4 @@
-# DataTables alert
+﻿# DataTables alert
 
 If suddenly your jQuery.DataTable issues an alert like this (this is version 1.9.4):
 
@@ -23,13 +23,13 @@ To:
 (Originally I tried `console.error` but I don't think it's supported on IE version=old)
 
 
-    
+
 And in the minified version of DataTables, `jquery.dataTables.min.js` you need to...
 
 Change:
 
-    if("alert"==j.ext.sErrMode)alert(a);else throw Error(a)    
-    
+    if("alert"==j.ext.sErrMode)alert(a);else throw Error(a)
+
 To:
 
     if("alert"==j.ext.sErrMode)console.log(a);else throw Error(a)

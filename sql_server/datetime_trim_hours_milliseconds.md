@@ -1,4 +1,4 @@
-# Trim or zero-out a portion of a datetime
+﻿# Trim or zero-out a portion of a datetime
 
 
 To trim off the milliseconds... (this was necessary when sending to XML for consumption by Excel...)

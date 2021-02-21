@@ -1,4 +1,4 @@
-# Terminal services client, without a mouse
+﻿# Terminal services client, without a mouse
 
 If you're in a terminal services client and do not have a working mouse...
 

@@ -1,4 +1,4 @@
-# Tools for querying JSON
+﻿# Tools for querying JSON
 
 The first tool I found for querying json, at the commandline was [`jq`](https://stedolan.github.io/jq)
 

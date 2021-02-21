@@ -1,4 +1,4 @@
-# Discard uncommitted changes
+﻿# Discard uncommitted changes
 
 You just realized the  path you've been going down was not right and you want to:
 
@@ -11,7 +11,7 @@ You just realized the  path you've been going down was not right and you want to
 
 ^^ this will stash the changes to tracked files, and then lose them with drop.
 
-	git clean -nd 
+	git clean -nd
 
 ^^ This will let you see the untracked files that would be deleted (including directories)
 

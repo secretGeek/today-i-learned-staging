@@ -1,4 +1,4 @@
-# Spaced Repetition software
+﻿# Spaced Repetition software
 
 on iOS I use an app called "CleverDeck"
 
@@ -29,5 +29,3 @@ A single fact may be best represented by more than 3 cards:
  - Mental Models"
 
 (See cheatsheets)
-
-

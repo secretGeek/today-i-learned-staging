@@ -1,4 +1,4 @@
-# How to (programmatically) find the exact reason for closing a question?
+﻿# How to (programmatically) find the exact reason for closing a question?
 
     Select
         p.Id as [Post Link],
@@ -12,8 +12,8 @@
 We can see that the post was closed with Reason 102 which means 'Off Topic'
 But there is no information here about which OffTopic Reasons.
 
-(if you visit the question you'll see that the OffTopic reason was 
- "Questions asking us to recommend or find a tool, library or 
+(if you visit the question you'll see that the OffTopic reason was
+ "Questions asking us to recommend or find a tool, library or
 favorite off-site resource are off-topic")
 
 
@@ -25,9 +25,9 @@ favorite off-site resource are off-topic")
     where p.Id = 17335689
 
     --0 rows. No "Pending Flags"
-    
+
 I think I've found that 'PendingFlags' only exist for questions that are pending closure, not for closed questions.
-It's a shame because this table has the promising 'CloseAsOffTopicReasonTypeId' 
+It's a shame because this table has the promising 'CloseAsOffTopicReasonTypeId'
 that I am chasing.
 
 
@@ -40,9 +40,9 @@ that I am chasing.
 
     --0 rows. No comments
 
-    Select 
+    Select
     p.Id as [Post Link],
-     vt.* 
+     vt.*
     from Posts p
     inner join Votes v on v.PostId = p.Id
     inner join VoteTypes vt on v.VoteTypeID = vt.Id
@@ -50,7 +50,7 @@ that I am chasing.
 
     --3 rows. 2 down votes 1 upvote. No clue here about off topic sub reason.
 
-    Select 
+    Select
     p.Id as [Post Link],
     rtt.*,
     rts.Name,
@@ -67,17 +67,14 @@ that I am chasing.
     inner join ReviewTaskResultTypes rtrt on rtrt.Id = rtr.ReviewTaskResultTypeId
     where p.Id = 17335689
 
-    --1 row. 
+    --1 row.
 
 This shows details of a review.
-There was a review, it was completed, it has a result, 
+There was a review, it was completed, it has a result,
 the result was that the question was closed.
 But this doesn't tell us the close reason sub types either!
 
 
-## Source 
+## Source
 
  * <http://meta.stackexchange.com/questions/255880/how-can-we-write-a-query-in-data-stackexchange-to-find-the-closeasofftopicreason>
- 
- 
-

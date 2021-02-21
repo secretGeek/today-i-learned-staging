@@ -1,4 +1,4 @@
-# Disable automatic parens completion
+﻿# Disable automatic parens completion
 
 Notepad++ has this annoying built in feature where it autocompletes quotes brackets angle brackets braces parens parentheses etc.
 
@@ -13,7 +13,7 @@ Similarly...
 
 ![nth_char.png](nth_char.png)
 
-In the 
+In the
 
 `Settings` &rarr; `Preferences` &rarr; `Auto-Completion`
 
@@ -30,16 +30,16 @@ Instead though, I've edited the `config.xml` file stored here:
 	cd Notepad++
 	FindText auto-compl
 	Notepad.exe config.xml
-	
-        
+
+
 And changed:
 
 
-    <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" autoCIgnoreNumbers="no" funcParams="yes" />		
-	
+    <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" autoCIgnoreNumbers="no" funcParams="yes" />
+
 To
 
-	
+
 	<GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="5" autoCIgnoreNumbers="no" funcParams="yes" />
 
 

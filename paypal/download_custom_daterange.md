@@ -1,4 +1,4 @@
-# How to download a custom daterange from paypal
+﻿# How to download a custom daterange from paypal
 
 When you want to download a custom daterange from paypal, you might think that the "reports" tab is what you're after... but you would be wrong!
 
@@ -18,7 +18,7 @@ If the transaction history is big enough then they email you when it's ready and
 
 	https://business.paypal.com/merchantdata/reportHome?reportType=DLOG
 
-Previously it was: 
+Previously it was:
 
 	https://www.paypal.com/au/HISTORY-DOWNLOAD
 

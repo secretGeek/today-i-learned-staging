@@ -1,4 +1,4 @@
-# Scales and emotions
+﻿# Scales and emotions
 
 The simplistic version we're told is:
 

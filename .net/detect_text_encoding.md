@@ -1,4 +1,4 @@
-# Detect the encoding of a file
+﻿# Detect the encoding of a file
 
 Well this is a doozy, and bound to require constant upkeep.
 

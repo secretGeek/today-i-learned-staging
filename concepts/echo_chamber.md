@@ -1,4 +1,4 @@
-# Echo chamber
+﻿# Echo chamber
 
 The greatest exposition of the echo chamber problem comes from this comic:
 
@@ -6,7 +6,7 @@ The greatest exposition of the echo chamber problem comes from this comic:
 
 ![jackpot](chainsawsuit_dot_com_20140916-research.png)
 
-You can get an insight into the problem we face today where people live in their own 'ideological bubbles' by visiting 
+You can get an insight into the problem we face today where people live in their own 'ideological bubbles' by visiting
 [Red feed blue feed at Wall street Journal](http://graphics.wsj.com/blue-feed-red-feed/)
 
 An excellent article that can reveal your own ingroup-outgroup bias is available from [I can tolerate anything except the out group](http://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/)

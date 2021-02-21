@@ -1,4 +1,4 @@
-# Where/How to document asp.net core
+﻿# Where/How to document asp.net core
 
 
  * Documentation at microsoft:
@@ -9,5 +9,3 @@
 
  * Documentation at stack overflow:
     <http://stackoverflow.com/documentation/asp.net-core?tab=requestedtopics>
-    
-

@@ -6,7 +6,7 @@
 - [AMD](amd.md)
 - [How do I list all globally installed NPM Packages?](List_Globally_Installed_npm_Packages.md)
 - [How to update npm?](update_npm.md)
-- [Install npm ](install_npm.md)
+- [Install npm](install_npm.md)
 - [Node Package Manager -- some notes for beginners](getting_started.md)
 - [Node-gyp is much used by npm, but its dependencies need to be manually installed](node_gyp_dependencies.md)
 - [Nodejs on ubuntu linux](nodejs_on_ubuntu_linux.md)

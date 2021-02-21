@@ -1,4 +1,4 @@
-# The SQL Server Spatial Spatial Index Temp Table Trick
+﻿# The SQL Server Spatial Spatial Index Temp Table Trick
 
 *or, What Al Capone Taught Me About Spatial Indexes*
 
@@ -46,15 +46,15 @@ And on more than a few lucky occasions, a hint makes up for SQL Server over-esti
 
 First, get the smallest number of rows you can, *without* using any spatial terms, in their own table (even if it is a temporary table).
 
- 
+
     CREATE TABLE #SurveyLotPlan
     (
         Id int IDENTITY PRIMARY KEY,
         Survey_Lotplan nvarchar(32),
         Survey_GEO geography
     )
- 
- 
+
+
     Insert into
         #SurveyLotPlan
     Select
@@ -62,7 +62,7 @@ First, get the smallest number of rows you can, *without* using any spatial term
         GEO as Survey_GEO
     SurveyDB.dbo.AllSurveys
 
- 
+
  
 
 Then create a spatial index on that table. (Which has a primary key, thus has a clustered index already) These parameters (`high`, `high`, etc) could perhaps be improved through actual research rather than the anecdotal approach I've accepted thus far.
@@ -70,12 +70,12 @@ Then create a spatial index on that table. (Which has a primary key, thus has a 
 
 
     CREATE SPATIAL INDEX ix_surveylotplan ON #SurveyLotPlan (Survey_GEO) WITH (GRIDS = (HIGH, HIGH, HIGH, HIGH));
- 
+
 
 
 When running the actual spatial query you may try it without the spatial index hint... but if you do want to use the hint, here is an example. Also if the hint is not used by the query, you will get a message to that effect.
  
- 
+
 
     Update SL
     Set Survey_Lotplan = s.survey_lotplan,
@@ -86,7 +86,7 @@ When running the actual spatial query you may try it without the spatial index h
             from
                 #SurveyLotPlan survey WITH (INDEX(ix_surveylotplan))
             where
-                survey.Survey_GEO.STIntersects(Sl.PointGeo) = 1 
+                survey.Survey_GEO.STIntersects(Sl.PointGeo) = 1
           ) s
-     
+
     -- ^^ 4 seconds

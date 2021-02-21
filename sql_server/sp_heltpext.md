@@ -1,7 +1,7 @@
-# Sick of typing sp_heltpext ?
+﻿# Sick of typing sp_heltpext ?
 
 
-Create a function `sp_heltpext` which channels the parameter to `sp_helptext` 
+Create a function `sp_heltpext` which channels the parameter to `sp_helptext`
 
     Alter Procedure sp_heltpext (@Sprocname varchar(500))
     AS
@@ -11,4 +11,3 @@ Create a function `sp_heltpext` which channels the parameter to `sp_helptext`
         print ''
         exec sp_helptext @sprocname
     END
-

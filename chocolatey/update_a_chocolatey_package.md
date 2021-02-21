@@ -1,4 +1,4 @@
-# Update a chocolatey package
+﻿# Update a chocolatey package
 
 Actually called  "upgrade"
 
@@ -9,7 +9,7 @@ e.g.
 
 	choco upgrade all
 
-or 
+or
 
 	cup nimbletext
 

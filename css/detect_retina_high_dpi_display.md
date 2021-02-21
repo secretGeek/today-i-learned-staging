@@ -1,4 +1,4 @@
-# Detect retina display or high DPI display and send specific image
+﻿# Detect retina display or high DPI display and send specific image
 
 
 
@@ -8,7 +8,7 @@
 	only screen and (     -o-min-device-pixel-ratio: 2/1),
 	only screen and (        min-device-pixel-ratio: 2),
 	only screen and (                min-resolution: 192dpi),
-	only screen and (                min-resolution: 2dppx) { 
+	only screen and (                min-resolution: 2dppx) {
 		.hero {
 				background:url("background@2x.png");
 			}

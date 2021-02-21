@@ -1,4 +1,4 @@
-# NPM tab completion with powershell
+﻿# NPM tab completion with powershell
 
 Want intellisense for `npm` from within powershell? [Doug Finke](http://dougfinke.com/blog/3-ways-to-speed-up-visual-studio-code-extension-development/) has it covered.
 

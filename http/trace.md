@@ -1,4 +1,4 @@
-# How to perform an HTTP trace
+﻿# How to perform an HTTP trace
 
 
 * Chrome plugin, [http watch](http://www.httpwatch.com/download/)

@@ -1,4 +1,4 @@
-# Immediately-invoked function expression
+﻿# Immediately-invoked function expression
 
 > An immediately-invoked function expression (or IIFE, pronounced "iffy") is a JavaScript design pattern which produces a lexical scope using JavaScript's function scoping.
 
@@ -11,7 +11,7 @@
 	// foo is unreachable here (it's undefined)
 
 
-> This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.    
+> This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.
 
 and note also:
 
@@ -25,4 +25,3 @@ and note also:
 - https://en.wikipedia.org/wiki/Immediately-invoked_function_expression
 - http://benalman.com/news/2010/11/immediately-invoked-function-expression/
 - http://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript
-

@@ -1,4 +1,4 @@
-# DataReader.GetFieldType returned null (for Geography) 
+﻿# DataReader.GetFieldType returned null (for Geography)
 
 
 Given a SQL query such as:
@@ -29,9 +29,9 @@ When the package is added, it displays a helper piece of html like this:
 
 
 > Action required to load native assemblies
-> 
+>
 > To deploy an application that uses spatial data types to a machine that does not have 'System CLR Types for SQL Server' installed you also need to deploy the native assembly SqlServerSpatial140.dll. Both x86 (32 bit) and x64 (64 bit) versions of this assembly have been added to your project under the SqlServerTypes\x86 and SqlServerTypes\x64 subdirectories. The native assembly msvcr120.dll is also included in case the C++ runtime is not installed.
-> 
+>
 > You need to add code to load the correct one of these assemblies at runtime (depending on the current architecture).
 >
 > ASP.NET Web Sites
@@ -39,7 +39,7 @@ When the package is added, it displays a helper piece of html like this:
 > For ASP.NET Web Sites, add the following block of code to the code behind file of the Web Form where you have added Report Viewer Control:
 
     Default.aspx.cs:
-        
+
     public partial class _Default : System.Web.UI.Page
     {
         static bool _isSqlTypesLoaded = false;
@@ -51,12 +51,12 @@ When the package is added, it displays a helper piece of html like this:
                 SqlServerTypes.Utilities.LoadNativeAssemblies(Server.MapPath("~"));
                 _isSqlTypesLoaded = true;
             }
-            
+
         }
     }
 
 > ASP.NET Web Applications
-> 
+>
 > For ASP.NET Web Applications, add the following line of code to the Application_Start method in Global.asax.cs:
 
     SqlServerTypes.Utilities.LoadNativeAssemblies(Server.MapPath("~/bin"));
@@ -67,8 +67,8 @@ When the package is added, it displays a helper piece of html like this:
 
     SqlServerTypes.Utilities.LoadNativeAssemblies(AppDomain.CurrentDomain.BaseDirectory);
 
-	
-	
+
+
 As instructed I added:
 
 	SqlServerTypes.Utilities.LoadNativeAssemblies(Server.MapPath("~/bin"));
@@ -83,7 +83,7 @@ It didn't work! That is, it didn't work until I added this to `Web.Config`'s `ru
 		<assemblyIdentity name="Microsoft.SqlServer.Types" publicKeyToken="89845dcd8080cc91" culture="neutral" />
 		<bindingRedirect oldVersion="10.0.0.0" newVersion="14.0.0.0" />
 	</dependentAssembly>
-	
+
 Also, once it did work, it would *fail* if I added this to the connection string:
 
 	;Type System Version=SQL Server 2012;
@@ -95,4 +95,3 @@ Enjoy!
 ## References
 
 * [Stackoverflow: DataReader.GetFieldType returned null](https://stackoverflow.com/questions/6569624/datareader-getfieldtype-returned-null)
-

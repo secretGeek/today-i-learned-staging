@@ -1,4 +1,4 @@
-# Count all files in a directory, recursively
+﻿# Count all files in a directory, recursively
 
 ## Count files in current folder, not recursive:
 

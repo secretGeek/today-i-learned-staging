@@ -1,7 +1,7 @@
-# HTML supports autocomplete-style dropdowns
+﻿# HTML supports autocomplete-style dropdowns
 
 
-> HTML has native support for autocomplete-style dropdowns attached to inputs via the `<datalist>` element. 
+> HTML has native support for autocomplete-style dropdowns attached to inputs via the `<datalist>` element.
 >
 > This input behaves like a `<select>` but you can type text in it and choose a specific value.
 

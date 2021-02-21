@@ -16,6 +16,6 @@
 - [Terminal services client, without a mouse](mstsc_without_mouse.md)
 - [Turn off App Updates](windows_store_apps_update.md)
 - [Turn off Bing Search Results from Start Menu in Windows](Turn_off_bing_search_results_from_Start_Menu.md)
-- [Use mstsc.exe to connect, receive Black screen ](mstsc_black_screen.md)
+- [Use mstsc.exe to connect, receive Black screen](mstsc_black_screen.md)
 - [Using notepad as a log/journal](notepad_log_file.md)
 - [When does your windows account's password expire?](when_does_password_expire.md)

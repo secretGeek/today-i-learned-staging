@@ -1,10 +1,10 @@
-# Comments in python
+﻿# Comments in python
 
 Single line:
 
     # this line is commented out
     height = 3  # this is a comment
-    
+
 And block comments:
 
 
@@ -14,4 +14,4 @@ And block comments:
     This is a multiline doc comment.
     '''
 
-...Those are called docstrings, and you include them at the start of modules and functions.    
+...Those are called docstrings, and you include them at the start of modules and functions.

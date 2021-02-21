@@ -1,4 +1,4 @@
-# General parts of a productivity system
+﻿# General parts of a productivity system
 
 * usable from desktop
 * usable from mobile
@@ -26,7 +26,7 @@ Lots of different needs overlap in a productivity system:
 * deadlines
 * customer relationship
 * shopping lists
-* sharing some lists with other people 
+* sharing some lists with other people
 * kanban / visible card / limits
 * things to remember (memorization)
 
@@ -42,13 +42,13 @@ I currently use a mix of things:
 * `.ok` files manage commands relevant to each project, e.g. opening a relevant todo.txt file (or azure devops etc, as the case may be, on a project by project basis)
 * "Pocket" for things to read later (automatically synced to Kobo)
 * "util" repo for keeping scripts/tools/profile, & TIL itself, synced across machines via a private github repo
-* dropbox 
+* dropbox
 * Apple calendar shared for family
 * Work calendar is outlook (read with powershell and with daybar)
 * Things I find interesting are written in [wiki.secretgeek.net](https://wiki.secretGeek.net)
 * Contacts (scattered)
 * Birthdays (mostly in FB, some in my head, some just take me by surprise)
-* Plan file - collapsible plain text with .html extension, for capturing long term plans/ideas/notes on any project. single file. 
+* Plan file - collapsible plain text with .html extension, for capturing long term plans/ideas/notes on any project. single file.
 
 The most fundamental concepts of productivity are
 

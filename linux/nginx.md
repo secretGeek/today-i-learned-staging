@@ -1,4 +1,4 @@
-# nginx - a web server
+﻿# nginx - a web server
 
 nginx overtook apache as the most popular webserver in the world.
 
@@ -71,15 +71,15 @@ Sometimes it says the edits you made were indeed horrible, e.g..
     nginx: configuration file /etc/nginx/nginx.conf test failed
 
 (I had an extra "}")
-	
+
 And another example:
 
 	$ sudo nginx -t
 	nginx: [warn] conflicting server name "codesmackdown.com" on 0.0.0.0:80, ignored
 	nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-	nginx: configuration file /etc/nginx/nginx.conf test is successful	
+	nginx: configuration file /etc/nginx/nginx.conf test is successful
 
-(I had two config files that both wanted to be handlers for the `codesmackdown.com` `server_name` ...)	
+(I had two config files that both wanted to be handlers for the `codesmackdown.com` `server_name` ...)
 
 In which case you need to edit the file and fix it. Then `sudo nginx -t` again to see if the changes are now valid.
 
@@ -122,7 +122,7 @@ This is so that inside our application we'll be able to see the original IP Addr
 
 ## gzip -- enable it!
 
-I get poor scores at google pagespeed insights: https://developers.google.com/speed/pagespeed/insights/?url=secretgeek.net&tab=desktop and at 
+I get poor scores at google pagespeed insights: https://developers.google.com/speed/pagespeed/insights/?url=secretgeek.net&tab=desktop and at
 tools.pingdom -- https://tools.pingdom.com/#!/cpJDXC/secretgeek.net
 
 
@@ -146,17 +146,17 @@ Here's what I end up with:
 	gzip_http_version 1.1;
 	gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript application/vnd.ms-fontobject application/x-font-ttf font/opentype image/svg+xml image/x-icon;
 	gzip_min_length 256;
-	
+
 THen I check the conf file using good old:
 
 	sudo nginx -t
-	
+
 And reload the nginx service with good old:
 
-	sudo nginx -s reload	
+	sudo nginx -s reload
 
 I re-run the pagespeed test and my scores are up by 3 points.
-	
+
 ## Source
 
 - <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>

@@ -1,4 +1,4 @@
-# FileType
+﻿# FileType
 
 To search google for files with a specific file extension use the "filetype:" command, for example:
 

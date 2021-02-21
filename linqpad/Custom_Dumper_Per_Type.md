@@ -1,4 +1,4 @@
-# Customize Dump Style and Colors in Linqpad using MyExtensions
+﻿# Customize Dump Style and Colors in Linqpad using MyExtensions
 
 
 Make true bools green, false bools red, and some other things blue.

@@ -1,4 +1,4 @@
-# Adding http_proxy to nuget config
+﻿# Adding http_proxy to nuget config
 
 I couldn't build a project locally because it wouldn't restore its nuget packages and kept receiving this error message:
 

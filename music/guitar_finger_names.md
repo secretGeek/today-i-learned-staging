@@ -1,4 +1,4 @@
-# Guitarist's Name Their Thumb and Fingers P-I-M-A
+﻿# Guitarist's Name Their Thumb and Fingers P-I-M-A
 
 
 > In classical guitar technique, one uses four fingers: the fingertips and fingernails of the thumb and the index, middle and ring fingers. In guitar fingering diagrams, they are designated "p" (thumb), "i" (index), "m" (middle), and "a" (ring), from the names of the fingers in Spanish: pulgar, indice, medio, and anular.
@@ -13,13 +13,13 @@ In classical guitar, the thumb and first four fingers are indicated by the lette
 |Ring|a|Anular|
 
 
-        .______    __  .___  ___.      ___      
-        |   _  \  |  | |   \/   |     /   \     
-        |  |_)  | |  | |  \  /  |    /  ^  \    
-        |   ___/  |  | |  |\/|  |   /  /_\  \   
-        |  |      |  | |  |  |  |  /  _____  \  
-        | _|      |__| |__|  |__| /__/     \__\ 
-                                                
+        .______    __  .___  ___.      ___
+        |   _  \  |  | |   \/   |     /   \
+        |  |_)  | |  | |  \  /  |    /  ^  \
+        |   ___/  |  | |  |\/|  |   /  /_\  \
+        |  |      |  | |  |  |  |  /  _____  \
+        | _|      |__| |__|  |__| /__/     \__\
+
 
 Now for the *secret* to classic 'four finger style'...
 
@@ -40,7 +40,7 @@ Which finger do we use to pluck each string?
     D|===============================================P  (thumb)
     A|===============================================P  (thumb)
     E|===============================================P  (thumb)
- 
+
 So our thumb does *triple* duty - looking after all the bass strings... while the other three strings have one finger permanently devoted to each of them.
 
 But what about your pinky finger, eh!? What about that! Well this is the cleverest bit of all.

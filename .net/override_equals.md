@@ -1,4 +1,4 @@
-# Override equals to compare objects in C#
+﻿# Override equals to compare objects in C#
 
 If A and B are two different objects in memory, but they are of the same type and have all the same values... are they equal?
 

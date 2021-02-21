@@ -1,4 +1,4 @@
-# Turn off Bing Search Results from Start Menu in Windows
+﻿# Turn off Bing Search Results from Start Menu in Windows
 
 When you do a search in the start menu in Windows 10, it shows Bing Search results.
 

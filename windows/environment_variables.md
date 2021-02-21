@@ -1,4 +1,4 @@
-# Environment variables -- view/edit them on windows
+﻿# Environment variables -- view/edit them on windows
 
 
 - From cmd.exe, type `SET` and you'll see the value of all environment variables

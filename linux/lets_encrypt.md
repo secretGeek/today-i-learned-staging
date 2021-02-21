@@ -1,4 +1,4 @@
-# How To Secure Nginx with Let's Encrypt on Ubuntu 16.04
+﻿# How To Secure Nginx with Let's Encrypt on Ubuntu 16.04
 
 Pre-requisite: Nginx is installed and websites are already configured and running as non-https sites.
 
@@ -89,7 +89,7 @@ To do a dry run (i.e. to see what would happen without making any changes) you c
 
 (Hmmm, Actually -- that returns:
 
-    --dry-run currently only works with the 'certonly' or 'renew' subcommands ('run')	
+    --dry-run currently only works with the 'certonly' or 'renew' subcommands ('run')
 
 )
 
@@ -368,5 +368,3 @@ That seemed to work... though this message in the log looked oddd....
 - [uncomplicated firewall](uncomplicated_firewall.md)
 - [nginx](nginx.md)
 - [cron](cron.md)
-
- 

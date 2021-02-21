@@ -1,4 +1,4 @@
-# Installing bash on windows
+﻿# Installing bash on windows
 
 You need to have (at least) Windows 10 anniversary edition:
 
@@ -199,13 +199,13 @@ The home folder is now stored at:
 
 ...which is an ad for using markjump.
 
-Note you can install all the different distributions side by side. 
+Note you can install all the different distributions side by side.
 
 * Ubuntu
 * openSUSE Leap 42
 * SUSE Linux Enterprise Server 12
-* Debian 
-* Kali Linux 
+* Debian
+* Kali Linux
 
 And they have star ratings in the windows store. Ubuntu and Kali are popular. Others not so much.
 

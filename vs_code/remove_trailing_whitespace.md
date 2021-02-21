@@ -1,4 +1,4 @@
-# Remove trailing whitespace
+﻿# Remove trailing whitespace
 
 This is the biggie.
 

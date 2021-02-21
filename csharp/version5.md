@@ -1,8 +1,8 @@
-# C# version 5
+﻿# C# version 5
 
 See [what's new in C#5](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-50)
 
-## Asynchronous members 
+## Asynchronous members
 
 See [Asynchronous programming](https://docs.microsoft.com/en-us/dotnet/csharp/async) with the [Task Based Asynchronous Pattern](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap)
 
@@ -52,11 +52,11 @@ How can we ensure our code stays responsive, even while we do such an *intense* 
 
 			((Control)o).Text = "Thinking.....";
 			var i = await t;
-			
+
 			((Control)o).Text = "The answer is " + i;
 			((Control)o).Enabled = true;
 		};
-		
+
 		using(var f = new Form()) {
 			f.Controls.Add(downloadButton);
 			f.ShowDialog();
@@ -89,7 +89,7 @@ How would that be done?
 			((Control)o).Text = "Downloaded.";
 			((Control)o).Enabled = true;
 		};
-		
+
 		using(var f = new Form())
 		{
 			f.Controls.Add(downloadButton);
@@ -99,7 +99,7 @@ How would that be done?
 
 If the 'Do something with our data' was going to be a CPU-intensive operation... then we'd use the technique in the first example to handle it.
 
-## Caller info attributes 
+## Caller info attributes
 
 Well look at this!
 
@@ -108,7 +108,7 @@ By applying these "Caller" related attributes from `System.Runtime.CompilerServi
 This is a strange magic!
 
 	// using System.Runtime.CompilerServices;
-	
+
 	void Main()
 	{
 		LogThisMomentInTime("Here I am!");
@@ -130,7 +130,7 @@ This is a strange magic!
 **Bonus** -- we can also add on top the [version 6](version6.md) feature, `nameof`, and even get rid of the hard-coded "Message" string and others above!
 
 	//using System.Runtime.CompilerServices;
-	
+
 	void LogThisMomentInTime(string message,
 			[CallerMemberName] string memberName = "",
 			[CallerFilePath] string sourceFilePath = "",

@@ -1,7 +1,7 @@
 ﻿# UX/Design resources I love
 
 
-- [Twitter thread "Little UI Details"](https://twitter.com/i/events/880688233641848832?s=13) 
+- [Twitter thread "Little UI Details"](https://twitter.com/i/events/880688233641848832?s=13)
 
 	> "A collections of little tips from `@steveschoger` to improve your visual design skills with the little details that make a big difference 👏"
 - [Article explaining the tips seen in the thread above](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
@@ -16,7 +16,7 @@
 
 ## Tools
 
-- [Twitter thread that demonstrates many design/UX tools](https://twitter.com/JoshWComeau/status/1212416797254832130)	
+- [Twitter thread that demonstrates many design/UX tools](https://twitter.com/JoshWComeau/status/1212416797254832130)
 - Color
 	- [TIL: Color Resources](../design/color_resources.md)
 	- [Color format conversion tool](https://www.w3schools.com/colors/colors_converter.asp) (always looking for a better one though)
@@ -25,4 +25,3 @@
 - [Mockup tools](https://yourfirstproduct.com/info/mockups)
 - Typography: need resources on terminology, font choice/tweaks and "thinking in fonts".
 - [Font Pairing](https://yourfirstproduct.com/info/fonts-and-font-pairing)
-

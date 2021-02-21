@@ -1,4 +1,4 @@
-# Invoke a LinqPad Script with Invoke-LinqPadScript CommandLet
+﻿# Invoke a LinqPad Script with Invoke-LinqPadScript CommandLet
 
 Since you can [Run Linqpad scripts from the command-line](run_linqpad_scripts_from_commandline.md) I made a short wrapper that lets you invoke scripts in a dedicated LinqPad script folder. (Assuming it is a directory caled `linqPad` under your `utils` folder.
 

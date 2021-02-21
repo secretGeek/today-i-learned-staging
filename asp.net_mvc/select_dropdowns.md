@@ -1,4 +1,4 @@
-# Need to add selects/dropdowns to a basic asp.net MVC site?
+﻿# Need to add selects/dropdowns to a basic asp.net MVC site?
 
 The classic jquery plugin for this is [`Chosen`](https://harvesthq.github.io/chosen/) and its more up to date descendant, [`Select2`](https://select2.github.io/)  ([What are the differences?](http://stackoverflow.com/questions/13575531/what-are-the-differences-between-chosen-and-select2))
 
@@ -11,7 +11,7 @@ Add the nuget package for `select2` (and `jquery` if you haven't already)
 If it hasn't automatically added the `select2.css` and `select2.js` to your `_layout.cshtml` then do that manually. Like a primitive cave dweller.
 
 
-For implementation patterns see: 
+For implementation patterns see:
 
 * [How to add dynamically populated selects/dropdowns to a basic asp.net MVC site?](select_dynamic_dropdowns.md)
 * [How to add multi-select dropdowns to a basic asp.net MVC site?](select_multi_dropdowns.md)

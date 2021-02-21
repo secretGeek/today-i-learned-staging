@@ -1,4 +1,4 @@
-# Log message immediately during a long running procedure
+﻿# Log message immediately during a long running procedure
 
 Sometimes you have a long running process, and you want it to emit messages, but you don't want to wait until the end to see those messages.
 

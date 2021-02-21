@@ -1,4 +1,4 @@
-# Block Types in Minecraft
+﻿# Block Types in Minecraft
 
 These are all of the block types in minecraft, for use in the [python in minecraft](python_in_minecraft.md) exercises.
 
@@ -302,4 +302,3 @@ These are all of the block types in minecraft, for use in the [python in minecra
 	WOOL_RED
 	WOOL_WHITE
 	WOOL_YELLOW
-

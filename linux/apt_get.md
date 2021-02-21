@@ -1,4 +1,4 @@
-# apt-get package management
+﻿# apt-get package management
 
 to list all packages installed locally...
 

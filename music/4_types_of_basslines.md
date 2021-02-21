@@ -1,4 +1,4 @@
-# There are only 4 types of basslines
+﻿# There are only 4 types of basslines
 
 I found this video interesting....
 
@@ -24,4 +24,4 @@ works for reinforcing and filling out a killer riff, giving a fatter sound.
 
 **Type 4 - bass solo**
 
-Bass does its own thing. Think flea, les claypool. Bass players whos work stands apart from the rest of the song. 
+Bass does its own thing. Think flea, les claypool. Bass players whos work stands apart from the rest of the song.

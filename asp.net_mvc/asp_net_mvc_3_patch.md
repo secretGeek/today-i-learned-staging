@@ -1,4 +1,4 @@
-# Asp.net MVC 3.0.0.0 upgrade to Asp.net MVC 3.0.0.1
+﻿# Asp.net MVC 3.0.0.0 upgrade to Asp.net MVC 3.0.0.1
 
 At some point ASP.Net MVC 3 was silently upgraded to 3.0.0.1
 
@@ -43,4 +43,3 @@ That results in adding this `Private` tag to the `proj` file.
     <Reference Include="System.Web.Mvc, Version=3.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
         <Private>True</Private>
     </Reference>
-

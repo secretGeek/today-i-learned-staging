@@ -1,4 +1,4 @@
-# Getting Started with 7-Zip
+﻿# Getting Started with 7-Zip
 
 
 ## Examples
@@ -22,7 +22,7 @@ Create a *new zip* (or add to an existing zip) called `example1.zip`, and add al
 	7za a example1.zip -r *
 
 
-`Nasty gotcha` 
+`Nasty gotcha`
 
 - the wildcard `*` will match **all** files
 - whereas `*.*` will *only* match files **with** an extension (i.e. it will not match files with *no* extension)
@@ -30,7 +30,7 @@ Create a *new zip* (or add to an existing zip) called `example1.zip`, and add al
 
 -----
 
-## Unzip a .zip file to a folder 
+## Unzip a .zip file to a folder
 
 (they call it eXtract)
 

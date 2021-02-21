@@ -1,4 +1,4 @@
-# How much space is left on the drives that my sql server can access?
+﻿# How much space is left on the drives that my sql server can access?
 
 To view how much remaining space you have on the drives your sql server can see, use this command....
 

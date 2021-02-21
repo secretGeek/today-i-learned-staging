@@ -1,4 +1,4 @@
-# Links containing parens, in Markdown
+﻿# Links containing parens, in Markdown
 
 I'm writing [Your First Product](http://YourFirstProduct.com) (the book, not the website) in markdown. (Okay - the site is mostly written in markdown too, but I digress)... there was a url that ends with a closing parenthesis.
 

@@ -1,4 +1,4 @@
-# Press Ctrl-A to select all in a textbox
+﻿# Press Ctrl-A to select all in a textbox
 
 **NOTE** textbox must be multiline.
 
@@ -26,10 +26,9 @@
             }
         }
     }
-    
+
 
 
 regarding 't.Focus()'
-    
-If the KeyPressSelectAll method can be triggerd by a different control, e.g. a button or menu, then you might also want to set focus to the textbox, so that the selection is made visible.
 
+If the KeyPressSelectAll method can be triggerd by a different control, e.g. a button or menu, then you might also want to set focus to the textbox, so that the selection is made visible.

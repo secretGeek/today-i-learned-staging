@@ -1,4 +1,4 @@
-# Sankey diagrams
+﻿# Sankey diagrams
 
 To remember the name of sankey diagrams I just think "snakey" and then rearrange the letters a bit.
 

@@ -1,4 +1,4 @@
-# Sweet spot - Christine Carer
+﻿# Sweet spot - Christine Carer
 
 
 Referring to habits as being like a tiny rider on top of an elephant. The rider is your consciousness brain trying to influence the elephant. And the elephant is your habits, your instincts, your unconscious automatic mind.
@@ -67,7 +67,3 @@ Fast diet
 
 
 "Exercise training increases size of hippocampus and improves memory" Erickson,Voss et al
-
-
-
-

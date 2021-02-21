@@ -1,4 +1,4 @@
-# Deleting millions of rows from SQL Server
+﻿# Deleting millions of rows from SQL Server
 
 
 So, you've [found large tables](.\find_large_tables.md) and now you want to trim them down to size... Not drop them them, just delete most of the rows, using some conditions.

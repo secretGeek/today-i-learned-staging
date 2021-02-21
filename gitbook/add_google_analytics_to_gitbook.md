@@ -1,4 +1,4 @@
-# Add Google Analytics to gitbook
+﻿# Add Google Analytics to gitbook
 
     npm install gitbook-plugin-ga
 

@@ -1,4 +1,4 @@
-# To Convert to or from an internal name in sharepoint
+﻿# To Convert to or from an internal name in sharepoint
 
 
 Sharepoint internal names can only include letters/numbers and underscores.

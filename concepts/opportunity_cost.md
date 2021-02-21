@@ -1,6 +1,6 @@
-# Opportunity Cost
+﻿# Opportunity Cost
 
-Often you can't directly work out the cost of a thing itself. 
+Often you can't directly work out the cost of a thing itself.
 
 You can instead work out the value of the best alternative forgone.
 

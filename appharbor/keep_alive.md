@@ -1,4 +1,4 @@
-# AppHarbor Keep alive
+﻿# AppHarbor Keep alive
 
 My sample app on AppHarbor is very slow to start up &mdash; but lickety split when it's running.
 

@@ -1,4 +1,4 @@
-# Update bower
+﻿# Update bower
 
 To update `bower` one simply has to...
 

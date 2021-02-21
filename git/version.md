@@ -1,4 +1,4 @@
-# What version of git am I running?
+﻿# What version of git am I running?
 
 use:
 
@@ -13,7 +13,7 @@ e.g.
 In [Powershell](../powershell/01_summary.md), `which git` will also give you the answer you seek. For example:
 
     > which git
-    
+
     CommandType     Name                                               Version    Source
     -----------     ----                                               -------    ------
     Application     git.exe                                            2.7.0.0    C:\Program Files\Git\cmd\git.exe

@@ -1,4 +1,4 @@
-# What happened to UrlParameter.Optional ?
+﻿# What happened to UrlParameter.Optional ?
 
 instead of UrlParameter.Optional, you use the ? in the template to indicate an optional parameter
 
@@ -14,11 +14,11 @@ simply....
 
 
     routes.MapRoute(
-        name: "Items", 
-        template: "items/{resource?}", 
+        name: "Items",
+        template: "items/{resource?}",
         defaults: new { controller = "Root", action = "Items" }
     );
-    
+
 
 
 ## Source

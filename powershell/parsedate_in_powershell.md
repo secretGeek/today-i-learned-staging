@@ -1,4 +1,4 @@
-# How do you parse a date in powershell?
+﻿# How do you parse a date in powershell?
 
 
 ## Use TryParseExact... not easy from powershell
@@ -7,7 +7,7 @@
 	$DateAsAString = "30-12-1905";
 	$parseddate4 = get-date; # seem to have to initialize this variable...
 	if ([DateTime]::TryParseExact(
-		$DateAsAString, 
+		$DateAsAString,
 		"dd-MM-yyyy",
 		[System.Globalization.CultureInfo]::InvariantCulture,
 		[System.Globalization.DateTimeStyles]::None,

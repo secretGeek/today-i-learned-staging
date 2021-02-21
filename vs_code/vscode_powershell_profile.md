@@ -1,8 +1,8 @@
-# VSCode Powershell Profile
+﻿# VSCode Powershell Profile
 
 VSCode's powershell terminal is exactly the same one you use in regular powershell.  It runs the `$PROFILE` the exact same way.
 
-The easiest way for the profile to tell that it is being run by `vscode` is that `vscode` sets an environment variable called `TERM_PROGRAM`. 
+The easiest way for the profile to tell that it is being run by `vscode` is that `vscode` sets an environment variable called `TERM_PROGRAM`.
 
 So I have a condition in my profile at which point I do some simple things and then exit the profile, instead of loading all my usual convenience functions.
 

@@ -1,4 +1,4 @@
-# Launch Microsoft Terminal Maximized Using the Settings 'launchMode": "maximized"'
+﻿# Launch Microsoft Terminal Maximized Using the Settings 'launchMode": "maximized"'
 
 To launch Microsoft Terminal in a Maximized windows you can go to the settings (click the drop down arrow next to the new tab plus sign) and edit the settings file (in Visual Studio Code probably)
 

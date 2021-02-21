@@ -1,4 +1,4 @@
-# git cheat sheet
+﻿# git cheat sheet
 
 ![git cheat sheet from rebel labs](Git-Cheat-Sheet.png 'git cheatsheet')
 

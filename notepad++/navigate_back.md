@@ -1,4 +1,4 @@
-# How to navigate back in Notepad++
+﻿# How to navigate back in Notepad++
 
 In visual studio I use `Ctrl Minus` to move back to my previous location. And in Powershell I use `popd`.
 
@@ -17,9 +17,9 @@ Go to "Plugins" -> "Plugin Manager" -> "Show Plugin Manager" -> Available -> Loc
 
 It tells me I need to install updates to the plugin manager, but doing that only seemed to stop the plugin I want from updating.
 
-Once installed I had to turn off the "Mark changed line" option (Under "Plugins" -> "Location Navigate" 
+Once installed I had to turn off the "Mark changed line" option (Under "Plugins" -> "Location Navigate"
 
-And make sure "Auto Record" is on. 
+And make sure "Auto Record" is on.
 
 And then voil&aacute;!
 

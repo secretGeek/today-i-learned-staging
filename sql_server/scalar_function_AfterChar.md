@@ -1,10 +1,10 @@
-# Scalar Function in SQL that returns everything After a specified character
+﻿# Scalar Function in SQL that returns everything After a specified character
 
 Return the substring after the given character.
-e.g. 
+e.g.
 
 	select dbo.AfterChar('Jim@gmail.com','@')
-	
+
 ...returns 'gmail.com'.
 
 	select dbo.AfterChar('Jim#2315','#')
@@ -14,12 +14,12 @@ e.g.
 Special cases:
 
 
-	select dbo.AfterChar('Jim#2315','@') 
+	select dbo.AfterChar('Jim#2315','@')
 
 ...returns 'Jim#2315', since @ is not in the string.
 
-    
-	select dbo.AfterChar(null,'@') 
+
+	select dbo.AfterChar(null,'@')
 
 	...returns null, since @ cannot be in the string.
 
@@ -27,7 +27,7 @@ Special cases:
 
 
 	-- Return the substring after the given character.
-	-- e.g. 
+	-- e.g.
 	--   select dbo.AfterChar('Jim@gmail.com','@') -- returns 'gmail.com'.
 	--   select dbo.AfterChar('Jim#2315','#') -- returns '2315'.
 	-- Special cases:
@@ -36,16 +36,15 @@ Special cases:
 	Alter FUNCTION [dbo].[AfterChar]
 		(
 			@value VARCHAR(MAX) ,
-			@separator CHAR(1) 
+			@separator CHAR(1)
 		)
 	RETURNS VARCHAR(MAX)
-	AS 
+	AS
 	BEGIN
 		if (@value is null) return @value
-		
+
 		declare @charLocation integer;
 		Set  @charLocation = CHARINDEX(@separator, @value)
 		if (@charLocation = 0) return @value
 		return SubString(@Value, @charLocation+1, Len(@Value))
 	END
-

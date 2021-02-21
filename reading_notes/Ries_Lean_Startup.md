@@ -1,4 +1,4 @@
-# Lean Startup - Eric Ries
+﻿# Lean Startup - Eric Ries
 
 
 
@@ -73,11 +73,3 @@ Single piece flow
 
 
 Build measure learn really starts with "work out what we need to learn" then build something that will create that lesson, measure the customer response, learn from the measurements... and repeat
-
-
-
-
-
-
-
-

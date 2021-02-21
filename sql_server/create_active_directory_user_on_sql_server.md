@@ -1,4 +1,4 @@
-# Create active directory user on SQL Server
+﻿# Create active directory user on SQL Server
 
 If an active directory user can't access a database you might see:
 

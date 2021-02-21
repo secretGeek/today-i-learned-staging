@@ -1,4 +1,4 @@
-# Single Instance Application
+﻿# Single Instance Application
 
 Note that this TIL includes a bigger snippet than I'd usually snaffle. I put it here so i have it available locally, and so i can use "copy to clipboard" to grab it in no time.
 
@@ -8,7 +8,7 @@ Note that this TIL includes a bigger snippet than I'd usually snaffle. I put it 
 >
 > &mdash;[Sam Allen, DotNetPerls: Single Instance Windows Forms](https://www.dotnetperls.com/single-instance-windows-form)
 
-So what I always do is just use Sam Allen's code. 
+So what I always do is just use Sam Allen's code.
 
 The class is like this:
 
@@ -124,8 +124,6 @@ Described with this comment:
 > &mdash;[Sam Allen, DotNetPerls: Single Instance Windows Forms](https://www.dotnetperls.com/single-instance-windows-form)
 
 
-## Source 
+## Source
 
 - [Sam Allen, DotNetPerls: Single Instance Windows Forms](https://www.dotnetperls.com/single-instance-windows-form)
-
-

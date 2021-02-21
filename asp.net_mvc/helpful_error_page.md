@@ -1,4 +1,4 @@
-# Making a custom error page helpful for developers
+﻿# Making a custom error page helpful for developers
 
 Sometimes (for apps on an intranet), on the custom error page I put something like this:
 
@@ -23,4 +23,3 @@ Since you're leaking details to the outside world I don't recommend it for all s
 
 
 I use `Elmah.axd` to log errors. See [elmah](elmah.md) &mdash; make sure it's secure!
-

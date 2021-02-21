@@ -1,4 +1,4 @@
-# Parse varchar into DateTime
+﻿# Parse varchar into DateTime
 
 Turning arbitrary varchars into Dates is awkward in SQL-Server
 

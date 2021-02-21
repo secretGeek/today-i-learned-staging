@@ -1,4 +1,4 @@
-# Cmder powershell settings
+﻿# Cmder powershell settings
 
 Under settings | Startup | Tasks
 
@@ -14,4 +14,3 @@ Change this to:
 
 
 	PowerShell -ExecutionPolicy Bypass -NoLogo -NoExit -new_console:d:"C:\wip\Scratch\nimble"
-

@@ -1,4 +1,4 @@
-# Select top (10) in sqlite
+﻿# Select top (10) in sqlite
 
 Limit! Put the limit at the end...
 

@@ -11,5 +11,3 @@ If you haven't worked out the next action - how to make it actionable - it will 
 
 You need a weekly reviews of all your projects.
 Even your someday maybe file.
-
-

@@ -1,4 +1,4 @@
-# Merging failed... and was subseqeuntly fixed!
+﻿# Merging failed... and was subseqeuntly fixed!
 
     merging with 180:84824a35b0d3
     merging somefile.config

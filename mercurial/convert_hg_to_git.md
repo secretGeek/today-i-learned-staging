@@ -4,11 +4,11 @@ The following is based on the technique from here: <https://stackoverflow.com/a/
 
 The process (for us) is:
 
-## pre-requisites 
+## pre-requisites
 
 1. [ ] Make sure you have git installed.  <https://git-scm.com/downloads> - click on windows
-	
-	Use the default options. But you may want a different editor for commit message than vim. 
+
+	Use the default options. But you may want a different editor for commit message than vim.
 
 ## Steps
 
@@ -16,36 +16,36 @@ In the repo you wish to migrate:
 
   1. [ ] Add these to your `mercurial.ini`:
 
-		 [git]  
+		 [git]
 		 branch_bookmark_suffix=_bookmark
-		
+
 		 [extensions]
-		 hggit = 
-		
+		 hggit =
+
   2. [ ] check that `hggit` is recognised by running `hg help`; expect to see this under "enabled extensions":
 
 		> hggit         push and pull from a Git server
-		
+
  3. [ ]  create a bookmark called "master" to represent the "default" branch
 
 		hg bookmarks -r default master
 
-     ...we do that because 
+     ...we do that because
 
 	> hg-git does not convert between Mercurial named branches and git branches as the two are conceptually different; instead, it uses Mercurial bookmarks to represent the concept of a git branch<br />
 	> &mdash;[Hg-Git Mercurial Plugin readme](https://github.com/schacon/hg-git#gitbranch_bookmark_suffix)
-		
-		
+
+
  4. [ ] for each branch (found via `hg branches`) run this command:
 
-		hg bookmarks -r my_branch my_branch_bookmark  
+		hg bookmarks -r my_branch my_branch_bookmark
 
 	(... but replacing `my_branch` with the name of **your** branch.)
 
 Those mercurial bookmarks will be turned into branches in git.
 
 You're now ready to create the git repo. 😄
-	
+
  5. [ ] Create it like so:
 
 	    hg gexport
@@ -64,7 +64,7 @@ Copy the contents of the `git` bare repository into the `.git` folder you just c
 
 Run:
 
-    git config --local --bool core.bare false 
+    git config --local --bool core.bare false
 
 ...to convert the local git-repository to non-bare.
 

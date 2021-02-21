@@ -1,4 +1,4 @@
-# Other useful concepts not documented yet
+﻿# Other useful concepts not documented yet
 
 Many of these are "Mental Models" taken from Gabriel Weinberg's list, or from Farnam Street coverage of Charlie Munger's lists.
 

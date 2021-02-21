@@ -1,5 +1,4 @@
-﻿
-# Teach your child how to think Edward de Bono
+﻿# Teach your child how to think Edward de Bono
 
 Critical thinking is good but it's not enough
 
@@ -38,4 +37,3 @@ From CORT THINKING program for schools:
 - PO  -  Provocation- announced. A thought   counter intuitive as a provocation to consider different viewpoint
 - AGO -   Aims goals objectives
 - FIP -   First important priorities
-

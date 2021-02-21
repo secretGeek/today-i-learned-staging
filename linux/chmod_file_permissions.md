@@ -1,7 +1,7 @@
-# chmod - and the magic of file permissions
+﻿# chmod - and the magic of file permissions
 
 	$ chmod 777 /opt/webapps
- 
+
 Causes these permissions:
 
 	drwxrwxrwx
@@ -9,12 +9,12 @@ Causes these permissions:
 How is this true? What does this mean?
 
 	777 -- three digits, each digit is the value of 3 flags, 3 bits.
- 
+
 - `7`, in binary, is `111`.
- 
+
 Each digit refers to three different groups:
 
-This 
+This
 
 	drwxrwxrwx
 
@@ -37,7 +37,7 @@ Concentrate on those last three, the repeated 'rwx's...
 	|||   ||+-- execute permission for the group associated with the file
 	|||   |+--- write permission for the group associated with the file
 	|||   +---- read permission for the group associated with the file
-	|||   
+	|||
 	||+-- execute permission for the owner of the file
 	|+--- write permission for the owner of the file
 	+---- read permission for the owner of the file
@@ -46,10 +46,9 @@ Concentrate on those last three, the repeated 'rwx's...
 - `w` = write permission
 - `x` = execute permission
 
-If a permission was missing it would be represented by a dash '-'.  
+If a permission was missing it would be represented by a dash '-'.
 
 
 - `chmod` - modify permissions
 - `chown` - change the owner of the file
-- `chgrp` - change the group  
-
+- `chgrp` - change the group

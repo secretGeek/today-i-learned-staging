@@ -1,11 +1,11 @@
-# How to get a fork back up to date with the original repo it is forked from
+﻿# How to get a fork back up to date with the original repo it is forked from
 
 
 1.  From the local project directory:
-    
+
     git remote add upstream <url-of-original-repository>
 
-e.g. 
+e.g.
 
     git remote add upstream git://github.com/aspnet/Docs.git
 
@@ -26,8 +26,8 @@ You can view your `remotes` (in detail) by using:
     origin      https://github.com/secretGeek/Docs.git (push)
     upstream    git://github.com/aspnet/Docs.git (fetch)
     upstream    git://github.com/aspnet/Docs.git (push)
-    
-    
+
+
 ## Source
 
  * [Stackoverflow: Updating forked GitHub repo to match original's latest code and commits](http://stackoverflow.com/questions/18824956/updating-forked-github-repo-to-match-originals-latest-code-and-commits)

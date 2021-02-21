@@ -1,4 +1,4 @@
-# Xtype (in sysobjects)
+﻿# Xtype (in sysobjects)
 
 
 
@@ -37,24 +37,24 @@ Function:
 
 
 Further research....
-	
+
 You can find the above table via:
 
-	
-	SELECT name 
+
+	SELECT name
 	FROM master..spt_values
 	WHERE type = 'O9T'
-	
+
 ...[see stackoverflow](https://stackoverflow.com/a/16243935)
 
 
 ## Query to filter by type of object
 
 	$x = "Select Schema_Name(o.UID) + '.' + o.Name , o.Xtype, tt.[name]
-	from sysobjects o inner join  master..spt_values tt 
+	from sysobjects o inner join  master..spt_values tt
 	on tt.type = 'O9T' and tt.name like o.xtype + '%' collate database_default
 	where
-	tt.[name] like 
+	tt.[name] like
 	'%proc%' --e.g. function table proc
 	AND Schema_Name(o.UID) + '.' + o.Name like
 	'%db%'"

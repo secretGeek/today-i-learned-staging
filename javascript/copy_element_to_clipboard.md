@@ -1,4 +1,4 @@
-# Copy element to clipboard
+﻿# Copy element to clipboard
 
 `tip` These methods copy **text** only. If you want to copy (non-markdown) formatted text or other content (like images), you might want to consider [ClipboardJS](https://clipboardjs.com).
 
@@ -94,9 +94,9 @@ Here's another variation, this time with a fading out tooltip.
 To support the tooltip I have these two CSS classes:
 
 
-	/* 
-		Used for notifications that clipboard text has been copied. 
-		Can be used for other transient js messages. 
+	/*
+		Used for notifications that clipboard text has been copied.
+		Can be used for other transient js messages.
 	*/
 	.floating-message {
 		/* initial opacity/top margin */
@@ -193,7 +193,7 @@ For example:
 	// And have it call 'copy to clipboard'
 	$(".copy-text").click(function (e) {
 		copyToClipboard($(this).next("pre").text(), this); // that final *this* is the DOM element.
-		// stop any other consequence fo this click from occurring. 
+		// stop any other consequence fo this click from occurring.
 		e.preventDefault();
 		return false;
 	});
@@ -208,4 +208,3 @@ And to style that little button, this CSS is my starting point:
 		margin-top: 5px;
 		margin-right: 5px;
 	}
-

@@ -1,4 +1,4 @@
-# Quick start javascript snippet
+﻿# Quick start javascript snippet
 
 When I want to test something in vanilla js quickly, i use the `js` snippet I keep in [kv](https://secretgeek.net/kv)
 

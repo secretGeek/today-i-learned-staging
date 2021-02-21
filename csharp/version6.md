@@ -1,4 +1,4 @@
-# C# version 6
+﻿# C# version 6
 
 See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6)
 
@@ -304,7 +304,7 @@ Similarly for a dictionary...
 
 	var x = manager?.Employees?["Sue"]?.Name ?? "Unknown";
 
-...if employees is null, you're safe.. but if employees are not null, and there is *no* employee named "Sue", you'll get a `KeyNotFoundException` and need to instead use some kind of safety-first extension method on `IDictionary<K,V>` ... 
+...if employees is null, you're safe.. but if employees are not null, and there is *no* employee named "Sue", you'll get a `KeyNotFoundException` and need to instead use some kind of safety-first extension method on `IDictionary<K,V>` ...
 
 So it's easily avoided by creating an extension method but it is not avoided by syntax sugar baked into the language as I inadvertently implied.
 

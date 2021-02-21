@@ -1,4 +1,4 @@
-# Getting started with neo4j on windows
+﻿# Getting started with neo4j on windows
 
 As a hobbyist/dabbler -- first thing was:
 
@@ -32,7 +32,7 @@ For that I had to give them my "business" email -- I thought they would reject g
 
 They did give me a giant neo4j activation key, 704 bytes of random junk.
 
-Okay -- so now I have... 
+Okay -- so now I have...
 
 	neo4j-desktop-offline-1.3.4-setup.exe
 
@@ -51,7 +51,7 @@ Now I got to paste in the huge key, the 704 bytes of random junk I received earl
 
 OKay -- now I get to play, it's interesting already.
 
-I need to store something in csv that is interesting (to me at least) 
+I need to store something in csv that is interesting (to me at least)
 
 and then load it up in the graph database.
 
@@ -67,4 +67,3 @@ and then load it up in the graph database.
 - [5 QUICK STEPS TO GETTING STARTED WITH NEO4J 2.2.3 ON WINDOWS OS](https://kvangundy.com/wp/5-quick-steps-to-getting-started-with-neo4j-2-2-3-on-windows-os/) -- 2015 article that is actually on the topic!
 
 ## See also
-

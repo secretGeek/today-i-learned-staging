@@ -1,4 +1,4 @@
-# Getting Started with Manatee Trello from C# and Linqpad
+﻿# Getting Started with Manatee Trello from C# and Linqpad
 
 In linqpad, use **nuget** to search for packages related to trello. We'll be using the most popular one in 2020 and probably 2021 and 2022 as well.
 
@@ -8,7 +8,7 @@ In linqpad, use **nuget** to search for packages related to trello. We'll be usi
 
 (In Visual Studio you'd use `Install-Package Manatee.Trello` or the package manager gui etc.)
 
-There are many namespaces you *can* add. 
+There are many namespaces you *can* add.
 
 
 	var board = new Board("<board ID>");
@@ -35,7 +35,7 @@ Before you go too far, you know will need an API key.
 
 
 
-	
+
 ## Sources
 
 - [Official Manattee.Trello Getting Started](https://gregsdennis.github.io/Manatee.Trello/usage/getting-started.html)

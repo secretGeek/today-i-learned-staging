@@ -1,4 +1,4 @@
-# Survivorship Bias
+﻿# Survivorship Bias
 
 >"Just because nobody complains doesn't mean all parachutes are perfect."
 > &mdash;Benny Hill

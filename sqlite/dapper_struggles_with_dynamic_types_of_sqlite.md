@@ -1,16 +1,16 @@
-# Dapper struggles with the ultra dynamic types of sqlite
+﻿# Dapper struggles with the ultra dynamic types of sqlite
 
 Using dapper to run this query against sqlite, (and cast it an object with a `Double` type property called "TotalPrice")
 
 	cnn.Query<SalesDetails>(@"
-	select 
+	select
 		p.TotalPrice as TotalPrice
-	from 
-		Purchases p 
-	order by p.ID desc 
+	from
+		Purchases p
+	order by p.ID desc
 	limit 20
 	")
-	
+
 TotalPrice column has these values:
 
 |TotalPrice|
@@ -41,5 +41,3 @@ Still -- a nasty problem, because it may not arise during initial testing... onl
 ## References
 
  * <https://stackoverflow.com/questions/39980840/sqlite-using-dapper-error-parsing-column-unable-to-cast-object-of-type-system>
- 
- 

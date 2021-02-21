@@ -1,4 +1,4 @@
-# Tabs versus Spaces
+﻿# Tabs versus Spaces
 
 Make whitespace visible: Edit | Advanced | View whitespace
 
@@ -11,5 +11,3 @@ Note, with 'Productivity Power Tools', turn off the crazy tab coloring by going 
     Productivity Power Tools |
     Custom Document Well |
     And Uncheck "Color tabs by project"
-
-

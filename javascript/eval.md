@@ -1,4 +1,4 @@
-# Eval is Evil, so use this instead
+﻿# Eval is Evil, so use this instead
 
 	new Function("alert('Hello, world!');")();
 

@@ -1,4 +1,4 @@
-# COIK
+﻿# COIK
 
 > "A four year old child could understand this! Run out and find me a four year old child, I can't make head or tail out of it."
 >

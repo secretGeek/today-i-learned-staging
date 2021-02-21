@@ -1,4 +1,4 @@
-# Scripts and Sections
+﻿# Scripts and Sections
 
 Sometimes you want your view to add a little bit to more than one part of the layout .
 
@@ -7,7 +7,7 @@ Look I'm not describing this well.
 In your `_layout.cshtml` there's a part that says:
 
     @RenderBody()
-    
+
 ...and that's where the current view is rendered. Fine.
 
 But sometimes you want the view to control some other parts of the template. For example it controls the title, by the doing this:
@@ -26,7 +26,7 @@ But also, sometimes you want your script loading to happen at the end of the pag
 
     @RenderSection("Scripts", false)
 
-    
+
 (Where `Scripts` is a word of your choosing.)
 
 Then in the view, specify what to put in the `Scripts` section, like so:

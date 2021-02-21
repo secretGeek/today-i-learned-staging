@@ -1,4 +1,4 @@
-# Logarithms
+﻿# Logarithms
 
 
 First some notation....
@@ -103,8 +103,3 @@ To turn this into a number....
 	log_12 (14) = ln(14) / ln(12)
 
 ...which you can plug into a calculator (provided it has a `ln` button, i.e. it is a 'scientific' calculator)
-
-
-
-
-

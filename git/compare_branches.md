@@ -1,4 +1,4 @@
-# Compare branches
+﻿# Compare branches
 
 To compare two local branches:
 

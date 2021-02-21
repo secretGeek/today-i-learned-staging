@@ -1,4 +1,4 @@
-# Create a role that gives a user permissions on a specific schema
+﻿# Create a role that gives a user permissions on a specific schema
 
 Creates a role named 'SpecificSchemaSuperPowers'
 

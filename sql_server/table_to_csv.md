@@ -1,4 +1,4 @@
-# Aggregate table strings into one csv value (with SQL Server)
+﻿# Aggregate table strings into one csv value (with SQL Server)
 
 i.e. concatenate strings in SQL Server
 
@@ -25,7 +25,7 @@ Turn some table values into a comma separated string variable:
 
 Return comma separated string, not as a variable though, as part of a result set.
 
-	select DISTINCT schema_name(UID), 
+	select DISTINCT schema_name(UID),
 		SUBSTRING(
 			(
 				SELECT ','+ [Name]  AS [text()]

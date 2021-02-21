@@ -1,4 +1,4 @@
-# Get (or list) processes
+﻿# Get (or list) processes
 
 The `ps` command lists processes.
 
@@ -11,7 +11,7 @@ In order to restart an asp.net core process I first need to work out which proce
 Then i can kill the one i want to kill... for example 17233
 
    sudo kill 17233
-   
+
 Or, with less typing...
 
    ps x | grep dot
@@ -25,7 +25,7 @@ where...
    a    means "all with tty, including other users"
    u    means "user-oriented format"
    x    means "processes without controlling ttys"
-    
+
 To learn these things about the `ps` command I used these help commands...
 
     ps --help

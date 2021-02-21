@@ -1,4 +1,4 @@
-# Convert date from UK format to ISO 8601
+﻿# Convert date from UK format to ISO 8601
 
 aka -- Convert date from Australian format to ISO 8601
 
@@ -16,6 +16,6 @@ And you want it as an ISO-8601 date such as:
 	2015-10-11
 	2015-11-27
 
-Try this on....	
+Try this on....
 
 	<% $1.split('/')[2].split(' ')[0] %>-<% ('000' + $1.split('/')[1]).right(2) %>-<% ('00' + $1.split('/')[0]).right(2) %>

@@ -1,4 +1,4 @@
-# Temporal Table feature in SQL Server
+﻿# Temporal Table feature in SQL Server
 
 Introduced in SQL Server 2016. Improved in SQL Server 2017.
 
@@ -24,7 +24,7 @@ If you use the temporal table feature in sql server, all of that will be handled
 Note the generated `datetime2` columns are always `UTC`. This can be annoying for users. To get around that, one solution is you could add:
 
 	[UpdatedDate] as dateadd(hour, 10, [sysStart])
-	
+
 ...this adds a calculated column equivalent to Brisbane time... (we don't have daylight savings so it works for us.)
 
 In SSMS, object explorer, table list, there is a "(System-Versioned)" text next to temporal tables. You expand that table to see the history table "under it". It's wild.
@@ -53,5 +53,3 @@ after:
 	alter table ... alter column [SysStart] add hidden;
 	alter table ... alter column [SysEnd] add hidden;
 	go
-
-

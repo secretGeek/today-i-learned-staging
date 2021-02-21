@@ -1,4 +1,4 @@
-# Use express webserver to serve local files over http
+﻿# Use express webserver to serve local files over http
 
 NOTE: I use `npx http-server -o` for this, instead now.
 
@@ -44,4 +44,3 @@ And browse to:
 ## Source
 
   * <http://stackoverflow.com/a/26845720/49> -- user 'thehme'
-

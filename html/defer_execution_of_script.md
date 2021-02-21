@@ -1,4 +1,4 @@
-# Load script immediately but don't execute until page is parsed
+﻿# Load script immediately but don't execute until page is parsed
 
 TL/DR; Add your script tags to the top of the page, with a defer attribute, e.g.
 

@@ -1,4 +1,4 @@
-# Setting/Overriding the proxy for visual studio (devenv.exe)
+﻿# Setting/Overriding the proxy for visual studio (devenv.exe)
 
 Because of the corporate network being dumb i found i had to specify the proxy that devenv uses.
 
@@ -12,7 +12,7 @@ That file was here for me:
 
 First I added this:
 
-    
+
      <system.net>
       <defaultProxy useDefaultCredentials="true" enabled="true">
         <proxy usesystemdefault="True" />
@@ -45,4 +45,3 @@ And it worked thereafter.
 The Cookiecutter plugin for example started to fetch data succesfully.
 
 nuget required a nuget proxy setting. (Perhaps if i'd done this first then nuget would've worked fine?)
-

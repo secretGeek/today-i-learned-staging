@@ -1,4 +1,4 @@
-# Developing .net core app and deploying to linux at digital ocean
+﻿# Developing .net core app and deploying to linux at digital ocean
 
 materials you will need:
 
@@ -7,8 +7,8 @@ materials you will need:
  * need a local machine on which you will do your development. (i'll assume local machine is windows though it could easily be osx or linux)
 
 With any articles mentioned below: be sure to read the comments. Sometimes they highlight common problems that people have, or shortcomings/errors in the article that haven't been corrected yet.
- 
- 
+
+
 Prepare your digital ocean account
 
 1. sign up at digital ocean.
@@ -18,7 +18,7 @@ Prepare your digital ocean account
 Create and configure your droplet
 
 3. create a droplet at digital ocean. Must be 64 bit (.net core does not run in 32 bit linux). Would currently be Ubuntu 16.
- * tell it to use the SSH key you already provided it with.  
+ * tell it to use the SSH key you already provided it with.
 4. use PuTTY to connect to your droplet as root.
 
  * create a new user
@@ -38,37 +38,37 @@ Create and configure your droplet
 
 on your local machine:
 
- * use filezilla to connect to your droplet, as your file uploading user. 
+ * use filezilla to connect to your droplet, as your file uploading user.
  * verify that you can download/upload files
  * create a new .net core app
- * customize its port number. (this will be handy if you want to host more than 1 app in your droplet)     
+ * customize its port number. (this will be handy if you want to host more than 1 app in your droplet)
  * publish it using `dotnet publish` (from the folder that contains the `project.json` file. The published content will end up in the `bin\Debug\netcoreapp1.0\publish\` subfolder)
  * upload the published content to your droplet
- 
+
 on your droplet:
- 
+
  * install nginx
- * configure nginx to act as a reverse proxy to your site 
+ * configure nginx to act as a reverse proxy to your site
  * run your site in a console. (dotnet `yoursite.dll`)
 
-from a browser: 
+from a browser:
 
  * visit your ipaddress... see that the site is returned
  * configure nameservers at your domain name registrar
  * setup domain records at digital ocean (a record, cname)
- 
-on your droplet: 
+
+on your droplet:
 
  * configure nginx to expect the domain name
  * install supervisor
  * configure supervisor to keep your app running
 
 from a browser:
- 
+
  * use pingdom or "statuscake" to monitor your site(s).
 
- 
- 
+
+
 ## Here was my preliminary list
 
 
@@ -81,17 +81,17 @@ from a browser:
  * Use DigitalOcean's DNS to [set up your hostname](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean) from the Control Panel.
  * Protect your servers by reviewing these [7 security measures](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers).
  * Keep your data safe with an effective [backup strategy](https://www.digitalocean.com/community/tutorials/how-to-choose-an-effective-backup-strategy-for-your-vps).
-    
+
 ### STEP TWO: WEB SERVERS
 
  * [Install the powerful Nginx](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-14-04-lts) web server on Ubuntu
- * [Use Nginx virtual hosts](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-14-04-lts) to serve multiple sites on one server. 
+ * [Use Nginx virtual hosts](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-14-04-lts) to serve multiple sites on one server.
 
 ### EXTRA CREDIT: SECURE FILE TRANSFER
 
  * Securely transfer files to your server and between droplets [using SFTP](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server).
 
-     
+
 
 ## Sources
 

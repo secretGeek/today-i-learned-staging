@@ -1,4 +1,4 @@
-# Generals Always Fight The Last War
+﻿# Generals Always Fight The Last War
 
 Have you had that experience where someone says a cutting remark to you, and it requires a witty response, and you do indeed think of the perfect witty response to make, a real zinger that will blast them into orbit, but you only think of it -- after ceaseless rumination -- 10 years too late?
 
@@ -25,4 +25,3 @@ And then they'll clash head on with other people, who will be similarly informed
 
 
 This is unlike my own general advice, which is not based on specific gory autobiogaphical details, and does not work only within a limited context, but is roundly tested with a blind placebo-controlled study, or has sprung fully formed from nothing. ;)
-

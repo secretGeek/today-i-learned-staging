@@ -1,4 +1,4 @@
-# Colored output with bash
+﻿# Colored output with bash
 
 From: [stackoverflow](https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux)
 
@@ -68,4 +68,3 @@ Or with `printf`....
 
 
 Next: Background colors.
-

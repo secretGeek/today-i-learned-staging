@@ -1,4 +1,4 @@
-# Add a new site to track in Google Analytics
+﻿# Add a new site to track in Google Analytics
 
 Click **Admin** in the top menu
 
@@ -12,7 +12,7 @@ Or for a whole new domain:
 
  * under Admin -> Account "Create new account" (you get 100 of these)
 
-When adding the new view, it will default the name to "All Website Data" but instead name it after your exact subdomain. 
+When adding the new view, it will default the name to "All Website Data" but instead name it after your exact subdomain.
 
 May also want to add it in 'Google Search Console' (formerly 'Google Webmaster Tools')
 

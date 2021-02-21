@@ -1,4 +1,4 @@
-# Create of alter for stored procedures and views etc
+﻿# Create of alter for stored procedures and views etc
 
 
 
@@ -17,9 +17,9 @@ But here's something that's better again:
 No more:
 
 
-	if exists ( select * 
-            from   sysobjects 
-            where  id = object_id(N'[dbo].[MySproc]') 
+	if exists ( select *
+            from   sysobjects
+            where  id = object_id(N'[dbo].[MySproc]')
                    and objectproperty(id, N'IsProcedure') = 1 )
 	begin
 		--create procedure [dbo].[MySproc]

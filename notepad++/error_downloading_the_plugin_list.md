@@ -1,4 +1,4 @@
-# Resolved: There was an error downloading the plugin list
+﻿# Resolved: There was an error downloading the plugin list
 
 I decided to try once again to use the plugin manager to get the [TextFX Characters plugin](install_textfx_plugin.md).
 
@@ -14,7 +14,7 @@ And message:
 
 So we went backwards.
 
-I changed the setting that says "Force HTTP instead of HTTPS for downloading Plugin List". Restarted Notepad++ and was then able to download the plugin list and install the TextFX Characters plugin. 
+I changed the setting that says "Force HTTP instead of HTTPS for downloading Plugin List". Restarted Notepad++ and was then able to download the plugin list and install the TextFX Characters plugin.
 
 -----
 

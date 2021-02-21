@@ -1,4 +1,4 @@
-# Diff of staged files
+﻿# Diff of staged files
 
 You've committed locally (i.e. staged some changes) but haven't yet pushed your changes.
 

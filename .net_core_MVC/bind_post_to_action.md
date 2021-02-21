@@ -1,4 +1,4 @@
-# Bind JSON POST to MVC Action
+﻿# Bind JSON POST to MVC Action
 
 You already put a `[method: HttpPost]` attribute on the action.
 

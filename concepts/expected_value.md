@@ -1,4 +1,4 @@
-# Expected Value
+﻿# Expected Value
 
 Expected Value (EV) is how much you would expect to make, on average, if you repeated an experiment (or gamble) a large number of times.
 

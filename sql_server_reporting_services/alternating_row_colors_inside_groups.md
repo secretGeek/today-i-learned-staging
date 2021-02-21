@@ -1,4 +1,4 @@
-# Alternating row background colors inside groups in SSRS
+﻿# Alternating row background colors inside groups in SSRS
 
 
 Click on Report Properties, Code tab...
@@ -25,7 +25,7 @@ Custom code:
 First cell in the row, give it this for background color expression:
 
 	=Code.AlternateColor("Silver","LightGrey", True)
-	
+
 Every other cell in the row:
 
 	=Code.AlternateColor("Silver","LightGrey", False)

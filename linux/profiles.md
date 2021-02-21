@@ -1,4 +1,4 @@
-# Profiles
+﻿# Profiles
 
 
 	cd /etc
@@ -26,8 +26,3 @@ And a good tip...
 	if [ -f ~/.bashrc ]; then
 		 source ~/.bashrc
 	fi
-
-
-
-
-

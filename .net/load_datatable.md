@@ -1,4 +1,4 @@
-# Load DataTable from a SQL query
+﻿# Load DataTable from a SQL query
 
 
 	private DataTable LoadTable(string connectionString, string sql)
@@ -18,7 +18,7 @@
 				dt = data.Tables[0];
 			}
 		}
-		
+
 		return dt;
 	}
 
@@ -35,7 +35,7 @@ The nearest equivalent using Dapper would be something like this:
 		}
 	}
 
-	
+
 Also with Dapper, here's a tiny little wrapper for performing inserts/updates:
 
 	private int Execute<T>(string connectionString, string sql, T parameters)
@@ -55,4 +55,3 @@ Also with Dapper, here's a tiny little wrapper for performing inserts/updates:
 		Execute(connectionString, insertSql, person);
 	else
 		Execute(connectionString, updateSql, person);
-

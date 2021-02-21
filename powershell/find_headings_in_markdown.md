@@ -15,4 +15,3 @@ And the common alias for `select-string` is `sls`, so for brevity:
 ## See also
 
  - [Markdown Syntax](../markdown/syntax.md)
-

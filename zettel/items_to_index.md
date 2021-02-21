@@ -1,4 +1,4 @@
-# Zettelkasten: Items to index
+﻿# Zettelkasten: Items to index
 
 
 ## Tools for Making Personal Knowledge Repositories/Systems
@@ -6,7 +6,7 @@
 - [roam](https://roamresearch.com/)
 - [notion](https://www.notion.so/) - the all in one workspace
 - [tiddlywiki](https://tiddlywiki.com/) - a non-linear personal notebook
-- [evernote](https://evernote.com/) - 
+- [evernote](https://evernote.com/) -
 - [zotero](https://zotero.org) - your personal research assistant
 - [orgmode](https://orgmode.org/) - your life in plain text
 - [foam](https://foambubble.github.io/foam/) - open source, inspired by roam
@@ -64,7 +64,7 @@
    - the pyramid principle
    - semantic networks
    - SmartWisdom
- - [Hypomnema](https://en.wikipedia.org/wiki/Hypomnema) 
+ - [Hypomnema](https://en.wikipedia.org/wiki/Hypomnema)
  - [Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management)
  - [Personal wiki](https://en.wikipedia.org/wiki/Personal_wiki)
  - [Commonplace book](https://en.wikipedia.org/wiki/Commonplace_book)

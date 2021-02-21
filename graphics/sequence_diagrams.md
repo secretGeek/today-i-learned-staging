@@ -1,4 +1,4 @@
-# Create sequence diagrams online
+﻿# Create sequence diagrams online
 
 
 Example from [A Smart Bear: How to sell to large companies](https://blog.asmartbear.com/selling-to-large-companies.html)
@@ -43,8 +43,8 @@ Looks like you can style the diagrams with a wsd file (which stands for 'websequ
 	@enduml
 
 More details about sequence-diagram syntax here: <http://plantuml.com/sequence-diagram>
-	
-	
+
+
 ## Source
 
  * [A Smart Bear: How to sell to large companies](https://blog.asmartbear.com/selling-to-large-companies.html)

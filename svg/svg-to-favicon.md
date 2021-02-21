@@ -1,4 +1,4 @@
-# How to use an svg as a website or web page's favicon
+﻿# How to use an svg as a website or web page's favicon
 
 **...including supporting legacy platforms and rich application platforms**
 

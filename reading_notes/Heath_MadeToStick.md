@@ -23,7 +23,7 @@ Step 2: Translate the core using the success checklist.
 Illustrate the core by saying how it beats adjacent priorities. Eg if you've found the best chicken salad in the world I don't care about it if it interferes with our need to be the best low cost airline.
 
 
-## Commander's Intent 
+## Commander's Intent
 
 Commander's intent was a great example i learned from this book.
 
@@ -43,4 +43,3 @@ Here's a quote re south west airlines.
 -- and apparently Dan and CHip got the quote above from "Buck Up, Suck Up, and Come Back When You Foul Up: 12 Winning Secrets from the War Room, James Carville and Paul Begal"
 
 -- and i found it written down for me already in this medium article: [The Commander's Intent: How to Make New Habits Stick](https://www.samuelthomasdavies.com/commanders-intent/)
-

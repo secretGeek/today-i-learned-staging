@@ -1,4 +1,4 @@
-# Using TaskWarrior on Windows
+﻿# Using TaskWarrior on Windows
 
 **Table of Content**
 
@@ -57,7 +57,7 @@ Now see all your tasks...
 	ID Age Description  Urg
 	 1 1s  buy milk    0
 
-	1 task	
+	1 task
 
 See that the current task id for that task is "1". (It's actual primary key is hidden and won't change.)
 
@@ -97,7 +97,7 @@ Just list them all with a plus before each:
 Or add another `tag` to an existing task like this:
 
 	task 1 modify +tw
-	
+
 (Added the tag "tw". Obviously you could've added more than 1 at once, with `+tw +fun +easy` etc.)
 
 And note you can shorten `modify` to `mod`, as I just did:
@@ -124,7 +124,7 @@ Remove a `tag` by using minues (`-`) e.g.
 
 ## Add a tag to all tasks
 
-If we leave out the number, then we are asking to apply the behaviour to *all*... 
+If we leave out the number, then we are asking to apply the behaviour to *all*...
 
 	task modify +tw
 
@@ -140,7 +140,7 @@ Ah -- lesson here is that a command can apply to many tasks. THat little number 
 ## List tasks with a tag
 
 	task list +todo
-	
+
 ...lists tasks with `todo` tag.
 
 Or - list those that have some tags and don't have other tags...

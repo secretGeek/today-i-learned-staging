@@ -1,6 +1,6 @@
-# Poor Man's JQuery
+﻿# Poor Man's JQuery
 
-What it lacks in flexibility and versatility, it makes up for in brevity. 
+What it lacks in flexibility and versatility, it makes up for in brevity.
 
 	function $(id) {
 		return document.getElementById(id);
@@ -16,7 +16,7 @@ And here's the slightly less-poor poor man's jquery, updated for browsers in the
 		return document.querySelectorAll(selectors)
 	}
 
-Note that this returns an array of elements.     
+Note that this returns an array of elements.
 
 ## External links
 

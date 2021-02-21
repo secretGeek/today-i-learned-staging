@@ -1,4 +1,4 @@
-# Rename files with `mv` command
+﻿# Rename files with `mv` command
 
 In linux, don't use `ren` to rename files - use `mv`
 

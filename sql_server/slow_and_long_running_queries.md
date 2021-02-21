@@ -1,12 +1,12 @@
-# Slow and long running queries
+﻿# Slow and long running queries
 
 Famous query to show which queries are the worst performers.
 
 
-    SELECT TOP 50 creation_time 
+    SELECT TOP 50 creation_time
             ,last_execution_time
             ,total_physical_reads
-            ,total_logical_reads 
+            ,total_logical_reads
             ,total_logical_writes
             , execution_count
             , total_worker_time
@@ -22,7 +22,7 @@ Famous query to show which queries are the worst performers.
     where last_execution_time > '18 Feb 2016'
     ORDER BY total_elapsed_time / execution_count DESC;
 
-    
+
 You may want to change the `Order by`...
 
 You may lack permissions to run this. Specifically:

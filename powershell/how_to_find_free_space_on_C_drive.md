@@ -1,7 +1,7 @@
 ﻿# How to find how much free space is left on a drive
 
 
-## Space remaining: 
+## Space remaining:
 
 In short:
 

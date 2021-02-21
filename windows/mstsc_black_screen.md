@@ -1,4 +1,4 @@
-# Use mstsc.exe to connect, receive Black screen 
+﻿# Use mstsc.exe to connect, receive Black screen
 
 After logging into a remote computer with remote desktop (rdp via mstsc.exe) the screen goes black.
 
@@ -16,4 +16,3 @@ The alternative is to change your remote desktop connection options (under "Expe
 
  * [why is my screen black after rdp connection?](http://superuser.com/questions/306412/why-is-my-screen-black-after-rdp-connection)
  * [Remote Desktop Services Shortcut Keys](https://msdn.microsoft.com/en-us/library/aa383500.aspx)
- 

@@ -1,6 +1,6 @@
-# Find Deleted Files in Mercurial
+﻿# Find Deleted Files in Mercurial
 
-To find which revision a file was deleted in, use 
+To find which revision a file was deleted in, use
 
 	hg log --template "{rev}: {file_dels}\n"
 
@@ -19,4 +19,3 @@ It looks like this:
 Then you can grep those details to find the deleted file you're interested in, and see when it was deleted.
 
 You can then browse to the specific revision, via tortoise hg, `thg.exe`.
-

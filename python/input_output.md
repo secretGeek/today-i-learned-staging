@@ -1,4 +1,4 @@
-# Simple input and output in python interactive
+﻿# Simple input and output in python interactive
 
     >>> message = "hello world"
     >>> print(message)
@@ -7,7 +7,4 @@
     (I types...) HELLO WORLD
     >>> print(message)
     HELLO WORLD
-    >>> 
-    
-    
-    
+    >>>

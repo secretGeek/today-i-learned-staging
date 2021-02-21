@@ -1,4 +1,4 @@
-# Payoff: the hidden logic that shapes our motivations Dan Ariely
+﻿# Payoff: the hidden logic that shapes our motivations Dan Ariely
 
 
 
@@ -29,10 +29,3 @@ People are demotivated when their output is destroyed before their eyes.
 
 
 People are demotivated when their output is ignored.
-
-
-
-
-
-
-

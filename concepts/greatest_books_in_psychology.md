@@ -1,4 +1,4 @@
-# "50 Psychology Classics: the Greatest Books in Psychology"
+﻿# "50 Psychology Classics: the Greatest Books in Psychology"
 
 I listened to the audiobook of "50 Psychology Classics" by Tom Butler-Bowdon. It's quite detailed and does a good job distilling so much information down.
 

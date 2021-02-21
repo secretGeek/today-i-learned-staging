@@ -1,4 +1,4 @@
-# CSV to IEnumerable<T> (or Array<T>) in Linqpad
+﻿# CSV to IEnumerable<T> (or Array<T>) in Linqpad
 
 Loading a CSV file and turning it into an IEnumerable<T> needs to be a simple activity.
 
@@ -198,4 +198,3 @@ Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transf
  * [Linq To Csv](http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use)
  * [FileHelpers read file delimited](http://www.filehelpers.net/example/QuickStart/ReadFileDelimited/)
  * [ServiceStack](http://docs.servicestack.net/csv-format)
-

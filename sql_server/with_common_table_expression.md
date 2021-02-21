@@ -1,8 +1,8 @@
-# WITH (common table expressions)
+﻿# WITH (common table expressions)
 
 Common table expressions are a good way to reuse a piece of SQL.
 
-	;WITH Sales_CTE 
+	;WITH Sales_CTE
 	AS
 	-- Define the CTE query.
 	(
@@ -18,7 +18,7 @@ Common table expressions are a good way to reuse a piece of SQL.
 	GO
 
 ## Bonus points: **recursive** CTEs
-    
+
 The general form is:
 
 	Define a base case.
@@ -26,7 +26,7 @@ The general form is:
 	Define a recursive case.
 
 Example:
-    
+
 	;WITH cte AS
 	(
 		-- Define a base case
@@ -46,13 +46,13 @@ Example:
 	ORDER BY ID
 
 
-	
+
 ## Multiple CTEs
 
 To define multiple....
 
 
-	;WITH Sales_CTE 
+	;WITH Sales_CTE
 	AS
 	-- Define the First CTE query.
 	(

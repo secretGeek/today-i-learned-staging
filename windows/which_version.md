@@ -1,9 +1,9 @@
-# How can I tell which version of Windows is currently running?
+﻿# How can I tell which version of Windows is currently running?
 
 	[Environment]::OSVersion.Version
 
 returns...
-    
+
 	Major  Minor  Build  Revision
 	-----  -----  -----  --------
 	10     0      10586  0
@@ -12,8 +12,8 @@ Or (for Windows 10 Anniversary edition)
 
 	Major  Minor  Build  Revision
 	-----  -----  -----  --------
-	10     0      14393  0    
-    
+	10     0      14393  0
+
 or perhaps you see...
 
 	Major  Minor  Build  Revision
@@ -22,7 +22,7 @@ or perhaps you see...
 
 
 And you can turn the major/minor into a well known version name, using the table below...
-    
+
 |Operating system|Version number|
 |-----|-------|
 |Windows 10|10.0*|
@@ -58,4 +58,3 @@ Which is [described here](../powershell/is_this_64_or_32_bit_powershell_today.md
 You can also run `winver.exe` which produces a dialog something like this:
 
 ![WinVer.exe](winver.png)
-

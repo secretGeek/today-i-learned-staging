@@ -1,4 +1,4 @@
-# Bulk resize images with image magick
+﻿# Bulk resize images with image magick
 
 When I need to resize images, in bulk (or even one at a time) and I want them to stay sharp, i use ImageMagick
 
@@ -6,7 +6,7 @@ When I need to resize images, in bulk (or even one at a time) and I want them to
 
 This gives the file a width of 200 pixels, and a height in proportion to the current aspect ratio.
 
-It also applies an `unsharp` filter, which sharpens the image (go figure!)	
+It also applies an `unsharp` filter, which sharpens the image (go figure!)
 
 ImageMagick is here (and is in my `path`)
 

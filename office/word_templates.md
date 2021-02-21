@@ -1,4 +1,4 @@
-# How to edit an MS Word Template
+﻿# How to edit an MS Word Template
 
 Your personal custom MS Word Templates are saved here:
 
@@ -28,7 +28,7 @@ So make the changes you want, and when you are ready to save choose "save as..."
 But does that make it available for use?
 
 
-When you use "New" to create a new document, you will see your pinned templates and some "Office" templates from the world. Click on the "Personal" tab, next to office to see your own templates. 
+When you use "New" to create a new document, you will see your pinned templates and some "Office" templates from the world. Click on the "Personal" tab, next to office to see your own templates.
 
 If you want one to be shown at the top of the screen, *pin* it, by hovering over it and then clicking the "pin" button.
 

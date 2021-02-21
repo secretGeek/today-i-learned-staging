@@ -1,4 +1,4 @@
-# How to add dynamically populated selects/dropdowns to a basic asp.net MVC site?
+﻿# How to add dynamically populated selects/dropdowns to a basic asp.net MVC site?
 
 Here's an example control group for a drop down list that is dynamically populated from a JSON service
 

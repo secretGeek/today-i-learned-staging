@@ -1,4 +1,4 @@
-# Reduce flickering on custom invalidate/paint
+﻿# Reduce flickering on custom invalidate/paint
 
 
 Say we are doing custom painting on a panel, and we want to reduce flickering as much as possible.
@@ -38,4 +38,3 @@ And then, in the paint method, just render the bitmap.
 ## Source
 
  * <http://stackoverflow.com/questions/8046560/how-to-stop-flickering-c-sharp-winforms>
-

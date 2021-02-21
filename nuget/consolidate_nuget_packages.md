@@ -1,4 +1,4 @@
-# Projects within a solution use different versions of the same nuget package, consolidate them!
+﻿# Projects within a solution use different versions of the same nuget package, consolidate them!
 
 Right click on the solution and choose
 
@@ -11,4 +11,3 @@ The "Consolidate" page is super handy. It lists any packages which have inconsis
 ![consolidate_nuget_packages](consolidate_nuget_packages.png)
 
 Click the `Install` button in the lower right to bring them all into line, on the latest version. (Or pick a specific version before pressing `Install`)
-

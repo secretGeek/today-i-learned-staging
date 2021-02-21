@@ -1,4 +1,4 @@
-# Current extensions
+﻿# Current extensions
 
 ...that are enabled in my [mercurial.ini](mercurial_ini.md) file right now
 

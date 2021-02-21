@@ -1,4 +1,4 @@
-# Mantras
+﻿# Mantras
 
 - be kind.
 - this too shall pass.
@@ -27,4 +27,3 @@
 - what does Professor Google say?
 - it's not a problem. when it becomes a problem, we'll deal with it.
 - it's a pain in the neck but it's not a disaster.
- 

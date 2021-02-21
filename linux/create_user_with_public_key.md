@@ -1,4 +1,4 @@
-# Create new user, to use a public key
+﻿# Create new user, to use a public key
 
 
 - create a new user
@@ -56,4 +56,3 @@ Now sudo do it!
 - [add users in linux](https://www.tecmint.com/add-users-in-linux)
 - [How To Create a Sudo User on Ubuntu [Quickstart]](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart)
 - [How To Create a New Sudo-enabled User on Ubuntu 18.04 [Quickstart]](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu-18-04-quickstart)
-

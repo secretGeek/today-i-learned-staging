@@ -1,13 +1,13 @@
-# Pivot reports with dynamic pivoted columns (by day)
+﻿# Pivot reports with dynamic pivoted columns (by day)
 
 This is similar to the troller pattern documented elsewhere. It's a pattern for bulk display of pivotted data.
 
 You need a view which returns all of the unpivoted data, but with all the metrics "Packaged" into a single fields.
 
 
-There's two basic types of columns: 
+There's two basic types of columns:
 
-1. Those that you want to group/filter by (e.g. Country, postcode, customerid) and 
+1. Those that you want to group/filter by (e.g. Country, postcode, customerid) and
 
 2.  All the metrics, the finest granular details. (These are packed into a single column called 'Details')
 
@@ -17,42 +17,42 @@ There's two basic types of columns:
 	as
 
 	with Days as (
-		select 
+		select
 		num,
-		DateAdd(d, num*-1, DATEADD(DAY, DATEDIFF(DAY, 0, GETDATE()), 0)) as [Date] from nums 
+		DateAdd(d, num*-1, DATEADD(DAY, DATEDIFF(DAY, 0, GETDATE()), 0)) as [Date] from nums
 		where num <= 31 and num > 1
 	)
 	Select --top 1000
-		cj.Country, 
-		cj.Region, 
+		cj.Country,
+		cj.Region,
 		cj.PostCode,
-		cj.Name as Customer, 
+		cj.Name as Customer,
 		cj.Id as CustomerId
-		d.[Date], 
+		d.[Date],
 		d.num,
-		p.SalesTotal + '|' + 
+		p.SalesTotal + '|' +
 		NumberComplaints + '|' +
 		NumberCallsOutbound + '|' +
 		TargetSalesTotal + '|' +
-		s.supportPerson + '|' + 
+		s.supportPerson + '|' +
 		s.supportComment
 		as Details
 	from
 		CustomerJourney cj
 	cross join [Days] d
-	left outer join 
+	left outer join
 	... e.g.SalesHistory p
-	   on p.id = cp.CustomerID and DATEADD(DAY, DATEDIFF(DAY, 0, p.Time), -1) = d.[Date] 
+	   on p.id = cp.CustomerID and DATEADD(DAY, DATEDIFF(DAY, 0, p.Time), -1) = d.[Date]
 	outer apply
-		(Select top 1 
-			i.Value as supportComment, 
-			i.CreatedUser as supportPerson, 
+		(Select top 1
+			i.Value as supportComment,
+			i.CreatedUser as supportPerson,
 			i.CallDateTime as CallTime
 		from CustomerCalls i
 		where callType = 'Support'
 			and i.CustomerID = cj.id
 		and DATEADD(DAY, DATEDIFF(DAY, 0, i.CallDateTime), 0) = d.[Date]) as s
-	
+
 	outer apply (select top 1 -- or aggregate...
 	... other metrics on that date for that customer, e.g. Complaints, expenses, time spent, refunds... anything...
 	) as Intervention
@@ -62,7 +62,7 @@ There's two basic types of columns:
 
 
 
-	
+
 That view is, in turn, used by a dynamic pivotting stored procedure
 
 
@@ -71,64 +71,64 @@ That view is, in turn, used by a dynamic pivotting stored procedure
 	BEGIN
 		DECLARE @cols AS NVARCHAR(MAX),
 			@query  AS NVARCHAR(MAX)
-			
-		
-		  IF EXISTS (SELECT * 
-					 FROM   dbo.sysobjects o 
-					 WHERE  o.xtype IN ( 'U' ) 
-							AND o.id = Object_id(N'dbo.CustomerPerformanceResult')) 
-			DROP TABLE dbo.CustomerPerformanceResult 
+
+
+		  IF EXISTS (SELECT *
+					 FROM   dbo.sysobjects o
+					 WHERE  o.xtype IN ( 'U' )
+							AND o.id = Object_id(N'dbo.CustomerPerformanceResult'))
+			DROP TABLE dbo.CustomerPerformanceResult
 
 
 
-		select @cols = STUFF((SELECT ',' + QUOTENAME([num]) 
+		select @cols = STUFF((SELECT ',' + QUOTENAME([num])
 							from dbo.CustomerPerformance_NumberedDays as w
 							group by [num]
 							order by [num] desc
 					FOR XML PATH(''), TYPE
-					).value('.', 'NVARCHAR(MAX)') 
+					).value('.', 'NVARCHAR(MAX)')
 				,1,1,'')
 
-		set @query = 'SELECT url_Country, url_Region, url_Postcode, url_Customer, Country, Region, Postcode, Customer, ' + @cols + ' 
+		set @query = 'SELECT url_Country, url_Region, url_Postcode, url_Customer, Country, Region, Postcode, Customer, ' + @cols + '
 					into dbo.CustomerPerformanceResult
-					from 
+					from
 					 (
-						select 
-						''/Pivotted/CustomerPerformance?countryFilter='' + Replace(country,'' '',''%20'') as url_Country, 
-						''/Pivotted/CustomerPerformance?regionFilter='' + Replace(region,'' '',''%20'') as url_Region, 
-						''/Pivotted/CustomerPerformance?postcodeFilter='' + Replace(postcode,'' '',''%20'') as url_Postcode, 
-						''/Pivotted/CustomerPerformance?customerFilter='' + Replace(customerId,'' '',''%20'') as url_Customer, 
-						Conuntry, 
-						Region, 
-						Postcode, 
-						Customer, 
-						[details] 
+						select
+						''/Pivotted/CustomerPerformance?countryFilter='' + Replace(country,'' '',''%20'') as url_Country,
+						''/Pivotted/CustomerPerformance?regionFilter='' + Replace(region,'' '',''%20'') as url_Region,
+						''/Pivotted/CustomerPerformance?postcodeFilter='' + Replace(postcode,'' '',''%20'') as url_Postcode,
+						''/Pivotted/CustomerPerformance?customerFilter='' + Replace(customerId,'' '',''%20'') as url_Customer,
+						Conuntry,
+						Region,
+						Postcode,
+						Customer,
+						[details]
 						from dbo.CustomerPerformance_NumberedDays
 					) x
-					pivot 
+					pivot
 					(
 						min([details])
 						for [num] in (' + @cols + ')
 					) p '
 
 		execute(@query)
-	end	
-	
+	end
+
 
 Column names are looked up from a little dictionary. So the `num` of "3" will be given a display label based on the date returned from this view:
 
 
 	CREATE View dbo.CustomerPerformance_DayHeadings
 	as
-	select 
+	select
 		num,
-		DateAdd(d, num*-1, DATEADD(DAY, DATEDIFF(DAY, 0, GETDATE()), 0)) as [Date] 
-	from 
-		nums 
-	where 
+		DateAdd(d, num*-1, DATEADD(DAY, DATEDIFF(DAY, 0, GETDATE()), 0)) as [Date]
+	from
+		nums
+	where
 		num <= 31 and num > 1 --@NumDays
 
-		
+
 
 Assuming the website receives this as a DataTable, it can be displayed via a View like this....
 
@@ -142,7 +142,7 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 		public IEnumerable<Filter> filters { get; set; }
 	}
 
-		
+
 	@using System.Data
 	@model PivottedReport
 
@@ -177,18 +177,18 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 		@Model.Name
 	</h1>
 	@if (Model.yyFilter != null)
-	{ 
+	{
 		<div class="display-label">
 			Filter:
 			<a class="" href="/Pivotted/CustomerPerformance" title="Remove yy filter"> @Model.yyFilter &times;</a>
 			@if (Model.xxFilter != null)
-			{ 
+			{
 				<text> &rarr; </text>
 				<a class="" href="/Pivotted/CustomerPerformance?yyFilter=@Model.yyFilter" title="Remove xx filter">@Model.xxFilter &times;</a>
 			}
 		</div>
 	}
-	else { 
+	else {
 		<p>Select a xx or a yy below.</p>
 	}
 
@@ -216,7 +216,7 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 						} else {
 							<th data-type="@column.DataType.ToString().Replace('.', '_')">
 								@column.ColumnName
-							</th> 
+							</th>
 						}
 					}
 				</tr>
@@ -231,12 +231,12 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 						@foreach (var cell in row.ItemArray)
 						{
 							i++;
-							
+
 							if (dataTable.Columns[i].ColumnName.StartsWith("Key_")
-								|| dataTable.Columns[i].ColumnName.StartsWith("url_")) { 
-								continue; 
+								|| dataTable.Columns[i].ColumnName.StartsWith("url_")) {
+								continue;
 							}
-							
+
 							if (cell != null && cell is string && cell.ToString().StartsWith("http"))
 							{
 								<td>
@@ -248,7 +248,7 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 								// Column name is numeric? then it is part of the pivot section, and is given a nicer name and decoded here.
 								var detailCell = new DetailCell(cell.ToString());
 
-								
+
 
 								if (detailCell.SalesTotal == 0.0)
 								{
@@ -257,13 +257,13 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 								}
 								else {
 									<td  class="@detailCell.Class" title="@detailCell.Title" style="position:relative">
-										<div 
-											class='dataBar' 
+										<div
+											class='dataBar'
 											style="height:@(detailCell.Height)px;">
 										</div>
 									</td>
 								}
-							} else 
+							} else
 							{
 								<td class="plain">
 									@if (urlColumnNames.Contains(dataTable.Columns[i].ColumnName)) {
@@ -281,5 +281,3 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 			</tfoot>
 		</table>
 	}
-
-	

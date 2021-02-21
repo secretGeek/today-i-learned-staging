@@ -1,4 +1,4 @@
-# How much memory is free?
+﻿# How much memory is free?
 
 A common way...
 
@@ -15,12 +15,12 @@ Also
 The figure under "available" is how much is "Free and available"
 
 i.e. what humans usually mean when they say "free"
-    
-    
-To watch it as it changes...    
+
+
+To watch it as it changes...
 
     $ watch -n 5 free -m
-    
+
 This will refresh every 5 seconds.
 
 
@@ -31,9 +31,9 @@ Another techinique:
     MemAvailable:     223336 kB
 
 And similarly:
-    
+
     $ watch -n 5 'cat /proc/meminfo | grep MemAvailable'
-    
+
 To see a lot of specific info about your machine...
 
     $ sudo lshw

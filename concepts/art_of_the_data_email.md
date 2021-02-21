@@ -1,4 +1,4 @@
-# Art of the data email
+﻿# Art of the data email
 
 I often find that I need to send emails to people that include a table of data, based on an adhoc query.
 

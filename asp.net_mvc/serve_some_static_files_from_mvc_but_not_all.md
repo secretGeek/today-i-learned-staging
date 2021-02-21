@@ -1,4 +1,4 @@
-# Serving some images from MVC but not all
+﻿# Serving some images from MVC but not all
 
 I want *some* `.png` requests to be served by asp.net MVC, and most of them to just be served as  static images.
 
@@ -22,8 +22,8 @@ Under this node:
 
     <system.webServer>
         <handlers>
-    
-Add, for example:    
+
+Add, for example:
 
     <add name="MyImageHandler" path="HelpImg/*" verb="GET" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
 
@@ -42,4 +42,3 @@ Thanks to Darin Dimitrov's answers here.
 
  * http://stackoverflow.com/questions/14327476/prevent-static-file-handler-from-intercepting-filename-like-url
  * http://stackoverflow.com/questions/16997963/asp-net-mvc-4-filepathresult-and-staticfile-handlers
-

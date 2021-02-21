@@ -52,4 +52,3 @@ run: `yo code` and follow the prompts....
 
 - [Your first vs code extension](https://code.visualstudio.com/api/get-started/your-first-extension)
 - [Extension anatomy](https://code.visualstudio.com/api/get-started/extension-anatomy)
-

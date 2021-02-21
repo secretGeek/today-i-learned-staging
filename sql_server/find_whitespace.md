@@ -1,4 +1,4 @@
-# Find Whitespace in Object Names
+﻿# Find Whitespace in Object Names
 
 Table names with embedded zero width spaces, or trailing spaces, or CR's, Linefeeds etc -- they can ruin your whole day.
 

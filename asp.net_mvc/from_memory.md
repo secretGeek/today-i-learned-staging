@@ -1,4 +1,4 @@
-# Handy Cache helper method
+﻿# Handy Cache helper method
 
 I love this little thing.
 

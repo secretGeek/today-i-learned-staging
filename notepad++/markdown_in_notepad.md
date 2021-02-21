@@ -1,4 +1,4 @@
-# Markdown in Notepad++
+﻿# Markdown in Notepad++
 
 To improve markdown styling in notepad++ (particularly if [using a dark theme in notepad++](dark_theme_notepad++.md) like `ZenBurn`, where it goes really bad....
 
@@ -323,4 +323,3 @@ The style info you set gets embedded into a `.ini` file here:
 
 * [dark theme notepad++](.\dark_theme_notepad++.md)
 * [How to use Markdown in Notepad++](https://superuser.com/questions/586177/how-to-use-markdown-in-notepad)
-

@@ -1,4 +1,4 @@
-# How to get ebooks and audiobooks from the brisbane library
+﻿# How to get ebooks and audiobooks from the brisbane library
 
 (This is information I received from 'ask a librarian')
 
@@ -13,11 +13,11 @@ To use the Bolinda/Borrowbox collection, you will first need to create a Bolinda
  * Complete the short registration form that appears
  * Click on Help  to see information about using the collection
 
- 
+
 
 Links to the Borrowbox app for Androids and iOS devices are on the Audiobooks page.
 
- 
+
 
 The loan period for Bolinda/Borrowbox items is two weeks. If there are no holds on the item, you can immediately renew it for another two weeks.
 
@@ -25,7 +25,7 @@ There are three apps you will want:
 
 1. Borrowbox
 2. Libby (from Overdrive)
-3. RbDigital 
+3. RbDigital
 
 
 Overdrive is a famous app, but the same company has released a much nicer app called **Libby**.
@@ -50,5 +50,3 @@ If you try just registering directly in the RbDigital app or at the homepage of 
 ## Other libraries
 
 Also, it is theoretically possible to sign up at other libraries, whose area you do not live within, and receive access to their audiobooks as well. I haven't explored this sufficiently as I am already swamped with thousands of things to read.
-
-

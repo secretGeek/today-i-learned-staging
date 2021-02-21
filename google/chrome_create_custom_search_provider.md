@@ -1,4 +1,4 @@
-# Create a custom search provider in chrome
+﻿# Create a custom search provider in chrome
 
 
 I would like to create my own custom search provider that:

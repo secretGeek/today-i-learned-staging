@@ -1,4 +1,4 @@
-# github pages: stop it from using jekyll
+﻿# github pages: stop it from using jekyll
 
 Sometimes github pages gets into a weird mode where it wants to use jekyll, and doesn't know what theme to use, or, straight up refuses to serve my simple static html pages and returns a 404 page for everything...
 

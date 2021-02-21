@@ -1,4 +1,4 @@
-# Is your product being flagged as a virus/malware
+﻿# Is your product being flagged as a virus/malware
 
 If anyone is reporting that your product is a virus, then virus total will know about it
 

@@ -1,10 +1,10 @@
-# Cmder 
+﻿# Cmder
 
-Cmder relies on Conemu to create a beautiful console experience on windows. 
+Cmder relies on Conemu to create a beautiful console experience on windows.
 
 ## download
 
-from <http://cmder.net/> 
+from <http://cmder.net/>
 
 Try downloading "mini" -- see if it works suitably.
 
@@ -68,16 +68,16 @@ And traced back to a fault in the design of bash.exe
 
 To fix it, I added a "`{Bash}`" task (in Settings -> Startup -> Tasks) with Command equal to:
 
-    %windir%\system32\bash.exe -cur_console:p1   
+    %windir%\system32\bash.exe -cur_console:p1
 
-![cmder bash arrows keys support](CmdEr_Bash.png)    
-    
+![cmder bash arrows keys support](CmdEr_Bash.png)
+
 I also added a `bash` function to my powershell `profile.ps1` which reads:
 
     function bash() {
         & $env:windir"\system32\bash.exe" -cur_console:p1
     }
-    
+
 
 ## Fade when inactive
 
@@ -86,7 +86,7 @@ Change this in settings -> Features -> Color -> Graphic enhancement -> Fade when
 (Included in one of the screenshots above)
 
 
-## is cmder slow over rdp? 
+## is cmder slow over rdp?
 
 is cmder slow over remote desktop? is cmder slow via terminal services?
 
@@ -106,11 +106,10 @@ Cmder will no longer be slow to paint over remote connections.
 
 
     General > Tab bar > Tabs on Bottom <-- check it on!
-	
+
 ![tabs on bottom](cmder_tabs_on_bottom.png)
 
-    
+
 ## Source
 
  * <http://superuser.com/questions/652155/configure-powershell-to-be-conemus-default-shell>
- 

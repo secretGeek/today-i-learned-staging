@@ -1,4 +1,4 @@
-# How to update npm?
+﻿# How to update npm?
 
 
     npm update -g

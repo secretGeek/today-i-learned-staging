@@ -1,11 +1,11 @@
-# Created a new Wordpress droplet at digital ocean
+﻿# Created a new Wordpress droplet at digital ocean
 
 
 Visiting the url it says:
     Please log into your droplet via SSH to enable your WordPress installation.
-    
+
 Logging in via SSH, I get this welcome message:
-    
+
 
     Thank you for using DigitalOcean's WordPress Application.
 

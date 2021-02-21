@@ -1,4 +1,4 @@
-# Log Helper for Linqpad
+﻿# Log Helper for Linqpad
 
 
 

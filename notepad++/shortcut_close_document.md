@@ -1,4 +1,4 @@
-# Use F4 to close documents
+﻿# Use F4 to close documents
 
 By default, `Ctrl W` is `close document`.
 

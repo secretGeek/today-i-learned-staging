@@ -1,4 +1,4 @@
-# Get The Windows User's Display Name in Asp.Net Mvc
+﻿# Get The Windows User's Display Name in Asp.Net Mvc
 
 
 Simplest version I can find...

@@ -1,4 +1,4 @@
-# Install TextFX plugin to notepad++
+﻿# Install TextFX plugin to notepad++
 
 
 Go onto SourceForge and tracked down the latest TextFX file to import manually:

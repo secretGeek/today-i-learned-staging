@@ -1,4 +1,4 @@
-# Badass book Kathy Sierra
+﻿# Badass book Kathy Sierra
 
 
 * Dreyfus skill acquisition model
@@ -7,5 +7,3 @@
 * The brain doesn't let you in on what it's learning
 * Deliberate practice
 * Mindset
-
-

@@ -1,4 +1,4 @@
-# The life changing magic of tidying - Marie Kondo
+﻿# The life changing magic of tidying - Marie Kondo
 
 
 
@@ -27,6 +27,3 @@ Papers
 Miscellanies
 Kimono
 Sentimental and keepsakes
-
-
-

@@ -1,4 +1,4 @@
-# Supervisor... it keeps your app running!
+﻿# Supervisor... it keeps your app running!
 
 ## Check status:
 

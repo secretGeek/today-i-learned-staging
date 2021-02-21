@@ -1,6 +1,6 @@
-# Want to return 404 from a method in asp.net MVC?
+﻿# Want to return 404 from a method in asp.net MVC?
 
-It's as easy as 
+It's as easy as
 
 	return HttpNotFound();
 
@@ -56,5 +56,4 @@ So on the one hand we're trying to be "transport-agnostic", removing `Http` from
 
 ## See also
 
-- [Custom Errors in asp.net mvc 5](custom_errors.md) 
-
+- [Custom Errors in asp.net mvc 5](custom_errors.md)

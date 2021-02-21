@@ -1,4 +1,4 @@
-# Outer Apply can be very useful
+﻿# Outer Apply can be very useful
 
 First, assume we have a query that shows us the value of sales and the number of sales in each state....
 
@@ -6,7 +6,7 @@ First, assume we have a query that shows us the value of sales and the number of
 		s.State
 		Sum(s.Amount) as Amount,
 		Count(*) as Number_of_Sales
-	from 
+	from
 		Sales s
 	Group by s.State
 
@@ -19,8 +19,8 @@ You decide to use a subquery in the select. It looks a bit wonky but it gets the
 		s.State,
 		Sum(s.Amount) as Amount,
 		Count(*) as s.Number_of_Sales,
-		BestSalesperson = (Select top(1) Salesperson from Sales where State = s.State group by Salesperson order by Sum(Amount) desc) 
-	from 
+		BestSalesperson = (Select top(1) Salesperson from Sales where State = s.State group by Salesperson order by Sum(Amount) desc)
+	from
 		Sales s
 	Group by s.State
 
@@ -35,8 +35,8 @@ You scratch your head and decide to repeat the same subquery you'd already used.
 		Sum(s.Amount) as Amount,
 		Count(*) as s.Number_of_Sales,
 		BestSalesperson = (Select top(1) Salesperson from Sales where State = s.State group by Salesperson order by Sum(Amount) desc),
-	    BestSalesperson_Sales = (Select top(1) Sum(Amount) from Sales where State = s.State group by Salesperson order by Sum(Amount) desc) 
-	from 
+	    BestSalesperson_Sales = (Select top(1) Sum(Amount) from Sales where State = s.State group by Salesperson order by Sum(Amount) desc)
+	from
 		Sales s
 	Group by s.State
 
@@ -52,22 +52,22 @@ You could've used an OUTER APPLY.... watch
 		Count(*) as s.Number_of_Sales,
 		so.SalesPerson as BestSalesperson,
 	    so.SalesAmount as BestSalesperson_Sales
-	from 
+	from
 		Sales s
-	outer apply (Select top (1) 
-			Salesperson, 
-			Sum(Amount) as SalesAmount 
-		from 
-			Sales 
-		where 
-			State = s.State 
-		Group by 
-			SalesPerson 
-		order by 
+	outer apply (Select top (1)
+			Salesperson,
+			Sum(Amount) as SalesAmount
+		from
+			Sales
+		where
+			State = s.State
+		Group by
+			SalesPerson
+		order by
 			Sum(Amount) desc) so
 	Group by State, so.SalesPerson, so.SalesAmount
 
-	
+
 Outer apply is just the trick.
 
 It lets you create a table that refers to any other table in the query, without having to perform a regular join.

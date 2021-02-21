@@ -1,10 +1,10 @@
-# Giving Chocolatey a Checksum when creating a package
+﻿# Giving Chocolatey a Checksum when creating a package
 
 My package was failing validation with chocolatey, with the error message at the foot of this article.
 
 The pertinent message being:
 
-    ERROR: Empty checksums are no longer allowed by default for non-secure sources. 
+    ERROR: Empty checksums are no longer allowed by default for non-secure sources.
     Please ask the maintainer to add checksums to this package.
 
 
@@ -20,7 +20,7 @@ So the `ChocolateyInstall.ps1` used to look like this:
     $package = 'NimbleText'
     $drop = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
     Install-ChocolateyZipPackage $package 'http://nimbletext.com/download/NimbleText.zip' $drop
-    
+
 Now I had to make it look like this (for example)
 
     $package = 'NimbleText'
@@ -38,7 +38,7 @@ For this, I created a script, `replace_hash.ps1` which calculated the checksum a
     $hashy = (checksum -t sha256 -f "output\NimbleText.zip")
     $hashyLine = '$checkSum = "' + $hashy + '"'
     $targetFile = 'Chocolatey-Packages\NimbleText\tools\ChocolateyInstall.ps1'
-    $regex = '\$checkSum = "[0-9A-F]+"' 
+    $regex = '\$checkSum = "[0-9A-F]+"'
     # Replace a line of "ChocolateyInstall.ps1" with that new hashy line
     (Get-Content $targetFile) -replace $regex, $hashyLine | Set-Content $targetFile
 
@@ -51,10 +51,10 @@ This relied on the `checksum` package, which I installed via:
 
 
 
-    
-    
+
+
 ## Error Log
-    
+
 Email from moderation@chocolatey.org read:
 
     'PACKAGENAME' is Submitted.
@@ -66,21 +66,21 @@ Email from moderation@chocolatey.org read:
     This is not the only check that is performed so check the package page to ensure a 'Ready' status.
     Please visit https://gist.github.com/...  for details.
 
-    
-And the gist at github had these errors... keyword to look for being 'checksum'    
-    
+
+And the gist at github had these errors... keyword to look for being 'checksum'
+
     649 [DEBUG] - Verifying package provided checksum of '' for 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\PACKAGENAME\2.8.0.38449\PACKAGENAME.zip'.
-    680 [DEBUG] - Running Get-ChecksumValid -file 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\PACKAGENAME\2.8.0.38449\PACKAGENAME.zip' -checksum '' -checksumType '' -originalUrl 'http://PACKAGENAME.com/download/PACKAGENAME.zip' 
-    711 [WARN ] - WARNING: Missing package checksums are not allowed (by default for HTTP/FTP, 
-     HTTPS when feature 'allowEmptyChecksumsSecure' is disabled) for 
-     safety and security reasons. Although we strongly advise against it, 
-     if you need this functionality, please set the feature 
-     'allowEmptyChecksums' ('choco feature enable -n 
-     allowEmptyChecksums') 
-     or pass in the option '--allow-empty-checksums'. You can also pass 
+    680 [DEBUG] - Running Get-ChecksumValid -file 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\PACKAGENAME\2.8.0.38449\PACKAGENAME.zip' -checksum '' -checksumType '' -originalUrl 'http://PACKAGENAME.com/download/PACKAGENAME.zip'
+    711 [WARN ] - WARNING: Missing package checksums are not allowed (by default for HTTP/FTP,
+     HTTPS when feature 'allowEmptyChecksumsSecure' is disabled) for
+     safety and security reasons. Although we strongly advise against it,
+     if you need this functionality, please set the feature
+     'allowEmptyChecksums' ('choco feature enable -n
+     allowEmptyChecksums')
+     or pass in the option '--allow-empty-checksums'. You can also pass
      checksums at runtime (recommended). See choco install -? for details.
-    711 [DEBUG] - If you are a maintainer attempting to determine the checksum for packaging purposes, please run 
-     'choco install checksum' and run 'checksum -t sha256 -f C:\Users\Administrator\AppData\Local\Temp\chocolatey\PACKAGENAME\2.8.0.38449\PACKAGENAME.zip' 
+    711 [DEBUG] - If you are a maintainer attempting to determine the checksum for packaging purposes, please run
+     'choco install checksum' and run 'checksum -t sha256 -f C:\Users\Administrator\AppData\Local\Temp\chocolatey\PACKAGENAME\2.8.0.38449\PACKAGENAME.zip'
      Ensure you do this for all remote resources.
     851 [WARN ] - The integrity of the file 'PACKAGENAME.zip' from 'http://PACKAGENAME.com/download/PACKAGENAME.zip' has not been verified by a checksum in the package scripts.
     851 [WARN ] - Do you wish to allow the install to continue (not recommended)?
@@ -108,7 +108,7 @@ And the gist at github had these errors... keyword to look for being 'checksum'
       with checksum '4827432C0CC72960018E9B6756D8E96D'
     492 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\PACKAGENAME\tools\PACKAGENAME.exe.gui'
       with checksum 'D41D8CD98F00B204E9800998ECF8427E'
-      
+
 ## See also
 
  * [Powershell script for finding the sha256 hash of a file](../powershell/get_filehash.md)

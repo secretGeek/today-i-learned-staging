@@ -1,4 +1,4 @@
-# Using notepad as a log/journal
+﻿# Using notepad as a log/journal
 
 If the first 4 letters of a text file are ".LOG" then when you launch that text file in `notepad`, instead of opening it at the top for reading, opens it at the bottom for appending. And automatically inserts a time and date stamp.
 

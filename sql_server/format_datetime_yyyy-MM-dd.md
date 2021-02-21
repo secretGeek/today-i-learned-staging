@@ -1,4 +1,4 @@
-# Format DateTime as yyyy-MM-dd
+﻿# Format DateTime as yyyy-MM-dd
 
 You want ISO8601 formats in SQL Server, here you go.
 
@@ -16,7 +16,7 @@ For `yyyy-MM-dd` :
     CONVERT(VARCHAR(10), GetDate(), 120)
 
 e.g.
-    
+
     select CONVERT(VARCHAR(10), GetDate(), 120)
     2017-02-02
 
@@ -55,4 +55,3 @@ To get milliseconds (and 24 hour time) use format "121" -- it extends 120 by inc
  - [SQL: just the date portion of a datetime](datetime_trim_hours_milliseconds.md)
  - [Excel: Extract Year/Month (for grouping/reporting)](../excel/extract_year_and_month_from_date_for_grouping_purposes.md)
  - [Parse varchar into DateTime](parse_varchar_into_datetime.md)
- 

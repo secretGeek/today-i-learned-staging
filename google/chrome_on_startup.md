@@ -1,4 +1,4 @@
-# Change google chrome on startup page, despite being "enforced by administrator"
+﻿# Change google chrome on startup page, despite being "enforced by administrator"
 
 On a corporate machine, the google chrome homepage was set to an intranet page that did not load correctly due to authentication problems. I couldn't change it because:
 

@@ -18,16 +18,16 @@ A book is composed of two files: the interior file (which includes the book itse
 
  * when writing/revising you may need to refer to a detailed outline of the book that has every possible level of heading (e.g. heading 1-6) but the needs of your reader are not the same as the needs of a writer/editor, in particular:
    * Fiction: usually no TOC
-   * Non-Fiction: Ideally a single page, only chapter headings. If it must be more than one page then you have "contents at a glance" and the more detailed contents. Review similar professional books as a grounding device.   
+   * Non-Fiction: Ideally a single page, only chapter headings. If it must be more than one page then you have "contents at a glance" and the more detailed contents. Review similar professional books as a grounding device.
  * Don't use a line of dots to link chapter title and page number (this is the default in word) - increase leading (line-height) instead.
  * If SMALL-CAPS styles are used, ensure it is a font that include a SMALL-CAPS variant and it is not simply a squished-down caps.
  * No header text on the TOC page
- 
+
 
 ## Chapters
 
  * new chapter starts on a new page
- * new chapters begin on the right hand side (i.e. on odd-numbered pages) 
+ * new chapters begin on the right hand side (i.e. on odd-numbered pages)
  * first page of chapter does not have a header
  * first page of chapter has consistent spacing from top
  * body text is serif font
@@ -51,17 +51,17 @@ A book is composed of two files: the interior file (which includes the book itse
  * The block is the part of the page where the body text goes. It's the page minus the gutter, the margins, the headers and the footers. That's THE BLOCK
  * The block shouldn't move up or down or in or out on each page
  * Now, imagine this. Imagine the page is thin, so thin as to be almost completely translucent. Each line of text will have a line of text behind it. The lines of text on each side of the paper should be on top of each other. And the space between the lines should be completely clear on both sides
- 
- 
+
+
  * Here is the tricky thing about getting "the block" right....
- 
+
 ![block alignment](block_align.png)
- 
+
  * If there is a heading or break part way down a page, this property of alignment between the two sides of the page should still be maintained perfectly. The spaces still align with the spaces. The lines of text still align with the lines of text.
  * THUS, the start of a new chapter may be a few lines down the page, but the distance to the top of the page should be equivalent to a whole number of lines of text.
 
  * If you get this wrong at the top of the page, you will see it at the bottom of the page....
- 
+
 
 ![block misalign](block_misalign.png)
 
@@ -70,7 +70,7 @@ A book is composed of two files: the interior file (which includes the book itse
 
 It's a fine detail, but part of avoiding that amateur feel.
 
- 
+
 ## Page numbering
 
  * page numbering starts at 1 when the content itself starts
@@ -101,8 +101,8 @@ It's a fine detail, but part of avoiding that amateur feel.
  * alignment: justified.
  * font-weight: does your book have more ink on the page than a professional book plucked from your shelf?
  * layout of quotes: consistent, pleasing.
- 
- 
+
+
 ## Paragraphs
 
  *  indented first line of paragraph, no line space between paragraphs.
@@ -113,16 +113,16 @@ It's a fine detail, but part of avoiding that amateur feel.
 
 ## Separators
 
- * Stylish and consistent. Centered. Most amateur look here would be: three literal asterisks left aligned. 
+ * Stylish and consistent. Centered. Most amateur look here would be: three literal asterisks left aligned.
 
 ## Images
 
  * images at high DPI, e.g. at least 300.
- 
+
 Images shown on a Windows PC are traditionally 96 DPI -- dots per inch, and on an Apple Mac, 72 DPI. A newer "high DPI" screen on either system will be a higher DPI than this. Printed material is generally 300 DPI or higher. You need to look a lot closer at a printed page to see how it is put together, compared to a computer monitor.
 
- 
- 
+
+
 
 ## Exterior (cover)
 

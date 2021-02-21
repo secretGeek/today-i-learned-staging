@@ -1,4 +1,4 @@
-# SSMS Dark Mode in SQL Server Management Studio
+﻿# SSMS Dark Mode in SQL Server Management Studio
 
 In SQL Server Management Studio you can enable the hidden Dark Mode, by altering one line in one file.
 
@@ -22,24 +22,24 @@ Find the folder SSMS is running from, e.g.
 
 |Version    | Example Location    |
 |===========|===========|
-| SSMS 2016 | `C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio` | 
+| SSMS 2016 | `C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio` |
 | SSMS 17   | `C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio` |
 
 (Basically got to `C:\Program Files (x86)\Microsoft SQL Server\` and find the biggest number, go into it, then look in  `Tools\Binn\ManagementStudio` ... or right click your SSMS to see where it's launched)
 
 **As administrator** Edit the file `ssms.pkgundef`
 
- - Look for the line `// Remove Dark Theme` 
+ - Look for the line `// Remove Dark Theme`
  - The very next line needs to be commented out! Put `//` at the start of the line, to comment it out.
- 
+
  Restart SSMS.
- 
+
  Go to:
- 
+
 	Tools -> Options -> General -> Color themes
 
 Available theme now includes Blue, **DARK** and Light.
- 
+
 
 
 ## Source(s)

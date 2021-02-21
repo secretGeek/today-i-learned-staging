@@ -1,4 +1,4 @@
-# How do I check a DNS record?
+﻿# How do I check a DNS record?
 
 How to do a dns lookup on wsl2 windows subsystem for windows.
 

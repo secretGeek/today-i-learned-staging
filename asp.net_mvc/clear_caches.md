@@ -1,4 +1,4 @@
-# Clear Caches
+﻿# Clear Caches
 
 It's not as simple as:
 
@@ -130,7 +130,7 @@ I hate this, but haven't found anything better.
 
  - http://stackoverflow.com/questions/4183270/how-to-clear-the-net-4-memorycache
  - http://stackoverflow.com/questions/8043381/how-do-i-clear-a-system-runtime-caching-memorycache/8043556#8043556
- 
+
 ## See also
 
  - [Handy Cache helper method](from_memory.md)

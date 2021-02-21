@@ -39,7 +39,7 @@ Coordinates  : 38.8976763,-77.0365298
 InputAddress : Eiffel Tower
 Address      : Eiffel Tower, Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France
 Country      : France
-State        : Île-de-France
+State        : ï¿½le-de-France
 PostalCode   : 75007
 Latitude     : 48.8583701
 Longitude    : 2.2944813

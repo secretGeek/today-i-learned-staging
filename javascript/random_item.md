@@ -1,4 +1,4 @@
-# Retrieve a random item from an array
+﻿# Retrieve a random item from an array
 
 Since `Math.random()` returns a random number from `0` to `1`, returning a random item from an array is as easy as:
 

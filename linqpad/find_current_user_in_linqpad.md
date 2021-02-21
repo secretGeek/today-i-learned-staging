@@ -1,4 +1,4 @@
-# Find current user in linqpad
+﻿# Find current user in linqpad
 
 
 	public static string CurrentUser()

@@ -1,4 +1,4 @@
-# Install go on windows bash
+﻿# Install go on windows bash
 
 I wanted to run some go tools in bash -- so i needed to install go.
 

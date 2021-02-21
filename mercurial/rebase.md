@@ -1,4 +1,4 @@
-# Rebasing in mercurial for dimwits like me
+﻿# Rebasing in mercurial for dimwits like me
 
 
 ## Step 1. Get rebase
@@ -6,7 +6,7 @@
 First, enable the rebase extension by editing:
 
 	$env:userprofile\mercurial.ini
-	
+
 And in the `[extensions]` section, write:
 
 	rebase =
@@ -39,10 +39,10 @@ The simplest way to use it is that when you wish to pull and update the repo, in
 
     hg pull --update   # <-- don't do this!
 
-Do this instead:	
-	
+Do this instead:
+
 	hg pull --rebase
-	
+
 That will change your local revisions to be applied *after* any revs that were performed in remote locations (after you last updated)
 
 
@@ -78,22 +78,22 @@ The repo looked like this:
 
 ![rebase_example3.png](rebase_example3.png)
 
-I'd commited 722 and 723 locally. 
+I'd commited 722 and 723 locally.
 
 I wanted to move them after 724, which had been done remotely.
 
 I used this command:
 
-    hg rebase -s 722 -d 724        
+    hg rebase -s 722 -d 724
 
 
 Which resulted in:
 
-![rebase_example4.png](rebase_example4.png)    
+![rebase_example4.png](rebase_example4.png)
 
 The linear history I was after.
 
-    
+
 
 To see neat `log` (to help with deciding `-s` and `-d`) use:
 

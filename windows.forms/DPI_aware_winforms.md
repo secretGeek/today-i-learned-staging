@@ -1,4 +1,4 @@
-# DPI Aware Winforms apps
+﻿# DPI Aware Winforms apps
 
 I still struggle with this, but here's my approach currently (2019)
 
@@ -21,4 +21,3 @@ This code requires these using statements
 
 
 It may or may not be important to set `AutoScaleMode` of forms to `Dpi` (instead of their default of `Font`).
-

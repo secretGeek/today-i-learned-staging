@@ -1,4 +1,4 @@
-# Add or remove a class
+﻿# Add or remove a class
 
 We're going to look at all the elements with a class of cat, and then test for a class, remove a class, and add a class.
 

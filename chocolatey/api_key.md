@@ -1,4 +1,4 @@
-# How to generate, find and use a chocolatey API Key
+﻿# How to generate, find and use a chocolatey API Key
 
 (Useful if you are publishing a package)
 
@@ -34,5 +34,3 @@ Earlier I was getting this error message:
 	 `choco apikey -?`
 
 I read the help at `choco apikey -?` and read everything online... it was only when I went to `https://chocolatey.org/account` and found that command above, including my apikey, and ran it... that the problem was resolved.
-
-

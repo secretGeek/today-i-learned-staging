@@ -1,15 +1,15 @@
-# VLOOKUP
+﻿# VLOOKUP
 
 Sick of looking up the syntax to VLOOKUP. (Glad I use it rarely enough that it's not committed to memory)
 
-    
+
     VLOOKUP (lookup_value, table_array, col_index_num, [range_lookup])
-    
-    
+
+
 Example:
 
     =VLOOKUP("Puppy",B3:F2000,2,FALSE)
-    
+
 
 Translation:
 
@@ -27,7 +27,7 @@ So -- wrap it in an iferror...
 
     =IFERROR(VLOOKUP(D4,B1:B418,2,FALSE),"")
 
-    
+
 And also -- I am usually referencing something on a different sheet... so to do that, you address the other sheet, followed by a bang
 
 

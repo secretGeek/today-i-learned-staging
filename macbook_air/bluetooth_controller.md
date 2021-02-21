@@ -1,4 +1,4 @@
-# No bluetooth in Settings -> Devices
+﻿# No bluetooth in Settings -> Devices
 
 And bluetooth generally not present anywhere on the machine.
 
@@ -13,8 +13,7 @@ Previously I have downloaded all of the BootCamp drivers, and unzipped them to h
 
 
     C:\Users\Leon\Downloads\BootCamp5.1.5640\$WinPEDriver$\AppleBluetoothBroadcom64
-    
+
 So I updated the drivers and browsed to that location.
 
 Then it believed that bluetooth was A-OK again.
-

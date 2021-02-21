@@ -1,4 +1,4 @@
-# Collation: find it, compare it, change it
+﻿# Collation: find it, compare it, change it
 
 ## Find default collation of the database
 
@@ -64,11 +64,11 @@ ALTER DATABASE failed. The default collation of database 'YOLO_DB' cannot be set
 */
 ```
 
-	ALTER DATABASE [YOLO_DB] SET SINGLE_USER WITH ROLLBACK IMMEDIATE; 
-	GO 
-	ALTER DATABASE [YOLO_DB] COLLATE Latin1_General_CI_AS; 
-	GO 
-	ALTER DATABASE [YOLO_DB] SET MULTI_USER; 
+	ALTER DATABASE [YOLO_DB] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+	GO
+	ALTER DATABASE [YOLO_DB] COLLATE Latin1_General_CI_AS;
+	GO
+	ALTER DATABASE [YOLO_DB] SET MULTI_USER;
 	GO
 
 *Note that having a mismatch between TempDb and your database's default collation is the shortcut to madness.*

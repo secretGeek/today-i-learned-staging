@@ -1,4 +1,4 @@
-# Delete duplicate rows
+﻿# Delete duplicate rows
 
 
 It can be hard to delete true duplicate rows.

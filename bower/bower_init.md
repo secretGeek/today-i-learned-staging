@@ -1,4 +1,4 @@
-# Bower init
+﻿# Bower init
 
 When running a `bower` command (ok, if you must know it was....
 

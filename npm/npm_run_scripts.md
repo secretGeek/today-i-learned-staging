@@ -1,4 +1,4 @@
-# NPM run scripts
+﻿# NPM run scripts
 
 
 > npm looks at a field called scripts in the package.json of a project in order to make things like npm test from the scripts.test field and npm start from the scripts.start field work.

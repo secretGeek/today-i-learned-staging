@@ -1,4 +1,4 @@
-# Does not have a program associated with it
+﻿# Does not have a program associated with it
 
 Of all the random alerts that Windows shows, this is one of the most annoying:
 
@@ -6,21 +6,21 @@ Of all the random alerts that Windows shows, this is one of the most annoying:
 
 ![Program associated](./program_associated.png)
 
-> This file 
+> This file
 
 Which file?
 
 
-> does not have a program associated with it 
+> does not have a program associated with it
 
 
-> for performing this action. 
+> for performing this action.
 
 
 *Which* action?
 
 
-> Please install a program 
+> Please install a program
 
 Great advice! I will install a program. Which program? For doing what?
 
@@ -34,6 +34,3 @@ Many programs are already installed... do I need to uninstall all my programs bu
 > create an association in the Default Programs control panel.
 
 Create an association between what and who!?
-
-
-

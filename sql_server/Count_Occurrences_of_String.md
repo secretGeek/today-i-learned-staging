@@ -1,4 +1,4 @@
-# Count occurrences of string
+﻿# Count occurrences of string
 
 
 Here's a clever utility function to count how many times a substring appears in a string...

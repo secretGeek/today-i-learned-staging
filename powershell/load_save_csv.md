@@ -44,4 +44,3 @@ What type do we end up with? A custom object, with a `NoteProperty` for each col
 ## Group CSV
 
 	import-csv "dirinfo.csv" | group -property Name | sort -desc count
-

@@ -1,4 +1,4 @@
-# Configure mercurial to use sourcegear diffmerge for merging
+﻿# Configure mercurial to use sourcegear diffmerge for merging
 
 In your [mercurial.ini file](./mercurial_ini.md)(i.e. $env:userprofile\mercurial.ini) specify...
 
@@ -21,11 +21,11 @@ In your [mercurial.ini file](./mercurial_ini.md)(i.e. $env:userprofile\mercurial
     vdiff.premerge = True
 
 
-    
-If you first want to verify that path... 
 
-    test-path "C:\Program Files\SourceGear\Common\DiffMerge\sgdm.exe"    
-    
+If you first want to verify that path...
+
+    test-path "C:\Program Files\SourceGear\Common\DiffMerge\sgdm.exe"
+
 ## Source
 
   * <https://sourcegear.com/diffmerge/webhelp/sec__mercurial__windows__native.html>

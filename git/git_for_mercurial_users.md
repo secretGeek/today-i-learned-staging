@@ -1,4 +1,4 @@
-# git for mercurial users
+﻿# git for mercurial users
 
 
 ## how mercurial does it

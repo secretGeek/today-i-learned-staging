@@ -1,4 +1,4 @@
-# Reopen closed tabs in google chrome
+﻿# Reopen closed tabs in google chrome
 
 Key-combination:
 

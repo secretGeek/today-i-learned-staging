@@ -1,4 +1,4 @@
-# Hunch, Bernadette jiwa
+﻿# Hunch, Bernadette jiwa
 
 
 
@@ -19,6 +19,3 @@ And harry Chapins secretary told him about a note her son received
 
 
 I could focus on sending email asking for feedback from women who buy my products.
-
-
-

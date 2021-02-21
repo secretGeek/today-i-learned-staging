@@ -1,6 +1,6 @@
-# R Services on SQL Server 2016+ (and Regular Expressions)
+﻿# R Services on SQL Server 2016+ (and Regular Expressions)
 
-One way to get regular expression support in SQL Server is to use the language "R". 
+One way to get regular expression support in SQL Server is to use the language "R".
 
 R can be used if you have R Services installed. It's available in SQL Server 2016 onward. (And Python services are in SQL Server 2017 onward)
 
@@ -25,7 +25,7 @@ However, because I didn't restart SQL Server after enabling it, it still doesn't
 ## Enable it
 
 	sp_configure 'external scripts enabled', 1;
-	RECONFIGURE WITH OVERRIDE; 
+	RECONFIGURE WITH OVERRIDE;
 
 
 ## Test it

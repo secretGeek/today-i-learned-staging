@@ -1,7 +1,7 @@
-# My Macbook is
+﻿# My Macbook is
 
  - [MacBook Air (13-inch, Mid 2011) - Technical Specifications](https://support.apple.com/kb/SP683?viewlocale=en_US&locale=en_US)
- 
+
 Serial Number:
 
  - C02H565NDJWV

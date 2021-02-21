@@ -1,4 +1,4 @@
-# Updating millions of rows from SQL Server
+﻿# Updating millions of rows from SQL Server
 
 
 So, you have a [large table](.\find_large_tables.md) where you need to update every row, using some condition.

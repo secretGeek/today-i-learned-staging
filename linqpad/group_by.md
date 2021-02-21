@@ -1,4 +1,4 @@
-# Group by
+﻿# Group by
 
 By far the most common query I've every run in SQL Server is:
 
@@ -10,7 +10,7 @@ By far the most common query I've every run in SQL Server is:
 
 Here's the equivalent in Linq:
 
-	var tableSummary = 
+	var tableSummary =
 	someTable.GroupBy(p=> p.SomeColumn).Select(group => new {
 		Count = group.Count(),
 		SomeColumn = group.Key
@@ -56,4 +56,3 @@ Here's a more complex example:
 	}
 
 ...)
-

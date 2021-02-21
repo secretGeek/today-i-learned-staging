@@ -1,4 +1,4 @@
-# Config from an external source
+﻿# Config from an external source
 
 Say you want your connectionStrings to be pulled in from an external file, you can do that like this:
 

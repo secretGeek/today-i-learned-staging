@@ -1,4 +1,4 @@
-# Narcissism of small differences
+﻿# Narcissism of small differences
 
 > it is precisely communities with adjoining territories and close relationships that engage in constant feuds and mutual ridicule because of hypersensitivity to details of differentiation
 
@@ -6,7 +6,7 @@ For example, because Java and C# are so similar, their users are more likely to 
 
 At a smaller scale: tabs and spaces make no difference to a running program, so proponents of each are the most likely to feud.
 
-Same for brace positioning. 
+Same for brace positioning.
 
 People pour effort into these things because they are a way of asserting their identity (either group identity or individual identity).
 
@@ -59,5 +59,5 @@ Joke from Emo Phillips:
 ## Source
 
  * <https://en.wikipedia.org/wiki/Narcissism_of_small_differences>
- * <http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html> 
+ * <http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html>
  * <https://en.wikiquote.org/wiki/Emo_Philips>

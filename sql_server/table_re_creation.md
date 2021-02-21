@@ -1,4 +1,4 @@
-# Prevent saving changes that require the table to be re-created
+﻿# Prevent saving changes that require the table to be re-created
 
 You are modifying a table, using `Design table` in SSMS, and want to generate a change script (or maybe you want to save your change)
 

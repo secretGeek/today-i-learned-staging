@@ -1,4 +1,4 @@
-# Dark Theme in Notepad++
+﻿# Dark Theme in Notepad++
 
 You can set a dark theme for the editing experience itself using `Settings > Style Configurator > Select Theme > Zenburn`
 

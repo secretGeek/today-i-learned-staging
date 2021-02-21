@@ -1,4 +1,4 @@
-# What version of ubuntu am i running?
+﻿# What version of ubuntu am i running?
 
 Use the command `lsb_release -a`
 

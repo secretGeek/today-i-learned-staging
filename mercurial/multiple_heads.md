@@ -1,14 +1,14 @@
-# Multiple heads when trying to update or trying to fetch
+﻿# Multiple heads when trying to update or trying to fetch
 
     hg fetch
     abort: multiple heads in this branch (use "hg heads ." and "hg merge" to merge)
-    
+
 Running `hg heads` (without the dot) returns a *lot* of heads.
 
 With the dot there are 3 heads...
 
     hg heads .
-    
+
     changeset:   3818:7a511cd2c9fe
     tag:         tip
     parent:      3816:e9b8cdddef15
@@ -42,7 +42,7 @@ Infact -- 3403 and its troublesome parent 3402 are "secret". So these are secret
     hg merge 3816
     abort: merging with a working directory ancestor has no effect
 
-    
+
 Go back to the old troublesome branch, and close it...
 
     hg update -r 3403
@@ -61,4 +61,3 @@ And commit it...
     hg commit -Am "merge that sucker."
 
 For bonus points: rebase.
-

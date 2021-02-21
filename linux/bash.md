@@ -1,4 +1,4 @@
-# Bash for Windows User
+﻿# Bash for Windows User
 
 |Command|Similar to|Notes|
 |-------|----------|-----|
@@ -63,7 +63,7 @@ To go to your home folder, use simply:
  * `shift-ctrl-C` -- copy to clipboard
  * `shift-ctrl-V` -- paste from clipboard
 
- 
+
 ## Cheat sheet
 
 * <https://devhints.io/bash> -- really nice cheat sheet
@@ -72,4 +72,3 @@ To go to your home folder, use simply:
 
  * <https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos>
  * <http://www.tldp.org/LDP/abs/html/io-redirection.html>
- 

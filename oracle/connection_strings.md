@@ -1,4 +1,4 @@
-# Connection Strings in Oracle
+﻿# Connection Strings in Oracle
 
 
 Example:
@@ -22,20 +22,20 @@ If you don't have this environment variable set, then Oracle will not be able to
 In `tnsnames.ora` you should find the alias defined via a piece of configuration language like this:
 
 bbSales12=
- (DESCRIPTION= 
+ (DESCRIPTION=
   (ADDRESS= (PROTOCOL=tcp)(HOST=bb12Sales-server3)(PORT=1521))
-  (CONNECT_DATA= 
+  (CONNECT_DATA=
      (SERVICE_NAME=sales.us.acme.com)))
 
 You can also use "Easy Connect Naming Method"
 
-Instead of an alias, you specify a datasource in this form: 
+Instead of an alias, you specify a datasource in this form:
 
     //host:[port]/[service_name]
 
-example:    
+example:
 
-    "user id=scott;password=tiger;data source=//bb12Sales-server3:1521/sales.us.acme.com"     
+    "user id=scott;password=tiger;data source=//bb12Sales-server3:1521/sales.us.acme.com"
 
 
 But note that:

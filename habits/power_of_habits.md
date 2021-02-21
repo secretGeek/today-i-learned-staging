@@ -1,4 +1,4 @@
-# The Power of Habits 
+﻿# The Power of Habits
 
 by Charles Duhigg
 
@@ -30,7 +30,7 @@ Get people to experience the trigger and the reward, the habit will follow. It's
 
 ### Chapter 3: The Golden Rule of Habit Change - Why Transformation Occurs
 
-The golden rule is that you can't eradicate the loop (Trigger-Action-Reward). But you can modify it. E.g. swap in a different action, but try to keep the reward the same. 
+The golden rule is that you can't eradicate the loop (Trigger-Action-Reward). But you can modify it. E.g. swap in a different action, but try to keep the reward the same.
 
 The reward isn't the obvious reward: e.g. crave cigarette, only nicotine will provide the reward. The reward might just be overcoming the boredom of the moment. Finding a tiny pocket of excitement during a dull moment could be enough. An example with fingernail chewing where the person was craving some physical stimulation, so perform acts like rapping her knuckles against a table.
 
@@ -64,4 +64,3 @@ Appendix: A Reader's Guide to Using These Ideas
 ## References
 
 * [The Power of Habit Summary](http://www.deconstructingexcellence.com/the-power-of-habit-summary/)
-

@@ -1,4 +1,4 @@
-# How to enable Brotli compression in nginx on ubuntu
+﻿# How to enable Brotli compression in nginx on ubuntu
 
 This is useful if (for example) Google Lighthouse gives you this message:
 
@@ -19,7 +19,7 @@ Brotli reduces file sizes more than the other compression algorithms.
 
 Edit your nginx.conf file --
 
-e.g. 
+e.g.
 
 	sudo nano /etc/nginx/nginx.conf
 
@@ -33,7 +33,7 @@ Load the module when nginx restarts, by adding these lines:
 Now locate the nginx config file specific to your site. e.g. it should be in `/etc/nginx/sites-available/`
 
 
- 
+
 	 # gzip
 	gzip on;
 	gzip_vary on;

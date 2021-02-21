@@ -1,4 +1,4 @@
-# Treee replacement for tree
+﻿# Treee replacement for tree
 
 I like the `tree` command in windows but it has too few options to be useful.
 
@@ -21,7 +21,7 @@ tre --ignore node_modules
 
 
 	> treee --help
-	
+
 	List contents of directories in tree-like format.
 
 	tree - list contents of directories in tree-like format
@@ -83,4 +83,3 @@ tre --ignore node_modules
 	$ tree
 
 	$ tree -l 2, -o out.txt --ignore [node_modules, test] -d --noreport
-

@@ -1,4 +1,4 @@
-# Secure Copy (scp)
+﻿# Secure Copy (scp)
 
 
 From <http://www.hypexr.org/linux_scp_help.php>
@@ -14,12 +14,12 @@ Copy the file "foobar.txt" from the local host to a remote host
 Copy the directory "foo" from the local host to a remote host's directory "bar"
 
     $ scp -r foo your_username@remotehost.edu:/some/remote/directory/bar
-    
+
 Copy the file "foobar.txt" from remote host "rh1.edu" to remote host "rh2.edu"
 
     $ scp your_username@rh1.edu:/some/remote/directory/foobar.txt \
     your_username@rh2.edu:/some/remote/directory/
-    
+
 Copying the files "foo.txt" and "bar.txt" from the local host to your home directory on the remote host
 
     $ scp foo.txt bar.txt your_username@remotehost.edu:~

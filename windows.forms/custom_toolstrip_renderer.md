@@ -1,4 +1,4 @@
-# The one where I had to write my own ToolstripItemRenderer to get around a 'closed won't fix' bug in Windows Forms
+﻿# The one where I had to write my own ToolstripItemRenderer to get around a 'closed won't fix' bug in Windows Forms
 
 Breakdown of time spent adding a new feature in [NimbleSET](http://nimbletext.com/SET/About/):
 
@@ -27,7 +27,7 @@ If you want to create your own renderer, avoid the advice that says to inherit f
 And be sure to tell your control that you want to use your custom renderer, like this:
 
     mainToolStrip.Renderer = new CustomToolStripRenderer();
-            
+
 Then within the custom renderer, you can override whichever method you're unhappy with.
 
 Here's the code I wrote to draw a little blue box, and a custom tick, that should be a pixel-perfect representation of the intended one. I just know there are going to be edge cases (e.g. custom DPI) that will break this.
@@ -35,8 +35,8 @@ Here's the code I wrote to draw a little blue box, and a custom tick, that shoul
     protected override void OnRenderItemCheck(ToolStripItemImageRenderEventArgs e)
     {
         var g = e.Graphics;
-        var fillColor = (e.Item.Selected ? this.ColorTable.CheckSelectedBackground : this.ColorTable.CheckBackground);  
-        g.FillRectangle(new SolidBrush(fillColor), new Rectangle(3, 1, 19, 19)); 
+        var fillColor = (e.Item.Selected ? this.ColorTable.CheckSelectedBackground : this.ColorTable.CheckBackground);
+        g.FillRectangle(new SolidBrush(fillColor), new Rectangle(3, 1, 19, 19));
         g.DrawRectangle(new Pen(new SolidBrush(this.ColorTable.ButtonCheckedHighlightBorder), 1), new Rectangle(3, 1, 19, 19));
         // Draw the check mark. (two lines)
         g.DrawLines(System.Drawing.Pens.Black, new Point[] { new Point(10, 9), new Point(12, 11), new Point(16, 7) });
@@ -50,7 +50,7 @@ But it got the job done, and allowed me to use the dormant GDI+ neurons I develo
 
 For extra credit... make it work in high DPI scenarios. Oh, and support dark mode, or custom themes.
 
-For high DPI scenarios, the critical piece of logic I use is this: 
+For high DPI scenarios, the critical piece of logic I use is this:
 
 	var height = (int)(19 * DisplayScaleFactor.Height);
 
@@ -77,7 +77,7 @@ And then abstract some more things away. Instead of drawing the lines twice, I h
             {
                 g.DrawRectangle(highlightPen, rectangle);
             }
-            
+
             DrawCheckMark(g, 0 + offset);
             DrawCheckMark(g, 1 + offset);
 

@@ -1,4 +1,4 @@
-# Backoff (i.e. slow down) hitting the Stackexchange API
+﻿# Backoff (i.e. slow down) hitting the Stackexchange API
 
 Here's what the JSON looks like when the stackexchange api tells you to backoff (i.e. to make less requests)...
 
@@ -10,7 +10,7 @@ Here's what the JSON looks like when the stackexchange api tells you to backoff 
       ],
       "backoff": 10
     }
-    
+
 Here's how I back off...
 
 

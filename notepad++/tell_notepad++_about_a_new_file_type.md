@@ -1,4 +1,4 @@
-# Telling NotePad++ About a New File Type
+﻿# Telling NotePad++ About a New File Type
 
 (example, adding .config as xml)
 

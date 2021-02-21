@@ -1,4 +1,4 @@
-# Fix git push timed out with corporate proxy (e.g. visual studio .com)
+﻿# Fix git push timed out with corporate proxy (e.g. visual studio .com)
 
 ## Problem:
 
@@ -67,7 +67,7 @@ Near the end it told you the general proxy settings to use...
 
 (Names have been changed to protect the LAN)
 
-So I took one of the proxy addresses from there 
+So I took one of the proxy addresses from there
 
 
 ## What if you don't have a password?
@@ -82,4 +82,3 @@ In visual studio .com you can create a token, called a private access token -- t
 	proxy = http://anything:PAT@myproxy.domain.com:8080
 
 Where `PAT` is the `private access token`, and the proxy is found as described above.
-

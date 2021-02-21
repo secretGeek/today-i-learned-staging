@@ -27,6 +27,3 @@ Changed this to... well I can't drink this coffee until I empty the baskets or m
 People change product when major life changes occur. "A pillar of modern marketing"
 
 (That research may be about switching brands as much as anything)
-
-
-

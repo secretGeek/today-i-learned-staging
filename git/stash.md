@@ -1,4 +1,4 @@
-# git stash: very useful
+﻿# git stash: very useful
 
 It's nice to have clean commits and branches and so on.
 
@@ -8,7 +8,7 @@ If you have some changes you are not ready to commit, you can "stash" them aside
 
 	git stash
 
-Then you can -- for example -- switch to a branch where you want to apply those changes... or do some other more urgent work... 
+Then you can -- for example -- switch to a branch where you want to apply those changes... or do some other more urgent work...
 
 and when you're in a place where you want those changes back, you can use
 
@@ -16,7 +16,7 @@ and when you're in a place where you want those changes back, you can use
 
 ...to bring them back, but leave them in the stash.
 
-If you no longer need them in the stash, use 
+If you no longer need them in the stash, use
 
 	git stash drop
 
@@ -26,11 +26,11 @@ If you no longer need them in the stash, use
 
 (You could've used `git stash pop` to apply them *and* remove them from the stash. Up to you.)
 
-Use 
+Use
 
 	git stash list
 
-To see all your stashes. 
+To see all your stashes.
 
 If you stash one thing then another, it forms a stack of stashes. Thus the `pop` naming above.
 

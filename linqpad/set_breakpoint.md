@@ -1,4 +1,4 @@
-# How do I launch the debugger and set a breakpoint in a linqpad script?
+﻿# How do I launch the debugger and set a breakpoint in a linqpad script?
 
 I do this most days. The secret is:
 
@@ -11,4 +11,3 @@ When the `Debugger.Launch()` line is hit you will be prompted to choose an insta
 I had to toggle the "Compiler Optimizations" button (lower right)
 
 ![Compiler optimizations](compiler_optimizations.png)
-

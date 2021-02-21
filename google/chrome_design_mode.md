@@ -1,9 +1,9 @@
-# Google Chrome: Design Mode = ON let's you edit inline
+﻿# Google Chrome: Design Mode = ON let's you edit inline
 
 F12, dev tools -- then enter this in the console
 
 	document.designMode="on";
-	
+
 Now you can type on any element of the webpage and change what it says.
 
 

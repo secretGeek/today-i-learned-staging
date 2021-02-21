@@ -1,8 +1,8 @@
-# Mismatch between estimated and actual number of rows returned in Execution Plan
+﻿# Mismatch between estimated and actual number of rows returned in Execution Plan
 
 If you have mismatch between estimated and actual number of rows returned in a SQL Server Execution Plan, the classic advice is that "your statistics may be out of date."
 
-By default, statistics are configured to be updated automatically, and SQL Server's pretty smart about it. 
+By default, statistics are configured to be updated automatically, and SQL Server's pretty smart about it.
 
 
 
@@ -25,4 +25,3 @@ GSquared, in that same thread, adds that **Table variables** and **Recursive CTE
 ## Tools
 
 I've been using SQL Sentry's free Plan Explorer from http://sqlsentry.net/plan-explorer/.
-

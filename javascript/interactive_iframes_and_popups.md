@@ -1,4 +1,4 @@
-# How to perform two way interaction with a hosted iframe or a popup
+﻿# How to perform two way interaction with a hosted iframe or a popup
 
 
 Use `window.postMessage` to talk to the embedded guest page (or the popup) from the host page.

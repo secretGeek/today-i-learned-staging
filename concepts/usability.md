@@ -1,4 +1,4 @@
-# Usability: little tips
+﻿# Usability: little tips
 
 This could include graphic design and user interface and user experience tips. I'll let it be a grab-bag of ideas. Basically these are [little big details](http://littlebigdetails.com/) ;)
 

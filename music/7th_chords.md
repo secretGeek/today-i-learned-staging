@@ -1,10 +1,10 @@
-# What is up with the 7th Chord?
+﻿# What is up with the 7th Chord?
 
 `7th` chords are very common in blues.
 
-`A7`, `D7` and `E7` chords for example, are the staple diet of a blues rhythm guitarist. So much so that if they say "A" they probably mean "A7". Jazz musicians do this too. 
+`A7`, `D7` and `E7` chords for example, are the staple diet of a blues rhythm guitarist. So much so that if they say "A" they probably mean "A7". Jazz musicians do this too.
 
-In practice when building one of these chords on guitar, e.g. `A7`, we replace the 8th note, the `A`, with a G... which is a *flattened* 7 in A major. So that's just another hint that musical theory was written by drunks. 
+In practice when building one of these chords on guitar, e.g. `A7`, we replace the 8th note, the `A`, with a G... which is a *flattened* 7 in A major. So that's just another hint that musical theory was written by drunks.
 
 (The 8th note, the A, still "belongs" in the chord, but we sacrifice it, omit it, because we need to use that string to play the G. Only have so many fingers on your hands, you know.)
 
@@ -36,7 +36,7 @@ Any chord may also have a "sus" variation, what this means (e.g. sus2 or sus4)..
 
 And all of that was interesting to me -- but here's what I really want to say about 7th chords.
 
-In a lead sheet it may have the chords listed, and they often write in a kind of shorthand. 
+In a lead sheet it may have the chords listed, and they often write in a kind of shorthand.
 
 If it says "A&mdash;" (A followed by a significant dash) then it means "A minor". If it says "A" it may mean A7. That's what gets me.
 
@@ -58,7 +58,7 @@ Jazz fiend: yeh. Strip it back.
 
 Me: It's just... it's just a G? Is that even a chord?
 
-Jazz fiend: sure it is. Depends what you hear. 
+Jazz fiend: sure it is. Depends what you hear.
 
 Me: Uhhh, okay.
 
@@ -66,7 +66,7 @@ Jazz fiend: and maybe add this:
 
 (he adds in a C, two octaves up)
 
-Me: so (thinking) that's a... minor... a minor 3rd note? 
+Me: so (thinking) that's a... minor... a minor 3rd note?
 
 Fiend: Or this
 
@@ -74,9 +74,8 @@ Fiend: Or this
 
 Me: that's... that's just wrong?
 
-Fiend: yeh it's a better chord. Okay. Maybe leave out the G. 
+Fiend: yeh it's a better chord. Okay. Maybe leave out the G.
 
 Me: (silence)
 
 I have not spoken since.
-

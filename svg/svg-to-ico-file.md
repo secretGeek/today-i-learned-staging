@@ -1,4 +1,4 @@
-# How to convert an svg to a Windows .ico icon file, with inkscape and magick (via Powershell)
+﻿# How to convert an svg to a Windows .ico icon file, with inkscape and magick (via Powershell)
 
 This is *not* for favicons -- that's a different recipe -- see [How to use an svg as a website or web page's favicon, including supporting legacy platforms and rich application platforms.](svg-to-favicon.md)
 
@@ -35,7 +35,7 @@ Once you have you .png files at the correct sizes, inspect them and zoom in to s
 
 Did something go wrong? Look into it! Let me know if you find something specific.
 
-I deliberately made my svgs such that they'd be quite crisp at any size that is a multiple of 16px. 
+I deliberately made my svgs such that they'd be quite crisp at any size that is a multiple of 16px.
 
 
 If you're happy with those png's you can convert them to a .ico in various ways.
@@ -53,6 +53,5 @@ If you're happy with those png's you can convert them to a .ico in various ways.
 ## See also
 
 - [How to use an svg as a website or web page's favicon, including supporting legacy platforms and rich application platforms.](svg-to-favicon.md)
-- [Edit icon online](../graphics/icon_edit_online.md) 
+- [Edit icon online](../graphics/icon_edit_online.md)
 - [How to convert an svg to a Windows .ico icon file, with inkscape and magick](svg-to-ico-file.md)
-

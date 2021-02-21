@@ -1,4 +1,4 @@
-# Powershell experiments with Alias
+﻿# Powershell experiments with Alias
 
 
 ## See if there's any alias for a commands

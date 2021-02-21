@@ -1,4 +1,4 @@
-# The happy path
+﻿# The happy path
 
 If all is going well with your saltwater swimming pool you will still need to regularly add:
 
@@ -22,7 +22,7 @@ And vacuum the pool (if you don't have an automated vaccuum or robot butler)
 
 tools:
 
-Pole. 
+Pole.
 Vacuum hose.
 Vacuum head.
 Vacuum cover (goes over filter intake)
@@ -47,7 +47,7 @@ And when things go wrong you may need to add:
 
 ## Problems:
 
-### You've left the chlorinator off for an extended period of time 
+### You've left the chlorinator off for an extended period of time
 
 Obviously get the chlorinator working again. But to get the chlorine level back up you need to add chlorine manually. (You could attempt just running the chlorinator continuously, but you'll wear out your system. Kick start it with some chlorinator.)
 
@@ -56,5 +56,5 @@ Obviously get the chlorinator working again. But to get the chlorine level back 
 
 * Ensure chlorine levels are well maintained.
 * Scrub the black spot.
-* Add algaecide according to instructions on container. 
+* Add algaecide according to instructions on container.
   - most likely add a large amount at first and then a small amount every week until the problem is completely irradicated.

@@ -1,4 +1,4 @@
-# Find (and fix) large tables
+﻿# Find (and fix) large tables
 
 Some tables too big? Running out of space in your database?
 

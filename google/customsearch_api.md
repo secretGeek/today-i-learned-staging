@@ -1,4 +1,4 @@
-# Custom Search for Images
+﻿# Custom Search for Images
 
 
 Here's a simple example of running an image search against google's 'customsearch' api... Getting their API to work, however, is NOT simple.
@@ -21,20 +21,20 @@ Here's a simple example of running an image search against google's 'customsearc
                 imgType: "photo"
             },
             function (data) {
-                $.each(data.items, function(i,item){    
+                $.each(data.items, function(i,item){
                     $("#results").append('<img class="img-responsive" src="' + item.link + '">');
                 });
-            });        
+            });
         });
     </script>
 
 
-    
-    
+
+
 There are three tricks:
 
 1. Obtain an API key (for the `key` parameter)
-    
+
 2. Create a custom search engine (for the `cx` parameter)
 
 3. Tell your custom search engine to allow image search.
@@ -49,7 +49,7 @@ Steps:
 
 1. Go to <https://console.developers.google.com/> and sign up as a developer if you haven't already.
 
-2. Then create a new project, and give it a name. Then wait for it to be 'created'. 
+2. Then create a new project, and give it a name. Then wait for it to be 'created'.
 
 3. On the 'dashboard' for the project you just created, click `+ Enable API` and find the 'Custom Search' API.
 
@@ -77,7 +77,7 @@ You need to first create one that searches a specific site. (You have not choice
 
 Then edit it so that it searches the entire internet but favors the site you added.
 
-Then remove the site you added.    
+Then remove the site you added.
 
 
 Steps are:
@@ -97,7 +97,7 @@ Steps are:
 7. Click update. (or follow the next few steps before clicking update...)
 
 
-Now you also need to get the value to put in `cx`. 
+Now you also need to get the value to put in `cx`.
 
 In the Details section click on `Search Engine ID` and you will see a small modal popup that says something like:
 
@@ -124,6 +124,5 @@ Then click the `Update` button at the bottom of the form.
 ## Sources
 
  * [Custom Search Parameters](https://developers.google.com/apis-explorer/?hl=en_GB#p/customsearch/v1/search.cse.list)
- 
- * [Stackoverflow: Direct link to obtain a google custom search API key?](http://stackoverflow.com/questions/7489862/direct-link-to-obtain-a-google-custom-search-api-key)
 
+ * [Stackoverflow: Direct link to obtain a google custom search API key?](http://stackoverflow.com/questions/7489862/direct-link-to-obtain-a-google-custom-search-api-key)

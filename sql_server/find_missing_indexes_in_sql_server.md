@@ -1,4 +1,4 @@
-# Find missing indexes in sql server
+﻿# Find missing indexes in sql server
 
 Just as you can find unused indexes in sql server, so you can find 'missing' indexes. And similarly there are some caveats that come with blindly accepting what the clever queries tell you.
 
@@ -7,7 +7,7 @@ Identifying that an index is missing is just part of the journey. You also need 
 But caveats aside here are the CODES.
 
 
-	SELECT 
+	SELECT
 		db.[name] AS [DatabaseName]
 		,schema_name([objects].[schema_id]) + '.' + [objects].[name] AS [Table]
 		,gs.[unique_compiles] AS [UniqueCompiles]
@@ -33,7 +33,7 @@ But caveats aside here are the CODES.
 				THEN '_'
 			ELSE ''
 			END + REPLACE(REPLACE(REPLACE(ISNULL(id.[inequality_columns], ''), ', ', '_'), '[', ''), ']', '') + '_' + LEFT(CAST(NEWID() AS [nvarchar](64)), 5) + ']' + '
-			ON 
+			ON
 			' + id.[statement] + ' (' + ISNULL(id.[equality_columns], '') + CASE
 			WHEN id.[equality_columns] IS NOT NULL
 				AND id.[inequality_columns] IS NOT NULL

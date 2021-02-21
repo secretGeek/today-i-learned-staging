@@ -1,4 +1,4 @@
-# Convert object to dynamic
+﻿# Convert object to dynamic
 
 When you want an object that is not [dynamic](version4.md#dynamic-binding) to take on dynamic capabilities, this extension method is your friend:
 
@@ -56,4 +56,3 @@ When you want an object that is not [dynamic](version4.md#dynamic-binding) to ta
 
 - [Csharp version 4 adds the "Dynamic" feature](version4.md#dynamic-binding)
 - [Linqpad Dump Dynamic](../linqpad\dump_dynamic.md)
-

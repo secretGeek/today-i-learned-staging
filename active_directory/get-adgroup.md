@@ -1,4 +1,4 @@
-# Get-AdGroup in powershell via RSAT (Remote server administration tools)
+﻿# Get-AdGroup in powershell via RSAT (Remote server administration tools)
 
 Traditionally I use some C# Linq files to query active directory, but they're a bit of a mess. I was trying to get some help online and most articles talked about using powershell cmdlets like `Get-ADGroup`
 

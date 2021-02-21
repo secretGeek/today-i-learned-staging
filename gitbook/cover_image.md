@@ -1,4 +1,4 @@
-# Adding a cover image to a gitbook
+﻿# Adding a cover image to a gitbook
 
 ## To include a cover image (used in the pdf and epub outputs)
 

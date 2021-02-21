@@ -1,4 +1,4 @@
-# Test if windows is using light/dark theme
+﻿# Test if windows is using light/dark theme
 
 This is not yet battle tested
 
@@ -12,11 +12,11 @@ This is not yet battle tested
 		{
 			return false;
 		}
-		
+
 		if (int.TryParse(value.ToString(), out int result)){
 			return result == 0;
 		}
-		
+
 		return false;
 	}
 

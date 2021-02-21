@@ -1,4 +1,4 @@
-# Register a domain with zoho (aka DNS Text records at digitalocean such as DKIM)
+﻿# Register a domain with zoho (aka DNS Text records at digitalocean such as DKIM)
 
 I signed up to Zoho, following this guide:
 
@@ -22,7 +22,7 @@ There were a lot of DNS records to configure.
 
 Two MX records. Each with a different priority.
 
-It says 
+It says
 
 > You must remove (delete) any other MX records other than the above 2 records. In case you have previous providers MX records, then you may not receive emails in Zoho.
 
@@ -53,13 +53,13 @@ For example;
 	TXT - Host/Name
 	zoho._domainkey.nimbletext.com
 
-	TXT Value	
+	TXT Value
 	v=DKIM1; k=rsa; p=nwjcnevnevnckjNskjdnckJNA...(snip)...cjsnkNEWJWEKJNCkewmckwenc
-	
-	
+
+
 Main thing I want to show is that when adding a TXT record to DNS at Digital Ocean (such as the DKIM text record) you don't need to include the domain name, because digital ocean automatically adds it for you.
 
-(And it doesn't matter if you do or don't include the trailing dot -- digital ocean does that for you automatically) 
+(And it doesn't matter if you do or don't include the trailing dot -- digital ocean does that for you automatically)
 
 Hopefully this picture can demonstrate what I'm talking about:
 
@@ -78,7 +78,6 @@ When doing this same DKIM configuration at Arvixe, I pasted in the whole TXT Hos
 
 I clicked "verify" (over in zoho) and it verified successfully.
 
-...so they have done the opposite of digitalocean. 
+...so they have done the opposite of digitalocean.
 
 After finishing with the DKIM bit, hit "Return to Domain setup" and continue.
-

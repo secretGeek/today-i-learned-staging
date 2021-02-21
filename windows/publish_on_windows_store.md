@@ -1,4 +1,4 @@
-# Publishing onto the Windows Store
+﻿# Publishing onto the Windows Store
 
 Start reading here:
 
@@ -12,7 +12,7 @@ Steps:
 	- "A developer account lets you publish apps on all platforms" (i.e. Windows and XBox, and I guess Pocket PC, MSPhone and Zune too? ha ha ha.)
 	- Pick an Individual (AUD$21) *or* a Company (AUD$110) account type. (See [fees in different areas](https://docs.microsoft.com/en-us/windows/uwp/publish/account-types-locations-and-fees?redirectedfrom=MSDN#developer-account-and-app-submission-markets)) (Account types are discussed below)
 	- The price shown is a *one-time registration fee and no renewal is required*.
-	
+
 
 ## Show I register as a company or an individual?
 
@@ -33,5 +33,3 @@ From the [Store Policies](https://docs.microsoft.com/en-us/windows/uwp/publish/s
 > **10.8.3** &mdash; If your product requires financial account infot
 
 If someone elses product violates your trademarks of copyright, the [process is described here.](https://docs.microsoft.com/en-us/windows/uwp/publish/trademark-and-copyright-protection)
-
-

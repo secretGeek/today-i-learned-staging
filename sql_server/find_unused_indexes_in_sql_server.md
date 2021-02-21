@@ -1,4 +1,4 @@
-# Finding unused indexes in sql server
+﻿# Finding unused indexes in sql server
 
 Before finding (and eliminating) unused indexes, you have to know that sometimes primary keys and uniqueness indexes are not specifically used as indexes (i.e. they may not be involved in seeks/scans or lookups) but they might be useful in assisting the query planner to make wise decisions. So please don't blindly delete `PK`s or uniqueness constraints based off the results of looking at 'unused' indexes!
 
@@ -23,7 +23,7 @@ Before finding (and eliminating) unused indexes, you have to know that sometimes
 		indexes.is_primary_key = 0		-- Excludes primary keys as described above
 	AND indexes.is_unique = 0			-- Excludes unique constarints are described above
 	ORDER BY
-		(stats.user_seeks + stats.user_scans + stats.user_lookups) asc,  
+		(stats.user_seeks + stats.user_scans + stats.user_lookups) asc,
 		stats.user_updates DESC
 
 

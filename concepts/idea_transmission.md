@@ -1,8 +1,8 @@
-# The Wisdom or Madness of Crowds
+﻿# The Wisdom or Madness of Crowds
 
 
-> A healthy society needs a sweetspot of bonds within groups and bridges between groups. 
-> 
+> A healthy society needs a sweetspot of bonds within groups and bridges between groups.
+>
 > -- [Nicky Case](https://ncase.me/crowds/)
 
 

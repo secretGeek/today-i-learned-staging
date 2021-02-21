@@ -1,4 +1,4 @@
-# Git config
+﻿# Git config
 
 Config -- from least specific to most specific, is stored in these locations:
 

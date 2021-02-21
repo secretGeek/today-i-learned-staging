@@ -1,4 +1,4 @@
-# Ensure String Is an Integer
+﻿# Ensure String Is an Integer
 
 You have a `varchar` or an `nvarchar` but you need to make sure it is an integer (not just a number)
 
@@ -30,7 +30,7 @@ Note that this allows positive *and negative* integers.
 
 
 To further check if a string is a *positive* integer.
-	
+
 	Declare @id nvarchar(50) = '-120'
 	print @id
 	if isnumeric(@Id + '.0e0') != 1 OR Cast(@id as Int) < 0

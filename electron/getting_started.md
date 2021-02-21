@@ -1,4 +1,4 @@
-# Getting started with electron
+﻿# Getting started with electron
 
 What is it?
 
@@ -211,4 +211,3 @@ Please watch this 9 min video. https://m.youtube.com/watch?v=ojX5yz35v4M
 
 
 ## end of historical note
-

@@ -1,4 +1,4 @@
-# Sapiens: A brief history of HumanKind - Yuval Noah Harari
+﻿# Sapiens: A brief history of HumanKind - Yuval Noah Harari
 
 Physics - Chemistry - Biology - Cultures
 
@@ -41,8 +41,3 @@ Science got a huge boost from empire building.  Recognizing that science and tec
 
 
 Modern wars are advanced by technology. The stalemate of the trenches of wwi was broken by technology: tanks, poisons, aerial bombardment
-
-
-
-
-

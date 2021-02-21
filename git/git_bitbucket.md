@@ -1,4 +1,4 @@
-# When creating a new git repo on bitbucket
+﻿# When creating a new git repo on bitbucket
 
 
    (go into the folder that you want to be the repository)
@@ -9,4 +9,3 @@
     git add *
     git commit . -m "funny comment"
     git push --set-upstream origin master
-

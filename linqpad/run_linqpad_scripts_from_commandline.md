@@ -1,4 +1,4 @@
-# Run Linqpad scripts from the command-line
+﻿# Run Linqpad scripts from the command-line
 
 > LINQPad now ships with lprun.exe which offers a full command-line experience.
 

@@ -1,4 +1,4 @@
-# Why? Mario Livio
+﻿# Why? Mario Livio
 
 
 * Epistemic curiosity is the type Einstein had in abundance
@@ -11,7 +11,7 @@
 
 He started many more projects than he finished
 
-He was not well read (thankfully! As his experiments were not thus hampered by too many wrong ideas.) 
+He was not well read (thankfully! As his experiments were not thus hampered by too many wrong ideas.)
 
 He started by using science to improve his art but finally used art to improve his science.
 
@@ -26,7 +26,7 @@ Novelty can be mapped on these axes:
 
 Specific <---> diversive
 
-> A specific thing that once found will satisfy the seeking, or 
+> A specific thing that once found will satisfy the seeking, or
 >
 > Diversive: the ceaseless seeking to ward off boredom
 
@@ -75,5 +75,3 @@ Having filled it a new gap is thus made smaller and within reach - or we believe
 
 
 "Everywhere there is a source of food there's some form of life that finds it." Told to Feynman by his dad in relation to lice on birds whose excretions caused bacteria to blossom
-
-

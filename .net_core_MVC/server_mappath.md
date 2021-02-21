@@ -1,4 +1,4 @@
-# Server.MapPath
+﻿# Server.MapPath
 
 Well well well. This was certainly a fun thing to do back in the good old days wasn't it now:
 
@@ -21,9 +21,6 @@ Instead we injects a hosting environment...
 
 Then in our method we can very simply say:
 
-    
+
     var rootPath = _hostingEnvironment.WebRootPath;
     var parentPath = Directory.GetParent(rootPath).FullName;
-    
-              
-  

@@ -1,4 +1,4 @@
-# How to recover when a rebase goes wrong?
+﻿# How to recover when a rebase goes wrong?
 
 Summary:
 
@@ -259,4 +259,3 @@ The push seemed to freeze for a while.... I received an email at the same time a
     adding manifests
     adding file changes
     added 6 changesets with 311 changes to 290 files
-

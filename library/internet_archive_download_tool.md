@@ -1,4 +1,4 @@
-# The Internet Archive Download Tool
+﻿# The Internet Archive Download Tool
 
 I don't know where else to write about this... the internet archive has a nifty download tool
 
@@ -48,6 +48,6 @@ https://twitter.com/textfiles/status/1224011624933134336
 
 
 
-## Source 
+## Source
 
 * [](https://archive.org/services/docs/api/internetarchive/cli.html)

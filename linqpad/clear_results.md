@@ -1,4 +1,4 @@
-# Clear results in Linqpad
+﻿# Clear results in Linqpad
 
 As easy as:
 

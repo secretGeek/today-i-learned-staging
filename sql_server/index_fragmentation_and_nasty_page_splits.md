@@ -1,4 +1,4 @@
-# Index fragmentation and nasty page splits
+﻿# Index fragmentation and nasty page splits
 
 
 I learned most about index fragmentation and 'nasty' page splits from Paul Randal in his pluralsight course '[SQL Server: Index Fragmentation Internals, Analysis, and Solutions](https://app.pluralsight.com/library/courses/sqlserver-index-fragmentation-internals-analysis-solutions/table-of-contents)'
@@ -108,4 +108,3 @@ From [Resolve index fragmentation by reorganizing or rebuilding indexes](https:/
 > -	The SQL Server Maintenance Solution is available on [GitHub](https://github.com/olahallengren/sql-server-maintenance-solution).
 >
 > &mdash;from [Ola Hallengren's SQL Server Maintenance Solution](https://ola.hallengren.com/)
-

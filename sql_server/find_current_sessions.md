@@ -1,4 +1,4 @@
-# Find current sessions/users/who is locking
+﻿# Find current sessions/users/who is locking
 
 
 I received this example came from Samir Elmallah and it's based on something from [stackoverflow here](https://dba.stackexchange.com/a/103337/187477)
@@ -42,11 +42,11 @@ And to see transaction locks on a particular object
 
 	SELECT * FROM sys.dm_tran_locks
 	  WHERE resource_database_id = DB_ID()
-	  AND resource_associated_entity_id = OBJECT_ID(N'[MySchema].[MyTable]')	
-	  
-	  
-	  
-	  
+	  AND resource_associated_entity_id = OBJECT_ID(N'[MySchema].[MyTable]')
+
+
+
+
 And to see all of who is using this server we have the old classic:
 
 
@@ -55,4 +55,3 @@ And to see all of who is using this server we have the old classic:
 And you can add a username as a parameter, for example:
 
 	sp_who 'TheDomain\TheUsername'
-

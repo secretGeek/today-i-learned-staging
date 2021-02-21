@@ -1,4 +1,4 @@
-# Pluralization Helper
+﻿# Pluralization Helper
 
 ...as an extension to integer...
 

@@ -1,4 +1,4 @@
-# Remove accent
+﻿# Remove accent
 
 When 'slugifying' a string (and when 'canonicalizing' a username) i like to remove accents, and this was sufficient in classic .net:
 
@@ -14,18 +14,18 @@ When 'slugifying' a string (and when 'canonicalizing' a username) i like to remo
 
 But in .net core it crashed with:
 
-   
+
 > 'Cyrillic' is not a supported encoding name.
 
-    
+
 The magic incantation was to add:
 
     Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
 To wit:
-    
+
     //using System.Text
-    
+
     public static string RemoveAccent(this string txt)
     {
         Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
@@ -46,7 +46,6 @@ And thus we end up with our slugify extension method working again:
         // max length
         str = str.Substring(0, Math.Min(maxLength, str.Length));
         // space to hyphens
-        str = str.Replace(" ", "-"); 
+        str = str.Replace(" ", "-");
         return str;
     }
-

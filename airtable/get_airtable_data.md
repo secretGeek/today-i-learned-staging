@@ -1,4 +1,4 @@
-# To Get AirTable Data (in Powershell)
+﻿# To Get AirTable Data (in Powershell)
 
 Adam Bertram ('Adam the Automator') has written a [PSAirTable Module](https://www.powershellgallery.com/packages/PSAirTable/1.0.12), that is easy to use.
 
@@ -38,12 +38,12 @@ Source here: <https://github.com/adbertram/PSAirTable>
 Previously I could find a record in the `Todo` table of the `Projects` base, with:
 
 	Find-Record Projects Todo
-	
+
 ...but now it errors with:
 
 
 	The base name [projects] could not be found. Ensure it exists by running (Get-PSAirTableConfiguration).Bases
-	
+
 
 I have my API Key from 	`airtable.com/account`
 
@@ -64,4 +64,3 @@ Tried:
 	Find-Record Projects Todo
 
 ...and it works now.
-

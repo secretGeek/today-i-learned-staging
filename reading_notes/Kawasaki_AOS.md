@@ -1,4 +1,4 @@
-# Art of the start
+﻿# Art of the start
 
 
 
@@ -17,7 +17,3 @@ Expertise
 Opportunity
 
 Passion
-
-
-
-

@@ -1,4 +1,4 @@
-# Install yarn on windows 2020
+﻿# Install yarn on windows 2020
 
 Tired of errors from `npm`, i now want errors from `yarn` too.
 
@@ -8,7 +8,7 @@ Tired of errors from `npm`, i now want errors from `yarn` too.
 
 I have version `14.4.0`
 
-Install if needed, or upgrade. 
+Install if needed, or upgrade.
 
 (e.g. [Install node on windows subsystem for linux / ubuntu](../node/install_node_on_ubuntu_wsl.md));
 
@@ -35,16 +35,16 @@ Ah... I think that worked.
 
 
 Start a package
-	
+
 	yarn init
 
 
 Install what needs installing
 
-	yarn 
+	yarn
 	yarn install
-	
-	
+
+
 Add a package (pick a technique..)
 	yarn add [package]
 	yarn add [package]@[version]

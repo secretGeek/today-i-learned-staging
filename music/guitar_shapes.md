@@ -1,4 +1,4 @@
-# Some guitar shapes
+﻿# Some guitar shapes
 
 Here's an empty fretboard. (Only up to the 12th fret)
 
@@ -41,16 +41,16 @@ Here's a simple spare fretbord, with thicker strings shown thick:
     E|=============
 
 And another with some frets drawn in
-    
-      0   1   2   3 
+
+      0   1   2   3
     e |---|---|---|--
     b |---|---|---|--
     g |---|---|---|--
     d |---|---|---|--
     a |---|---|---|--
     E |---|---|---|--
-    
-    
+
+
 Here's a place where you can play A pentatonic minor. You can shift that pattern up or down the neck.
 I've marked the root note as R and the V note as capital X.
 I call this the 'up' pattern, because it's upward of the root note.
@@ -78,7 +78,7 @@ I think of this as the 'down' pattern.
     e|---|---|--x|---|--R|---|---|---|---|---|---|---|
 
 ^^ This is also known as 'Position 5'
-    
+
 Within those scales/shapes you can add two notes to take it to A heptatonic minor. See the 'o's below.
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
@@ -111,7 +111,7 @@ You can also add a classic 'blue' note to the up pattern like so (marked as 'b')
 
 The blue note is often played in passing (well, that's how I play it anyway), so I've indicated a few extra locations of this note, which make it easier to slide over this brief note.
 
-This is just how I think on a fretboard. 
+This is just how I think on a fretboard.
 
 Here is a classic way to travel up the board, moving through more than one shape.
 
@@ -133,7 +133,7 @@ Here's one part of the fretboard which forms a 'classic' shape, not mentioned ab
     a|---|---|---|---|---|---|---|---|---|---|---|---|
     e|---|---|---|---|---|---|---|---|---|---|---|---|
 
-    
+
 Some blues musicians will noodle around on just those five locations for an entire solo.
 
 (And of course you could shift these patterns up or down to transpose to a different key. This is shown in A)

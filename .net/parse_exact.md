@@ -1,4 +1,4 @@
-# ParseExact (and TryParseExact) 
+﻿# ParseExact (and TryParseExact)
 
 I never remember the parameters for these methods, so here they are:
 

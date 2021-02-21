@@ -1,4 +1,4 @@
-# How to call native commands from .net core
+﻿# How to call native commands from .net core
 
 
 SOOOO easy!
@@ -17,6 +17,6 @@ SOOOO easy!
 			}
 		}
 	}
-    
+
 
 No need for any extra references or anything.

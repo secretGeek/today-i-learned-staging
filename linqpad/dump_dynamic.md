@@ -1,4 +1,4 @@
-# How to "Dump()" a dynamic object in Linqpad
+﻿# How to "Dump()" a dynamic object in Linqpad
 
 Trying to .Dump() an expando or other dynamic object in Linqpad?
 

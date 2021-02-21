@@ -1,4 +1,4 @@
-# Uncomplicated Firewall... how do we set that up?
+﻿# Uncomplicated Firewall... how do we set that up?
 
 Just before (or immediately after) you've got nginx installed, it's time to think about getting a firewall in place.
 

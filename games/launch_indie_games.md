@@ -1,4 +1,4 @@
-# best places to launch indie games
+﻿# best places to launch indie games
 
 - [itch.io](https://itch.io/)
 - [steam indie tag](https://store.steampowered.com/tags/en/Indie/)
@@ -83,7 +83,7 @@
 ## history and related fields
 
 - BASIC and bedroom coders
-- shareware / freeware 
+- shareware / freeware
 - indie console games ?
 - board games
 

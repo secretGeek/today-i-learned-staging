@@ -1,4 +1,4 @@
-# Victor Frankl Man's Search for Meaning
+﻿# Victor Frankl Man's Search for Meaning
 
 
 
@@ -13,4 +13,3 @@ Meaning found via:
 Works and deed
 By experience of Love (human relations)
 By turning tragedy into triumph - by being proud of suffering (not chosen suffering: unavoidable suffering)
-

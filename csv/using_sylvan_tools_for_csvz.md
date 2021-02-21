@@ -55,7 +55,7 @@ I copied the resulting `.csvz` file to `.zip`:
 	Size:       319
 	Compressed: 596
 
-Now I'll inspect the output folder and see what we have....	
+Now I'll inspect the output folder and see what we have....
 
 	> cd .\output\
 	> tree /f
@@ -100,9 +100,9 @@ Awesome. It's guessed the types as `string` and `int`. True enough!
 I've added it to the [list of known tools for csvz](https://github.com/secretGeek/csvz#a-list-of-csvz-compliant-tools-and-libraries). Nice work Mark!
 
 
-	
+
 ## Source(s)
- 
+
 - [Sylvan.Data.CsvZip](https://github.com/MarkPflug/Sylvan.Data.CsvZip)
 
 ## See also

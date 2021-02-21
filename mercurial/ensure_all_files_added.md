@@ -1,4 +1,4 @@
-# Ensure all files are added before a commit
+﻿# Ensure all files are added before a commit
 
 In order to ensure all files have been added (or .hgignored) before going ahead with a commit, add the following pre-transaction commit hook to your [mercurial.ini](mercurial_ini.md) file
 
@@ -11,4 +11,3 @@ But i've had to disable that because it fails if i have a local commit that adde
 ## See also
 
  * [The little known beauty of .ensure files](https://secretgeek.net/ensure)
-

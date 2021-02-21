@@ -1,4 +1,4 @@
-# Side Hustle - Chris Guillebeau
+﻿# Side Hustle - Chris Guillebeau
 
 
 
@@ -101,5 +101,3 @@ Number 2  most important elements
 
 
 Bill Gates: "Headlines are misleading. Bad news is a headline but gradual improvement is not."
-
-

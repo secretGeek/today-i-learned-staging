@@ -1,4 +1,4 @@
-# Need a shortcut that inserts the current date/time?
+﻿# Need a shortcut that inserts the current date/time?
 
 (If you keep a journal -- recommended! -- or a todo file -- also recommended! -- then you'll need this.)
 

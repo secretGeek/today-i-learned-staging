@@ -1,4 +1,4 @@
-# Select top N where N is a variable
+﻿# Select top N where N is a variable
 
 A lot of kids don't know this so it's worth writing down.
 

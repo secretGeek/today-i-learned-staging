@@ -1,4 +1,4 @@
-# Previewing markdown from within VS Code
+﻿# Previewing markdown from within VS Code
 
 > Open any Markdown file and press Ctrl+Shift+V in
 >the editor to toggle between the code and a

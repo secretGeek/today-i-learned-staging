@@ -1,4 +1,4 @@
-# Getting started with typescript
+﻿# Getting started with typescript
 
 
     npm install -g typescript

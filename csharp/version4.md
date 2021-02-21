@@ -1,4 +1,4 @@
-# C# Version 4
+﻿# C# Version 4
 
 See [what's new in C#4](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-40)
 

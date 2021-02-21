@@ -1,12 +1,12 @@
-# Getting started with awk
+﻿# Getting started with awk
 
 
 	$ awk 'BEGIN { print 42 }'
 	42
-	
+
 	$ awk 'BEGIN { print "Hello World" }'
-	Hello World	
-	
+	Hello World
+
 Okay - a nice start.
 
 Bah, lemme push it a bit....
@@ -29,13 +29,13 @@ Bah, lemme push it a bit....
 	$ awk 'BEGIN { print "Hello" 42 "Hello"}'
 	Hello42Hello
 	$ awk 'BEGIN { print; print ;print}'
-	
+
 (3 empty lines).
 
 
 Ok, ready to move on now.
 
-	
+
 In the following examples i'll be working with a file, called `data.txt`, that contains:
 
 	Beth    4.00    0
@@ -56,7 +56,7 @@ From there, we can pipe the input to `awk`...
 	Kathy
 	Mark
 	Mary
-	Susie	
+	Susie
 
 Or can have `awk` load the file, for example:
 
@@ -70,7 +70,7 @@ Or can have `awk` load the file, for example:
 
 
 
-	
+
 ## References
 
 	* [A Scripter's Notes: awk](https://scripter.co/notes/awk)

@@ -1,28 +1,28 @@
-# Jekyll on Windows
+﻿# Jekyll on Windows
 
 Use this guide:
-    
+
     <https://jekyllrb.com/docs/windows/>
-    
+
 ([Instructions from Dave Burela](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/))
 
 
     Start-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAs
     choco install ruby -y
-    
+
     (close that command window)
-    
+
     Start-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAs
     gem install jekyll
-    
+
     jekyll new myblog
     cd myblog
     jekyll serve
-    
+
     (browse to http://127.0.0.1:4000/ or http://localhost:4000)
-    
-    
-edit _config.yml.    
+
+
+edit _config.yml.
 
 
 
@@ -32,14 +32,14 @@ That led me here <https://help.github.com/articles/redirects-on-github-pages/> w
 
     gems:
       - jekyll-redirect-from
-    
+
 
 And then, in a post, add a note about the redirects it accepts...
 
 ---
 redirect_from: "/foo"
 ---
-    
+
 Which resulted in this error message:
 
 > Dependency Error: Yikes! It looks like you don't have jekyll-redirect-from or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-redirect-from' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/!
@@ -48,9 +48,9 @@ At which time I realised I'd better install not just that gem... but all the gem
 
     gem install github-pages
 
-    
-    
-    
+
+
+
 Which produced this output:
 
     Fetching: listen-3.0.6.gem (100%)
@@ -213,15 +213,14 @@ Which produced this output:
     Parsing documentation for github-pages-88
     Installing ri documentation for github-pages-88
     Done installing documentation for listen, jekyll-sass-converter, net-dns, public_suffix, ethon, typhoeus, addressable, multipart-post, faraday, sawyer, octokit, github-pages-health-check, mini_portile2, pkg-config, nokogiri, i18n, thread_safe, tzinfo, activesupport, html-pipeline, gemoji, jemoji, jekyll-mentions, jekyll-redirect-from, jekyll-sitemap, jekyll-feed, jekyll-gist, jekyll-paginate, coffee-script-source, execjs, coffee-script, jekyll-coffeescript, jekyll-seo-tag, jekyll-github-metadata, terminal-table, github-pages after 55 seconds
-    36 gems installed    
-    
+    36 gems installed
 
-Now when I 
 
-    jekyll serve 
+Now when I
 
-I see this message:    
-  
+    jekyll serve
+
+I see this message:
+
     Please add the following to your Gemfile to avoid polling for changes:
-      gem 'wdm', '>= 0.1.0' if Gem.win_platform?    
-
+      gem 'wdm', '>= 0.1.0' if Gem.win_platform?

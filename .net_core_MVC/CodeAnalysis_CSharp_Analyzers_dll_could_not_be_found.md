@@ -1,10 +1,10 @@
-# Microsoft.CodeAnalysis.CSharp.Analyzers.dll could not be found
+﻿# Microsoft.CodeAnalysis.CSharp.Analyzers.dll could not be found
 
 This was frustrating and inexplicable (so far)
 
 Asp.net core 2.1 project (that had been upgraded from 1.0) started to fail with:
 
-	\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll 
+	\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll
 	could not be found
 
 There were online reports about the same problem, but I couldn't understand what they were talking about.
@@ -13,9 +13,9 @@ This had occurred completely spontaneously, as far as I could tell.
 
 I searched the code base for any reference to
 
-	"Microsoft.CodeAnalysis.CSharp" 
+	"Microsoft.CodeAnalysis.CSharp"
 
-And the only one I found was in the file 
+And the only one I found was in the file
 
 	"obj\project.assets.json"
 
@@ -37,6 +37,3 @@ The bad one said:
 
 
 Another time I had this error and the assets file seemed to already have what I considered "the good one". In that case a "clean and rebuild" seemed to do the trick.
-
-
-

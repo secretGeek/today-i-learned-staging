@@ -1,4 +1,4 @@
-# Useful minecraft scripts (in python)
+﻿# Useful minecraft scripts (in python)
 
 
 
@@ -10,13 +10,13 @@ Purpose: carve out a 3 dimensional box of air, centered on your current location
 
 ...to create a long, wide basement. (Parameters are X Y and Z dimensions.
 
-Or 	`/py aircube3 50 3 3` to create a long tunnel in the X direction, 
-and: `/py aircube3 3 3 50` to create a long tunnel in the Z direction, 
-and:  `/py aircube3 3 50 3` to create a tall tube of air Y direction, 
+Or 	`/py aircube3 50 3 3` to create a long tunnel in the X direction,
+and: `/py aircube3 3 3 50` to create a long tunnel in the Z direction,
+and:  `/py aircube3 3 50 3` to create a tall tube of air Y direction,
 
 Here's the file `aircube3.py`:
 
-	from mine import * 
+	from mine import *
 	from sys import argv
 	mc = Minecraft()
 	mc.postToChat ("Placing a cube of air just for you...")
@@ -39,7 +39,7 @@ Put lights all over the place, so you can see what's going on. Useful in caves.
 
 (Alternative technique is to use a `night vision` potion, but I still prefer this little script)
 
-Use it like this: 
+Use it like this:
 	/py lightup
 
 Here's the script `lightup.py`

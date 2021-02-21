@@ -64,7 +64,3 @@ What if i had syntax highlighting for these different syntaxes
 Or ligatures and highlighting
 
 The whole row could be colored
-
-
-
-

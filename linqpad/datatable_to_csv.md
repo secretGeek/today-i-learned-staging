@@ -1,4 +1,4 @@
-# Data Table to CSV
+﻿# Data Table to CSV
 
 
 Convert an array of objects to CSV is one of the classic activities.
@@ -37,7 +37,7 @@ Here's a workable method for converting a `System.Data.DataTable` to CSV.
 		return result.ToString();
 	}
 
-	public static string EscapeAndQualifyAsNeeded(string value, string fieldSeparator = ",", string recordSeparator = "\r\n", string fieldQualifier = "\"") 
+	public static string EscapeAndQualifyAsNeeded(string value, string fieldSeparator = ",", string recordSeparator = "\r\n", string fieldQualifier = "\"")
 	{
 		if (value.Contains(fieldSeparator) || value.Contains(recordSeparator) || value.Contains(fieldQualifier) || value.StartsWith(" ") || value.EndsWith(" "))
 		{
@@ -53,12 +53,12 @@ Common mistakes people make are:
 
 1. Don't do any escaping or qualifying and end up with unparseable CSV.
 2. Qualify *every* field, whether it needs to be qualified or not.
-3. Trim fields before qualifying. That's changing the data, and should only be done if its explicitly needed. (Some people hide steganographic codes in trailing whitespace... this would eradicate the message.)     	 		     
+3. Trim fields before qualifying. That's changing the data, and should only be done if its explicitly needed. (Some people hide steganographic codes in trailing whitespace... this would eradicate the message.)
 4. Only check for embedded fieldSeparators, don't check for embedded record separators, etc.
 
 
 ## Sponsor
-    
+
 Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transforming needs.
 
 ## External link:

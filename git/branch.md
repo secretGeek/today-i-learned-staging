@@ -1,4 +1,4 @@
-# Branching in git
+﻿# Branching in git
 
 
 ## 1. create a new branch
