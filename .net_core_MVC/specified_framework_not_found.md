@@ -58,7 +58,7 @@ I think I want to install that older one, the LTS version (1.0.3)
 
 So I run this:
 
-    sudo apt-get install dotnet-dev-1.0.0-preview2-003156
+	sudo apt-get install dotnet-dev-1.0.0-preview2-003156
 
 
 After that it seems to work okay.

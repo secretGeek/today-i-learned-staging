@@ -26,9 +26,11 @@ Wonder what aliases exist for a command (or commands)? add the `-def` parameter 
 
 in bash, an alias can include parameters. Not so in PowerShell. It's just an abbreviation.
 
-set-alias tf "tree /f" # this doesn't work! (bash allows that kind of thing)
+	set-alias tf "tree /f" # this doesn't work!
+	
+([bash](../linux/bash.md) allows that kind of thing, as does [git](../git/alias.md))
 
-To create an alias with parameters you're advised to create a tiny function in your `$PROFILE`.
+To create an alias with parameters you're advised to instead create a tiny function in your `$PROFILE`.
 
 e.g.
 
@@ -37,3 +39,9 @@ e.g.
 	}
 
 ...and over time: grow it into a cmdLet and eventually put it into a module.
+
+## See also
+
+- [bash](../linux/bash.md)
+- [git alias](../git/alias.md)
+- [Command Precedence in Powershell](powershell_precedence_of_commands_aliases.md)
