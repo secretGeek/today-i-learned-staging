@@ -1,26 +1,30 @@
 ﻿# Command Precedence in Powershell
 
-PowerShell uses the following precedence order when it runs commands for all items loaded in the current session:
+PowerShell uses the following precedence rules when it runs commands for all items loaded in the current session:
 
-Powershell decides what to run based on this precedence:
+Powershell decides what to run based on this order of precedence:
 
 - `Alias`
 - `Function`
 - `Cmdlet`
-- external executables, on windows ordered like:
-  - `.com`
-  - `.exe`
-  - `.bat`
-  - `.cmd`
+- External executables, on Windows in this order:
+	- `.com`
+	- `.exe`
+	- `.bat`
+	- `.cmd`
 
 If you type 'doit' at a prompt in powershell, it will look for:
 
-- An `alias` called `go`
-- A function, `go`
-- A cmdLet called `go`
-- An exectuable on the path called `go.com`
-- An exectuable on the path called `go.exe`
-- An batch file on the path called `go.bat`
-- An batch file on the path called `go.cmd`
+- An `alias` called `doit`
+- A function, `doit`
+- A cmdLet called `doit`
+- An exectuable on the path called `doit.com`
+- An exectuable on the path called `doit.exe`
+- An batch file on the path called `doit.bat`
+- An batch file on the path called `doit.cmd`
 
 ...and it will run the first one it finds.
+
+## See also
+
+- [Alias: a guide to powershell and aliases](alias.md)

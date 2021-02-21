@@ -4,7 +4,7 @@
 
 	set-alias -name gito -value git_off
 
-## To check an alias:
+## To Check an alias:
 
 	get-command *cls*
 
@@ -27,7 +27,7 @@ Wonder what aliases exist for a command (or commands)? add the `-def` parameter 
 in bash, an alias can include parameters. Not so in PowerShell. It's just an abbreviation.
 
 	set-alias tf "tree /f" # this doesn't work!
-	
+
 ([bash](../linux/bash.md) allows that kind of thing, as does [git](../git/alias.md))
 
 To create an alias with parameters you're advised to instead create a tiny function in your `$PROFILE`.
