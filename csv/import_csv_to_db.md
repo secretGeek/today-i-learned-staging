@@ -1,4 +1,4 @@
-# Import CSV file to a Database, quickly
+﻿# Import CSV file to a Database, quickly
 
 
 > Challenge: you have a csv file and you need to import it into a new table in a database. You have 5 mins to get it done. What tools do you use?
@@ -11,17 +11,17 @@ Below are many different solutions to this common problem, for a variety of data
 
 ## Table of contents:
 
- - [Any database with any OS](#any-database-with-any-os)
-   - [Some brute force approaches (common!)]
- - [Any database with Windows](#any-database-with-windows)
- - [Any Database with MacOS](#any-database-with-macos)
- - [MS SQL Server Specific](#ms-sql-server-specific)
- - [SQLite specific](#sqlite-specific)
- - [MySQL specific](#mysql-specific)
- - [Postgresql specific](#postgresql-specific)
- - [Oracle specific](#oracle-specific)
- - [Hadoop specific](#hadoop-specific)
- - [Alternative: Just treat the CSV as SQL](#alternative-just-treat-the-csv-as-sql)
+- [Any database with any OS](#any-database-with-any-os)
+  - [Some brute force approaches (common!)]
+- [Any database with Windows](#any-database-with-windows)
+- [Any Database with MacOS](#any-database-with-macos)
+- [MS SQL Server Specific](#ms-sql-server-specific)
+- [SQLite specific](#sqlite-specific)
+- [MySQL specific](#mysql-specific)
+- [Postgresql specific](#postgresql-specific)
+- [Oracle specific](#oracle-specific)
+- [Hadoop specific](#hadoop-specific)
+- [Alternative: Just treat the CSV as SQL](#alternative-just-treat-the-csv-as-sql)
 
 
 ## Any database with any OS
@@ -33,16 +33,17 @@ Below are many different solutions to this common problem, for a variety of data
 		engine = create_engine('connection string')
 		df = pandas.read_csv("path/to.csv")
 		df.to_sql("table_name", engine)
+
 - "R"
 
 	Via [Scott Stanfield:](https://twitter.com/seesharp/status/1179569651119874048?s=20)
 
-	> Load in R with data.table fread() method. It'll impute the data types...gets you 80% of the way there. 
+	> Load in R with data.table fread() method. It'll impute the data types...gets you 80% of the way there.
 	![R data.table fread()](R_datatable_fread.jpg)
 - [csv2db](https://github.com/csv2db/csv2db) &mdash; "The CSV command line loader."
-- [csvsql from csvkit](https://csvkit.readthedocs.io/en/1.0.2/scripts/csvsql.html)	
+- [csvsql from csvkit](https://csvkit.readthedocs.io/en/1.0.2/scripts/csvsql.html)
+		csvsql --db postgresql:///test --tables dogideas --insert data/pets/dogideas.csv
 
-       csvsql --db postgresql:///test --tables dogideas --insert data/pets/dogideas.csv
 - [NimbleText](https://nimbletext.com) &mdash; [Generate SQL Insert Statements with NimbleText (web version)](https://nimbletext.com/HowTo/GenerateInsert)
 - [DBeaver](https://dbeaver.io/) &mdash; [Importing a CSV into a database using DBeaver](https://justnumbersandthings.com/post/2018-06-12-dbeaver-import-csv/)
 - [Datagrip: import/export](https://www.jetbrains.com/datagrip/features/importexport.html) &mdash; "There is a dedicated UI for importing DSV (CSV and TSV) files to the database."
@@ -55,7 +56,7 @@ Below are many different solutions to this common problem, for a variety of data
 - vim, "A combination of macros, regex, and standard commands that change each line to an insert statement." (via [OJ](https://twitter.com/TheColonial/status/1180595464535601155?s=20))
 - (Any editor), use search/replace (perhaps with regular expressions) to turn the data into SQL
 - (Any spreadsheet), write formulae that combine the data together to turn the data into SQL, "`="('" + A1 + "','" + A2...`" etc.`
-- [Automate the search/replace approach with NimbleText](https://nimbletext.com/Live/-63852033/) 
+- [Automate the search/replace approach with NimbleText](https://nimbletext.com/Live/-63852033/)
 
 		$ONCE
 		CREATE TABLE Contacts
@@ -73,19 +74,19 @@ Below are many different solutions to this common problem, for a variety of data
 
 ## Any database with Windows
 
- - [LinqPad](https://www.linqpad.net/) &mdash; [CSV to IEnumerable (or Array) in Linqpad](../linqpad/csv_to_array.md)
- - Microsoft Log Parser
+- [LinqPad](https://www.linqpad.net/) &mdash; [CSV to IEnumerable (or Array) in Linqpad](../linqpad/csv_to_array.md)
+- Microsoft Log Parser
 
-        Logparser -o sql -server 127.0.0.1 -database -createtable on "select * into newtable from C:\Apps\Logs\Logfile.log" 
+		Logparser -o sql -server 127.0.0.1 -database -createtable on "select * into newtable from C:\Apps\Logs\Logfile.log"
 
- - [Alteryx](https://www.alteryx.com) ($$$)
-    - drag in an `Input data`, point it at the csv file.
-    - (optional) drag in a `Select`, use it to configure the column types
-    - drag in an `Output data`, point it at the database (and set the table name)
-    - Run!
-	
- - [Generate SQL Insert Statements with NimbleText (desktop version)](https://nimbletext.com/HowTo/GenerateInsert)
-   
+- [Alteryx](https://www.alteryx.com) ($$$)
+	- drag in an `Input data`, point it at the csv file.
+	- (optional) drag in a `Select`, use it to configure the column types
+	- drag in an `Output data`, point it at the database (and set the table name)
+	- Run!
+
+- [Generate SQL Insert Statements with NimbleText (desktop version)](https://nimbletext.com/HowTo/GenerateInsert)
+
 	> The desktop version lets you use a "real" CSV parser that handles embedded delimiters/line breaks etc. Just switch on the `use qualifier` option under `tools` | `options`.
 
 
@@ -116,7 +117,7 @@ Below are many different solutions to this common problem, for a variety of data
 
 	If there are no header names in the csv, then find the column names and run:
 
-		create table mytable (header_a, header_b, header_c) 
+		create table mytable (header_a, header_b, header_c)
 
 	Next step (do this whether you needed the previous step or not)
 
@@ -127,9 +128,9 @@ Below are many different solutions to this common problem, for a variety of data
 
 - [Load Data Infile](http://www.mysqltutorial.org/import-csv-file-mysql-table/)
 
-		LOAD DATA INFILE 'c:/tmp/discounts.csv' 
-		INTO TABLE discounts 
-		FIELDS TERMINATED BY ',' 
+		LOAD DATA INFILE 'c:/tmp/discounts.csv'
+		INTO TABLE discounts
+		FIELDS TERMINATED BY ','
 		ENCLOSED BY '"'
 		LINES TERMINATED BY '\n'
 		IGNORE 1 ROWS;
@@ -145,7 +146,7 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
 
 		COPY dog_habits FROM '/home/user521/pets/dog_habits.csv' DELIMITER ',' CSV HEADER;
 
- - [psql \copy](https://www.postgresql.org/docs/current/app-psql.html) &mdash; use interactive psql commandline where file permissions are an issue 
+ - [psql \copy](https://www.postgresql.org/docs/current/app-psql.html) &mdash; use interactive psql commandline where file permissions are an issue
 
         psql -c "\copy sample FROM '/home/user521/pets/dog_habits.csv' WITH (FORMAT CSV)"
 

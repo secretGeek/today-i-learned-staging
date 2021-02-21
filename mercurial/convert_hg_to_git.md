@@ -1,4 +1,4 @@
-# Convert a mercurial repo to git
+﻿# Convert a mercurial repo to git
 
 The following is based on the technique from here: <https://stackoverflow.com/a/39906349> and it is relevant because it retains more than 1 branch.
 

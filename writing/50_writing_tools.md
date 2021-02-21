@@ -1,4 +1,4 @@
-# 50 Writing Tools
+﻿# 50 Writing Tools
 
 
 > I. Nuts and Bolts
@@ -13,7 +13,7 @@
 > Strong verbs create action, save words, and reveal the players.
 >
 > 4. Be passive-aggressive.
-> Use passive verbs to showcase the “victim” of action.
+> Use passive verbs to showcase the "victim" of action.
 >
 > 5. Watch those adverbs.
 > Use them to change the meaning of the verb.
@@ -48,19 +48,19 @@
 > Dig for the concrete and specific, details that appeal to the senses.
 >
 > 15. Pay attention to names.
-> Interesting names attract the writer ï¿½ and the reader.
+> Interesting names attract the writer &mdash; and the reader.
 >
 > 16. Seek original images.
-> Reject clichï¿½s and first-level creativity.
+> Reject cliches and first-level creativity.
 >
 > 17. Riff on the creative language of others.
 > Make word lists, free-associate, be surprised by language.
 >
 > 18. Set the pace with sentence length.
-> Vary sentences to influence the reader’s speed.
+> Vary sentences to influence the reader's speed.
 >
 > 19. Vary the lengths of paragraphs.
-> Go short or long — or make a “turn”– to match your intent.
+> Go short or long - or make a "turn" - to match your intent.
 >
 > 20. Choose the number of elements with a purpose in mind.
 > One, two, three, or four: Each sends a secret message to the reader.
@@ -107,15 +107,15 @@
 > Purposeful repetition links the parts.
 >
 > 34. Write from different cinematic angles.
-> Turn your notebook into a “camera.”
+> Turn your notebook into a "camera."
 >
 > 35. Report and write for scenes.
 > Then align them in a meaningful sequence.
 >
 > 36. Mix narrative modes.
-> Combine story forms using the “broken line.”
+> Combine story forms using the "broken line."
 >
-> 37. In short pieces of writing, don’t waste a syllable.
+> 37. In short pieces of writing, don't waste a syllable.
 > Shape shorter works with wit and polish.
 >
 > 38. Prefer archetypes to stereotypes.
@@ -133,7 +133,7 @@
 > Plan and write it first in your head.
 >
 > 42. Do your homework well in advance.
-> Prepare for the expected — and unexpected.
+> Prepare for the expected - and unexpected.
 >
 > 43. Read for both form and content.
 > Examine the machinery beneath the text.

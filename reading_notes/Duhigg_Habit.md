@@ -1,4 +1,4 @@
-# The power of habit Charles Duhigg
+﻿# The power of habit Charles Duhigg
 
 
 
@@ -10,7 +10,7 @@ Making coffee look out the window and see the pool is either green or has leaves
 
 ** Action **
 
-Think ðŸ¤” I'd better clean it
+Think... I'd better clean it
 
 
 
@@ -20,7 +20,7 @@ None. Feel guilty for a moment then shake it off.
 
 
 
-Changed this to.... well I can't drink this coffee until I empty the baskets or measure the levels and add what's needed or whatever.
+Changed this to... well I can't drink this coffee until I empty the baskets or measure the levels and add what's needed or whatever.
 
 
 

@@ -1,4 +1,4 @@
-# Use an Emoji as a favicon
+﻿# Use an Emoji as a favicon
 
 TL/DR;
 

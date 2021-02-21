@@ -1,4 +1,4 @@
-# Getting started making vscode extensions
+﻿# Getting started making vscode extensions
 
 
 You can scaffold a starting extension using `yo` (yeoman generator)

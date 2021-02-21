@@ -1,4 +1,4 @@
-# Using sylvan tools for csvz
+﻿# Using sylvan tools for csvz
 
 The first tool I've seen that supports the [csvz specification](https://github.com/secretGeek/csvz) is `csvz.exe` from [Sylvan.Data.CsvZip](https://github.com/MarkPflug/Sylvan.Data.CsvZip) by [Mark Pflug](https://markpflug.github.io/).
 
@@ -62,11 +62,11 @@ Now I'll inspect the output folder and see what we have....
 	Folder PATH listing for volume OS
 	Volume serial number is 9472-94B6
 	C:.
-	│   people.csv
-	│
-	└───_meta
-          columns.csv
-          tables.csv	
+	|		people.csv
+	|
+	+---_meta
+				columns.csv
+				tables.csv
 
 Look ^^  It even has a `_meta` subfolder with `columns.csv` and `tables.csv`
 

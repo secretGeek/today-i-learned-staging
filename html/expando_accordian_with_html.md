@@ -1,4 +1,4 @@
-# Making Expando/Accordian with Plain Html
+﻿# Making Expando/Accordian with Plain Html
 
 Here's something that escaped me for far too long.
 

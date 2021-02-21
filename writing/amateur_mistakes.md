@@ -1,4 +1,4 @@
-# Amateur Mistakes
+﻿# Amateur Mistakes
 
 To make a self-published book look like an amateur book, you don't have to break *all* these guidelines, any *one* will do.
 
@@ -35,7 +35,7 @@ A book is composed of two files: the interior file (which includes the book itse
  * consistent style of chapter headings, including capitalization rules, see [Title Case Converter](https://titlecaseconverter.com/)
  * pay attention to kerning of headings
  * orphan lines, orphan words
- * Instead of chapters called "chapter 1" — use Roman numerals and omit the word chapter
+ * Instead of chapters called "chapter 1" - use `Roman numerals` and omit the word "chapter"
 
 ## Header
 

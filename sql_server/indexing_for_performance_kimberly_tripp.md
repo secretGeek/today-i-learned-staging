@@ -1,4 +1,4 @@
-# Indexing for Performance by Kimberly Tripp
+﻿# Indexing for Performance by Kimberly Tripp
 
 This is a course I've been studying through Pluralsight:
 
@@ -79,13 +79,13 @@ Two stages:
 	
 			SELECT *
 			FROM sys.dm_db_index_physical_stats
-					(db_id(), object_id('Charge'), 1, NULL, ‘DETAILED’)
+					(db_id(), object_id('Charge'), 1, NULL, 'DETAILED')
 			go
 
 
 ## When *don't* you want a covering index?
 
-- Highly selective queries (returning a handful of records) do not need to be covered — as there are very few bookmark lookups performed. 
+- Highly selective queries (returning a handful of records) do not need to be covered - as there are very few bookmark lookups performed. 
 - `Select *` does not need to be covered as u can't cover it anyway. 
 
 
@@ -94,14 +94,14 @@ Useful example:
 
 We only  query error message when status = error 
 	 
-So have a filtered index on status = error and also error message (particularly if it’s left only comparisons)
+So have a filtered index on status = error and also error message (particularly if it's left only comparisons)
  
 - So small you can afford to include extra columns 
 
-- Sql server will not query across two filtered sets (and join them) — 
+- Sql server will not query across two filtered sets (and join them) - 
 Eg where status in (A,B) (assuming a filtered index for status A and a filtered index for status B....
 
-- Sql server won’t combine those and will just scan the table instead. 
+- Sql server won't combine those and will just scan the table instead. 
 - One trick is to change the query to be: where status =A union all ... where status = B   ! Then it will combine the two sets but you have to be repetitive to do that 
 
 So you want the filtered index to be the clear filtered index of choice for this query. 
@@ -116,7 +116,7 @@ Unused indexes - get rid of those obvs
 
 Duplicates obviously only need 1. But check no one is using hints to target one of the dupes. 
 
-Similar — may make a “super index” and find its still useful but less space maintenance easier to cache and stay in cache etc. 
+Similar - may make a "super index" and find its still useful but less space maintenance easier to cache and stay in cache etc. 
 
 
 TODO: Kimberly has a replacement for `sp_helpindex` - track that down.

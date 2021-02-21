@@ -1,24 +1,23 @@
 # Count all files in a directory, recursively
 
-Count files in current folder, not recursive:
+## Count files in current folder, not recursive:
 
 	ls -1 | wc -l
 
-Count files only:
+## Count files only:
 
 	find . -type f | wc -l
 
-Count files and directories:
+## Count files and directories:
 
 	find . | wc -l
 
-Count directories only:
+## Count directories only:
 
 	find . -type d | wc -l
 
 
-
-Now look at this:
+## Now look at this:
 
 	~/.nuget$ find . -type f | wc -l
 	5259

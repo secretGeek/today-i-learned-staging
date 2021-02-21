@@ -1,4 +1,4 @@
-# Color Resources
+﻿# Color Resources
 
 Color is wild! 
 
@@ -27,7 +27,7 @@ And if you understood a single color (which I doubt you ever can)... these thing
 * Why Rainbow is bad for data visualizations (and what to do about it)
 	* One of my goals is to make the rainbow color map as rare in visualization as the goto statement is in programming.
 	* [Rainbow Color Map (Still) Considered Harmful](https://ieeexplore.ieee.org/document/4118486)
-	* [Poynter: Why rainbow colors aren’t the best option for data visualizations](https://www.poynter.org/archive/2013/why-rainbow-colors-arent-always-the-best-options-for-data-visualizations/)
+	* [Poynter: Why rainbow colors aren't the best option for data visualizations](https://www.poynter.org/archive/2013/why-rainbow-colors-arent-always-the-best-options-for-data-visualizations/)
 	* [Turbo, An Improved Rainbow Colormap for Visualization](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html)
 
 ![color cones](color-cones.png)

@@ -151,6 +151,6 @@ First I had to `sudo dpkg --configure -a`
 
 * [apt full-upgrade versus apt-get dist-upgrade](https://askubuntu.com/questions/770135/apt-full-upgrade-versus-apt-get-dist-upgrade)
 * ["The following packages have been kept back:" Why? And how do I solve it?](http://askubuntu.com/questions/601/the-following-packages-have-been-kept-back-why-and-how-do-i-solve-it/185402#185402)
-* [E: dpkg was interrupted… run 'sudo dpkg --configure -a'](https://askubuntu.com/questions/163200/e-dpkg-was-interrupted-run-sudo-dpkg-configure-a)
+* [E: dpkg was interrupted... run 'sudo dpkg --configure -a'](https://askubuntu.com/questions/163200/e-dpkg-was-interrupted-run-sudo-dpkg-configure-a)
 
 I haven't accurately captured all of the sources for this.

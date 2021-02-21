@@ -1,9 +1,9 @@
-# See Wait Times in SQL Server
+﻿# See Wait Times in SQL Server
 
 
 Paul Randal has done an amazing job with this -- always get the latest straight from his page: 
 
-## [SQL Server Wait Statistics (or please tell me where it hurts…)](https://www.sqlskills.com/blogs/paul/wait-statistics-or-please-tell-me-where-it-hurts/)
+## [SQL Server Wait Statistics (or please tell me where it hurts...)](https://www.sqlskills.com/blogs/paul/wait-statistics-or-please-tell-me-where-it-hurts/)
 
 
 But I put a copy here so I can grab it at any time without going online...

@@ -18,13 +18,15 @@ If you type 'doit' at a prompt in powershell, it will look for:
 - An `alias` called `doit`
 - A function, `doit`
 - A cmdLet called `doit`
-- An exectuable on the path called `doit.com`
-- An exectuable on the path called `doit.exe`
-- An batch file on the path called `doit.bat`
-- An batch file on the path called `doit.cmd`
+- An exectuable on the PATH called `doit.com`
+- An exectuable on the PATH called `doit.exe`
+- An batch file on the PATH called `doit.bat`
+- An batch file on the PATH called `doit.cmd`
 
 ...and it will run the first one it finds.
 
 ## See also
 
 - [Alias: a guide to powershell and aliases](alias.md)
+- [PATH: getting it, adding to it and managing it](PATH.md)
+- [Environment variables -- view/edit them on windows](../windows/environment_variables.md)
