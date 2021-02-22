@@ -63,10 +63,10 @@ First, get the smallest number of rows you can, *without* using any spatial term
     SurveyDB.dbo.AllSurveys
 
 
- 
+
 
 Then create a spatial index on that table. (Which has a primary key, thus has a clustered index already) These parameters (`high`, `high`, etc) could perhaps be improved through actual research rather than the anecdotal approach I've accepted thus far.
- 
+
 
 
     CREATE SPATIAL INDEX ix_surveylotplan ON #SurveyLotPlan (Survey_GEO) WITH (GRIDS = (HIGH, HIGH, HIGH, HIGH));
@@ -74,7 +74,7 @@ Then create a spatial index on that table. (Which has a primary key, thus has a 
 
 
 When running the actual spatial query you may try it without the spatial index hint... but if you do want to use the hint, here is an example. Also if the hint is not used by the query, you will get a message to that effect.
- 
+
 
 
     Update SL

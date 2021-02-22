@@ -30,3 +30,7 @@ The .nuget folder has 5259 files. Even worse... it has almost as many directorie
 ## Source
 
 - [Recursively count all the files in a directory](http://superuser.com/questions/198817/recursively-count-all-the-files-in-a-directory)
+
+## See also
+
+- [Delete files older than 90 days](delete_files_older_than_90_days.md)
