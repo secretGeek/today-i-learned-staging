@@ -33,12 +33,11 @@ Or for 20 days...
 
 Cool!
 
-Now to add it to cron job, for a specific folder...
-
 ## Daily CRON to delete old files from a specific folder
 
-Add the following to a new file in the folder `/etc/cron.daily` ...
+Now to add it to cron job, for a specific folder...
 
+Add the following to a new file in the folder `/etc/cron.daily` 
 
 	#!/bin/sh
 	
@@ -46,10 +45,9 @@ Add the following to a new file in the folder `/etc/cron.daily` ...
 
 And as described in [cron](cron.md) we can check the cron logs with:
 
-
 	sudo grep CRON /var/log/syslog
-
-
 
 ## See also
 
+- [cron](cron.md)
+- [Count all files in a directory, recursively](count_files_recursively.md)
