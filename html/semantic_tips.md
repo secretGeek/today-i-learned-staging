@@ -38,6 +38,30 @@ Example:
 <figcaption>This is Mr. T</figcaption>
 </figure>
 
+
+It took me quite a while to find CSS that would do what I wanted for the `figure/img/figcaption` combo above.
+
+Given that I was already centering my images, with something like this:
+
+	img {
+		max-width: calc(100% - 30px);
+		margin: 15px auto;
+		display: block;
+	}
+
+I wanted to have the `figure` provide a border, be centered, and *not* be full-width, and for the `figcaption` to be centered under the `img`.
+
+	figure {
+		margin: 0 auto;
+		border: 1px solid var(--table-border);
+		width: max-content;
+	}
+
+	figcaption {
+		margin: 15px auto;
+		text-align: center;
+	}
+
 ## `<mark>` - Mark
 
 - [mark: Mark Text Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark)
@@ -46,7 +70,11 @@ Rather than `<span class='hilite'>highlighted text</span>` - use `<mark>highligh
 
 Let me mark a few <mark>choice phrases</mark> in this <mark>fascinating</mark> sentence.
 
-TODO: see if there is a markdig extension that let's you apply the `mark` tag?
+### Indicating `<mark>` in markdig markdown
+
+According to [markdig test on 'emphasis'](https://github.com/xoofx/markdig/blob/master/src/Markdig.Tests/Specs/EmphasisExtraSpecs.md) we can use `==equals==` to indicate the text to ==mark up==.
+
+
 
 ## `<q>` - Inline Quotation
 
