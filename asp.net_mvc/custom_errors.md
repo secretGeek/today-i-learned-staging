@@ -1,6 +1,6 @@
 ﻿# Custom Errors in asp.net mvc 5
 
-(This is not for .net core)
+(`note` This is not for [.net core](../.net_core_MVC/01_summary.md))
 
 
 1. Inside `system.web` element in the `web.config` file:
@@ -21,31 +21,31 @@
 3. Create an Error controller.
 
 
-		public class ErrorController : Controller
+	public class ErrorController : Controller
+	{
+		public ActionResult Index()
 		{
-			public ActionResult Index()
-			{
-				Response.TrySkipIisCustomErrors = true;
-				// This will load Views/Shared/Error.cshtml
-				return View("Error");
-			}
-
-			public ActionResult NotFound()
-			{
-				Response.StatusCode = 404;
-				Response.TrySkipIisCustomErrors = true;
-				// This will load Views/Error/View.cshtml
-				return View();
-			}
-
-			public ActionResult Forbidden()
-			{
-				Response.StatusCode = 403;
-				Response.TrySkipIisCustomErrors = true;
-				// This will load Views/Error/Forbidden.cshtml
-				return View();
-			}
+			Response.TrySkipIisCustomErrors = true;
+			// This will load Views/Shared/Error.cshtml
+			return View("Error");
 		}
+
+		public ActionResult NotFound()
+		{
+			Response.StatusCode = 404;
+			Response.TrySkipIisCustomErrors = true;
+			// This will load Views/Error/View.cshtml
+			return View();
+		}
+
+		public ActionResult Forbidden()
+		{
+			Response.StatusCode = 403;
+			Response.TrySkipIisCustomErrors = true;
+			// This will load Views/Error/Forbidden.cshtml
+			return View();
+		}
+	}
 
 
 
@@ -55,7 +55,6 @@ In an action where you look for a resource but can't find it... **don't do this*
 
 ...as that will end up at the IIS error page, not your custom error page.
 instead do this:
-
 
 
 	throw new System.Web.HttpException(404, "No such project");
@@ -100,12 +99,17 @@ Others recommend:
 
 
 
-## Previously
+## Previously/Sources
 
 Previously I wrote this nasty article which showed a way to get very confused by custom errors in asp.net mvc (including deliberate typos)
 
-[Custom Errors in ASP.Net MVC: It couldn't be simpler, right?](https://secretgeek.net/custom_errors_mvc)
+- [Custom Errors in ASP.Net MVC: It couldn't be simpler, right?](https://secretgeek.net/custom_errors_mvc)
 
-One comment there was very helpful, but a particular stack overflow answer was most helpful
+One comment there was very helpful, but a particular stack overflow answer was most helpful.
 
-[Pableo Romeo answer at 'How to make custom error pages work in ASP.NET MVC 4'](https://stackoverflow.com/a/13905859/49)
+- [Pableo Romeo answer at 'How to make custom error pages work in ASP.NET MVC 4'](https://stackoverflow.com/a/13905859/49)
+
+
+## See also
+
+- [Making a custom error page helpful for developers](helpful_error_page.md)

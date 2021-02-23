@@ -5,7 +5,9 @@
 
 ## todo tracking
 
+- styling og internal, external and blank, mailto, and onpage links...
 
+- Generate an 'index.html' under each topic folder that redirects to "/01_summary.html"
 
 - a tag for including the {toc:} in the document.
 	- a page for showing details of toc and other embedded macros used by clowncar.

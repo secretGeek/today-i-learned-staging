@@ -65,7 +65,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
  | [csharp](csharp/01_summary.md) | 6 articles |
- | [css](css/01_summary.md) | 8 articles |
+ | [css](css/01_summary.md) | 9 articles |
  | [csv](csv/01_summary.md) | 3 articles |
  | [design](design/01_summary.md) | 2 articles |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article |
@@ -83,7 +83,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [graphics](graphics/01_summary.md) | 9 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [habits](habits/01_summary.md) | 1 article |
- | [html](html/01_summary.md) | 5 articles |
+ | [html](html/01_summary.md) | 6 articles |
  | [http](http/01_summary.md) | 1 article |
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
@@ -160,5 +160,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-652 articles
-164011 words
+654 articles
+164823 words

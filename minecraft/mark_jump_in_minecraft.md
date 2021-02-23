@@ -4,7 +4,7 @@ You can run Python scripts from within minecraft, if you use the right Mods.
 
 And two of the handiest little scripts are "Whereami" and "Teleport".
 
-I wanted to take it a step further and implement a full "Mark-Jump" setup.
+I wanted to take it a step further and implement a full ["Mark-Jump"](https://github.com/secretGeek/markjump) setup.
 
 ## What is mark jump?
 
@@ -14,14 +14,12 @@ I use `Jump` command to go to a well-known location. I use the `Mark` command to
 
 ## Mark-Jump in Python for Minecraft
 
-
 Four files:
 
- * Mark.py
- * Jump.py
- * Marks.py
- * Unmark.py
-
+- `Mark.py`
+- `Jump.py`
+- `Marks.py`
+- `Unmark.py`
 
 ## Mark.py
 
@@ -65,7 +63,6 @@ Four files:
 		else:
 			mc.postToChat("No such key as argv[1]. Notes: 1. marks are CASE sensitive or 2. Perhaps you meant 'mark'?")
 
-
 ## Marks.py
 
 	import json
@@ -79,8 +76,6 @@ Four files:
 			marks = json.load(json_file)
 			mc.postToChat(", ".join(sorted(marks.keys(), key=lambda s: s.lower())))
 
-
-
 ## Unmark.py
 
 (I haven't bothered with this one yet)
@@ -92,13 +87,15 @@ Four files:
 
 	with open('marks.json') as json_file:
 		marks = json.load(json_file)
-	#TODO: worry about unmark some other time...
-	del marks["a"]
+	# worry about 'unmark' some other time...
+	del marks[argv[1]]
+	# save the file (I haven't tested this)
+	with open('marks.json', 'w') as outfile:
+		json.dump(marks, outfile)
 
-	#todo: write the file now...
-
+`note` don't trust that the above will work. I haven't tested it or used it.
 
 ## See also
 
- * [markjump in powershell](https://github.com/secretGeek/markjump)
- * [CRUMBS! Commandline navigation tool for Powershell](https://secretgeek.net/crumbs)
+- [markjump in powershell](https://github.com/secretGeek/markjump)
+- [CRUMBS! Commandline navigation tool for Powershell](https://secretgeek.net/crumbs)

@@ -4,12 +4,13 @@ Here's something that escaped me for far too long.
 
 You can create expand/collapse regions (also known as 'twisties') with plain html using the `details` tag (and the `summary` tag)
 
-e.g. this code:
+`tip` This is not supported on IE.
+
 
 
 ## Simplest example
 
-Html like this:
+for example, this html:
 
 	<details>Once expanded, this is the details you will see.</details>
 
@@ -187,3 +188,7 @@ Expand/collapse sections are *similar* to Ted Nelson's 1967 idea "Stretch-Text",
 - [Mozilla docs: details](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) &amp; [Summary](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary)
 - [Css-Tricks: Exploring What the Details and Summary Elements Can Do](https://css-tricks.com/exploring-what-the-details-and-summary-elements-can-do/)
 - [`details-summary` category at Css-Tricks](https://css-tricks.com/tag/details-summary/)
+
+## See also
+
+- [Underused text-level elements](semantic_tips.md)
