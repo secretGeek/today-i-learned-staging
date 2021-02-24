@@ -1,50 +1,62 @@
-﻿# Uncomplicated Firewall... how do we set that up?
+﻿# ufw: Uncomplicated Firewall... how do we set that up?
 
 Just before (or immediately after) you've got nginx installed, it's time to think about getting a firewall in place.
 
-ufw (Ucomplicated FireWall) is just the ticket.
+`ufw` (Ucomplicated FireWall) is just the ticket.
 
-Enable ufw, and allow 80, for inbound http requests, and 22 for SSH, as follows:
+Enable `ufw`, and allow these ports
 
-    sudo ufw enable;sudo ufw allow 22/tcp;sudo ufw allow 80/tcp
+ - 80, for inbound http requests, 
+ - and 22 for SSH, as follows:
+
+		sudo ufw enable;sudo ufw allow 22/tcp;sudo ufw allow 80/tcp
 
 To check if `ufw` is set up as expected...
 
-    $ sudo ufw status
-    Status: active
+	sudo ufw status
 
-    To                         Action      From
-    --                         ------      ----
-    22/tcp                     ALLOW       Anywhere
-    80/tcp                     ALLOW       Anywhere
-    22/tcp (v6)                ALLOW       Anywhere (v6)
-    80/tcp (v6)                ALLOW       Anywhere (v6)
+And you should see this result:
 
-And for extra info you can try:
+	Status: active
 
-    $ sudo ufw status verbose
-    Status: active
-    Logging: on (low)
-    Default: deny (incoming), allow (outgoing), disabled (routed)
-    New profiles: skip
+	To                         Action      From
+	--                         ------      ----
+	22/tcp                     ALLOW       Anywhere
+	80/tcp                     ALLOW       Anywhere
+	22/tcp (v6)                ALLOW       Anywhere (v6)
+	80/tcp (v6)                ALLOW       Anywhere (v6)
 
-    To                         Action      From
-    --                         ------      ----
-    22/tcp                     ALLOW IN    Anywhere
-    80/tcp                     ALLOW IN    Anywhere
-    22/tcp (v6)                ALLOW IN    Anywhere (v6)
-    80/tcp (v6)                ALLOW IN    Anywhere (v6)
+For extra info you can try:
+
+	sudo ufw status verbose
+
+Result:
+
+	Status: active
+	Logging: on (low)
+	Default: deny (incoming), allow (outgoing), disabled (routed)
+	New profiles: skip
+
+	To                         Action      From
+	--                         ------      ----
+	22/tcp                     ALLOW IN    Anywhere
+	80/tcp                     ALLOW IN    Anywhere
+	22/tcp (v6)                ALLOW IN    Anywhere (v6)
+	80/tcp (v6)                ALLOW IN    Anywhere (v6)
 
 And to see which apps are registered with ufw...
 
-    $ sudo ufw app list
-    Available applications:
-      Nginx Full
-      Nginx HTTP
-      Nginx HTTPS
-      OpenSSH
+	sudo ufw app list
 
-Considerations for later...
+result:
+
+	Available applications:
+		Nginx Full
+		Nginx HTTP
+		Nginx HTTPS
+		OpenSSH
+
+## Considerations for later...
 
 > HTTPS connections can be allowed with this command:
 >
@@ -66,13 +78,13 @@ You can remove those you've already allowed with, for example:
 
 	sudo ufw delete allow 80/tcp
 
-^^ because that's superceded by 'Nginx HTTP' profile
+...because that's superceded by 'Nginx HTTP' profile
 
 	sudo ufw delete allow 'Nginx HTTP'
 
-^^ because that's superceded by 'Nginx Full' (which allow both http and https)
+...because that's superceded by 'Nginx Full' (which allow both `http` and `https`)
 
-Might also want to allow 'OpenSSH' something like sudo ufw allow 'OpenSSH' but i'm not sure so I'd stick with
+Might also want to allow 'OpenSSH' something like `sudo ufw allow 'OpenSSH'` but i'm not sure so I'd stick with
 
 	sudo ufw allow 22/tcp
 
@@ -84,17 +96,17 @@ Although, checking what application lists are avaible with:
 
 I see:
 
-  Nginx Full
-  Nginx HTTP
-  Nginx HTTPS
-  OpenSSH
+	Nginx Full
+	Nginx HTTP
+	Nginx HTTPS
+	OpenSSH
 
 So I expect if i do `sudo ufw allow 'OpenSSH'` then i would be able to delete 22/tcp and still use ssh.
 
 ## Source
 
- * <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04>
+- <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04>
 
- ## See also
+## See also
 
- * [nginx](nginx.md)
+- [nginx](nginx.md)

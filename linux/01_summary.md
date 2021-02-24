@@ -36,7 +36,7 @@
 - [Supervisor... it keeps your app running!](supervisor.md)
 - [SystemD: the basics](systemd.md)
 - [To find the IP Address of a linux machine](what_my_ip_address.md)
-- [Uncomplicated Firewall... how do we set that up?](uncomplicated_firewall.md)
+- [ufw: Uncomplicated Firewall... how do we set that up?](uncomplicated_firewall.md)
 - [Use nginx to redirect www and non https to bare https](redirect_www_https.md)
 - [Use whois on linux to see if a domain is registered (and other uses)](whois.md)
 - [What version of ubuntu am i running?](version.md)
