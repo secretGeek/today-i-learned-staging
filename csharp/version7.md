@@ -1,6 +1,5 @@
 ﻿# C# version 7
 
-
  * [out variables](#out-variables)
  * [Tuples](#tuples)
  * [Discards](#discards)
@@ -11,7 +10,6 @@
  * [throw expressions](#throw-expressions)
  * [Generalized async return types](#generalized-async-return-types)
  * [Numeric literal syntax improvements](#numeric-literal-syntax-improvements)
-
 
 ## out variables
 
@@ -37,19 +35,15 @@ Hence, they've come up with this syntax...
 
 It's still a bit awkward, being different from every other variable declaration, as well as not taking advantage of type inferencing. But there are other mitigating points we'll get to in subsequent features.
 
-
 ## Tuples
 
-
 There's a new type of Tuple. And we are no longer stuck with the ghastly `Item1` etc.
-
 
 You can declare the new type like so:
 
     var myTuple = ("a","b");
 	Console.WriteLine(myTuple.Item1); //a
 	Console.WriteLine(myTuple.Item2); //b
-
 
 Or if you want to be more explicit about the types...
 
@@ -58,7 +52,6 @@ Or if you want to be more explicit about the types...
 	Console.WriteLine(myTuple.Item2); //b
 
 And here's the nice thing... if you want to name the members (`a` and `b` in this example)...
-
 
 	(string a, string b) myTuple2 = ("a", "b");
 	Console.WriteLine(myTuple2.a); //a
@@ -72,12 +65,9 @@ And it's optional... you can name just some, or name them all, or name none....
 
 Or, if you prefer `var`....
 
-
 	var t = (a: "a", b: "b");
 	Console.WriteLine(t.a); //a
 	Console.WriteLine(t.b); //b
-
-
 
 Note that the member names (used in place of `Item1`, `Item2` etc) **only exist at compile time**. They are not preserved... if you use reflection to inspect them at runtime they will have turned back into Item1 etc.
 
@@ -91,9 +81,7 @@ e.g. in LinqPad if you dump a Tuple you'll see its members are named `Item1` etc
 | Item 1 | a |
 | Item 2 | b |
 
-
 ...but if you use 'nameOf' -- because it runs at compile time, it will return the names you used.
-
 
 	(string a, string b) myTuple2 = ("a", "b");
 	nameof(myTuple2.a).Dump(); //returns a, *not* Item1.
@@ -107,9 +95,7 @@ Ah, see that? `ValueTuple`... this is a completely new type. The old tuples, `Sy
 
 Tuples in F# are structs... so I'm guessing these play nicer with F# than `System.Tuple`... but i haven't looked.
 
-
 Further reading on [tuples in c#7](https://docs.microsoft.com/en-us/dotnet/csharp/tuples)
-
 
 ## Discards
 
@@ -120,9 +106,7 @@ Or it might return a tuple and you only want some of the items. What to do, what
 
 Well C# has YOINKED this feature now too.
 
-
 Imagine there is a `Delete` method, like this:
-
 
 	void Delete(string fileName, out bool found)
 	{
@@ -134,7 +118,6 @@ Imagine there is a `Delete` method, like this:
 		}
 	}
 
-
 ...it returns true or false in that `out` parameter, depending on if it found a file to delete or not.
 
 But as a caller you don't care if it found a file. You can ignore that parameter like this:
@@ -143,9 +126,7 @@ But as a caller you don't care if it found a file. You can ignore that parameter
 
 I guess they used `_` because it is less typing than the semantically equivalent `¯\_(ツ)_/¯`
 
-
 Say we call a method and it returns a `ValueTuple<string,string,string>` .... here's an example of declaring it....
-
 
 	(string,string,string) MedalWinners(string eventName)
 	{
@@ -155,9 +136,7 @@ Say we call a method and it returns a `ValueTuple<string,string,string>` .... he
 		return ("Jill","Sally","Jack");
 	}
 
-
 As the caller of this method, imagine that we only care about the second item. How do we discard the other two items? **EASY.**
-
 
 	var (_, silverMedalist,_) = MedalWinners("300 meter bunny hop while balancing an egg");
 	silverMedalist.Dump(); // result: "Sally"
@@ -168,7 +147,6 @@ There are two other places you can use this. One is in [pattern matching](#patte
 
 The other is like this... but I don't see it as a big win, it's just *consistent*....
 
-
 Imagine some method that returns a value:
 
 	string WhosOnFirst()
@@ -178,17 +156,13 @@ Imagine some method that returns a value:
 
 Let's call that method but *ignore* the return value....
 
-
 	_ = WhosOnFirst();
 
 I guess it's more explicit than simply saying:
 
 	WhosOnFirst(); // ... not assigning it at all.
 
-
-
 ## Pattern matching
-
 
 Here is a common pattern that is crying out for some pattern matching....
 
@@ -206,7 +180,6 @@ The old "is/as"
 
 The sort of place where you commonly see this is when parsing, or traversing tokens in a directed graph.
 
-
 	if (token is Comment)
 	{
 		var comment = token as comment;
@@ -219,7 +192,6 @@ The sort of place where you commonly see this is when parsing, or traversing tok
 	} ... etc...
 
 And the first thing to see with pattern matching is that the "is-as" pattern is greatly simplified....
-
 
 THIS:
 
@@ -239,16 +211,11 @@ THIS:
 
 ...note the syntax here is as we saw in `out` variables -- straight after the type, give it a name, and hey presto, the thing being discussed of the type being considered is assigned to the name provided. Pow!
 
-
 Having cleaned up that little pattern, the syntax gets a lot niftier, and really earns the name pattern matching.
 
 The type of code discussed above is a chain of "if" statements that resembles a switch statement, only you're switching on logic and types instead of simple values.
 
 So switches "switch it up" a little and allow you to perform a whole slew of possibilities...
-
-
-
-
 
 ## ref local and return
 
@@ -261,7 +228,6 @@ So switches "switch it up" a little and allow you to perform a whole slew of pos
 ## Generalized async return types
 
 ## Numeric literal syntax improvements
-
 
 ## Source
 

@@ -2,7 +2,6 @@
 
   rsync option source-directory destination-directory
 
-
 Or, a better example:
 
 	rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage

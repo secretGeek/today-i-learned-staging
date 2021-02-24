@@ -1,7 +1,5 @@
 ﻿# How do I list all globally installed NPM Packages?
 
-
-
 	npm list -g -depth 0
 
 The above lists all the globally installed npm packages, and does not list their dependencies.

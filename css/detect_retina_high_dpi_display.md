@@ -1,7 +1,5 @@
 ﻿# Detect retina display or high DPI display and send specific image
 
-
-
 	@media
 	only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (   min--moz-device-pixel-ratio: 2),

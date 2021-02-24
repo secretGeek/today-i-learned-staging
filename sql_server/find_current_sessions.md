@@ -1,6 +1,5 @@
 ﻿# Find current sessions/users/who is locking
 
-
 I received this example came from Samir Elmallah and it's based on something from [stackoverflow here](https://dba.stackexchange.com/a/103337/187477)
 
 	SELECT
@@ -36,19 +35,13 @@ I received this example came from Samir Elmallah and it's based on something fro
 	AND session_Id NOT IN (@@SPID)     -- Ignore this current statement.
 	ORDER BY 1, 2
 
-
 And to see transaction locks on a particular object
-
 
 	SELECT * FROM sys.dm_tran_locks
 	  WHERE resource_database_id = DB_ID()
 	  AND resource_associated_entity_id = OBJECT_ID(N'[MySchema].[MyTable]')
 
-
-
-
 And to see all of who is using this server we have the old classic:
-
 
 	sp_who
 

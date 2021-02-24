@@ -6,12 +6,10 @@ If an active directory user can't access a database you might see:
 
 If the user has never accessed any database on that server, then a DBA needs to created the login at a server level first, e.g.:
 
-
 	USE [master]
 	GO
 	CREATE LOGIN [MYDOMAIN\MYUSER] FROM WINDOWS WITH DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[us_english]
 	GO
-
 
 A DBA can then create the user on the specific database with this command:
 

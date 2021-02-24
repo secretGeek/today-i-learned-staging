@@ -66,5 +66,4 @@ Or with `printf`....
 
     printf "I think ${RED}Red${NC} is a good color\n"
 
-
 Next: Background colors.

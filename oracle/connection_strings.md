@@ -1,6 +1,5 @@
 ﻿# Connection Strings in Oracle
 
-
 Example:
     User Id=scott;Password=tiger;Data Source=bbSales12
 
@@ -9,7 +8,6 @@ In this case `bbSales12` is an alias.
 To resolve this alias, Oracle first looks in "the connection pool" to see if it has already "Resolved" that alias.
 
 Next it looks in `tnsnames.ora.`
-
 
 `tnsnames.ora` is a file that contains enough configuration detail that your machine should be able to connect to the remote machine.
 
@@ -37,20 +35,17 @@ example:
 
     "user id=scott;password=tiger;data source=//bb12Sales-server3:1521/sales.us.acme.com"
 
-
 But note that:
 
     Prior to using the easy connect naming method, make sure that EZCONNECT is specified by the NAMES.DIRECTORY_PATH parameter in the sqlnet.ora file.
 
 "sqlnet.ora" is a file which is also searched for in the TNS_ADMIN folder
 
-
 Inside that file, if you specify
 
     NAMES.DIRECTORY_PATH= (TNSNAMES, EZCONNECT)
 
 ...then you'll be able to use "the Easy Connect Naming Method".
-
 
 ## Source
 

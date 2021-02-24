@@ -1,6 +1,5 @@
 ﻿# Wiql Editor
 
-
 ## Key bindings:
 
 - Shift + Enter : Run
@@ -58,6 +57,5 @@ The fix was to specify the proxy information, in the `web.config` file
 			<ipv6 enabled="true"/>
 		</settings>
 	</system.net>
-
 
 ...where PROXYADDRESS is the actual address of the company's proxy.

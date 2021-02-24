@@ -35,7 +35,6 @@ In the repo you wish to migrate:
 	> hg-git does not convert between Mercurial named branches and git branches as the two are conceptually different; instead, it uses Mercurial bookmarks to represent the concept of a git branch<br />
 	> &mdash;[Hg-Git Mercurial Plugin readme](https://github.com/schacon/hg-git#gitbranch_bookmark_suffix)
 
-
  4. [ ] for each branch (found via `hg branches`) run this command:
 
 		hg bookmarks -r my_branch my_branch_bookmark

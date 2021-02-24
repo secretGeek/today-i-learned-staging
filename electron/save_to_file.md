@@ -20,9 +20,7 @@ For both of these methods, the info about their parameters is the same.
     * multiSelections and
     * createDirectory
 
-
 The filters specifies an array of file types that can be displayed,
-
 
 for example:
 
@@ -34,7 +32,6 @@ for example:
         { name: 'All Files', extensions: ['*'] }
       ]
     }
-
 
 ## Source
 

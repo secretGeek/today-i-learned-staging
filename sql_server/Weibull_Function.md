@@ -33,7 +33,6 @@ And I haven't bothered with the non-cumulative, but it is similar, I think...
 
 Though I haven't tested it. So be careful with that and tell me if you do implement it.
 
-
 ## Source
 
  * <http://www.sqlservercentral.com/Forums/Topic796251-145-1.aspx> (but note the respondent has gotten a and b mixed up)

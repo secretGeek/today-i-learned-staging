@@ -3,7 +3,6 @@
     pip install grip
     grip markdown.md
 
-
 Will serve your file at `localhost:xxx` (some port number)
 
 And if/when you modify the file, the page will automatically refresh!
@@ -21,11 +20,7 @@ And this solution from stackoverflow seems to help:
 
 Or in powershell-ese...
 
-
-
     $env:PYTHONIOENCODING = "utf-8"
-
-
 
 ## Source
 

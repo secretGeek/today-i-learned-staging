@@ -7,9 +7,6 @@ and can be read at https://www.gitbook.com/read/book/{author}/{book}
 
 If you want to host it on a custom sub domain then you may need to add a `cname` record at your webhost.
 
-
-
-
 Then, at gitbook.com tell it the custom domain.
 
  * Settings ->

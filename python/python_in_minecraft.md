@@ -12,7 +12,6 @@ Costs $26.95
 
 > You still technically need Java, but it is now downloaded by the Minecraft launcher and stored with the launcher instead of installed across the entire system. If Minecraft is the only reason you have Java installed, you now have no reason to open up your system to Java vulnerabilities. The Java executable used by Minecraft stays with Minecraft and is as good as invisible and inaccessible to the rest of the system.
 
-
 3. Run minecraft launcher.
 
 * "Launch Options"
@@ -26,7 +25,6 @@ Make sure it works.
 
 Maybe create a new world, superflat, bonus chest on, cheats on.
 
-
 4. Install Forge.
 
 Default options -- i.e. Client.
@@ -35,9 +33,7 @@ It downloads and unpacks a bunch of stuff.
 
 ![forge_install_success.png](forge_install_success.png)
 
-
 5. Install raspberry jam mod
-
 
 https://github.com/arpruss/raspberryjammod/releases
 
@@ -51,7 +47,6 @@ I went with 3.x which I may regret later.
 
 I'm socially progressive and tend to get myself into this kind of problem for fun.
 
-
 6. Download the latest zip file containing sample Python scripts and the mcpi library from:
 
 	[https://github.com/arpruss/raspberryjammod/releases](https://github.com/arpruss/raspberryjammod/releases)
@@ -64,18 +59,15 @@ Unzip the file and places its content into the $env:AppData\.minecraft\mcpipy fo
 
 pick the 'forge' profile by clicking the up arrow on the green button.
 
-
 8.
 
 Run a python script by:
 
 /py {scriptname}
 
-
 e.g.
 
 /py helloworld
-
 
 ## Hello World!
 
@@ -87,10 +79,7 @@ Here's a helloworld script...
 
 It outputs the message "Hello world!" to the chat window.
 
-
-
 ## Read parameters from input
-
 
 	say.py:
 
@@ -115,7 +104,6 @@ The technique above is very useful if you want to run a script that lets the use
 
 Sometimes these are called parameters, sometimes they are called arguments.
 
-
 Here's an advanced trick... if you want to join all of the parameters together into one:
 
 	from mine import *
@@ -128,16 +116,12 @@ Here's an advanced trick... if you want to join all of the parameters together i
         text = " ".join(sys.argv)
 	mc.postToChat(text)
 
-
 ## Teleport to a location
-
 
 	from mine import *
 	from sys import argv
 	mc = Minecraft()
 	mc.player.setTilePos(int(argv[1]), int(argv[2]), int(argv[3]))
-
-
 
 ## To find my location:
 
@@ -158,7 +142,6 @@ whereami:
 	mc = Minecraft()
 	mc.postToChat(mc.player.getTilePos())
 
-
 ## Place a block
 
     from mine import *
@@ -166,8 +149,6 @@ whereami:
     mc.postToChat("Placing a block...")
     playerPos = mc.player.getPos()
     mc.setBlock(playerPos.x,playerPos.y-1,playerPos.z,block.DIAMOND_ORE)
-
-
 
 ## Place 7 blocks
 
@@ -180,7 +161,6 @@ whereami:
 		mc.setBlock(playerPos.x + i,playerPos.y-1,playerPos.z,block.DIAMOND_ORE)
 
 ## Place as many blocks in a row as you want
-
 
 With `blockn.py`:
 
@@ -196,12 +176,9 @@ Usage:
 
 	/py blockn 30
 
-
 ## Place as many blocks in a row as you want, of a given type
 
-
 With `b.py`
-
 
 	from mine import *
 	from sys import argv
@@ -212,19 +189,13 @@ With `b.py`
 	for i in range(int(argv[1])):
 		mc.setBlock(playerPos.x + i,playerPos.y,playerPos.z,specifiedBlock)
 
-
 Usage:
 
 	/py b 30 GLOWSTONE_BLOCK
 
-
 For a list of all block types in minecraft see [blocks in minecraft](blocks_in_minecraft.md)
 
-
-
-
 ## Place a rectangle of blocks
-
 
 	from mine import *
 	mc = Minecraft()
@@ -235,10 +206,7 @@ For a list of all block types in minecraft see [blocks in minecraft](blocks_in_m
 		for j in range(7):
 			mc.setBlock(playerPos.x + i,playerPos.y-1,playerPos.z+j,block.DIAMOND_ORE)
 
-
 ## Place a row of blocks of a random type
-
-
 
 	import random
 	from mine import *
@@ -268,17 +236,13 @@ For a list of all block types in minecraft see [blocks in minecraft](blocks_in_m
 	for i in range(int(argv[1])):
 		mc.setBlock(playerPos.x + i,playerPos.y,playerPos.z,random.choice(blocktypes))
 
-
 Usage:
 
 	/py randomblocks 10
 
 ....Places a row of 10 blocks in different stained glass colors.
 
-
 ## Make a pyramid
-
-
 
 ## Run python commands in the minecraft console
 

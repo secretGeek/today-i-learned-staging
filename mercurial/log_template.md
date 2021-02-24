@@ -24,8 +24,6 @@ Templates and Styles work with all "log-like" commands:
  * heads
  * glog
 
-
-
 ## See also
 
     hg help template

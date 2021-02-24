@@ -1,6 +1,5 @@
 ﻿# Logarithms
 
-
 First some notation....
 
 	n^x = n to the power of x
@@ -9,14 +8,11 @@ and
 
 	Log_n (n^x) = x   (where the _n denotes "subscript n" and means the Log was in base n)
 
-
 For example:
 
 	Log_10 (10)	  = 1   (The subscript 10 means the Log was in base 10)
 	Log_10 (1000) = 3
 	Log_2  (32)   = 5
-
-
 
 Similarly:
 
@@ -26,19 +22,16 @@ Log base `e` is referred to as "the natural log" and written as the function "ln
 
 Where e is [Euler's numbers](eulers_number.md)
 
-
 Hence
 
 	Log_e (x) = ln(x)   -- much easier to write, no need for subscripts.
 
 By convention, if you write Log(x) without specifying a base, then you assume it to be base 10.
 
-
 	Log(1) = 0
 	Ln(1) = 0
 
 	Because n^0 = 1
-
 
 ## Log is undefined for 0 and negative numbers
 
@@ -50,19 +43,13 @@ So   Log(0.00000001) = -7
 
 What happens when the number reaches 0? We are in spooky 'undefined' territory
 
-
 	ln(0) = undefined
 
 	ln(-3) undefined
 
-
-
-
-
 ## Basic log rules (these work for any base)
 
 	Log(m^n) = n Log(m)
-
 
 	Log(a) + Log(b) = Log(a*b)
 
@@ -72,23 +59,17 @@ e.g.
 	Log(10000) = 4
 	10000 = 10*1000
 
-
 	Log(a) - Log(b) = Log(a/b)
 
 e.g.
 
 	Log(10000) - Log(100) = Log(10000/100) = Log(100) = 2
 
-
 The "Log base switch rule"
-
 
 	log_b(c) = 1 / log_c(b)
 
-
-
 ## Convert to the natural log
-
 
 Sometimes you'll have an equation that has a base other than 10 or `e`. To be able to get an answer on your calculator you'll need to convert it to base 10 or base `e`.
 

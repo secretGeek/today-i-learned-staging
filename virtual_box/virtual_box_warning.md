@@ -12,6 +12,4 @@ During installation of virtual box, this warning is designed to cause maximum fr
 
 ![Virtual Box Warning](VirtualBoxWarning.png)
 
-
-
 Like the badass that I am, I clicked yes. If I did go offline I didn't notice. It was over in less than 2 minutes.

@@ -6,11 +6,9 @@ What it lacks in flexibility and versatility, it makes up for in brevity.
 		return document.getElementById(id);
 	}
 
-
 ...from [slide 44: coding while you commute](http://www.secretgeek.net/higgins/slides_alt_net.html#44)
 
 And here's the slightly less-poor poor man's jquery, updated for browsers in the modern age....
-
 
 	function $(selectors) {
 		return document.querySelectorAll(selectors)

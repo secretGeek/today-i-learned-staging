@@ -10,19 +10,15 @@ Enable the service (you need to give it the user's password)
 
 Start the service (you need to give it the user's password, again) wtf.
 
-
     systemctl start kestrel-hellomvc.service
 
 Check the status of the service...
 
     systemctl status kestrel-hellomvc.service
 
-
-
 To view logs:
 
     sudo journalctl -fu kestrel-hellomvc.service
-
 
 > For further filtering, time options such as --since today, --until 1 hour ago or a combination of these can reduce the amount of entries returned.
 

@@ -34,14 +34,12 @@ Hmmm. Looking at what it does, it included code that is merged in elsewhere anyw
 
 Infact -- 3403 and its troublesome parent 3402 are "secret". So these are secret commits. How can I at least close them out?
 
-
     hg merge
     abort: branch 'default' has 3 heads - please merge with an explicit rev
     (run 'hg heads .' to see heads)
 
     hg merge 3816
     abort: merging with a working directory ancestor has no effect
-
 
 Go back to the old troublesome branch, and close it...
 

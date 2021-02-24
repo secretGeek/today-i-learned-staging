@@ -1,8 +1,6 @@
 ﻿# How do you parse a date in powershell?
 
-
 ## Use TryParseExact... not easy from powershell
-
 
 	$DateAsAString = "30-12-1905";
 	$parseddate4 = get-date; # seem to have to initialize this variable...
@@ -18,9 +16,7 @@
 		Write-Host "it was formatted correctly" -f red;
 	}
 
-
 ## Use ParseExact... easier
-
 
 	$DateAsAString = "30-12-1905";
 	$exactDate = [datetime]::ParseExact($DateAsAString,"dd-MM-yyyy",$Null)

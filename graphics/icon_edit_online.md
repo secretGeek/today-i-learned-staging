@@ -26,8 +26,6 @@ Answer:
 >
 > For Classic Mode, the full set is 16x16, 24x24, 32x32, 48x48 and 64x64.
 
-
-
 ## Source
 
  - [msdn Icons](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742485%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396) (informative!)

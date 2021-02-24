@@ -4,9 +4,7 @@ This is a tool originally created by Sam Saffron and since forked by jitbit. Ava
 
 You can use it for profiling .net applications in production, for example for profiling w3wp, profiling iis, profiling asp.net applications. etc.
 
-
 ## Troubleshooting cpu-analyzer
-
 
 ### Debuggee and debugger are on incompatible platforms
 
@@ -15,8 +13,6 @@ You can use it for profiling .net applications in production, for example for pr
 Meaning:
 
 Probably because you're attempting to attach to a 32 bit process from a 64 bit process.
-
-
 
 ### A call into a ReadVirtual implementation returned failure
 
@@ -37,12 +33,9 @@ Note that
 	Line 212 is "var snapshot = ThreadSnapshot.GetThreadSnapshot(thread);"
 	Line 104 is " foreach (MDbgFrame frame in thread.Frames"
 
-
 This can occur if the w3wp process has been torn down while you're trying to analyze it. Either take less samples, or just try again (making sure you've got the right process id, if it's been restarted with a new one)
 
-
 ### Failed to attach to process The operation completed successfully
-
 
 	Error: failed to attach to process: System.ComponentModel.Win32Exception (0x80004005): The operation completed successfully
 		 at Microsoft.Samples.Debugging.CorDebug.CLRMetaHost.EnumerateLoadedRuntimes(Int32 processId)
@@ -51,7 +44,6 @@ This can occur if the w3wp process has been torn down while you're trying to ana
 		 at cpu_analyzer.Program.Main(String[] args) in C:\...\Program.cs:line 201
 
 I don't know why I got this one.
-
 
 ### The state of the thread is invalid
 
@@ -70,7 +62,6 @@ I often hit this:
 		at Microsoft.Samples.Debugging.MdbgEngine.MDbgThread.get_Frames()
 		at cpu_analyzer.ThreadSnapshot.GetThreadSnapshot(MDbgThread thread) in C:\...\Program.cs:line 104
 		at cpu_analyzer.Program.Main(String[] args) in C:\...\Program.cs:line 212
-
 
 To avoid this, at line 104 in Program.cs,  I wrapped the foreach in a try/catch
 
@@ -93,7 +84,6 @@ To avoid this, at line 104 in Program.cs,  I wrapped the foreach in a try/catch
 		//Thread might be in an invalid state apparently...
 		//So ignore away
 	}
-
 
 ## Source
 

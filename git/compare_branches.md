@@ -6,8 +6,6 @@ To compare two local branches:
 
 This compares the tip of the branches
 
-
-
 ## Sources
 
 - [how to compare two git branches](https://devconnected.com/how-to-compare-two-git-branches/)

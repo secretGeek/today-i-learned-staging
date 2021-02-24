@@ -16,11 +16,9 @@ Get certbot like this:
 
 The `certbot` client is now ready to use.
 
-
 ## Step 1: See if you need to update certbot
 
 If you're returning to a server that already has certbot you need to check the version and maybe update certbot.
-
 
 Check version, e.g.
 
@@ -47,8 +45,6 @@ results:
 	Reading state information... Done
 	certbot is already the newest version (0.31.0-1+ubuntu18.10.1+certbot+1).
 	0 upgraded, 0 newly installed, 0 to remove and 39 not upgraded.
-
-
 
 ## Step 2: Let HTTPs through your ufw
 
@@ -86,7 +82,6 @@ To do a dry run (i.e. to see what would happen without making any changes) you c
 
 	sudo certbot --dry-run --nginx -d blog.example.com
 
-
 (Hmmm, Actually -- that returns:
 
     --dry-run currently only works with the 'certonly' or 'renew' subcommands ('run')
@@ -98,7 +93,6 @@ To do a dry run (i.e. to see what would happen without making any changes) you c
 > The requested nginx plugin does not appear to be installed
 
 ...see this note: [The requested nginx plugin does not appear to be installed]
-
 
 If you have 3 different domains on the same server, example1, example2 and example3 then run the command 3 times, i.e.:
 
@@ -181,7 +175,6 @@ In words:
 3. Answer yes or no to sharing your email address with EFF
 4. Choose whether to redirect all non-https traffic to https (more details below)
 
-
 ## Step 3, part 2: About redirecting non-https to https
 
 Regarding this question:
@@ -194,7 +187,6 @@ Regarding this question:
 	change by editing your web server's configuration.
 	-------------------------------------------------------------------------------
 	Select the appropriate number [1-2] then [enter] (press 'c' to cancel): 1
-
 
 Whether you say no or yes (option 1 or 2) to this question, you can change it later by altering the `nginx` configuration file.
 
@@ -215,7 +207,6 @@ If you want to allow redirect of non-https to https, just add this next (still i
 
 (*See [Use nginx to redirect www and non https to bare https](redirect_www_https.md) for a better final example of nginx config with https and redirecting www to bare url)*)
 
-
 After changing nginx config -- test it is ok with:
 
 	sudo nginx -t
@@ -223,7 +214,6 @@ After changing nginx config -- test it is ok with:
 And reload it with:
 
 	sudo nginx -s reload
-
 
 Two more steps -- auto-renew of your license and improving your score at SSL labs....
 
@@ -274,16 +264,13 @@ Create a new Diffie Hellman parameter file with a larger key (2048 bits)
 
 The output will be like this (people said it would take a while but it was done in seconds):
 
-
 	Generating DH parameters, 2048 bit long safe prime, generator 2
 	This is going to take a long time
 	..........................................+.........................................................................................................................................................................+..........+..++*++*
 
-
 In each of your nginx config files that contain a server block, add this line:
 
 	ssl_dhparam /etc/ssl/certs/dhparam.pem;
-
 
 (example by editing the file with `sudo nano /etc/nginx/sites-available/examplecodesmackdown.com`)
 
@@ -321,7 +308,6 @@ details:
 	2020-10-23 22:23:54,945:DEBUG:certbot.plugins.selection:No candidate plugin
 	2020-10-23 22:23:54,945:DEBUG:certbot.plugins.selection:Selected authenticator None and installer None
 
-
 ...that "No candidate plugin" is key here
 
 **Solution**
@@ -341,27 +327,21 @@ Nah:
 
 First need:
 
-
 	sudo add-apt-repository ppa:certbot/certbot
 	sudo apt update
 	sudo apt install python-certbot-nginx
 
 That seemed to work... though this message in the log looked oddd....
 
-
 	Setting up certbot (0.31.0-1+ubuntu16.04.1+certbot+1) ...
 	Installing new version of config file /etc/cron.d/certbot ...
 	certbot.service is a disabled or a static unit, not starting it.
-
-
-
 
 ## Sources
 
 - [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
 - [How To Secure Nginx with Let's Encrypt on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04)
 - [Stackoverflow: Issue using certbot with nginx](https://stackoverflow.com/questions/53223914/issue-using-certbot-with-nginx)
-
 
 ## See also
 

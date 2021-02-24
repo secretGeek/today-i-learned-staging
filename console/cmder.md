@@ -8,7 +8,6 @@ from <http://cmder.net/>
 
 Try downloading "mini" -- see if it works suitably.
 
-
 ## insert text
 
 What matters the most: How do you insert?
@@ -20,7 +19,6 @@ Can also use `Ctrl V` or Right Click, though they give slightly different behavi
 ![cmder paste settings](CmdEr_Paste_Settings.png)
 
 Also turn on "Automatically remove newline when pasting single line." That looks good.
-
 
 ## Using Powershell with Cmder
 
@@ -44,7 +42,6 @@ Put the startup options as
 
 "Specified Named task" --> {Powershell::Powershell}
 
-
 ## Color schemes
 
 Their favorite color scheme is the muted tones of the "Monokai" color scheme.
@@ -54,7 +51,6 @@ If you want a fully light colored scheme -- keeps people awake in talks -- try "
 I did mess with it a little to get the colors how I wanted them in some circumstances.
 
 ![Tomorrow Color Scheme (slightly modified)](CmdEr_Color_Scheme_Based_On_Tomorrow.png)
-
 
 ## Arrow keys when running bash.exe (windows subsystem for linux)
 
@@ -78,13 +74,11 @@ I also added a `bash` function to my powershell `profile.ps1` which reads:
         & $env:windir"\system32\bash.exe" -cur_console:p1
     }
 
-
 ## Fade when inactive
 
 Change this in settings -> Features -> Color -> Graphic enhancement -> Fade when inactive.
 
 (Included in one of the screenshots above)
-
 
 ## is cmder slow over rdp?
 
@@ -97,18 +91,15 @@ It's under `Settings > Features > Transparency` -- to wit:
 	Settings > Features > Transparency > Active window transparency <- uncheck!
 	Settings > Features > Transparency > Use separate transparency value for inactive window <- uncheck!
 
-
 ![turn off transparency](cmder_rdp_speed.png)
 
 Cmder will no longer be slow to paint over remote connections.
 
 ## Tabs on bottom
 
-
     General > Tab bar > Tabs on Bottom <-- check it on!
 
 ![tabs on bottom](cmder_tabs_on_bottom.png)
-
 
 ## Source
 

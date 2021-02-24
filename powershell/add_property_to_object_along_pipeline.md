@@ -43,12 +43,9 @@ And I believe I used this particular one, so our hashtable can be [exported to a
 
 	ConvertTo-Object $hash | Export-Csv test.csv -NoTypeInformation
 
-
 ## Convert custom object to hash table...
 
-
 And I found that in [MarkJump](https://github.com/secretGeek/markjump) I wrote a function that is somewhat the reverse of this, and turns a custom object into a hash...
-
 
 	# ConvertTo-Hash is used by Get-marks to convert the custom psObject into a hash table.
 	function ConvertTo-Hash($i) {
@@ -64,7 +61,6 @@ And I found that in [MarkJump](https://github.com/secretGeek/markjump) I wrote a
 ## Source
 
 - [Convert hash to PS objects in pipeline](https://community.idera.com/database-tools/powershell/ask_the_experts/f/learn_powershell_from_don_jones-24/2824/exporting-key-value-pair-using-export-csv-cmdlet)
-
 
 ## See also
 

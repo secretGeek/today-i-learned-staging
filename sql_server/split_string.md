@@ -17,7 +17,6 @@ Returns
 |c|
 |d|
 
-
 The function:
 
 	CREATE FUNCTION [dbo].[SplitString]
@@ -56,9 +55,7 @@ The function:
 		RETURN
 	END
 
-
 This CTE version is faster.... (though it doesn't allow you to specify a delimiter)
-
 
 	CREATE FUNCTION [dbo].[SplitList](@list  nvarchar(MAX)) RETURNS TABLE AS
 	RETURN
@@ -78,13 +75,11 @@ This CTE version is faster.... (though it doesn't allow you to specify a delimit
 		FROM   csvtbl
 		WHERE  stop > 0
 
-
 This one,
 
 1. Does allow you to specify a delimiter, and
 2. Tells you where in the source string each element starts and stops
 3. Numbers each element
-
 
 	CREATE FUNCTION [dbo].[SplitListChar](@list  nvarchar(MAX), @delim nchar) RETURNS TABLE AS
 	RETURN
@@ -105,7 +100,6 @@ This one,
 				AS Value, stop, start, rownum
 		FROM   csvtbl
 		WHERE  stop > 0
-
 
 ## See also
 

@@ -1,6 +1,5 @@
 ﻿# 50 Writing Tools
 
-
 > I. Nuts and Bolts
 >
 > 1. Begin sentences with subjects and verbs.

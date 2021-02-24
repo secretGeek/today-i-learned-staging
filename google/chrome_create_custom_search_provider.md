@@ -1,6 +1,5 @@
 ﻿# Create a custom search provider in chrome
 
-
 I would like to create my own custom search provider that:
 
 	- knows that localhost addresses are not a search
@@ -8,7 +7,6 @@ I would like to create my own custom search provider that:
 		i.e. "slash commands"
 	- urls just get opened
 	- sends regular searches to your regular search provider
-
 
 ## Further Reading
 

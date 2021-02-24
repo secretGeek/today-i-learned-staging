@@ -20,7 +20,6 @@ And here's one up to the 17th.
     a|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
     e|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
-
 Here's a fretboard with all the notes listed
 
      0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17
@@ -50,7 +49,6 @@ And another with some frets drawn in
     a |---|---|---|--
     E |---|---|---|--
 
-
 Here's a place where you can play A pentatonic minor. You can shift that pattern up or down the neck.
 I've marked the root note as R and the V note as capital X.
 I call this the 'up' pattern, because it's upward of the root note.
@@ -64,7 +62,6 @@ It's also known as 'Position 1'
     d|---|---|---|---|--x|---|--R|---|---|---|---|---|
     a|---|---|---|---|--x|---|--X|---|---|---|---|---|
     e|---|---|---|---|--R|---|---|--x|---|---|---|---|
-
 
 Or you can play this adjacent shape. Which can also be shifted up or down for different keys.
 I think of this as the 'down' pattern.
@@ -133,27 +130,21 @@ Here's one part of the fretboard which forms a 'classic' shape, not mentioned ab
     a|---|---|---|---|---|---|---|---|---|---|---|---|
     e|---|---|---|---|---|---|---|---|---|---|---|---|
 
-
 Some blues musicians will noodle around on just those five locations for an entire solo.
 
 (And of course you could shift these patterns up or down to transpose to a different key. This is shown in A)
 
 ------
 
-
-
 ## Pent Minor positions:
 
 ![minor pentatonic positions](minorpentatonicpositionsG.png)
 
-
 ------
-
 
 ## "Natural minor" positions
 
 ![minor heptatonic positions](minorheptatonicpositions.png)
-
 
 ------
 
@@ -161,14 +152,11 @@ Some blues musicians will noodle around on just those five locations for an enti
 
 ![major hept positions](majorheptatonicpositions.png)
 
-
 ------
-
 
 ## Major Pentatonic Positions
 
 ![major pentatonic positions](majorpentatonicpositions.png)
-
 
 ------
 

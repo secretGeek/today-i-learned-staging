@@ -6,19 +6,15 @@ Caveats -- it's not a great dark mode implementation, yet. A few things are not 
 
 ![SSMS Dark Mode Broken](SSMS_Dark_Mode_Broken.png)
 
-
 Despite this I still prefer it, very much. Better for the eyes.
-
 
 Before applying the change you will only have two color themes (Blue and Light) available under:
 
 	Tools -> Options -> General -> Color themes
 
-
 To fix this:
 
 Find the folder SSMS is running from, e.g.
-
 
 |Version    | Example Location    |
 |===========|===========|
@@ -39,8 +35,6 @@ Find the folder SSMS is running from, e.g.
 	Tools -> Options -> General -> Color themes
 
 Available theme now includes Blue, **DARK** and Light.
-
-
 
 ## Source(s)
 - [How to enable dark theme in SQL Server Management Studio](https://www.prajwaldesai.com/how-to-enable-dark-theme-in-sql-server-management-studio/) -- this is the one i used

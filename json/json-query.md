@@ -22,14 +22,12 @@ There's quite a few more now!
 - [query-json](https://github.com/davesnx/query-json)
 - [rq](https://github.com/dflemstr/rq)
 
-
 ## Also
 
 - <https://github.com/jmespath/jmespath.terminal> interactive
 - <https://github.com/homeport/dyff> (JSON and YAML conversions and diffs)
 - <https://github.com/tomnomnom/gron> (makes json grepable)
 - [ConvertFrom-Json](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7) (powershell)
-
 
 ## Source
 

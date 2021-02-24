@@ -10,9 +10,7 @@ and
 
 	Install-Module -Name PSAirTable
 
-
 Source here: <https://github.com/adbertram/PSAirTable>
-
 
 `PSAirTable` has these functions:
 
@@ -25,15 +23,11 @@ Source here: <https://github.com/adbertram/PSAirTable>
 - `Find-Record`
 - `InvokeAirTableApiCall`
 
-
-
-
 	Get-PSAirTableConfiguration
 
 	Application      Bases
 	-----------      -----
 	@{ApiKey=XXXXXX} {@{Name=<name of base here>; ID=<id of base here>}}
-
 
 Previously I could find a record in the `Todo` table of the `Projects` base, with:
 
@@ -41,12 +35,9 @@ Previously I could find a record in the `Todo` table of the `Projects` base, wit
 
 ...but now it errors with:
 
-
 	The base name [projects] could not be found. Ensure it exists by running (Get-PSAirTableConfiguration).Bases
 
-
 I have my API Key from 	`airtable.com/account`
-
 
 I tried to save it with:
 
@@ -59,7 +50,6 @@ But this failed with:
 Tried again as Administrator -- and it seems to have worked, as no error.
 
 Tried:
-
 
 	Find-Record Projects Todo
 

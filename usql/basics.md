@@ -26,8 +26,6 @@ Any paths mentioned in the query will be relevant to the local `USQLDataRoot`, i
 
 Example query:
 
-
-
     @t = EXTRACT
             name string, age int
          FROM "fred.csv"
@@ -52,7 +50,6 @@ Gotcha: by default it expects there to be no header row. So you need to tell it 
 
 Gotcha: even if they are quoted, you cannot have literal carriage returns/line feeds inside csv file, if you hope to use the `Extractors.Csv()`. They must instead be escaped by being replaced with '\r' and '\n'. This is to allow for parallelization, so that rows can be processed in any order (without processing prior rows). see [issue 84](https://github.com/Azure/usql/issues/84)
 
-
 There is no schema information about the csv file. You define the schema (the type details) in the extract command. This is called **"Schema on load"**. Note the use of .net types, e.g. `string` not `nvarchar`.
 
 Each of those variables, `@t`, `@g`, is a data row set.
@@ -72,6 +69,5 @@ We can use custom methods defined in a 'code behind' file. The example above is:
             }
         }
     }
-
 
 Other than code-behind files, We can also load assemblies into a database in SQL Azure Data Lake, and reference those assemblies, thus sharing more complex logic.

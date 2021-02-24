@@ -1,8 +1,6 @@
 ﻿# Count occurrences of string
 
-
 Here's a clever utility function to count how many times a substring appears in a string...
-
 
 	CREATE FUNCTION dbo.CountOccurrencesOfString
 	(
@@ -14,8 +12,6 @@ Here's a clever utility function to count how many times a substring appears in 
 	BEGIN
 		return (LEN(@searchString)-LEN(REPLACE(@searchString,@searchTerm,'')))/LEN(@searchTerm)
 	END
-
-
 
 ## Source
 

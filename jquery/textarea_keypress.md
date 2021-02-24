@@ -2,8 +2,6 @@
 
 This is surprising and has gone through a few changes across the years.
 
-
-
     var oldVal = "";
 
     $("#textarea").on("change keyup paste", function() {

@@ -6,7 +6,6 @@ Identifying that an index is missing is just part of the journey. You also need 
 
 But caveats aside here are the CODES.
 
-
 	SELECT
 		db.[name] AS [DatabaseName]
 		,schema_name([objects].[schema_id]) + '.' + [objects].[name] AS [Table]
@@ -53,8 +52,6 @@ But caveats aside here are the CODES.
 	ORDER BY --[Table]
 		[IndexAdvantage] DESC
 	OPTION (RECOMPILE);
-
-
 
 ## Sources
 

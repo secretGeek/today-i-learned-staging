@@ -1,6 +1,5 @@
 ﻿# Where/How to document asp.net core
 
-
  * Documentation at microsoft:
     <https://docs.microsoft.com/en-us/aspnet/core/>
 

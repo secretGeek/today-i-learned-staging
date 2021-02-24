@@ -1,12 +1,8 @@
 ﻿# Victor Frankl Man's Search for Meaning
 
-
-
 Paradoxical intention- to overcoming stuttering try and stutter all you can
 
 Similar to ACT techniques
-
-
 
 Meaning found via:
 

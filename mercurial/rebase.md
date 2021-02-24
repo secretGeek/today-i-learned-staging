@@ -1,6 +1,5 @@
 ﻿# Rebasing in mercurial for dimwits like me
 
-
 ## Step 1. Get rebase
 
 First, enable the rebase extension by editing:
@@ -11,12 +10,10 @@ And in the `[extensions]` section, write:
 
 	rebase =
 
-
 If you *don't* have the extension, then running a rebase, e.g. `hg rebase -s 745 -d 775`, will result in:
 
 	hg: unknown command 'rebase'
 	(did you mean one of qrename, rename, resolve?)
-
 
 Once you've enabled it, confirm you have the rebase extension installed by typing:
 
@@ -32,7 +29,6 @@ In the bottom of that output you should see something like:
      mq            manage a stack of patches
      rebase        command to move sets of revisions to a different ancestor **********
 
-
 ## Using rebase
 
 The simplest way to use it is that when you wish to pull and update the repo, instead of using:
@@ -45,9 +41,7 @@ Do this instead:
 
 That will change your local revisions to be applied *after* any revs that were performed in remote locations (after you last updated)
 
-
 Let's say while you were making some local revisions, X,Y&Z:
-
 
 ![rebase1](rebase1.png)
 
@@ -71,7 +65,6 @@ So your command might be more like:
 	$otherPeoplesLastCommit = 115
 	hg rebase -s $myEarliestCommit -d $otherPeoplesLastCommit
 
-
 Here's another example.
 
 The repo looked like this:
@@ -86,24 +79,19 @@ I used this command:
 
     hg rebase -s 722 -d 724
 
-
 Which resulted in:
 
 ![rebase_example4.png](rebase_example4.png)
 
 The linear history I was after.
 
-
-
 To see neat `log` (to help with deciding `-s` and `-d`) use:
-
 
 	hg log --template "{rev}: {desc} {author}\n" -l 10
 
 ## One more time
 
 I seem to have written this out previously, so here it is one more time, this time with ascii art.
-
 
 	hg rebase -s A -d B
 
@@ -113,13 +101,10 @@ and B is the highest number of the revisions that have been done remotely.
 
 Once the command is performed A will be rebased to occur straigth after B.
 
-
-
                   -- J (101)--- K (102)--- L (103)--->
                  /
     --- I (100)-
                  \-- M (104)--- N (105)--- O (106)--->
-
 
 Assume that J,K, and L are my local changes.
 
@@ -133,17 +118,12 @@ So run this command:
 
 	hg rebase -s 101 -d 106
 
-
 And end up with:
-
 
     --- I (100)--- M (101)--- N (102)--- O (103)--- J (104)--- K (105)--- L (106)--->
 
 Nice and linear
 
-
-
 ## Source
-
 
  * [Rebase Extension](https://www.mercurial-scm.org/wiki/RebaseExtension)

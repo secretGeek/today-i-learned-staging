@@ -1,6 +1,5 @@
 ﻿# Badass book Kathy Sierra
 
-
 * Dreyfus skill acquisition model
 * Expertise
 * Intuition

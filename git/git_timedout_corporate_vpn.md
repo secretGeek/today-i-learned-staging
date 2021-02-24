@@ -7,16 +7,13 @@ Any commands like `git push` or  `git pull` or `git clone` were failing by timin
 	> git push
 	fatal: unable to access 'https://exampleteamname.visualstudio.com/exampleprojectname/_git/examplereponame/': Failed to connect to exampleteamname.visualstudio.com port 443: Timed out
 
-
 All 'work from home' developers started having this problem at the same time. We think it's related to the network/proxy, not something we can really fix.
-
 
 ## Work around
 
 Disconnecting from vpn avoided the issue... but was not a solution.
 
 ## Solution
-
 
 Add this to "~\.gitconfig"
 
@@ -52,7 +49,6 @@ It was a lengthy javascript file (800 lines long), starting like this:
 
 Near the end it told you the general proxy settings to use...
 
-
 		...
 		if (shExpMatch(url, "https://*"))
 		{
@@ -64,19 +60,15 @@ Near the end it told you the general proxy settings to use...
 		}
 	}
 
-
 (Names have been changed to protect the LAN)
 
 So I took one of the proxy addresses from there
-
 
 ## What if you don't have a password?
 
 Some users use some kind of single-sign on token system where they don't really have a password. That's great and modern... but what do you stick in the config?
 
 In visual studio .com you can create a token, called a private access token -- then use the token here:
-
-
 
 	[http]
 	proxy = http://anything:PAT@myproxy.domain.com:8080

@@ -4,7 +4,6 @@ Notepad++ has this annoying built in feature where it autocompletes quotes brack
 
 You type `"`  and it throws in another `"` right away! Stop it already!
 
-
 > Settings -> Preferences -> Auto-Completion
 >
 > 2nd grouping called "Auto-Insert", check/un-check the appropriate auto completion/inserts.
@@ -25,25 +24,19 @@ So I could only turn off auto complete.
 
 Instead though, I've edited the `config.xml` file stored here:
 
-
 	cd $env:APPDATA
 	cd Notepad++
 	FindText auto-compl
 	Notepad.exe config.xml
 
-
 And changed:
-
 
     <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" autoCIgnoreNumbers="no" funcParams="yes" />
 
 To
 
-
 	<GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="5" autoCIgnoreNumbers="no" funcParams="yes" />
 
-
 ## Source
-
 
  * [How to disable annoying 'parenthesis completion'?](http://stackoverflow.com/questions/119387/how-to-disable-annoying-parenthesis-completion)

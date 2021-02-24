@@ -10,13 +10,10 @@ Add the nuget package for `select2` (and `jquery` if you haven't already)
 
 If it hasn't automatically added the `select2.css` and `select2.js` to your `_layout.cshtml` then do that manually. Like a primitive cave dweller.
 
-
 For implementation patterns see:
 
 * [How to add dynamically populated selects/dropdowns to a basic asp.net MVC site?](select_dynamic_dropdowns.md)
 * [How to add multi-select dropdowns to a basic asp.net MVC site?](select_multi_dropdowns.md)
-
-
 
 Here's some rough CSS I added to `site.css`, to make these fit in with Twitter Bootstrap a little better:
 

@@ -1,10 +1,8 @@
 ﻿# Surround WIth
 
-
 > If you have Web Essentials installed, you can use Shift+Alt+W to surround a selection with a tag.
 
 See http://vswebessentials.com/features/html#surround-with
-
 
 The poor person's "surround with", when you don't have web essentials.
 
@@ -14,7 +12,6 @@ The poor person's "surround with", when you don't have web essentials.
 4. Press Ctrl-V to re-insert your text between the tags
 
 --http://stackoverflow.com/a/35178430/49
-
 
 ## Source
 

@@ -10,9 +10,7 @@ I've placed related resources here for myself:
 
     j learning; cd sql_server\indexing_for_performance
 
-
 ## Overview
-
 
 Two stages:
 
@@ -25,7 +23,6 @@ Two stages:
 		- similar indexes
 
 ## General tips (throughout course)
-
 
 - When running queries to be analysed:
 	- Turn on statistics io
@@ -64,16 +61,12 @@ Two stages:
 
 	DBCC SHOW_STATISTICS ('Employee', 'EmployeeZipRange1FilteredIX');
 
-
-
-
 ## When is index used
 
 - Non clustered non covering Indexes only used when selectivity &lt; about 1.5 %
 	- i.e. If your query returns 2% of the table it would rather scan the table than seek the non c index.
 	- This is because cost of many bookmark lookups (from index leaf to actual table (which are random access access)) are slower than the even larger number of sequential reads when scanning the table.
 	- And note Statistics must be up to date for those percentage estimates &lt;2% to be good enough.
-
 
 			--[sys].[dm_db_index_physical_stats]
 
@@ -82,12 +75,10 @@ Two stages:
 					(db_id(), object_id('Charge'), 1, NULL, 'DETAILED')
 			go
 
-
 ## When *don't* you want a covering index?
 
 - Highly selective queries (returning a handful of records) do not need to be covered - as there are very few bookmark lookups performed.
 - `Select *` does not need to be covered as u can't cover it anyway.
-
 
 filtered index:
 Useful example:
@@ -118,13 +109,11 @@ Duplicates obviously only need 1. But check no one is using hints to target one 
 
 Similar - may make a "super index" and find its still useful but less space maintenance easier to cache and stay in cache etc.
 
-
-TODO: Kimberly has a replacement for `sp_helpindex` - track that down.
+`todo` Kimberly has a replacement for `sp_helpindex` - track that down.
 
 ## External References
 
 - [Indexing for Performance Finding the Right Balance `PDF`](https://www.sqlskills.com/blogs/kimberly/content/binary/indexesrightbalance.pdf) &mdash; a 2004 pdf of earlier version of the course.
-
 
 ## See also
 

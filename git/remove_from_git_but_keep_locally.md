@@ -8,7 +8,6 @@ if you've added it, but haven't committed it or pushed it... (you've since added
 
     git reset {someFile}
 
-
 if you added it, committed it, maybe even pushed it... (you've since added it to .gitignore above right?)
 
  * for a file:
@@ -19,11 +18,9 @@ if you added it, committed it, maybe even pushed it... (you've since added it to
 
     git rm --cached -r {someDir}
 
-
 This assumes the file doesn't contain sensitive stuff.
 
 If it contains sensitive stuff, and you've already committed it, then research the right approach, polish your resume etc.
-
 
 ## Source
 

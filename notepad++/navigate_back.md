@@ -23,7 +23,6 @@ And make sure "Auto Record" is on.
 
 And then voil&aacute;!
 
-
 ## See also
 
 - [VS Code: Navigate back](../vs_code/navigate_back.md)

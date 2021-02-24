@@ -1,10 +1,8 @@
 ﻿# git for mercurial users
 
-
 ## how mercurial does it
 
 ![mercurial overview](mercurial_overview.png)
-
 
 ## how git does it
 
@@ -22,10 +20,7 @@ big difference is the "staging area" and fetch/pull.
 | hg diff | git diff HEAD | shows all changes whether staged or not |
 | hg outgoing | git log --branches --not --remotes=origin | (bit of a mouthful, can use an alias)|
 
-
 See: <https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone>
-
-
 
 ## git config example
 
@@ -50,16 +45,12 @@ See: <https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone>
 		heads = show-ref
 		alias = config --get-regexp alias
 
-
 ## set up your config
-
 
 	git config --global user.name "Leon"
 	git config --global user.email "Leon@example.com"
 	git config --global http.proxy {your proxy if needed}
 	git config --global https.proxy {your proxy if needed}
-
-
 
 ## See also
 

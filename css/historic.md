@@ -2,7 +2,6 @@
 
 To give something a somewhat aged and very special feel....
 
-
 historic {
     background-color: #fCfCfC;
     margin-top: 20px;
@@ -11,7 +10,6 @@ historic {
     opacity: 0.9;
     border-radius: 25px;
 }
-
 
 .historic img {
     -webkit-filter: sepia(0.3);

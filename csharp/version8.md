@@ -16,7 +16,6 @@ https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8
  * [Asynchronous streams](#asynchronous-streams)
  * [Indices and ranges](#indices-and-ranges)
 
-
 ## Source
 
 * [what's new in C#8](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8)

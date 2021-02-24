@@ -1,8 +1,6 @@
 ﻿# Get text of a view from Oracle
 
-
 There are no doubt other ways to get this, but what I've used is:
-
 
 	select TEXT
 			  FROM DBA_VIEWS

@@ -4,9 +4,7 @@ if you use the "colors" extension in mercurial, you may find that the output of 
 
 i have these two functions: `git_on` and `git_off`.
 
-
 Run `git_on` when u want `git log` to work, `git_off` when you want `hg colors` to work.
-
 
 git_on    -- stop git log from being bad, but ruin hg colors
 

@@ -1,6 +1,5 @@
 ﻿# Data Table to CSV
 
-
 Convert an array of objects to CSV is one of the classic activities.
 
 Here's a workable method for converting a `System.Data.DataTable` to CSV.
@@ -55,7 +54,6 @@ Common mistakes people make are:
 2. Qualify *every* field, whether it needs to be qualified or not.
 3. Trim fields before qualifying. That's changing the data, and should only be done if its explicitly needed. (Some people hide steganographic codes in trailing whitespace... this would eradicate the message.)
 4. Only check for embedded fieldSeparators, don't check for embedded record separators, etc.
-
 
 ## Sponsor
 

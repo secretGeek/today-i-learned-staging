@@ -26,9 +26,7 @@ It says
 
 > You must remove (delete) any other MX records other than the above 2 records. In case you have previous providers MX records, then you may not receive emails in Zoho.
 
-
 So for NimbleText.com where previously the email was managed by Arvixe, I will have to delete the old MX records. Hmmm, bit reluctant. For now I edited the old ones to have lower priority (30 and 40) than the new ones. That could turn out to be a ridiculous idea.
-
 
 ### TXT Records: SPF
 
@@ -56,7 +54,6 @@ For example;
 	TXT Value
 	v=DKIM1; k=rsa; p=nwjcnevnevnckjNskjdnckJNA...(snip)...cjsnkNEWJWEKJNCkewmckwenc
 
-
 Main thing I want to show is that when adding a TXT record to DNS at Digital Ocean (such as the DKIM text record) you don't need to include the domain name, because digital ocean automatically adds it for you.
 
 (And it doesn't matter if you do or don't include the trailing dot -- digital ocean does that for you automatically)
@@ -70,7 +67,6 @@ If you do put in the domain, it goes bad... look at this stinking hot mess:
 ![don't put in domain](dkim_dns_digital_ocean_BAD.png)
 
 Of course, I never made that mistake and wasted half my damn night. I'm just showing this in case someone else is less clever than me.
-
 
 When doing this same DKIM configuration at Arvixe, I pasted in the whole TXT Host/Name, e.g. zoho._domainkey.nimbletext.com
 

@@ -2,17 +2,13 @@
 
 Assuming you haven't done more commits or pushed... you can "amend" a commit to add more to it.
 
-
 Just add the files/changes you missed or changed...
 
-
 	git add the_left_out_file
-
 
 And then:
 
 	git commit --amend --no-edit
-
 
 ## Source
 

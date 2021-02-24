@@ -2,9 +2,7 @@
 
 ...as an extension to integer...
 
-
 Usage: $"See you in {days.Pluralize("day")}"
-
 
 	public static string Pluralize(this int value, string singular)
 	{

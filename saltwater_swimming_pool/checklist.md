@@ -4,7 +4,6 @@
 2. Basic checklist if water level is dropping
 3. What to do during storms or yard flooding
 
-
 _ is pool green?
 _ is pool cloudy?
 _ is chlorine present?

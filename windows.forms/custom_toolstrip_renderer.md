@@ -7,7 +7,6 @@ Breakdown of time spent adding a new feature in [NimbleSET](http://nimbletext.co
 * Time spent working around a bug in the framework that was resolved as 'closed, won't fix' in 2006. 4 hours. (details below).
 * Time spent blogging about it and subsequently finding other improvements to the code: 1 hour.
 
-
 So the bug in the framework is that if a `toolbarstrip` has large icons (e.g. `ToolStrip.ImageScalingSize = new Size(32, 32);`), then 'Checked' items won't render correctly in a child dropdown list of that `toolbarstrip`. Obscure? Yep.
 
 ![checked items checkmark renders misaligned](toolstrip_renderer_checkitem_wrong.png)

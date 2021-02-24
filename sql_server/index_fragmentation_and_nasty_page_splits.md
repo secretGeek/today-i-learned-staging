@@ -1,6 +1,5 @@
 ﻿# Index fragmentation and nasty page splits
 
-
 I learned most about index fragmentation and 'nasty' page splits from Paul Randal in his pluralsight course '[SQL Server: Index Fragmentation Internals, Analysis, and Solutions](https://app.pluralsight.com/library/courses/sqlserver-index-fragmentation-internals-analysis-solutions/table-of-contents)'
 
 There's no point looking at every page split as some are "good page splits" -- e.g. when an append happens at the end of a table, and others are "nasty" e.g. inserts, updates deletes within an index that cause page splits.
@@ -13,7 +12,6 @@ With `sys.dm_db_index_physical_stats`
 
 Quick guide to its usage:
 
-
 	-- LIMITED option
 	SELECT * FROM sys.dm_db_index_physical_stats (
 		DB_ID (N'Company'),
@@ -25,10 +23,7 @@ Quick guide to its usage:
 
 Limited will return an answer quickly. Will not look at the leaf level of the index, so it will not know anything about page density. But it will know about fragmentation down to the leaf level (because you can see this fro the level above.)
 
-
 If you have a big table and are happy to know about page density only on 1 in 100 of the pages, then the 'sampled' mode will suit you fine:
-
-
 
 	-- And now with the SAMPLED option
 	SELECT * FROM sys.dm_db_index_physical_stats (
@@ -38,7 +33,6 @@ If you have a big table and are happy to know about page density only on 1 in 10
 		NULL,
 		N'SAMPLED');
 	GO
-
 
 But if you have more time to wait, the 'detailed' option will show page density info for all pages in the leaf level.
 
@@ -50,7 +44,6 @@ But if you have more time to wait, the 'detailed' option will show page density 
 		NULL,
 		N'DETAILED');
 	GO
-
 
 Even the `LIMITED` version of this query can take some time for a large and fractured index. You may not want to run it for the entire database but only for selected tables or selected indexes.
 
@@ -66,21 +59,15 @@ About reorganize:
 
 Note that although it is "online" it does still take locks, just less aggressively so. And you can run it for a little while, stop it, and allow other things to continue: it will not roll back everything it has done (as a rebuild would) -- so in that manner you could proceed a little at a time, if you must.
 
-
 ## Tools to help reorganize your fragmented indexes
 
 One of the conclusions at the end of the course by Paul Randall was that the Index maintenance scripts from Ola Hallengren https://ola.hallengren.com are really the gold standard and do all of the work that would need to do if you built your own solution.
 
-
 	Alter index reorganize
-
-
 
 Checking fragmentation of a column store index is quite different:
 
-
 From [Resolve index fragmentation by reorganizing or rebuilding indexes](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver15#to-check-the-fragmentation-of-a-columnstore-index-using-) &mdash;
-
 
 	SELECT i.object_id,
 		object_name(i.object_id) AS TableName,
@@ -94,7 +81,6 @@ From [Resolve index fragmentation by reorganizing or rebuilding indexes](https:/
 	WHERE object_name(i.object_id) = 'FactResellerSalesXL_CCI'
 	GROUP BY i.object_id, i.index_id, i.name
 	ORDER BY object_name(i.object_id), i.name;
-
 
 ## More about Ola Hallengren's SQL Server Maintenance Solution
 

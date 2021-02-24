@@ -20,7 +20,6 @@ or perhaps you see...
 	-----  -----  -----  --------
 	6      1      7601   65536
 
-
 And you can turn the major/minor into a well known version name, using the table below...
 
 |Operating system|Version number|
@@ -40,8 +39,6 @@ And you can turn the major/minor into a well known version name, using the table
 |Windows XP 64-Bit Edition|5.2|
 |Windows XP|5.1|
 |Windows 2000|5.0|
-
-
 
 And is windows a 64 or 32 bit version??
 

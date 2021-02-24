@@ -6,7 +6,6 @@ The easiest way for the profile to tell that it is being run by `vscode` is that
 
 So I have a condition in my profile at which point I do some simple things and then exit the profile, instead of loading all my usual convenience functions.
 
-
 	if ($null -ne $env:TERM_PROGRAM -and $env:TERM_PROGRAM -eq "VSCODE") {
 		Write-host "VSCODE!" -f green;
 		. (Join-Path $env:util "Powershell\vsprompt.ps1")

@@ -1,6 +1,5 @@
 ﻿# Alternating row background colors inside groups in SSRS
 
-
 Click on Report Properties, Code tab...
 
 Custom code:
@@ -20,7 +19,6 @@ Custom code:
 			Return EvenColor
 		End If
 	End Function
-
 
 First cell in the row, give it this for background color expression:
 

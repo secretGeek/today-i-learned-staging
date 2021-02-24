@@ -4,7 +4,6 @@ by Charles Duhigg
 
 This is a well researched and creatively written book. Charles is a journalist who knows how to "craft" a story for high impact. The topic is powerful.
 
-
 ## PART 1: THE HABITS OF INDIVIDUALS
 
 ### Chapter 1: The Habit Loop - How Habits Work
@@ -18,7 +17,6 @@ Once a habit is established, the higher functions and memory are not involved at
 * The reward is the payoff, e.g. you're not bored, and your brain gets a little buzz.
 
 Once that's repeated, a habit becomes ingrained, and you don't consciously think about doing the thing. You just do it.
-
 
 ### Chapter 2: The Craving Brain - How to Create New Habits
 
@@ -38,13 +36,11 @@ E.g. you like drinking at the pub because of the connection to other people. The
 
 For a change of habit to really stick (during the hard times) we need something else: we need "belief". In AA it's expressed as giving yourself up to the Lord. What matters it that you have a deep and unshakable belief that change can occur. i.e. You are deeply hopeful, not hopeless.
 
-
 ## PART 2: THE HABITS OF SUCCESSFUL ORGANISATIONS
 
 ### Chapter 4: Keystone Habits, or the Ballad of Paul O'Neill - Which Habits Matter Most
 
 Changing one habit can lead to others changed.
-
 
 ### Chapter 5: Starbucks and the Habit of Success - When willpower becomes automatic
 
@@ -59,7 +55,6 @@ Changing one habit can lead to others changed.
 ### Chapter 9: The Neurology of Free Will - Are we responsible for our habits?
 
 Appendix: A Reader's Guide to Using These Ideas
-
 
 ## References
 

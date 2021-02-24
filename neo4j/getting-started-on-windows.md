@@ -19,7 +19,6 @@ Sounds good!
 
 Oh, sounds bad?
 
-
 Found a better guide....
 
 - [5 QUICK STEPS TO GETTING STARTED WITH NEO4J 2.2.3 ON WINDOWS OS](https://kvangundy.com/wp/5-quick-steps-to-getting-started-with-neo4j-2-2-3-on-windows-os/) -- **2015** article that is actually on the topic!
@@ -35,7 +34,6 @@ They did give me a giant neo4j activation key, 704 bytes of random junk.
 Okay -- so now I have...
 
 	neo4j-desktop-offline-1.3.4-setup.exe
-
 
 Installing to here:
 
@@ -55,11 +53,9 @@ I need to store something in csv that is interesting (to me at least)
 
 and then load it up in the graph database.
 
-
 -- a goal here is to get to a point where I'm playing with [cypher - the neo4j query language](https://www.quackit.com/neo4j/tutorial/neo4j_query_language_cypher.cfm)
 
 (a fun idea would be to export my genealogical data et al from `boothby` as csv into `neo4j` desktop and explore that;
-
 
 ## Source(s)
 

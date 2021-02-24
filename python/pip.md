@@ -25,11 +25,9 @@ Here are two folders I added in this case:
 	C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_86;
 	C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_86\Scripts;
 
-
 ## Elevated console
 
 I found that installing things with `pip` often requires an elevated shell.
-
 
 ## Upgrading pip
 

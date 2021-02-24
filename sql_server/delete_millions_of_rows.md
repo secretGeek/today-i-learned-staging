@@ -1,6 +1,5 @@
 ﻿# Deleting millions of rows from SQL Server
 
-
 So, you've [found large tables](.\find_large_tables.md) and now you want to trim them down to size... Not drop them them, just delete most of the rows, using some conditions.
 
 If you run a:
@@ -13,7 +12,6 @@ If you run a:
 As it alleges in the comments at the [source](http://stackoverflow.com/questions/24785439/deleting-1-millions-rows-in-sql-server):
 
 > Any delete operation will causing locking - on the row level. But once your transaction has more than 5000 row-level locks, SQL Server will do a lock escalation and lock the entire table in exclusive mode<br />&mdash;marc_s
-
 
 So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
 
@@ -58,7 +56,6 @@ So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
 		SET @BATCHSIZE=@@ROWCOUNT
 		SET @ENDBATCH = GETDATE()
 
-
 		SET @ITERATION=@ITERATION+1
 		SET @TOTALROWS=@TOTALROWS+@BATCHSIZE
 		SET @MSG = 'Iteration: ' + CAST(@ITERATION AS VARCHAR) + ' Total deletes:' + CAST(@TOTALROWS AS VARCHAR)
@@ -80,8 +77,6 @@ So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
 	  '. Final Speed: ' + CAST(CAST(@TOTALROWS as float)/(DATEDIFF(s, @STARTALL, @ENDBATCH)) AS VARCHAR) +
 	  ' rows per second'
 	RAISERROR (@MSG, 0, 1) WITH NOWAIT
-
-
 
 ## Source
 

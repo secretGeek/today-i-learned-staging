@@ -2,12 +2,9 @@
 
 Quick note on any utils, (where note is too brief to warrant a whole file)
 
-
 ## Capturing animated gifs
 
 Two super simple apps for this, LICEcap and gifcam.  Gifcam (from <http://blog.bahraniapps.com/gifcam/>) lets you edit/remove frames.
-
-
 
 ## Hard drive space -- squarified treemap
 

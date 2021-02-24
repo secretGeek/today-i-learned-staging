@@ -16,15 +16,11 @@ Use [Edditoria markdown++ syntax highlighting](https://github.com/Edditoria/mark
 	# Read help for details
 	npx markdown-plus-plus --help
 
-
 Relies on [npm](../npm/getting_started.md)
-
 
 You may need to restart notepad, and close and reopen relevant files, before notepad++ will apply the correct user defined language to them.
 
-
 ## Real time previews
-
 
 > MarkdownViewer++ is a Notepad++ plugin that lets you type a file using Markdown and see the preview in real time, in a preview panel
 
@@ -313,7 +309,6 @@ Here's my current style-sheet:
 		padding: 0;
 		border: 0;
 	}
-
 
 The style info you set gets embedded into a `.ini` file here:
 

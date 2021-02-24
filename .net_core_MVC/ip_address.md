@@ -20,13 +20,11 @@ ALL the time, which is not what you wanted to see. (Or it could be "::1" which i
 
 This is because original IP request is terminated by `nginx`, and a new request is sent to your application. Instead if we configure nginx to put the original IP into a request header, and we look at that request header, then we will see the original remote IP address of the caller. Here's the nginx config details...
 
-
     proxy_set_header X-Real-IP $remote_addr;
 
 (See article on [nginx](../linux/nginx.md) to work out exactly where to put that)
 
  In .net core MVC you can then:
-
 
     var ipaddress = Request.HttpContext.Connection.RemoteIpAddress.ToString();
 
@@ -34,7 +32,6 @@ This is because original IP request is terminated by `nginx`, and a new request 
     {
         ipaddress = Request.Headers["X-Real-IP"];
     }
-
 
 ## See Also
 

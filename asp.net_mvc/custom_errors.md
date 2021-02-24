@@ -2,7 +2,6 @@
 
 (`note` This is not for [.net core](../.net_core_MVC/01_summary.md))
 
-
 1. Inside `system.web` element in the `web.config` file:
 
 		<customErrors defaultRedirect="~/Error" mode="On">
@@ -19,7 +18,6 @@
 		}
 
 3. Create an Error controller.
-
 
 	public class ErrorController : Controller
 	{
@@ -47,8 +45,6 @@
 		}
 	}
 
-
-
 In an action where you look for a resource but can't find it... **don't do this**:
 
 	return this.HttpNotFound(); // don't do this! see below...
@@ -56,14 +52,11 @@ In an action where you look for a resource but can't find it... **don't do this*
 ...as that will end up at the IIS error page, not your custom error page.
 instead do this:
 
-
 	throw new System.Web.HttpException(404, "No such project");
 
 ..and it will end up on your "NotFound" page.
 
-
 Inside those error handling views, I have things like this:
-
 
 	@model System.Web.Mvc.HandleErrorInfo
 	@{
@@ -89,15 +82,11 @@ Inside those error handling views, I have things like this:
 		<h2 class="error">Look not here. We cannot find that which you seek.</h2>
 	}
 
-
 The line `if (Authorized.Admin() || Authorized.Editor())` is specific to my situation.
 
 Others recommend:
 
     @if(Model != null && HttpContext.Current.IsDebuggingEnabled)
-
-
-
 
 ## Previously/Sources
 
@@ -108,7 +97,6 @@ Previously I wrote this nasty article which showed a way to get very confused by
 One comment there was very helpful, but a particular stack overflow answer was most helpful.
 
 - [Pableo Romeo answer at 'How to make custom error pages work in ASP.NET MVC 4'](https://stackoverflow.com/a/13905859/49)
-
 
 ## See also
 

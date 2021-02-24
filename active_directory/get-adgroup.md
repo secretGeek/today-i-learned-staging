@@ -6,7 +6,6 @@ Traditionally I use some C# Linq files to query active directory, but they're a 
 
 To get this module you need to install "RSAT" or "Remote Server Administration Tools". In Windows 10, this is available as an optional feature.
 
-
 	Start Menu |
 		Apps & Features |
 			Manage Optional Features |
@@ -15,20 +14,17 @@ To get this module you need to install "RSAT" or "Remote Server Administration T
 
 ...bit of a mouthful. (There are a lot of other RSAT features to pick from.)
 
-
 ## Details of a group
 
 Once that's installed, you can get Ad group info via:
 
 	get-adgroup "THE-GROUPS-NAME" -properties *
 
-
 ## Details of a user
 
 And similarly:
 
 	get-aduser "my-user-name" -properties *
-
 
 Usually I want:
 
@@ -50,13 +46,11 @@ But since the results are in "X.500 Directory Specification" which looks like th
 
 	(Get-ADUser "leon.bambrick" -Properties MemberOf).MemberOf | % { ($_ -split "," -like "CN=*" -split "=" )[1] }
 
-
 (I did like this alternative form [at serverfault from user Canoas](https://serverfault.com/a/594724/17154) which doesn't rely on RSAT....
 
 	(New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$($env:username)))")).FindOne().GetDirectoryEntry().memberOf
 
 ...)
-
 
 ## Which users are in a group?
 
@@ -66,14 +60,12 @@ e.g.
 
 	get-adgroupmember "A-SPECIAL-GROUP" | % SamAccountName
 
-
 ## When was the user's password last set?
 
 	$userName = "my-user-name"
 	(Get-ADUser -Identity $userName -Properties "PasswordLastSet")."PasswordLastSet"
 
 (Can be the best way to guess when it will be reset/expire..)
-
 
 ## Try to find the property you want to find
 
@@ -83,22 +75,18 @@ What if we want to find all properties that mention "pass" -- we can do it like 
 
 Then we use the syntax in the examples above to fetch and return that property.
 
-
 ## Find user details of a user from a different Domain Controller
 
 Say I'm on a subnet called `Australia.Company.Example.Com` and the user account I want to inspect if from the parent domain, `Company.Example.Com` -- don't prefix the domain before the user... specifiy `server=` parameter!
 
 	get-aduser "USER-NAME" -server "Company.Example.com" -properties *
 
-
 ## Convert `badPasswordTime` and or accountExpires from 18 digit LDAP time to DateTime
-
 
 Some dates are 18 digits long and represent "the number of 100-nanosecond intervals that have elapsed since the 0 hour on January 1, 1601"
 
 	> w32tm.exe /ntte "131755762378066802"
 	152495 02:17:17.8066802 - 9/07/2018 12:17:17 PM
-
 
 	accountExpires                       : 9223372036854775807
 
@@ -155,16 +143,11 @@ In fact here's all the 'get' methods that are available:
  - `Get-ADUser`
  - `Get-ADUserResultantPasswordPolicy`
 
-
-
 ## Optional Features
 
 Optional features, also known as FODs - Feature On Demand  - can also be installed via `DISM /add-capability`.
 
-
-
 What is `DISM` ??
-
 
 	> get-command DISM.exe
 
@@ -172,24 +155,17 @@ What is `DISM` ??
 	-----------     ----        -------    ------
 	Application     Dism.exe    10.0.17... C:\windows\system32\Dism.exe
 
-
 To list all the features (whiether installed or not)
-
 
 	dism /Online /Get-Capabilities
 
-
-
 ...this will list many capabilities (why are they sometmies called 'optional features','feature on demand','Capabilities' ... which is it!?!?!)
-
 
 This will list detaisl of a specific capability...
 
 	DISM /Online /Get-CapabilityInfo /CapabilityName:Language.Basic~en-US~0.0.1.0
 
-
 Here's a list of all at a specific point in time:
-
 
 | Capability | State |
 |------------|-------|
@@ -522,16 +498,13 @@ Here's a list of all at a specific point in time:
 | WMI-SNMP-Provider.Client~~~~0.0.1.0 | Not Present|
 | XPS.Viewer~~~~0.0.1.0 | Not Present|
 
-
 You can find out more about any one of those via:
-
 
 	DISM /Online /Get-CapabilityInfo /CapabilityName:Language.Basic~~~en-US~0.0.1.0
 
 ...from an elevated console.
 
 Read [More about DISM.](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options)
-
 
 ## Sources
 

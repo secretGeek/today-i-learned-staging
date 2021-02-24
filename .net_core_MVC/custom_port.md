@@ -1,6 +1,5 @@
 ﻿# Hosting an .net core asp.net mvc web application from a custom port number
 
-
 Create a file, `hosting.json` in the root of your project that contains:
 
     {
@@ -31,9 +30,6 @@ In `Program.cs` add a config item that uses that file, and add it as a configura
             host.Run();
         }
     }
-
-
-
 
 In `project.json` ensure `hosting.json` gets included when the file is published, by adding it.
 

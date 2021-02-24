@@ -9,8 +9,6 @@ Use the command `lsb_release -a`
 	Release:        16.04
 	Codename:       xenial
 
-
-
 ## Source
 
 * <https://linuxize.com/post/how-to-check-your-ubuntu-version/>

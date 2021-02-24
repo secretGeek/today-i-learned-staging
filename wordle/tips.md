@@ -6,7 +6,6 @@ There's a lot of word cloud generators, all inspired by "[Wordle](http://www.wor
 - To treat a phrase with spaces as a single word, replace the spaces with `~` -- the tilde character.
 - Common words like "Not" are hidden, by default. To show them, select `Do not hide common words` in the `Language` menu.
 
-
 ## Source
 
 - [wordle faq](http://www.wordle.net/faq)

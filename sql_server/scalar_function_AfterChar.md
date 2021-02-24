@@ -13,18 +13,13 @@ e.g.
 
 Special cases:
 
-
 	select dbo.AfterChar('Jim#2315','@')
 
 ...returns 'Jim#2315', since @ is not in the string.
 
-
 	select dbo.AfterChar(null,'@')
 
 	...returns null, since @ cannot be in the string.
-
-
-
 
 	-- Return the substring after the given character.
 	-- e.g.

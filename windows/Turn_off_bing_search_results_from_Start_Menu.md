@@ -8,8 +8,6 @@ Disable it with:
 
 	Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" -Name "BingSearchEnabled" -Type DWord -Value 0
 
-
 ## Source
-
 
 * [Nick Craver on twitter](https://twitter.com/Nick_Craver/status/1138231377055363074)

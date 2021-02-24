@@ -1,6 +1,5 @@
 ﻿# Closed, Off topic questions with specific tags
 
-
     Select
     distinct
     p.Id

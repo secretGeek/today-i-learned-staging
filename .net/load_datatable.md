@@ -1,6 +1,5 @@
 ﻿# Load DataTable from a SQL query
 
-
 	private DataTable LoadTable(string connectionString, string sql)
 	{
 		DataTable dt = null;
@@ -22,9 +21,7 @@
 		return dt;
 	}
 
-
 The nearest equivalent using Dapper would be something like this:
-
 
 	private IEnumerable<T> Load<T>(string connectionString, string sql)
 	{
@@ -34,7 +31,6 @@ The nearest equivalent using Dapper would be something like this:
 			return connection.Query<T>(sql);
 		}
 	}
-
 
 Also with Dapper, here's a tiny little wrapper for performing inserts/updates:
 

@@ -6,11 +6,7 @@ Step 1: Create a file called "cover.jpg" with width 1800px and height 2360px, an
 
 Step 2: There is no step 2.
 
-
 (Assuming you are creating it with Paint.net, you'll no doubt make heavy use of [layers](../graphics/paint.net_layers.md), and keep the original `.pdn` file. Inkscape also a distinct possibility.)
-
-
-
 
 ## To auto generate a cover
 

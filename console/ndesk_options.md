@@ -8,7 +8,6 @@ It's a single file that you drop in your console application, and then you can p
 
 Example from an early version of NimbleText.
 
-
     using Mono.Options; // Beautiful Console argument parsing!
     ...
     var p = new OptionSet() {
@@ -29,16 +28,12 @@ Example from an early version of NimbleText.
         unprocessedArgs = p.Parse(args);
     }
 
-
 And to show help (display all options) -- it's as easy as:
-
 
     Console.WriteLine("Options:");
     p.WriteOptionDescriptions(Console.Out);
 
-
 But in the common case that you're trying to detect that an invalid option was received, you might do this first.
-
 
     if (p.UnrecognizedOptions != null && p.UnrecognizedOptions.Count > 0)
     {

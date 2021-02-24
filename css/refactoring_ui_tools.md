@@ -1,6 +1,5 @@
 ﻿# Refactoring UI talk -- tools mentioned
 
-
 Steve Schoger  "Refactoring UI" at CSS day 2019 -- see [Youtube: Steve Schoger  "Refactoring UI"](https://www.youtube.com/watch?v=7Z9rrryIOC4)
 
 Excellent talk, helps show the thinking process a professional designer uses when improving a site.

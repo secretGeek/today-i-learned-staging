@@ -4,7 +4,6 @@ Have you had that experience where someone says a cutting remark to you, and it 
 
 Have you ever seen a sign in the office kitchen which says "People named Jeffrey should not steal Helen's birthday cake which her daughter made for her, and if they do I hope they choke on it Jeffrey" ?
 
-
 In other words, have you noticed that:
 
 > Generals Always Fight The Last War
@@ -22,6 +21,5 @@ After a jungle war, the military will be ready for a new jungle conflict. And th
 When people give "general advice" it is really "specific advice" based on a *specific* scenario that happened to them. But they don't want to divulge the gory autobiographical details, and would rather just declare a new universal axiom. As if it has sprung fully formed from nothing, or as if it has been roundly tested with a blind placebo-controlled study, and is beyond question.
 
 And then they'll clash head on with other people, who will be similarly informed by their own hidden and gory autobiographical details from which they've devised their own universal axiom. The two people (or groups, if you include their followers) will then clash: each arguing about their own universal axiom, but neither admitting the personal foundations of their story.
-
 
 This is unlike my own general advice, which is not based on specific gory autobiogaphical details, and does not work only within a limited context, but is roundly tested with a blind placebo-controlled study, or has sprung fully formed from nothing. ;)

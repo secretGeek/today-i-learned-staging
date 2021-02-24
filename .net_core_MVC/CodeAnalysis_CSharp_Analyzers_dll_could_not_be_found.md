@@ -35,5 +35,4 @@ The bad one said:
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "sha512": "GM6h8wakaDLlszoxBZoqdDAs98bd0eu0qYjJX4nMEO6p05ZulUM1V5tXtaYRypGhe78bGci02ejvH4SAumYsKA==",
 
-
 Another time I had this error and the assets file seemed to already have what I considered "the good one". In that case a "clean and rebuild" seemed to do the trick.

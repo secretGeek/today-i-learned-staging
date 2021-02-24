@@ -1,6 +1,5 @@
 ﻿# Secure Copy (scp)
 
-
 From <http://www.hypexr.org/linux_scp_help.php>
 
 Copy the file "foobar.txt" from a remote host to the local host

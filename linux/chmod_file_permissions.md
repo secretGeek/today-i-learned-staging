@@ -48,7 +48,6 @@ Concentrate on those last three, the repeated 'rwx's...
 
 If a permission was missing it would be represented by a dash '-'.
 
-
 - `chmod` - modify permissions
 - `chown` - change the owner of the file
 - `chgrp` - change the group

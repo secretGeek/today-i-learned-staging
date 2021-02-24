@@ -2,7 +2,6 @@
 
 Sometimes, particularly after upgrading from one .net core verison to another I see errors in `g.cshtml.cs` pages...
 
-
 	Severity	Code	Description	Project	File	Line	Suppression State
 	Error	CS0246	The type or namespace name 'VerifyCodeViewModel' could not be found (are you missing a using directive or an assembly reference?)	mysite	C:\apps\websites\mysite\obj\Debug\netcoreapp2.1\Razor\Views\Account\VerifyCode.g.cshtml.cs	23	Active
 

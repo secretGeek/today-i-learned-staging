@@ -16,7 +16,6 @@ So:
 
     'reciprocity)'
 
-
 Whereas:
 
     '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)'
@@ -27,9 +26,7 @@ Compare '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_(social_psycholo
 
 *Test it [here without encoding](http://en.wikipedia.org/wiki/Reciprocity_(social_psychology)) and [here with encoding](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)*
 
-
 **Lesson:** consider encoding `(` and `)` as `%28` and `%29` in urls.
-
 
 ## Source
 

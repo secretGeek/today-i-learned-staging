@@ -83,7 +83,6 @@ Let's see if it got it right?
 |----------|-------|------|---------|-------------|-----------|--------|
 | people.csv | 35 | 2 | 2 |  |  |  |
 
-
 `_meta\columns.csv` contains:
 
 	filename,column,ordinal,type,nullable,max-length,unique,primary-key,description,units,published,source
@@ -98,8 +97,6 @@ Let's see if it got it right?
 Awesome. It's guessed the types as `string` and `int`. True enough!
 
 I've added it to the [list of known tools for csvz](https://github.com/secretGeek/csvz#a-list-of-csvz-compliant-tools-and-libraries). Nice work Mark!
-
-
 
 ## Source(s)
 

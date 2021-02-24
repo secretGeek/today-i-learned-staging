@@ -2,7 +2,6 @@
 
 In order to ensure all files have been added (or .hgignored) before going ahead with a commit, add the following pre-transaction commit hook to your [mercurial.ini](mercurial_ini.md) file
 
-
     [hooks]
     pretxncommit.add_all_files_first_please = hg stat | findstr "? " && EXIT /B 1 || EXIT /B 0
 

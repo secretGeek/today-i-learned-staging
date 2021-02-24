@@ -19,7 +19,6 @@ When I look at what packages are installed locally (with 'dot' in their name) I 
     dotnet-hostfxr-1.1.0                            install
     dotnet-sharedframework-microsoft.netcore.app-1.1.0      install
 
-
 Whereas on my ancient (6 month old) linux machine I have:
 
     dpkg --get-selections | grep -v deinstall | grep dot
@@ -31,7 +30,6 @@ Whereas on my ancient (6 month old) linux machine I have:
 
 (You can also use `dotnet --version` to see which `dotnet` is installed... but I like the approach above because it tells me more than I need)
 
-
 Looking into this some more, over at <https://www.microsoft.com/net/download/linux> it says this about the supported and current versions...
 
     .NET Core 1.0.3 (LTS) (Long-Term-Support)
@@ -42,7 +40,6 @@ And
     .NET Core 1.1 (Current)
     Ubuntu 16.04:  apt-get install dotnet-dev-1.0.0-preview2-003175
 
-
 (Why is current not the same as what's on the front screen? And why doesn't the current need 'sudo'? ([lodged it with jongalloway via twitter](https://twitter.com/secretGeek/status/823712625942896640) )
 
 Putting all these facts together:
@@ -52,22 +49,17 @@ Putting all these facts together:
     "current"       dotnet-dev-1.0.0-preview2-003175
     Yesterday       dotnet-dev-1.0.0-preview2-1-003177
 
-
-
 I think I want to install that older one, the LTS version (1.0.3)
 
 So I run this:
 
 	sudo apt-get install dotnet-dev-1.0.0-preview2-003156
 
-
 After that it seems to work okay.
-
 
 ---
 
 On a "more recent" machine with (hopefully) .net core 2.2 I see:
-
 
 	$ dpkg --get-selections | grep -v deinstall | grep dot
 	dotnet-host                                     install

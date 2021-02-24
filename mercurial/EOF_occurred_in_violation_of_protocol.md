@@ -15,7 +15,6 @@ And this version of python:
 	> python --version
 	Python 2.7.9
 
-
 **Or** you may get this error, as I do on "machine 2":
 
 	> hg in
@@ -33,7 +32,6 @@ It doesn't happen on local actions. It happens when talking to the server. The s
 The cause is this recent change at bitbucket:
 
 * [Bitbucket: Deprecating TLSv1 and TLSv1.1](https://bitbucket.org/blog/deprecating-tlsv1-tlsv1-1-2018-12-01)
-
 
 > The Mercurial command line on UNIX-based systems may be affected; please check your version of Python (with `python -V`). Versions 2.7.9 and later are unaffected, and most versions earlier than 2.7.9 are affected
 
@@ -97,7 +95,6 @@ So once I clean up my extensions, I should be ok.
 (Update: yep, that worked. I just removed mention of the extensions from mercurial.ini)
 
 ## Fixing machine 2
-
 
 Machine 2 had this error:
 

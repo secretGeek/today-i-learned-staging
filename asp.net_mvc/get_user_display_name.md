@@ -1,8 +1,6 @@
 ﻿# Get The Windows User's Display Name in Asp.Net Mvc
 
-
 Simplest version I can find...
-
 
 	// using System.DirectoryServices.AccountManagement;
 
@@ -17,17 +15,13 @@ Simplest version I can find...
 		}
 	}
 
-
-
 	GetDisplayName(System.Web.HttpContext.Current.User.Identity.Name);
 
 or simply
 
 	GetDisplayName(User.Identity.Name);
 
-
 (This is in a situation where we're using `Windows Authentication` in an Intranet application)
-
 
 ## Source
 

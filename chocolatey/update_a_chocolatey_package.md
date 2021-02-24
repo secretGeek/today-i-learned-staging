@@ -13,7 +13,6 @@ or
 
 	cup nimbletext
 
-
 ## Source(s)
 
 - [Upgrade Command (choco upgrade)](https://chocolatey.org/docs/commandsupgrade)

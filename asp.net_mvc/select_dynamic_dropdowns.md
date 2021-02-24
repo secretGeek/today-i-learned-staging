@@ -11,7 +11,6 @@ Here's an example control group for a drop down list that is dynamically populat
         </div>
     </div>
 
-
 And here's the javascript to be called in document.ready:
 
     var personUrl = '/SomeUrl/GetPerson';
@@ -43,7 +42,6 @@ And here's the javascript to be called in document.ready:
             }
         }
     });
-
 
 Note the part above where it says "term.term"  I discovered i needed that while debugging, like a primitive cave dweller.
 
@@ -96,10 +94,7 @@ Here's the method which is called by the client-side ajax, when searching for an
             };
         }
 
-
-
 That is all so lengthy, so filled with ceremony... it's not the fun-filled code we were hoping for. Sorry.
-
 
 ## Source
 

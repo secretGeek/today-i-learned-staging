@@ -2,7 +2,6 @@
 
 When 'slugifying' a string (and when 'canonicalizing' a username) i like to remove accents, and this was sufficient in classic .net:
 
-
     //using System.Text
 
     public static string RemoveAccent(this string txt)
@@ -11,12 +10,9 @@ When 'slugifying' a string (and when 'canonicalizing' a username) i like to remo
         return Encoding.ASCII.GetString(bytes);
     }
 
-
 But in .net core it crashed with:
 
-
 > 'Cyrillic' is not a supported encoding name.
-
 
 The magic incantation was to add:
 

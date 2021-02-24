@@ -20,8 +20,6 @@ In your [mercurial.ini file](./mercurial_ini.md)(i.e. $env:userprofile\mercurial
     vdiff.gui = True
     vdiff.premerge = True
 
-
-
 If you first want to verify that path...
 
     test-path "C:\Program Files\SourceGear\Common\DiffMerge\sgdm.exe"

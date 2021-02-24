@@ -17,13 +17,11 @@ Download `dracula.xml` from there and then....
 - Restart `Notepad++`
 - Dracula will be available in `Settings > Style Configurator`
 
-
 ## Markdown files will now look terrible
 
 (Background will be dark, apart from text where words will have light background. Current line has black background and dark gray text.... almost unreadable)
 
 Install better [markdown support in notepad++](markdown_in_notepad.md), that supports the zenburn theme!
-
 
 ## The application itself does not support dark theme
 

@@ -17,7 +17,6 @@ You can set the Google Analytics tracking ID using the plugins configuration in 
 
 There is also traffic reporting at gitbook (assuming you've published your book that way)
 
-
 ## Source
 
  * https://www.npmjs.com/package/gitbook-plugin-ga

@@ -1,6 +1,5 @@
 ﻿# To Convert to or from an internal name in sharepoint
 
-
 Sharepoint internal names can only include letters/numbers and underscores.
 
 Any other character needs to be encoded using this scheem:
@@ -40,9 +39,7 @@ Convert the character's ascii representation to a four digit hex number, prefixe
 | `}` | `_x007d_` |
 | `~` | `_x007e_` |
 
-
 I don't know how a *literal* "_x" is encoded, but no doubt there is a convention, such as encoding literal `_x` as  `_xx` (thus a `_x(x)+` decodes to `_($1)` )(But this is just speculation.)
-
 
 ## See also
 

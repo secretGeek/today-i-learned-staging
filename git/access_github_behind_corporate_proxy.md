@@ -2,7 +2,6 @@
 
 If you receive an error when attempting to use `git://` github addresses behind your corporate proxy, try adding these to config:
 
-
 	git config --global url.https://github.com/.insteadof git://github.com/
 
 and

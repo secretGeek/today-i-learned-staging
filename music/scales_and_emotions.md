@@ -19,15 +19,11 @@ Here's a depiction of those four quadrants:
 
 ![quadrants](quadrants.png)
 
-
-
-
 Here's my source, an excellent guide!
 
 ## Source
 
 * [Scales and Emotions](http://www.ethanhein.com/wp/2010/scales-and-emotions/)
-
 
 ## See also
 

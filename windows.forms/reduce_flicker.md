@@ -1,16 +1,13 @@
 ﻿# Reduce flickering on custom invalidate/paint
 
-
 Say we are doing custom painting on a panel, and we want to reduce flickering as much as possible.
 There's a few ways to do it, but this is the greatest...
 
 Let's say your panel is called `this.splitContainerMain.Panel2`, then do this in your form constructor...
 
-
 	typeof(Panel).InvokeMember("DoubleBuffered",
 	BindingFlags.SetProperty | BindingFlags.Instance | BindingFlags.NonPublic,
 	null, this.splitContainerMain.Panel2, new object[] { true });
-
 
 Background info on how this sort of thing is done...
 
@@ -33,7 +30,6 @@ And then, in the paint method, just render the bitmap.
 		if (bitMap == null) return;
 		e.Graphics.DrawImage(bitMap, new Point(0, 0));
 	}
-
 
 ## Source
 

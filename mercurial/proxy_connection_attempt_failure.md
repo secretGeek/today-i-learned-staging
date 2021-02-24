@@ -2,7 +2,6 @@
 
 When trying to pull from bitbucket while behind a corporate firewall i had this error:
 
-
 > mercurial abort: error: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
 
 Stackoverflow said I needed to configure a proxy.
@@ -29,7 +28,6 @@ It was a lengthy javascript file (800 lines long), starting like this:
 
 Near the end it told you the general proxy settings to use....
 
-
 	if (shExpMatch(url, "https://*"))
 	{
 		return "PROXY machinename1.adomain:8080; PROXY machinename2.adomain:8080;";
@@ -43,15 +41,12 @@ Near the end it told you the general proxy settings to use....
 
 So I took one of the addresses from there and put it into my [mercurial.ini](mercurial_ini.md) file like this:
 
-
 	[http_proxy]
 	host = machinename1.adomain:8080
 
 Tried `hg in` again, and it now worked!
 
 I am good at computers today.
-
-
 
 ## Source
 

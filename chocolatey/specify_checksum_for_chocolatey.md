@@ -7,7 +7,6 @@ The pertinent message being:
     ERROR: Empty checksums are no longer allowed by default for non-secure sources.
     Please ask the maintainer to add checksums to this package.
 
-
 Since I am the maintainer I had to ask myself... "How do I add checksums to this package" ??
 
 I thought it would be about adding a &lt;`checksum`&gt; element to the `.nuspec` file, and I searched the documentation over and over.
@@ -15,7 +14,6 @@ I thought it would be about adding a &lt;`checksum`&gt; element to the `.nuspec`
 In the end I realised that the trick was to alter the `ChocolateyInstall.ps1` file which is bundled into the package, and have it pass the checksum as a parameter when it calls `Install-ChocolateyZipPackage`
 
 So the `ChocolateyInstall.ps1` used to look like this:
-
 
     $package = 'NimbleText'
     $drop = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -30,9 +28,7 @@ Now I had to make it look like this (for example)
 
 And since the checksum is different for every build, I need to make my build process **rewrite** that line `$checkSum =...` each time a release candidate was built.
 
-
 For this, I created a script, `replace_hash.ps1` which calculated the checksum and wrote it to the file in the appropriate place. Like so:
-
 
     # Find the sha256 hash of NimbleText.zip
     $hashy = (checksum -t sha256 -f "output\NimbleText.zip")
@@ -42,16 +38,11 @@ For this, I created a script, `replace_hash.ps1` which calculated the checksum a
     # Replace a line of "ChocolateyInstall.ps1" with that new hashy line
     (Get-Content $targetFile) -replace $regex, $hashyLine | Set-Content $targetFile
 
-
 This relied on the `checksum` package, which I installed via:
 
     choco install checksum
 
 ...from an elevated command prompt. Though I could've also used [this Powershell script for finding the sha256 hash of a file](../powershell/get_filehash.md).
-
-
-
-
 
 ## Error Log
 
@@ -65,7 +56,6 @@ Email from moderation@chocolatey.org read:
     PACKAGENAME has failed automated testing.
     This is not the only check that is performed so check the package page to ensure a 'Ready' status.
     Please visit https://gist.github.com/...  for details.
-
 
 And the gist at github had these errors... keyword to look for being 'checksum'
 

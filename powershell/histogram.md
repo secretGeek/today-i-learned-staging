@@ -11,7 +11,6 @@ Each bucket is 1000 bytes.
 				@{Expression={$_.Count};Label="Count";width=10},
 				@{Expression={$_.Group};Label="Members";width=50} -autosize
 
-
 *Consider* running the initial `dir` recursively with `-rec`
 
 ## Group by file type
@@ -20,10 +19,7 @@ Exclude directories (but include their files)
 
 	dir -rec -file | group-object -property extension | sort count -desc
 
-
 (An older method was to use `dir -rec | ?{ $_.PSIsContainer -ne $true } ` ... instead of `-file`)
-
-
 
 ## Bucket all files
 ...for looking at size of all markdown files in TIL, in buckets of 300 bytes each (but changing the bucket size is easy...)

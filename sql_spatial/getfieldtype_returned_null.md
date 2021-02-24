@@ -1,8 +1,6 @@
 ﻿# DataReader.GetFieldType returned null (for Geography)
 
-
 Given a SQL query such as:
-
 
 	Select ObjectID, GEO from Rivers
 
@@ -14,19 +12,15 @@ Given a SQL query such as:
 		numRows = da.Fill(data);
     }
 
-
 ...can *fail* with this error:
 
 	DataReader.GetFieldType(2) returned null.
-
 
 The trick is to reference `Microsoft.SqlServer.Types` of a sufficiently high version.
 
 I added a reference to the nuget package `Microsoft.SqlServer.Types` (version 14.0)
 
 When the package is added, it displays a helper piece of html like this:
-
-
 
 > Action required to load native assemblies
 >
@@ -66,8 +60,6 @@ When the package is added, it displays a helper piece of html like this:
 > For desktop applications, add the following line of code to run before any spatial operations are performed:
 
     SqlServerTypes.Utilities.LoadNativeAssemblies(AppDomain.CurrentDomain.BaseDirectory);
-
-
 
 As instructed I added:
 

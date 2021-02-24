@@ -6,7 +6,6 @@ While I generally use NimbleText to [run a command against each table](http://ni
 
 For example:
 
-
     exec sp_msforeachtable
         @Command1 = 'print ''reindexing table ?''',
         @Command2 = 'dbcc dbreindex(''?'')',
@@ -16,10 +15,8 @@ Here's a minimum example to try for yourself:
 
     exec sp_msforeachtable 'select count (*), '?' as TableName [?] from ?'
 
-
 You can change the character to use for tablename by supplying a second parameter
     exec sp_MSforeachtable 'print "Should I drop *?"', '*'
-
 
 Honestly, I wouldn't use this feature at all.
 

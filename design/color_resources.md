@@ -8,7 +8,6 @@ Me, an intellectual: hold on a moment kiddo. There's a lot more to it. Perceptio
 
 And if you understood a single color (which I doubt you ever can)... these things are deployed in sets, called "palettes" and the way the palettes are combined, the theories thereof, can themselves fill if not a book certainly a pamphlett.
 
-
 ## Articles
 
 * [How to Master Colour Theory](https://www.creativebloq.com/colour/colour-theory-11121290) Color Theory 101
@@ -31,7 +30,6 @@ And if you understood a single color (which I doubt you ever can)... these thing
 	* [Turbo, An Improved Rainbow Colormap for Visualization](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html)
 
 ![color cones](color-cones.png)
-
 
 ![MacAdam diagram](CIExy1931_MacAdam.png)
 

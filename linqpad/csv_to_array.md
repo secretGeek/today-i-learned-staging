@@ -10,7 +10,6 @@ Below are five different implementations, all pretty simple. They use, in order
  * [FileHelpers.net](#using-filehelpers-to-read-a-csv-file-from-linqpad)
  * [Powershell (Import-CSV)](#powershell-import-csv)
 
-
 Given a CSV (of crime data) with header row like this:
 
     Offence Description,Start Date,End Date,Suburb,Postcode
@@ -25,7 +24,6 @@ Given a CSV (of crime data) with header row like this:
 		public string Suburb { get; set; }
 		public int? Postcode { get; set; }
 	}
-
 
 ## Using Microsoft.VisualBasic.dll to load a CSV file
 
@@ -69,10 +67,7 @@ The code to load and convert to List<Crime> code is....
 		//Do whatever you really need to do, to Fight Crime etc.
 	}
 
-
 A different approach is to use a 3rd party library, imported via `nuget`. I've tried three. Here's ServiceStack, LinqToCsv and FileHelpers.net
-
-
 
 ## Using ServiceStack to load a CSV File
 
@@ -91,7 +86,6 @@ Requires the nuget package `ServiceStack.Text.Signed` and these namespaces:
 
 And this not-so Poco DTO...
 
-
 	[DataContract]
 	public class Crime
 	{
@@ -109,9 +103,7 @@ And this not-so Poco DTO...
 
 ## Using LinqToCsv to load a csv file
 
-
 (For more on this one see <http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use>)
-
 
 	void Main()
 	{
@@ -122,7 +114,6 @@ And this not-so Poco DTO...
 	}
 
 Here's our annotated DTO...
-
 
 	// Define other methods and classes here
 	public class Crime
@@ -142,7 +133,6 @@ Here's our annotated DTO...
 		[CsvColumn(Name = "Postcode")]
 		public int? Postcode { get; set; }
 	}
-
 
 ## Using FileHelpers to read a csv file (from linqpad)
 
@@ -172,7 +162,6 @@ And here's our not-so-poco DTO. Note that we now have fields not properties. And
 		public int? Postcode;
 	}
 
-
 ## Powershell: Import-CSV
 
 Here's an example of using the Import-CSV commandlet from Powershell and then outputting the "End Date" property
@@ -187,11 +176,9 @@ Example of convert it into objects, sorting, and convert it back to csv for furt
 
 	Import-CSV "C:\Temp\Crime_Data.csv" | sort -d "Start Date" | convertto-csv -NoTypeInformation
 
-
 ## Sponsor
 
 Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transforming needs.
-
 
 ## Sources
 

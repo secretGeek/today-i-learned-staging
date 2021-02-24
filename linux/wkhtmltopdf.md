@@ -1,6 +1,5 @@
 ﻿# wkhtmltopdf on ubuntu headless
 
-
 Install `wkhtmltopdf` with
 
 	sudo apt-get update
@@ -8,14 +7,12 @@ Install `wkhtmltopdf` with
 
 Then try to run it, as per the example at <http://wkhtmltopdf.org>
 
-
     wkhtmltopdf http://google.com google.pdf
 
 Receive this error:
 
     QXcbConnection: Could not connect to display
     Aborted (core dumped)
-
 
 Or -- as happened on a different day on a different machine, with a problem that had the exact same solution -- I got this error:
 
@@ -39,7 +36,6 @@ Okay so I ran:
 
     sudo apt-get update
     sudo apt-get install xvfb
-
 
 Then the command worked:
 

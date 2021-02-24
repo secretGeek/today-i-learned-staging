@@ -22,8 +22,6 @@ To:
 
 (Originally I tried `console.error` but I don't think it's supported on IE version=old)
 
-
-
 And in the minified version of DataTables, `jquery.dataTables.min.js` you need to...
 
 Change:

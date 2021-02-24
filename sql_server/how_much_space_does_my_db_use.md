@@ -6,13 +6,11 @@ These two commands give you some nice summary info about your database:
 	go
 	sp_spaceused
 
-
 (...including the names of the .mdf and .ldf files which you'll use for the [Backup restore script](backup_restore_script.md))
 
 To see available space use:
 
 	EXEC master..xp_fixeddrives
-
 
 ## Source
 

@@ -1,6 +1,5 @@
 ﻿# How to get a fork back up to date with the original repo it is forked from
 
-
 1.  From the local project directory:
 
     git remote add upstream <url-of-original-repository>
@@ -12,7 +11,6 @@ e.g.
 2.	`git branch` (to verify you are on master branch)
 
 3.	`git pull --rebase upstream master`
-
 
 Only need to do step 1 the first time. (It is how you add a named remote location called 'upstream')
 
@@ -26,7 +24,6 @@ You can view your `remotes` (in detail) by using:
     origin      https://github.com/secretGeek/Docs.git (push)
     upstream    git://github.com/aspnet/Docs.git (fetch)
     upstream    git://github.com/aspnet/Docs.git (push)
-
 
 ## Source
 

@@ -18,7 +18,6 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 * [improved overload resolution](#improved-overload-resolution)
 * [deterministic compiler option](#deterministic-compiler-option)
 
-
 ## readonly auto props
 
 You can have properties that can be gotten but cannot be set:
@@ -160,14 +159,11 @@ Much less ceremonial typing than:
 
 ...for each of these anemic methods.
 
-
-
 Also, in somes case if you have *no* parameters, you may as well write a property instead of a method....
 
 	public string FriendlyName => FirstName + " " + LastName;
 
 Two characters saved! (The `()`.)
-
 
 ## using static
 
@@ -229,9 +225,6 @@ To do this in Linqpad, press F4 and enter
 
 And if it's a local static class, you need to give its fully qualified name, which starts with `UserQuery`, e.g. `static UserQuery.MyOwnClass`
 
-
-
-
 ## null conditional operators
 
 I've said [previously](https://secretgeek.net/cruel_compiler) that statements like this are basically `NullReferenceException` generators:
@@ -275,7 +268,6 @@ Commonly it is combined with a coalescing operator, like this:
 
 Know it. Use it. Love it.
 
-
 Wait... there's an bug in the above. I don't want to rewrite it... just to say:
 
 The null conditional won't help with `ArgumentOutOfRangeException` or with `KeyNotFoundException` -- as kind of implied by the description above.
@@ -307,8 +299,6 @@ Similarly for a dictionary...
 ...if employees is null, you're safe.. but if employees are not null, and there is *no* employee named "Sue", you'll get a `KeyNotFoundException` and need to instead use some kind of safety-first extension method on `IDictionary<K,V>` ...
 
 So it's easily avoided by creating an extension method but it is not avoided by syntax sugar baked into the language as I inadvertently implied.
-
-
 
 ## string interpolations
 
@@ -357,16 +347,13 @@ TO output literal squiggly brackets... double them...
 
 Otherwise you'll get "Expected expression", or a self-explanatory message like "A '}' character must be escaped (by doubling) in an interpolated string."
 
-
 Because this format can already contain ':' chars, e.g. {name:F2} -- it presents a challenge when you want to use a ternary expression ( e.g "a >  b ? a : b") -- and the solution is to put the expression inside parentheses:
 
 	Console.WriteLine($"The winner is: {(a > b ? PersonA : PersonB)}");
 
-
 Many more details at [this tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/string-interpolation)
 
 C# has needed this for a long time, I use it every chance I get. Here's ancient articles wishing for it: [previously](https://secretgeek.net/string_templating) and [phil haack 10years earlier](https://haacked.com/archive/2009/01/04/fun-with-named-formats-string-parsing-and-edge-cases.aspx/)
-
 
 ## exception filters
 
@@ -388,7 +375,6 @@ Show don't tell --
 		Console.WriteLine("Something else");
 	}
 
-
 Note that the when filter:
 
 1. can refer to the exception variable (`ex` above)
@@ -401,11 +387,9 @@ e.g.
 		Console.WriteLine("I love the smell of freshly caught exceptions in the morning.");
 	}
 
-
 ## the nameof expression
 
 Don't do this (anymore)....
-
 
 	public void KillPerson(string name) {
 		if (string.IsNullOrWhiteSpace(name)) {
@@ -416,7 +400,6 @@ Don't do this (anymore)....
 
 Instead, with the awesome power of `nameof`
 
-
 	public void KillPerson(string name) {
 		if (string.IsNullOrWhiteSpace(name)) {
 			throw new ArgumentNullException(nameof(name));
@@ -425,7 +408,6 @@ Instead, with the awesome power of `nameof`
 No more margin for error!
 
 Ideally you'd use this in any place where you currently hard code the name of any symbol as a string.
-
 
 Consider:
 
@@ -437,20 +419,17 @@ Consider:
   * Action Name
   * Controller Name (this is a questionable, see below)
 
-
 ### Logging example with `nameof`
 
     Console.WriteLine($"{nameof(i)} == {i}");
 
 ...and the "Caller info attributes" introduced in version 5 can be used for more context.
 
-
 ### ActionName and ControllerName examples with `nameof`
 
 How can we remove the hard coding from this example?
 
     @Html.ActionLink("Add sale", "Create", "Purchase")
-
 
 Instead of "Create" we can use
 
@@ -460,11 +439,9 @@ Instead of "Create" we can use
 
 But the controller is the real issue. The challenge is that 'Purchase' indicates the type `PurchaseController`. Instead of "Purchase" we're forced to use something like....
 
-
 	nameof(PurchaseController).Substring(0, nameof(PurchaseController).LastIndexOf("Controller"))
 
 ...and you could hide a lot of that work behind a helper method, but nah, I can't see it being worthwhile at all, it's just bad. It introduces more code and more room for mistakes.
-
 
 ## await in catch and finally blocks
 
@@ -475,9 +452,6 @@ If this ruined your life, then I have some amazing news (from a year or two back
 The example given in documentation is about logging. You may still want your return to happen "now". But you may fire off some log messages asynchronously.
 
 As always, writing code in catch and finally blocks is something you need to do sparingly and thoughtfully, particularly as regards code that risks throwing its own exceptions, as any current exception will be lost and/or any cleanup activities may not be completed.
-
-
-
 
 ## index initializers
 
@@ -496,14 +470,12 @@ What's happening here is that items are being added to the dictionary and one mu
 
 Try this amazing new syntax on for size...
 
-
     var webErrors = new Dictionary<int, string>
 	{
 		[404] = "Page not Found",
 		[302] = "Page moved, but left a forwarding address.",
 		[500] = "The web server can't come out to play today."
 	};
-
 
 Now initializing the items is consistent with the way the items are accessed.
 
@@ -536,10 +508,7 @@ We can initialize a new population like so:
 		["jack", 12] = "fred"
 	};
 
-
-
 ## extension `Add` methods for collection initializers
-
 
 Collection initializers are the syntax that lets you declare the starting members of a collection, such as:
 
@@ -549,13 +518,9 @@ Collection initializers are the syntax that lets you declare the starting member
 		new Person("Jenny")
 	};
 
-
-
 ...and here's another existing (pre C#6) feature, that you need to understand before you understand this new feature....
 
-
 If your collection type has an add method, it will be magically wired up for you. Let me demonstrate, using a custom collection type.
-
 
 	public class Population : IEnumerable<Person>
 	{
@@ -569,7 +534,6 @@ If your collection type has an add method, it will be magically wired up for you
 		public void Add(string firstName, string lastName) => innerPop.Add(new Person($"{firstName} {lastName}"));
 	}
 
-
 Notice that the class above is a kind of wrapper over a `List<Person>` and it has three different `Add` methods.
 
 (And the class is quite short thanks to expression-bodied members, and auto-property initializers)
@@ -582,13 +546,11 @@ Notice that the class above is a kind of wrapper over a `List<Person>` and it ha
 		{"Jimbo","Jones"}
 	};
 
-
 The code above uses the 3 different Add methods (in turn).
 
 With c#6 you can also use extension methods to extend existing collection types with *new* "Add" methods, which will be "hooked up" by initializers, if needed.
 
 For example, let's extend dictionary...
-
 
 	public static class DicExtensions
     {
@@ -605,39 +567,31 @@ For example, let's extend dictionary...
 
 	var dic = new Dictionary<int, string> { 3, 4, 5 };
 
-
 | Key | Value |
 |-----|-------|
 | 3   | Number 3 |
 | 4   | Number 4 |
 | 5   | Number 5 |
 
-
 	var d2 = new Dictionary<int, string> {
 		{1," sweet ","Hello","World","!"},
 		{2," cruel ","Goodbye","World","Goodbye"},
 	};
-
 
 | Key | Value |
 |-----|-------|
 | 1   | Hello sweet World sweet ! |
 | 2   | Goodbye cruel World cruel Goodbye |
 
-
 ...and hence you can do the same with `Add` methods whether they are extension methods or not.
 
-
 ## improved overload resolution
-
 
 Previously:
 
 > some method calls involving lambda expressions
 
-
 ...were not implicitly resolved, and you'd need to be more explicit to avoid ambiguity.
-
 
 But now... times have changed and:
 
@@ -645,11 +599,9 @@ But now... times have changed and:
 
 *are* implicitly resolved.
 
-
 I for one will be sleeping soundly tonight.
 
 I've dug into the specific scenario here, and will reproduce it verbatim...
-
 
 In C# < 6, calling a method such as this method:
 
@@ -660,13 +612,11 @@ In C# < 6, calling a method such as this method:
 
 ...via syntax like this:
 
-
 	Task.Run(DoThings);
 
 ...which relies on what's called the "Method Group" syntax (introduced in c# 2 to simplify using delegates, i think)
 
 ...would not work. And you'd need to use this more ceremonial approach...
-
 
 	Task.Run(() => DoThings());
 
@@ -674,21 +624,11 @@ In C# < 6, calling a method such as this method:
 
 But now times have changed and you can simply say:
 
-
 	Task.Run(DoThings);
 
 ...confident in the knowledge that the compiler will be happy, you will be happy, everyone will be happy, and the things to be done will be done.
 
-
-
-
-
-
-
-
-
 ## deterministic compiler option
-
 
 The compiler now has a `-deterministic` option to make sure that successive builds reuse the same guids and timestamp from one compilation to the next, so you can perform byte-for-byte comparison with more consistency, and less risk of helping humanity race toward the guid-apocalypose.
 

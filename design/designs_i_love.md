@@ -4,15 +4,11 @@ I worked out that as part of working toward creating your branding/personality f
 
 You can certainly use a site like pinterest for this (or even pinboard/delicious) -- but since i like to use my `til` files for everything i'll just do that instead.
 
-
-
 Several of the pages here:
 
 - <https://officehours.io/>
 - <https://officehours.io/pro>
 - <http://Everytimezone.com> of course... so beautiful
-
-
 
 - I like the heading/body font combo here: [Deep C Diving - Fast and Scalable Text Interfaces at the Bottom](https://cpponsea.uk/2020/sessions/deep-c-diving-fast-and-scalable-text-interfaces-at-the-bottom.html)
 - Heading font is called:

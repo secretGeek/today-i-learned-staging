@@ -4,7 +4,6 @@
 
 ## Part 1: Over and Over
 
-
 We all know that this will fail, and why...
 
 	Select top 3
@@ -12,9 +11,7 @@ We all know that this will fail, and why...
 		COUNT(*) as [COUNT]
 	from Reporting.Vehicles
 
-
 > **Error** Column 'Reporting.Vehicles.VehicleCode' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.
-
 
 You can't mix aggregates and non aggregates, unless you use GROUP BY. Or can you!?
 
@@ -35,7 +32,6 @@ Often the only place we're familiar with `OVER()` from is with the `ROW_NUMBER()
 
 Let's follow the same process, but instead of the count function we'll start with a `ROW_NUMBER()`...
 
-
 	Select top 3
 	       VehicleCode,
 	       ROW_NUMBER() as ROW_NUMBER
@@ -43,9 +39,7 @@ Let's follow the same process, but instead of the count function we'll start wit
 
 > **Error** The function 'ROW_NUMBER' must have an OVER clause.
 
-
 Now we're told that `The function 'ROW_NUMBER' must have an OVER clause.`
-
 
 So let's include an OVER clause...
 
@@ -55,7 +49,6 @@ So let's include an OVER clause...
 	from Reporting.Vehicles
 
 > **Error** The function 'ROW_NUMBER' must have an OVER clause with ORDER BY.
-
 
 Now we're heckled with "The function 'ROW_NUMBER' must have an OVER clause with ORDER BY" and I don't know they didn't say that in the first place?
 
@@ -74,13 +67,11 @@ So we'll add that in...
 |ABC_VH012|2|
 |ABC_VH013|3|
 
-
 And voila! We have our `ROW_NUMBER`... but let's learn more about what's happening here.
 
 First we need to see exactly what the rules are.
 
 Can you guess what will happen if we order by `DESC` ?
-
 
 	Select top 3
 		   VehicleCode,
@@ -95,7 +86,6 @@ Will we now get 3,2,1 ?
 |WYX_VH012|2|
 |WNX_VH013|3|
 
-
 No, we still got 1,2,3 -- but the `top 3` Vehicles we were shown were from the *end* of the list of Vehicles, in descending order.
 
 This takes a little bit of thinking. Since there's no sort order on the outer query, the ordering created by the rest of the query is apparent. And it shows us a little bit about the way in which the ROW_NUMBER was applied. They started applying from the back of the list, i.e. starting at 1.
@@ -108,14 +98,11 @@ What if we order the outer query by VehicleCode ascending... will we *now* get 3
 	from Reporting.Vehicles
 	order by VehicleCode asc
 
-
 |VehicleCode|ROW_NUMBER|
 |--------|-----|
 |ABC_VH011|8214|
 |ABC_VH012|8213|
 |ABC_VH013|8212|
-
-
 
 Can we order by an integer?
 
@@ -126,8 +113,6 @@ Can we order by an integer?
 	order by 1 asc
 
 > **Error** Windowed functions and NEXT VALUE FOR functions do not support integer indices as ORDER BY clause expressions.
-
-
 
 Can we order by a Windowed Function?
 
@@ -143,7 +128,6 @@ Can we order by a Windowed Function?
 |WYX_VH001|8213|
 |WNX_VH001|8212|
 
-
 Can we put a windowed function into the OVER clause???
 
 	Select top 3
@@ -155,7 +139,6 @@ Can we put a windowed function into the OVER clause???
 
 > **Error** Windowed functions cannot be used in the context of another windowed function or aggregate.
 
-
 Can we put a windowed function in a WHERE clause?
 
 	Select top 3
@@ -166,16 +149,12 @@ Can we put a windowed function in a WHERE clause?
 
 > **Error** Windowed functions can only appear in the SELECT or ORDER BY clauses.
 
-
 At this stage we've learnt all the rules.
 
 We can follow this old skating maxim:
 
-
 > FIRST: Learn all the rules<br />
 > NEXT: Break all the rules
-
-
 
 Here's how we **CAN** put a windowed-function into a WHERE clause...
 
@@ -189,13 +168,11 @@ Here's how we **CAN** put a windowed-function into a WHERE clause...
 
 We use a Common-Table-Expression (CTE) to get one extra level of indirection... now we can filter by our windowed-function.
 
-
 |VehicleCode|ROWNUM|
 |--------|------|
 |ABC_VH001|5|
 |ABC_VH002|6|
 |ABC_VH002R|7|
-
 
 **In fact this is a handy general technique.**
 
@@ -204,7 +181,6 @@ You can also apply a windowed function column to a windowed function, if you **f
 This technique creates a kind of CTE game of Pass-the-Parcel. You may need to wrap up many levels of CTE to get the result you need.
 
 ![cte pass the parcel](cte_pass_the_parcel.png)
-
 
 ## PART 2: Other Functions
 
@@ -219,14 +195,11 @@ Y'see, with `over()` there are **two types of functions** you can use:
 1. ALL of the aggregates (e.g. COUNT, SUM, AVG) which you know from GROUPing
 2. "Ranking functions"
 
-
-
 ### What's an example of a Ranking function?
 
 An obvious example would be the `RANK` function itself, which we'll get to in a moment.
 
 But `ROW_NUMBER` is also a ranking function. It's just a very *unfair* ranking
-
 
 	Select top 5
 		   VehicleCode,
@@ -235,7 +208,6 @@ But `ROW_NUMBER` is also a ranking function. It's just a very *unfair* ranking
 		   ROW_NUMBER() OVER(ORDER BY ReliabilityFactor desc) as ROW_NUM
 	from Reporting.Vehicles
 	where ReliabilityFactor is not null and ReliabilityFactor <= 3.50
-
 
 |VehicleCode|ReliabilityFactor|RANK_ReliabilityFactor|ROW_NUM|
 |------|------|------|------|
@@ -253,7 +225,6 @@ Rank is like the olympics: two people can share a gold medal, but then no one ge
 
 A different strategy is `DENSE_RANK`:
 
-
 	Select top 5
 		   VehicleCode,
 		   ReliabilityFactor,
@@ -264,7 +235,6 @@ A different strategy is `DENSE_RANK`:
 	from Reporting.Vehicles
 	where ReliabilityFactor is not null and ReliabilityFactor <= 3.50
 
-
 |VehicleCode|ReliabilityFactor|Count|RANK_ReliabilityFactor|DENSE_RANK_ReliabilityFactor|ROW_NUMBER_ReliabilityFactor|
 |------|------|------|------|------|------|
 |ARQ_VH129|3.5|3085|1|1|1|
@@ -273,20 +243,15 @@ A different strategy is `DENSE_RANK`:
 |JMX_VH149|3.40000009536743|3085|4|3|4|
 |MJQ_VH006|3.40000009536743|3085|4|3|5|
 
-
-
 With dense rank, if two people tie for first they both get a gold medal. And the next person gets a silver.
 
 This way you know every type of number will be handed out, at least once, even though ties are allowed.
 
 So it's more fair than 'row number' but has different numeric properties. So it can be useful depending on *how* you want to join it to other things.
 
-
-
 ## PART 3: Aggregates
 
 The famous `MAX` and `MIN`
-
 
 	Select top 5
 		   VehicleCode,
@@ -297,7 +262,6 @@ The famous `MAX` and `MIN`
 	from Reporting.Vehicles
 	where ReliabilityFactor is not null and ReliabilityFactor <= 3.50
 
-
 |VehicleCode|ReliabilityFactor|ROW_NUMBER_ReliabilityFactor|MAX_RF|MIN_RF|
 |------|------|------|------|------|
 |ARQ_VH129|3.5|1|3.5|0|
@@ -306,9 +270,7 @@ The famous `MAX` and `MIN`
 |JMX_VH149|3.40000009536743|4|3.5|0|
 |MJQ_VH006|3.40000009536743|5|3.5|0|
 
-
 What if we specify an order by!?
-
 
 	Select top 5
 		VehicleCode,
@@ -319,7 +281,6 @@ What if we specify an order by!?
 	from Reporting.Vehicles
 	where ReliabilityFactor is not null and ReliabilityFactor <= 3.50
 
-
 |VehicleCode|ReliabilityFactor|ROW_NUMBER_ReliabilityFactor|MIN_RF|
 |------|------|------|------|
 |ARQ_VH129|3.5|1|3.5|
@@ -328,10 +289,7 @@ What if we specify an order by!?
 |JMX_VH149|3.40000009536743|4|3.40000009536743|
 |MJQ_VH006|3.40000009536743|5|3.40000009536743|
 
-
 ## PART 4: RANGES/PRECEDING/FOLLOWING
-
-
 
 	Select top 7
 		   VehicleCode,
@@ -355,8 +313,6 @@ What if we specify an order by!?
 	from Reporting.Vehicles
 	where ReliabilityFactor is not null and ReliabilityFactor <= 3.50
 
-
-
 |VehicleCode|ReliabilityFactor|COUNT_OVER|COUNT_ORDER_BY_RF|COUNT_RF_RANGE|COUNT_RF_RANGE_BETWEEN|COUNT_RF_ROWS|
 |------|------|------|------|------|------|------|
 |ARQ_VH129|3.5|3085|2|2|2|1|
@@ -367,9 +323,7 @@ What if we specify an order by!?
 |MJQ_VH174|3.40000009536743|3085|7|7|7|6|
 |MJQ_VH204|3.40000009536743|3085|7|7|7|7|
 
-
 Here is a fairly exhaustive set of clauses...
-
 
 	Select top 7
 		   VehicleCode,
@@ -405,7 +359,6 @@ Here is a fairly exhaustive set of clauses...
 	where ReliabilityFactor is not null and ReliabilityFactor <= 3.50
 	order by ReliabilityFactor desc
 
-
 |VehicleCode|ReliabilityFactor|MIN_RF|MIN_RF1|MIN_RF2|MIN_RF_UNBOUNDED|MIN_RF_RANGE_UNBOUNDED|MIN_RF_RANGE_UNBOUNDED_PREC|Max_RF_rows_AHEAD|Max_RF_rows_neighbours|
 |------|------|------|------|------|------|------|------|------|------|
 |ARQ_VH129|3.5|3.5|3.5|3.5|0|0|3.5|3.5|3.5|
@@ -415,7 +368,6 @@ Here is a fairly exhaustive set of clauses...
 |MJQ_VH006|3.40000009536743|3.40000009536743|3.40000009536743|3.40000009536743|0|0|3.40000009536743|3.40000009536743|3.43525004386902|
 |MJQ_VH174|3.40000009536743|3.40000009536743|3.40000009536743|3.40000009536743|0|0|3.40000009536743|3.40000009536743|3.40000009536743|
 |MJQ_VH204|3.40000009536743|3.40000009536743|3.40000009536743|3.40000009536743|0|0|3.40000009536743|3.40000009536743|3.40000009536743|
-
 
 ## PART 5: PARTITIONS
 
@@ -445,9 +397,6 @@ The `COUNT` is the total count...
 |BXR_VH200|1Y0PY47X|8191|
 |BXR_VH201|1Y0PY47X|8191|
 
-
-
-
 Let's add some partition... This time count will show us how many rows in each Fleet:
 
 	Select top 9
@@ -473,9 +422,7 @@ Let's add some partition... This time count will show us how many rows in each F
 |BXR_VH200|1Y0PY47X|4|5|Vehicle 4 of 5 on 1Y0PY47X|
 |BXR_VH201|1Y0PY47X|5|5|Vehicle 5 of 5 on 1Y0PY47X|
 
-
 ## PART 6: LEAD/LAG
-
 
 	Select top 9
 		   VehicleCode,
@@ -494,7 +441,6 @@ Let's add some partition... This time count will show us how many rows in each F
 	where not Fleet is null
 	order by Fleet, Vehiclecode
 
-
 |VehicleCode|COUNT_IN_Fleet|Fleet|NEXT_Fleet|PREVIOUS_Fleet|NEXT_NEXT_Fleet|PREVIOUS_PREVIOUS_Fleet|NEXT_Fleet_8172|First_Vehicle_in_Fleet|Last_Vehicle_in_Fleet|
 |------|------|------|------|------|------|------|------|------|------|
 |PLF_VH112|1|096FQ389|0H3A82P2||0H3A82P2||APYX07|PLF_VH112|PLF_VH112|
@@ -507,14 +453,11 @@ Let's add some partition... This time count will show us how many rows in each F
 |BXR_VH200|5|1Y0PY47X|1Y0PY47X|1Y0PY47X|101DY473|1Y0PY47X|ARG447|BXR_VH188|BXR_VH201|
 |BXR_VH201|5|1Y0PY47X|101DY473|1Y0PY47X|101DY473|1Y0PY47X|ARG447|BXR_VH188|BXR_VH201|
 
-
-
 ## Background reading:
 
 * [Window Functions, Part 1](https://www.red-gate.com/simple-talk/sql/learn-sql-server/window-functions-in-sql-server/)
 * [Window Functions, Part 2](https://www.red-gate.com/simple-talk/sql/learn-sql-server/window-functions-in-sql-server-part-2-the-frame/)
 * [Window Functions, Part 3](https://www.red-gate.com/simple-talk/sql/learn-sql-server/window-functions-in-sql-server-part-3-questions-of-performance/)
-
 
 ## See also
 

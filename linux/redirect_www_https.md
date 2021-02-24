@@ -14,19 +14,14 @@ redirect to this:
 
 (Whether you want to go bare or not is between you and your trusted board of advisors.)
 
-
 First, though: Why do this at all?
 
 1. For security we want it all to be `https`
 2. We want a single canonical url, for SEO/traffic/google-juice/google search console purposes.
 
-
-
-
 ## nginx config
 
 Here's an nginx config file that does it...
-
 
 	server {
 		listen 80;
@@ -64,8 +59,6 @@ Here's an nginx config file that does it...
 		ssl_dhparam /etc/ssl/certs/dhparam.pem;
 	}
 
-
-
 After changing nginx config -- test it is ok with:
 
 	sudo nginx -t
@@ -76,12 +69,9 @@ And reload it with:
 
 See [more nginx basics here](nginx.md)
 
-
-
 ## sources
 
 * [serverfault: Remove "www" and redirect to "https" with nginx](https://serverfault.com/questions/258378/remove-www-and-redirect-to-https-with-nginx)
-
 
 ## see also
 

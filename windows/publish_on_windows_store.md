@@ -13,7 +13,6 @@ Steps:
 	- Pick an Individual (AUD$21) *or* a Company (AUD$110) account type. (See [fees in different areas](https://docs.microsoft.com/en-us/windows/uwp/publish/account-types-locations-and-fees?redirectedfrom=MSDN#developer-account-and-app-submission-markets)) (Account types are discussed below)
 	- The price shown is a *one-time registration fee and no renewal is required*.
 
-
 ## Show I register as a company or an individual?
 
 I like to save money, but I don't want to miss out on capabilities I need.
@@ -22,9 +21,7 @@ It says that "Individual" lacks "advanced analytics and additional app capabilit
 
 [Differences are described here](https://docs.microsoft.com/en-us/windows/uwp/publish/account-types-locations-and-fees?redirectedfrom=MSDN)
 
-
 > Per the [Store Policies](https://docs.microsoft.com/en-us/windows/uwp/publish/store-policies#1014-account-type), apps with certain functionality, such as those that access financial account information or that require authentication to access primary functionality (without using a secure dedicated third party authentication provider), can only be published by company accounts.
-
 
 From the [Store Policies](https://docs.microsoft.com/en-us/windows/uwp/publish/store-policies#1014-account-type)...
 

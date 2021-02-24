@@ -1,6 +1,5 @@
 ﻿# Powershell experiments with Alias
 
-
 ## See if there's any alias for a commands
 
 Often you know the alias and not the command.
@@ -34,7 +33,6 @@ Btw, Here's what my first, most cumbersome attempt looked like:
 This could be better written as:
 
 	alias  | ? Definition -like 'push-location'
-
 
 In bash you'd use something like
 

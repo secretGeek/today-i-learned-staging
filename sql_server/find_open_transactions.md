@@ -2,9 +2,7 @@
 
 	DBCC OPENTRAN;
 
-
 And this more extreme example (also from `docs.microsoft`) creates a table of the results....
-
 
 	-- Create the temporary table to accept the results.
 	CREATE TABLE #OpenTranStatus (
@@ -18,7 +16,6 @@ And this more extreme example (also from `docs.microsoft`) creates a table of th
 	-- Display the results.
 	SELECT * FROM #OpenTranStatus;
 	GO
-
 
 ## Source
 

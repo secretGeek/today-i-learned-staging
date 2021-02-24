@@ -2,7 +2,6 @@
 
 **NOTE** textbox must be multiline.
 
-
     private void txtSQL_KeyDown(object sender, KeyEventArgs e)
     {
         KeyPressSelectAll(txtSQL, e);
@@ -26,8 +25,6 @@
             }
         }
     }
-
-
 
 regarding 't.Focus()'
 

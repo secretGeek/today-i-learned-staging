@@ -8,11 +8,9 @@ It added just one aggregate figure, and it had a formula like this:
 
     =SUBTOTAL(103,[TotalSpaceMB])
 
-
 It was doing a count of rows, not a SUM as I wanted. Looking into it,  `103` was described as a function number. (This is not peak-lambda).
 
 What is the function number for SUM ? Use this handy table!
-
 
 |Function|Include hidden|Ignore hidden|
 |----|----|----|
@@ -27,7 +25,6 @@ What is the function number for SUM ? Use this handy table!
 |SUM|9|109|
 |VAR|10|110|
 |VARP|11|111|
-
 
 Note that `COUNTA` is different from `COUNT`, because `COUNTA` only counts "non-blank" values.
 

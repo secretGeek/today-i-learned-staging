@@ -12,21 +12,17 @@ Download and execute the script listed here. (The full content of the script is 
 
 	$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 
-
 All going well, that will have put nvm - the node version manager - on your system.
 
 To use it you need to restart bash...
 
 	// restart bash
 
-
 Now use nvm to install node....
 
 	$ nvm install node
 
-
 Result was something like this:
-
 
 	$ nvm install node
 	Downloading and installing node v10.8.0...
@@ -36,8 +32,6 @@ Result was something like this:
 	Checksums matched!
 	Now using node v10.8.0 (npm v6.2.0)
 	Creating default alias: default -> node (-> v10.8.0)
-
-
 
 Here's the full content of the script from <https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh>
 

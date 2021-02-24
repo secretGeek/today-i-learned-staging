@@ -4,15 +4,12 @@ To make a self-published book look like an amateur book, you don't have to break
 
 A book is composed of two files: the interior file (which includes the book itself) and the exterior file (which contains the front cover, spine and back cover)
 
-
 ## Page Layout
 
 - gutter: odd-numbered pages, gutter on left; even-numbered pages, gutter on right.
 - margins: the usual thing in an amateur book is to have these *too cramped*. (Similarly for leading in body content, see below)
 
-
 ![image showing the gutter as the part of the page that disappeares into the middle of the book](margin_gutter.png)
-
 
 ## Table of Contents (ToC)
 
@@ -22,7 +19,6 @@ A book is composed of two files: the interior file (which includes the book itse
 - Don't use a line of dots to link chapter title and page number (this is the default in word) - increase leading (line-height) instead.
 - If SMALL-CAPS styles are used, ensure it is a font that include a SMALL-CAPS variant and it is not simply a squished-down caps.
 - No header text on the TOC page
-
 
 ## Chapters
 
@@ -45,13 +41,11 @@ A book is composed of two files: the interior file (which includes the book itse
 
 ## THE BLOCK
 
-
 ![the block](the_block.png)
 
 - The block is the part of the page where the body text goes. It's the page minus the gutter, the margins, the headers and the footers. That's THE BLOCK
 - The block shouldn't move up or down or in or out on each page
 - Now, imagine this. Imagine the page is thin, so thin as to be almost completely translucent. Each line of text will have a line of text behind it. The lines of text on each side of the paper should be on top of each other. And the space between the lines should be completely clear on both sides
-
 
 - Here is the tricky thing about getting "the block" right...
 
@@ -61,14 +55,11 @@ A book is composed of two files: the interior file (which includes the book itse
 - THUS, the start of a new chapter may be a few lines down the page, but the distance to the top of the page should be equivalent to a *whole* number of lines of normal text.
 - If you get this wrong at the top of the page, you will see it a misalignment at the bottom of the page...
 
-
 ![block misalign](block_misalign.png)
-
 
 ...and you will see it if you hold the page up to the light.
 
 It's a fine detail, but part of avoiding that amateur feel.
-
 
 ## Page numbering
 
@@ -78,7 +69,6 @@ It's a fine detail, but part of avoiding that amateur feel.
   - near the corner, aligned with the edge of the "block" of the body text.
   - odd numbers are aligned to the right of the block
   - even numbers are aligned to the left of the block
-
 
 ## Content
 
@@ -101,7 +91,6 @@ It's a fine detail, but part of avoiding that amateur feel.
 - font-weight: does your book have more ink on the page than a professional book plucked from your shelf?
 - layout of quotes: consistent, pleasing.
 
-
 ## Paragraphs
 
 -  indented first line of paragraph, no line space between paragraphs.
@@ -120,18 +109,13 @@ It's a fine detail, but part of avoiding that amateur feel.
 
 Images shown on a Windows PC are traditionally 96 DPI -- dots per inch, and on an Apple Mac, 72 DPI. A newer "high DPI" screen on either system will be a higher DPI than this. Printed material is generally 300 DPI or higher. You need to look a lot closer at a printed page to see how it is put together, compared to a computer monitor.
 
-
-
-
 ## Exterior (cover)
-
 
 <!-- TODO: picture: interior file, exterior file -->
 
 - exterior image has spine at correct width (spine-width depends on the number of interior-pages, thickness of paper, etc.); an amateur book might end up with a cover design where the spine is ill-fitted.
 - spine: direction of text is consistent with the majority of books on your shelf, i.e. text flows top to bottom. When looking at the book on the shelf you lower your right ear to your shoulder to read the spines.
 - exterior image, high DPI, all text-crisp.
-
 
 ## External sources
 

@@ -1,6 +1,5 @@
 ﻿# Is your website flagged as containing malware?
 
-
 google search console (formerly google webmaster tools) tells you if there's any spam/malware on your sites.
 
 for example i received this warning:

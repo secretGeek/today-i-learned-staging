@@ -6,7 +6,6 @@ in vs code I use: `Alt left-arrow` to go back to my previous location.
 
 And `Alt right-arrow` to return to forward location.
 
-
 ## See also
 
 - [Notepad++: Navigate back](../notepad++/navigate_back.md)

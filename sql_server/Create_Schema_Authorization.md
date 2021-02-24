@@ -6,7 +6,6 @@ So specify `DBO` for example, with a script like this:
 
 	CREATE SCHEMA [BUSINESS] Authorization DBO
 
-
 ## See also
 
 - [create schema specific role](../sql_server/create_schema_specific_role.md)

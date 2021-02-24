@@ -8,7 +8,6 @@ On windows, you can use PuTTY to connect to your digital ocean droplet via SSH.
 
 Soon I think windows will have better ssh features built in. Powershell will get them for example.)
 
-
 ## Creating private/public key pair for use in SSH, using PuTTYgen
 
 First need to generate private/public key pair, using PuTTYgen.
@@ -37,14 +36,10 @@ Click "Add SSH Key"
 
 When informing digital ocean of your public key, you need to paste it into a textbox. For this I did the wrong thing: I opened the public key text file, copied the contents and pasted it into the textbox. This resulted in an error that read:
 
-
     Add SSH Key
     Key invalid type, we support 'ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', or 'ssh-ed25519'.
 
-
 What I should've done: look at the public key in PuTTYgen, where they provide a textbox with the public key formatted in the right way that you can copy and paste into various programs. Copy it from there. Not from the raw file.
-
-
 
 ## WARNING: UNPROTECTED PRIVATE KEY FILE!
 
@@ -62,7 +57,6 @@ To limit the permissiveness of those files I used these commands...
 
     sudo chmod 600 ~/.ssh/id_dsa
     sudo chmod 600 ~/.ssh/id_dsa_com.pub
-
 
 ## Export PuTTYgen keys to be usable from linux subsystem for windows
 
@@ -85,8 +79,6 @@ Create the RFC 4716 version of the public key using  ssh-keygen
 
 Simple right!? No, not simple.
 
-
-
 ## Host Identification has changed
 
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -103,7 +95,6 @@ Simple right!? No, not simple.
 		remove with: ssh-keygen -f "/home/user1/.ssh/known_hosts" -R 555.55.55.555
 	ECDSA host key for 555.55.55.555 has changed and you have requested strict checking.
 	Host key verification failed.
-
 
     ssh-keygen -R [IP_ADDRESS]
 

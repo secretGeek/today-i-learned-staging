@@ -1,13 +1,10 @@
 ﻿# Import CSV file to a Database, quickly
 
-
 > Challenge: you have a csv file and you need to import it into a new table in a database. You have 5 mins to get it done. What tools do you use?
 >
 > [@secretgeek](https://twitter.com/secretGeek/status/1179515031190306817)
 
-
 Below are many different solutions to this common problem, for a variety of databases and operating systems.
-
 
 ## Table of contents:
 
@@ -22,7 +19,6 @@ Below are many different solutions to this common problem, for a variety of data
 - [Oracle specific](#oracle-specific)
 - [Hadoop specific](#hadoop-specific)
 - [Alternative: Just treat the CSV as SQL](#alternative-just-treat-the-csv-as-sql)
-
 
 ## Any database with any OS
 
@@ -49,7 +45,6 @@ Below are many different solutions to this common problem, for a variety of data
 - [Datagrip: import/export](https://www.jetbrains.com/datagrip/features/importexport.html) &mdash; "There is a dedicated UI for importing DSV (CSV and TSV) files to the database."
 - [Navicat](https://www.navicat.com/en/) ($$$)
 
-
 ### Some brute force approaches (common!)
 
 - Sublime (editor), use Multiple line edit to turn the data into SQL
@@ -71,7 +66,6 @@ Below are many different solutions to this common problem, for a variety of data
 		$ONCE
 		GO
 
-
 ## Any database with Windows
 
 - [LinqPad](https://www.linqpad.net/) &mdash; [CSV to IEnumerable (or Array) in Linqpad](../linqpad/csv_to_array.md)
@@ -89,11 +83,9 @@ Below are many different solutions to this common problem, for a variety of data
 
 	> The desktop version lets you use a "real" CSV parser that handles embedded delimiters/line breaks etc. Just switch on the `use qualifier` option under `tools` | `options`.
 
-
 ## Any Database with MacOS
 
 (No examples available, so use solutions for "[Any database with any OS](#any-database-with-any-os)")
-
 
 ## MS SQL Server Specific
 
@@ -141,7 +133,6 @@ Below are many different solutions to this common problem, for a variety of data
 
 Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (interactive commandline).
 
-
  - [Sql-copy](https://www.postgresql.org/docs/current/sql-copy.html) &mdash; requires root access
 
 		COPY dog_habits FROM '/home/user521/pets/dog_habits.csv' DELIMITER ',' CSV HEADER;
@@ -149,7 +140,6 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
  - [psql \copy](https://www.postgresql.org/docs/current/app-psql.html) &mdash; use interactive psql commandline where file permissions are an issue
 
         psql -c "\copy sample FROM '/home/user521/pets/dog_habits.csv' WITH (FORMAT CSV)"
-
 
 ## Oracle specific
 
@@ -160,7 +150,6 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
    > "a couple of clicks and we're done"
    >
    > [@APEX/JeffreyKemp.sql](https://twitter.com/jeffreykemp/status/1179990364259663872)
-
 
 ## Hadoop specific
 
@@ -178,7 +167,6 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
 		OK
 		Time taken: 0.395 seconds
 
-
 ## Alternative: Just treat the CSV as SQL
 
 - [TextQL](http://dinedal.github.io/textql/) &mdash; Execute SQL against CSV or TSV.
@@ -189,7 +177,6 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
 ## Sponsor
 
 ♥ Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transforming needs.
-
 
 ## See also
 

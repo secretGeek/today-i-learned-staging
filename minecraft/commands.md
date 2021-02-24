@@ -12,7 +12,6 @@ Note:
 
 >  0 for dawn, 6000 for midday, 12000 for dusk and 18000 for night.
 
-
 Make sure that if you die you don't lose your inventory with:
 
 	/gamerule keepInventory true
@@ -20,7 +19,6 @@ Make sure that if you die you don't lose your inventory with:
 	/cannon
 
 ...launches TNT where you are pointing.
-
 
 ## Teleport
 
@@ -31,7 +29,6 @@ Make sure that if you die you don't lose your inventory with:
 	/tp x y z
 
 (Where x y and z are values) will take you somewhere.
-
 
 ## give yourself a command block
 

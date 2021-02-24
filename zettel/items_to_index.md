@@ -1,6 +1,5 @@
 ﻿# Zettelkasten: Items to index
 
-
 ## Tools for Making Personal Knowledge Repositories/Systems
 
 - [roam](https://roamresearch.com/)
@@ -43,7 +42,6 @@
  - [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
  - [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
 
-
 ## Research by researchers
 
 - [Semantic Wikis for Personal Knowledge Management](https://www.researchgate.net/publication/221464145_Semantic_Wikis_for_Personal_Knowledge_Management)
@@ -76,7 +74,6 @@
  - [Personal knowledge base](https://en.wikipedia.org/wiki/Personal_knowledge_base)
  - [Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management)
  - [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)
-
 
 ## Tools needed to perform this analysis
 

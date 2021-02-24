@@ -10,7 +10,6 @@ Which seems like an odd thing to do, in an aside... Looking through the history 
 
 Running the above command resulted in this output for me:
 
-
     - ansi-regex@2.1.1 node_modules\gulp\node_modules\ansi-regex
     - ansi-styles@2.2.1 node_modules\gulp\node_modules\ansi-styles
     - archy@1.0.0 node_modules\gulp\node_modules\archy
@@ -185,19 +184,15 @@ Running the above command resulted in this output for me:
     - vinyl-fs@0.3.14 node_modules\gulp\node_modules\vinyl-fs
     - gulp@3.9.1 node_modules\gulp
 
-
-
 Moving on...
 
 Next... install gulp-cli.
 
     npm install --global gulp-cli
 
-
 This is being installed globally, so it's available all the time, not just for this project.
 
 This resulted in....
-
 
     +-- gulp-cli@1.2.2
       +-- archy@1.0.0
@@ -326,13 +321,9 @@ This resulted in....
 
 ...luckily that all checks out. (wtflolbbq)
 
-
 Moving on, inside your project you are expected to run this command....
 
-
-
     npm install --save-dev gulp
-
 
 The `--save-dev` flag means gulp will be added to the dependencies of your `package.json` file (if you have one)
 
@@ -350,7 +341,6 @@ Hmmm... gulp, the task runner, (transitively) depends on some very out of date t
 Then these warnings are typical `npm` noise if you aren't building a package and don't have a `package.json` file.
 
     npm WARN saveError ENOENT: no such file or directory, open 'C:\users\username\scratch\markdown-it-3\package.json'
-
 
 And here's the tree of dependencies created...
 
@@ -527,7 +517,6 @@ And here's the tree of dependencies created...
         �   +-- isarray@0.0.1
         +-- vinyl@0.4.6
           +-- clone@0.2.0
-
 
 And finally more typical `npm` noise about things missing from the non-existent `package.json`
 

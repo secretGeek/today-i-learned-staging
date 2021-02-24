@@ -26,7 +26,6 @@ But also, sometimes you want your script loading to happen at the end of the pag
 
     @RenderSection("Scripts", false)
 
-
 (Where `Scripts` is a word of your choosing.)
 
 Then in the view, specify what to put in the `Scripts` section, like so:

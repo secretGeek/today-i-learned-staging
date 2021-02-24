@@ -4,7 +4,6 @@
 
     $ sudo reboot
 
-
 ## Story
 
 When sshing onto my fave droplet (at digital ocean)...
@@ -12,14 +11,11 @@ When sshing onto my fave droplet (at digital ocean)...
     27 packages can be updated.
     14 updates are security updates.
 
-
     *** System restart required ***
-
 
 SOME people say...
 
     sudo shutdown -r now
-
 
 That ^^ is *allegedly* the preferred method, over the more obvious:
 
@@ -34,7 +30,6 @@ Though someone counters with....
 So I use:
 
 	sudo reboot
-
 
 After a reboot I found I had to restart some of my systems.
 

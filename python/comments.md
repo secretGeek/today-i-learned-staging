@@ -7,7 +7,6 @@ Single line:
 
 And block comments:
 
-
     '''
     comments.md
     Purpose: Describe comments in python

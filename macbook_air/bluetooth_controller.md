@@ -11,7 +11,6 @@ Trick was to update the drivers and then point it at the "AppleBluetoothBroadcom
 
 Previously I have downloaded all of the BootCamp drivers, and unzipped them to here:
 
-
     C:\Users\Leon\Downloads\BootCamp5.1.5640\$WinPEDriver$\AppleBluetoothBroadcom64
 
 So I updated the drivers and browsed to that location.

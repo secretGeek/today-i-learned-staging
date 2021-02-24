@@ -5,27 +5,18 @@
 
 *****
 
-
 ## Available space on server
 
-
-
 	EXEC master..xp_fixeddrives
-
 
 ## helpdb
 
     sp_helpdb 'dbName'
 
-
-
 ## Spaceused
 
     use dbName
     sp_spaceused
-
-
-
 
 *****
 
@@ -59,9 +50,7 @@
 	ORDER BY
 		1
 
-
 -----
-
 
 ## Data Dictionary
 

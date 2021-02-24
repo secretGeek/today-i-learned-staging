@@ -8,7 +8,6 @@ You are in a folder, doing some things. You suddenly decided you want to install
 
 and then spits out these warnings:
 
-
 ```plaintext
 npm WARN ENOENT ENOENT: no such file or directory, open 'C:\Users\Leon\npm_examples\hello1\package.json'
 npm WARN EPACKAGEJSON hello1 No description
@@ -20,7 +19,6 @@ npm WARN EPACKAGEJSON hello1 No license field.
 They are just warnings -- so it did go ahead and install the package.
 
 `ENOENT`, by the way, means "Error No Entry"
-
 
 Here's what's been created, in terms of folders...
 
@@ -35,7 +33,6 @@ hello1
 And there's 520 files!
 
 But back to those warnings:
-
 
 ```plaintext
 npm WARN ENOENT ENOENT: no such file or directory, open 'C:\Users\Leon\npm_example\hello1\package.json'
@@ -59,7 +56,6 @@ So what? Why do we need these attributes? And why do we need a package.json file
 First -- let's create a `package.json` file and see if that helps at all.
 
 I add an empty file called `package.json` and I now get these additional warnings:
-
 
 ```plaintext
 npm WARN EJSONPARSE Failed to parse json
@@ -146,7 +142,6 @@ name: (hello1) [and the Cursor is here, awaiting your import]
 ```
 
 You will end up with something like this:
-
 
 	{
 		"name": "example",

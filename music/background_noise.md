@@ -14,7 +14,6 @@ There is also a specialty background-sounds site for role playing games: [Tablet
 
 Note also that spotify has a headspace playlist. This can be a good way to get into meditation.
 
-
 ## Other music
 
 - [Carl Franklin: Music to Code by](http://mtcb.pwop.com/)

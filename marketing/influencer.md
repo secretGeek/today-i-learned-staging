@@ -1,7 +1,5 @@
 ﻿# Influencer marketing
 
-
-
 ## Swag Bombs
 
 * <https://tim.blog/2013/09/29/marc-ecko/>

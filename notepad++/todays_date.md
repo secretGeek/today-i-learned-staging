@@ -6,11 +6,9 @@ The command is found here:
 
     TextFX | TextFX Insert | Date & Time Long Format
 
-
 (You may need to [install the TextFX characters plugin](install_textfx_plugin.md)) (or update it!)
 
 Next you need to map a key-combination to it.
-
 
 I'm going to use Ctrl -D
 
@@ -20,14 +18,12 @@ I've often hit that combo and i've never needed it.
 
 So Ctrl-D for Date.
 
-
 Under:
 
     Settings | Shortcut Mapper | Scintilla Commands
 
     Name:  16 SCI_SELECTIONDUPLICATE
     ShortCut: CTRL+D
-
 
 You can't delete the command, you need to modify it to have no hotkey combo.
 
@@ -45,7 +41,6 @@ Now ADD the one you want. Under:
 
     Name:       I:Date & Time - long format
     ShortCut:   Ctrl+D
-
 
 ## See also
 

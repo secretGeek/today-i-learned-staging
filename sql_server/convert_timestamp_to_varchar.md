@@ -15,12 +15,10 @@ Returns, for example:
 |-------|-----|--------------|--------|
 |0x000000000064B166 |0x000000000064B166|0x000000000064B166|000000000064B166|
 
-
 Notes:
 
  * fn_varbintohexstr is an undocumented function best avoided
  * In the convert examples, changing the `1` to `2` omits the `0x`.
-
 
 ## Sources
 

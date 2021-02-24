@@ -14,7 +14,6 @@ When you want to use that template:
 - Double click the file:
 	- It will create a new document, `Document1`, using that template as the basis for the document.
 
-
 ## See also
 
 - [How to edit an MS Word Template](../office/word_templates.md)

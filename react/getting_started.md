@@ -1,8 +1,6 @@
 ﻿# Getting started with react
 
-
 (My old version of this is here: [old_getting_started](old_getting_started.md) -- but things are easier in 2020, luckily.)
-
 
 You can create a new starter project called `hello-world` with:
 
@@ -32,13 +30,11 @@ And it says right there:
 
 ## Get your environment set up a little better
 
-
 Some environment tips before proceeding:
 
 1. Install the [react dev tools](https://reactjs.org/blog/2019/08/15/new-react-devtools.html) into chrome (or firefox) -- those are useful
 2. We'll use [vs code](../vs_code/01_summary.md) to edit the whole thing... as in `code .` (which opens the current folder as a 'workspace')
 3. Make sure "prettier" is installed and is set to run on save. That's useful - formats your files nicely.
-
 
 ## How does this demo hang together?
 
@@ -57,7 +53,6 @@ Other than that it defines a function called `App` which returns... a JSX elemen
 
 This `jsx` is compiled via Babel.
 
-
 	function App() {
 		return (
 			<div className="App">
@@ -69,8 +64,6 @@ This `jsx` is compiled via Babel.
 			</div>
 		);
 	}
-
-
 
 Okay, so we'll tinker with that for fun and to learn.
 
@@ -159,7 +152,6 @@ Okay - that's a bit of an odd example sorry. What I'm doing is calling the sette
 
 Instead -- let's make it that the state is updated when a user clicks the component.
 
-
 ## Making a component that can contain *any* other component (or elements)
 
 With `props` -- we can use a special `props.children` property to return *any* arbitrary elements that have been nested inside that component.
@@ -192,14 +184,8 @@ and in another...
 		);
 	}
 
-
-
-
-
-
 encapsulation
 move component to separate file
-
 
 ## the effects of running an `eject`
 
@@ -295,9 +281,7 @@ The `eject` script is gone from the `scripts` section and these are changed (in 
 	"build": "node scripts/build.js",
 	"test": "node scripts/test.js"
 
-
 Jest - we can now explicitly see that the testing framework is configured like so (in `package.json`):
-
 
 	"jest": {
 		"roots": [
@@ -366,9 +350,7 @@ Jest - we can now explicitly see that the testing framework is configured like s
 
 All of the above ^^ is Jest....
 
-
 Finally: babel configured like this.
-
 
 	"babel": {
 		"presets": [
@@ -376,13 +358,11 @@ Finally: babel configured like this.
 		]
 	}
 
-
 ## Deploying to production
 
 If you are using the [react dev tools](https://reactjs.org/blog/2019/08/15/new-react-devtools.html) in chrome you will see an indicator that your site is in development mode.
 
 Clicking that info takes you to [this page about what to do to get it into production](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build)
-
 
 >	npm run build
 

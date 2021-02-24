@@ -6,7 +6,6 @@ This tutorial is [FOUR IN A ROW WITH BOARDGAME.IO](https://www.lonesomecrowdedwe
 
 Every time I follow a tutorial online I make copious notes in my workbook (my field journal, my scientific journal, my grail diary; call it what you will), just like the ones below. Normally I don't publish them because of the extra effort of worrying about whether i'm violating copyright when i copy slabs of text etc. But in this case I'd like to share the output and might do the same for other tutorials I follow as well.
 
-
 	npm install -g create-react-app
 
 ....on windows: works ok i think.
@@ -20,7 +19,6 @@ if it fails too horribly on windows I can try the whole thing on linux instead. 
 
 	create-react-app four-in-a-ro
 
-
 ^^^ accidentally ran it for the wrong folder! Still let's see what happens:
 
 	Creating a new React app in C:\users\leon\dropbox\secretgeek\all_someday_projects\four-in-a-ro.
@@ -31,8 +29,6 @@ if it fails too horribly on windows I can try the whole thing on linux instead. 
 
 	Installing packages. This might take a couple of minutes.
 	Installing react, react-dom, and react-scripts...
-
-
 
 Hmmm, `Please update to Node 6 or higher for a better, fully supported experience.`
 
@@ -70,8 +66,6 @@ But when I click through I get this as the best answer:
 	Allows easy upgrades and downgrades.
 	Officially recommended by the NPM team.
 	A list of versions matched between NPM and NODE (https://nodejs.org/en/download/releases/) - but you will need to download NODE INSTALLER and run that to update node (https://nodejs.org/en/)
-
-
 
 Okay so i went to privileged powershell and ran the command to update npm (not noticing yet that to update node itself you need to run an installer which updates both)
 
@@ -182,11 +176,9 @@ Installed.
 	> npm --version
 	5.6.0
 
-
 Stackoverflow answer was so ridiculous. First 90% of the answer is about updating just npm -- but to update node you need to run the installer which updates both node and npm. And the installer (msi) gives you a more up to date version of npm than the `npm install -g npm-windows-upgrade` package gives you.
 
 Anyway -- now back to the first command from the tutorial
-
 
 	> npm install -g create-react-app
 	C:\Users\Leon\AppData\Roaming\npm\create-react-app -> C:\Users\Leon\AppData\Roaming\npm\node_modules\create-react-app\index.js
@@ -195,14 +187,12 @@ Anyway -- now back to the first command from the tutorial
 
 Ookay -- create app....
 
-
 	> create-react-app four-in-a-row
 
 	Creating a new React app in C:\users\leon\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row.
 
 	Installing packages. This might take a couple of minutes.
 	Installing react, react-dom, and react-scripts...
-
 
 	> uglifyjs-webpack-plugin@0.4.6 postinstall C:\users\leon\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row\node_modules\uglifyjs-webpack-plugin
 	> node lib/post_install.js
@@ -235,14 +225,11 @@ Ookay -- create app....
 
 	Happy hacking!
 
-
 Okay -- looks like we've gotten somewhere now.
-
 
 	cd four-in-a-row
 
 And....
-
 
 	> npm install --save boardgame.io
 
@@ -258,7 +245,6 @@ And....
 Hmm -- hope the lack of fsevents doesn't kill this thing -- though it's likely it will and i'll be switching to linux soon.
 
 What is `fsevents` ? see https://www.npmjs.com/package/fsevents
-
 
 	The FSEvents API in OS X allows applications to register for notifications of changes to a given directory tree. It is a very fast and lightweight alternative to kqueue.
 
@@ -286,7 +272,6 @@ Now running `npm install` so i can heat my house.
 
 	> uws@0.14.5 install C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\uws
 	> node-gyp rebuild > build_log.txt 2>&1 || exit 0
-
 
 	> uglifyjs-webpack-plugin@0.4.6 postinstall C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\uglifyjs-webpack-plugin
 	> node lib/post_install.js
@@ -332,7 +317,6 @@ And... npm run:
 
 	Search for the keywords to learn more about each warning.
 	To ignore, add // eslint-disable-next-line to the line before.
-
 
 App works a treat:
 

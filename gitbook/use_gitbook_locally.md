@@ -6,11 +6,9 @@ First install gitbook (via [npm](../npm/01_summary.md)).
 
 	npm install -g gitbook
 
-
 Wait... you now need the `cli` package:
 
 	npm install -g gitbook-cli
-
 
 Infact....
 
@@ -35,7 +33,6 @@ And then browse to (probably)
 	http://localhost:4000/
 
 (you can serve on a different "--port" e.g. `gitbook serve . --port 4003`)
-
 
 You can output as `html`, `pdf`, `epub` or `mobi`.
 

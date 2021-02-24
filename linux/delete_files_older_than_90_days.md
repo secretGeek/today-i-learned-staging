@@ -10,7 +10,6 @@ Note that this is recursive... to be non-recursive:
 
 	find . -maxdepth 1 -mtime +90 -type f | wc -l # non-recursive version
 
-
 ## List old files
 
 Next, list files older than 90 days...
@@ -37,10 +36,10 @@ Cool!
 
 Now to add it to cron job, for a specific folder...
 
-Add the following to a new file in the folder `/etc/cron.daily` 
+Add the following to a new file in the folder `/etc/cron.daily`
 
 	#!/bin/sh
-	
+
 	find /opt/webapps/nimbletext2.com/app/DATA/NimbleText.com.Models.Usage -mtime +20 -type f -delete
 
 And as described in [cron](cron.md) we can check the cron logs with:

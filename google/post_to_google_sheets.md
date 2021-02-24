@@ -6,7 +6,6 @@ I've found these great examples of how it's done...
 
 See [capture email](.\capture-email.html) for a live example.
 
-
 	<!DOCTYPE html>
 	<html>
 		<head><title>Minimal Signup form</title></head>
@@ -22,8 +21,6 @@ See [capture email](.\capture-email.html) for a live example.
 	</html>
 
 And `form-handler.js` is:
-
-
 
 	// Based on https://github.com/dwyl/html-form-send-email-via-google-script-without-server
 

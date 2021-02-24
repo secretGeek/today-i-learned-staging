@@ -16,7 +16,6 @@
     wincolor = C:\Program Files\TortoiseHg\hgext\wincolor.py
     zipdoc = C:\Program Files\TortoiseHg\hgext\zipdoc.py
 
-
 Not even sure what all of these do.
 
 Some are left over from when I was playing with [writing mercurial extensions](https://secretgeek.net/mercurial_extensions)

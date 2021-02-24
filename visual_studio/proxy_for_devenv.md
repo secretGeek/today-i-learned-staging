@@ -4,14 +4,11 @@ Because of the corporate network being dumb i found i had to specify the proxy t
 
 To do this I edited the `devenv.exe.config` file (as an administrator)
 
-
 That file was here for me:
 
 		C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\ide\devenv.exe.config
 
-
 First I added this:
-
 
      <system.net>
       <defaultProxy useDefaultCredentials="true" enabled="true">
@@ -36,7 +33,6 @@ Then I made it:
         <ipv6 enabled="true"/>
       </settings>
     </system.net>
-
 
 ...where PROXYADDRESS is the actual address of the company's proxy.
 

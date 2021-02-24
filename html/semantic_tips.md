@@ -1,4 +1,4 @@
-# Semantic HTML: Underused text-level elements
+﻿# Semantic HTML: Underused text-level elements
 
 Here are some elements I don't use/consider enough.
 
@@ -38,7 +38,6 @@ Example:
 <figcaption>This is Mr. T</figcaption>
 </figure>
 
-
 It took me quite a while to find CSS that would do what I wanted for the `figure/img/figcaption` combo above.
 
 Given that I was already centering my images, with something like this:
@@ -74,8 +73,6 @@ Let me mark a few <mark>choice phrases</mark> in this <mark>fascinating</mark> s
 
 According to [markdig test on 'emphasis'](https://github.com/xoofx/markdig/blob/master/src/Markdig.Tests/Specs/EmphasisExtraSpecs.md) we can use `==equals==` to indicate the text to ==mark up==.
 
-
-
 ## `<q>` - Inline Quotation
 
 - [q: inline quotation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
@@ -91,7 +88,6 @@ There are probably quotes around that, provided by the user-agent stylesheet, vi
 `tip` The `quote` element should be used for <em>literal</em> quotes, not for decorative purposes such as "sarcasm", "air-quotes" and other rhetorical instances. (i.e. use it to for <em>literal</em> quotes, but not for "literal" quotes.)
 
 (There is no `<sarcasm>` element. Or rather: `<sarcasm>`There <em>is</em> a sarcasm element`<sarcasm>`. [w3c disccusion here](https://lists.w3.org/Archives/Public/public-html/2014Nov/0007.html))
-
 
 ## `<time>` - Time element
 
@@ -118,7 +114,6 @@ At [developer.mozilla.org](developer.mozilla.org):
 - [q: inline quotation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
 - [Css-Tricks: quotes](https://css-tricks.com/almanac/properties/q/quotes/)
 - [time: Time element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
-
 
 ## See also
 

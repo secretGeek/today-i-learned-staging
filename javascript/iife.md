@@ -10,7 +10,6 @@
 	})();
 	// foo is unreachable here (it's undefined)
 
-
 > This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.
 
 and note also:
@@ -18,7 +17,6 @@ and note also:
 > In ES6, the above IIFE can be rewritten using the **arrow function**
 
 	((foo) => foo)('foo value')
-
 
 ## Source
 

@@ -1,6 +1,5 @@
 ﻿# Compare environments
 
-
 ## To compare object names between environments, compare the result of a query such as:
 
 	SELECT top(400)
@@ -15,9 +14,6 @@
 	AND schema_name(so.[schema_id])	in ('Schema1', 'Schema2') -- e.g. where focusing on only some schemas
 	AND so.[name] not like '%zz%' -- e.g. where ignoring certain object names
 	ORDER BY 1
-
-
-
 
 ## To compare column details between environments, compare the result of a query such as:
 
@@ -42,12 +38,9 @@
 	ORDER BY
 		1,2,3
 
-
-
 ## To compare hashes of views/sprocs/functions between environments, use a query such as:
 
 (These rely on [TrimWhiteSpace, LTrimWhiteSpace, RTrimWhiteSpace...](find_whitespace.md))
-
 
 	Select 	'zonk://objectname/' + schema_name(so.uid) + '.' + so.[name] + '|' + schema_name(so.uid) + '.' + so.[name]  AS [Schema.Object],
 		so.xtype,
@@ -66,9 +59,7 @@
 	AND so.[name] not like '%zz%' -- e.g. where ignoring certain object names
 	order by  3 desc
 
-
 ## To compare actual views/sprocs/functions - use a query such as:
-
 
 	Select
 		Definitions.Definition as 'View definition'
@@ -83,8 +74,6 @@
 	where Definitions.Definition is not null
 	and
 		schema_name(so.[uid]) + '.' + so.[name]  = @objectname
-
-
 
 ## See also
 

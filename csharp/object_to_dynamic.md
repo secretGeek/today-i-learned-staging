@@ -2,7 +2,6 @@
 
 When you want an object that is not [dynamic](version4.md#dynamic-binding) to take on dynamic capabilities, this extension method is your friend:
 
-
 	//Using System.Dynamic and System.ComponentModel
 	public static class Extensions
 	{

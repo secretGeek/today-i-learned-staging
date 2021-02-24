@@ -9,11 +9,9 @@
  * Melodies
  * Song structure
 
-
 Also from ableton:
 
 <https://learningsynths.ableton.com/>
-
 
  * Envelopes
  * LFOs
@@ -22,11 +20,9 @@ Also from ableton:
  * Recipes
  * Playground
 
-
 A different tool....
 
 [Musical Chord Progression Arpeggiator](https://codepen.io/jakealbaugh/full/qNrZyw)
-
 
 ## External links
 

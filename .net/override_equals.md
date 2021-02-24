@@ -4,8 +4,6 @@ If A and B are two different objects in memory, but they are of the same type an
 
 It's a deep question, but if, for your problem domain, the answer is "YES" then you can embed this answer in your code as follows:
 
-
-
 	public class MyThing
 	{
 		public string ID { get; set; }

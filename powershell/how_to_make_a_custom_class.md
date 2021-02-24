@@ -1,6 +1,5 @@
 ﻿# How to make a custom class
 
-
 ## Define a new class like that
 
 	class JournalNode {
@@ -10,7 +9,6 @@
 		[int]$LineNumber;
 		[string]$SourceFile;
 	}
-
 
 ## Construct an instance with ::new()
 

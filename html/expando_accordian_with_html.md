@@ -6,8 +6,6 @@ You can create expand/collapse regions (also known as 'twisties') with plain htm
 
 `tip` This is not supported on IE.
 
-
-
 ## Simplest example
 
 for example, this html:
@@ -18,12 +16,9 @@ Behaves like this:
 
 <details>Once expanded, this is the details you will see.</details>
 
-
-
 ## Example with Summary
 
 And Html like this:
-
 
 	<details>
 	<summary>Expand to see the details....</summary>
@@ -36,7 +31,6 @@ Behaves like this:
 <summary>Expand to see the details....</summary>
 Once expanded, this is the details you will see.
 </details>
-
 
 Note that the summary text is visible both before and after the details are expanded.
 
@@ -59,7 +53,6 @@ And this html...
 
 Behaves like this:
 
-
 <details class='example3'>
 <summary>Expand to see the details....</summary>
 Once expanded, this is the details you will see.
@@ -68,8 +61,6 @@ Once expanded, this is the details you will see.
 <style>
 details.example3[open] > summary { background-color:red;color:black;outline:none;}
 </style>
-
-
 
 ## Animation example
 
@@ -92,9 +83,6 @@ This example uses this style:
 	}
 	</style>
 
-
-
-
 <style>
 details.example4[open] p {
   animation: animateDown 0.2s linear forwards;
@@ -112,17 +100,14 @@ details.example4[open] p {
 }
 </style>
 
-
 <details class='example4'>
 <summary>Watch this paragraph expand over 0.2 of a second...</summary>
 <p>Once expanded, this is the details you will see. I've made this text detail a bit bigger than some of the others. I hope that it is ok. Also, it includes a paragraph tag that is used for selecting the section to which the animation is applied.</p>
 </details>
 
-
 ## Consider "::before" and "::after" pseudo elements
 
 This article [A (terrible?) way to do footnotes in HTML](https://shkspr.mobi/blog/2020/12/a-terrible-way-to-do-footnotes-in-html/) includes some before/after pseudo elements... in some cases that might be a useful idea.
-
 
 	details[open]::before {
 		content: " [";
@@ -140,11 +125,9 @@ Some other selectors/pseudo elements to consider are:
 
 ...For styling details or summary when the detail is *not* open.
 
-
 ## Remove the list style
 
 ...and you may wish to change the list style. Remove it like this...
-
 
 	summary {
 		 list-style: none;
@@ -165,9 +148,7 @@ Generally a good idea... (though not useful for mobile)
 
 ## Caveat
 
-
 Details/Summary are not supported in IE. And we're finally getting to a point where those words don't mean so much. 😅.
-
 
 ## History
 
@@ -178,8 +159,6 @@ Expand/collapse sections are *similar* to Ted Nelson's 1967 idea "Stretch-Text",
 > Stretchtext consists of ordinary continuous text which can be "stretched", or made longer and more detailed. By pointing at specific areas and pulling the throttle in the "magnify" direction, the reader may obtain a greater detail on a specific subject, or area of the text. The text stretches, becoming longer, with replacement phrases, new details and additional clauses popping into place.
 >
 > *Ted Nelson, Hypertext Note 8, 1967*
-
-
 
 ## Source
 

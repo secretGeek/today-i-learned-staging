@@ -6,22 +6,18 @@ e.g. in
 
 > https://www.gitbook.com/book/{yourUsername}/{yourBookName}/settings/github
 
-
 Tell it your github repository:
 
     {yourUserName}/{YourRepo}
-
 
 And to get the webhooks set up....
 
  * Under "Integration" heading
     * Next to the "Webhook URL" is a "copy to clipboard" button. Click it, to copy your webhook url.
 
-
 Then click "Check Webhooks" -- this takes you to Github. Specifically it takes you to "Webhooks and Services" for your repo, i.e.
 
     https://github.com/{yourUserName}/{YourRepo}/settings/hooks
-
 
  * Under "Webhooks" click "Add webhook"
   * In "Payload URL" paste the "Webhook URL" from above.
@@ -36,8 +32,6 @@ Once that is working... when you push your repo... your book will update.
 It might take a minute. If you go to your book while it is building, they show you a "building" message.
 
 > Your book is currently being updated, this can take up to a few minutes.
-
-
 
 ## See Also
 

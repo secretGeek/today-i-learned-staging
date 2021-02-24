@@ -8,7 +8,6 @@ Plugin Config path is:
 
 In main menu, go to "Plugins" -> "Plugin manager"
 
-
 Note:
 
 There's also "Settings" -> "Import" -> "Import Plugins"
@@ -31,8 +30,6 @@ Unzip it and copy the extracted files to your notepad++ plugins and updater fold
 
 	$env:APPDATA\Notepad++\plugins\Config
 
-
-
 ## Updating plugins
 
 These plugins need to be updated, apparently.
@@ -49,7 +46,6 @@ And when I try to update them I get this message...
     ---------------------------
     Yes   No   Cancel
     ---------------------------
-
 
 I choose "Yes", I get a UAC dialog, NotePad++ restarts and then the updates have still not been installed.
 

@@ -37,7 +37,6 @@ The rest of the rule is the same as this existing rule, which you should find in
 
 ...and by the time you're reusing this technique, that other rule may have moved on a bit... so make it match with it.
 
-
 Thanks to Darin Dimitrov's answers here.
 
  * http://stackoverflow.com/questions/14327476/prevent-static-file-handler-from-intercepting-filename-like-url

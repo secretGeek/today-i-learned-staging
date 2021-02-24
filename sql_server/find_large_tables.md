@@ -4,7 +4,6 @@ Some tables too big? Running out of space in your database?
 
 Easy to find:
 
-
     SELECT top 50
         t.NAME AS TableName,
         s.Name AS SchemaName,
@@ -32,9 +31,7 @@ Easy to find:
     ORDER BY
         4 desc, 5 desc
 
-
 (There's also some built in reports... but a query is the best UI)
-
 
 ## Source
 

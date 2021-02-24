@@ -20,7 +20,6 @@ And that gets broken apart and entered into the connection dialog like this:
 > Port: 12345<br />
 > Auth (optional) : everything before the @ and after the colon, i.e. dBWHDNWJHECBJEBCW
 
-
 After setting up my connection successfully I still found that the app did not work for my redis store containing 120,000 records.
 
 I instead used [redsmin](https://www.redsmin.com/) to connect to it, and verify that my store was still ok, if a little large.

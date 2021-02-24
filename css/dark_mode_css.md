@@ -20,11 +20,9 @@ First... how to implement custom properties, i.e. *variables* for your colors.
 
 With the example above we've defined some custom properties, and then used them to style our page.
 
-
 ## Adding in `prefers-color-scheme`
 
 We can enhance this by supporting a *dark* color scheme for any users that have configured their device to use dark.
-
 
 	<style>
 	:root {
@@ -64,7 +62,6 @@ First put a class on all such images, for example `class='invertable'`, then app
 
 (I use this trick at the front page of [TIL.secretGeek.net](TIL.secretGeek.net).
 
-
 Also here is a poor man's dark mode trick... and it's slightly better than other versions of this idea I've seen elsewhere...
 
 If you don't have time to implement a full dark mode, picking all the colors, you can just invert the colors.
@@ -94,9 +91,7 @@ Here's the full poor man's dark mode stylesheet...
 
 I've added this to the default built-in template used by [clowncar](https://github.com/secretGeek/clowncar) (my static site generator)
 
-
 ## Poor man's dark mode stylesheet, take 2:
-
 
 Here's a different take on the same goal. This time instead of straight up "inverting" the whole thing (like a negative) - I want to only invert the "lightness".
 
@@ -119,7 +114,6 @@ Try it for yourself.
 		}
 	}
 	</style>
-
 
 ## Source
 

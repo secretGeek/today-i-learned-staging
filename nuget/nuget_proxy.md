@@ -6,16 +6,12 @@ I couldn't build a project locally because it wouldn't restore its nuget package
 
 The secret was to add the proxy information to this file:
 
-
 	> cd $env:appdata\nuget
 	> n NuGet.Config
 
-
 (Also known as `%appdata%\nuget\NuGet.Config`)
 
-
 And add the `config` element shown below:
-
 
 	<?xml version="1.0" encoding="utf-8"?>
 	<configuration>
@@ -32,8 +28,6 @@ Then restart visual studio. Right click the solution and choose "Restore Package
 This change can also be effected at the commandline, by running a "Developer Command Prompt for VS 2017" and there-in typing:
 
 	nuget config -set http_proxy=http://YOUR_PROXY:8080
-
-
 
 If you don't want to add it for all solutions you can allegedly just add a `http_proxy` to the local `nuget.config` within your solution.
 

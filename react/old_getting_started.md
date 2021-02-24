@@ -1,6 +1,5 @@
 ﻿# (Old) Getting started with react
 
-
 React concepts:
 
  * JSX
@@ -8,11 +7,9 @@ React concepts:
  * virtual DOM
  * props
 
-
 Reacts.js is: A javascript library, from facebook, for building user interfaces (in HTML).
 
 Unlike other recent frameworks (e.g. Angular, Polymer) it doesn't do "two-way data binding with templates". Instead it works by having you develop "components". These components are rendered in a virtual DOM, which is then compared to the actual DOM, and only the things that are different are applied.
-
 
 Okay - the [official getting started](https://facebook.github.io/react/docs/getting-started.html) with react.js is utterly [COIK](../concepts/coik.md). So I've had to write my own, mostly by walking through the react-tutorial.
 
@@ -68,7 +65,6 @@ Take this snippet from the example.js
       <CommentBox url="/api/comments" pollInterval={2000} />,
       document.getElementById('content')
     );
-
 
 That's where the whole thing starts. It creates a component called CommentBox.
 
@@ -149,7 +145,6 @@ And these bits are all similar:
 
 Okay -- so we'll examine "handleTextChange" ---
 
-
 It's a function that does just this:
 
 	handleTextChange: function(e) {
@@ -159,7 +154,6 @@ It's a function that does just this:
 Now we learn how `this.state` is updated. I suspect it's immutable and a new state was created.
 
 In any case, we had to explicitly add such a handler, demonstrating that two-way binding is not occurring. State propagation has to be taken care of somewhat explicitly. (I like this!)
-
 
 ## Source
 

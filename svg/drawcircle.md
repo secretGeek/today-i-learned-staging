@@ -1,10 +1,8 @@
 ﻿# How to draw a circle with svg
 
-
 	<svg>
 		<circle cx="70" cy="70" r="70" fill="#383838" stroke="none"/>
 	</svg>
-
 
 That's one circle, how about two?
 
@@ -30,7 +28,6 @@ That's one circle, how about two?
 </g>
 </svg>
 
-
 	<div style='padding:30px;background-color:#111;'>
 		<svg width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
 			<g transform="scale(1 1)">
@@ -38,7 +35,6 @@ That's one circle, how about two?
 			</g>
 		</svg>
 	</div>
-
 
 	<div style='padding:30px;background-color:#111;'>
 		<svg width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>

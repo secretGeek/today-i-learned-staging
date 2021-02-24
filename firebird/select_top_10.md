@@ -10,8 +10,6 @@ No it is `first`:
 
 Ha!
 
-
-
 ## See also
 
 - [Oracle TOP 10](../oracle/top_10.md) ...includes mysql tip!

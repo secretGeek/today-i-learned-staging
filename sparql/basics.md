@@ -1,6 +1,5 @@
 ﻿# Sparql -- basics
 
-
 	SELECT ?a ?b ?c
 	WHERE
 	{
@@ -15,8 +14,6 @@ Note that `x y ?a.`
 ..means "x relates-in-way-y to value ?a"
 
 ..e.g. `y` could be... "hasColor", "car hasColor green" ... or some other arbitrary relationship indicator.
-
-
 
 ## Source
 

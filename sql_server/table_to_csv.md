@@ -13,15 +13,12 @@ Turn some literal values into a comma separated string variable:
 			) v ([Value])
 	print @CSV -- Prints 'One, Two, Three'
 
-
 Turn some table values into a comma separated string variable:
 
 	declare @CSV varchar(max) = null
 	select  top 5 @CSV = isnull(@CSV + ', ', '') + [name]
 	from    sysobjects
 	print @CSV -- Prints 'sysrscols, sysrowsets, sysclones, sysallocunits, sysfiles1'
-
-
 
 Return comma separated string, not as a variable though, as part of a result set.
 
@@ -37,9 +34,7 @@ Return comma separated string, not as a variable though, as part of a result set
 	FROM sysobjects s2
 	order by 1
 
-
 Note that if the `Name` contains any XML-breaking characters (e.g. `<`), you might need to do more work with the `Name`, to encode those and then decode them.
-
 
 ## See also
 

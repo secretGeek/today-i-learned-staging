@@ -14,9 +14,7 @@ I find that zooming is also helpful, even with the new reading glasses.
 
 The feature is not particularly well implemented, and not widely used. Since maintaining it and improving will require a lot of work, I expect it to quietly die a death of a thousand bugs over the next few years. But we'll see.
 
-
 Other keywords: readability, legible, legibility, declutter, adblock, ad-block
-
 
 ## Source
 

@@ -20,9 +20,7 @@ If you no longer need them in the stash, use
 
 	git stash drop
 
-
 ...to clean the stash.
-
 
 (You could've used `git stash pop` to apply them *and* remove them from the stash. Up to you.)
 
@@ -46,7 +44,6 @@ To see a specific item in the stack use:
 
 ...where {3} is the item you're looking at.
 
-
 ## Avoiding the "Too many revisions specified" error
 
 Note that with powershell, if you leave out the double-quotes, i.e.
@@ -56,7 +53,6 @@ Note that with powershell, if you leave out the double-quotes, i.e.
 ...you'll receive the error:
 
 	Too many revisions specified: 'stash@' 'MAA=' 'xml' 'text'
-
 
 ## Further reading
 

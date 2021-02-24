@@ -16,7 +16,6 @@ Formatting a list of dates...
 
 	dir *.txt | % { $_.LastWriteTime.ToString("yyyy-MM-dd") }
 
-
 ## see also
 
 - [How do you parse a date in powershell?](parsedate_in_powershell.md)

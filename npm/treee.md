@@ -16,9 +16,7 @@ set-alias tre treee
 
 tre --ignore node_modules
 
-
 ## Options
-
 
 	> treee --help
 

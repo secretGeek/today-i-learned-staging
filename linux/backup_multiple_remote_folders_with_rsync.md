@@ -6,7 +6,6 @@ So how can you write a `.sh` script that will backup multiple folders?
 
 The best way is to write a script that establishes a connection and reuses the connection!
 
-
 "Create an rsync connection and keep it open"
 
 for example:

@@ -1,6 +1,5 @@
 ﻿# Getting things done
 
-
 Agreements you've made with yourself.
 
 Amorphous blob of undoability

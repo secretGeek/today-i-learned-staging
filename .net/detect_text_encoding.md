@@ -4,12 +4,9 @@ Well this is a doozy, and bound to require constant upkeep.
 
 I always start off reading files like this...
 
-
     using (var sr = new StreamReader(fileName))
 
-
 Then, someone complains that their non-ascii files weren't read correctly, I ask for example files, perform some tests and end up with this:
-
 
     using (var sr = new StreamReader(fileName, System.Text.Encoding.UTF8))
 
@@ -22,7 +19,6 @@ I can open the file in NotePad++ and see under the conveniently named "Encoding"
 Then I go to stack overflow and find an answer, with a lot of upvotes, which almost works for me.
 
 Only change I had to make is highlighted below:
-
 
     /// <summary>
     /// Determines a text file's encoding by analyzing its byte order mark (BOM).
@@ -48,14 +44,12 @@ Only change I had to make is highlighted below:
         return Encoding.Default; // **Changed this line**
     }
 
-
 And use it thus:
 
     var encoding = GetEncoding(fileName);
     using (var sr = new StreamReader(fileName, encoding)) // System.Text.Encoding.UTF8))
 
 I am certain this will require further changes in future.
-
 
 ## Source
 

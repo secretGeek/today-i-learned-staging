@@ -4,14 +4,11 @@ In virtualbox if you only have options to create 32 bit VMs... Why is that!?
 
 It's because virtual box requires that Hyper-V be disabled.
 
-
 Now I'm checking: if i disable Hyper-V can I re-enable it later?
 
     dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
 
     dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
-
-
 
 You need to be running 64-bit powershell, elevated.
 
@@ -24,18 +21,14 @@ If you're not elevated, you'll get:
     Elevated permissions are required to run DISM.
     Use an elevated command prompt to complete these tasks.
 
-
 ...so elevate.
 
-
 And if you're not running 64-bit powershell, you'll get:
-
 
     > dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
 
     Deployment Image Servicing and Management tool
     Version: 10.0.10586.0
-
 
     Error: 11
 
@@ -44,10 +37,7 @@ And if you're not running 64-bit powershell, you'll get:
 
     The DISM log file can be found at C:\WINDOWS\Logs\DISM\dism.log
 
-
-
 So run from an elevated 64-bit version of Powershell.
-
 
     > dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
 
@@ -64,12 +54,9 @@ So run from an elevated 64-bit version of Powershell.
 
 Restart the computer.
 
-
 Now when you open Virtual Box there's a bunch of 64 bit machines you can create.
 
-
 (I downloaded this image: http://mirror.aarnet.edu.au/pub/xubuntu/releases/14.04/release/xubuntu-14.04.3-desktop-amd64.iso)
-
 
 ## See Also
 

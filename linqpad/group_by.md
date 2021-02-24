@@ -7,7 +7,6 @@ By far the most common query I've every run in SQL Server is:
 	group by SomeColumn
 	order by 2 desc
 
-
 Here's the equivalent in Linq:
 
 	var tableSummary =
@@ -41,13 +40,9 @@ Here's a more complex example:
 			).Where(g => g.Count > 1).OrderByDescending(gg => gg.Variance_Height);
 	groups.Dump();
 
-
-
 ![result is 1 row per name with many aggregated properties regarding that name and child rows: of type person, with name matching their parent group](linqpad\group_by.png)
 
-
 (Supporting code....
-
 
 	public class Person
 	{

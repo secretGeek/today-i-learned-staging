@@ -2,14 +2,11 @@
 
 You have a `varchar` or an `nvarchar` but you need to make sure it is an integer (not just a number)
 
-
 Check if:
 
 	isnumeric(@Id + '.0e0')
 
-
 ...returns 1
-
 
 For example:
 
@@ -25,9 +22,7 @@ For example:
 
 Note that this allows positive *and negative* integers.
 
-
 ## Ensure String Is a Positive Integer
-
 
 To further check if a string is a *positive* integer.
 

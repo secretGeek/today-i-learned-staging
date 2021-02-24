@@ -12,7 +12,6 @@ Then I just typed:
 
     from turtle import *
 
-
 Then I tried:
 
     fd 100
@@ -34,9 +33,7 @@ And on that window, a little turtle (represented by an arrow, in the center of t
 
 I used the Windows+Arrows keys to resize powershell and "Python Turtle Graphics" so they each took up half the screen. And I was away!
 
-
 Backing up a little... I could've gone like this:
-
 
     import turtle
 

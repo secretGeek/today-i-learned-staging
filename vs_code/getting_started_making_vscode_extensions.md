@@ -1,15 +1,12 @@
 ﻿# Getting started making vscode extensions
 
-
 You can scaffold a starting extension using `yo` (yeoman generator)
 
 	npm install -g yo generator-code
 
 (requires node which gives you npm.)
 
-
 run: `yo code` and follow the prompts....
-
 
 	> yo code
 
@@ -46,7 +43,6 @@ run: `yo code` and follow the prompts....
 		 create helloworld\.eslintrc.json
 
 		 create helloworld\package.json
-
 
 ## Sources
 

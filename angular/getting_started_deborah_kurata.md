@@ -14,8 +14,6 @@ A blog post from Deborah to support the course is here:
 
 **If you sign up to PluralSight, [please use this referral link and we'll both get a discount](http://referral.pluralsight.com/mQgodIs)**
 
-
-
 	git clone https://github.com/DeborahK/Angular-GettingStarted.git
 	cd .\Angular-GettingStarted\
 
@@ -37,9 +35,7 @@ Under the `APM-Start` folder, here's the initial structure
 
 The web application itself is under the `APM-Start\src` folder. All the files in the `APM-Start` folder itself are there to support the tooling and the language and the frameworks etc. Go into the `src` folder for the real stuff.
 
-
 ## Lessons
-
 
 ### Introduction
 
@@ -54,8 +50,6 @@ The web application itself is under the `APM-Start\src` folder. All the files in
 
 - Some javascript background. Javascript is "ecmascript" in the standards. All browsers support at least es5. es2015 is nicer, has arrow functions etc (and was formerly known as es6). May need to transpile it back down to es5.
 - typescript definition files -- those are the ones that end with *.d.ts
-
-
 
 setup environment:
 
@@ -80,14 +74,11 @@ Basic angular application has:
 
 Can use angular cli to do all this...
 
-
-
 **But how do we get the angular cli?**
 
   npm install -g @angular/cli
 
 That's how you get the super dooper useful angular cli.
-
 
 ## Make a new app
 
@@ -113,7 +104,6 @@ Edit the `package.json` so that the `start` script passes an `-o` parameter to t
       "start": "ng serve -0",
 
 ## Generate some stuff
-
 
 In our new app we can generate some stuff....
 
@@ -145,9 +135,6 @@ webWorker
 
 As a scientist you can commit everything to your repo. Generate one of those. Then inspect what was added.
 
-
-
-
 In:
 
 	~\learning\Angular\Angular-GettingStarted\APM-Start\
@@ -156,16 +143,13 @@ Run:
 
 	npm install
 
-
 There will be some warnings and a bunch of mess, but it will hopefully succeed at installing all the packages required by your little app.
 
 Hmmm.
 
 Warning near the start....
 
-
 	core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
-
 
 ...and eventually a bunch of fatal errors.
 
@@ -193,7 +177,6 @@ But also this line...
 
 NOW when I run:
 
-
 	npm start
 
 ...it starts and I get to the welcome screen:
@@ -214,9 +197,6 @@ if you look inside the file `package.json` you will find a node like this:
 Those scripts are a map of friendly little names on the left to 'complex' commands on the right.
 
 So, for this project, when we run `npm start` it is a shortcut to running:  `npm run ng serve -o`
-
-
-
 
 ![welcome](welcome.png)
 
@@ -239,8 +219,6 @@ https://app.pluralsight.com/library/courses/angular-2-getting-started-update/exe
  - services
  - routing
    - guards
-
-
 
 ## See also
 

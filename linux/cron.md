@@ -2,7 +2,6 @@
 
 cron runs commands periodically.
 
-
 ## cron expressions
 
 A cron expression has five parts....
@@ -17,8 +16,6 @@ A cron expression has five parts....
 	+------------- min (0 - 59)
 
 ### MINUTES
-
-
 
     * * * * * ls         # Every  minute
     */2 * * * * ls       # Even minutes
@@ -70,9 +67,7 @@ e.g.
 
 	sudo grep CRON /var/log/syslog
 
-
 If you see this in your cron logs:
-
 
 	(CRON) info (No MTA installed, discarding output)
 
@@ -86,13 +81,9 @@ e.g.
 
 	*/10 * * * * curl http://example.com >/dev/null 2>&1
 
-
-
 ## /et/cron.hourly etc
 
-
 On Ubuntu, you can put a shell script in one of these folders: /etc/cron.daily, /etc/cron.hourly, /etc/cron.monthly or /etc/cron.weekly.
-
 
 ## references
 

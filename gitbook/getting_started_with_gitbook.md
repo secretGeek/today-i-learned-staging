@@ -20,7 +20,6 @@ So it looks like this (for example)
     * git
          * [how to git](../git/how_to_git.md)
 
-
 I generate that file using [pre](https://github.com/secretGeek/pre) though it's easy enough to generate with a bit of powershell.
 
 In [gitbook](https://www.gitbook.com) you sign up, and create a "New Book".

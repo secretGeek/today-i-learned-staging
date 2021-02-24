@@ -1,4 +1,4 @@
-# Css Properties of Current Page
+﻿# Css Properties of Current Page
 
 This table shows all of the css properties embedded in this site's stylesheet, their purpose, and their current value. It also demonstrates their effect by styling the current row accordingly.
 
@@ -36,7 +36,6 @@ function getAllCssPropertyNames(styleSheets = document.styleSheets){
 	 }
 	 return cssProps;
 }
-
 
 function getCssPropertyInfo(properties = []) {
 	result = [];
@@ -79,10 +78,7 @@ function showStyles(targetElementId = "allstyles") {
 showStyles();
 </script>
 
-
-
 To get the properties it loops through all style names like this:
-
 
 	document.styleSheets[i].cssRules[j].style[k]
 
@@ -92,11 +88,9 @@ To find the value of a css property, it uses, for example:
 
 	getComputedStyle(document.documentElement).getPropertyValue("--link");
 
-
 To determine the 'purpose' of a style, it makes assumptions based on the property naming convention I seem to follow:
 
 - Like '-width'? It's a width.
 - Like '-shadow'? It's a shadow color.
 - Like '-bg'? It's a background color
 - Otherwise: it's a color.
-

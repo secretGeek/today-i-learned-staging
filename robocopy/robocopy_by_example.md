@@ -2,16 +2,13 @@
 
 ## Normal use: Mirroring
 
-
 You usually want `/MIR` though it does `PURGE` things away from the target if they're not present in the source:
 
 	/MIR :: MIRror a directory tree (equivalent to /E plus /PURGE).
 
-
 ### Example for Mirror
 
 	robocopy.exe "C:\source\" "C:\target" *.mp3 /MIR # Mirror from source to target, includes purging within target if file is missing in source
-
 
 ## Mirror but don't purge
 
@@ -23,9 +20,7 @@ So the next most common need is `/E` by itself, which is effectively "mirror but
 
 	robocopy.exe "C:\source\" "C:\target" *.mp3 /E # don't purge just copy, including subfolders (even empty ones)
 
-
 ## Mirror with 'List Only' (what-if)
-
 
 The closest to a `what-if` or `dry-run` is to use `/L`:
 
@@ -34,7 +29,6 @@ The closest to a `what-if` or `dry-run` is to use `/L`:
 ### Example for Mirror with List Only
 
 	robocopy.exe "C:\source\" "C:\target" *.mp3 /MIR /L # Mirror but LISTONLY
-
 
 ***
 
@@ -51,7 +45,6 @@ So add these:
 
 	/R:3 /W:3
 
-
 ## Other options
 
 But all of the options are worth reading about!
@@ -61,9 +54,7 @@ How awesome are these.... it's dropbox!
 	/MON:n :: MONitor source; run again when more than n changes seen.
 	/MOT:m :: MOnitor source; run again in m minutes Time, if changed.
 
-
 ## Complete list
-
 
 Got a lazy afternoon -- the whole list is worth reading!
 
@@ -94,7 +85,6 @@ Got a lazy afternoon -- the whole list is worth reading!
 		/COPY:copyflag[s] :: what to COPY for files (default is /COPY:DAT).
 												 (copyflags : D=Data, A=Attributes, T=Timestamps).
 												 (S=Security=NTFS ACLs, O=Owner info, U=aUditing info).
-
 
 								 /SEC :: copy files with SECurity (equivalent to /COPY:DATS).
 						 /COPYALL :: COPY ALL file info (equivalent to /COPY:DATSOU).

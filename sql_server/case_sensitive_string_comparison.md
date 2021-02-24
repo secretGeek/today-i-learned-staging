@@ -1,6 +1,5 @@
 ﻿# Case Sensitive String Comparison
 
-
 Make a comparison behave in a case-sensitive manner by applying a case-sensitive collation
 
 	Select 'Hello'

@@ -4,7 +4,6 @@ Table names with embedded zero width spaces, or trailing spaces, or CR's, Linefe
 
 Here's a quick query to find any in a database....
 
-
 	Select
 		'[' + SCHEMA_NAME(uid) + '].[' + name + ']' as [Object],
 		Crdate as [Created],
@@ -27,7 +26,6 @@ Here's a quick query to find any in a database....
 		or name like '% ' --trailing space
 		or name like ' %' --leading space
 	order by 1
-
 
 I should improve this to cover all of these:
 
@@ -56,21 +54,15 @@ I should improve this to cover all of these:
 
 ...which I found at: <https://www.rmjcs.com/SQL-Server/T-SQL-Functions/Trim-Whitespace>
 
-
-
 Note that in `SQL Server 2017` (and higher) you can trim leading/trailing whitespace with the `trim` function -- like this!:
-
 
 To trim just spaces:
 
 	Select TRIM(' ' FROM name) from sysobjects
 
-
 To trim `space`, `tab`, `cr`, `lf`.... use this slightly odd syntax....
 
-
 	Select TRIM(CHAR(13) + CHAR(10) + CHAR(9) + ' ' FROM name) from sysobjects
-
 
 ## In SQL Server 2016 and lower
 
@@ -100,7 +92,6 @@ Right Trim White Space
 		RETURN @str
 	END
 
-
 Trim White Space function itself:
 
 	CREATE FUNCTION dbo.TrimWhiteSpace(@str NVARCHAR(MAX)) RETURNS NVARCHAR(MAX)
@@ -109,14 +100,11 @@ Trim White Space function itself:
 		RETURN dbo.LTrimWhiteSpace(dbo.RTrimWhiteSpace(@str))
 	END
 
-
 Example of usage:
 
 	SELECT dbo.TrimWhiteSpace(@MyString)
 
-
 ## Sources
-
 
 - [trim white space](https://www.rmjcs.com/SQL-Server/T-SQL-Functions/Trim-Whitespace)
 - [sqldfiddle trim()](http://sqlfiddle.com/#!18/25c63/11)

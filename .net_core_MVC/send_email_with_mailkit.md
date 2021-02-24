@@ -4,8 +4,6 @@
 
 You also cannot currently use OAuth2 for this. (Discussion much lower down)
 
-
-
     var message = new MimeMessage();
     message.From.Add(new MailboxAddress(null, settings.SendMailFromAddress));
     message.To.Add(new MailboxAddress(null, email));
@@ -27,8 +25,6 @@ You also cannot currently use OAuth2 for this. (Discussion much lower down)
         client.Disconnect(true);
     }
 
-
-
 I got this working fairly easily (sending email from a dedicated gmail address) from my local machine -- but it failed from my digitalocean linux droplet:
 
     MailKit.Security.AuthenticationException: Authentication failed.
@@ -40,7 +36,6 @@ I got this working fairly easily (sending email from a dedicated gmail address) 
 > Subject: Someone has your password
 > Message: Someone just used your password to try to sign in to your Google Account using an application such as an email client or mobile device.
 
-
 And if you visit: <https://security.google.com/settings/security/activity> you will see an "Unknown device" and this message:
 
 > We recently prevented a sign-in attempt from this device. You indicated this attempt as yours. For your security, we'll continue to show this device in the list for two weeks. You can also review this event in your Notification & alerts page.
@@ -51,7 +46,6 @@ And:
 
 ...which, if you expand, will reveal the IP Address (and a map of the location), which you should recognise as your droplet.
 
-
 To get around this you need to login as that email address, from your desktop/regular machine, and then visit this url:
 
  * <https://accounts.google.com/b/0/UnlockCaptcha>
@@ -60,12 +54,9 @@ Leave that url open, and re-initiate the connection on your linux box. (i.e. get
 
 It should now succeed.
 
-
 ## OAuth2
 
-
 There's a few funtime examples that say you should do something like this...
-
 
         var certificate = new X509Certificate2(@"C:\path\to\certificate.p12", "password", X509KeyStorageFlags.Exportable);
         var credential = new ServiceAccountCredential(new ServiceAccountCredential
@@ -81,7 +72,6 @@ But .net core doesn't yet have an implementation of 'ServiceAccountCredential' -
 So you need to ensure your gmail account permits signin without use of a developer token. To enable this for your gmail account, you may need to (login as that user and then) visit:
 
  * <https://www.google.com/settings/security/lesssecureapps>
-
 
 ## Sources
 

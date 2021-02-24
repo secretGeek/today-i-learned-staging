@@ -69,7 +69,6 @@ Your .profile (in home folder) says:
             PATH="$HOME/bin:$PATH"
         fi
 
-
 When you run `bash` you are running `C:\Windows\System32\bash.exe`.
 
 Bash's files/data are stored in this location in windows:
@@ -102,20 +101,17 @@ This is a pretty fundamental issue... I was bitten by this almost immediately...
 >
 >Therefore, if you use a Windows app/tool/console to create and/or modify a file under your distro root, it won't have any Linux file metadata (e.g. permissions, owner, timestamps, etc.) stored in its extended attributes.
 
-
 Next things to do...
 
     sudo apt-get install xclip
     sudo apt-get install zsh
     sudo apt-get install tree
 
-
 Apparently:
 
 > bash.exe -c "/usr/zsh" will launch zsh directly
 
 from <https://twitter.com/hmemcpy/status/786936955292483584>
-
 
  * [Fun with the Windows Subsystem for Linux, Pete Brown](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#DYZBzMFA6jH3q4qd.97)
  * [Five fun things you can do with the Windows 10 Bash](https://4sysops.com/archives/five-fun-things-you-can-do-with-the-windows-10-bash/)
@@ -127,8 +123,6 @@ I saw a window spontaneously pop open on Wednesday 13th October 2016, AptPackage
 (see this issue: <https://github.com/Microsoft/BashOnWindows/issues/841>)
 
 Turns out that's ok and perfectly acceptable, for now.
-
-
 
 When you restart bash on windows, you might see a message like:
 
@@ -147,7 +141,6 @@ I found that doing that, then exiting bash and coming back in... I now had:
 So... I ran "sudo apt-get update" again....
 
 And this time when I exited and came back there were no more messages about packages to be updated.
-
 
 Also I found that whenever i used `sudo` I would get a messge:
 
@@ -175,11 +168,9 @@ after this line:
 
     127.0.0.1 localhost
 
-
 ## Another error
 
 If you see this...
-
 
 	Windows Subsystem for Linux has no installed distributions.
 	Distributions can be installed by visiting the Microsoft Store:
@@ -209,14 +200,12 @@ Note you can install all the different distributions side by side.
 
 And they have star ratings in the windows store. Ubuntu and Kali are popular. Others not so much.
 
-
 ## Source
 
  * [How to Install and Use the Linux Bash Shell on Windows 10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
  * [Warning! Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
  * [A Quick Intro to Linux Command Line for Windows Users](http://blog.robertelder.org/intro-to-linux-command-line-for-windows-users/)
  * [A Quick Intro to Linux Shell Scripting for Windows Developers](http://blog.robertelder.org/intro-to-linux-shell-scripting-for-windows-developers/)
-
 
 ## See also
 

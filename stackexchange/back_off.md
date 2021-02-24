@@ -13,7 +13,6 @@ Here's what the JSON looks like when the stackexchange api tells you to backoff 
 
 Here's how I back off...
 
-
     if (jsonBody.IndexOf("backoff") >= 0)
     {
         if (data.backoff != null)

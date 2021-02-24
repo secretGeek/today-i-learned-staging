@@ -16,7 +16,6 @@ But there is no information here about which OffTopic Reasons.
  "Questions asking us to recommend or find a tool, library or
 favorite off-site resource are off-topic")
 
-
     Select
      p.Id as [Post Link],
      pf.*
@@ -29,7 +28,6 @@ favorite off-site resource are off-topic")
 I think I've found that 'PendingFlags' only exist for questions that are pending closure, not for closed questions.
 It's a shame because this table has the promising 'CloseAsOffTopicReasonTypeId'
 that I am chasing.
-
 
     Select
      p.Id as [Post Link],
@@ -73,7 +71,6 @@ This shows details of a review.
 There was a review, it was completed, it has a result,
 the result was that the question was closed.
 But this doesn't tell us the close reason sub types either!
-
 
 ## Source
 

@@ -1,6 +1,5 @@
 ﻿# Custom Search for Images
 
-
 Here's a simple example of running an image search against google's 'customsearch' api... Getting their API to work, however, is NOT simple.
 
     <input id="searchterm" />
@@ -27,9 +26,6 @@ Here's a simple example of running an image search against google's 'customsearc
             });
         });
     </script>
-
-
-
 
 There are three tricks:
 
@@ -63,13 +59,9 @@ This is so ridiculously convoluted.
 
 At this point you can easily add 'restrictions' to the API key to prevent 'quota theft'. So yeh, do that if you want.
 
-
 ## 2. Create a custom search engine
 
-
 You can see your custom search engines here: https://cse.google.com/cse/all
-
-
 
 I wanted one that lets me search the entire internet. There's a trick to doing this.
 
@@ -78,7 +70,6 @@ You need to first create one that searches a specific site. (You have not choice
 Then edit it so that it searches the entire internet but favors the site you added.
 
 Then remove the site you added.
-
 
 Steps are:
 
@@ -95,7 +86,6 @@ Steps are:
 6. Delete the site from underneath 'Sites to Search'.
 
 7. Click update. (or follow the next few steps before clicking update...)
-
 
 Now you also need to get the value to put in `cx`.
 
@@ -118,8 +108,6 @@ Just below the details section for your custom search engine, there is an 'image
 Turn it `On`.
 
 Then click the `Update` button at the bottom of the form.
-
-
 
 ## Sources
 

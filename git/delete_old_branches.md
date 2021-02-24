@@ -24,7 +24,6 @@ To delete a local branch.
 1. Make sure you want it gone.
 2. Delete it...
 
-
 > Delete Local Branch
 > To delete the local branch use one of the following:
 >
@@ -33,15 +32,11 @@ To delete a local branch.
 >
 > Note: The `-d` option is an alias for `--delete`, which only deletes the branch if it has already been fully merged in its upstream branch. You could also use `-D`, which is an alias for `--delete --force`, which deletes the branch "irrespective of its merged status." [Source: man git-branch]
 
-
-
 ## Find all 'gone' branches to delete:
-
 
 	> git branch -vv
 
 Lists all branches and has `: gone]` if their remote component has been removed. e.g.
-
 
 	> git branch -vv
 
@@ -60,7 +55,6 @@ Lists all branches and has `: gone]` if their remote component has been removed.
 	refactor/cloud-taser-utc-datetime-handling	5da44411 [origin/refactor/cloud-taser-utc-datetime-handling: gone] moon: 5888 cloud-taser Online.
 
 So the real point here is `: gone]` substring referring to the missing origin.
-
 
 ## To delete the origin
 

@@ -2,8 +2,6 @@
 
 aka -- Convert date from Australian format to ISO 8601
 
-
-
 If '$1' is an australian or UK date such as:
 
 	4/09/2014 8:00

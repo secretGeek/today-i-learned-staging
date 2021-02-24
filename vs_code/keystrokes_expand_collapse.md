@@ -16,7 +16,6 @@ Visual Studio Code Keystrokes to Expand/Collapse all elements/tags/regions
 
 * [How do I collapse sections of code in Visual Studio Code for Windows](https://stackoverflow.com/a/30077543/49)
 
-
 ## See also
 
 * [Expand/Collapse keystrokes in Notepad++](../notepad++/expand_collapse.md)

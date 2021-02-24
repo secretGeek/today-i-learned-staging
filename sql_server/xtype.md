@@ -1,7 +1,5 @@
 ﻿# Xtype (in sysobjects)
 
-
-
 |Xtype|Meaning|
 |-----|-------|
 |AF|Aggregate function (CLR)|
@@ -30,23 +28,19 @@
 |V|View|
 |X|Extended stored procedure|
 
-
 Function:
 
 	XType in ('AF','FS','FT','IF','TF')
 
-
 Further research....
 
 You can find the above table via:
-
 
 	SELECT name
 	FROM master..spt_values
 	WHERE type = 'O9T'
 
 ...[see stackoverflow](https://stackoverflow.com/a/16243935)
-
 
 ## Query to filter by type of object
 

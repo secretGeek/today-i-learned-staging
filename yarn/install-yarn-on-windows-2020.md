@@ -24,26 +24,20 @@ From admin window:
 
 	choco install yarn
 
-
 Ah... I think that worked.
-
 
 	yarn --version
 
-
 ## Common yarn commands
-
 
 Start a package
 
 	yarn init
 
-
 Install what needs installing
 
 	yarn
 	yarn install
-
 
 Add a package (pick a technique..)
 	yarn add [package]

@@ -2,7 +2,6 @@
 
 I found this video interesting....
 
-
 **["The Only 4 TYPES Of Bass Lines You'll Ever Need To Create"](https://www.youtube.com/watch?v=WlITtBMC8lc)**
 
 **Type 1 monorhythmic chord followers**

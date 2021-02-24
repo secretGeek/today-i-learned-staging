@@ -8,7 +8,6 @@ I was working with asp.net MVC a fair bit, back in 2013 and sometimes I wanted t
 
 Hence I created a class, `Troller`, that derived from `Controller` (and you must know how loathe i am to inherit... the only thing worse than inheritance hierarchies are database transactions: ideas that are universally overused)
 
-
     namespace System.Web.Mvc
     {
         using System;
@@ -108,7 +107,6 @@ All of that relies heavily on the ability to `renderPartialViewToString` &mdash;
         }
     }
 
-
 Then, each `Controller` would inherit from `Troller` (instead of inheriting from Controller) &mdash; and would be able to, for example:
 
         return this.Partial(true, model);
@@ -125,7 +123,6 @@ Here's the javascript describing *ALL* form submissions... And it depends on the
  3. The nearest parent of the form, classed either `modal` or `span10` should be replaced with the result of this submission.
  4. A complete description of the form being submitted can be obtained from the `ToJson(form)` method (described below)
  5. Whatever result comes back, it should have the same rules applied to it, as the entire document did upon ready (via a function called `beCool`)
-
 
     here.find('form').submit(function (e) {
         var form, url, action;
@@ -153,9 +150,7 @@ Here's the javascript describing *ALL* form submissions... And it depends on the
         return false;
     });
 
-
 The `postElement` method, alluded to above, is as follows:
-
 
     function postElement(url, data, element, successAction) {
         if (successAction == undefined) {
@@ -214,7 +209,6 @@ And the `toJson` which is kind of asp.net MVC specific, as described in the comm
         return values;
     }
 
-
 One other thing I haven't mentioned, the accompanying CSS, implied by the assumptions above:
 
     .progress.waiting
@@ -222,7 +216,6 @@ One other thing I haven't mentioned, the accompanying CSS, implied by the assump
         background-image: url(/content/images/spinner.gif);
         background-repeat: no-repeat;
     }
-
 
 And here's some other CSS I've dug up which I applied to the `progress` class.
 
@@ -254,7 +247,6 @@ Where 'beCool' starts like this and defines everything else about any element th
 
 If you previously would've written code like this to apply a particular behavior to a selector across the document:
 
-
     $(document).ready(function () {
         $('.bunnies').click(function (e) {
           alert('Hopping!');
@@ -264,7 +256,6 @@ If you previously would've written code like this to apply a particular behavior
 ...this would have the downside that when new parts of the document are loaded in later, they won't have that behavior.
 
 Instead write code like this:
-
 
     $(document).ready(function () {
         beCool();

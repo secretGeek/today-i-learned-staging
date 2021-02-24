@@ -15,7 +15,6 @@ You end up with this kind of text:
 
 The svg is used in conjunction with some sites to make all the other variants (`32x32` etc... whatever is needed in the year you're in.)
 
-
 But first you have to write the svg.
 
 Start with:
@@ -24,7 +23,6 @@ Start with:
 	<style>
 
 ...and then include styles that depend on light/dark mode of browser itself.
-
 
 e.g. the new NimbleText favicon has this:
 
@@ -42,7 +40,6 @@ And some other styles only used in dark schemes.
 		}
 	}
 
-
 You may also want to make sure your vectors are nicely aligned on pixel boundaries at common sizes.
 
 ## Generate extra favicon files and html (once you have your svg built)
@@ -52,9 +49,6 @@ I'm currently using:
 - [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
 
 for this.
-
-
-
 
 ## See also
 

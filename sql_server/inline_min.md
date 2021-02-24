@@ -15,7 +15,6 @@ For float:
       return isnull(@val2, @val1)
     end
 
-
 For date time:
 
     CREATE function dbo.MinDateTime(@val1 DateTime, @val2 DateTime)
@@ -40,12 +39,10 @@ Or using SQL Generics you can simply say:
         return isnull(@val2, @val1)
     end
 
-
 You will of course need to write your own compiler to use SQL Generics.
 
 Similarly if you want to use PARAMS, such as:
 
     CREATE function dbo.InlineMin<T>(PARAMS @val1 Array<T>)
-
 
 But "First-class" array handling is strangely absent from SQL even though it could fit so naturally with set-based processing.

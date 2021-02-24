@@ -19,22 +19,16 @@ And you will need to regularly:
 
 And vacuum the pool (if you don't have an automated vaccuum or robot butler)
 
-
 tools:
 
-Pole.
-Vacuum hose.
-Vacuum head.
-Vacuum cover (goes over filter intake)
+- Pole.
+- Vacuum hose.
+- Vacuum head.
+- Vacuum cover (goes over filter intake)
 
-TODO: Diagram of system
-
-
-
+`todo` Diagram of system
 
 You will need to perform a lot more maintenance in summer than winter.
-
-
 
 And when things go wrong you may need to add:
 
@@ -50,7 +44,6 @@ And when things go wrong you may need to add:
 ### You've left the chlorinator off for an extended period of time
 
 Obviously get the chlorinator working again. But to get the chlorine level back up you need to add chlorine manually. (You could attempt just running the chlorinator continuously, but you'll wear out your system. Kick start it with some chlorinator.)
-
 
 ### Black spotty algae begins to form
 

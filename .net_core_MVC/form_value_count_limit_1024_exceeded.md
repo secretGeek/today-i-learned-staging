@@ -4,7 +4,6 @@ I've got a form with 2500 elements. (Why not!?) (It's for doing bulk updates if 
 
 In line with the suggested code [here](http://stackoverflow.com/questions/38357108/form-submit-resulting-in-invaliddataexception-form-value-count-limit-1024-exce) I implemented a `RequestFormSizeLimit` attribute like so
 
-
     using Microsoft.AspNetCore.Http.Features;
     using Microsoft.AspNetCore.Mvc.Filters;
     using System;
@@ -43,13 +42,11 @@ In line with the suggested code [here](http://stackoverflow.com/questions/383571
         }
     }
 
-
 Then, on the relevant POST action, I can:
 
     [HttpPost]
     [RequestFormSizeLimit(valueCountLimit: 4000)]
     public ActionResult BulkUpdate(UpdateDetails updateDetails)
-
 
 ## Source
 

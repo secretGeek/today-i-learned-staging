@@ -13,7 +13,6 @@
     1 files updated, 1 files merged, 28 files removed, 2 files unresolved
     use 'hg resolve' to retry unresolved file merges or 'hg update -C .' to abandon
 
-
 How did this fail? Because diffmerge (sgdm) complained that invalid arguments were passed to it. So I went to `$env:userprofile\mercurial.ini` to hunt down the way diffmerge was configured.
 
 it said:
@@ -42,7 +41,6 @@ That seems to have worked... I now have a three way merge window... and i can pr
 Left behind are some .orig files, which I delete with the good old:
 
     dir . *.orig -recurse | del
-
 
 ## See also
 

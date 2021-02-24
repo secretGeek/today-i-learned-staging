@@ -2,7 +2,6 @@
 
 Famous query to show which queries are the worst performers.
 
-
     SELECT TOP 50 creation_time
             ,last_execution_time
             ,total_physical_reads
@@ -22,7 +21,6 @@ Famous query to show which queries are the worst performers.
     where last_execution_time > '18 Feb 2016'
     ORDER BY total_elapsed_time / execution_count DESC;
 
-
 You may want to change the `Order by`...
 
 You may lack permissions to run this. Specifically:
@@ -30,7 +28,6 @@ You may lack permissions to run this. Specifically:
 	VIEW SERVER STATE permission was denied on object 'server', database 'master'.
 
 Which requires this to be executed:
-
 
 	use master
 	go

@@ -10,7 +10,6 @@
 - apple app store
 - google play
 
-
 ## tools
 
 - game maker
@@ -29,31 +28,19 @@
 - characters
 - textures
 
-
-
 ## story telling
-
 
 ## scene building to world building
 
-
-
 ## content generation
-
 
 ## music and audio
 
-
-
-
 ## game jams
-
 
 ## tutorials and free education
 
-
 ## competitions
-
 
 ## marketing
 
@@ -66,17 +53,11 @@
 - automation
 - advertising
 
-
 ## revenue models
-
 
 ## legal considerations
 
-
 ## other business topics
-
-
-
 
 ## mechanics
 
@@ -86,7 +67,6 @@
 - shareware / freeware
 - indie console games ?
 - board games
-
 
 ## other findings
 

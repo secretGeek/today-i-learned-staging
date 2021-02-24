@@ -8,12 +8,10 @@
             at System.ComponentModel.COmposition.Hosting.ExportProvider.GetExports(ImportDefinition defintiion, AtomicComposition atomicComposition)
         at System.ComponentModel.COmposition.Hosting.ExportProvider.GetExportsCore(Type type, Type metadataViewType, String contractName, ImportCardinality cardinality)
 
-
 To fix...
 
     Just delete or rename this folder:
     %AppData%\..\Local\Microsoft\VisualStudio\11.0\ComponentModelCache
-
 
 ## Stack Overflow
 

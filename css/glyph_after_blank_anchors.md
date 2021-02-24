@@ -4,7 +4,6 @@ What I wanted was a visual indication of which urls would open in a new window.
 
 I found a pure css solution, that didn't require altering the html at all.
 
-
 	a[target="_blank"]:after {
 		content: " \2197";
 		font-size:0.9em;

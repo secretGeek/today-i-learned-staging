@@ -1,10 +1,8 @@
 ﻿# How to update npm?
 
-
     npm update -g
 
 ...ought to do it.
-
 
 ## sources
 

@@ -22,9 +22,6 @@ Doing this requires sudo privileges. Add a user to the sudo group with:
 
     gpasswd -a jenny sudo
 
-
-
-
 You can make LibreOffice (for example) work with sudo without requiring a password by adding this line to you sudoers file:
 
     users ALL=(ALL) NOPASSWD: libreoffice

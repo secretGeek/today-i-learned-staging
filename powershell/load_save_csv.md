@@ -14,13 +14,11 @@ Can also convert any object to csv before doing something with it, such as writi
 
 	dir | select Name, Length | convertto-csv -notypeinformation | out-file -append dirinfo.csv -encoding utf8;
 
-
 ## Append to a file - skip header!
 
 If you're appending to a file you'll also want to skip the header row (apart from on the first write...)
 
 	dir | select Name, Length | convertto-csv -notypeinformation | Select-Object -Skip 1 | out-file -append dirinfo.csv -encoding utf8;
-
 
 ## Load CSV from a file
 

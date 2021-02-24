@@ -2,7 +2,6 @@
 
 I love this little thing.
 
-
 	public static T FromMemory<T>(string Key, Func<T> func, double days = 7) where T : class
 	{
 		var value = MemoryCache.Default.Get(Key) as T;
@@ -19,14 +18,11 @@ I love this little thing.
 		return value;
 	}
 
-
 Then, instead of simply retrieving something from storage, e.g.
-
 
 	var items = LoadSiteMap();
 
 You do this slightly awkward, but fairly clean alternative:
-
 
 	var items = Latest.FromMemory("SiteMap", LoadSiteMap);
 
@@ -40,7 +36,6 @@ And if things go really pear shaped, and it can't infer the types, you might nee
 
 	var items = Latest.FromMemory<List<ISitemapItem>>("SiteMap", LoadSiteMap, 0.1);
 
-
 ## Note on Lambdas
 
 `tip` Note that [prior to C# version 6 we had to write those lambdas more explicitly](../csharp/version6.md#improved-overload-resolution)....
@@ -48,8 +43,6 @@ And if things go really pear shaped, and it can't infer the types, you might nee
 	() => LoadSiteMap()
 
 ...using "Full Lambda" instead of "Method Group" syntax.
-
-
 
 ## See also
 

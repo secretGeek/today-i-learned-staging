@@ -20,8 +20,6 @@ I learnt this technique from the spatial master, John O'Brien, and he may have l
 
 Note that you have to select into a # temp table, not just use a table variable. Table variables are wonderful things, but you can't create any index on a table variable (spatial or regular). (See [this comparison of table variables and #temp tables](http://stackoverflow.com/a/13777841/49))
 
-
-
 ## How can I tell if my spatial index is being used?
 
 You can't fix a problem you don't know you have.
@@ -33,8 +31,6 @@ You may find out that your spatial index isn't being used -- but how do you know
 I guess you could use look at the query execution plan on every query you run, but this is often too much information. The simplest trick for a spatial index is to provide a spatial index hint. That way, if the index isn't being used, you'll be presented with a message informing you. Then you know you have a problem.
 
 And on more than a few lucky occasions, a hint makes up for SQL Server over-estimating the cost of a spatial index, and causes dramatic improvements in performance.
-
-
 
 
 ## Why isn't it using the spatial index??
@@ -54,14 +50,12 @@ First, get the smallest number of rows you can, *without* using any spatial term
         Survey_GEO geography
     )
 
-
     Insert into
         #SurveyLotPlan
     Select
         Lot_plan as Survey_Lotplan,
         GEO as Survey_GEO
     SurveyDB.dbo.AllSurveys
-
 
 
 

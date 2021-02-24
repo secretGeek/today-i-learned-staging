@@ -6,9 +6,7 @@ this is a genius collection of 300 drum tracks -- they are all youtube videos, u
 
 http://www.smarthobbymusician.com/over-300-drum-tracks/
 
-
 fantastic resource i intend to come back to again and again.
-
 
 here's that blues in A I was working at earlier: <https://www.youtube.com/watch?v=W9shk67MYdc>
 and same with just drums/bass <https://www.youtube.com/watch?v=Axrzkrk08pg>
@@ -28,9 +26,6 @@ And here's that 'straight rock beat' beat i was doing a reggae thing to: <https:
 * [Pink Floyd Style II Guitar Backing Track Em (Remastered) | 55 bpm](https://www.youtube.com/watch?v=pl8JugCg2eY) - MegaBackingTracks
 * [How to sound like David Gilmour](https://www.youtube.com/watch?v=bPzVx3q9UtI) lol
 * [The Famous David Gilmour Bend](https://www.youtube.com/watch?v=26yzbSvQOGo) lol
-
-
-
 
 And don't forget <http://www.guitarbackingtrack.com> which has many songs, including a lot of simple backing tunes you can jam to. <http://www.guitarbackingtrack.com/bts/Jamtracks.htm>
 

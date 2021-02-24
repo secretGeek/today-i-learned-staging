@@ -22,12 +22,9 @@ Two small but persistent problems...
 
 Instead -- you can use `npx` to grab it immediately, from the internet, and run it, knowing you're using the latest version, and it won't be installed at all.
 
-
 	npx http-server -o
 
-
 So npx is like renting instead of buying. Use it, thow it away. Next time, use the latest again... then throw it away. No commitment.
-
 
 ## Local scripts
 

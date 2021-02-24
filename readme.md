@@ -36,7 +36,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## Oh and I wrote this
 
-[![Choose Your First Product](yfp_book.png)](https://YourFirstProduct.com)
+[![Choose Your First Product](yfp_book.png)](https://YourFirstProduct.com){.no-glyph}
 
 Though this site is published as a free digital-only book, I've also published a _real_ book to help product creators.
 
@@ -161,4 +161,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 654 articles
-164920 words
+164993 words

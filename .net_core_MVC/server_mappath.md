@@ -21,6 +21,5 @@ Instead we injects a hosting environment...
 
 Then in our method we can very simply say:
 
-
     var rootPath = _hostingEnvironment.WebRootPath;
     var parentPath = Directory.GetParent(rootPath).FullName;

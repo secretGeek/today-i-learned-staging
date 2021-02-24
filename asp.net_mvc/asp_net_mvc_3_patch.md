@@ -4,9 +4,7 @@ At some point ASP.Net MVC 3 was silently upgraded to 3.0.0.1
 
 Hence when I open up some of my older projects from the glory days of MVC 3, I get this warning:
 
-
 > Warning Could not resolve this reference. Could not locate the assembly "System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
-
 
 And a lot of errors such as :
 
@@ -25,7 +23,6 @@ With something like this:
 
 And in the Web.Config there is a `bindingRedirect` that redirects MVCs 1 & 2 to MVC 3.... now you need to update it so that it redirects MVC 1, 2 and 3 to 3.0.0.1
 
-
     <runtime>
         <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
             <dependentAssembly>
@@ -34,7 +31,6 @@ And in the Web.Config there is a `bindingRedirect` that redirects MVCs 1 & 2 to 
             </dependentAssembly>
         </assemblyBinding>
     </runtime>
-
 
 Also (depending on where you're deploying to) change the Reference to Asp.net MVC such that "Copy Local"  is true.
 

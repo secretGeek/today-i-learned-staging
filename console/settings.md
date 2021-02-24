@@ -5,13 +5,11 @@ Stored in console.xml
     $env:appdata\console\console.xml
     %appdata%\console\console.xml
 
-
 Settings dialog is under the edit menu. (Or hit Ctrl S) (As opposed to Tools -> Options)
 
 Okay I'm just going to record all of the non-standard settings I use.
 
 In theory I could use [cogs](https://bitbucket.org/rhysparry/cogs) to manage all my settings for all my apps, but currently I don't.
-
 
 * Appearance -> Styles
   * Controls -> Windowed

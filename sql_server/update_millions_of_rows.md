@@ -1,6 +1,5 @@
 ﻿# Updating millions of rows from SQL Server
 
-
 So, you have a [large table](.\find_large_tables.md) where you need to update every row, using some condition.
 
 If you run a:
@@ -9,7 +8,6 @@ If you run a:
     WHERE "SOME_CONDITION"
 
 ...you'll be waiting a long time. The table will be locked, the transaction space will grow and grow, and you won't know if it will ever finish until it does... or it doesn't.
-
 
 One "trick" that people talk about is turning off indexes, so they don't have to be updated. But that's only good for **inserts**, not updates because you end up having to do table scans to **find** the rows to update. So don't turn off indexes: double-down on indexes. **Make sure the query you're using is able to efficiently find the records it wants to update.**
 
@@ -84,11 +82,6 @@ This example uses `Update top(@batchsize) ... ` in a `while` loop to do the need
       '. Final Speed: ' + CAST(CAST(@TOTALROWS as float)/(DATEDIFF(s, @STARTALL, @ENDBATCH)) AS VARCHAR) +
       ' rows per second'
     RAISERROR (@MSG, 0, 1) WITH NOWAIT
-
-
-
-
-
 
 ## See also
 

@@ -4,8 +4,6 @@ Use:
 
     http://FollowupThen.com
 
-
-
 Send an email to, for example:
 
     Daily1800@followupthen.com

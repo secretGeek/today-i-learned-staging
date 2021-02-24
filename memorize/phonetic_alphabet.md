@@ -1,7 +1,5 @@
 ﻿# Phonetic Alphabet
 
-
-
 |Letter|Name|
 |------|----|
 |A|Alfa|

@@ -56,7 +56,6 @@ The classic help page on this is https://docs.microsoft.com/en-us/sql/t-sql/func
 	from YUCKY_SOURCE_DATA
 	order by 2, 1
 
-
 ## See also
 
 * [Format DateTime as yyyy-MM-dd](format_datetime_yyyy-MM-dd.md)

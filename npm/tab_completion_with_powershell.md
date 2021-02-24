@@ -18,7 +18,6 @@ This not only gives you intellisense-style completion for `npm` commands, it als
 
 ![npm tab completion](NPMTabRun2.gif 'npm tab completion')
 
-
 ## Trouble-shooting
 
 1. Did you get this error from `Install-Module` ?
@@ -27,7 +26,6 @@ This not only gives you intellisense-style completion for `npm` commands, it als
 
 It may be that you have [the wrong Install-Module](../powershell/psget_conflicts_with_PowerShellGet.md)!
 
-
 2. Did you get this error from `Find-Module` ?
 
 > NuGet provider is required to continue
@@ -35,7 +33,6 @@ It may be that you have [the wrong Install-Module](../powershell/psget_conflicts
 You need to install the NuGet Package Provider.
 
 	Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
-
 
 ## External Sources
 

@@ -10,7 +10,6 @@ First, assume we have a query that shows us the value of sales and the number of
 		Sales s
 	Group by s.State
 
-
 Now the boss asks you to include the name of the salesperson with the most sales in each state....
 
 You decide to use a subquery in the select. It looks a bit wonky but it gets the job done:
@@ -24,11 +23,9 @@ You decide to use a subquery in the select. It looks a bit wonky but it gets the
 		Sales s
 	Group by s.State
 
-
 Great -- now the boss asks you to throw in the amount of sales that the lead salesperson had.
 
 You scratch your head and decide to repeat the same subquery you'd already used....
-
 
 	Select
 		s.State,
@@ -66,7 +63,6 @@ You could've used an OUTER APPLY.... watch
 		order by
 			Sum(Amount) desc) so
 	Group by State, so.SalesPerson, so.SalesAmount
-
 
 Outer apply is just the trick.
 

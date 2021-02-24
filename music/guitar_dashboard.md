@@ -34,7 +34,6 @@ The next diagram does the same for natural minor. (I already had a variation of 
 
 Dorian, Natural Minor (Aeolian) and Phrygian are all subsets of minor. So they are minor modalities.
 
-
 ## other tools
 
 * [Scale Heaven(https://scale-heaven.com)

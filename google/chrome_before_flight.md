@@ -1,6 +1,5 @@
 ﻿# Chrome before flight
 
-
 @JakeGinnivan says: Just found out about chrome://flags/#show-saved-copy - *really* useful to turn on before flights!
 
 Help details:

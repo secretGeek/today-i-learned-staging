@@ -20,7 +20,6 @@ And for completeness, here's a sneaky formula to get everything after the first 
 
 	=IFERROR(TRIM(MID(C2 & REPT(" ", 100), FIND(" ", C2), 50)),"")
 
-
 ## Sources
 
 * [Excel Formula: Split text with delimiter](https://exceljet.net/formula/split-text-with-delimiter) &mdash; some nice examples here

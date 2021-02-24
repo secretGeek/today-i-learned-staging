@@ -1,12 +1,10 @@
 ﻿# Delete duplicate rows
 
-
 It can be hard to delete true duplicate rows.
 
 First, this only happens with adhoc tables that have no primary key and no uniqueness constraints. But such tables do exist at times... and it can be the devil to correct it.
 
 How do you construct a query that will delete one of the duplicates and not the other?
-
 
 If you try to delete the rows by right-clicking on the table and choosing "Edit top 200 rows" ... it will look like it's about to work:
 
@@ -26,7 +24,6 @@ Error Message: The row value(s) updated or deleted either do not make the row un
 Correct the errors and attempt to delete the row again or press ESC to cancel the change(s).
 ```
 
-
 Here's the trick...
 
 Write a select row_number() over partition that shows the repetition: (you'll need to adjust the `partition by` clause)
@@ -39,7 +36,6 @@ Write a select row_number() over partition that shows the repetition: (you'll ne
 	SELECT * FROM CTE
 	--DELETE FROM cte
 	WHERE  RN > 1;
-
 
 Once you're looking at just the right rows to obliterate,
 
@@ -54,7 +50,6 @@ Boya!
 ## Source
 
  - [stack overflow: how can i remove duplicate rows](https://stackoverflow.com/questions/18932/how-can-i-remove-duplicate-rows)
-
 
 ## See also
 

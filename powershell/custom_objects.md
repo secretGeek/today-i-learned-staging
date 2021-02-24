@@ -19,7 +19,6 @@ Or say you are in a pipeline, within which `$name` and `$count` become available
 
 	} | ConvertTo-CSV  -NoTypeInformation | out-file "Name_And_Count.csv"
 
-
 ## See also
 
 - [Add note property to object in pipeline](add_property_to_object_along_pipeline.md)

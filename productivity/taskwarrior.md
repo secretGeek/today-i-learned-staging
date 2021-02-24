@@ -18,7 +18,6 @@
 - [.taskrc file: what is in there?]
 - [sources]
 
-
 ## Install on windows (WSL)
 
 Install on [WSL (windows subsystem for linux)](../windows/bash_on_windows.md) with:
@@ -36,11 +35,9 @@ Type `task` to see if it's there....
 	[task next]
 	No matches.
 
-
 - `Task help` -- gives help (bit technical for right now though)
 
 ## Add a really plain task
-
 
 	task add buy milk
 
@@ -79,7 +76,6 @@ Now -- add a fresh task such as:
 
 You'll see (when you run `task`) that this new task is now listed as number 1.
 
-
 ## Add a tag to a task
 
 When adding a new task you can give it a `tag` like this:
@@ -106,7 +102,6 @@ And note you can shorten `modify` to `mod`, as I just did:
 
 (Clearly there are aliases, I haven't worked out details, but can tell you that just `m` by itself does not work. So they are probably defined somewhere.)
 
-
 ## Remove a tag from a task
 
 Remove a `tag` by using minues (`-`) e.g.
@@ -120,7 +115,6 @@ Remove a `tag` by using minues (`-`) e.g.
 	task 1 modify -tw +tech
 
 (Removed `tw` and added `tech` to task 1)
-
 
 ## Add a tag to all tasks
 
@@ -141,7 +135,7 @@ Ah -- lesson here is that a command can apply to many tasks. THat little number 
 
 	task list +todo
 
-...lists tasks with `todo` tag.
+...lists tasks with `todo tag`.
 
 Or - list those that have some tags and don't have other tags...
 
@@ -161,7 +155,6 @@ and
 
 ## List all completed tasks
 
-
 This worked...
 
 	task status:completed all
@@ -176,7 +169,6 @@ To mark a task as started:
 
 	task 21 start
 
-
 ## To see a graphical burndown chart of what is pending, started, done
 
 To see a graphical burndown of tasks, with a granularity of day:
@@ -185,9 +177,7 @@ To see a graphical burndown of tasks, with a granularity of day:
 
 ## List all tasks completed today
 
-
 ## Set the priority on a new task
-
 
 Priorities as `H` for "High", `M` for "Medium", `L` for "Low". And if not assigned it is blank (and empty string).
 
@@ -201,8 +191,6 @@ Or update it on an existing task:
 
 ...by which I am showing you that `pri:` works as an alias for `priority:`
 
-
-
 ## Set 'no priority' to be higher than 'low' priority
 
 As described here [taskwarrior priority](https://taskwarrior.org/docs/priority.html), priority is a user-defined attribute.
@@ -213,19 +201,15 @@ Inline with the talk i watched, here is how you can configure taskwarrior's "pri
 
 ...it asked me to confirm first, and then it added this line to ".taskrc"
 
-
 	uda.priority.values=H,M,,L
 
 Easy.
 
-
 ## .taskrc file: what is in there?
-
 
 remember it created a `.taskrc` file for me, automatucally? let's inspect that!
 
   $ cat .taskrc
-
 
 	# [Created by task 2.5.1 9/3/2020 16:31:00]
 	# Taskwarrior program configuration file.
@@ -258,10 +242,7 @@ remember it created a `.taskrc` file for me, automatucally? let's inspect that!
 	#include /usr/share/taskwarrior/solarized-light-256.theme
 	#include /usr/share/taskwarrior/no-color.theme
 
-
 Oh I see -- all the data is in a `.tasks` directory. Fun fun!!
-
-
 
 ## sources
 

@@ -6,7 +6,6 @@ Assume they have the same schema.
 
 Further assume that their primary key is a composite key with two columns, `PK1` and `PK2`.
 
-
 	With
 	NEWSET as (
 	SELECT
@@ -67,22 +66,15 @@ e.g.
 |Not in old set|7017|
 |Same|65449|
 
-
-
-
 ## Problem
 
 The maximum input to `hashbytes` -- prior to `SQL Server 2016` -- is 8000 bytes.
 
-
 ## Solution for versions less than SQL Server 2016
-
 
 This yak took many cans of shaving cream!
 
-
 You can use this function to hash `varbinary(max)` ... (note you don't specify which hash function is used... so I'm guessing it's possible that two different database instances *might* use different hash functions inside the repl hash binary... it may be configurable? but within one database instance this should work consistently...)
-
 
 	master.sys.fn_repl_hash_binary(SOME_VARBINARY)
 
@@ -96,12 +88,9 @@ So cast the `nvarchar(max)` to `varbinary(max)` before running the function....
 
 I found the trick this time is to convert the result to varchar(32) with a third parameter of `2`, i.e.
 
-
 	Convert(varchar(32), master.sys.fn_repl_hash_binary(cast(SOME_NVARCHAR_MAX as varbinary(max))), 2) as Hasho
 
-
 So here's our function modified to work with large nvarchar's prior to `SQL Server 2016`. (I'm writing/needing this in 2020!)
-
 
 	With
 	NEWSET as (

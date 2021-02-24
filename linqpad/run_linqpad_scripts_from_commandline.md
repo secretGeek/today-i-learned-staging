@@ -28,8 +28,6 @@ Thereafter if i run:
 
 I've now wrapped this behavior up into the powershell commandlet [Invoke-LinqPadScript](invoke_linqpad_commandlet.md)
 
-
-
 ## Source
 
  * <https://www.linqpad.net/lprun.aspx>

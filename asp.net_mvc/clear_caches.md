@@ -25,7 +25,6 @@ For most of the small-scale sites I'm used to, **that is perfectly adequate**.
 
 An actually correct method, from http://stackoverflow.com/a/22388943/49
 
-
     // By Thomas F. Abraham (http://www.tfabraham.com)
     namespace CacheTest
     {
@@ -122,9 +121,7 @@ An actually correct method, from http://stackoverflow.com/a/22388943/49
         }
     }
 
-
 I hate this, but haven't found anything better.
-
 
 ## Sources
 

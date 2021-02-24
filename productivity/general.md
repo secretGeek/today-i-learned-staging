@@ -11,8 +11,6 @@
 * shouldn't overwhelm you once you've been using it for (say) 5 years
 * shouldn't be overhwhelming if you step away for (say) a year, and then return
 
-
-
 Lots of different needs overlap in a productivity system:
 
 * calendar items
@@ -29,7 +27,6 @@ Lots of different needs overlap in a productivity system:
 * sharing some lists with other people
 * kanban / visible card / limits
 * things to remember (memorization)
-
 
 I currently use a mix of things:
 

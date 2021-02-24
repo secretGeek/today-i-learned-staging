@@ -19,7 +19,6 @@ If having difficulty sleeping at night, avoid daytime napping. (But if sleeping 
 
 (Avoid sleeping pills. But please don't change medication suddenly. And don't change medication based on something you read at `secretgeek.net` &mdash; seek medical help first! But equally, if your doctor is twirling an Ambien pen while she talks *please* switch doctors.)
 
-
 ## Source
 
 Advice is from the book "Why We Sleep" by Matthew Walker. (I can't recommend this book highly enough)

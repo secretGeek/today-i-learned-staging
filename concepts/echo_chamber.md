@@ -19,9 +19,6 @@ The common criticism of academia as existing within 'Ivory Towers' is about Echo
 
 Your echo-chamber, your ideological bubble, your personal RDF -- are all related to your [World View](https://en.wikipedia.org/wiki/World_view). The term 'World View' has been brought into English from the German philosophical concept: Weltanschauung.
 
-
-
-
 ## External references:
 
 * [wikipedia: confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias)

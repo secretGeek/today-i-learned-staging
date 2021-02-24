@@ -13,7 +13,6 @@
 |`rmdir` |`rd`|remove directory|
 |`more` |`more`|show results one page at a time|
 
-
 for "help" on any command:
 
     ls --help
@@ -28,7 +27,6 @@ use Ctrl C (displayed as ^C) to break the current activity.  (same as dos)
 
     echo hello | xclip -selection c   ...pipe to the clipboard (sort of)
 
-
 ## Bash extra Notes
 
 clear: (same as cls) clears the screen, well....
@@ -42,7 +40,6 @@ Clipboard -- the short answer is "gfys"
 
     alias clipo="xclip -selection c"
     alias pasto="xclip -selection clipboard -o"
-
 
 Files in linux are case senstive, furthermore, they generally don't have file extensions (.txt, .pdf etc). so ~/etc/profile is a file not a folder.
 
@@ -62,7 +59,6 @@ To go to your home folder, use simply:
  * `ctrl-Q` -- quit application
  * `shift-ctrl-C` -- copy to clipboard
  * `shift-ctrl-V` -- paste from clipboard
-
 
 ## Cheat sheet
 

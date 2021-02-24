@@ -8,7 +8,6 @@ And now, thanks to the magic of the `Invoke-LinqPadScript` commandlet, if I type
 
 ![inspect_clipboard_2.png](inspect_clipboard_2.png)
 
-
 Code (requires a reference to, and "Additional namespace import" of, `System.Windows.Forms` (hit F4))
 
     void Main()
@@ -32,13 +31,11 @@ Code (requires a reference to, and "Additional namespace import" of, `System.Win
         Console.ResetColor();
     }
 
-
 And another problem arose today that required clipboard inspections.
 
 Some code I'd copied from a comment at StackOverflow did not work as expected. I used a variation on the code above to inspect every byte of my cliboard. I found the snippet contained character "8203" (`U+200b` -- the infamous zero width space or zwsp) and character "8204" (`U+200c` zero-width non joiner)
 
 Here's the error message I received when trying to run the code:
-
 
 	Missing ')' in method call.
 	At C:\Temp\filehash.ps1:15 char:71
@@ -51,8 +48,6 @@ Here's the error message I received when trying to run the code:
 Notice in particular the:
 
 	:&#226;?O&#226;?
-
-
 
 Here's the inspection code...
 
@@ -67,7 +62,6 @@ Here's the inspection code...
 
 I love that at [fileformat.info](http://www.fileformat.info/info/unicode/char/200b/index.htm) there is this simple warning about the Zero Width space
 
-
 > Do not use this character in domain names. Browsers are blacklisting it because of the potential for phishing.
 
 If there's a non-malicious use for this character in domain names, I'd like to hear it.
@@ -77,7 +71,6 @@ And being black listed isn't the only reason you shouldn't use it in domain name
 > http://example.com
 
 ...you might not immediately realize that it actually contains 52 zero-width spaces between each letter.
-
 
 ## See also
 

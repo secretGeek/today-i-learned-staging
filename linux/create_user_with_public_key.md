@@ -1,12 +1,9 @@
 ﻿# Create new user, to use a public key
 
-
 - create a new user
 - give that user sudo privileges
 - test that the new user can use sudo privileges.
 - test that the new user can connect through SSH.
-
-
 
 ## create a new user
 
@@ -16,7 +13,6 @@ and set password:
 
 	password fred
 
-
 ## give that user sudo privileges
 
 Add a user to the sudo group with:
@@ -24,7 +20,6 @@ Add a user to the sudo group with:
 	gpasswd -a fred sudo
 
 (here's another way... `usermod -aG sudo fred` ...?)
-
 
 You must be root or have sudo privileges in order to do this.
 
@@ -45,7 +40,6 @@ Now sudo do it!
 	sudo ls -la /root
 
 (and enter fred's password...)
-
 
 ## test that the new user can connect through SSH
 

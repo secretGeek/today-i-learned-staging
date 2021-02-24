@@ -1,6 +1,5 @@
 ﻿# Notepad++ command line help
 
-
 Note I can scroll to a particular line using:
 
 	> n -n56 .\yow.txt
@@ -12,7 +11,6 @@ Note I can scroll to a particular line using:
 ...and could first find that position by using a different regex based match finder.
 
 That's the plan!
-
 
 	---------------------------
 	Notepad++ Command Argument Help

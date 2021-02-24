@@ -1,6 +1,5 @@
 ﻿# Environment variables -- view/edit them on windows
 
-
 - From cmd.exe, type `SET` and you'll see the value of all environment variables
 - From Powershell, `Set-Location Env:`
 - From **Windows**, method 1
@@ -15,9 +14,7 @@ ex
     - `[Windows`]`[R`] to bring up the run dialog and type `rundll32 sysdm.cpl,EditEnvironmentVariables`
 			- You are already in the [environment variables dialog](#environment-variables-dialog)!
 
-
 ## Find environment variables in System Properties
-
 
 - Click "Advanced System settings" (you'll need to enter Admin password or elevate) and you'll get to "System Properties"
 	- Advanced tab: click "Environment Variables..."
@@ -28,10 +25,7 @@ ex
 
 	[System.Environment]::SetEnvironmentVariable('NAME_OF_VARIABLE', 'value goes here', [System.EnvironmentVariableTarget]::User)
 
-
-
 ## Environment Variables Dialog
-
 
 ## See also
 

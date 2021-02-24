@@ -26,11 +26,9 @@ Since you can [Run Linqpad scripts from the command-line](run_linqpad_scripts_fr
         & lprun $fullScriptPath $AllArgs
     }
 
-
 And the recommended alias for that is `linq`. So, you can invoke a LinqPad script called `Calendar.linq` by typing:
 
     linq calendar
-
 
 Also, I've got a Get-LinqPadScript commandlet for quickly listing the available scripts.
 
@@ -55,7 +53,6 @@ Also, I've got a Get-LinqPadScript commandlet for quickly listing the available 
     }
 
 The recommended alias for that is `linqs`, so if you try, `linqs sql` you'll see any script with 'sql' in the [BaseName](../powershell/parts_of_a_fileSystemInfo_object.md).
-
 
 Putting better support for this into linqPad is a uservoice suggestion [Create Invoke-LinqPad Cmdlet for powershell](https://linqpad.uservoice.com/forums/18302-linqpad-feature-suggestions/suggestions/7408081-create-invoke-linqpad-cmdlet-for-powershell) where a commenter has included a basic example http://pastebin.com/tNGQgBEe
 

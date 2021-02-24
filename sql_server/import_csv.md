@@ -2,7 +2,6 @@
 
 Right click on the database, select 'tasks' and 'import flat file...'
 
-
 ## See also
 
 - [Csv To Html function in SQL](CsvToHtml_Function_in_SQL.md)

@@ -4,16 +4,13 @@ To view how much remaining space you have on the drives your sql server can see,
 
 	EXEC master..xp_fixeddrives
 
-
 |drive|MB free|
 |-----|-------|
 |  C  |  12912|
 |  D  |  48222|
 |  E  | 201482|
 
-
 This extended stored procedure seems to be able to be executed even by low privilege accounts.
-
 
 ## See also
 

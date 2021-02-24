@@ -28,16 +28,13 @@ I can find the "InstanceID" of those "TIP's" ...
 
 	SWD\DAFUPNPPROVIDER\UUID:62C04512-84E3-601E-A023-70C69E4FF84D
 
-
 ## Disabling the device... (this failed)
-
 
 I tried to remove just 1 of them, by running this command...
 
 	> Get-PnpDevice | ? {$_.FriendlyName -eq "TIP" } | select -first 1 | disable-pnpdevice
 
 ...it asked me to confirm, which I did... then it errored, with the message below.
-
 
 	disable-pnpdevice : Generic failure
 	At line:1 char:68
@@ -46,7 +43,6 @@ I tried to remove just 1 of them, by running this command...
 			+ CategoryInfo          : NotSpecified: (Win32_PnPEntity...4CD16-BB2B-...):ROOT\cimv2\Win32_PnPEntity) [Disable-PnpDevice], Cim
 		 Exception
 			+ FullyQualifiedErrorId : HRESULT 0x80041001,Disable-PnpDevice
-
 
 ## Deleting with `devcon.exe` ?
 
@@ -62,7 +58,6 @@ This is part of the `WDK` - the windows development kit... seriously I feel like
 
 This is hairy Yak to the power of hairy yak.
 
-
 > When you install Visual Studio 2019, select the Desktop development with C++ workload. The Windows 10 Software Development Kit (SDK) is automatically included, and is displayed in the right-hand Summary pane. Note that the version of the SDK that is compatible with the WDK for Windows 10, version 2004 may not be the default SDK. To select the correct SDK:
 >
 > In Visual Studio Installer, on the Individual components tab, search for Windows 10 SDK (10.0.19041.0), select this version and continue with install. Note that Visual Studio will automatically install Windows 10 SDK (10.0.19041.1) on your machine.
@@ -75,13 +70,11 @@ I'll modify my install and see how I go...
 
 I'm perservering with this now just to see where I end up.
 
-
 	devcon [/m:\\computer] [/r] command [arguments]
 
 example shown is:
 
 	devcon /r remove @usb\*
-
 
 so i'll try:
 
@@ -90,7 +83,6 @@ so i'll try:
 ...and similar.
 
 (But first I have to wait for vs2019 to install a bunch of updates, before I can even attempt the 'modify'.
-
 
 ## External references
 

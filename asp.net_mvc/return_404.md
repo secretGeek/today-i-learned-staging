@@ -8,7 +8,6 @@ Can also put a message in
 
 	return HttpNotFound("No such puppy!");
 
-
 And for 403 &mdash; try this:
 
 	return new HttpUnauthorizedResult("Forbidden biscuits.");
@@ -27,12 +26,9 @@ And more generally try this:
 
 	throw new HttpException((int)HttpStatusCode.OK);
 
-
 etc... for each `http code`
 
-
 See [Custom Errors in asp.net mvc 5](custom_errors.md) -- to get this perfected!
-
 
 ## Breaking news
 
@@ -51,8 +47,6 @@ The comment on this is funny (the comment you see in a tooltip in visual studio)
 	//     (404) response.
 
 So on the one hand we're trying to be "transport-agnostic", removing `Http` from the name... but on the other hand we still need to let the developer know that this is *really* a `404`. So we embed it in the comment. *Wink* *wink*.
-
-
 
 ## See also
 

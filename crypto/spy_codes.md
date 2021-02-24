@@ -21,29 +21,21 @@ Useful for field agents who need to crack codes they encounter.
 
 ## A=B alphabet
 
-
 ## Morse Code Alphabet
 
 ![international morse code](International_Morse_Code.svg)
-
-
 
 ## Braille Alphabet
 
 ![Braille](Braille_alfabet.jpg)
 
-
-
 ## Pigpen Cipher
 
 ![Pigpen cipher](pigpen_key.png)
 
-
 ## ROT-13 Code
 
-
 ## All the Caesar Codes
-
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
@@ -74,11 +66,7 @@ Useful for field agents who need to crack codes they encounter.
 | y | z | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x |
 | z | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y |
 
-
-
 ## Decimal Ascii Letters
-
-
 
 ## Binary Numbers
 
@@ -150,7 +138,6 @@ Useful for field agents who need to crack codes they encounter.
 | 90 | Z | 122 | z |
 
 ## Decimal, Hexadecimal, Binary and ASCII
-
 
 | Decimal | Hexadecimal | Binary | Character |
 |---------|-------------|--------|-----------|

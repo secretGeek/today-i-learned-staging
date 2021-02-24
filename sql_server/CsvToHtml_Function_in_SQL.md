@@ -4,7 +4,6 @@ This is a somewhat naive CSV to Html function in SQL.
 
 It's real purpose is an intermediate step before turning the Html into XML, so you can have 1 row per item in the original CSV.
 
-
 	ALTER FUNCTION [dbo].[CsvToHtml] (@value AS nvarchar(max), @separator as nvarchar(10))
 	RETURNS nvarchar(max)
 	AS
@@ -26,12 +25,9 @@ Given:
 
 	select [dbo].[CsvToHtml]('a,b,c', ',')
 
-
 It will return:
 
 	<li>a</li><li>b</li><li>c</li>
-
-
 
 Now you can put that function inside this one...
 
@@ -43,7 +39,6 @@ Now you can put that function inside this one...
 		CONVERT(XML, [dbo].[CsvToHtml](@value, @Separator)).query('.')
 	END
 
-
 Given
 
 	select [dbo].[CsvToXml]('a,b,c', ',')
@@ -53,8 +48,6 @@ It will return this XML type:
 	<li>a</li>
 	<li>b</li>
 	<li>c</li>
-
-
 
 Imagine we have a fictional blogging system with an annoying CSV column called `Article`.`Tags`
 
@@ -71,9 +64,6 @@ Imagine we have a fictional blogging system with an annoying CSV column called `
 		not nodes.li.value('.','nvarchar(max)') is null
 
 ...and now we have a list of all the tags, 1 per row, adjacent to its article name.
-
-
-
 
 ## See also
 

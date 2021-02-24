@@ -2,7 +2,6 @@
 
 SQL Server supports a Merge statement which lets you Update, Insert, Delete (for example) based on matching conditions.
 
-
 	MERGE dbo.People p
 		USING dbo.People_staging s
 	ON (p.person_id = t.person_id)
@@ -17,15 +16,9 @@ SQL Server supports a Merge statement which lets you Update, Insert, Delete (for
 	WHEN NOT MATCHED BY SOURCE
 		THEN DELETE;
 
-
-
 That's fun and alll....
 
-
 I want "when not matched by source then update with condition"
-
-
-
 
 ## Source(s)
 

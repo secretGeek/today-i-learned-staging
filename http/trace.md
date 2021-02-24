@@ -1,6 +1,5 @@
 ﻿# How to perform an HTTP trace
 
-
 * Chrome plugin, [http watch](http://www.httpwatch.com/download/)
 * [Fiddler](https://www.telerik.com/download/fiddler)
 * Developer tools, network tab

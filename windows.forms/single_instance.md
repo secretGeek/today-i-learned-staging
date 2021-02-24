@@ -123,7 +123,6 @@ Described with this comment:
 >
 > &mdash;[Sam Allen, DotNetPerls: Single Instance Windows Forms](https://www.dotnetperls.com/single-instance-windows-form)
 
-
 ## Source
 
 - [Sam Allen, DotNetPerls: Single Instance Windows Forms](https://www.dotnetperls.com/single-instance-windows-form)

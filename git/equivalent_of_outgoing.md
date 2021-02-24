@@ -16,7 +16,6 @@ If you want to allow this command to be run as `git outgoing` then add it to you
 		outgoing = !git log --branches --not --remotes=origin
 		out = !git log --branches --not --remotes=origin
 
-
 `^^` I added an alias of `out` as well since that's what I normally use. (git doesn't try to coerce your abbreviated commands into real commands the way mercurial does.)
 
 Others says that this is the nearest equivalent to a 'hg outgoing' --

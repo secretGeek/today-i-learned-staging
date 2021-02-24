@@ -12,5 +12,4 @@ The commands for {Powershell::Powershell} start as:
 
 Change this to:
 
-
 	PowerShell -ExecutionPolicy Bypass -NoLogo -NoExit -new_console:d:"C:\wip\Scratch\nimble"

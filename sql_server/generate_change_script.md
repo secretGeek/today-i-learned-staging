@@ -6,6 +6,4 @@ Here's the "Generate Change Script" on the "Table Designer" toolstrip of "Micros
 
 ![generate change script](generate-change-script.png)
 
-
-
 You can also get to this function from the "Table Designer" menu, last option.

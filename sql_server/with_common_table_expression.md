@@ -45,12 +45,9 @@ Example:
 	SELECT cteName FROM cte
 	ORDER BY ID
 
-
-
 ## Multiple CTEs
 
 To define multiple....
-
 
 	;WITH Sales_CTE
 	AS
@@ -85,7 +82,6 @@ To define multiple....
 		s.SalesPersonID,
 		m.Year desc;
 	GO
-
 
 Note that a CTE *can* refer to any of the preceeding CTEs.
 

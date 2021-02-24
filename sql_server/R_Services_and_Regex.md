@@ -10,26 +10,20 @@ if the services are installed, you also need to configure SQL Server it allow ex
 
 	EXEC sp_configure  'external scripts enabled'
 
-
 | name | minimum | maximum | config_value | run_value |
 |------|---------|---------|--------------|-----------|
 | external scripts enabled | 0 | 1 | 1 | 0 |
 
-
 The above means that it *is* enabled.
 
 However, because I didn't restart SQL Server after enabling it, it still doesn't work.
-
-
 
 ## Enable it
 
 	sp_configure 'external scripts enabled', 1;
 	RECONFIGURE WITH OVERRIDE;
 
-
 ## Test it
-
 
 	EXEC sp_execute_external_script  @language =N'R',
 	@script=N'
@@ -40,7 +34,6 @@ However, because I didn't restart SQL Server after enabling it, it still doesn't
 	GO
 
 ##
-
 
 ## Source
 

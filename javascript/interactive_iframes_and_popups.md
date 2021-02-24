@@ -1,8 +1,6 @@
 ﻿# How to perform two way interaction with a hosted iframe or a popup
 
-
 Use `window.postMessage` to talk to the embedded guest page (or the popup) from the host page.
-
 
 And `window.opener.postMessage` to talk to the host page, from the embedded guest page.
 
@@ -14,11 +12,9 @@ e.g.
 	/* wait for the popup to load, then */
 	popup.postMessage("The user is 'bob' and the password is 'secret'","https://secure.example.net");
 
-
 ## Sending message to iFrame
 
 	document.getElementById('cross_domain_page').contentWindow.postMessage("The user is 'bob' and the password is 'terces'","https://secure.example.net")
-
 
 ## Receiving messages in the guest page
 
@@ -43,7 +39,6 @@ e.g.
 
 We can also receive events *back* from the guest page (the popup/iframe) -- provided it has a way to call "postMessage" on this window's window object.
 
-
 	window.addEventListener("message", (event) => {
 	  // Do we trust the sender of this message?  (might be
 	  // different from what we originally opened, for example).
@@ -53,9 +48,6 @@ We can also receive events *back* from the guest page (the popup/iframe) -- prov
 	  // event.source is popup
 	  // event.data is "hi there yourself!  the secret response is: rheeeeet!"
 	}, false);
-
-
-
 
 ## External references
 

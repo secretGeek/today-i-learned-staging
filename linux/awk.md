@@ -1,6 +1,5 @@
 ﻿# Getting started with awk
 
-
 	$ awk 'BEGIN { print 42 }'
 	42
 
@@ -10,7 +9,6 @@
 Okay - a nice start.
 
 Bah, lemme push it a bit....
-
 
 	$ awk ''
 	$ awk 'BEGIN {}'
@@ -32,9 +30,7 @@ Bah, lemme push it a bit....
 
 (3 empty lines).
 
-
 Ok, ready to move on now.
-
 
 In the following examples i'll be working with a file, called `data.txt`, that contains:
 
@@ -46,7 +42,6 @@ In the following examples i'll be working with a file, called `data.txt`, that c
 	Susie   4.25    18
 
 ...where there is a `tab` character between each field.
-
 
 From there, we can pipe the input to `awk`...
 
@@ -67,9 +62,6 @@ Or can have `awk` load the file, for example:
 	Mark
 	Mary
 	Susie
-
-
-
 
 ## References
 

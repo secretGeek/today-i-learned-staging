@@ -12,14 +12,11 @@ e.g. instead of:
 
 simply....
 
-
     routes.MapRoute(
         name: "Items",
         template: "items/{resource?}",
         defaults: new { controller = "Root", action = "Items" }
     );
-
-
 
 ## Source
 

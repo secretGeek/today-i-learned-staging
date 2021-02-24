@@ -6,7 +6,6 @@ There are hundreds of ascii fonts available here:
 
  * http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Ascii%20Fonts
 
-
 <pre class='ascii' style='line-height:1em;background-color:white'>
      ______            __                        ______
     /\__  _\          /\ \                      /\__  _\
@@ -24,6 +23,5 @@ There are hundreds of ascii fonts available here:
       \ \ \L\ \/\  __//\ \L\.\_\ \ \/ /\ \/\ \/\  __//\ \L\ \
        \ \____/\ \____\ \__/.\_\\ \_\ \ \_\ \_\ \____\ \___,_\
         \/___/  \/____/\/__/\/_/ \/_/  \/_/\/_/\/____/\/__,_ /
-
 
  </pre>

@@ -1,6 +1,5 @@
 ﻿# Install TextFX plugin to notepad++
 
-
 Go onto SourceForge and tracked down the latest TextFX file to import manually:
 
 	https://sourceforge.net/projects/npp-plugins/files/TextFX/TextFX%20v0.26/
@@ -15,9 +14,7 @@ I download and unzip
 
 	C:\Users\USERNAME\Downloads\TextFX.v0.26.unicode.bin
 
-
 Stop notepad++, and **Run Notepad++ as admin**
-
 
 within NotePad++ choose "Settings" | "Import" | "Import plugin(s)..." and import the .DLL from that location.
 
@@ -26,7 +23,6 @@ Immediately I see a "TextFX" menu item.
 I then exit Notepad++ so I'm no longer running as administrator.
 
 When I restart Notepad++ as non admin I still have the "TextFX" menu, so the plugin has worked.
-
 
 ## Things that don't work
 
@@ -48,15 +44,11 @@ But then it errors with:
 
 On the "Plugin Manager" dialog when I press "Settings" I see this message:
 
-
 	Plugin Config path is:
 	C:\Users\USERNAME\AppData\Roaming\Notepad++\plugins\Config
 	Plugins in user's AppData directory are disabled - to enable in Notepad++ version 5.9.7 onwards place an empty file called allowAppDataPlugins.xml in the Notepad++ directory.
 
-
 Anyway, to get around the error above, I used the technique above instead.
-
-
 
 ## See also
 

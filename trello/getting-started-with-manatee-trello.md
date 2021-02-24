@@ -10,31 +10,21 @@ In linqpad, use **nuget** to search for packages related to trello. We'll be usi
 
 There are many namespaces you *can* add.
 
-
 	var board = new Board("<board ID>");
 
 It is immediately available, but empty.
 
 To make the data available in the board, it is fully populated by awaiting:
 
-
 	await board.Refresh();
-
 
 Or you can refresh just the lists, and not wait for the entire board to be refreshed.
 
 	await board.Lists.Refresh();
 
-
 This is pretty cool: you don't have to refresh all of the data. They have a little "convention" where objects have a property called "fields" and you specify in there which fields you do (or don't) want to download.
 
-
-
-
 Before you go too far, you know will need an API key.
-
-
-
 
 ## Sources
 

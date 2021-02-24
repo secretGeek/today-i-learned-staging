@@ -26,7 +26,6 @@ And to use a white theme:
 
 > `File` &rarr; `Preferences` &rarr; `Color Theme` &rarr; `Light+ (default light)`
 
-
 ## Keywords
 
 darkroom, lightroom

@@ -14,5 +14,4 @@ Here's a page that lists how to contact a large number of Antivirus vendors:
 
 "Rising" was particularly hard to track down. I found this page: http://mailcenter.rising.com.cn/filecheck_en/
 
-
 If your webpage is flagged as containing malware that's a different problem. See Google Search Console tip.

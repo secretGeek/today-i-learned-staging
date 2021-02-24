@@ -1,29 +1,27 @@
-﻿# TODO
+﻿# TODO Items for til.secretGeek.net
 
 > An index of improvements that could be made to this website.
 
-
-## todo tracking
-
-- styling og internal, external and blank, mailto, and onpage links...
+## Inbox 
 
 - Generate an 'index.html' under each topic folder that redirects to "/01_summary.html"
 
-- a tag for including the {toc:} in the document.
-	- a page for showing details of toc and other embedded macros used by clowncar.
-		- an improved meta language allowing these other meta features.
-			- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.)
 
 Other features that can be embedded in macros:
-	- next/previous buttons
+	-[ ]  next/previous buttons
 
 		[ ] a "next" link (and a previous) at each one...
-		[ ] Ability to do "REDIRECT" for crappy pages I don't like.
+		
+-	[ ] Ability to do "REDIRECT" for crappy pages I don't like.
+
+- [ ] TIL Random - random article, or random within category
+
+
+- [ ] next/previous buttons
 
 
 ## Auto Linting of the TIL
 
-- next/previous buttons
 
 - more application of `plaintext` fenced code blocks.
 
@@ -38,11 +36,9 @@ Other features that can be embedded in macros:
 - keywords are highlighted.
 
 - keywords are inter-related.
-
-	(many are put in an ignore list.)
+	(many are put in an ignore list?)
 
 - code block extraction and listing
-
 
 - hyperlink extraction and listing
 
@@ -51,7 +47,11 @@ Other features that can be embedded in macros:
 - [ ] Squarified treemap of topics and items
 
 
-## done
+- a page for showing details of toc and other embedded macros used by clowncar.
+	- an improved meta language allowing these other meta features.
+		- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.)
+
+## Done
 
 9:56 AM Friday, 22 January 2021
 
@@ -62,9 +62,15 @@ Other features that can be embedded in macros:
 	- language-powershell
 	- ...idea: have a default "language" for each folder?
 
-
-1:09 AM Sunday, 21 February 2021
+### 1:09 AM Sunday, 21 February 2021
 
 - [x] Collapsible menus treemap
 - [x] title of pages to be shown on page (not just the friendlified file name).
 - [x] toc - expandable at top of page
+
+### 8:37 AM Wednesday, 24 February 2021
+
+- [x] styling of internal, external and blank, mailto, and onpage links...
+
+
+- [no]  a tag for including the {toc:} in the document. (not needed now that embedded header exists)

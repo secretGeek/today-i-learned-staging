@@ -1,6 +1,5 @@
 ﻿# bg,fg: background and foreground!
 
-
 You're in `nano` and you hit Ctrl-z thinking it will undo what you just did... but no, suddenly you slip through a crack in the matrix and learn all all about "bg,fg: background and foreground" -- multi-tasking in linux.
 
 	Ctrl Z - go to background.
@@ -23,11 +22,9 @@ When you exit with `Ctrl Z` you see text like:
 
 That "1" is the job you will jump back to with `fg`
 
-
 To see all backgrounded jobs, use the `jobs` command,
 
 For example, here I've got two `nano` instances stopped...
-
 
 	[1]-  Stopped                 sudo nano default
 	[2]+  Stopped                 nano default.backup

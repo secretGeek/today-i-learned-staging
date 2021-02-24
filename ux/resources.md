@@ -1,6 +1,5 @@
 ﻿# UX/Design resources I love
 
-
 - [Twitter thread "Little UI Details"](https://twitter.com/i/events/880688233641848832?s=13)
 
 	> "A collections of little tips from `@steveschoger` to improve your visual design skills with the little details that make a big difference 👏"
@@ -12,7 +11,6 @@
 - [Little Big Details](https://littlebigdetails.com/) is a blog that highlights tiny moments of UX delight. (I'd rather share a "best of" little big details, as an intro to the topic.)
 - Visual Hierarchy
 - Color theory
-
 
 ## Tools
 

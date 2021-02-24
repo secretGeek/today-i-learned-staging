@@ -43,7 +43,6 @@ And this styling works for me:
 		cursor: pointer;
 	}
 
-
 To automatically hook up *all* `pre` and `code` items to be copyable (but *not* allow `code` *inside* `pre` to trigger a second copy...)
 
 Run this code:
@@ -57,8 +56,6 @@ Run this code:
 	for(let codeInPre of $('pre code' )) {
 		codeInPre.removeAttribute('onclick');
 	}
-
-
 
 Which relies on these functions:
 
@@ -90,9 +87,7 @@ Which relies on these functions:
 
 Here's another variation, this time with a fading out tooltip.
 
-
 To support the tooltip I have these two CSS classes:
-
 
 	/*
 		Used for notifications that clipboard text has been copied.
@@ -142,7 +137,6 @@ And the function to show a message that floats away is like this:
 		}, 10);
 	}
 
-
 And here's the *revised* function that does the copying itself, and which then notifies the `showFloatingMessage`. It now has an extra parameter, `item`.
 
 	function copyToClipboard(value, element) {
@@ -163,13 +157,11 @@ And here's the *revised* function that does the copying itself, and which then n
 
 	}
 
-
 And I call it via this helper method:
 
 	function copyItemText(item) {
 		copytext(item.textContent, item);
 	}
-
 
 And wire that up to every `pre`/`code` element like this:
 
@@ -178,17 +170,14 @@ And wire that up to every `pre`/`code` element like this:
 		preOrCode.setAttribute('onclick', "copyItemText(this);");
 	}
 
-
 ## Using this with JQuery
 
 The methods above are all vanilla JS. If wiring it up with jQuery, note that you have to pass a `DOM` element, not a `JQuery` element.
-
 
 For example:
 
 	// Inject a button before every pre...
 	$("<button class='copy-text btn btn-sm' title='copy code to clipboard'>copy</button>").insertBefore($("pre"));
-
 
 	// And have it call 'copy to clipboard'
 	$(".copy-text").click(function (e) {
@@ -197,7 +186,6 @@ For example:
 		e.preventDefault();
 		return false;
 	});
-
 
 And to style that little button, this CSS is my starting point:
 

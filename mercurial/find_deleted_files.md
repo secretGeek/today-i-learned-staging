@@ -8,7 +8,6 @@ To find which revision a file was deleted in, use
 
 It looks like this:
 
-
 	388:
 	387:
 	386: TIL/.net-core-MVC/UrlEncode.md TIL/.net-core-MVC/UrlParameter-Optional.md TIL/.net-core-MVC/ip_address.md

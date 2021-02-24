@@ -1,32 +1,26 @@
 ﻿# Getting Started with 7-Zip
 
-
 ## Examples
 
 Create a *new zip* (or add to an existing zip) called `example1.zip`, and add all local txt and csv files, and *password protect* with the password `PASSWORD`:
 
 	7za -pPASSWORD a example1.zip *.txt *.csv
 
-
 - If you add a file that is already in the zip, it will replace the old one with the new one.
 - Passwords are applied on a "per file" basis. So people without the password can inspect the files in the zip, but not the contents. I guess double-zipping would get around this.
 
 -----
 
-
 ## Add all files to a *new zip*
 
 (or add to an existing zip) including subfolders:
 
-
 	7za a example1.zip -r *
-
 
 `Nasty gotcha`
 
 - the wildcard `*` will match **all** files
 - whereas `*.*` will *only* match files **with** an extension (i.e. it will not match files with *no* extension)
-
 
 -----
 
@@ -36,10 +30,7 @@ Create a *new zip* (or add to an existing zip) called `example1.zip`, and add al
 
 	7z x "MyZip.zip" -oMyFolder
 
-
-
 -----
-
 
 ## Help output
 

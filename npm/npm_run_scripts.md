@@ -1,6 +1,5 @@
 ﻿# NPM run scripts
 
-
 > npm looks at a field called scripts in the package.json of a project in order to make things like npm test from the scripts.test field and npm start from the scripts.start field work.
 
     {
@@ -28,21 +27,15 @@
         }
     }
 
-
 typing:
-
 
 	npm build-js
 
 ...in that project would be the same as typing:
 
-
 	npm run browserify browser/main.js | uglifyjs -mc > static/bundle.js
 
 (because of the line under scripts that says: `"build-js": "browserify browser/main.js | uglifyjs -mc > static/bundle.js",`)
-
-
-
 
 ## Source
 

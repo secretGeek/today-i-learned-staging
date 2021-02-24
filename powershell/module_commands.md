@@ -21,7 +21,7 @@
 9. `get-module`
     lists installed (i.e. available) and imported (i.e. loaded) modules.
 
-TODO: How to add a path such that it shows up in `$env:PSModulePath`
+`todo` How to add a path such that it shows up in `$env:PSModulePath`
 
 ## See Also
 

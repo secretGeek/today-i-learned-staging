@@ -1,7 +1,5 @@
 ﻿# Useful minecraft scripts (in python)
 
-
-
 ## Aircube3:
 
 Purpose: carve out a 3 dimensional box of air, centered on your current location. For example if you are underground, run:

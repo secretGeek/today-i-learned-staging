@@ -23,7 +23,6 @@ echo    Command     0      4         1           1       1         5
 hello    String     5      7         1           6       1        13
 ```
 
-
 That's awesome. It is the `Command` `echo` followed by the `String` `hello`.
 
 But I am confused by the next example.
@@ -112,5 +111,4 @@ While on the topic of AST's -- Doug points out you can do this:
 
 And directly access the `AST`.
 
-
-TODO: use this in .ok syntax highlighter
+`todo`: use this in `.ok` syntax highlighter!

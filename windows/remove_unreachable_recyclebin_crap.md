@@ -16,15 +16,12 @@ from an **elevated** command prompt and then
 
 Output:
 
-
 	C:\>rd /s/q c:\$Recycle.Bin
 	The directory is not empty.
 
 	C:\>rd /s/q c:\$Recycle.Bin
 
-
 (I had to run it twice.)
-
 
 ## Sources
 

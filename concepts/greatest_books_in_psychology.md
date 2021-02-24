@@ -4,8 +4,6 @@ I listened to the audiobook of "50 Psychology Classics" by Tom Butler-Bowdon. It
 
 Here's a list of the books in chronological order, (though in the book they are ordered alphabetical by author's surname. I'd prefer chronological ascending as earlier books tend to influence later and seldom vice versa)
 
-
-
 |Year|Author|Title|
 |----|------|-----|
 |1890|William James|Principles of Psychology|
@@ -58,7 +56,6 @@ Here's a list of the books in chronological order, (though in the book they are 
 |2012|Leonard Mlodinow|Subliminal: How Your Unconscious Mind Rules Your Behavior|
 |2013|Temple Grandin|The Autistic Brain: Helping Different Kinds of Minds Succeed|
 |2014|Walter Mischel|The Marshmallow Test|
-
 
 ## Reference
 

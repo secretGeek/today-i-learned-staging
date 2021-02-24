@@ -1,8 +1,6 @@
 ﻿# How to call native commands from .net core
 
-
 SOOOO easy!
-
 
 	using System;
 
@@ -17,6 +15,5 @@ SOOOO easy!
 			}
 		}
 	}
-
 
 No need for any extra references or anything.

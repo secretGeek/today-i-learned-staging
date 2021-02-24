@@ -4,9 +4,7 @@ What is it?
 
 > Electron enables you to create desktop applications with pure JavaScript by providing a runtime with rich native (operating system) APIs. You could see it as a variant of the Node.js runtime that is focused on desktop applications instead of web servers.
 
-
 Okay -- I installed yarn instead (see [install yarn on windows](../yarn/install-yarn-on-windows-2020.md)
-
 
 	yarn init
 
@@ -16,7 +14,6 @@ Tell it things.
 
 Okay - that worked better.
 
-
 Edited `package.json` and:
 
 - replace `index.js` with `main.js`
@@ -24,7 +21,6 @@ Edited `package.json` and:
 - leave out a comma (this was by accident)
 
 So `package.json` now says:
-
 
 	{
 		"name": "my app",
@@ -50,11 +46,9 @@ Stupid that it says the missing comma issue is so ridiculously user hostile:
 
 Fixed that -- now complains:
 
-
 	License should be a valid SPDX license expression
 
 Also said....
-
 
 	error `install` has been replaced with `add` to add new dependencies. Run "yarn add electron --dev" instead.
 
@@ -67,7 +61,6 @@ And now to run:
 	yarn add electron --dev
 
 Done in 7.46s. That's nice.
-
 
 Now added a `main.js` and a `index.html` based on the tutorial i'm following -- this one.
 
@@ -84,7 +77,6 @@ Ok fun.
 
 Now trying this other approach....
 
-
 	git clone https://github.com/electron/electron-quick-start.git
 	cd electron-quick-start
 	yarn install
@@ -96,7 +88,6 @@ And it doesn't have that warning... Let me check something....
 
 Okay I copied over the line from the erroring project to the working project, the line that says....
 
-
 	We are using node <script>document.write(process.versions.node)</script>,
 	Chrome <script>document.write(process.versions.chrome)</script>,
 	and Electron <script>document.write(process.versions.electron)</script>.
@@ -107,16 +98,13 @@ Okay I copied over the line from the erroring project to the working project, th
 
 See https://www.electronjs.org/docs/tutorial/boilerplates-and-clis
 
-
 ## Source
 
 - [electron first app](https://www.electronjs.org/docs/tutorial/first-app)
 
-
 	/EOF
 
 ## Everything after here is a historical note
-
 
 Getting started is as easy as:
 
@@ -132,7 +120,6 @@ Idea: When you initiate a project, you should not write actual strings into the 
 
 Idea: A separate navigation tool can be used, and it lets you rename these things as you go.
 
-
 Add a start script to `index.js`
 
 	{
@@ -144,7 +131,6 @@ Add a start script to `index.js`
 		}
 	}
 
-
 For now if you run `npm start` you'll receive something like:
 
 	> npm start
@@ -153,11 +139,7 @@ For now if you run `npm start` you'll receive something like:
 	npm ERR! A complete log of this run can be found in:
 	npm ERR!     C:\Users\MyUser\AppData\Roaming\npm-cache\_logs\2020-09-22T05_33_56_124Z-debug.log
 
-
 (As always I find npm useless on my windows machine)
-
-
-
 
 ## Install Electron
 
@@ -166,7 +148,6 @@ Now:
 	npm install --save-dev electron
 
 This goes horribly because `npm` is useless on my machine.
-
 
 ## Historical Note
 
@@ -200,14 +181,11 @@ Next, read the quick start tutorial...
  - obfuscation/IP protection.
  - save/load "settings" (other than explicitly using dialogs)
 
-
-
 ## Source
 
  - http://electron.atom.io/#get-started
  - http://electron.atom.io/docs/latest/tutorial/quick-start/
 
 Please watch this 9 min video. https://m.youtube.com/watch?v=ojX5yz35v4M
-
 
 ## end of historical note

@@ -33,20 +33,13 @@ Read more here: https://archive.org/services/docs/api/internetarchive/cli.html
 
 	See 'ia help <command>' for more information on a specific command.
 
-
 Info about [downloading](https://archive.org/services/docs/api/internetarchive/cli.html#download)
 
 But see also this twitter thread from Jason Scott:
 
 https://twitter.com/textfiles/status/1224011624933134336
 
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THE BANDWIDTH BUSTER TOOLKIT: The best way to interact with <a href="https://twitter.com/internetarchive?ref_src=twsrc%5Etfw">@internetarchive</a> en masse is the Internet Archive Client, a command-line program that will use our API and allow you to do mass actions and downloads with incredible ease. <a href="https://t.co/puAw9l0sJ6">https://t.co/puAw9l0sJ6</a> <a href="https://t.co/RMDclczWnW">https://t.co/RMDclczWnW</a></p>&mdash; Jason Scott (@textfiles) <a href="https://twitter.com/textfiles/status/1224011624933134336?ref_src=twsrc%5Etfw">February 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
-
-
 
 ## Source
 

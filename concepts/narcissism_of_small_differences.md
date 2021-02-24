@@ -10,12 +10,9 @@ Same for brace positioning.
 
 People pour effort into these things because they are a way of asserting their identity (either group identity or individual identity).
 
-
 (Research shows me that [Raganwald spotted this in 2008](http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html) ([discussion](https://news.ycombinator.com/item?id=6710668)))
 
-
 Joke from Emo Phillips:
-
 
 > Once I saw this guy on a bridge about to jump. I said, "Don't do it!"
 >
@@ -54,7 +51,6 @@ Joke from Emo Phillips:
 > He said, "Northern Conservative Baptist Great Lakes Region Council of 1912.
 >
 > I said, "Die, heretic!" And I pushed him over.
-
 
 ## Source
 

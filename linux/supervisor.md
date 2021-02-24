@@ -15,8 +15,6 @@
 	service supervisor stop
 	service supervisor start
 
-
-
 supervisor is a nice thing. It supervises your app to keep it running.
 
 	sudo apt-get update
@@ -41,7 +39,6 @@ To create a new service for supervisor to supervise, add a file, e.g. `helloworl
 	environment=ASPNETCORE_ENVIRONMENT=Production
 	user=www-data
 	stopsignal=INT
-
 
 ## View supervisor logs
 
@@ -134,16 +131,13 @@ Exactly same output as `service supervisor status`...e.g.:
 
 To restart supervisor on reboot, add something like this to your [crontab](cron.md):
 
-
 	@reboot	/my/path/to/supervisord -c /my/path/to/supervisord.conf 2>&1
 
 i.e.
 
 	@reboot /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf 2>&1
 
-
 Add that to your cron jobs using crontab (described in [cron](cron.md)).
-
 
 ## Sources
 

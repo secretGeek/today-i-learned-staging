@@ -35,7 +35,6 @@ then edit the file, via `sudo`, ...
 
     sudo nano yourdomain.com
 
-
 And update it to something like...
 
     server {
@@ -55,7 +54,6 @@ And update it to something like...
     }
 
 *See [Use nginx to redirect www and non https to bare https](redirect_www_https.md) for a better final example of nginx config with https and redirecting www to bare url)*
-
 
 Now -- we need to create a symbolic link from your newly added file in the sites-available directory to the sites-enabled directory
 
@@ -97,7 +95,6 @@ So you can tell nginx to go ahead and use this newly crafted and verified config
 
     sudo nginx -s reload
 
-
 ## About remote_addr
 
 Note, this particular line of config:
@@ -106,15 +103,12 @@ Note, this particular line of config:
 
 This is so that inside our application we'll be able to see the original IP Address of the client. The original IP request is terminated by `nginx`, and a new request is sent to our application. So if we read the IPAddress a normal way it will simply say 127.0.0.1 (or ::1). Instead if we look at the request header 'X-Real-IP' we will see the original remote IP address of the caller. In C# I do that like this:
 
-
     var ipaddress = Request.HttpContext.Connection.RemoteIpAddress.ToString();
 
     if (Request.Headers["X-Real-IP"].Count() > 0)
     {
         ipaddress = Request.Headers["X-Real-IP"];
     }
-
-
 
 ## Tail nginx log
 
@@ -124,7 +118,6 @@ This is so that inside our application we'll be able to see the original IP Addr
 
 I get poor scores at google pagespeed insights: https://developers.google.com/speed/pagespeed/insights/?url=secretgeek.net&tab=desktop and at
 tools.pingdom -- https://tools.pingdom.com/#!/cpJDXC/secretgeek.net
-
 
 ...partly because I haven't enabled gzip compression.
 

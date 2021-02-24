@@ -8,7 +8,6 @@ materials you will need:
 
 With any articles mentioned below: be sure to read the comments. Sometimes they highlight common problems that people have, or shortcomings/errors in the article that haven't been corrected yet.
 
-
 Prepare your digital ocean account
 
 1. sign up at digital ocean.
@@ -67,11 +66,7 @@ from a browser:
 
  * use pingdom or "statuscake" to monitor your site(s).
 
-
-
 ## Here was my preliminary list
-
-
 
 ### STEP ONE: THE MUST-HAVES
 
@@ -90,8 +85,6 @@ from a browser:
 ### EXTRA CREDIT: SECURE FILE TRANSFER
 
  * Securely transfer files to your server and between droplets [using SFTP](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server).
-
-
 
 ## Sources
 

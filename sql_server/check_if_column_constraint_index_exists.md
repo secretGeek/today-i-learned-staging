@@ -1,8 +1,6 @@
 ﻿# Check if Column exists, or if constraint exists or if index exists (including spatial index)
 
-
 To check if a column exists (before adding the column)
-
 
 	IF NOT EXISTS(
 	  SELECT *
@@ -17,9 +15,7 @@ To check if a column exists (before adding the column)
 			Geo geography NULL
 	END
 
-
 To check if a constraint exists (before adding the constraint)
-
 
 	IF NOT EXISTS(
 	  SELECT *
@@ -36,10 +32,7 @@ To check if a constraint exists (before adding the constraint)
 			) WITH( STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 	END
 
-
-
 To check if an index exists (before adding the index - a spatial index in this case)
-
 
 	IF NOT EXISTS(
 		SELECT *

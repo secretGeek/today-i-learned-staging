@@ -33,13 +33,11 @@ For just the current repo:
 
     git config user.name "John Doe"
 
-
 For a specific file (I haven't used this one)
 
     git config --file FILE_Name user.name "John Doe"
 
 (Where `FILE_Name` is the name of the actual file)
-
 
 Also -- for a given repository, to set the username, you can go into the `.git\config` file and add the username plus an '@' before the url in the 'remote origin' value, e.g.
 

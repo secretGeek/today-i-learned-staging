@@ -8,7 +8,6 @@ It will fail at runtime with this error:
 
 The workaround is simple -- cast it to `object`!
 
-
 	//This Fails with: 'string' does not contain a definition for 'Dump'
 	dynamic d = "hello";
 	//d.Dump();
@@ -18,8 +17,6 @@ The workaround is simple -- cast it to `object`!
 
 	// as does this)
 	(d as Object).Dump();
-
-
 
 ## see also
 

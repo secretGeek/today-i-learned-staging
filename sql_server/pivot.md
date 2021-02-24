@@ -4,14 +4,11 @@ This is similar to the troller pattern documented elsewhere. It's a pattern for 
 
 You need a view which returns all of the unpivoted data, but with all the metrics "Packaged" into a single fields.
 
-
 There's two basic types of columns:
 
 1. Those that you want to group/filter by (e.g. Country, postcode, customerid) and
 
 2.  All the metrics, the finest granular details. (These are packed into a single column called 'Details')
-
-
 
 	CREATE View dbo.[CustomerPerformance_NumberedDays]
 	as
@@ -57,14 +54,9 @@ There's two basic types of columns:
 	... other metrics on that date for that customer, e.g. Complaints, expenses, time spent, refunds... anything...
 	) as Intervention
 
-
 	GO
 
-
-
-
 That view is, in turn, used by a dynamic pivotting stored procedure
-
 
 	CREATE PROC dbo.CustomerPerformance_NumberedDays_Pivoted
 	as
@@ -72,14 +64,11 @@ That view is, in turn, used by a dynamic pivotting stored procedure
 		DECLARE @cols AS NVARCHAR(MAX),
 			@query  AS NVARCHAR(MAX)
 
-
 		  IF EXISTS (SELECT *
 					 FROM   dbo.sysobjects o
 					 WHERE  o.xtype IN ( 'U' )
 							AND o.id = Object_id(N'dbo.CustomerPerformanceResult'))
 			DROP TABLE dbo.CustomerPerformanceResult
-
-
 
 		select @cols = STUFF((SELECT ',' + QUOTENAME([num])
 							from dbo.CustomerPerformance_NumberedDays as w
@@ -114,9 +103,7 @@ That view is, in turn, used by a dynamic pivotting stored procedure
 		execute(@query)
 	end
 
-
 Column names are looked up from a little dictionary. So the `num` of "3" will be given a display label based on the date returned from this view:
-
 
 	CREATE View dbo.CustomerPerformance_DayHeadings
 	as
@@ -128,11 +115,7 @@ Column names are looked up from a little dictionary. So the `num` of "3" will be
 	where
 		num <= 31 and num > 1 --@NumDays
 
-
-
 Assuming the website receives this as a DataTable, it can be displayed via a View like this....
-
-
 
 (Not show: you'll always need a custom class for unpacking the Detail column. And you need to load
 
@@ -141,7 +124,6 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
         public DataSet data { get; set; }
 		public IEnumerable<Filter> filters { get; set; }
 	}
-
 
 	@using System.Data
 	@model PivottedReport
@@ -170,8 +152,6 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 	</div>
 
 	@Html.ActionLink(" ", "Export", "PivottedReport", new { project = Model.Project.Slug, PivottedReport = Model.Slug }, new { @Class = "glyphicon glyphicon-cloud-download btn pull-right", title = "Export CSV" })
-
-
 
 	<h1>
 		@Model.Name
@@ -247,8 +227,6 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 							{
 								// Column name is numeric? then it is part of the pivot section, and is given a nicer name and decoded here.
 								var detailCell = new DetailCell(cell.ToString());
-
-
 
 								if (detailCell.SalesTotal == 0.0)
 								{

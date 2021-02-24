@@ -14,7 +14,6 @@ Similarly, here's a query to find objects by name (so) &mdash;
     xtype = 'U' AND Schema_Name(UID) + '.' + Name like
     '%%'
 
-
 And one to find columns (sc) &mdash;
 
     Select sc.Name as [Column], Schema_Name(so.UID) + '.' + so.Name as [Table], so.Xtype
@@ -30,13 +29,11 @@ And here's commands to add them to `kv` &mdash;
 	go' from sysobjects so inner join syscomments sc on so.id = sc.id where sc.text like
 	'%%'"
 
-
 	kv so "Select Schema_Name(UID) + '.' + Name , Xtype
 	from sysobjects
 	where
 	xtype in ('U','V','P') AND Schema_Name(UID) + '.' + Name like
 	'%%'"
-
 
 	kv sc "Select sc.Name as [Column], Schema_Name(so.UID) + '.' + so.Name as [Table], so.Xtype
 	from sysobjects so
@@ -63,8 +60,5 @@ Here's a command to list all objects that have definitions, along with their def
 					for xml path , TYPE).value('.[1]','nvarchar(max)'
 				), 1, 1, '') as Definition) as Definitions
 	where Definitions.Definition is not null
-
-
-
 
 Notice I've combined it with hashbytes for easy difference checking/comparison of objects.

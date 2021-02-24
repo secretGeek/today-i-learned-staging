@@ -2,7 +2,6 @@
 
 Example of sorting results into buckets (ranges), and showing the count in each bucket, as well as the average of some other column, for members in that bucket.
 
-
     declare @interval int = 5000 --bucket size
     Select
         --@interval * Floor(DirectDistance/@interval) as Min_,

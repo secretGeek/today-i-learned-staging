@@ -2,7 +2,6 @@
 
 Introduced in SQL Server 2016. Improved in SQL Server 2017.
 
-
 **History tables**  Traditionally these are manually implemented....
 
 e.g. when updating a row, you insert the old row into a history table you've invented, following your own frail local standard technique.
@@ -20,7 +19,6 @@ If you use the temporal table feature in sql server, all of that will be handled
 	,	[sysEnd]	datetime2(7)	generated always as row end  hidden not null
 	,	period for system_time ([sysStart],[sysEnd])
 
-
 Note the generated `datetime2` columns are always `UTC`. This can be annoying for users. To get around that, one solution is you could add:
 
 	[UpdatedDate] as dateadd(hour, 10, [sysStart])
@@ -31,9 +29,6 @@ In SSMS, object explorer, table list, there is a "(System-Versioned)" text next 
 
 Adding a column is tricky -- because you want it to be inserted as null into the history tables.
 
-
-
-
 ## Bulk loading
 
 before:
@@ -43,7 +38,6 @@ before:
 	go
 
 ...then perform the bulk...
-
 
 after:
 
