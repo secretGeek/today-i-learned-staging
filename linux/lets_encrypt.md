@@ -345,6 +345,7 @@ That seemed to work... though this message in the log looked oddd....
 
 ## See also
 
-- [uncomplicated firewall](uncomplicated_firewall.md)
+- [ufw: uncomplicated firewall](uncomplicated_firewall.md)
 - [nginx](nginx.md)
 - [cron](cron.md)
+- [Use nginx to redirect www and non https to bare https](redirect_www_https.md)
