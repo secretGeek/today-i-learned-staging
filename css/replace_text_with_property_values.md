@@ -5,8 +5,7 @@ This is a strange idea I had for a web developer tool.
 I've written a script that will replace every piece of text on a page with the value of any css property you select.
 
 
-
-**Try it out**{.select-here }
+**==Try it out==**{.select-here }
 
 
 For example, if you pick the property `font-family` then it will replace every heading, every paragraph, ever word, with the name of the font that is used in that part of the page.

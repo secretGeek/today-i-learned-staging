@@ -4,6 +4,7 @@
 ### content
 
 - [Css Properties of Current Page](css_properties_of_current_page.md)
+- [CSS: Select by content (by selecting by attribute value, with help from javascript)](select_by_attribute.md)
 - [Detect retina display or high DPI display and send specific image](detect_retina_high_dpi_display.md)
 - [Historic CSS](historic.md)
 - [How to center in CSS](center.md)

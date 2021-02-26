@@ -170,7 +170,7 @@ Next, read the quick start tutorial...
 
  - http://electron.atom.io/docs/latest/tutorial/quick-start/
 
-[_] TODO: Wanted, examples of electron apps doing the following:
+`todo` Wanted, examples of electron apps doing the following:
 
  - [creating a menu](https://github.com/atom/electron/blob/master/docs/api/menu.md)
  - [saving to local file system](save_to_file.md)
@@ -188,4 +188,4 @@ Next, read the quick start tutorial...
 
 Please watch this 9 min video. https://m.youtube.com/watch?v=ojX5yz35v4M
 
-## end of historical note
+**end of historical note**
