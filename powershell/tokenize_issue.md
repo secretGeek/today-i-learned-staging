@@ -111,4 +111,4 @@ While on the topic of AST's -- Doug points out you can do this:
 
 And directly access the `AST`.
 
-`todo`: use this in `.ok` syntax highlighter!
+`todo`: use this in [`.ok`](https://github.com/secretGeek/ok-ps) syntax highlighter!

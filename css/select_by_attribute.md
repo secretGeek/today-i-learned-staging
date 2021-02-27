@@ -130,3 +130,8 @@ Here are some custom short code style examples I use within this site:
 
 ...with more to come.
 
+
+
+## See also 
+
+- [Copy element to clipboard](../javascript/copy_element_to_clipboard.md) &mdash; a different thing that I also do to all the `code` (and `pre`) elements on each page
