@@ -60,21 +60,39 @@ If we try to write our own syntax highlighter, how do we know to highlight the t
 
 ## Answer, thanks to Lee Holmes and Doug Finke
 
-Lee -- https://twitter.com/Lee_Holmes/status/1303685263806181380?s=20
-Doug -- https://twitter.com/dfinke/status/1303687569968857091?s=20
+Lee -- 
 
-Need to use the newer V3 API.
+> You'll have to use the V3 API:
+> 
+> $tokens = @()
+> $errors = @()
+> [System.Management.Automation.Language.Parser]::ParseInput('echo "$hello"; echo ''$hello''', [ref] $tokens, [ref] $errors)
+>
+> [@Lee_Holmes](https://twitter.com/Lee_Holmes/status/1303685263806181380?s=20)
+
+
+and Doug --
+
+> The "same" as `{'echo "$hello"; echo ''$hello'''}.ast` ?
+> 
+> [@dfinke](https://twitter.com/dfinke/status/1303687569968857091?s=20)
+
+
+## Using the newer V3 API:
+
 
 	[System.Management.Automation.Language.Parser]::ParseInput('echo "$hello"', [ref] $tokens, [ref] $errors) | out-null;
 	$tokens | format-table
 
 Gives...
 
-	Text             TokenFlags             Kind HasError Extent
-	----             ----------             ---- -------- ------
-	echo            CommandName       Identifier    False echo
-	"$hello" ParseModeInvariant StringExpandable    False "$hello"
-					 ParseModeInvariant       EndOfInput    False
+```plaintext
+Text             TokenFlags             Kind HasError Extent
+----             ----------             ---- -------- ------
+echo            CommandName       Identifier    False echo
+"$hello" ParseModeInvariant StringExpandable    False "$hello"
+         ParseModeInvariant       EndOfInput    False
+```
 
 Whereas,
 
@@ -93,7 +111,9 @@ echo            CommandName    Identifier    False echo
 
 Note that "ParseInput" directly returns an Abstract Syntax Tree (which is more than I need for this exercise, but super useful when you do need it.) and the `$tokens` variable is a reference to an array of Tokens
 
-What sort of tokens?
+## PSToken versus Language.Token
+
+What sort of tokens are these?
 
 Here's there Assembly Qualified Name:
 
