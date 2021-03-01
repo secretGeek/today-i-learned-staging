@@ -4,11 +4,11 @@ Loading a CSV file and turning it into an IEnumerable<T> needs to be a simple ac
 
 Below are five different implementations, all pretty simple. They use, in order
 
- * [Microsoft.VisualBasic.dll](#using-microsoft.visualbasic.dll-to-load-a-csv-file)
- * [ServiceStack](#using-servicestack-to-load-a-csv-file)
- * [LinqToCsv](#using-linqtocsv-to-load-a-csv-file)
- * [FileHelpers.net](#using-filehelpers-to-read-a-csv-file-from-linqpad)
- * [Powershell (Import-CSV)](#powershell-import-csv)
+- [Microsoft.VisualBasic.dll](#using-microsoft.visualbasic.dll-to-load-a-csv-file)
+- [ServiceStack](#using-servicestack-to-load-a-csv-file)
+- [LinqToCsv](#using-linqtocsv-to-load-a-csv-file)
+- [FileHelpers.net](#using-filehelpers-to-read-a-csv-file-from-linqpad)
+- [Powershell (Import-CSV)](#powershell-import-csv)
 
 Given a CSV (of crime data) with header row like this:
 
@@ -182,6 +182,13 @@ Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transf
 
 ## Sources
 
- * [Linq To Csv](http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use)
- * [FileHelpers read file delimited](http://www.filehelpers.net/example/QuickStart/ReadFileDelimited/)
- * [ServiceStack](http://docs.servicestack.net/csv-format)
+- [Linq To Csv](http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use)
+- [FileHelpers read file delimited](http://www.filehelpers.net/example/QuickStart/ReadFileDelimited/)
+- [ServiceStack](http://docs.servicestack.net/csv-format)
+
+
+## See also
+
+- [Import CSV file to a Database, quickly](../csv/import_csv_to_db.md)
+- [Linqpad: Data Table to CSV](../linqpad/datatable_to_csv.md)
+- [Load or Save CSV with Powershell](../powershell/load_save_csv.md)

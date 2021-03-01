@@ -180,4 +180,6 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
 
 ## See also
 
-- [LinqPad](https://www.linqpad.net/) &mdash; [CSV to IEnumerable (or Array) in Linqpad](../linqpad/csv_to_array.md)
+- [LinqPad: CSV to IEnumerable (or Array) in Linqpad](../linqpad/csv_to_array.md)
+- [Linqpad: Data Table to CSV](../linqpad/datatable_to_csv.md)
+- [Load or Save CSV with Powershell](../powershell/load_save_csv.md)

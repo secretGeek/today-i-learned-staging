@@ -52,8 +52,8 @@ Common mistakes people make are:
 
 1. Don't do any escaping or qualifying and end up with unparseable CSV.
 2. Qualify *every* field, whether it needs to be qualified or not.
-3. Trim fields before qualifying. That's changing the data, and should only be done if its explicitly needed. (Some people hide steganographic codes in trailing whitespace... this would eradicate the message.)
-4. Only check for embedded fieldSeparators, don't check for embedded record separators, etc.
+3. Trim fields before qualifying. That's changing the data, and should only be done if it's explicitly needed. (Some people hide steganographic codes in trailing whitespace... you don't want to accidentally eradicate their messages!)
+4. Only check for embedded fieldSeparators, don't check for embedded record separators, qualifiers etc.
 
 ## Sponsor
 
@@ -62,3 +62,10 @@ Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transf
 ## External link:
 
  - [Falsehoods programmers believe about CSVs](https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs)
+
+## See also
+
+- [Import CSV file to a Database, quickly](../csv/import_csv_to_db.md)
+- [LinqPad: CSV to IEnumerable (or Array) in Linqpad](../linqpad/csv_to_array.md)
+- [Linqpad: Data Table to CSV](../linqpad/datatable_to_csv.md)
+- [Load or Save CSV with Powershell](../powershell/load_save_csv.md)
