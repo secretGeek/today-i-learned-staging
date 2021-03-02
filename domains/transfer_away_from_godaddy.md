@@ -1,18 +1,14 @@
 ﻿# Transfer Domain from godaddy to gandi
 
-
 `note` You can't transfer a domain twice within 60 days.
 
-
 ## Initiate at the losing registrar (GoDaddy)
-
 
 1. At GoDaddy -- click on your domains, click on the specific domain, that will take you to (for example...)
 
 		https://dcc.godaddy.com/control/example.com/settings
 
 	Scroll down to see that the admin details are correct (particular your email address, but all of the details.)
-
 
 2. Scroll down to "Manage DNS" - make sure it only has name servers, and take note of what the name servers are. (i.e. make sure the DNS is handled at the host, or by a DNS specific server, not by go daddy)
 
@@ -26,7 +22,6 @@
 
 	...and click "continue with transfer"
 
-
 4. On this new page you will click "continue with transfer" which will "[Unlock](https://en.wikipedia.org/wiki/Registrar-Lock)" your site, making transfer possible.
 
 	Transfer also relies on having an `EPP` code, also known as an [Auth-Code, authorization code, transfer code, or Auth-Info Code](https://en.wikipedia.org/wiki/Auth-Code) (EPP stands for "Extensible Provisioing Protocol") which works as a shared secret between the registrars, providng that the gaining and receiving registrants are in agreement. (So do not disclose an EPP!)
@@ -35,19 +30,15 @@
 
 Now it's time to go the "Gaining registrar" (i.e. gandi) - and initiate the transfer there.
 
-
 ## Initiate at the gaining registrar (Gandi)
-
 
 5. Go to [gandi.net](https://gandi.net) - the front page of the site - click the "transfer" button, enter your domain name (actually... copy paste it in -- don't type it!) and press enter.
 
 	![Gandi transfer](gandi_transfer_1.png)
 
-
 6. It should say "Example.com can be transferred to Gandi." (if the Unlock has already been performed). Add it to your shopping cart, then go to your shopping cart.
 
 7. Make sure the contact details look good, and are the contact details you want to use for this payment/transaction. (They do not have to be *identical* to the old details at the previous registrar and these are *not* the details that will be used for the domain registration itself... that's on the next screen), click `next` (or continue or whatever the button is)
-
 
 8. Some DNS things... if the old registrar only had name-servers specified, then gandi will copy that in, and you're all good.
 
@@ -61,11 +52,7 @@ Now it's time to go the "Gaining registrar" (i.e. gandi) - and initiate the tran
 
 11. If everything loooks good proceed with Payment and confirmation.
 
-
-
 ## Accept the transfer at the losing registrar (GoDaddy)
-
-
 
 12. You'll receive emails from Gandi confirming the purchase and from GoDaddy confirming that they've been asked to perform a transfer. Read the godaddy email carefully and you'll find you have two options: either wait 3 days for the process to be performed automatically - or immediately go to GoDaddy and confirm it.
 
@@ -85,25 +72,19 @@ Now it's time to go the "Gaining registrar" (i.e. gandi) - and initiate the tran
 
 Look at this!
 
-	![godaddy_transfer_successful](godaddy_transfer_successful.png) 
-
+	![godaddy_transfer_successful](godaddy_transfer_successful.png)
 
 13. Now you have to make sure the DNS is all correct. Good luck with that!
 
 	DNS used to scare me, but I like it now. *How did I get this way?*
 
-
-
-
 ## Appendix A: Godaddy's checklist
-
 
 > 1. Make sure your administrative contact email is current. (It's where we send your transfer authorization code.)
 > 2. Verify that the new registrar will set up your DNS zone files. If you don't do this, your website and email could go down.
 > 3. Start the domain transfer at your new registrar. (We email you to ensure you requested the transfer.)
 > 4. Authorize the transfer with your new registrar. (Use the transfer authorization code we email you when you're done here.)
 > 5. We email you confirmation when your transfer completes, usually not more than 5-7 days.
-
 
 ## See also
 

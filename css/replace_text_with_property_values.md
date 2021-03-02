@@ -1,12 +1,10 @@
-# Replace Text with Property Values
+﻿# Replace Text with Property Values
 
 This is a strange idea I had for a web developer tool.
 
 I've written a script that will replace every piece of text on a page with the value of any css property you select.
 
-
 **==Try it out==**{.select-here }
-
 
 For example, if you pick the property `font-family` then it will replace every heading, every paragraph, ever word, with the name of the font that is used in that part of the page.
 
@@ -23,12 +21,10 @@ You will be able to see the different **font-weight** of **bold** text and the d
 
 I'd like to wrap this technique into a `bookmarklet` (aka `favelet`) but not tonight.
 
-
 There are two key pieces of code:
 
 1. A tree walker (created with `document.createTreeWalker`) for visiting every element of the page, looking particularly for text
 2. The use of `getComputedStyle` to find the array of styles that have been applied to each piece of text. (Technically: to the parent of each piece of text)
-
 
 Here's the central function:
 
@@ -57,9 +53,7 @@ function replaceAllTextWithStylePropertyValue(propertyName) {
 }
 ```
 
-
 That's enough strangeness for one evening.
-
 
 <script>
 
@@ -83,7 +77,6 @@ function replaceAllTextWithStylePropertyValue(propertyName) {
 		}
 	}
 }
-
 
 function createPropertyList() {
 	let dd = htmlToElement('<div class="protected">Select Property <select name="propertyNames" id="propertyNames"></select></div>');
@@ -118,7 +111,6 @@ function addOption(props, text) {
 /*          #####          */
 /*            #            */
 
-
 function $(selector) {
 	return document.querySelectorAll(selector);
 }
@@ -135,7 +127,6 @@ function htmlToElement(html) {
 }
 
 
-
 /*            #            */
 /*          #####          */
 /*       ###########       */
@@ -144,7 +135,6 @@ function htmlToElement(html) {
 /* ## utility functions ## */
 /* ####################### */
 /* ####################### */
-
 
 
 

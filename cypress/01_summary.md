@@ -3,4 +3,4 @@
 
 ### content
 
-- [Getting Started with Cypress ](getting_started.md)
+- [Getting Started with Cypress](getting_started.md)

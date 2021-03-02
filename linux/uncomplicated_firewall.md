@@ -6,7 +6,7 @@ Just before (or immediately after) you've got nginx installed, it's time to thin
 
 Enable `ufw`, and allow these ports
 
- - 80, for inbound http requests, 
+ - 80, for inbound http requests,
  - and 22 for SSH, as follows:
 
 		sudo ufw enable;sudo ufw allow 22/tcp;sudo ufw allow 80/tcp

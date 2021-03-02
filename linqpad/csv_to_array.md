@@ -186,7 +186,6 @@ Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transf
 - [FileHelpers read file delimited](http://www.filehelpers.net/example/QuickStart/ReadFileDelimited/)
 - [ServiceStack](http://docs.servicestack.net/csv-format)
 
-
 ## See also
 
 - [Import CSV file to a Database, quickly](../csv/import_csv_to_db.md)

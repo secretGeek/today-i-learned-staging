@@ -60,26 +60,23 @@ If we try to write our own syntax highlighter, how do we know to highlight the t
 
 ## Answer, thanks to Lee Holmes and Doug Finke
 
-Lee -- 
+Lee --
 
 > You'll have to use the V3 API:
-> 
+>
 > $tokens = @()
 > $errors = @()
 > [System.Management.Automation.Language.Parser]::ParseInput('echo "$hello"; echo ''$hello''', [ref] $tokens, [ref] $errors)
 >
 > [@Lee_Holmes](https://twitter.com/Lee_Holmes/status/1303685263806181380?s=20)
 
-
 and Doug --
 
 > The "same" as `{'echo "$hello"; echo ''$hello'''}.ast` ?
-> 
+>
 > [@dfinke](https://twitter.com/dfinke/status/1303687569968857091?s=20)
 
-
 ## Using the newer V3 API:
-
 
 	[System.Management.Automation.Language.Parser]::ParseInput('echo "$hello"', [ref] $tokens, [ref] $errors) | out-null;
 	$tokens | format-table

@@ -1,11 +1,10 @@
-﻿# Getting Started with Cypress 
+﻿# Getting Started with Cypress
 
 Cypress is a test framework that automates a chromium browser, to provide "end to end/integration" tests of your application.
 
-Back in the olden times I used "WatiN" for this - which was based on "WatiR". Cypress goes a *lot* further.
+(Back in the olden times I used "WatiN" for this - which was based on "WatiR". Selenium is a more famous example. Cypress goes a *lot* further.)
 
-
-## Before we start 
+## Before we start
 
 First create a new web project (unless you want to add cypress to an existing app... but I assume you're really "getting started".)
 
@@ -15,19 +14,13 @@ Start here:
 
 ... and follow the prompts to create something. Anything. You'll see it's quite irrelevant, main thing is that you end up with a `package.json` file.
 
-
-
-
 	yarn add cypress --dev
 
 **or**
 
 	npm install cypress --save-dev
 
-
-
 ... first time around the step above took me `461.55s`, second time it took `12.78s`
-
 
 ## Start Cypress
 
@@ -43,21 +36,17 @@ Open it with any of these:
 
 	npx cypress open
 
-
 I see this...
 
 > It looks like this is your first time using Cypress: 6.5.0
 >
 > √  Verified Cypress! C:\Users\leonb\AppData\Local\Cypress\Cache\6.5.0\Cypress
 
-
 ![to help get you started](./to_help_get_you_started.png)
-
 
 It says "Try running the tests in examples folder" (we'll do that first)
 
 and it further recommends "add your own test files to `cypress/integration`"
-
 
 ## 1. running the tests in examples folder
 
@@ -98,7 +87,6 @@ Ideally it would give you more choices, for example it should show `vs code` as 
 
 </summary>
 
-
 - i'll check that it is in the system path, not just my user path. (see [Environment variables -- view/edit them on windows](../windows/environment_variables.md)
 
 Looks like I have it in the user section only under `C:\Users\MyUser\AppData\Local\Programs\Microsoft VS Code\bin`
@@ -120,15 +108,13 @@ I saw in the console it said:
 
 </details>
 
-
 ## Looking at `actions.spec.js`
 
-Looking through actions.spec.js is *glorious*. 
+Looking through actions.spec.js is *glorious*.
 
 It's a tour of some basic actions, and how you specify them in `cy` language.
 
 Here's a minimal test...
-
 
 	context('Actions', () => {
 		beforeEach(() => {
@@ -140,13 +126,12 @@ Here's a minimal test...
 			// https://on.cypress.io/type
 			cy.get('.action-email')
 				.type('fake@email.com').should('have.value', 'fake@email.com')
-			
+
 			// now click the submit button...
 			cy.get('#submit-button').click()
 
 		})
 	})
-
 
 ## Before adding our first test...
 
@@ -161,30 +146,23 @@ Here is the structure of the files that cypress has added to our project...
 
 These are all things that we can edit/change and will learn to change.
 
-
-
 ## 2. add our own test files to `cypress/integration`
 
-
-
-
-
+`todo` examples of our own tests. include assertions.
 
 ## External references
-
 
 - [Installing cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements)
 - [Writing Your First Test](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html)
 - [Testing Your App](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html)
 
-** Ancient Historical Journey **
+### Ancient Historical Journey
+
 - [Watir](https://secretgeek.net/watir_3mins) - from 2006...
 
-
-## see also
+## See also
 
 - [Node Package Manager -- some notes for beginners](../npm/getting_started.md)
 - [npx - a fun and simple npm package runner](../npm/npx.md)
 - [Install yarn on windows 2020](../yarn/install-yarn-on-windows-2020.md)
 - [Environment variables -- view/edit them on windows](../windows/environment_variables.md)
-

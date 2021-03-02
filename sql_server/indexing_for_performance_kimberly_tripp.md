@@ -119,12 +119,10 @@ Kimberly has a replacement for `sp_helpindex` - I think this is her latest versi
 
 
 
-
 ## External References
 
 - [Indexing for Performance Finding the Right Balance `PDF`](https://www.sqlskills.com/blogs/kimberly/content/binary/indexesrightbalance.pdf) &mdash; a 2004 pdf of earlier version of the course.
 - [USE THIS: sp_helpindex](https://www.sqlskills.com/blogs/kimberly/sp_helpindex-v20170228/) - Kimberly' replacement for `sp_helpindex`
-
 
 ## See also
 
