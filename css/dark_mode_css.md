@@ -119,3 +119,10 @@ Try it for yourself.
 
 - [mdn:Using CSS custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [mdn:prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
+
+## See also
+
+- [Test if Windows is using light/dark theme](../windows.forms/using_dark_theme.md)
+- [SSMS Dark Mode in SQL Server Management Studio](../sql_server/SSMS_Dark_Mode.md)
+- [Dark Theme in Notepad++](../notepad++/dark_theme_notepad++.md)
+- [Css Properties of Current Page](css_properties_of_current_page.md)

@@ -94,3 +94,8 @@ To determine the 'purpose' of a style, it makes assumptions based on the propert
 - Like '-shadow'? It's a shadow color.
 - Like '-bg'? It's a background color
 - Otherwise: it's a color.
+
+## See also
+
+- [How to implement dark mode with css](dark_mode_css.md)
+- [Replace Text with Property Values](replace_text_with_property_values.md)

@@ -81,17 +81,17 @@ We can allegedly open it in the ide....
 Ideally it would give you more choices, for example it should show `vs code` as an option for me since code is in my path variable.
 
 <details>
-<summary>
+<summary class='heading'>
 
 ## sidebar: trying to get it to load in `vs code`...
 
 </summary>
 
-- i'll check that it is in the system path, not just my user path. (see [Environment variables -- view/edit them on windows](../windows/environment_variables.md)
+I'll check that vs code is in the system `path`, not just "my user" `path`. (see [Environment variables -- view/edit them on windows](../windows/environment_variables.md)
 
-Looks like I have it in the user section only under `C:\Users\MyUser\AppData\Local\Programs\Microsoft VS Code\bin`
+Looks like I have it in the "user" section only under `C:\Users\MyUser\AppData\Local\Programs\Microsoft VS Code\bin`
 
-- Per one of the guides online I tried restarting, to see if it was suddenly, magically listed there.
+- Before addressing that, per one of the guides online I tried restarting, to see if it was suddenly, magically listed there.
 
 - That didn't work.
 
@@ -105,6 +105,9 @@ I saw in the console it said:
 	The editor process exited with an error: (code 1).
 
 ...now I went in to the settings, found the "File Opener Preference" and removed the double-quotes from around the value. Suddenly it worked! Ok... that was on me. Force of habit, that when a path contains spaces I surround it in double quotes.
+
+I still don't know if making sure VS Code was re-installed to be available for "all users" *and* listed in the system `PATH`, would be enough to have it appear in the first place.
+
 
 </details>
 
@@ -166,3 +169,9 @@ These are all things that we can edit/change and will learn to change.
 - [npx - a fun and simple npm package runner](../npm/npx.md)
 - [Install yarn on windows 2020](../yarn/install-yarn-on-windows-2020.md)
 - [Environment variables -- view/edit them on windows](../windows/environment_variables.md)
+
+<style>
+summary { outline-width: 0; cursor: pointer; }
+summary.heading { display: flex; align-items: flex-start; margin-top: 32px; }
+summary.heading h1, summary.heading h2, summary.heading h3 { margin-top: -.44em; }
+</style>

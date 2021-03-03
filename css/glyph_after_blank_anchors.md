@@ -11,5 +11,5 @@ I found a pure css solution, that didn't require altering the html at all.
 
 This means:
 
-	any a element with 'target="_blank"'
-	should have a small North East arrow after it.
+	any `<a>` element with `target="_blank"`
+	 - should have a small "North East Arrow" after it.

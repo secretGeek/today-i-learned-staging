@@ -56,7 +56,6 @@ function replaceAllTextWithStylePropertyValue(propertyName) {
 That's enough strangeness for one evening.
 
 <script>
-
 function replaceAllTextWithStylePropertyValue(propertyName) {
 	var walker = document.createTreeWalker(
 			document.body,  // root node
@@ -147,3 +146,7 @@ margin: 0 auto;
 text-align:center;
 }
 </style>
+
+## See also
+
+- [Css Properties of Current Page](css_properties_of_current_page.md)

@@ -6,9 +6,9 @@ I want to highlight (for example) any code element that says:
 
 ...but there is no CSS selector based on content. You cannot for example use:
 
-	code[text-content='todo'] { background-color:yellow; }
+	code[text-content='todo'] { background-color:yellow; } // this does not work!
 
-So instead, I look at the situations where I want to use this technique, and decide that I only want to use it in a few very narrow cases...
+So, instead, I look at the situations where I want to use this technique, and decide that I only want to use it in a few very narrow cases...
 
 1. inside code tags
 2. where a specific short piece of text/content is present.
@@ -119,6 +119,10 @@ Here are some custom short code style examples I use within this site:
 `easy` this should be easy
 
 ...with more to come.
+
+## See it in action
+
+I've implemented this javascript/css here on [til.secretgeek.net](/) but also at my wiki: [wiki.secretGeek.net](https://wiki.secretgeek.net).
 
 ## See also
 
