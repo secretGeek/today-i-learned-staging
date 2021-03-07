@@ -60,7 +60,7 @@ First put a class on all such images, for example `class='invertable'`, then app
 	}
 	</style>
 
-(I use this trick at the front page of [TIL.secretGeek.net](TIL.secretGeek.net).
+(I use this trick at the front page of [TIL.secretGeek.net](https://TIL.secretGeek.net).
 
 Also here is a poor man's dark mode trick... and it's slightly better than other versions of this idea I've seen elsewhere...
 

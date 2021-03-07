@@ -4,7 +4,7 @@ Okay - you can use google forms to write to google sheets, that's great but it g
 
 I've found these great examples of how it's done...
 
-See [capture email](.\capture-email.html) for a live example.
+See [capture email](capture_email.html) for a live example.
 
 	<!DOCTYPE html>
 	<html>

@@ -4,7 +4,7 @@ Of all the random alerts that Windows shows, this is one of the most annoying:
 
 > This file does not have a program associated with it for performing this action. Please install a program or, if one is already installed, create an association in the Default Programs control panel.
 
-![Program associated](./program_associated.png)
+![Program associated](program_associated.png)
 
 > This file
 

@@ -122,7 +122,7 @@ Here are some custom short code style examples I use within this site:
 
 ## See it in action
 
-I've implemented this javascript/css here on [til.secretgeek.net](/) but also at my wiki: [wiki.secretGeek.net](https://wiki.secretgeek.net).
+I've implemented this javascript/css here on [til.secretgeek.net](../) but also at my wiki: [wiki.secretGeek.net](https://wiki.secretgeek.net).
 
 ## See also
 

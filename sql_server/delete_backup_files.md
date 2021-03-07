@@ -1,6 +1,6 @@
 ﻿# Need to delete backup files?
 
-I did -- i had some adhoc .bak files taking up many gig. I remoted onto the server to delete them but I lacked the permission to perform the delete.
+I did! I had some adhoc `.bak` files taking up many gigglebytes. I remoted onto the server to delete them but I lacked the permission to perform the delete.
 
 For one horrible moment I thought I might need to contact the IT department.
 
@@ -24,10 +24,10 @@ To see available space use:
 
 ## Reference
 
- * [Stackoverflow: SQL Server xp_delete_file parameters](https://stackoverflow.com/questions/24582996/sql-server-xp-delete-file-parameters))
+- [Stackoverflow: SQL Server xp_delete_file parameters](https://stackoverflow.com/questions/24582996/sql-server-xp-delete-file-parameters))
 
 ## See also
 
- * [Backup restore script](backup_restore_script.md)
- * [How much space is left on the drives that my sql server can access?](drive_sizes.md)
- * [How much space does my DB use?](how_much_space_does_my_db_use.md)
+- [Backup restore script](backup_restore_script.md)
+- [How much space is left on the drives that my sql server can access?](drive_sizes.md)
+- [How much space does my DB use?](how_much_space_does_my_db_use.md)

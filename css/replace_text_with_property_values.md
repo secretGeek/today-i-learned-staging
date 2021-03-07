@@ -125,7 +125,6 @@ function htmlToElement(html) {
 	return template.content.firstChild;
 }
 
-
 /*            #            */
 /*          #####          */
 /*       ###########       */
@@ -134,7 +133,6 @@ function htmlToElement(html) {
 /* ## utility functions ## */
 /* ####################### */
 /* ####################### */
-
 
 
 createPropertyList();

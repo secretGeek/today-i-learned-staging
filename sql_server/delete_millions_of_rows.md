@@ -1,6 +1,6 @@
 ﻿# Deleting millions of rows from SQL Server
 
-So, you've [found large tables](.\find_large_tables.md) and now you want to trim them down to size... Not drop them them, just delete most of the rows, using some conditions.
+So, you've [found large tables](find_large_tables.md) and now you want to trim them down to size... Not drop them them, just delete most of the rows, using some conditions.
 
 If you run a:
 
@@ -80,10 +80,10 @@ So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
 
 ## Source
 
- * [Deleting 1 millions rows in SQL Server](http://stackoverflow.com/questions/24785439/deleting-1-millions-rows-in-sql-server)
+- [Deleting 1 millions rows in SQL Server](http://stackoverflow.com/questions/24785439/deleting-1-millions-rows-in-sql-server)
 
 ## See also
 
- * [Updating millions of rows from SQL Server](update_millions_of_rows.md)
- * [Find large tables](.\find_large_tables.md)
- * [Log Message Asynchronously](.\Log_Message_During_LongRunning_Proc.md)
+- [Updating millions of rows from SQL Server](update_millions_of_rows.md)
+- [Find large tables](find_large_tables.md)
+- [Log Message Asynchronously](Log_Message_During_LongRunning_Proc.md)

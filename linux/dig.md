@@ -2,7 +2,7 @@
 
 How to do a dns lookup on wsl2 windows subsystem for windows.
 
-(note -- if you want to see if a domain is registered, use [whois](./whois.md) instead)
+(note -- if you want to see if a domain is registered, use [whois](whois.md) instead)
 
 	dig google.com
 

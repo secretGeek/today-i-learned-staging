@@ -40,7 +40,7 @@ Here's a more complex example:
 			).Where(g => g.Count > 1).OrderByDescending(gg => gg.Variance_Height);
 	groups.Dump();
 
-![result is 1 row per name with many aggregated properties regarding that name and child rows: of type person, with name matching their parent group](linqpad\group_by.png)
+![result is 1 row per name with many aggregated properties regarding that name and child rows: of type person, with name matching their parent group](group_by.png)
 
 (Supporting code....
 

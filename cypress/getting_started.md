@@ -42,7 +42,7 @@ I see this...
 >
 > √  Verified Cypress! C:\Users\leonb\AppData\Local\Cypress\Cache\6.5.0\Cypress
 
-![to help get you started](./to_help_get_you_started.png)
+![to help get you started](to_help_get_you_started.png)
 
 It says "Try running the tests in examples folder" (we'll do that first)
 
@@ -52,7 +52,7 @@ and it further recommends "add your own test files to `cypress/integration`"
 
 - I clicked `action.spec.js` and chose `open in IDE`
 
-![run test 1](./run_test_1.png)
+![run test 1](run_test_1.png)
 
 Windows Firewall warned me about an app trying to talk to the internet - I said "it's ok" and allowed it to proceed.
 
@@ -107,7 +107,6 @@ I saw in the console it said:
 ...now I went in to the settings, found the "File Opener Preference" and removed the double-quotes from around the value. Suddenly it worked! Ok... that was on me. Force of habit, that when a path contains spaces I surround it in double quotes.
 
 I still don't know if making sure VS Code was re-installed to be available for "all users" *and* listed in the system `PATH`, would be enough to have it appear in the first place.
-
 
 </details>
 

@@ -316,5 +316,5 @@ The style info you set gets embedded into a `.ini` file here:
 
 ## See also
 
-* [dark theme notepad++](.\dark_theme_notepad++.md)
+* [dark theme notepad++](dark_theme_notepad++.md)
 * [How to use Markdown in Notepad++](https://superuser.com/questions/586177/how-to-use-markdown-in-notepad)

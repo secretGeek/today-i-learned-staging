@@ -2,7 +2,6 @@
 
 To give something a somewhat aged and very special feel....
 
-
 	historic {
 		background-color: #fCfCfC;
 		margin-top: 20px;

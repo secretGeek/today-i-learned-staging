@@ -54,4 +54,4 @@ When you want an object that is not [dynamic](version4.md#dynamic-binding) to ta
 ## See also
 
 - [Csharp version 4 adds the "Dynamic" feature](version4.md#dynamic-binding)
-- [Linqpad Dump Dynamic](../linqpad\dump_dynamic.md)
+- [Linqpad Dump Dynamic](../linqpad/dump_dynamic.md)

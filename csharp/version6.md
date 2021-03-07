@@ -4,19 +4,19 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 
 **Table of contents**
 
-* [readonly auto props](#readonly-auto-props)
-* [auto-property initializers](#auto-property-initializers)
-* [expression-bodied function members](#expression-bodied-function-members)
-* [using static](#using-static)
-* [null conditional operators](#null-conditional-operators)
-* [string interpolations](#string-interpolations)
-* [exception filters](#exception-filters)
-* [the nameof expression](#the-nameof-expression)
-* [await in catch and finally blocks](#await-in-catch-and-finally-blocks)
-* [index initializers](#index-initializers)
-* [extension `add` methods for collection initializers](#extension-add-methods-for-collection-initializers)
-* [improved overload resolution](#improved-overload-resolution)
-* [deterministic compiler option](#deterministic-compiler-option)
+- [readonly auto props](#readonly-auto-props)
+- [auto-property initializers](#auto-property-initializers)
+- [expression-bodied function members](#expression-bodied-function-members)
+- [using static](#using-static)
+- [null conditional operators](#null-conditional-operators)
+- [string interpolations](#string-interpolations)
+- [exception filters](#exception-filters)
+- [the nameof expression](#the-nameof-expression)
+- [await in catch and finally blocks](#await-in-catch-and-finally-blocks)
+- [index initializers](#index-initializers)
+- [extension `add` methods for collection initializers](#extension-add-methods-for-collection-initializers)
+- [improved overload resolution](#improved-overload-resolution)
+- [deterministic compiler option](#deterministic-compiler-option)
 
 ## readonly auto props
 
@@ -139,14 +139,14 @@ This single-expression method can be expressed (pun-intended) as an expression b
 
 This is very useful. For example you might reduce a simple controller to a bunch of one liners...
 
-    public class HomeController : Controller
-    {
-        protected readonly IDAL DAL;
-        public HomeController(IDAL dal) => this.DAL = dal;
-        public IActionResult Index() => View(DAL.GetNews());
-        public IActionResult About() => View();
-        public IActionResult Error() => View();
-    }
+	public class HomeController : Controller
+	{
+		protected readonly IDAL DAL;
+		public HomeController(IDAL dal) => this.DAL = dal;
+		public IActionResult Index() => View(DAL.GetNews());
+		public IActionResult About() => View();
+		public IActionResult Error() => View();
+	}
 
 Much less ceremonial typing than:
 
@@ -193,11 +193,11 @@ While Console is one of the most fun static classes, you can also do this for an
 
 And there are many members on `string` that are worth using, but note that this doesn't work:
 
-    using static string;
+	using static string;
 
 You need to use the real name:
 
-    using static System.String;
+	using static System.String;
 
 ...and you get firstclass access to `Join`, `IsEmptyOrWhiteSpace` and all your other friends.
 
@@ -229,17 +229,17 @@ And if it's a local static class, you need to give its fully qualified name, whi
 
 I've said [previously](https://secretgeek.net/cruel_compiler) that statements like this are basically `NullReferenceException` generators:
 
-    return Person.Manager.Manager.Employees[3].Manager.Name;
+	return Person.Manager.Manager.Employees[3].Manager.Name;
 
 And you'd be better off cutting this down to just:
 
-    throw new NullReferenceException();
+	throw new NullReferenceException();
 
 ...because somewhere in that chain of reasoning, some assumption will fail and it will all blow up.
 
 The remedy has previously been to write many lines of guarded clauses, asking effectively:
 
-    if person has a manager
+	if person has a manager
 	and that person's manager has a manager,
 	and that person's manager's manager has employees,
 	and that person's manager's manager's
@@ -256,7 +256,7 @@ The mechanical nature of all these kinds of checks implies that a "sufficiently 
 
 Well check out this ugly looking but wonderfully powerful construct, added in C#6... the null conditional operator!
 
-    return Person?.Manager?.Manager?.Employees[3]?.Manager.Name;
+	return Person?.Manager?.Manager?.Employees[3]?.Manager.Name;
 
 This will return *either* the result you're after, *or* `null`.
 
@@ -264,7 +264,7 @@ My inner grammarian hates the "question dot" ... i start twitching just seeing i
 
 Commonly it is combined with a coalescing operator, like this:
 
-    return Person?.Manager?.Manager?.Employees[3]?.Manager.Name ?? "Unknown";
+	return Person?.Manager?.Manager?.Employees[3]?.Manager.Name ?? "Unknown";
 
 Know it. Use it. Love it.
 
@@ -411,17 +411,17 @@ Ideally you'd use this in any place where you currently hard code the name of an
 
 Consider:
 
-* all the other Argument Exceptions Types
-  * ArgumentException
-  * ArgumentOutOfRangeException
-* Logging the current method, a variable etc.
-* Code in MVC Views that mention:
-  * Action Name
-  * Controller Name (this is a questionable, see below)
+- All the other Argument Exceptions Types
+	- ArgumentException
+	- ArgumentOutOfRangeException
+- Logging the current method, a variable etc.
+- Code in MVC Views that mention:
+	- Action Name
+	- Controller Name (this is a questionable, see below)
 
 ### Logging example with `nameof`
 
-    Console.WriteLine($"{nameof(i)} == {i}");
+	Console.WriteLine($"{nameof(i)} == {i}");
 
 ...and the "Caller info attributes" introduced in version 5 can be used for more context.
 
@@ -429,11 +429,11 @@ Consider:
 
 How can we remove the hard coding from this example?
 
-    @Html.ActionLink("Add sale", "Create", "Purchase")
+	@Html.ActionLink("Add sale", "Create", "Purchase")
 
 Instead of "Create" we can use
 
-    `nameof(PurchaseController.Create)`
+	`nameof(PurchaseController.Create)`
 
 (We may need to add using statement or specify the controller's namespace in a `_ViewImports.cshtml`)
 
@@ -470,7 +470,7 @@ What's happening here is that items are being added to the dictionary and one mu
 
 Try this amazing new syntax on for size...
 
-    var webErrors = new Dictionary<int, string>
+	var webErrors = new Dictionary<int, string>
 	{
 		[404] = "Page not Found",
 		[302] = "Page moved, but left a forwarding address.",
@@ -553,17 +553,17 @@ With c#6 you can also use extension methods to extend existing collection types 
 For example, let's extend dictionary...
 
 	public static class DicExtensions
-    {
-        public static void Add(this Dictionary<int, string> dic, int i)
-        {
-            dic.Add(i, "Number " + i.ToString());
-        }
+	{
+		public static void Add(this Dictionary<int, string> dic, int i)
+		{
+			dic.Add(i, "Number " + i.ToString());
+		}
 
-        public static void Add(this Dictionary<int, string> dic, int i, string separator, params string[] strings)
-        {
-            dic.Add(i, string.Join(separator, strings));
-        }
-    }
+		public static void Add(this Dictionary<int, string> dic, int i, string separator, params string[] strings)
+		{
+			dic.Add(i, string.Join(separator, strings));
+		}
+	}
 
 	var dic = new Dictionary<int, string> { 3, 4, 5 };
 

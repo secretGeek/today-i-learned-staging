@@ -88,5 +88,5 @@ Look at this!
 
 ## See also
 
-- [Developing .net core app and deploying to linux at digital ocean](/linux/digital_ocean.md) - some DNS discussion here
-- [Register a domain with zoho (aka DNS Text records at digitalocean such as DKIM)](/zoho/domain.md) - some DNS discussion here too
+- [Developing .net core app and deploying to linux at digital ocean](../linux/digital_ocean.md) - some DNS discussion here
+- [Register a domain with zoho (aka DNS Text records at digitalocean such as DKIM)](../zoho/domain.md) - some DNS discussion here too

@@ -1,4 +1,4 @@
-# Detect File Encoding (with Powershell)
+﻿# Detect File Encoding (with Powershell)
 
 As described in [.net: Detect the encoding of a file](../.net/detect_text_encoding.md) this is a real *doozy*.
 
