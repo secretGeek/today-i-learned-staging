@@ -28,7 +28,6 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * .md (2 files)
  * .msc (2 files)
  * .ocx (2 files)
- *  (1 files)
  * .2 (1 files)
  * .20200913092922 (1 files)
  * .cfg (1 files)

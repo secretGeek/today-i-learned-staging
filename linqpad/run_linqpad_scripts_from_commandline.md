@@ -10,19 +10,19 @@ Sounds promising. When reinstalling I saw the option (which was not selected by 
 
 And indeed after installing and restarting powershell:
 
-    > (Get-Command lprun).Source
-    C:\Program Files (x86)\LINQPad4\LPRun.exe
+	> (Get-Command lprun).Source
+	C:\Program Files (x86)\LINQPad4\LPRun.exe
 
 And...
 
-    > $env:PATH.split(";")
-    ...
-    C:\Program Files (x86)\LINQPad4
-    ...
+	> $env:PATH.split(";")
+	...
+	C:\Program Files (x86)\LINQPad4
+	...
 
 Thereafter if i run:
 
-    lprun .\calendar.linq
+	lprun .\calendar.linq
 
 ...it works as expected.
 
@@ -30,8 +30,8 @@ I've now wrapped this behavior up into the powershell commandlet [Invoke-LinqPad
 
 ## Source
 
- * <https://www.linqpad.net/lprun.aspx>
+- <https://www.linqpad.net/lprun.aspx>
 
-## See Also
+## See also
 
- * [Invoke-PowershellScript](invoke_linqpad_commandlet.md)
+- [Invoke-PowershellScript](invoke_linqpad_commandlet.md)

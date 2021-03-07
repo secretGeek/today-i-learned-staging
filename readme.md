@@ -27,7 +27,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 - [thoughbot inc.'s til](https://github.com/thoughtbot/til)
 - [Jake Worth's til](https://github.com/jwworth/til)
 
-## See Also
+## See also
 
 - [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
 - [secretGeek.net](https://secretGeek.net) &mdash; my blog
@@ -78,7 +78,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [games](games/01_summary.md) | 2 articles |
  | [git](git/01_summary.md) | 22 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
- | [github](github/01_summary.md) | 1 article |
+ | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [go](go/01_summary.md) | 1 article |
  | [google](google/01_summary.md) | 12 articles |
@@ -153,6 +153,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [web](web/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 16 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
+ | [winget](winget/01_summary.md) | 1 article |
  | [winword](winword/01_summary.md) | 1 article |
  | [wordle](wordle/01_summary.md) | 1 article |
  | [wordpress](wordpress/01_summary.md) | 1 article |
@@ -162,5 +163,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-660 articles
-168911 words
+662 articles
+169989 words

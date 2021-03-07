@@ -8,21 +8,21 @@ They both expose commands called install-module and probably some others that co
 
 If you have PsGet, and you want Microsoft's PowershellGet to work you have to remove PsGet.
 
-    > Get-Command Install-Module
+	> Get-Command Install-Module
 
-    CommandType     Name                                               Version    Source
-    -----------     ----                                               -------    ------
-    Function        Install-Module                                     0.0        PsGet
+	CommandType     Name                                               Version    Source
+	-----------     ----                                               -------    ------
+	Function        Install-Module                                     0.0        PsGet
 
 The first clue I had that this problem was occurring was due to these errors:
 
-    > Install-Module -Name NPMTabCompletion
-    Install-Module : A parameter cannot be found that matches parameter name 'Name'.
+	> Install-Module -Name NPMTabCompletion
+	Install-Module : A parameter cannot be found that matches parameter name 'Name'.
 
 And
 
-    > Install-Module NPMTabCompletion
-    Module NPMTabCompletion was not found in central repository
+	> Install-Module NPMTabCompletion
+	Module NPMTabCompletion was not found in central repository
 
 I didn't realise this was a problem, because although PsGet has a 'central repository' (mentioned above) the front page of Powershell Gallery uses those same magic words:
 
@@ -32,26 +32,26 @@ To remove PsGet:
 
 Go to:
 
-    "$home\Documents\WindowsPowerShell\Modules"
+	"$home\Documents\WindowsPowerShell\Modules"
 
-    (e.g. C:\Users\Agatha\Documents\WindowsPowerShell\Modules)
+	(e.g. C:\Users\Agatha\Documents\WindowsPowerShell\Modules)
 
 And *delete* the PsGet folder. (Or move it somewhere far away if that makes you more comfortable)
 
 Now when you type:
 
-    which install-module
+	which install-module
 
 Expect to see:
 
-    CommandType     Name                                               Version    Source
-    -----------     ----                                               -------    ------
-    Function        Install-Module                                     1.0.0.1    PowerShellGet
+	CommandType     Name                                               Version    Source
+	-----------     ----                                               -------    ------
+	Function        Install-Module                                     1.0.0.1    PowerShellGet
 
 ## Source
 
- * http://superuser.com/questions/996417/what-is-install-module-command-in-powershell
+- http://superuser.com/questions/996417/what-is-install-module-command-in-powershell
 
-## See Also
+## See also
 
- * More about [package/module commands](../powershell/module_commands.md)
+- More about [package/module commands](../powershell/module_commands.md)

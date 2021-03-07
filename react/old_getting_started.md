@@ -2,10 +2,10 @@
 
 React concepts:
 
- * JSX
- * components
- * virtual DOM
- * props
+- JSX
+- components
+- virtual DOM
+- props
 
 Reacts.js is: A javascript library, from facebook, for building user interfaces (in HTML).
 
@@ -20,7 +20,7 @@ Start by getting the code.
 	> npm install  # ..may have to run that multiple times!!
 	> npm start
 
-    # Now browse to http://localhost:3000 ...
+	# Now browse to http://localhost:3000 ...
 
 This example runs a local webserver (using node). (start, in this case, is an [npm script](../npm/npm_run_scripts.md) in the `package.json` file). The part we're interested in examining is the front end app, not what happens on the server. But I've been looking in the server (a file `server.js`) just long enough to see that:
 
@@ -157,10 +157,10 @@ In any case, we had to explicitly add such a handler, demonstrating that two-way
 
 ## Source
 
- - https://facebook.github.io/react/docs/tutorial.html
+- https://facebook.github.io/react/docs/tutorial.html
 
-## See Also
+## See also
 
- - `npm` &mdash; to install: see [install npm](../npm/install_npm.md)
- - `browserify` &mdash; to install: `npm install -g browserify`
- - [javascript 1.7](javascript_1.7.md)
+- `npm` &mdash; to install: see [install npm](../npm/install_npm.md)
+- `browserify` &mdash; to install: `npm install -g browserify`
+- [javascript 1.7](javascript_1.7.md)

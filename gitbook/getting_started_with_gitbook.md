@@ -8,17 +8,17 @@ Create a new repo at github. It will need at least 2 files: `Summary.md` and `re
 
 So it looks like this (for example)
 
-    # Summary
+	# Summary
 
-    * asp.net mvc
-        * [clear caches](../asp.net_mvc/clear_caches.md)
-        * [elmah](../asp.net_mvc/elmah.md)
-        * [from memory](../asp.net_mvc/from_memory.md)
-        * [helpful error page](../asp.net_mvc/helpful_error_page.md)
-        * [return 404](../asp.net_mvc/return_404.md)
-        * [serve some static files from mvc but not all](../asp.net_mvc/serve_some_static_files_from_mvc_but_not_all.md)
-    * git
-         * [how to git](../git/how_to_git.md)
+	- asp.net mvc
+		- [clear caches](../asp.net_mvc/clear_caches.md)
+		- [elmah](../asp.net_mvc/elmah.md)
+		- [from memory](../asp.net_mvc/from_memory.md)
+		- [helpful error page](../asp.net_mvc/helpful_error_page.md)
+		- [return 404](../asp.net_mvc/return_404.md)
+		- [serve some static files from mvc but not all](../asp.net_mvc/serve_some_static_files_from_mvc_but_not_all.md)
+	- git
+		- [how to git](../git/how_to_git.md)
 
 I generate that file using [pre](https://github.com/secretGeek/pre) though it's easy enough to generate with a bit of powershell.
 
@@ -32,8 +32,8 @@ You can also generate a gitbook and preview it locally -- see [use gitbook local
 
 (Not recommended: writing/editing the content directly at gitbook.com:  that won't work out over time. Better to use a full repo from the start)
 
-## See Also
+## See also
 
- * [To have your gitbook updated whenever you push to a github repo](web_hooks.md)
- * [Use gitbook locally](use_gitbook_locally.md)
- * [Host a gitbook on a custom subdomain](host_on_custom_subdomain.md)
+- [To have your gitbook updated whenever you push to a github repo](web_hooks.md)
+- [Use gitbook locally](use_gitbook_locally.md)
+- [Host a gitbook on a custom subdomain](host_on_custom_subdomain.md)

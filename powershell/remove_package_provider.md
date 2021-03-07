@@ -34,18 +34,18 @@ Either nuget package provider switched from one location to another some time be
 
 These are the two different commands I used for installing it
 
-    Install-PackageProvider -Name NuGet -Force
-    (installed 2.8.5.127)
+	Install-PackageProvider -Name NuGet -Force
+	(installed 2.8.5.127)
 
-    Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
-    (installed 2.8.5.201)
+	Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+	(installed 2.8.5.201)
 
 I may have used a `-ForceBootstrap` parameter in there too, just for fun.
 
 ## Source:
 
- * http://stackoverflow.com/questions/32508133/powershell-packagemanagement-how-to-uninstall-a-package-provider
+- http://stackoverflow.com/questions/32508133/powershell-packagemanagement-how-to-uninstall-a-package-provider
 
-## See Also
+## See also
 
- * More about [package/module commands](../powershell/module_commands.md)
+- More about [package/module commands](../powershell/module_commands.md)

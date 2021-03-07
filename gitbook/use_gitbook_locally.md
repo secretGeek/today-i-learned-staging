@@ -38,7 +38,7 @@ You can output as `html`, `pdf`, `epub` or `mobi`.
 
 	gitbook help
 
-## See Also
+## See also
 
 - [Getting started with gitbook](getting_started_with_gitbook.md)
 - [To have your gitbook updated whenever you push to a github repo](web_hooks.md)

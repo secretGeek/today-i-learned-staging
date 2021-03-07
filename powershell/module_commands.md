@@ -23,7 +23,7 @@
 
 `todo` How to add a path such that it shows up in `$env:PSModulePath`
 
-## See Also
+## See also
 
  - [Use Get-Module to list all available modules (packages)](Get_All_Available_Modules.md)
  - [How To Completely Remove a Module](how_to_completely_remove_a_module.md)

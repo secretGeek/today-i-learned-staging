@@ -16,6 +16,6 @@ Right clicking on the file in explorer, and viewing properties, I expected to se
 
 The trick was... it was a 0 byte file! It had been created but never populated. So I deleted the file, and all was good.
 
-## See Also
+## See also
 
 - [create profile](create_profile.md)

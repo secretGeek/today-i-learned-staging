@@ -2,23 +2,25 @@
 
 List all four like this:
 
-    $profile | get-member -type noteproperty | ft -prop Name, Definition
+	$profile | get-member -type noteproperty | ft -prop Name, Definition
 
 result:
 
-    Name                   Definition
-    ----                   ----------
-    AllUsersAllHosts       string AllUsersAllHosts=C:\Windows\System32\WindowsPowerShell\v1.0\profile.ps1
-    AllUsersCurrentHost    string AllUsersCurrentHost=C:\Windows\System32\WindowsPowerShell\v1.0\Microsoft.PowerShell_profile.ps1
-    CurrentUserAllHosts    string CurrentUserAllHosts=C:\Users\Agatha\Documents\WindowsPowerShell\profile.ps1
-    CurrentUserCurrentHost string CurrentUserCurrentHost=C:\Users\Agatha\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+```plaintext
+Name                   Definition
+----                   ----------
+AllUsersAllHosts       string AllUsersAllHosts=C:\Windows\System32\WindowsPowerShell\v1.0\profile.ps1
+AllUsersCurrentHost    string AllUsersCurrentHost=C:\Windows\System32\WindowsPowerShell\v1.0\Microsoft.PowerShell_profile.ps1
+CurrentUserAllHosts    string CurrentUserAllHosts=C:\Users\Agatha\Documents\WindowsPowerShell\profile.ps1
+CurrentUserCurrentHost string CurrentUserCurrentHost=C:\Users\Agatha\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+```
 
 And they are listed in the order in which they are loaded (if they are present that is)
 
- - AllUsersAllHosts      This profile applies to all users and all shells. (i.e. in Powershell, in ISE, in third party consoles.)
- - AllUsersCurrentHost   This profile applies to all users, but only in the WindowsPowerShell host. (i.e. not loaded if you are in ISE or in a third party host, unless they've gone to extra effort.)
- - CurrentUserAllHosts   This profile applies to the current user, regardless of what shell you are using.
- - CurrentUserCurrentHost   This profile applies to the current user and the current host (WindowsPowerShell) only. (i.e. not loaded if you are in ISE or in a third party host, unless they've gone to extra effort.)
+- `AllUsersAllHosts` - This profile applies to all users and all shells. (i.e. in Powershell, in ISE, in third party consoles.)
+- `AllUsersCurrentHost` - This profile applies to all users, but only in the WindowsPowerShell host. (i.e. not loaded if you are in ISE or in a third party host, unless they've gone to extra effort.)
+- `CurrentUserAllHosts` - This profile applies to the current user, regardless of what shell you are using.
+- `CurrentUserCurrentHost` - This profile applies to the current user and the current host (WindowsPowerShell) only. (i.e. not loaded if you are in ISE or in a third party host, unless they've gone to extra effort.)
 
 ## Create new file, use:
 
@@ -42,6 +44,6 @@ Or:
 
 	inurl:profile.ps1
 
-## See Also
+## See also
 
- - [Create profile](create_profile.md)
+- [Create profile](create_profile.md)
