@@ -144,7 +144,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [trello](trello/01_summary.md) | 1 article |
  | [tutorials](tutorials/01_summary.md) | 1 article |
  | [twitter](twitter/01_summary.md) | 1 article |
- | [typescript](typescript/01_summary.md) | 1 article |
+ | [typescript](typescript/01_summary.md) | 2 articles |
  | [usql](usql/01_summary.md) | 1 article |
  | [ux](ux/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
@@ -163,5 +163,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-662 articles
-169989 words
+663 articles
+171049 words
