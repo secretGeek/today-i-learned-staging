@@ -75,6 +75,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 4 articles |
  | [firebird](firebird/01_summary.md) | 1 article |
+ | [functions](functions/01_summary.md) | 1 article |
  | [games](games/01_summary.md) | 2 articles |
  | [git](git/01_summary.md) | 22 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
@@ -117,7 +118,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 96 articles |
+ | [powershell](powershell/01_summary.md) | 98 articles |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -151,6 +152,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
  | [vs code](vs_code/01_summary.md) | 8 articles |
  | [web](web/01_summary.md) | 1 article |
+ | [webview2](webview2/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 16 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
  | [winget](winget/01_summary.md) | 1 article |
@@ -163,5 +165,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-663 articles
-171049 words
+667 articles
+181228 words

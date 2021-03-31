@@ -3,6 +3,7 @@
 
 ### content
 
+- [Add Dates in Powershell](add_date.md)
 - [Add note property to object in pipeline](add_property_to_object_along_pipeline.md)
 - [Alias: a guide to powershell and aliases](alias.md)
 - [All Emoji returned by Emoji Module](emoji_list.md)
@@ -58,6 +59,7 @@
 - [How to rename photos, using EXIF data (with powershell)](rename_photos.md)
 - [In powershell you don't have 1 profile, you have 4 different ones](profile_4_different_ones.md)
 - [Is this 64 or 32 bit PowerShell today?](is_this_64_or_32_bit_powershell_today.md)
+- [JSON: reading and writing JSON with Powershell](json_read_write.md)
 - [Load or Save CSV with Powershell](load_save_csv.md)
 - [Match Operator Examples](match_examples.md)
 - [Maximum of two values (or minimum)](max_of_two_values.md)

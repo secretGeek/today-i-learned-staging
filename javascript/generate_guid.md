@@ -1,6 +1,8 @@
 ﻿# Javascript function to generate a guid
 
-As seen at [HotGuids](https://secretgeek.net/hotGuids/index.htm)
+As seen at [HotGuids](https://secretgeek.net/hotGuids/index.htm) and now included in NimbleText.
+
+The most widely exploited, non randomly pristine implementation of "new-guid" -- code that will outlast all of us.
 
 	function S4() {
 	   return (((1+Math.random())*0x10000)|0).toString(16).substring(1);

@@ -122,7 +122,7 @@ Choices under 'target' are currently:
 * ES2017
 * ESNext
 
-Knowing what these mysterious things mean is part of the magic of being a web developer in 2017. Know one knows the whole path around the elephant.
+Knowing what these mysterious things mean is part of the magic of being a web developer in 2017. No won nose the whole path around the elephant.
 
 ## Configure a task runner in vs code
 
