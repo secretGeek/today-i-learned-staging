@@ -13,6 +13,9 @@ The output you hopefully see is:
 
 > Switched to a new branch 'new-branch'
 
+
+	git push -u origin $name
+
 ## References
 
 - [How To Create A GIT Branch With Your Current Changes](https://medium.com/@EeKayOnline/how-to-create-a-git-branch-with-your-current-changes-a79b297c339e)

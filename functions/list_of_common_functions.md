@@ -1,7 +1,5 @@
 # Function Research
 
-
-
 ## Categories Comparison
 
 ## Categories Appearing in More than one place
@@ -884,7 +882,6 @@ Here's some things they have (those these are all standalone...)
 
 
 ### String Functions
-
 
 - `ASCII`	Returns the ASCII value for the specific character
 - `CHAR`	Returns the character based on the ASCII code

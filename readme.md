@@ -73,9 +73,10 @@ Though this site is published as a free digital-only book, I've also published a
  | [domains](domains/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 3 articles |
+ | [examples](examples/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 4 articles |
  | [firebird](firebird/01_summary.md) | 1 article |
- | [functions](functions/01_summary.md) | 1 article |
+ | [functions](functions/01_summary.md) | 2 articles |
  | [games](games/01_summary.md) | 2 articles |
  | [git](git/01_summary.md) | 22 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
@@ -118,7 +119,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 98 articles |
+ | [powershell](powershell/01_summary.md) | 100 articles |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -165,5 +166,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-667 articles
-181228 words
+673 articles
+182561 words
