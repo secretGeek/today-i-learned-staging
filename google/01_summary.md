@@ -13,5 +13,6 @@
 - [FileType](search_by_file_extension.md)
 - [Google Chrome: Design Mode = ON let's you edit inline](chrome_design_mode.md)
 - [How to find your largest files in gmail](largest_files_in_gmail.md)
+- [How to get the most out of chrome profiles](chrome_profiles.md)
 - [Post to google sheets from javascript](post_to_google_sheets.md)
 - [Reopen closed tabs in google chrome](chrome_reopen_closed_tabs.md)

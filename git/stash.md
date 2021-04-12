@@ -1,5 +1,11 @@
 ﻿# git stash: very useful
 
+tl/dr:
+
+	git stash # to store your current uncommited changes
+	# then pull/or switch branch
+	git stash pop # apply/merge the changes you stashed
+
 It's nice to have clean commits and branches and so on.
 
 One tool that helps with this is `stash`

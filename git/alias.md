@@ -44,6 +44,8 @@ Aliases from my `~\.gitconfig` file:
 		alias = config --get-regexp alias
 		#ooutgoing = log --branches --not --remotes=origin
 		#oout = ooutgoing
+	[url "https://secretGeek@github.com"]
+		insteadOf = https://github.com
 
 
 ## See also

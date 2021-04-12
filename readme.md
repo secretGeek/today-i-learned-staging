@@ -83,7 +83,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [go](go/01_summary.md) | 1 article |
- | [google](google/01_summary.md) | 12 articles |
+ | [google](google/01_summary.md) | 13 articles |
  | [graphics](graphics/01_summary.md) | 9 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [habits](habits/01_summary.md) | 1 article |
@@ -166,5 +166,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-673 articles
-182561 words
+674 articles
+182757 words
