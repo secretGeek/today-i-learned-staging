@@ -89,6 +89,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [habits](habits/01_summary.md) | 1 article |
  | [html](html/01_summary.md) | 6 articles |
  | [http](http/01_summary.md) | 1 article |
+ | [http2](http2/01_summary.md) | 1 article |
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
@@ -167,5 +168,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-676 articles
-183433 words
+677 articles
+183640 words
