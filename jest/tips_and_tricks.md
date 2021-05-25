@@ -44,11 +44,39 @@ wrap the render in an `act` so that the whole thing really must finish before th
 
 You can output/log what the `screen` holds with `screen.debug`
 
+
+
 ## get/find/query -- which is what?
 
 ![Get/Find/Query in cheat sheet](./get_find_query_cheatsheet.png)
 
 &mdash;[source - '#Queries' in cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet#queries))
+
+
+
+## Fix "overlapping act() calls" warning
+
+I saw this warning being produced by some test:
+
+	Warning: You seem to have overlapping act() calls, this is not supported. Be sure to await previous act() calls before making a new one
+
+
+The problem in this case was lines of code that just said:
+
+
+	screen.findByText("testEmail@email.com");
+
+...all of the `.find` methods are async, and must be awaited. (this includes `findBy*` and `findAllBy`)
+
+So it needed to become:
+
+	await screen.findByText("testEmail@email.com");
+
+or the synchronous alternative:
+
+	screen.queryByText("testEmail@email.com");
+
+
 
 ## Sources
 

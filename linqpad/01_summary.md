@@ -16,4 +16,5 @@
 - [Invoke a LinqPad Script with Invoke-LinqPadScript CommandLet](invoke_linqpad_commandlet.md)
 - [Log Helper for Linqpad](log_helper_for_linqpad.md)
 - [Offline registration](offline_registration.md)
+- [Play with Entity Framework 6 from Linqpad](EF_6_from_Linqpad.md)
 - [Run Linqpad scripts from the command-line](run_linqpad_scripts_from_commandline.md)

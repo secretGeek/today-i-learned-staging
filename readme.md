@@ -74,11 +74,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 3 articles |
  | [examples](examples/01_summary.md) | 3 articles |
- | [excel](excel/01_summary.md) | 4 articles |
+ | [excel](excel/01_summary.md) | 6 articles |
+ | [f-sharp](f-sharp/01_summary.md) | 1 article |
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 2 articles |
  | [games](games/01_summary.md) | 2 articles |
- | [git](git/01_summary.md) | 22 articles |
+ | [git](git/01_summary.md) | 23 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
@@ -99,7 +100,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [json](json/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
- | [linqpad](linqpad/01_summary.md) | 14 articles |
+ | [linqpad](linqpad/01_summary.md) | 15 articles |
  | [linux](linux/01_summary.md) | 39 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
@@ -110,10 +111,11 @@ Though this site is published as a free digital-only book, I've also published a
  | [mercurial](mercurial/01_summary.md) | 21 articles |
  | [microsoft terminal](microsoft_terminal/01_summary.md) | 2 articles |
  | [minecraft](minecraft/01_summary.md) | 3 articles |
+ | [mstsc](mstsc/01_summary.md) | 1 article |
  | [music](music/01_summary.md) | 13 articles |
  | [neo4j](neo4j/01_summary.md) | 1 article |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
- | [node](node/01_summary.md) | 2 articles |
+ | [node](node/01_summary.md) | 3 articles |
  | [notepad++](notepad++/01_summary.md) | 14 articles |
  | [npm](npm/01_summary.md) | 11 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
@@ -121,10 +123,10 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 100 articles |
+ | [powershell](powershell/01_summary.md) | 101 articles |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
- | [react](react/01_summary.md) | 2 articles |
+ | [react](react/01_summary.md) | 3 articles |
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [robocopy](robocopy/01_summary.md) | 1 article |
@@ -137,7 +139,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 2 articles |
- | [sql server](sql_server/01_summary.md) | 68 articles |
+ | [sql server](sql_server/01_summary.md) | 69 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -168,5 +170,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-677 articles
-183640 words
+687 articles
+185836 words

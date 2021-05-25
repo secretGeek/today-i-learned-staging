@@ -10,7 +10,7 @@
 
 Currently something like.... (this is dynamically loaded from util)
 
-	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx"
+	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx", "*.targets";
 	
 	## Commands:
 	## findtext $pattern                       <-- search all text type files for a particular regex
@@ -184,7 +184,9 @@ Currently something like.... (this is dynamically loaded from util)
 	
 	function list-functions () {
 	
-	    find-text "^\s*function( )" | % { New-Object psobject -property  @{
+	
+	    #find-text "^\s*function( )" | % { New-Object psobject -property  @{
+			find-text "^\s*function(.*)" $true ".\" $false $false| % { New-Object psobject -property  @{
 	            FileName     = $_.FileName;
 	            FunctionName = ($_.Line -split '[ (]')[1] 
 	        } } | ? { $_.FunctionName -ne '' }

@@ -10,11 +10,21 @@ And used this command to achieve it:
 
 	cls; while ($true) { dir . *.* -recurse | measure | % Count; start-sleep -seconds 5; }
 
+## Poll File Size
+
 This example will show you the file size, every second (expressed in GB)
+
 
     while($true) { dir *wellsrv* | % { $_.Length / 1gb; sleep 1} }
 
-Here's one that shows the current time, the file name and size every 20 seconds
+## Poll disk space
+
+	while($true) { get-psdrive c | % { $_.Free / 1GB; sleep 3} }
+
+
+## Poll Current Time, FileName and Size
+
+Here's one that shows the current time, the file name and size every 30 seconds
 
 	while($true) { dir outputlog.txt | % {
 				"" +  (get-date -f "yyyy-MM-dd HH:mm:ss") +
@@ -24,6 +34,9 @@ Here's one that shows the current time, the file name and size every 20 seconds
 				sleep 30
 				}
 	}
+
+
+## Poll Space Used and remaining
 
 Here's one that shows how much space is left on the drive...
 
@@ -38,4 +51,4 @@ Here's one that shows how much space is left on the drive...
 
 ## See also
 
-* [example of using 'watch' in linux](../linux/how_much_memory_is_free.md)
+- [example of using 'watch' in linux](../linux/how_much_memory_is_free.md)

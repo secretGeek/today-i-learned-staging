@@ -75,6 +75,7 @@
 - [Powershell prompt](prompt.md)
 - [PsGet Conflicts with PowershellGet](psget_conflicts_with_PowerShellGet.md)
 - [Refresh environment variables](refresh_environment_variables.md)
+- [regex with powershell - only a few things you need to know to get you started](regex_with_powershell.md)
 - [Rename all files and folders to lower case](Rename_to_lower_case.md)
 - [Rename with Force](rename_with_force.md)
 - [Repeat every n seconds forever](repeat_every_n_seconds_forever.md)

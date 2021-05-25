@@ -158,7 +158,7 @@ With `props` -- we can use a special `props.children` property to return *any* a
 
 e.g.
 
-imagine we want to nest various different things inside special, propietary "cool looking rounded box"
+imagine we want to nest various different things inside our special, proprietary "cool looking rounded box"
 
 We can implement the cool looking rounded box like this ---
 
@@ -166,7 +166,7 @@ We can implement the cool looking rounded box like this ---
 		return <div className="my-cool-looking-rounded-box">{props.children}</div>;
 	}
 
-...and then reuse it to, with *any* contain inside it....  perhaps in one place it has this....
+...and then reuse it, with *any* content inside it....  perhaps in one place it has this....
 
 	return <MyCoolContainer><h2>Hello!</h2><p>Welcome to new york.</p></MyCoolContainer>;
 
@@ -367,6 +367,82 @@ Clicking that info takes you to [this page about what to do to get it into produ
 >	npm run build
 
 > This will create a production build of your app in the build/ folder of your project.
+
+
+## Playground....
+
+
+This online playground gives you a lightweight place to try out small parts of how react works.
+
+https://jscomplete.com/playground
+
+
+
+
+Here's a beginner program....
+
+
+	function CowButton() {
+		const [counter, setCounter] = useState(0);
+		return <button onClick={() => setCounter(counter+1)}>
+				🐄 "Click Me!" (clicks so far:{counter})
+			</button>
+	}
+
+	ReactDOM.render(
+		<CowButton />,
+		document.getElementById('mountNode'),
+	);
+
+
+The `onClick` function can be factored into a handler on the CowButton instead... 
+
+
+	function CowButton() {
+		const [counter, setCounter] = useState(0);
+		const handleClick = () => setCounter(counter+1);
+		return <button onClick={handleClick}>
+				🐄 "Click Me!" (clicks so far:{counter})
+			</button>
+	}
+
+	ReactDOM.render(
+		<CowButton />,
+		document.getElementById('mountNode'),
+	);
+
+
+Ok, nicer, but that `CowButton` really has too many responsibilities.
+
+Let's have two components, one for the clicking and one for saying how many clicks.
+
+	function CowButton(props) {
+	 return <button onClick={() => props.onClickFunction(props.amount)}>
+			🐄 Click me! (+{props.amount})
+		</button>
+	}
+	function DisplayClicks(props) {
+		return (<div>Moo! {props.message} clicks!</div>);
+	}
+
+	function App() {
+		const [counter, setCounter] = useState(0);
+		const incrementCounter = (amount) => setCounter(counter+amount);
+		return (
+			<div>
+				<CowButton onClickFunction={incrementCounter} amount={2} />
+				<DisplayClicks message={counter} />
+			</div>
+		);
+	}
+
+	ReactDOM.render(
+		<App />,
+		document.getElementById('mountNode'),
+	);
+
+
+
 
 ## Reference
 
