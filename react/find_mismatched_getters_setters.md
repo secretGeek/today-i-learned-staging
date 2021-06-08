@@ -22,7 +22,7 @@ I've been checking for this one using powershell...
 ... (relies on my `find-text` scriptlet)
 
 
-And here is a case sensitive version that further picks up errors *only* in the case....
+And here is a case-sensitive version that also further picks up pure capitalization errors....
 
 	const [isPotato, setIsPoTato] = useState<boolean>(false);
 
@@ -33,4 +33,4 @@ None of them would pick this up though...
 
 	const [isPotato, setisPotato] = useState<boolean>(false);
 
-...that's on you!
+...that's a challenge for you at home.

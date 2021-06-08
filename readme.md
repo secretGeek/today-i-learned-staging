@@ -73,6 +73,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [domains](domains/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 3 articles |
+ | [Entity Framework](Entity_Framework/01_summary.md) | 1 article |
  | [examples](examples/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 6 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
@@ -126,12 +127,13 @@ Though this site is published as a free digital-only book, I've also published a
  | [powershell](powershell/01_summary.md) | 101 articles |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
+ | [questions](questions/01_summary.md) | 1 article |
  | [react](react/01_summary.md) | 3 articles |
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [robocopy](robocopy/01_summary.md) | 1 article |
  | [r language](r_language/01_summary.md) | 1 article |
- | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 2 articles |
+ | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 3 articles |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
  | [sharepoint](sharepoint/01_summary.md) | 2 articles |
  | [sleep](sleep/01_summary.md) | 4 articles |
@@ -170,5 +172,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-687 articles
-185836 words
+690 articles
+186199 words

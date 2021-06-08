@@ -6,7 +6,7 @@
 
 
 
-When I merge a pull request back into main, I delete the branch on the server
+When I merge a pull request back into `main`, I delete the branch on the server
 
 But that doesn't delete it locally.
 
