@@ -75,7 +75,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles |
  | [Entity Framework](Entity_Framework/01_summary.md) | 1 article |
  | [examples](examples/01_summary.md) | 3 articles |
- | [excel](excel/01_summary.md) | 6 articles |
+ | [excel](excel/01_summary.md) | 7 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 2 articles |
@@ -172,5 +172,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-690 articles
-186199 words
+691 articles
+186365 words

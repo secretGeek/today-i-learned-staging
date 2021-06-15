@@ -8,19 +8,19 @@ It's super easy -
 
 Hit 'show options'
 
-![mstsc 0](.\mstsc_0.png)
+![mstsc 0](mstsc_0.png)
 
 ...then "save as"
 
-![mstsc 1](.\mstsc_1.png)
+![mstsc 1](mstsc_1.png)
 
 ...and save your `.rdp` file.
 
-![mstsc 3](.\mstsc_3.png)
+![mstsc 3](mstsc_3.png)
 
 -- BUT BEFORE YOU DO THAT -- make sure you've configured it the way you want:
 
-![mstsc 2](.\mstsc_2.png)
+![mstsc 2](mstsc_2.png)
 
 ...then save it!
 
@@ -137,3 +137,9 @@ Here's the full command line options....
 
 	[OK]
 
+
+
+## See also
+
+- [Use mstsc.exe to connect, receive Black screen](..\windows\mstsc_black_screen.md)
+- [Terminal services client, without a mouse](..\windows\mstsc_without_mouse.md)
