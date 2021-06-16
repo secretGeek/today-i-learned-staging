@@ -21,5 +21,5 @@ The alternative is to change your remote desktop connection options (under "Expe
 
 ## See also
 
-- [Terminal services client, without a mouse](..\windows\mstsc_without_mouse.md)
-- [How to best configure and use mstsc.exe - microsoft terminal services client](..\mstsc\how_to_best_configure_and_use_mstsc.md)
+- [Terminal services client, without a mouse](../windows/mstsc_without_mouse.md)
+- [How to best configure and use mstsc.exe - microsoft terminal services client](../mstsc/how_to_best_configure_and_use_mstsc.md)

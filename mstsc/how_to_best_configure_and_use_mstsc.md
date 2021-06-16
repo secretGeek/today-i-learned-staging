@@ -141,5 +141,5 @@ Here's the full command line options....
 
 ## See also
 
-- [Use mstsc.exe to connect, receive Black screen](..\windows\mstsc_black_screen.md)
-- [Terminal services client, without a mouse](..\windows\mstsc_without_mouse.md)
+- [Use mstsc.exe to connect, receive Black screen](../windows/mstsc_black_screen.md)
+- [Terminal services client, without a mouse](../windows/mstsc_without_mouse.md)

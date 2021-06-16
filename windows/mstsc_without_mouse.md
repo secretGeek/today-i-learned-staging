@@ -13,5 +13,5 @@ To send the equivalent of a `CTRL+ALT+DEL` use `CTRL+ALT+END`
 
 ## See also
 
-- [Use mstsc.exe to connect, receive Black screen](..\windows\mstsc_black_screen.md)
-- [How to best configure and use mstsc.exe - microsoft terminal services client](..\mstsc\how_to_best_configure_and_use_mstsc.md)
+- [Use mstsc.exe to connect, receive Black screen](../windows/mstsc_black_screen.md)
+- [How to best configure and use mstsc.exe - microsoft terminal services client](../mstsc/how_to_best_configure_and_use_mstsc.md)
