@@ -24,7 +24,7 @@
 	- chronological components
 		- monday...
 		- september...
-		- medieval, renaisance, bronze-age, (epochs), future, 
+		- medieval, renaisance, bronze-age, (epochs), future,
 		- horroscopes (zodiac, chinese)
 - "foreign"
 	- greek letters
@@ -33,7 +33,7 @@
 	- english villages
 	- cities
 	- rivers/water bodies
-- modification functions 
+- modification functions
 	(e.g. reverse, syllable swaps, vowel shifting (a-e, e-i, i-o, o-u, u-a, etc.), minimal letter replacement, add short prefix like 'o', 'a', 'y', drop some vowels...)
 	-	major suffixes/prefixes
 - anatomy
@@ -54,4 +54,4 @@
 - philosophy/logic/mathematical terms of art
 
 
-	
+

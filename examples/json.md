@@ -1,6 +1,5 @@
 # json examples
 
-
 ## prime example
 
 	{}
@@ -10,7 +9,7 @@
 
 	{"name": "Jan"}
 
-## more attributes 
+## more attributes
 
 	{"name": "Jan", "age": 41}
 
@@ -23,7 +22,7 @@
 ## change property
 
 	details.name = "Pam";
-	
+
 ## an arry in json
 
 
@@ -39,7 +38,7 @@ Javascript:
 
 	var details = {"name": "Jan", "age": 41};
 	JSON.stringify(details);
-	
+
 returns:
 
 ```
@@ -62,7 +61,7 @@ returns:
 ```
 
 
-Javascript: 
+Javascript:
 
 	JSON.stringify(details, null, "INDENT");
 

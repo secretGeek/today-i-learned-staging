@@ -9,6 +9,3 @@ We had an `ICollection` that should've been a `navigation property` but we'd lef
 
 Lazy-loading behavior would not be applied.
 
-{tag:EF:}
-
-{tags:EF,EntityFramework,EF6,EF-6:}

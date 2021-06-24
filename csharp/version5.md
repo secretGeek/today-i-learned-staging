@@ -1,4 +1,4 @@
-﻿# C# version 5
+﻿#	 C# version 5
 
 See [what's new in C#5](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-50)
 
@@ -139,9 +139,12 @@ This is a strange magic!
 
 - [Shared online with linqpad query sharing....](http://share.linqpad.net/59a2ti.linq) -- includes version 6 features
 
-This would've avoided a few NT1 errors back in T-S days.
+This would've avoided a few `NT1` errors back in `T-S` days.
 
 - [Further Reading](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/caller-information)
+
+
+
 
 ## see also
 

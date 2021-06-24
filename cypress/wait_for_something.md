@@ -4,7 +4,7 @@ Here is what you do NOT want to have to do....
 
 
 	// hard coded wait to make sure the thing we just did has finished...
-	cy.wait(5000); 
+	cy.wait(5000);
 
 (You end up having to put in loooong wait times, so the tests don't fail intermittently... slowing down the whole thing...)
 
@@ -51,8 +51,10 @@ then wait on it anywhere you want in your test (as many times as you need, too, 
 	cy.wait('@getCrimes')
 
 
-Note - the example above is also a handy example of using aliases.
+Note - the example above is also a handy example of using aliases with intercepts.
 
+
+Wanted: a way to use 
 
 I believe we could use aliases in the first example too, something like this:
 
@@ -60,9 +62,11 @@ I believe we could use aliases in the first example too, something like this:
 
 	cy.get('#loading').should('not.exist').as('loadingIndicatorGone')
 
-and use it as many times as you want...
 
-	cy.wait('@loadingIndicatorGone')
+However, if you try to wait on an alias defined on a get of any element, you will get a warning:
+
+	cy.wait('@loadingIndicatorGone') // this doesn't work, and you'll get a warning
+
 
 
 ## External references

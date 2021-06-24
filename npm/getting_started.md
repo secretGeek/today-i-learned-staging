@@ -1,5 +1,7 @@
 ﻿# Node Package Manager -- some notes for beginners
 
+**TL/DR** - start with `npm init` to create a `packages.json` file
+
 You are in a folder, doing some things. You suddenly decided you want to install an existing package. I'll choose `lodash` because it's the most popular package, the closest thing to a common library.
 
 	npm install lodash
