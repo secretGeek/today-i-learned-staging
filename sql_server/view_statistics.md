@@ -70,37 +70,42 @@ The default value is OFF.
 ## Looking at percents/figures for out of date stats...
 
 
-Here's a (quite naive) way of kind of... checking those heuristics mentioned above...
+Here's a (quite naive) way of (kind of) checking those heuristics mentioned above...
 
 
-SELECT 
-	case when DDSP.Rows >= 500 
-	and DDSP.modification_counter >= 500
-	and DDSP.modification_counter >= (DDSP.Rows / 5.0)
-	then '**'
-	else ''
-	end as Overdue_To_Update,
-	DDSP.Rows as [Rows >=500],
-	DDSP.modification_counter as [Modification Counter >= 500],
-	case when isnull(DDSP.Rows,0) = 0 then null else 
-	((1.0 * DDSP.modification_counter) / (1.0 * DDSP.Rows)) * 100 
-	end as [Mod Percent],
-	S.object_id, 
-				 S.name, 
-				 so.name as [Table],
-				 DDSP.last_updated, 
-				 DDSP.rows, 
-				 DDSP.modification_counter
-
-
-	FROM   sys.stats AS S 
-				 CROSS APPLY sys.dm_db_stats_properties(S.object_id, S.stats_id) AS DDSP 
-				 inner join sysobjects so on so.id = s.object_id
+	SELECT 
+		case 
+			when
+				DDSP.Rows >= 500 
+				and DDSP.modification_counter >= 500
+				and DDSP.modification_counter >= (DDSP.Rows / 5.0)
+			then '**'
+			else ''
+		end as Overdue_To_Update,
+		DDSP.Rows as [Rows >=500],
+		DDSP.modification_counter as [Modification Counter >= 500],
+		case when isnull(DDSP.Rows,0) = 0 then null else 
+		((1.0 * DDSP.modification_counter) / (1.0 * DDSP.Rows)) * 100 
+		end as [Mod Percent],
+		S.object_id, 
+		S.name, 
+		so.name as [Table],
+		DDSP.last_updated, 
+		DDSP.rows, 
+		DDSP.modification_counter
+	FROM
+		sys.stats AS S 
+	CROSS APPLY 
+		sys.dm_db_stats_properties(S.object_id, S.stats_id) AS DDSP 
+	INNER JOIN 
+		sysobjects so on so.id = s.object_id
 	--WHERE 
 	-- 		so.name like '%MY_TABLE_NAME%' -- Some filters you might like...
 	--AND ddsp.last_updated is not null
 	--AND so.Name not like 'MY_TABLE_TO_EXCLUDE%'
-	order by 1 desc, DDSP.last_updated desc
+	ORDER BY
+		1 desc, 
+		DDSP.last_updated desc
 
 
 ## Further reading on sql server statistics
