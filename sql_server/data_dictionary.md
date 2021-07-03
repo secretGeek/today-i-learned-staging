@@ -20,7 +20,10 @@
 
 *****
 
-## Summary of tables:
+
+## Data Dictionary
+
+## Summary of tables
 
 	use dbName
 	SELECT
@@ -52,7 +55,7 @@
 
 -----
 
-## Data Dictionary
+## Summary of columns
 
 	use dbName
 	SELECT
@@ -70,3 +73,14 @@
 		so.type = 'U'
 	ORDER BY
 		1,2,3
+
+
+Also 
+
+	- relationships
+	- indexes
+	- statistics
+	- views
+	- stored procedures
+	
+	- summaries of tables etc
