@@ -5,7 +5,7 @@ When looking at the backlog items and choosing what to assign into a sprint, you
 Add this bookmarklet/favelet to your bookmarks/favorites. Then while looking at the backlog items in Azure Devops, select the rows you are interested in and click the bookmarklet.
 
 
-[sum points](javascript:(alert(Array.from(document.getElementsByClassName('grid-row-selected')).reduce((all, row) => { all += Number.parseInt(row.children[6].innerText) || 0; return all; }, 0))))
+<a href="javascript:(alert(Array.from(document.getElementsByClassName('grid-row-selected')).reduce((all, row) => { all += Number.parseInt(row.children[6].innerText) || 0; return all; }, 0)))">sum points</a>
 
 
 Here is the bookmarket in full 
@@ -31,3 +31,10 @@ Note it assumes that the points are in the 7th column (index `6`), and that sele
 
 You may need to vary those assumptions.
 
+
+I'm told this bookmarklet was developed by Ryan Stuart, a very clever javascript developer with a functional eye.
+
+
+## See also
+
+- [Bulk add or modify work items with Excel](https://docs.microsoft.com/en-us/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops&tabs=agile-process)
