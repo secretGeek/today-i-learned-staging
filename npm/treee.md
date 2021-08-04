@@ -12,9 +12,9 @@ And thereafter you will have `treee` available.
 
 And you can set up an alias in your profile to use `tre` for example.
 
-set-alias tre treee
+	set-alias tre treee
 
-tre --ignore node_modules
+	tre --ignore node_modules
 
 ## Options
 

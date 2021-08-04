@@ -54,6 +54,7 @@
 - [Run a command against each table](run_a_command_against_each_table.md)
 - [Scalar Function in SQL that returns everything After a specified character](scalar_function_AfterChar.md)
 - [Search all views functions or sprocs for a piece of text](find_view_function_or_sproc.md)
+- [Search the event log for sql server restarts with this powershell query](find_sql_server_restarts.md)
 - [See Wait Times in SQL Server](see_wait_times.md)
 - [Select top N where N is a variable](select_top_with_dynamic_limit.md)
 - [Set a database to simple recovery model](simple_recovery_model.md)
@@ -74,4 +75,5 @@
 - [Where does SSMS put queries before they've been saved?](where_does_ssms_put_its_queries.md)
 - [Windowed Functions in SQL Server](windowed_functions.md)
 - [WITH (common table expressions)](with_common_table_expression.md)
+- [Wrap an update in a transaction with this script template...](wrap_updates_in_transactions.md)
 - [Xtype (in sysobjects)](xtype.md)

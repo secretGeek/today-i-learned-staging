@@ -6,6 +6,11 @@ On windows, this theme is stored in:
 
 	%appdata%\Notepad++\themes\Zenburn.xml
 
+i.e.
+
+	$env:appdata\Notepad++\themes\Zenburn.xml
+
+
 Here is an alternative:
 
 - [Dracula Theme](https://draculatheme.com/notepad-plus-plus/)
@@ -23,15 +28,14 @@ Download `dracula.xml` from there and then....
 
 Install better [markdown support in notepad++](markdown_in_notepad.md), that supports the zenburn theme!
 
-## The application itself does not support dark theme
+## The application itself NOW supports dark theme
 
-Note that the menu system and the chrome of `NotePad++` is not affected by those themes.
+Previously -- the menu system and the chrome of `NotePad++` did not support dark mode.
 
-Ideally, setting windows to Dark mode should be enough, but Notepad++ does not support responding to that theme. (It does respond to high-contrast settings, but these are quite different.)
+There is now a "Dark Theme" section in "Preferences" (under Settings in the menu) -- with one checkbox for "Dark mode"
 
-There is a community discussion inviting you to submit the code changes yourself: [Make Notepad++ dark (not editor theme, but editor itself)](https://community.notepad-plus-plus.org/topic/17829/make-notepad-dark-not-editor-theme-but-editor-itself)
+![dark mode](dark_mode.png)
 
-> You are welcome to submit the needed code changes implementing this feature.
 
 ## See also
 
