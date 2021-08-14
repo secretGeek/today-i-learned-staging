@@ -25,7 +25,7 @@ Here was my version:
 
 ...didn't work because of these two tricks...
 
-1. First I needed to create an `~/.ssh/config file`
+1. First I needed to create an `~/.ssh/config` file
 
 the file contains this:
 
@@ -57,6 +57,24 @@ I run the file, it prompts me for the password exactly once, and runs all my man
 I remind myself to perform this regularly using devoir.
 
 That's sufficient for now.
+
+## new problem "Operation not permitted (1)"
+
+On a new computer I found my rsync backups were failing with "Operation not permitted (1)" 
+
+
+I did a poor job of writing down the details of the error message - but it basically said it couldn't set the attributes on the target system (which is windows, and that makes sense to me)
+
+So I took away a bunch of the options that are implied by the 'a' option (a means `attributes`)
+
+	rsync -chavzP --no-o --no-g --no-perms --no-t --stats myuser@55.55.55.55:/home/myuser/hello/obj/ /home/myuser/test_rsync2/home/myuser/hello/obj/
+
+These three -- `--no-o --no-g --no-perms` -- mean "don't set the owner the group or the permissions"
+
+And this one `--no-t` means 'don't set the file time' -- which also means it can't use time-checking to simplify the checking of what to sync... and maybe that slows it down a lot.
+
+
+
 
 ## See also
 

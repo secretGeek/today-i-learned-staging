@@ -55,8 +55,8 @@ But caveats aside here are the CODES.
 
 ## Sources
 
-- [SQL Authority, Missing Index Script](https://blog.sqlauthority.com/2011/01/03/sql-server-2008-missing-index-script-download/) &mdash; from my hero Pinal Dave. Noone out-thinks or out-works Pinal. Is there an online Pinal Conf? I'd love to attend.
-- [Identifyig missing indexes in sql server](https://samirbehara.com/2017/08/23/identifying-missing-indexes-in-sql-server/)
+- [SQL Authority, Missing Index Script](https://blog.sqlauthority.com/2011/01/03/sql-server-2008-missing-index-script-download/) &mdash; from my hero Pinal Dave. **Noone out-thinks or out-works Pinal**. Is there an online Pinal Conf? I'd love to attend. If there are Pinal Shirt, I'd wear a Pinal Shirt.
+- [Identifying missing indexes in sql server](https://samirbehara.com/2017/08/23/identifying-missing-indexes-in-sql-server/)
 - [SQL Nuggets: How to find missing indexes](http://www.sqlnuggets.com/blog/sql-scripts-how-to-find-missing-indexes/)
 
 ## See also

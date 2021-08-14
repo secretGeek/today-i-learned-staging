@@ -79,6 +79,20 @@ Create the RFC 4716 version of the public key using  ssh-keygen
 
 Simple right!? No, not simple.
 
+## Use ssh for copying from remote machine...
+
+
+This command sets up a tunnel to let you access the remote machine while "staying" on the local machine, via port forwarding.
+
+   ssh -Nf -L 8080:localhost:2222 user@public_host.com
+
+The "-N" option: means don't open a shell when performing the port forwarding (i.e. 'stay' on the local machine within the shell.)
+
+THe "-f" option: means perform the operations in the background - don't take focus.
+
+The "-L" option: is for specifying the address to use.
+
+
 ## Host Identification has changed
 
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

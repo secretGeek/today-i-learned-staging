@@ -9,3 +9,4 @@
 - [Install chocolatey (aka choco)](install_chocolatey.md)
 - [To List the packages installed](list_localonly.md)
 - [Update a chocolatey package](update_a_chocolatey_package.md)
+- [update chocolatey itself.](update_chocolatey_itself.md)

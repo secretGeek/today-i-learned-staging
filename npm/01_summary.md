@@ -11,6 +11,7 @@
 - [Node Package Manager -- some notes for beginners](getting_started.md)
 - [Node-gyp is much used by npm, but its dependencies need to be manually installed](node_gyp_dependencies.md)
 - [Nodejs on ubuntu linux](nodejs_on_ubuntu_linux.md)
+- [npm cant find file to rename delete](npm_cant_find_file_to_rename_delete.md)
 - [NPM run scripts](npm_run_scripts.md)
 - [NPM tab completion with powershell](tab_completion_with_powershell.md)
 - [npx - a fun and simple npm package runner](npx.md)

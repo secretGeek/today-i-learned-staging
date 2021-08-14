@@ -57,9 +57,10 @@ Though this site is published as a free digital-only book, I've also published a
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 15 articles |
  | [azure devops](azure_devops/01_summary.md) | 2 articles |
  | [banking](banking/01_summary.md) | 1 article |
+ | [bookmarklets](bookmarklets/01_summary.md) | 1 article |
  | [boring ideas](boring_ideas/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
- | [chocolatey](chocolatey/01_summary.md) | 6 articles |
+ | [chocolatey](chocolatey/01_summary.md) | 7 articles |
  | [concepts](concepts/01_summary.md) | 18 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
@@ -119,7 +120,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 3 articles |
  | [notepad++](notepad++/01_summary.md) | 14 articles |
- | [npm](npm/01_summary.md) | 13 articles |
+ | [npm](npm/01_summary.md) | 14 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 2 articles |
  | [oracle](oracle/01_summary.md) | 6 articles |
@@ -173,5 +174,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-708 articles
-188775 words
+711 articles
+189293 words
