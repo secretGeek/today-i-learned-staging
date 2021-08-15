@@ -58,7 +58,6 @@ Though this site is published as a free digital-only book, I've also published a
  | [azure devops](azure_devops/01_summary.md) | 2 articles |
  | [banking](banking/01_summary.md) | 1 article |
  | [bookmarklets](bookmarklets/01_summary.md) | 1 article |
- | [boring ideas](boring_ideas/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 7 articles |
  | [concepts](concepts/01_summary.md) | 18 articles |
@@ -174,5 +173,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-711 articles
-189252 words
+710 articles
+189131 words

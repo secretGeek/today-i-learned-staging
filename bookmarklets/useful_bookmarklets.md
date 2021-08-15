@@ -25,6 +25,13 @@ Or spread out...
 		);
 	)()
 
+Example result:
+
+[useful bookmarklets . Today I Learned (secretGeek)](https://til.secretgeek.net/bookmarklets/useful_bookmarklets.html)
+
+
+	[useful bookmarklets . Today I Learned (secretGeek)](https://til.secretgeek.net/bookmarklets/useful_bookmarklets.html)
+
 ## Table of Contents of a page
 
 `todo` definitely need this one. Loops through h[1-5] and make toc.
