@@ -17,7 +17,7 @@ Available online:
 
 Each page of this site should be a factoid that you **expect to refer to again**.
 
-Hence, any factoid that is merely "Well that's interesting!" but would _never_ be referenced again is "trivia" and NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) category is an exception).
+Hence, any factoid that is merely "Well that's interesting!" but would _never_ be referenced again is "trivia" and NOT wanted here. So they mostly end up being technical things (though the [concepts](concepts/01_summary.md) and [reading notes](reading_notes/01_summary.md) categories are an exception).
 
 The folder structure means things are categorised by ONE main topic, not tagged with endless topics/subtopics.
 
@@ -174,4 +174,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 710 articles
-189131 words
+189173 words

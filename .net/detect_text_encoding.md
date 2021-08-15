@@ -44,7 +44,7 @@ Only change I had to make is highlighted below:
 
 	/// <summary>
 	/// Determines a text file's encoding by analyzing its byte order mark (BOM).
-	/// Defaults to ASCII when detection of the text file's endianness fails.
+	/// Defaults to ASCII when detection of the text file's endian-ness fails.
 	/// </summary>
 	/// <param name="filename">The text file to analyze.</param>
 	/// <returns>The detected encoding.</returns>
@@ -91,3 +91,4 @@ His work is always *battle tested*.
 ## See also
 
 - [Detect File Encoding (with Powershell)](../powershell/detect_file_encoding.md)
+- [All Emoji returned by Emoji Module](../powershell/emoji_list.md)

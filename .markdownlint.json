@@ -1,3 +1,4 @@
 {
-	 "no-hard-tabs": false
+	 "no-hard-tabs": false,
+	 "line-length": false
 }
