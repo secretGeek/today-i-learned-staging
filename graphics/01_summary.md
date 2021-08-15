@@ -1,7 +1,7 @@
 ﻿
 # graphics{.chapter}
 
-### content
+## content
 
 - [Ascii Fonts](ascii_fonts.md)
 - [Bulk resize images with image magick](bulk_resize_images_with_image_magick.md)

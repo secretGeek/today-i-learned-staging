@@ -1,7 +1,7 @@
 ﻿
 # reading notes{.chapter}
 
-### content
+## content
 
 - [A curious mind Brian Grazer](Grazer_Curious.md)
 - [Art of the start](Kawasaki_AOS.md)

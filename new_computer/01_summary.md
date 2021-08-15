@@ -1,6 +1,6 @@
 ﻿
 # new computer{.chapter}
 
-### content
+## content
 
 - [Gettings started on a new laptop (for me)](getting_started.md)

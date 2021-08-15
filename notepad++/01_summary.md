@@ -1,7 +1,7 @@
 ﻿
 # notepad++{.chapter}
 
-### content
+## content
 
 - [Dark Theme in Notepad++](dark_theme_notepad++.md)
 - [Disable automatic parens completion](disable_automatic_parens_completion.md)

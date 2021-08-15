@@ -1,6 +1,6 @@
 ﻿
 # ux{.chapter}
 
-### content
+## content
 
 - [UX/Design resources I love](resources.md)

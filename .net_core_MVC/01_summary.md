@@ -1,7 +1,7 @@
 ﻿
 # .net core MVC{.chapter}
 
-### content
+## content
 
 - [Bind JSON POST to MVC Action](bind_post_to_action.md)
 - [Error in Razor\Views\...\*.g.cshtml.cs page](error_in_g_cs.md)

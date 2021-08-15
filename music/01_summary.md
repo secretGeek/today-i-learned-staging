@@ -1,7 +1,7 @@
 ﻿
 # music{.chapter}
 
-### content
+## content
 
 - [Background noise](background_noise.md)
 - [Backing beats to play along to](drum_beats.md)

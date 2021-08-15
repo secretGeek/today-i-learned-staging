@@ -1,7 +1,7 @@
 ﻿
 # sql server{.chapter}
 
-### content
+## content
 
 - [Aggregate table strings into one csv value (with SQL Server)](table_to_csv.md)
 - [Backup restore script](backup_restore_script.md)

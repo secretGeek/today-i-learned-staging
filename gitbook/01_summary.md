@@ -1,7 +1,7 @@
 ﻿
 # gitbook{.chapter}
 
-### content
+## content
 
 - [Add Google Analytics to gitbook](add_google_analytics_to_gitbook.md)
 - [Adding a cover image to a gitbook](cover_image.md)

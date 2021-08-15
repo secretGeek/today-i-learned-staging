@@ -1,7 +1,7 @@
 ﻿
 # marketing{.chapter}
 
-### content
+## content
 
 - [Brand Identity](brand_identity.md)
 - [Content](content.md)

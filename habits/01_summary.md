@@ -1,6 +1,6 @@
 ﻿
 # habits{.chapter}
 
-### content
+## content
 
 - [The Power of Habits](power_of_habits.md)

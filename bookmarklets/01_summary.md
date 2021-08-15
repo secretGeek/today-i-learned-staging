@@ -1,6 +1,6 @@
 ﻿
 # bookmarklets{.chapter}
 
-### content
+## content
 
-- [useful bookmarklets](useful_bookmarklets.md)
+- [Useful bookmarklets](useful_bookmarklets.md)

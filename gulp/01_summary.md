@@ -1,6 +1,6 @@
 ﻿
 # gulp{.chapter}
 
-### content
+## content
 
 - [Getting started with gulp](getting_started.md)

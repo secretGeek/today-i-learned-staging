@@ -1,7 +1,7 @@
 ﻿
 # chocolatey{.chapter}
 
-### content
+## content
 
 - [All chocolatey commands](commands.md)
 - [Giving Chocolatey a Checksum when creating a package](specify_checksum_for_chocolatey.md)

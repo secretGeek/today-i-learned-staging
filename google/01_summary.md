@@ -1,7 +1,7 @@
 ﻿
 # google{.chapter}
 
-### content
+## content
 
 - [Add a new site to track in Google Analytics](google_analytics_add_new_site.md)
 - [Change google chrome on startup page, despite being "enforced by administrator"](chrome_on_startup.md)

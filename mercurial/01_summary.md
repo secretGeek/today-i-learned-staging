@@ -1,7 +1,7 @@
 ﻿
 # mercurial{.chapter}
 
-### content
+## content
 
 - ["waiting for lock on working directory held by" (me)](waiting_for_lock.md)
 - [Abort: error: _ssl.c:504: EOF occurred in violation of protocol](EOF_occurred_in_violation_of_protocol.md)

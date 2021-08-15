@@ -1,6 +1,6 @@
 ﻿
 # digital gardens{.chapter}
 
-### content
+## content
 
 - [Lists of digital gardens](lists_of_digital_gardens.md)

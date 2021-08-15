@@ -1,6 +1,6 @@
 ﻿
 # education{.chapter}
 
-### content
+## content
 
 - [Some Links about Education](links.md)

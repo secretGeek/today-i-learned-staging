@@ -1,7 +1,7 @@
 ﻿
 # git{.chapter}
 
-### content
+## content
 
 - [Adding more files/changes to a commit you've just done](add_more_to_commit.md)
 - [Aliases in git](alias.md)

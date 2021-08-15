@@ -1,7 +1,7 @@
 ﻿
 # svg{.chapter}
 
-### content
+## content
 
 - [Drawing a square with svg](drawsquare.md)
 - [How to convert an svg to a Windows .ico icon file, with inkscape and magick (via Powershell)](svg-to-ico-file.md)

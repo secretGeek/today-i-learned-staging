@@ -1,7 +1,7 @@
 ﻿
 # saltwater swimming pool{.chapter}
 
-### content
+## content
 
 - [abcs of pool chemistry](abcs.md)
 - [The happy path](happy_path.md)

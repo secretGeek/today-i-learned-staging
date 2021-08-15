@@ -1,7 +1,7 @@
 ﻿
 # vs code{.chapter}
 
-### content
+## content
 
 - [Getting started making vscode extensions](getting_started_making_vscode_extensions.md)
 - [Hiding noise](hiding_noise.md)

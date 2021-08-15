@@ -1,7 +1,7 @@
 ﻿
 # .net{.chapter}
 
-### content
+## content
 
 - [Config from an external source](config_external_source.md)
 - [Detect the encoding of a file](detect_text_encoding.md)

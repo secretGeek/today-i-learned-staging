@@ -1,7 +1,7 @@
 ﻿
 # python{.chapter}
 
-### content
+## content
 
 - [Block Types in Minecraft](blocks_in_minecraft.md)
 - [Comments in python](comments.md)

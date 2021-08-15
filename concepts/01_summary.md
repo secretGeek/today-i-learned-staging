@@ -1,7 +1,7 @@
 ﻿
 # concepts{.chapter}
 
-### content
+## content
 
 - ["50 Psychology Classics: the Greatest Books in Psychology"](greatest_books_in_psychology.md)
 - [Art of the data email](art_of_the_data_email.md)

@@ -1,6 +1,6 @@
 ﻿
 # active directory{.chapter}
 
-### content
+## content
 
 - [Get-AdGroup in powershell via RSAT (Remote server administration tools)](get-adgroup.md)

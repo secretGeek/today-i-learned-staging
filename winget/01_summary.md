@@ -1,6 +1,6 @@
 ﻿
 # winget{.chapter}
 
-### content
+## content
 
 - [Getting Started with Winget](getting_started.md)

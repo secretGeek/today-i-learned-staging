@@ -1,7 +1,7 @@
 ﻿
 # windows.forms{.chapter}
 
-### content
+## content
 
 - [DPI Aware Winforms apps](DPI_aware_winforms.md)
 - [Form Wide Hotkeys](key_down.md)

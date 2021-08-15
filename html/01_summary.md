@@ -1,7 +1,7 @@
 ﻿
 # html{.chapter}
 
-### content
+## content
 
 - [HTML supports autocomplete-style dropdowns](autocomplete_dropdowns.md)
 - [Load script immediately but don't execute until page is parsed](defer_execution_of_script.md)

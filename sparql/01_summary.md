@@ -1,6 +1,6 @@
 ﻿
 # sparql{.chapter}
 
-### content
+## content
 
 - [Sparql -- basics](basics.md)

@@ -1,7 +1,7 @@
 ﻿
 # javascript{.chapter}
 
-### content
+## content
 
 - [Add or remove a class](add_remove_class.md)
 - [Copy element to clipboard](copy_element_to_clipboard.md)

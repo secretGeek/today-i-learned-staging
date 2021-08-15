@@ -1,7 +1,7 @@
 ﻿
 # linqpad{.chapter}
 
-### content
+## content
 
 - [Clear results in Linqpad](clear_results.md)
 - [Connect Linqpad to Oracle](connect_to_oracle.md)

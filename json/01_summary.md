@@ -1,6 +1,6 @@
 ﻿
 # json{.chapter}
 
-### content
+## content
 
 - [Tools for querying JSON](json-query.md)

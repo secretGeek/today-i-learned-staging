@@ -54,10 +54,3 @@ Tried:
 	Find-Record Projects Todo
 
 ...and it works now.
-
-## Get AirTable Data (in js / node)
-
-
-If/when I need to get airtable data via JS, i'll be reading the official doco - but also this blog post from Trys Mudford:
-
-- [Tiny lesson: rapid builds, email signatures and Airtable](https://www.trysmudford.com/blog/rapid-building/)

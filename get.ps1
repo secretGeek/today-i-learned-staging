@@ -15,5 +15,5 @@ $to = $((Resolve-Path .\).Path);
 #                /R:n :: number of Retries on failed copies: default 1 million.
 #  /XF file [file]... :: eXclude Files matching given names/paths/wildcards.
 #  /XD dirs [dirs]... :: eXclude Directories matching given names/paths.
-robocopy "$from" "$to" /MIR /R:4 /XF .ok *.ps1 chapter_summary.txt 01_summary.* .gitignore /XD .git
+robocopy "$from" "$to" /MIR /R:4 /XF .ok *.ps1 chapter_summary.txt 01_summary.* .gitignore /XD .git .vscode
 #>
