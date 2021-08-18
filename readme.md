@@ -158,7 +158,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [ux](ux/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
- | [vs code](vs_code/01_summary.md) | 8 articles |
+ | [vs code](vs_code/01_summary.md) | 9 articles |
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 16 articles |
@@ -173,5 +173,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-710 articles
-189214 words
+711 articles
+189234 words
