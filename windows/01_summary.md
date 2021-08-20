@@ -5,6 +5,7 @@
 
 - [Does not have a program associated with it](program_associated.md)
 - [Environment variables -- view/edit them on windows](environment_variables.md)
+- [feature on demand](feature_on_demand.md)
 - [How can I tell which version of Windows is currently running?](which_version.md)
 - [How to disable Cortana in Windows 10 (Anniversary Edition)](disable_cortana_in_windows_10.md)
 - [Installing bash on windows](bash_on_windows.md)

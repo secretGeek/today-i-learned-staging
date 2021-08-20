@@ -161,7 +161,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [vs code](vs_code/01_summary.md) | 9 articles |
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
- | [windows](windows/01_summary.md) | 16 articles |
+ | [windows](windows/01_summary.md) | 17 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
  | [winget](winget/01_summary.md) | 1 article |
  | [winword](winword/01_summary.md) | 1 article |
@@ -173,5 +173,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-711 articles
-189273 words
+712 articles
+189426 words
