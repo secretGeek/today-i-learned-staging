@@ -62,6 +62,6 @@ Good question. I don't know the answer yet. Do you?
 
 	$scriptpath = (split-path (Get-Variable MyInvocation -Scope Script).Value.MyCommand.Path)
 
-## See Also
+## See also
 
 Scopes.! and not the monkey trial!

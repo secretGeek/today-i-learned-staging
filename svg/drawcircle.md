@@ -4,12 +4,20 @@
 		<circle cx="70" cy="70" r="70" fill="#383838" stroke="none"/>
 	</svg>
 
+And looks like this:
+
+<svg>
+    <circle cx="70" cy="70" r="70" fill="#383838" stroke="none"/>
+</svg>
+
 That's one circle, how about two?
 
 <svg>
 	<circle cx="70" cy="70" r="62" fill="#383838" stroke="white" stroke-width="5"/>
 	<circle cx="120" cy="70" r="62" fill="none" stroke="white" stroke-width="5"/>
 </svg>
+
+<br />
 
 <svg style="background:white;height:149" width="400" height="400">
     <defs>
@@ -28,6 +36,8 @@ That's one circle, how about two?
 </g>
 </svg>
 
+<br />
+
 	<div style='padding:30px;background-color:#111;'>
 		<svg width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
 			<g transform="scale(1 1)">
@@ -43,3 +53,5 @@ That's one circle, how about two?
 			</g>
 		</svg>
 	</div>
+
+<!-- markdownlint-disable-file MD033 -->

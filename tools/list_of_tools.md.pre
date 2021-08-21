@@ -5,8 +5,7 @@ Below is a list of all tools in the root of my [utils repo](utils_repo.md) (gene
 
 When looking for new tools, obviously the first place to look is [Scott Hanselman's amazing list of tools](http://hanselman.com/tools).
 
-
-## Types of files:
+## Types of files
 
 {powershell:
 
@@ -17,7 +16,7 @@ dir -Path $env:util *.* -exclude ".hg*" |
     % { $_.Extension } | 
     group | 
     sort -property @{Expression="Count";Descending=$true},@{Expression="Name";Descending=$false} | 
-    % { ' * {0} ({1} files)' -f $_.Name, $_.Count  }
+    % { '- {0} ({1} files)' -f $_.Name, $_.Count  }
 
 :}
 
@@ -25,7 +24,7 @@ dir -Path $env:util *.* -exclude ".hg*" |
 
 {powershell:
 
-dir -Path $env:util *.exe | % { " * " +  $_.Name}
+dir -Path $env:util *.exe | % { "- " +  $_.Name}
 
 :}
 
@@ -33,7 +32,7 @@ dir -Path $env:util *.exe | % { " * " +  $_.Name}
 
 {powershell:
 
-dir -Path $env:util *.bat | % { " * " +  $_.Name}
+dir -Path $env:util *.bat | % { "- " +  $_.Name}
 
 :}
 
@@ -41,6 +40,6 @@ dir -Path $env:util *.bat | % { " * " +  $_.Name}
 
 {powershell:
 
-dir -Path $env:util *.dll | % { " * " +  $_.Name}
+dir -Path $env:util *.dll | % { "- " +  $_.Name}
 
 :}
