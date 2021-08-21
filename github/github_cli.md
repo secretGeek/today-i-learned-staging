@@ -1,4 +1,4 @@
-# Github cli
+﻿# Github cli
 
 Before I launch into enthusiastically installing and using the github cli (affectionately known as `gh`) let me firstly say that THIS IS A TRAP.
 
@@ -13,7 +13,6 @@ But... surely a little `gh` won't hurt...
 	winget install GitHub.cli
 
 (See "[Getting Started with Winget](../winget/getting_started.md)" if you need to)
-
 
 ## Once only: Authorize the app
 
@@ -63,7 +62,6 @@ Further info:
 
 ## Create new repo
 
-
 	gh repo create [<name>] [flags]
 
 ```plaintext
@@ -96,7 +94,6 @@ Here's how I can get it...
 	# now write the list of repos...
 	gh repo list -L 500 | out-file gh_repos.tsv -append -encoding utf8;
 
-
 ### Use that list to get my full list of issues
 
 	# first write a header row to the file
@@ -106,7 +103,6 @@ Here's how I can get it...
 	Import-Csv -Delimiter "`t" -Path .\gh_repos.tsv |
 		% { $repo = $_.repo; gh issue list --repo $_.repo } |
 		% { "$repo`t$($_)" } | out-file "gh_issues.tsv" -encoding utf8
-
 
 
 ## External references

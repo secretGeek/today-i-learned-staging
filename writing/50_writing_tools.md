@@ -216,4 +216,9 @@
 See the book for complete details:
 
 - [Writing Tools: 50 Essential Strategies for Every Writer](https://www.amazon.com/gp/product/0316014982/ref=pd_rvi_gw_1?_encoding=UTF8)
+
+## See also
+
+- [Writing Rules (wiki.secretGeek.net)](https://wiki.secretgeek.net/writing-rules) &mdash; - collection of writing "rules" from George Orwell, Elmore Leonard, Ernest Hemingway, Henry Miller, Ray Bradbury, Margaret Atwood, Zadie Smith, Neil Gaiman, Kurt Vonnegut, Stephen King and more.
+
 <!-- markdownlint-disable-file MD029 -->

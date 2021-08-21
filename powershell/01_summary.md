@@ -51,6 +51,7 @@
 - [How to count mercurial repositories (or git repositories)](count_repositories.md)
 - [How to create a literal array in powershell](literal_array.md)
 - [How to determine password complexity rules (from powershell)](password_complexity.md)
+- [How to do default parameter values in Powershell](default_parameter_values.md)
 - [How to do the equivalent of "dir /w" in powershell?](dir_wide.md)
 - [How to find how much free space is left on a drive](how_to_find_free_space_on_C_drive.md)
 - [How to find parts of a pathinfo object in powershell](how_to_find_parts_of_a_pathinfo_object.md)

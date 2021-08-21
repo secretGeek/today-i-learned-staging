@@ -62,7 +62,6 @@ That's sufficient for now.
 
 On a new computer I found my rsync backups were failing with "Operation not permitted (1)"
 
-
 I did a poor job of writing down the details of the error message - but it basically said it couldn't set the attributes on the target system (which is windows, and that makes sense to me)
 
 So I took away a bunch of the options that are implied by the 'a' option (a means `attributes`)
@@ -72,7 +71,6 @@ So I took away a bunch of the options that are implied by the 'a' option (a mean
 These three -- `--no-o --no-g --no-perms` -- mean "don't set the owner the group or the permissions"
 
 And this one `--no-t` means 'don't set the file time' -- which also means it can't use time-checking to simplify the checking of what to sync... and maybe that slows it down a lot.
-
 
 
 

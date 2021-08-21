@@ -23,11 +23,11 @@ Source here: <https://github.com/adbertram/PSAirTable>
 - `Find-Record`
 - `InvokeAirTableApiCall`
 
-	Get-PSAirTableConfiguration
+		Get-PSAirTableConfiguration
 
-	Application      Bases
-	-----------      -----
-	@{ApiKey=XXXXXX} {@{Name=<name of base here>; ID=<id of base here>}}
+		Application      Bases
+		-----------      -----
+		@{ApiKey=XXXXXX} {@{Name=<name of base here>; ID=<id of base here>}}
 
 Previously I could find a record in the `Todo` table of the `Projects` base, with:
 
@@ -57,7 +57,6 @@ Tried:
 
 ## Get AirTable Data (in js / node)
 
-
-If/when I need to get airtable data via JS, i'll be reading the official doco - but also this blog post from Trys Mudford:
+If/when I need to get airtable data via JS, i'll be reading the official documentation - but also this blog post from Trys Mudford:
 
 - [Tiny lesson: rapid builds, email signatures and Airtable](https://www.trysmudford.com/blog/rapid-building/)

@@ -13,7 +13,6 @@ The output you hopefully see is:
 
 > Switched to a new branch 'new-branch'
 
-
 	git push -u origin $name
 
 ## References

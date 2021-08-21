@@ -1,4 +1,4 @@
-# String Functions
+﻿# String Functions
 
 https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)
 
@@ -81,7 +81,6 @@ https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functi
 - `TrimWhitespace` - Removes any leading or trailing space, tab, carriage return, and linefeed characters
 - `XMLDecodeString` - XML decodes a string
 - `XMLEncodeString` - XML encodes a string
-
 
 ## Sql Server
 

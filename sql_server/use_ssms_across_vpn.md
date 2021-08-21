@@ -1,4 +1,4 @@
-# How to use SQL Server Management Studio (SSMS) to access Windows authenticated databases across a VPN
+﻿# How to use SQL Server Management Studio (SSMS) to access Windows authenticated databases across a VPN
 
 (*i.e. Remote SQL with SSMS on VPN*)
 

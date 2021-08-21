@@ -1,4 +1,4 @@
-# feature on demand
+﻿# feature on demand
 
 In Windows 10, many optional Features are available as "Features on Demand" -- under the Apps & Features area.
 
@@ -10,14 +10,11 @@ e.g.
 				Add a feature |
 					"RSAT: Active Directory Domain Services and Lightweight Directory Services Tools"
 
-
 Some 'features on demand' you may find yourself needing:
-
 
 - [Remote server administration tools](../active_directory/get-adgroup.md) - for querying AD (and more)
 - [Hyper-V](../virtual_box/virtual_box_requires_hyper_v_disabled.md) --
 - Various language/input features
-
 
 ## Install via DISM
 
@@ -383,7 +380,6 @@ You can find out more about any one of those via:
 ...from an elevated console.
 
 ~~~
-
 
 Read [More about DISM.](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-capabilities-package-servicing-command-line-options)
 

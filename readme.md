@@ -43,6 +43,7 @@ Though this site is published as a free digital-only book, I've also published a
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
 <!-- markdownlint-disable-file MD041 -->
 
+
 ## Topics
 
 |Topic|# Articles|
@@ -125,7 +126,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 103 articles |
+ | [powershell](powershell/01_summary.md) | 104 articles |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [questions](questions/01_summary.md) | 1 article |
@@ -173,5 +174,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-712 articles
-189712 words
+713 articles
+189920 words

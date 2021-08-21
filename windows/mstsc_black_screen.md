@@ -16,7 +16,6 @@ The alternative is to change your remote desktop connection options (under "Expe
 
 It can also be worth exiting and coming back in (particularly on first login to that machine)
 
-
 ## Source
 
 - [why is my screen black after rdp connection?](http://superuser.com/questions/306412/why-is-my-screen-black-after-rdp-connection)

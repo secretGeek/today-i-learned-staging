@@ -1,4 +1,4 @@
-# Find outpated npm packages with 'npm outdated'
+﻿# Find outpated npm packages with 'npm outdated'
 
 From the folder which contains your `package.json` file, you can find out of date local packages like this:
 

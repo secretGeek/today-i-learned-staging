@@ -23,7 +23,6 @@ I want "when not matched by source then update with condition"
 	DECLARE @SummaryOfChanges TABLE(ID int, Change VARCHAR(20));
 
 
-
 	MERGE dbo.People p
 		USING (Select *
 			from dbo.People_staging s
@@ -51,8 +50,6 @@ I want "when not matched by source then update with condition"
 
 	SET @Message = 'Inserted ' + CAST(@InsertCount AS VARCHAR(4)) + ' new rows, updated ' + CAST(@UpdateCount AS VARCHAR(4)) + ' existing rows, deleted ' + CAST(@DeleteCount AS VARCHAR(4)) + ' non-matched rows.'
 	RAISERROR (@Message, 0, 1) WITH NOWAIT
-
-
 
 
 

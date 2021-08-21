@@ -1,10 +1,8 @@
-# Using Anki for Windows
+﻿# Using Anki for Windows
 
 - install it.
 
-
 ## Import CSV files to anki
-
 
 Here's the format (it's quite flexible)
 
@@ -26,10 +24,7 @@ More advanced...
 	Front of card 3,Back of card 3
 	Front of card 4,Back of card 4
 
-
 You can also configure the import screen to have more fields -- it's quite versatile.
-
-
 
 
 
@@ -44,11 +39,9 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
 OK
 ---------------------------
 
-
 ...um .... ok....
 
 So I did this... ([based on...](https://changes.ankiweb.net/known-issues.html))
-
 
 	cmd
 
@@ -56,13 +49,6 @@ So I did this... ([based on...](https://changes.ankiweb.net/known-issues.html))
 
 	exit
 
-
 i.e. create a file called `$env:appdata\Anki2\gldriver` (no file extension)
 
 ...and put the word "auto" in it.
-
-
-
-
-
-

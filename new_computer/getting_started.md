@@ -1,10 +1,8 @@
-# Gettings started on a new laptop (for me)
+﻿# Gettings started on a new laptop (for me)
 
 Other people claim they just run some box-starter script or a bunch of chocolatey installs and they're done.
 
 I seem to have a lot more to get set up than they do. Here's a list for me:
-
-
 
 ## installs
 
@@ -20,7 +18,6 @@ I seem to have a lot more to get set up than they do. Here's a list for me:
 - filezilla
 - SSMS
 - sgdm
-
 
 ## configure
 
@@ -50,4 +47,3 @@ I seem to have a lot more to get set up than they do. Here's a list for me:
 - linqPad
 - paint.net
 - office
-

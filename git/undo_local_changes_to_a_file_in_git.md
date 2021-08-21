@@ -1,4 +1,4 @@
-# Undo local changes to a file in git
+﻿# Undo local changes to a file in git
 
 You've changed the file locally, and you now regret it.
 

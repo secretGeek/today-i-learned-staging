@@ -1,4 +1,4 @@
-# find mismatched getters and setters (for useState)
+﻿# find mismatched getters and setters (for useState)
 
 Here's a common pattern...
 

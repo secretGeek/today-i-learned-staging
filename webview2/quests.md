@@ -1,14 +1,12 @@
-# Quests with WebView2
+﻿# Quests with WebView2
 
 Things to attempt first are:
-
 
 1. download and install webview2 and sdk bundle.
 
 2. consider optional components. Gear obsesseed? goto 2.
 
 3. get to a point where you have this code running:
-
 
 
 ```csharp
@@ -44,6 +42,3 @@ private void WebView_NavigationCompleted(object sender, Microsoft.Web.WebView2.C
         webView.Visibility = Visibility.Visible;
     }
 }
-
-
-

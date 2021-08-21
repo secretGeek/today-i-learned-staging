@@ -1,4 +1,4 @@
-# Visual Studio Build is failing with "node.exe exited with code 134"
+﻿# Visual Studio Build is failing with "node.exe exited with code 134"
 
 Well this was a nasty little rabbit hole.
 
@@ -12,8 +12,6 @@ A team member somehow reasoned that `node.exe` was running out of memory when co
 
 	--max-old-space-size=4071
 
-
 ...and not by specifying it on a command line anywhere, but by literally setting the windows environment variables for that user on that machine.
-
 
 I expected to see this error again and learn more about getting it to give better clues that let us fix it in a targeted way.

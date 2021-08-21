@@ -21,7 +21,6 @@ Or say you are in a pipeline, within which `$name` and `$count` become available
 
 
 
-
 ## Similar: PSCustomObject
 
 	[PSCustomObject]@{
@@ -29,9 +28,7 @@ Or say you are in a pipeline, within which `$name` and `$count` become available
 		Count = $_.Length
 	}
 
-
 This is newer. It's slightly less typing. It can have other improvements.
-
 
 
 ## What's the difference?
@@ -39,7 +36,6 @@ This is newer. It's slightly less typing. It can have other improvements.
 > both avenues will output the data as NoteProperties in the System.Management.Automation.PSCustomObject object types
 >
 > &mdash;[source](https://devops-collective-inc.gitbook.io/the-big-book-of-powershell-gotchas/new-object-psobject-vs.-pscustomobject)
-
 
 
 ## See also

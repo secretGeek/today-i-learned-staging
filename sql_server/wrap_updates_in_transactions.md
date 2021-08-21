@@ -1,4 +1,4 @@
-# Wrap an update in a transaction with this script template
+﻿# Wrap an update in a transaction with this script template
 
 You want to make an update, manually perhaps... but you don't want to commit it if anything looks... wrong...
 
@@ -28,20 +28,17 @@ You want to make an update, manually perhaps... but you don't want to commit it 
 		COMMIT;
 	END
 
-
 ## Create example table
 
 For example:
 
 let's create a little example table...
 
-
 	Select 'x' as 't' into t1
 
 ## Update our table
 
 Now we want to run an update against this table... we will expect 1 row to be updated. If any other number of rows are updated, the transaction will be rolled back.
-
 
 	Declare @RowsAffected integer
 	Declare @ExpectedRows integer

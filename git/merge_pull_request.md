@@ -14,9 +14,7 @@ Step 2: Merge the changes and update on GitHub.
     git push origin master
 
 
-
 ## resolve merge conflicts arising during pull request
-
 
 Situation: you're working on a feature branch called `feature-1`
 
@@ -30,11 +28,8 @@ and then...
 
 	git pull origin main
 
-
 ...this will attempt to bring the remote copy of main (`origin main`) into your local repo and folder, where you are working on `feature-1`
 
 The merge conflict will then occur before your eyes, and you can resolve it locally.
 
 When you're done, commit and push (you'll be pushing to `remote feature-1`) and your new commit will form part of the pull request.
-
-

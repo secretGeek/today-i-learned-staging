@@ -1,4 +1,4 @@
-# Useful bookmarklets
+﻿# Useful bookmarklets
 
 Some basic ones I've used at times.
 
@@ -29,13 +29,11 @@ Example result:
 
 [useful bookmarklets . Today I Learned (secretGeek)](https://til.secretgeek.net/bookmarklets/useful_bookmarklets.html)
 
-
 	[useful bookmarklets . Today I Learned (secretGeek)](https://til.secretgeek.net/bookmarklets/useful_bookmarklets.html)
 
 ## Table of Contents of a page
 
 Create a 'table of contents' (in markdown) by looping through all headings (`h1`...`h6`).
-
 
 <a href="javascript:(prompt('Press Ctrl+C to copy this Table of Contents', Array.from(document.querySelectorAll('h1, h2, h3, h4, h5, h6')).reduce((all, hEl)=>{all+=(' '.repeat(parseInt(hEl.outerHTML[2])-1))+`- ${hEl.innerText}\r\n`; return all;},'')))()">table-of-contents</a>
 
@@ -58,7 +56,6 @@ And here it is with more whitespace:
 					} ,'')
 			)
 		)()
-
 
 ## Copy selected text
 

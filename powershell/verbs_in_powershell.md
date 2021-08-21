@@ -10,9 +10,7 @@ Use `Get-Verb` to find the available verbs.
 
 ## To find suggested synonyms for unapproved verbs
 
-
 	Install-Script -Name Get-TMVerbSynonym
-
 
 ## Source
 

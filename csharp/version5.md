@@ -143,9 +143,6 @@ This would've avoided a few `NT1` errors back in `T-S` days.
 
 - [Further Reading](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/caller-information)
 
-
-
-
-## see also
+## See also
 
 - [C Sharp version 6](version6.md)

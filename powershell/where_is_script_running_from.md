@@ -6,7 +6,7 @@ Scenario:
 
 We have a script, `HelloWorld.ps1` located in `C:\Scripts\`
 
-We run this script, from the location "C:\CurrentPath\" like so:
+We run this script, from the location `C:\CurrentPath\` like so:
 
 	C:\CurrentPath\> C:\Scripts\HelloWorld.ps1
 
@@ -16,11 +16,11 @@ We want the script to output:
 >
 >	The script's full name and path is C:\Scripts\HelloWorld.ps1
 >
->	You are running it *from* C:\CurrentPath
+>	You are running it `*from`* C:\CurrentPath
 
-How do we do it??
+How do we do it?
 
-In PowerShell 3.0 and above we write:
+In **PowerShell 3.0 and above** we write:
 
 	write-host "The script is located in $PSScriptRoot"
 	# e.g. C:\Scripts

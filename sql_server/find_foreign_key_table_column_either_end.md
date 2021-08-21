@@ -1,4 +1,4 @@
-# find a foreign key by searching for the table or column from either end
+﻿# find a foreign key by searching for the table or column from either end
 
 This is helpful for finding not only "what does this foreign key refer to?" but also "are there any foreign keys out there that refer to this table?"
 
@@ -8,7 +8,6 @@ Things you might want to customise:
 - do you want to compare to just the fk table, the pk table, the fk column, the pk column?
 
 I've tried to make it super-easy to comment those in or out!
-
 
 	Declare @searchTerm nvarchar(100) = 'Person'								-- SEARCH TERM
 	Select
@@ -55,4 +54,3 @@ I've tried to make it super-easy to comment those in or out!
 	-- 4																											-- pk_table
 	-- 5																											-- pk_column
 	4
-

@@ -10,7 +10,6 @@ I have a note here that says "Note: final line had to change to be a `--force`" 
 
 So here's a better alternative...
 
-
 ## Use hg-git extension
 
 Try the process outlined here [Mark Heath](https://markheath.net/post/how-to-convert-mercurial-repository-to)
@@ -75,11 +74,9 @@ I had to also run:
 (Note: try instead performing... `hg bookmark -r default main`)
 
 
-
 ## push from source to target
 
 	hg push path\to\git_repo
-
 
 Now got to the bare repo and see if `git log` shows you the expected history.
 
@@ -108,7 +105,6 @@ While doing that it may update/regenerate files - and this will give you a chanc
 
 1. are you failing to ignore any files you should ignore?
 2. are there any files being tracked that are built artefacts which you would rather not track?
-
 
 To stop tracking an item that you do not wish to track (see [Remove a file from git but keep the local file](../git/remove_from_git_but_keep_locally.md#quick-version))
 

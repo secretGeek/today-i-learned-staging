@@ -1,4 +1,4 @@
-# Wait for something in Cypress, without using hardcoded milliseconds
+﻿# Wait for something in Cypress, without using hardcoded milliseconds
 
 Here is what you do NOT want to have to do....
 
@@ -15,8 +15,7 @@ e.g.
 
 	cy.get('#loading').should('not.exist')
 
-I believe that this will wait up to 10 seconds before cypress fails and says it timed out. More specifically, it will wait howeverlong the `cypress.json` says, e.g.
-
+I believe that this will wait up to 10 seconds before cypress fails and says it timed out. More specifically, it will wait however long the `cypress.json` says, e.g.
 
 (snippet from a custom `cypress.json` file....
 

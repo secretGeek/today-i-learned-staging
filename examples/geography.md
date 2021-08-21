@@ -1,4 +1,4 @@
-# geography examples
+﻿# geography examples
 
 ## shortest capital city names
 
@@ -41,4 +41,3 @@ Five letters:
 ## source
 
 - [simplemaps: world-cities](https://simplemaps.com/data/world-cities) csv (where `.capital = 'primary'`)
-

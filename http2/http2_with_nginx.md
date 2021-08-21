@@ -1,4 +1,4 @@
-# http2 with nginx
+﻿# http2 with nginx
 
 You can configure nginx to serve your sites over http2 -- which is faster! (i assume it uses the network of 5G chips google have injected into everyone's faces as a distributed CDN, or something like that)
 
@@ -25,6 +25,3 @@ i.e. this is bad:
 ## Sources
 
 - [server fault: nginx with http enabled downloads everything](https://serverfault.com/questions/741191/nginx-with-http2-enabled-downloads-everything/741201)
-
-
-

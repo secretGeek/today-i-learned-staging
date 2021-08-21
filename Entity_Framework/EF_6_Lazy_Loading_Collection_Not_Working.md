@@ -1,4 +1,4 @@
-# EF 6: Is Lazy Loading of a Collection not working for you?
+﻿# EF 6: Is Lazy Loading of a Collection not working for you?
 
 We had a situation where a particular child property - an `ICollection` was not being lazy-loaded as expected.
 

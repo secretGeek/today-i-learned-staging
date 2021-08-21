@@ -1,2 +1,1 @@
-# Basic examples of using SumIf in Excel
-
+﻿# Basic examples of using SumIf in Excel

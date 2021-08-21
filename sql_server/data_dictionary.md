@@ -20,7 +20,6 @@
 
 *****
 
-
 ## Data Dictionary
 
 ## Summary of tables
@@ -73,7 +72,6 @@
 		so.type = 'U'
 	ORDER BY
 		1,2,3
-
 
 Also
 

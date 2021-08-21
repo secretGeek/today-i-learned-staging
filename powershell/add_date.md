@@ -1,6 +1,5 @@
-# Add Dates in Powershell
+﻿# Add Dates in Powershell
 
 try...
 
 	(get-date).AddDays(-1)
-

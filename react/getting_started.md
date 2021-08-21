@@ -368,7 +368,6 @@ Clicking that info takes you to [this page about what to do to get it into produ
 
 > This will create a production build of your app in the build/ folder of your project.
 
-
 ## Playground
 
 This online playground gives you a lightweight place to try out small parts of how react works.
@@ -376,7 +375,6 @@ This online playground gives you a lightweight place to try out small parts of h
 - [jscomplete playground](https://jscomplete.com/playground)
 
 Here's a beginner program....
-
 
 	function CowButton() {
 		const [counter, setCounter] = useState(0);
@@ -390,9 +388,7 @@ Here's a beginner program....
 		document.getElementById('mountNode'),
 	);
 
-
 The `onClick` function can be factored into a handler on the CowButton instead...
-
 
 	function CowButton() {
 		const [counter, setCounter] = useState(0);
@@ -406,7 +402,6 @@ The `onClick` function can be factored into a handler on the CowButton instead..
 		<CowButton />,
 		document.getElementById('mountNode'),
 	);
-
 
 Ok, nicer, but that `CowButton` really has too many responsibilities.
 

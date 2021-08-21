@@ -1,4 +1,4 @@
-# How to turn a string into a FileInfo in Powershell
+﻿# How to turn a string into a FileInfo in Powershell
 
 Just cast it to `System.IO.FileInfo`
 

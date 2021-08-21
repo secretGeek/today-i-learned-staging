@@ -1,4 +1,4 @@
-# Search the event log for sql server restarts with this powershell query
+﻿# Search the event log for sql server restarts with this powershell query
 
 	get-Eventlog application | where-Object { $_.source -like "MSSQL*" -and $_.Message -like "SQL Server is starting*" }
 

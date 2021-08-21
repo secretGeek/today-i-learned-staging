@@ -10,7 +10,6 @@ i.e.
 
 	$env:appdata\Notepad++\themes\Zenburn.xml
 
-
 Here is an alternative:
 
 - [Dracula Theme](https://draculatheme.com/notepad-plus-plus/)
@@ -35,7 +34,6 @@ Previously -- the menu system and the chrome of `NotePad++` did not support dark
 There is now a "Dark Theme" section in "Preferences" (under Settings in the menu) -- with one checkbox for "Dark mode"
 
 ![dark mode](dark_mode.png)
-
 
 ## See also
 

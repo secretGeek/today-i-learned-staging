@@ -1,4 +1,4 @@
-# EF6: Create Empty Migration
+﻿# EF6: Create Empty Migration
 
 Before proceeding -- make sure you have compiled your code!
 
@@ -14,12 +14,9 @@ In the package manager console (having selected the right project, see above), r
 
 	Add-Migration "my_new_migration" -verbose
 
-
 (You don't *need* the `-verbose` but i find it useful to see more output and routinely include that)
 
-
 You'll receive an "empty" migration file, something like this:
-
 
 	namespace MyDbProject.Migrations
 	{
@@ -37,7 +34,6 @@ You'll receive an "empty" migration file, something like this:
 			}
 		}
 	}
-
 
 
 In the Up and `Down` method - you might specify some raw sql, by using the `sql` command... but that's another TIL.

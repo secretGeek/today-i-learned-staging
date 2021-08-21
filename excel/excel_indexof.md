@@ -1,4 +1,4 @@
-# In Excel, how do you check IndexOf (or Contains) of a string?
+﻿# In Excel, how do you check IndexOf (or Contains) of a string?
 
 You can't sorry. Oh wait:
 
@@ -8,13 +8,11 @@ is:
 
 	=ISNUMBER(SEARCH("fred",B2))
 
-
 ## Excel "IndexOf String"
 
 is:
 
 	=SEARCH("fred",B2)
-
 
 ## Suggestions
 

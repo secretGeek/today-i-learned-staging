@@ -1,5 +1,4 @@
-# Converting survey responses to numbers in excel
-
+﻿# Converting survey responses to numbers in excel
 
 You've received a lot of survey data and it might have a column that says good, very good, poor etc -- and you want to turn it into numbers.
 
@@ -34,9 +33,7 @@ I wrote a "function" ---- a piece of text that starts with the equals sign '='
 The function i wrote was this, i.e. here's what it says in `C2`:
 
 
-
 	=IF(B2="Never",1,IF(B2="Occasionally",2,IF(B2="Sometimes",3,IF(B2="Often",4,IF(B2="Always",5)))))
-
 
 
 It's a "nested if" function.
@@ -60,4 +57,3 @@ I took a screenshot of that error when it happened to me earlier. I think i'd le
 90% of the books in computer science are about trying to re-think our lives such that we don't end up with complex nested if expressions.
 
 Now you can use that function in all sorts of places, and if you take your time you can write them for any of these survey questions.
-

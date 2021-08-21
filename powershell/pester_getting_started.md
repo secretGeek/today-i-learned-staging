@@ -44,12 +44,12 @@ Find-Module pester -Repository psgallery | Install-Module -SkipPublisherCheck
 
 Will create two pre-populated files:
 
- - `Fire-LaserWeapon.ps1`
- - `Fire-LaserWeapon.Tests.ps1`
+- `Fire-LaserWeapon.ps1`
+- `Fire-LaserWeapon.Tests.ps1`
 
 ...unless the file already exists in which case it skips that one and gives you a warning. (i.e. it won't overwrite your stuff)
 
-## Example of a test file:
+## Example of a test file
 
 	Describe "Fire-LaserWeapon" {
 		It "tries the impossible" {
@@ -68,29 +68,29 @@ We can run those tests with:
 
 ## All Pester commands (today)
 
- - AfterAll
- - AfterEach
- - Assert-MockCalled
- - Assert-VerifiableMocks
- - BeforeAll
- - BeforeEach
- - Context
- - Describe
- - Get-MockDynamicParameters
- - Get-TestDriveItem
- - In
- - InModuleScope
- - Invoke-Mock
- - Invoke-Pester
- - It
- - Mock
- - New-Fixture
- - New-PesterOption
- - SafeGetCommand
- - Set-DynamicParameterVariables
- - Set-TestInconclusive
- - Setup
- - Should
+- AfterAll
+- AfterEach
+- Assert-MockCalled
+- Assert-VerifiableMocks
+- BeforeAll
+- BeforeEach
+- Context
+- Describe
+- Get-MockDynamicParameters
+- Get-TestDriveItem
+- In
+- InModuleScope
+- Invoke-Mock
+- Invoke-Pester
+- It
+- Mock
+- New-Fixture
+- New-PesterOption
+- SafeGetCommand
+- Set-DynamicParameterVariables
+- Set-TestInconclusive
+- Setup
+- Should
 
 ...found via:
 
@@ -98,4 +98,4 @@ We can run those tests with:
 
 ## References
 
-* [Getting Started with Pester](http://duffney.io/GettingStartedWithPester) &mdash; I did this guy's powershell course in pluralsight and he discussed pester a bit.
+- [Getting Started with Pester](http://duffney.io/GettingStartedWithPester) &mdash; I did this guy's powershell course in pluralsight and he discussed pester a bit.

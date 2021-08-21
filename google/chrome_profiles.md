@@ -1,4 +1,4 @@
-# How to get the most out of chrome profiles
+﻿# How to get the most out of chrome profiles
 
 If you have more than one microsoft account (for example) then you need multiple chrome profiles to be able to access them both at once.
 

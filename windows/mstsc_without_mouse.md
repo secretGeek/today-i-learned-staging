@@ -10,7 +10,6 @@ To send the equivalent of a `CTRL+ALT+DEL` use `CTRL+ALT+END`
 
 - [Remote Desktop Services Shortcut Keys](https://msdn.microsoft.com/en-us/library/aa383500(v=vs.85).aspx)
 
-
 ## See also
 
 - [Use mstsc.exe to connect, receive Black screen](../windows/mstsc_black_screen.md)

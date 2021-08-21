@@ -14,13 +14,11 @@ And used this command to achieve it:
 
 This example will show you the file size, every second (expressed in GB)
 
-
     while($true) { dir *wellsrv* | % { $_.Length / 1gb; sleep 1} }
 
 ## Poll disk space
 
 	while($true) { get-psdrive c | % { $_.Free / 1GB; sleep 3} }
-
 
 ## Poll Current Time, FileName and Size
 
@@ -34,7 +32,6 @@ Here's one that shows the current time, the file name and size every 30 seconds
 				sleep 30
 				}
 	}
-
 
 ## Poll Space Used and remaining
 

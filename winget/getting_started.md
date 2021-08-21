@@ -2,11 +2,9 @@
 
 I tried to use [winget](https://docs.microsoft.com/en-us/windows/package-manager/) to install [Github cli](../github/github_cli.md) but found I don't have it...
 
-
 	> winget install GitHub.cli
 
 	winget : The term 'winget' is not recognized as the name of a cmdlet, function, script file, or operable program.
-
 
 ## How to get winget?
 
@@ -41,7 +39,6 @@ When I go to install this downloaded bundle file I am asked if I want to "update
 
 ![update app installer](update_app_installer.png)
 
-
 Now, in a new windows terminal, not running as admin, I attempt to use winget, and I **succeed**.
 
 	winget install GitHub.cli
@@ -59,33 +56,25 @@ Here's the output (there was also a permissions prompt)
 	Successfully installed
 
 
-
 ## How to use winget
 
 And a brief guide to using winget from that same blogpost by Thomas:
-
 
 ### Search for available packages:
 
 	winget search APPLICATION
 
-
 ### Display information about the packages
 
-
 	winget show APPLICATION
-
 
 ### Install packages
 
 	winget install APPLICATION
 
-
 ### Manage sources for packages
 
-
 	winget source (add/list/update/remove/reset)
-
 
 ## External references
 

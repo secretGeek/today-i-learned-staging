@@ -35,7 +35,6 @@
 
 - [Conditional] Alteryx
 
-
 ## Appearing in just one place (so far)
 
 - [File] Alteryx
@@ -50,7 +49,6 @@
 - [Scripting Functions] SDU (this is vague?)
 - [Performance Tuning Functions and Procedures] SDU
 - [Utility Views] SDU
-
 
 ## Appendix A - Other Systems' Function Lists
 
@@ -732,7 +730,6 @@ Here's some things they have (those these are all standalone...)
 - `zip`()	Returns an iterator, from two or more iterators
 
 
-
 ### terraform
 
 - [Terraform functions](https://www.terraform.io/docs/language/functions/)
@@ -876,7 +873,6 @@ Here's some things they have (those these are all standalone...)
 
 ### SQL Server
 
-
 #### String Functions
 
 - `ASCII`	Returns the ASCII value for the specific character
@@ -910,7 +906,6 @@ Here's some things they have (those these are all standalone...)
 - `UNICODE`	Returns the Unicode value for the first character of the input expression
 - `UPPER`	Converts a string to upper-case
 
-
 ### Javascript
 
 Categories here are technical not thematic...
@@ -920,7 +915,6 @@ Categories here are technical not thematic...
 - [Instance properties]
 - [Instance methods]
 - [HTML wrapper methods] (deprecated)
-
 
 
 #### Constructor
@@ -981,9 +975,7 @@ Categories here are technical not thematic...
 - `String.prototype.valueOf()` - Returns the primitive value of the specified object. Overrides the Object.prototype.valueOf() method.
 - `String.prototype.@@iterator()` - Returns a new iterator object that iterates over the code points of a String value, returning each code point as a String value.
 
-
 #### HTML wrapper methods
-
 
 **Deprecated** Avoid these methods! They are of limited use, as they provide only a subset of the available HTML tags and attributes.
 
@@ -1000,7 +992,6 @@ Categories here are technical not thematic...
 - `String.prototype.strike()` <strike>
 - `String.prototype.sub()` <sub>
 - `String.prototype.sup()` <sup>
-
 
 #### Thematics Listing
 

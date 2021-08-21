@@ -1,4 +1,4 @@
-# How to best configure and use mstsc.exe - microsoft terminal services client
+﻿# How to best configure and use mstsc.exe - microsoft terminal services client
 
 "remote desktop connection" (`mstsc.exe`) is very programmable.
 
@@ -27,7 +27,6 @@ Hit 'show options'
 And what does the `Default.RDP` file look like??? It's plain text and very easy to read!
 
 Here's the content of the file I created in those screenshots....
-
 
 	screen mode id:i:2
 	use multimon:i:0
@@ -89,11 +88,9 @@ and the last two lines...
 
 The file is so easy to change... if you have a dozen machines you need to remote onto, just generate the files!
 
-
 ## Command line options
 
 Here's the full command line options....
-
 
 	[Window Title]
 	Remote Desktop Connection Usage
@@ -136,7 +133,6 @@ Here's the full command line options....
 	/noConsentPrompt -- Allows shadowing without user consent.
 
 	[OK]
-
 
 
 ## See also

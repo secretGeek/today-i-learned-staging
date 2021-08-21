@@ -1,9 +1,8 @@
-# json examples
+﻿# json examples
 
 ## prime example
 
 	{}
-
 
 ## one attribute
 
@@ -24,7 +23,6 @@
 	details.name = "Pam";
 
 ## an arry in json
-
 
 ```JSON
 {
@@ -60,7 +58,6 @@ returns:
 }
 ```
 
-
 Javascript:
 
 	JSON.stringify(details, null, "INDENT");
@@ -73,5 +70,3 @@ returns:
 	INDENT"age": 41
 }
 ```
-
-

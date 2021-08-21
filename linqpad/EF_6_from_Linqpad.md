@@ -1,4 +1,4 @@
-# Play with Entity Framework 6 from Linqpad
+﻿# Play with Entity Framework 6 from Linqpad
 
 In short:
 
@@ -11,8 +11,6 @@ Choose "Use a typed context from your own assembly"
 ...with "Entity Framework (DbContext V4/V5/V6)"
 
 (Nearby possibilities include: [adding access to Oracle, MySQL, SQLite](connect_to_oracle.md)... i might prefer that. How about interoperable python-based data providers?)
-
-
 
 
 
