@@ -14,66 +14,67 @@ I've placed related resources here for myself:
 
 Two stages:
 
- - Query Tuning
-	- i.e. you tune individual queries and come up with decent indexes for them in isolation
- - Server Tuning
+- Query Tuning
+  - i.e. you tune individual queries and come up with decent indexes for them in isolation
+- Server Tuning
   - consolidate indexes for all typical queries to avoid:
-		- unused indexes
-		- duplicate indexes
-		- too-similar indexes
+    - unused indexes
+    - duplicate indexes
+    - too-similar indexes
 
 ## General tips (throughout course)
 
 - When running queries to be analysed:
-	- Turn on statistics io
+  - Turn on statistics io
 
-			SET STATISTICS IO ON;
-	- Turn on show plan (i.e. "show actual execution plan" button -- Kimberly calls it 'Show Plan')
+	SET STATISTICS IO ON;
+
+  - Turn on show plan (i.e. "show actual execution plan" button -- Kimberly calls it 'Show Plan')
 
 - To inspect indexes:
-	- DMV for index (Kimberly uses '[sys].[dm_db_index_physical_stats]' so much she just refers to it as 'the DMV')
+  - DMV for index (Kimberly uses '[sys].[dm_db_index_physical_stats]' so much she just refers to it as 'the DMV')
 
-			-- Now, use the DMV (adding index ID) to review all indexes:
-			SELECT [index_id] AS [ID]
-				, [index_depth] AS [D]
-					, [index_level] AS [L]
-					, [record_count] AS [Rows]
-					, [page_count] AS [Pages]
-					, [avg_page_space_used_in_percent] AS [Page:Percent Full]
-					, [min_record_size_in_bytes] AS [Row:MinLen]
-					, [max_record_size_in_bytes] AS [Row:MaxLen]
-					, [avg_record_size_in_bytes] AS [Row:AvgLen]
-			FROM [sys].[dm_db_index_physical_stats]
-					(DB_ID (N'EmployeeCaseStudy')					-- Database ID
-					, OBJECT_ID (N'EmployeeCaseStudy.dbo.Employee') -- Object ID
-					, NULL											-- Index ID
-					, NULL											-- Partition ID
-					, 'DETAILED');									-- Mode
-			GO
+		-- Now, use the DMV (adding index ID) to review all indexes:
+		SELECT [index_id] AS [ID]
+			, [index_depth] AS [D]
+				, [index_level] AS [L]
+				, [record_count] AS [Rows]
+				, [page_count] AS [Pages]
+				, [avg_page_space_used_in_percent] AS [Page:Percent Full]
+				, [min_record_size_in_bytes] AS [Row:MinLen]
+				, [max_record_size_in_bytes] AS [Row:MaxLen]
+				, [avg_record_size_in_bytes] AS [Row:AvgLen]
+		FROM [sys].[dm_db_index_physical_stats]
+				(DB_ID (N'EmployeeCaseStudy')					-- Database ID
+				, OBJECT_ID (N'EmployeeCaseStudy.dbo.Employee') -- Object ID
+				, NULL											-- Index ID
+				, NULL											-- Partition ID
+				, 'DETAILED');									-- Mode
+		GO
 
-	- DBCC Ind
+  - DBCC Ind
 
-			EXEC ('DBCC IND ([EmployeeCaseStudy], ''[dbo].[Employee]'', 1)');
-			EXEC ('DBCC IND ([EmployeeCaseStudy], ''[dbo].[Employee]'', 2)');
-			EXEC ('DBCC IND ([EmployeeCaseStudy], ''[dbo].[Employee]'', 3)');
+		EXEC ('DBCC IND ([EmployeeCaseStudy], ''[dbo].[Employee]'', 1)');
+		EXEC ('DBCC IND ([EmployeeCaseStudy], ''[dbo].[Employee]'', 2)');
+		EXEC ('DBCC IND ([EmployeeCaseStudy], ''[dbo].[Employee]'', 3)');
 
-	- Show the statistics:
+  - Show the statistics:
 
-	DBCC SHOW_STATISTICS ('Employee', 'EmployeeZipRange1FilteredIX');
+		DBCC SHOW_STATISTICS ('Employee', 'EmployeeZipRange1FilteredIX');
 
 ## When is index used
 
 - Non clustered non covering Indexes are only used when selectivity &lt; about 1.5 %
-	- i.e. If the query planner, expects your query to returns 2% or more of the table it would rather scan the table than seek the non c index.
-	- This is because the cost of many bookmark lookups (from index leaf to actual table (which are random access access)) are slower than the even larger number of sequential reads when scanning the table.
-	- And note Statistics must be up to date for those percentage estimates &lt;2% to be good enough.
+  - i.e. If the query planner, expects your query to returns 2% or more of the table it would rather scan the table than seek the non c index.
+  - This is because the cost of many bookmark lookups (from index leaf to actual table (which are random access access)) are slower than the even larger number of sequential reads when scanning the table.
+  - And note Statistics must be up to date for those percentage estimates &lt;2% to be good enough.
 
-			--[sys].[dm_db_index_physical_stats]
+		--[sys].[dm_db_index_physical_stats]
 
-			SELECT *
-			FROM sys.dm_db_index_physical_stats
-					(db_id(), object_id('Charge'), 1, NULL, 'DETAILED')
-			go
+		SELECT *
+		FROM sys.dm_db_index_physical_stats
+				(db_id(), object_id('Charge'), 1, NULL, 'DETAILED')
+		go
 
 ## When *don't* you want a covering index?
 
@@ -117,7 +118,6 @@ Kimberly has a replacement for `sp_helpindex` - I think this is her latest versi
 
 - [USE THIS: sp_helpindex](https://www.sqlskills.com/blogs/kimberly/sp_helpindex-v20170228/)
 
-
 ## External References
 
 - [Indexing for Performance Finding the Right Balance `PDF`](https://www.sqlskills.com/blogs/kimberly/content/binary/indexesrightbalance.pdf) &mdash; a 2004 pdf of earlier version of the course.
@@ -125,4 +125,4 @@ Kimberly has a replacement for `sp_helpindex` - I think this is her latest versi
 
 ## See also
 
-* [Check if Column exists, or if constraint exists or if index exists (including spatial index)](check_if_column_constraint_index_exists.md)
+- [Check if Column exists, or if constraint exists or if index exists (including spatial index)](check_if_column_constraint_index_exists.md)

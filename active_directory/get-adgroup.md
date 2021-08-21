@@ -105,49 +105,49 @@ In fact here's all the 'get' methods that are available:
 
 ...)
 
- - `Get-ADAccountAuthorizationGroup`
- - `Get-ADAccountResultantPasswordReplicationPolicy`
- - `Get-ADAuthenticationPolicy`
- - `Get-ADAuthenticationPolicySilo`
- - `Get-ADCentralAccessPolicy`
- - `Get-ADCentralAccessRule`
- - `Get-ADClaimTransformPolicy`
- - `Get-ADClaimType`
- - `Get-ADComputer`
- - `Get-ADComputerServiceAccount`
- - `Get-ADDCCloningExcludedApplicationList`
- - `Get-ADDefaultDomainPasswordPolicy`
- - `Get-ADDomain`
- - `Get-ADDomainController`
- - `Get-ADDomainControllerPasswordReplicationPolicy`
- - `Get-ADDomainControllerPasswordReplicationPolicyUsage`
- - `Get-ADFineGrainedPasswordPolicy`
- - `Get-ADFineGrainedPasswordPolicySubject`
- - `Get-ADForest`
- - `Get-ADGroup`
- - `Get-ADGroupMember`
- - `Get-ADObject`
- - `Get-ADOptionalFeature`
- - `Get-ADOrganizationalUnit`
- - `Get-ADPrincipalGroupMembership`
- - `Get-ADReplicationAttributeMetadata`
- - `Get-ADReplicationConnection`
- - `Get-ADReplicationFailure`
- - `Get-ADReplicationPartnerMetadata`
- - `Get-ADReplicationQueueOperation`
- - `Get-ADReplicationSite`
- - `Get-ADReplicationSiteLink`
- - `Get-ADReplicationSiteLinkBridge`
- - `Get-ADReplicationSubnet`
- - `Get-ADReplicationUpToDatenessVectorTable`
- - `Get-ADResourceProperty`
- - `Get-ADResourcePropertyList`
- - `Get-ADResourcePropertyValueType`
- - `Get-ADRootDSE`
- - `Get-ADServiceAccount`
- - `Get-ADTrust`
- - `Get-ADUser`
- - `Get-ADUserResultantPasswordPolicy`
+- `Get-ADAccountAuthorizationGroup`
+- `Get-ADAccountResultantPasswordReplicationPolicy`
+- `Get-ADAuthenticationPolicy`
+- `Get-ADAuthenticationPolicySilo`
+- `Get-ADCentralAccessPolicy`
+- `Get-ADCentralAccessRule`
+- `Get-ADClaimTransformPolicy`
+- `Get-ADClaimType`
+- `Get-ADComputer`
+- `Get-ADComputerServiceAccount`
+- `Get-ADDCCloningExcludedApplicationList`
+- `Get-ADDefaultDomainPasswordPolicy`
+- `Get-ADDomain`
+- `Get-ADDomainController`
+- `Get-ADDomainControllerPasswordReplicationPolicy`
+- `Get-ADDomainControllerPasswordReplicationPolicyUsage`
+- `Get-ADFineGrainedPasswordPolicy`
+- `Get-ADFineGrainedPasswordPolicySubject`
+- `Get-ADForest`
+- `Get-ADGroup`
+- `Get-ADGroupMember`
+- `Get-ADObject`
+- `Get-ADOptionalFeature`
+- `Get-ADOrganizationalUnit`
+- `Get-ADPrincipalGroupMembership`
+- `Get-ADReplicationAttributeMetadata`
+- `Get-ADReplicationConnection`
+- `Get-ADReplicationFailure`
+- `Get-ADReplicationPartnerMetadata`
+- `Get-ADReplicationQueueOperation`
+- `Get-ADReplicationSite`
+- `Get-ADReplicationSiteLink`
+- `Get-ADReplicationSiteLinkBridge`
+- `Get-ADReplicationSubnet`
+- `Get-ADReplicationUpToDatenessVectorTable`
+- `Get-ADResourceProperty`
+- `Get-ADResourcePropertyList`
+- `Get-ADResourcePropertyValueType`
+- `Get-ADRootDSE`
+- `Get-ADServiceAccount`
+- `Get-ADTrust`
+- `Get-ADUser`
+- `Get-ADUserResultantPasswordPolicy`
 
 ## See also
 

@@ -22,25 +22,30 @@
 
 ## People with personal knowledge repositories
 
-- https://find.xyz/map/list-of-personal-knowledge-bases
-- https://blog.kowalczyk.info/
-- https://news.ycombinator.com/item?id=21332957
-- https://github.com/nikitavoloboev/knowledge/blob/master/SUMMARY.md
-- https://wiki.nikitavoloboev.xyz/other/wiki-workflow
-- https://github.com/nikitavoloboev/alfred-my-mind
-- https://www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/
-- https://maxmasnick.com/kb
-- https://philosopher.life/
-- https://www.gwern.net/index
-- https://knzhou.github.io/#lectures
-- https://github.com/ajkavanagh/vimwik-publishing-system
-- https://notes.andymatuschak.org/
+<!-- 
+NimbleText pattern for formatting this list...
+- [<% $row.replace('https://','').replace('www.','').replace('.com','').replace('/',': ').replace(/[\/\.]/g,' ').replace(/\: $/,'').trim() %>]($row)
+ -->
+
+- [find xyz: map list-of-personal-knowledge-bases](https://find.xyz/map/list-of-personal-knowledge-bases)
+- [blog kowalczyk info](https://blog.kowalczyk.info/)
+- [news ycombinator: item?id=21332957](https://news.ycombinator.com/item?id=21332957)
+- [github: nikitavoloboev knowledge blob master SUMMARY md](https://github.com/nikitavoloboev/knowledge/blob/master/SUMMARY.md)
+- [wiki nikitavoloboev xyz: other wiki-workflow](https://wiki.nikitavoloboev.xyz/other/wiki-workflow)
+- [github: nikitavoloboev alfred-my-mind](https://github.com/nikitavoloboev/alfred-my-mind)
+- [getdnote: blog how-i-built-personal-knowledge-base-for-myself](https://www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/)
+- [maxmasnick: kb](https://maxmasnick.com/kb)
+- [philosopher life](https://philosopher.life/)
+- [gwern net: index](https://www.gwern.net/index)
+- [knzhou github io: #lectures](https://knzhou.github.io/#lectures)
+- [github: ajkavanagh vimwik-publishing-system](https://github.com/ajkavanagh/vimwik-publishing-system)
+- [notes andymatuschak org](https://notes.andymatuschak.org/)
 
 ## Meta to the topic above
 
- - [Curated list of public zettelkasten / second brains / digital gardens](https://github.com/KasperZutterman/Second-Brain) - ([discussion at hn](https://news.ycombinator.com/item?id=23383333))
- - [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
- - [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
+- [Curated list of public zettelkasten / second brains / digital gardens](https://github.com/KasperZutterman/Second-Brain) - ([discussion at hn](https://news.ycombinator.com/item?id=23383333))
+- [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
+- [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
 
 ## Research by researchers
 
@@ -48,32 +53,32 @@
 
 ## Wikipedia
 
- - [Note-taking](https://en.wikipedia.org/wiki/Note-taking)
-   - clustering,
-   - Concept mapping
-   - Cornell Notes
-   - idea mapping
-   - instant replays
-   - Ishikawa diagrams
-   - knowledge maps
-   - learning maps
-   - mind mapping
-   - model maps
-   - the pyramid principle
-   - semantic networks
-   - SmartWisdom
- - [Hypomnema](https://en.wikipedia.org/wiki/Hypomnema)
- - [Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management)
- - [Personal wiki](https://en.wikipedia.org/wiki/Personal_wiki)
- - [Commonplace book](https://en.wikipedia.org/wiki/Commonplace_book)
- - [Comparison of wiki software](https://en.wikipedia.org/wiki/Comparison_of_wiki_software)
- - [List of wiki software](https://en.wikipedia.org/wiki/List_of_wiki_software)
- - [Notetaking](https://en.wikipedia.org/wiki/Notetaking)
- - [Outliner](https://en.wikipedia.org/wiki/Outliner)
- - [Personal information manager](https://en.wikipedia.org/wiki/Personal_information_manager)
- - [Personal knowledge base](https://en.wikipedia.org/wiki/Personal_knowledge_base)
- - [Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management)
- - [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)
+- [Note-taking](https://en.wikipedia.org/wiki/Note-taking)
+  - clustering,
+  - Concept mapping
+  - Cornell Notes
+  - idea mapping
+  - instant replays
+  - Ishikawa diagrams
+  - knowledge maps
+  - learning maps
+  - mind mapping
+  - model maps
+  - the pyramid principle
+  - semantic networks
+  - SmartWisdom
+- [Hypomnema](https://en.wikipedia.org/wiki/Hypomnema)
+- [Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management)
+- [Personal wiki](https://en.wikipedia.org/wiki/Personal_wiki)
+- [Commonplace book](https://en.wikipedia.org/wiki/Commonplace_book)
+- [Comparison of wiki software](https://en.wikipedia.org/wiki/Comparison_of_wiki_software)
+- [List of wiki software](https://en.wikipedia.org/wiki/List_of_wiki_software)
+- [Notetaking](https://en.wikipedia.org/wiki/Notetaking)
+- [Outliner](https://en.wikipedia.org/wiki/Outliner)
+- [Personal information manager](https://en.wikipedia.org/wiki/Personal_information_manager)
+- [Personal knowledge base](https://en.wikipedia.org/wiki/Personal_knowledge_base)
+- [Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management)
+- [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)
 
 ## Tools needed to perform this analysis
 

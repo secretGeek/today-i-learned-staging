@@ -4,8 +4,8 @@ This is a minimal C# function (usable from [Linqpad](../linqpad/01_summary.md)) 
 
 References these libraries:
 
- * `System.IO.Compression.dll`
- * `System.IO.Compression.FileSystem.dll`
+- `System.IO.Compression.dll`
+- `System.IO.Compression.FileSystem.dll`
 
 Code:
 
