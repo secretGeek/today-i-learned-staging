@@ -1,4 +1,4 @@
-# Function Research
+﻿# Function Research
 
 ## Categories Comparison
 
@@ -6,7 +6,7 @@
 
 (Really these are the categories I'm most interested in)
 
-## String Functions
+### String Functions
 
 - [String] Alteryx
 - [Strings] SDU
@@ -17,27 +17,23 @@
 - [Conversion] Alteryx
 - [Data Conversion Functions] SDU
 
-## DateTime Functions
+### DateTime Functions
 
 - [DateTime] Alteryx
 - [Dates and Times] SDU
 
-
-
-## Math Functions
+### Math Functions
 
 - [Math] Alteryx
 - [Math: Bitwise] Alteryx
 
-## Spatial Functions
+### Spatial Functions
 
 - [Spatial] Alteryx  (others will have these!)
 
-## Filter Functions
+### Filter Functions
 
 - [Conditional] Alteryx
-
-
 
 
 ## Appearing in just one place (so far)
@@ -49,14 +45,14 @@
 - [Operators] Alteryx
 - [Specialized] Alteryx (examples??)
 
-- [Database Utilities] SDU 
+- [Database Utilities] SDU
 - [Reporting Services Functions] SDU
 - [Scripting Functions] SDU (this is vague?)
 - [Performance Tuning Functions and Procedures] SDU
 - [Utility Views] SDU
 
 
-# Appendix A - Other Systems' Function Lists
+## Appendix A - Other Systems' Function Lists
 
 Background research (step 0) -- Listing functions (grouped) from any places that are easy to grab lists from.
 
@@ -71,11 +67,11 @@ Background research (step 0) -- Listing functions (grouped) from any places that
 - [terraform]
 - [Sql Server]
 
-## Alteryx
+### Alteryx
 
 - [alteryx](https://help.alteryx.com/2018.2/Reference/Functions.htm)
 
-### Categories (Alteryx)
+#### Categories (Alteryx)
 
 - [Conditional]
 - [Conversion]
@@ -317,11 +313,11 @@ Background research (step 0) -- Listing functions (grouped) from any places that
 - `Uppercase`(x) Converts a string to upper case
 - `UuidCreate`(): Creates a Unique identifier.
 
-## sql down under tools
+### sql down under tools
 
 - [Sql Downunder sdu tools](https://sqldownunder.com/sdu-tools) by Greg Low
 
-### Categories (SDU)
+#### Categories (SDU)
 
 - Strings
 - Dates and Times
@@ -551,7 +547,7 @@ Background research (step 0) -- Listing functions (grouped) from any places that
 - `SystemWords` - List of SQL Server reserved words and future reserved words
 - `UserTypes` - List of SQL Server user types
 
-## online csv tools
+### online csv tools
 
 - [online csv tools](https://onlinecsvtools.com/)
 
@@ -585,21 +581,21 @@ Here's some things they have (those these are all standalone...)
 - [URL-decode CSV](https://onlinecsvtools.com/url-decode-csv)
 - [URL-encode CSV](https://onlinecsvtools.com/url-encode-csv)
 
-## SSRS
+### SSRS
 
-## sql server
+### sql server
 
-## excel
+### excel
 
-## various cheat sheets etc
+#### various cheat sheets etc
 
-## python
+### python
 
-### Categories
+#### Categories
 
 - String Functions
 
-### String Functions
+#### String Functions
 
 - `capitalize`()	Converts the first character to upper case
 - `casefold`()	Converts string into lower case
@@ -646,7 +642,7 @@ Here's some things they have (those these are all standalone...)
 - `upper`()	Converts a string into upper case
 - `zfill`()	Fills the string with a specified number of 0 values at the beginning
 
-### File Functions
+#### File Functions
 
 - `close`()	Closes the file
 - `detach`()	Returns the separated raw stream from the buffer
@@ -665,7 +661,7 @@ Here's some things they have (those these are all standalone...)
 - `write`()	Writes the specified string to the file
 - `writelines`()	Writes a list of strings to the file
 
-## Built in Functions
+#### Built-in Functions
 
 - `abs`()	Returns the absolute value of a number
 - `all`()	Returns True if all items in an iterable object are true
@@ -737,11 +733,11 @@ Here's some things they have (those these are all standalone...)
 
 
 
-## terraform
+### terraform
 
 - [Terraform functions](https://www.terraform.io/docs/language/functions/)
 
-### Numeric Functions
+#### Numeric Functions
 
 - `abs`
 - `ceil`
@@ -753,7 +749,7 @@ Here's some things they have (those these are all standalone...)
 - `pow`
 - `signum`
 
-### String Functions
+#### String Functions
 
 - `chomp`
 - `format`
@@ -774,7 +770,7 @@ Here's some things they have (those these are all standalone...)
 - `trimspace`
 - `upper`
 
-### Collection Functions
+#### Collection Functions
 
 - `alltrue`
 - `anytrue`
@@ -808,7 +804,7 @@ Here's some things they have (those these are all standalone...)
 - `values`
 - `zipmap`
 
-### Encoding Functions
+#### Encoding Functions
 
 - `base64decode`
 - `base64encode`
@@ -822,7 +818,7 @@ Here's some things they have (those these are all standalone...)
 - `yamldecode`
 - `yamlencode`
 
-### Filesystem Functions
+#### Filesystem Functions
 
 - `abspath`
 - `dirname`
@@ -834,13 +830,13 @@ Here's some things they have (those these are all standalone...)
 - `filebase64`
 - `templatefile`
 
-### Date and Time Functions
+#### Date and Time Functions
 
 - `formatdate`
 - `timeadd`
 - `timestamp`
 
-### Hash and Crypto Functions
+#### Hash and Crypto Functions
 
 - `base64sha256`
 - `base64sha512`
@@ -859,14 +855,14 @@ Here's some things they have (those these are all standalone...)
 - `uuid`
 - `uuidv5`
 
-### IP Network Functions
+#### IP Network Functions
 
 - `cidrhost`
 - `cidrnetmask`
 - `cidrsubnet`
 - `cidrsubnets`
 
-### Type Conversion Functions
+#### Type Conversion Functions
 
 - `can`
 - `defaults`
@@ -878,10 +874,10 @@ Here's some things they have (those these are all standalone...)
 - `tostring`
 - `try`
 
-## SQL Server 
+### SQL Server
 
 
-### String Functions
+#### String Functions
 
 - `ASCII`	Returns the ASCII value for the specific character
 - `CHAR`	Returns the character based on the ASCII code
@@ -915,7 +911,7 @@ Here's some things they have (those these are all standalone...)
 - `UPPER`	Converts a string to upper-case
 
 
-## Javascript
+### Javascript
 
 Categories here are technical not thematic...
 
@@ -927,21 +923,21 @@ Categories here are technical not thematic...
 
 
 
-### Constructor
+#### Constructor
 
 - `String()` Creates a new String object. It performs type conversion when called as a function, rather than as a constructor, which is usually more useful.
 
-### Static methods
+#### Static methods
 
 - `String.fromCharCode(num1 [, ...[, numN]])` - Returns a string created by using the specified sequence of Unicode values.
 - `String.fromCodePoint(num1 [, ...[, numN)` - Returns a string created by using the specified sequence of code points.
 - `String.raw()` - Returns a string created from a raw template string.
 
-### Instance properties
+#### Instance properties
 
 - `String.prototype.length` - Reflects the length of the string. Read-only.
 
-### Instance methods
+#### Instance methods
 
 - `String.prototype.at(index)` - Returns the character (exactly one UTF-16 code unit) at the specified index. Accepts negative integers, which count back from the last string character.
 - `String.prototype.charAt(index)` - Returns the character (exactly one UTF-16 code unit) at the specified index.
@@ -986,7 +982,7 @@ Categories here are technical not thematic...
 - `String.prototype.@@iterator()` - Returns a new iterator object that iterates over the code points of a String value, returning each code point as a String value.
 
 
-### HTML wrapper methods
+#### HTML wrapper methods
 
 
 **Deprecated** Avoid these methods! They are of limited use, as they provide only a subset of the available HTML tags and attributes.
@@ -1006,7 +1002,9 @@ Categories here are technical not thematic...
 - `String.prototype.sup()` <sup>
 
 
-### Thematics Listing
+#### Thematics Listing
+
+The following listing of javascript functions is by theme not by technique of invocation.
 
 #### String Functions
 
@@ -1036,9 +1034,9 @@ Categories here are technical not thematic...
 - `trim()`	Removes whitespace from both ends of a string
 - `valueOf()`	Returns the primitive value of a String object
 
-## Math Functions
+#### Math Functions
 
-### Math Object Properties
+##### Math Object Properties
 
 - `E`	Returns Euler's number (approx. 2.718)
 - `LN2`	Returns the natural logarithm of 2 (approx. 0.693)
@@ -1049,7 +1047,7 @@ Categories here are technical not thematic...
 - `SQRT1_2`	Returns the square root of 1/2 (approx. 0.707)
 - `SQRT2`	Returns the square root of 2 (approx. 1.414)
 
-## Math Methods
+##### Math Methods
 
 - `abs(x)`	Returns the absolute value of x
 - `acos(x)`	Returns the arccosine of x, in radians
@@ -1085,7 +1083,7 @@ Categories here are technical not thematic...
 - `tanh(x)`	Returns the hyperbolic tangent of a number
 - `trunc(x)`	Returns the integer part of a number (x)
 
-### Regex Methods
+#### Regex Methods
 
 - `compile()`	Deprecated in version 1.5. Compiles a regular expression
 - `exec()`	Tests for a match in a string. Returns the first match

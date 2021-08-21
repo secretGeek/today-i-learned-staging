@@ -56,7 +56,7 @@ result:
 		Nginx HTTPS
 		OpenSSH
 
-## Considerations for later...
+## Considerations for later
 
 > HTTPS connections can be allowed with this command:
 >

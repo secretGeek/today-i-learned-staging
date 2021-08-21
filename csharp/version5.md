@@ -1,4 +1,4 @@
-﻿#	 C# version 5
+﻿# C# version 5
 
 See [what's new in C#5](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-50)
 

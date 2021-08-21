@@ -4,7 +4,7 @@ I tried to use [winget](https://docs.microsoft.com/en-us/windows/package-manager
 
 
 	> winget install GitHub.cli
-	
+
 	winget : The term 'winget' is not recognized as the name of a cmdlet, function, script file, or operable program.
 
 
@@ -12,7 +12,7 @@ I tried to use [winget](https://docs.microsoft.com/en-us/windows/package-manager
 
 From May 2020:
 
-> Since WinGet is open source, you can clone, build, run, and test the code from the GitHub repository (https://github.com/microsoft/winget-cli). 
+> Since WinGet is open source, you can clone, build, run, and test the code from the GitHub repository (https://github.com/microsoft/winget-cli).
 >
 > You can also become a Windows Insider an join the Windows Package Manager Insider program by sending your Microsoft Account (MSA) to <winget-feedback@microsoft.com> and request to be included in the preview
 >

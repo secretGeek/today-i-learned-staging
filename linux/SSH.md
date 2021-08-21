@@ -79,8 +79,7 @@ Create the RFC 4716 version of the public key using  ssh-keygen
 
 Simple right!? No, not simple.
 
-## Use ssh for copying from remote machine...
-
+## Use ssh for copying from remote machine
 
 This command sets up a tunnel to let you access the remote machine while "staying" on the local machine, via port forwarding.
 

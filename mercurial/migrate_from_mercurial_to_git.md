@@ -76,14 +76,14 @@ I had to also run:
 
 
 
-## push from source to target...
+## push from source to target
 
 	hg push path\to\git_repo
 
 
 Now got to the bare repo and see if `git log` shows you the expected history.
 
-## make a non-bare version somewhere nearby...
+## make a non-bare version somewhere nearby
 
 	git clone git_bare_repo git_regular_repo
 
@@ -91,9 +91,7 @@ Now got to the bare repo and see if `git log` shows you the expected history.
 
 	git log
 
-
-
-## Compare your new repo to your old repo, at file level...
+## Compare your new repo to your old repo, at file level
 
 How do they compare?
 
@@ -124,7 +122,6 @@ To stop tracking an item that you do not wish to track (see [Remove a file from 
 ## Import your new repo into github
 
 (I assume, without any proof, that you also want to move your work into github, or another cloud git provider)
-
 
 (I assume, without proof, that you have a user account on github)
 

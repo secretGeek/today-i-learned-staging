@@ -60,7 +60,7 @@ That's sufficient for now.
 
 ## new problem "Operation not permitted (1)"
 
-On a new computer I found my rsync backups were failing with "Operation not permitted (1)" 
+On a new computer I found my rsync backups were failing with "Operation not permitted (1)"
 
 
 I did a poor job of writing down the details of the error message - but it basically said it couldn't set the attributes on the target system (which is windows, and that makes sense to me)

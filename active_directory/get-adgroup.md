@@ -102,7 +102,7 @@ In fact here's all the 'get' methods that are available:
 (Find this via:
 
 	get-command get-* | ? { $_.Source -eq "ActiveDirectory" } | % Name
-	
+
 ...)
 
  - `Get-ADAccountAuthorizationGroup`

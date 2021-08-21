@@ -43,7 +43,7 @@ I want "when not matched by source then update with condition"
 	WHEN NOT MATCHED BY SOURCE
 		THEN SET o.[MissingSince] = GetDate()
 	OUTPUT $action INTO @SummaryOfChanges;
-		
+
 	DECLARE @InsertCount INT, @UpdateCount INT, @DeleteCount INT
 	SELECT @InsertCount = COUNT(*) FROM @SummaryOfChanges WHERE Change = 'INSERT'
 	SELECT @UpdateCount = COUNT(*) FROM @SummaryOfChanges WHERE Change = 'UPDATE'

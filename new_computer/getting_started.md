@@ -9,7 +9,7 @@ I seem to have a lot more to get set up than they do. Here's a list for me:
 ## installs
 
 - windows terminal
-- dropbox 
+- dropbox
 	- get my [utils](../tools/utils_repo.md) folder in particular
 - chrome
 - WSL
@@ -39,12 +39,15 @@ I seem to have a lot more to get set up than they do. Here's a list for me:
 - `PATH`
 	- utils
 
+## global npm packages
 
-# licensing for...
+ - `npm install -g markdownlint-cli`
+
+## licensing for
 
 - nimbletext
 - nimbleSET
 - linqPad
 - paint.net
 - office
-	
+

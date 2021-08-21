@@ -50,11 +50,11 @@ And here it is with more whitespace:
 					document.querySelectorAll('h1, h2, h3, h4, h5, h6')
 					)
 				.reduce(
-					(all, hEl) => { 
-						all += 
+					(all, hEl) => {
+						all +=
 							(' '.repeat(parseInt(hEl.outerHTML[2])-1)) +
 								`- ${hEl.innerText}\r\n`;
-							return all; 
+							return all;
 					} ,'')
 			)
 		)()
@@ -79,7 +79,7 @@ Spread over many lines it looks like this:
 			catch(_) {
 				s=document.getSelection();
 			}
-			
+
 			prompt('',s);
 		}
 	)()

@@ -4,36 +4,28 @@ When looking at the backlog items and choosing what to assign into a sprint, you
 
 Add this bookmarklet/favelet to your bookmarks/favorites. Then while looking at the backlog items in Azure Devops, select the rows you are interested in and click the bookmarklet.
 
-
 <a href="javascript:(alert(Array.from(document.getElementsByClassName('grid-row-selected')).reduce((all, row) => { all += Number.parseInt(row.children[6].innerText) || 0; return all; }, 0)))">sum points</a> &larr; *add this link as a favorite, for example, drag it to your bookmarks bar `tip`*
 
-
-Here is the bookmarket in full 
-
+Here is the bookmarket in full
 
 	javascript:(alert(Array.from(document.getElementsByClassName('grid-row-selected')).reduce((all, row) => { all += Number.parseInt(row.children[6].innerText) || 0; return all; }, 0)))
 
-
 And here it is with extra line breaks to make it more readable.
-
 
 	javascript:(alert
 		(Array
 			.from(document.getElementsByClassName('grid-row-selected'))
-			.reduce((all, row) => 
-				{ all += Number.parseInt(row.children[6].innerText) || 0; 
+			.reduce((all, row) =>
+				{ all += Number.parseInt(row.children[6].innerText) || 0;
 				  return all; }, 0)
 		)
 	)
-
 
 Note it assumes that the points are in the 7th column (index `6`), and that selected rows have a class name of `grid-row-selected` applied.
 
 You may need to vary those assumptions.
 
-
 I'm told this bookmarklet was developed by Ryan Stuart, a very clever javascript developer with a functional eye.
-
 
 ## See also
 

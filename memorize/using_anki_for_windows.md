@@ -25,8 +25,8 @@ More advanced...
 	Front of card 2,Back of card 2
 	Front of card 3,Back of card 3
 	Front of card 4,Back of card 4
-	
-	
+
+
 You can also configure the import screen to have more fields -- it's quite versatile.
 
 
@@ -41,7 +41,7 @@ This is most likely caused by not having the necessary graphics drivers installe
 
 Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, make sure the ANGLE Open GL ES 2.0 emulation libraries (libEGL.dll, libGLESv2.dll and d3dcompiler_*.dll) are available in the application executable's directory or in a location listed in PATH.
 ---------------------------
-OK   
+OK
 ---------------------------
 
 

@@ -20,7 +20,7 @@ And if you want to link to any other profiles: after this, they are named like t
 
 	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --profile-directory="Profile 1"
 
-or this 
+or this
 
 	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --profile-directory="Profile 3"
 
@@ -29,6 +29,5 @@ You can find the names of the profiles with this query:
 ## List Profile Names
 
 	dir $env:LOCALAPPDATA"\Google\Chrome\User Data" cookies -rec |
-		% PSParentPath | 
+		% PSParentPath |
 			% { $_.split('\\')[-1] }
-

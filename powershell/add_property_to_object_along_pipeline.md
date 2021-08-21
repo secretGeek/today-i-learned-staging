@@ -43,7 +43,7 @@ And I believe I used this particular one, so our hashtable can be [exported to a
 
 	ConvertTo-Object $hash | Export-Csv test.csv -NoTypeInformation
 
-## Convert custom object to hash table...
+## Convert custom object to hash table
 
 And I found that in [MarkJump](https://github.com/secretGeek/markjump) I wrote a function that is somewhat the reverse of this, and turns a custom object into a hash...
 

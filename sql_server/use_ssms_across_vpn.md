@@ -1,6 +1,6 @@
-# How to use SQL Server Management Studio (SSMS) to access Windows authenticated databases across a VPN 
+# How to use SQL Server Management Studio (SSMS) to access Windows authenticated databases across a VPN
 
-*i.e. Remote SQL with SSMS on VPN*
+(*i.e. Remote SQL with SSMS on VPN*)
 
 Imagine you're on a "work from home" computer, connected over a VPN to a client network (perhaps using a software or hardware token)
 
@@ -15,4 +15,3 @@ The trick is to launch `SSMS.exe` with runas, specifying `/netonly` and a domain
 > netonly
 >
 > use if the credentials specified are for remote access only.
-

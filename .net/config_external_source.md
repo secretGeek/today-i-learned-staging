@@ -52,5 +52,5 @@ Like so
 
 ## See also
 
-- [git config](/git/git_config.md)
-- [How to best configure and use `mstsc.exe` - microsoft terminal services client](/mstsc/how_to_best_configure_and_use_mstsc.md)
+- [git config](../git/git_config.md)
+- [How to best configure and use `mstsc.exe` - microsoft terminal services client](../mstsc/how_to_best_configure_and_use_mstsc.md)

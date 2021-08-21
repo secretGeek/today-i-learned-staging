@@ -83,7 +83,7 @@ Ideally it would give you more choices, for example it should show `vs code` as 
 <details>
 <summary class='heading'>
 
-## sidebar: trying to get it to load in `vs code`...
+## sidebar: trying to get it to load in `vs code`
 
 </summary>
 
@@ -135,7 +135,7 @@ Here's a minimal test...
 		})
 	})
 
-## Before adding our first test...
+## Before adding our first test
 
 Here is the structure of the files that cypress has added to our project...
 

@@ -103,7 +103,7 @@ Should have automated statistics updating maintenance routine at a time when sys
 
 	UPDATE STATISTICS [dbo].[Employee];
 
-## Index consolidation....
+## Index consolidation
 
 - Unused indexes - get rid of those obviously.
 

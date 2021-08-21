@@ -3,7 +3,7 @@
 Things to attempt first are:
 
 
-1. download and install webview2 and sdk bundle. 
+1. download and install webview2 and sdk bundle.
 
 2. consider optional components. Gear obsesseed? goto 2.
 
@@ -18,17 +18,17 @@ async void InitializeAsync()
 {
    // must create a data folder if running out of a secured folder that can't write like Program Files
    var env = await  CoreWebView2Environment.CreateAsync(userDataFolder: 	Path.Combine(Path.GetTempPath(),"MarkdownMonster_Browser"));
-   
+
     // NOTE: this waits until the first page is navigated - then continues
     //       executing the next line of code!
     await webView.EnsureCoreWebView2Async(env);
 
    if (Model.Options.AutoOpenDevTools)
        webView.CoreWebView2.OpenDevToolsWindow();
-   
-   // Almost always need this event for something    
+
+   // Almost always need this event for something
    webView.NavigationCompleted += WebView_NavigationCompleted;
-   
+
    // set the initial URL
    webView.Source = new Uri("https://test.editor/editor.htm");
 }

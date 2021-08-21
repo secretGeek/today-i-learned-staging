@@ -34,7 +34,7 @@ This is newer. It's slightly less typing. It can have other improvements.
 
 
 
-# What's the difference?
+## What's the difference?
 
 > both avenues will output the data as NoteProperties in the System.Management.Automation.PSCustomObject object types
 >

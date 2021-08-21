@@ -15,7 +15,7 @@ Some 'features on demand' you may find yourself needing:
 
 
 - [Remote server administration tools](../active_directory/get-adgroup.md) - for querying AD (and more)
-- [Hyper-V](virtual_box\virtual_box_requires_hyper_v_disabled.md) --
+- [Hyper-V](../virtual_box/virtual_box_requires_hyper_v_disabled.md) --
 - Various language/input features
 
 
@@ -397,4 +397,4 @@ Read [More about DISM.](https://docs.microsoft.com/en-us/windows-hardware/manufa
 
 - [Get-AdGroup in powershell via RSAT (Remote server administration tools)](../active_directory/get-adgroup.md)
 - [Powershell: get-aduser is useful to get info about a user account](../powershell/get_aduser.md)
-- [Virtual Box requires Hyper-V to be disabled](virtual_box\virtual_box_requires_hyper_v_disabled.md)
+- [Virtual Box requires Hyper-V to be disabled](../virtual_box/virtual_box_requires_hyper_v_disabled.md)

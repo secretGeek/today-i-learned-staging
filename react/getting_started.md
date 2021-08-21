@@ -369,15 +369,11 @@ Clicking that info takes you to [this page about what to do to get it into produ
 > This will create a production build of your app in the build/ folder of your project.
 
 
-## Playground....
-
+## Playground
 
 This online playground gives you a lightweight place to try out small parts of how react works.
 
-https://jscomplete.com/playground
-
-
-
+- [jscomplete playground](https://jscomplete.com/playground)
 
 Here's a beginner program....
 
@@ -395,7 +391,7 @@ Here's a beginner program....
 	);
 
 
-The `onClick` function can be factored into a handler on the CowButton instead... 
+The `onClick` function can be factored into a handler on the CowButton instead...
 
 
 	function CowButton() {
@@ -440,9 +436,6 @@ Let's have two components, one for the clicking and one for saying how many clic
 		<App />,
 		document.getElementById('mountNode'),
 	);
-
-
-
 
 ## Reference
 

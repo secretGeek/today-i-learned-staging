@@ -91,7 +91,7 @@ Here's how I can get it...
 (This assumes I have less than 500 repos.)
 
 	# first write a header row to the file
-	"repo	description	pubpriv	updated" | out-file gh_repos.tsv -encoding utf8; 
+	"repo	description	pubpriv	updated" | out-file gh_repos.tsv -encoding utf8;
 
 	# now write the list of repos...
 	gh repo list -L 500 | out-file gh_repos.tsv -append -encoding utf8;
@@ -100,11 +100,11 @@ Here's how I can get it...
 ### Use that list to get my full list of issues
 
 	# first write a header row to the file
-	"repo	id	status	subject	modified" | out-file gh_issues.tsv -encoding utf8; 
-	
+	"repo	id	status	subject	modified" | out-file gh_issues.tsv -encoding utf8;
+
 	# now write all the issues themselves, for each repo listed in repolist
-	Import-Csv -Delimiter "`t" -Path .\gh_repos.tsv | 
-		% { $repo = $_.repo; gh issue list --repo $_.repo } | 
+	Import-Csv -Delimiter "`t" -Path .\gh_repos.tsv |
+		% { $repo = $_.repo; gh issue list --repo $_.repo } |
 		% { "$repo`t$($_)" } | out-file "gh_issues.tsv" -encoding utf8
 
 

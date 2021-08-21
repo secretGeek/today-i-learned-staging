@@ -39,30 +39,28 @@ In older version we wrote:
 	write-host "You are running it from $((Resolve-Path .\).Path)"
 	# e.g. C:\CurrentPath
 
-
 ## Caveat!
 
 One caveat with these scripts... they are unlike most powershell scripts because
-they only work properly when they are inside a script. 
+they only work properly when they are inside a script.
 
 They don't behave the same if you just paste them into the commandline.
 
 ## Bonus questions
 
-### Question: What if one script is invoked from another? How do you inspect/query that chain? 
+### Question: What if one script is invoked from another? How do you inspect/query that chain?
 
-a caller, tx-14327, asks: 
+a caller, tx-14327, asks:
 
-> What if one script is invoked from another? 
+> What if one script is invoked from another?
 >
-> How do you inspect/query that chain? 
+> How do you inspect/query that chain?
 
 Good question. I don't know the answer yet. Do you?
 
 (I think the -Scope in this old code might've been put there for that reason...)
 
 	$scriptpath = (split-path (Get-Variable MyInvocation -Scope Script).Value.MyCommand.Path)
-
 
 ## See Also
 

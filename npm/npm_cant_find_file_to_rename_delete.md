@@ -1,4 +1,4 @@
-# npm cant find file to rename delete
+﻿# npm cant find file to rename delete
 
 npm fails while trying to delete or rename a file during an `npm install` with a message of
 
@@ -14,10 +14,9 @@ But the best solution for me seems to be:
 
 	npm cache clean -f
 
-To completely clear whatever 
+To completely clear whatever
 
 ## Full text of error:
-
 
 	npm ERR! code ENOENT
 	npm ERR! syscall rename
@@ -27,7 +26,6 @@ To completely clear whatever
 	npm ERR! enoent ENOENT: no such file or directory, rename 'C:\temp\scratch\vite\hello-vite-world\node_modules\function-bind' -> 'C:\temp\scratch\vite\hello-vite-world\node_modules\.function-bind.DELETE'
 	npm ERR! enoent This is related to npm not being able to find a file.
 	npm ERR! enoent
-
 
 ## Source(s)
 

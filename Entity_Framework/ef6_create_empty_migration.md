@@ -1,5 +1,6 @@
 # EF6: Create Empty Migration
 
+Before proceeding -- make sure you have compiled your code!
 
 In the package manager console...
 
@@ -9,11 +10,7 @@ Select the `default project` (dropdown) to have the project which contains your 
 
 ...continuing!
 
-In the package manager console...
-
-
-Run this command:
-
+In the package manager console (having selected the right project, see above), run this command:
 
 	Add-Migration "my_new_migration" -verbose
 
@@ -28,7 +25,7 @@ You'll receive an "empty" migration file, something like this:
 	{
 		using System;
 		using System.Data.Entity.Migrations;
-		
+
 		public partial class my_new_migration : DbMigration
 		{
 			public override void Up()

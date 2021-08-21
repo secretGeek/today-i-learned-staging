@@ -1,6 +1,6 @@
 ﻿# chmod - and the magic of file permissions
 
-## allow everything...
+## allow everything
 
 	$ chmod 777 /opt/webapps
 
@@ -50,13 +50,13 @@ Concentrate on those last three, the repeated 'rwx's...
 
 If a permission was missing it would be represented by a dash '-'.
 
-## similarly...
+## similarly
 
 - `chmod` - modify permissions
 - `chown` - change the owner of the file
 - `chgrp` - change the group
 
-## Common patterns....
+## Common patterns
 
 ### owner can read write but not execute, no one else can read write:
 

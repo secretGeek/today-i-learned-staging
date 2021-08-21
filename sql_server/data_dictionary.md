@@ -75,12 +75,12 @@
 		1,2,3
 
 
-Also 
+Also
 
 	- relationships
 	- indexes
 	- statistics
 	- views
 	- stored procedures
-	
+
 	- summaries of tables etc

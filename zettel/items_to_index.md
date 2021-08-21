@@ -22,19 +22,19 @@
 
 ## People with personal knowledge repositories
 
- - https://find.xyz/map/list-of-personal-knowledge-bases
- - https://blog.kowalczyk.info/
- - https://news.ycombinator.com/item?id=21332957
- - https://github.com/nikitavoloboev/knowledge/blob/master/SUMMARY.md
- - https://wiki.nikitavoloboev.xyz/other/wiki-workflow
- - https://github.com/nikitavoloboev/alfred-my-mind
- - https://www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/
- - https://maxmasnick.com/kb
- - https://philosopher.life/
- - https://www.gwern.net/index
- - https://knzhou.github.io/#lectures
- - https://github.com/ajkavanagh/vimwik-publishing-system
- - https://notes.andymatuschak.org/
+- https://find.xyz/map/list-of-personal-knowledge-bases
+- https://blog.kowalczyk.info/
+- https://news.ycombinator.com/item?id=21332957
+- https://github.com/nikitavoloboev/knowledge/blob/master/SUMMARY.md
+- https://wiki.nikitavoloboev.xyz/other/wiki-workflow
+- https://github.com/nikitavoloboev/alfred-my-mind
+- https://www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/
+- https://maxmasnick.com/kb
+- https://philosopher.life/
+- https://www.gwern.net/index
+- https://knzhou.github.io/#lectures
+- https://github.com/ajkavanagh/vimwik-publishing-system
+- https://notes.andymatuschak.org/
 
 ## Meta to the topic above
 
@@ -79,16 +79,16 @@
 
 - a simple spider/crawler
 - summarizer:
-	- url (in various forms)
-	- content as plain text
-	- word count
-	- word frequency (per page)
-	- sentence/paragraph analysis
-	- topic extraction
-	- automatic summarizing
-	- headings/outline structure
-	- tags/interlinks
-	- INBOUND links
+  - url (in various forms)
+  - content as plain text
+  - word count
+  - word frequency (per page)
+  - sentence/paragraph analysis
+  - topic extraction
+  - automatic summarizing
+  - headings/outline structure
+  - tags/interlinks
+  - INBOUND links
 
 ## Sources
 

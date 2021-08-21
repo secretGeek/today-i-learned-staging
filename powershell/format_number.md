@@ -22,7 +22,7 @@ or even...
 	dir | % { "{0,-65} {1,-30} {2,-30}" -f $_.Name, $_.Directory.Name, $_.Length }
 
 
-## Other format cmdlets...
+## Other format cmdlets
 
 `Format-wide` is good but somehow disappointing
 
