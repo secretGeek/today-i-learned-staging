@@ -76,7 +76,7 @@ and Doug --
 >
 > [@dfinke](https://twitter.com/dfinke/status/1303687569968857091?s=20)
 
-## Using the newer V3 API:
+## Using the newer V3 API
 
 	[System.Management.Automation.Language.Parser]::ParseInput('echo "$hello"', [ref] $tokens, [ref] $errors) | out-null;
 	$tokens | format-table
@@ -129,3 +129,5 @@ While on the topic of AST's -- Doug points out you can do this:
 And directly access the `AST`.
 
 `todo`: use this in [`.ok`](https://github.com/secretGeek/ok-ps) syntax highlighter!
+
+<!-- markdownlint-disable-file MD046 -->

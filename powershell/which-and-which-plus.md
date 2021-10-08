@@ -4,6 +4,4 @@
 
 But `Which+` does a lot more.
 
-
-
 	which cheat | % definition

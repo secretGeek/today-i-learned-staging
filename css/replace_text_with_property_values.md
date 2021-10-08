@@ -55,6 +55,9 @@ function replaceAllTextWithStylePropertyValue(propertyName) {
 
 That's enough strangeness for one evening.
 
+<!-- markdownlint-disable-file MD033 -->
+<!-- markdownlint-disable-file MD037 -->
+
 <script>
 function replaceAllTextWithStylePropertyValue(propertyName) {
 	var walker = document.createTreeWalker(

@@ -10,7 +10,6 @@ You might want to copy that `tools` folder to the server from which you need to 
 
 	.\ef6.exe database update --assembly "PATH\TO\YOUR_DB_Context_DB.dll" --config "Path\To\Your\Connection\String\Containing\Web.config" --target Migration_To_Roll_Back_To --force -v
 
-
 You will see output like this:
 
 	Specify the '-Verbose' flag to view the SQL statements being applied to the target database.

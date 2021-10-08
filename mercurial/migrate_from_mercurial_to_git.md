@@ -73,7 +73,6 @@ I had to also run:
 
 (Note: try instead performing... `hg bookmark -r default main`)
 
-
 ## push from source to target
 
 	hg push path\to\git_repo

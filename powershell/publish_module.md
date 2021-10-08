@@ -49,13 +49,9 @@ A module manifest is a script with a `.psd1` extension. It describes the module,
                        -Author $Author `
                        -FormatsToProcess "$ModuleName.Format.ps1xml"
 
-## See also
-
-* [What is a module?](module_what_is_it.md)
-
 ## Register at PowershellGallery, and get an API key
 
-To publish it to the [Powershell Gallery](https://www.powershellgallery.com/) you'll need to register yourself as a user there, and then you'll need an API key. Once registered, you'll find your API key here: https://www.powershellgallery.com/account
+To publish it to the [Powershell Gallery](https://www.powershellgallery.com/) you'll need to register yourself as a user there, and then you'll need an API key. Once registered, you'll find your API key here: <https://www.powershellgallery.com/account>
 
 Once you have your API key, please remember to keep it secret for if it falls into enemy hands, then god help us all.
 
@@ -92,6 +88,6 @@ Once you have your API key, please remember to keep it secret for if it falls in
 - [Building a PowerShell Module](http://ramblingcookiemonster.github.io/Building-A-PowerShell-Module/) by Warren Frame.
 - [Powershell: Building a Module, one microstep at a time](https://powershellexplained.com/2017-05-27-Powershell-module-building-basics/)
 
- ## See also
+## See also
 
 - [What is a module?](module_what_is_it.md)

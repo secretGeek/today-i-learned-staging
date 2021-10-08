@@ -60,7 +60,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [banking](banking/01_summary.md) | 1 article |
  | [bookmarklets](bookmarklets/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
- | [chocolatey](chocolatey/01_summary.md) | 7 articles |
+ | [chocolatey](chocolatey/01_summary.md) | 8 articles |
  | [concepts](concepts/01_summary.md) | 18 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
@@ -74,14 +74,14 @@ Though this site is published as a free digital-only book, I've also published a
  | [domains](domains/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 3 articles |
- | [Entity Framework](Entity_Framework/01_summary.md) | 4 articles |
+ | [Entity Framework](Entity_Framework/01_summary.md) | 5 articles |
  | [examples](examples/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 7 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 2 articles |
  | [games](games/01_summary.md) | 2 articles |
- | [git](git/01_summary.md) | 23 articles |
+ | [git](git/01_summary.md) | 24 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
@@ -174,5 +174,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-713 articles
-189920 words
+716 articles
+190961 words

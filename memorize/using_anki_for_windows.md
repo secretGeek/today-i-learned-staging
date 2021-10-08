@@ -26,8 +26,6 @@ More advanced...
 
 You can also configure the import screen to have more fields -- it's quite versatile.
 
-
-
 ---------------------------
 Anki
 ---------------------------

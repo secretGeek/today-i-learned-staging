@@ -35,5 +35,4 @@ You'll receive an "empty" migration file, something like this:
 		}
 	}
 
-
-In the Up and `Down` method - you might specify some raw sql, by using the `sql` command... but that's another TIL.
+In the `Up` and `Down` method - you might specify some raw sql, by using the `sql` command... but that's another TIL.

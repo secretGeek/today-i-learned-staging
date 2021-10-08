@@ -72,8 +72,6 @@ These three -- `--no-o --no-g --no-perms` -- mean "don't set the owner the group
 
 And this one `--no-t` means 'don't set the file time' -- which also means it can't use time-checking to simplify the checking of what to sync... and maybe that slows it down a lot.
 
-
-
 ## See also
 
 * [Backup remote folders with rsync](backup_remote_folders_with_rsync.md)

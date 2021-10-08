@@ -11,4 +11,6 @@ Unexplored edge cases... what happens to the encoding? What if you want to repla
 
 ## See also
 
- * [Giving Chocolatey a Checksum when creating a package](../chocolatey/specify_checksum_for_chocolatey.md)
+- [Giving Chocolatey a Checksum when creating a package](../chocolatey/specify_checksum_for_chocolatey.md)
+- [Detect File Encoding (with Powershell)](detect_file_encoding.md)
+- [Powershell 'out-file' set the encoding](out-file-encoding.md)

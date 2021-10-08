@@ -19,8 +19,6 @@ Or say you are in a pipeline, within which `$name` and `$count` become available
 
 	} | ConvertTo-CSV  -NoTypeInformation | out-file "Name_And_Count.csv"
 
-
-
 ## Similar: PSCustomObject
 
 	[PSCustomObject]@{
@@ -30,13 +28,11 @@ Or say you are in a pipeline, within which `$name` and `$count` become available
 
 This is newer. It's slightly less typing. It can have other improvements.
 
-
 ## What's the difference?
 
 > both avenues will output the data as NoteProperties in the System.Management.Automation.PSCustomObject object types
 >
 > &mdash;[source](https://devops-collective-inc.gitbook.io/the-big-book-of-powershell-gotchas/new-object-psobject-vs.-pscustomobject)
-
 
 ## See also
 

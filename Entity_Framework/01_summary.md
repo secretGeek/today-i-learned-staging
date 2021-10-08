@@ -3,6 +3,7 @@
 
 ## content
 
+- [Clone Entity Graph in EF6](ef6_clone.md)
 - [EF 6: Is Lazy Loading of a Collection not working for you?](EF_6_Lazy_Loading_Collection_Not_Working.md)
 - [EF6: Create Empty Migration](ef6_create_empty_migration.md)
 - [EF6: Rollback to a previous migration](ef6_rollback_migration.md)

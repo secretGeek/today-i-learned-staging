@@ -13,7 +13,6 @@ Step 2: Merge the changes and update on GitHub.
     git merge --no-ff doekman-master
     git push origin master
 
-
 ## resolve merge conflicts arising during pull request
 
 Situation: you're working on a feature branch called `feature-1`

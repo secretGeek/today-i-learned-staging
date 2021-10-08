@@ -13,16 +13,16 @@ Example:
 
     C:\users\leon\dropbox\secretGeek\util\linqPad\calendar.linq
 
- * `Name` = "calendar.linq" (the name including the extension)
- * `BaseName` = "calendar"  (the filename without extension)
- * `Extension` = ".linq"   (the extension including the dot)
- * `FullName` = "C:\users\leon\dropbox\secretGeek\util\linqPad\calendar.linq"
- * `DirectoryName` = "C:\users\leon\dropbox\secretGeek\util\linqPad"
- * `Directory` = a `DirectoryInfo` object where:
-    * `Directory.Name` = "linqPad"
-    * `Directory.FullName` = "C:\users\leon\dropbox\secretGeek\util\linqPad"
-    * `Directory.Root` = a `DirectoryInfo` object (and as string == "C:\")
-    * `Directory.Parent` = a `DirectoryInfo` object where:
-      * `Directory.Parent.Name` = "util"
+- `Name` = "calendar.linq" (the name including the extension)
+- `BaseName` = "calendar"  (the filename without extension)
+- `Extension` = ".linq"   (the extension including the dot)
+- `FullName` = "C:\users\leon\dropbox\secretGeek\util\linqPad\calendar.linq"
+- `DirectoryName` = "C:\users\leon\dropbox\secretGeek\util\linqPad"
+- `Directory` = a `DirectoryInfo` object where:
+  - `Directory.Name` = "linqPad"
+  - `Directory.FullName` = "C:\users\leon\dropbox\secretGeek\util\linqPad"
+  - `Directory.Root` = a `DirectoryInfo` object (and as string == "C:\")
+  - `Directory.Parent` = a `DirectoryInfo` object where:
+    - `Directory.Parent.Name` = "util"
 
 (`FileInfo` and `DirectoryInfo` --  both derive from `FileSystemInfo`)

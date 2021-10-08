@@ -134,7 +134,6 @@ Here's the full command line options....
 
 	[OK]
 
-
 ## See also
 
 - [Use mstsc.exe to connect, receive Black screen](../windows/mstsc_black_screen.md)

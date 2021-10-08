@@ -32,9 +32,7 @@ I wrote a "function" ---- a piece of text that starts with the equals sign '='
 
 The function i wrote was this, i.e. here's what it says in `C2`:
 
-
 	=IF(B2="Never",1,IF(B2="Occasionally",2,IF(B2="Sometimes",3,IF(B2="Often",4,IF(B2="Always",5)))))
-
 
 It's a "nested if" function.
 

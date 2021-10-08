@@ -4,8 +4,8 @@ Jeffrey Snover says [Write-Host Considered Harmful](http://www.jsnover.com/blog/
 
 In summary:
 
- * For **RESULTS** of an operation use "Write-Output"
- * For **Messages** use Write-Verbose
+- For **RESULTS** of an operation use "Write-Output"
+- For **Messages** use Write-Verbose
 
 Hmmm.
 
@@ -63,6 +63,6 @@ Tag: Don't follow me I'm lost too.
 
 ## Source
 
- * [Write-Host Considered Harmful](http://www.jsnover.com/blog/2013/12/07/write-host-considered-harmful/)
- * [Scripting Guys: PowerTip: Write PowerShell Output in Color Without Using Write-Host](https://blogs.technet.microsoft.com/heyscriptingguy/2012/10/11/powertip-write-powershell-output-in-color-without-using-write-host/)
- * [SO: Is there a way to specify a font color when using write-output](http://stackoverflow.com/questions/4647756/is-there-a-way-to-specify-a-font-color-when-using-write-output)
+- [Write-Host Considered Harmful](http://www.jsnover.com/blog/2013/12/07/write-host-considered-harmful/)
+- [Scripting Guys: PowerTip: Write PowerShell Output in Color Without Using Write-Host](https://blogs.technet.microsoft.com/heyscriptingguy/2012/10/11/powertip-write-powershell-output-in-color-without-using-write-host/)
+- [SO: Is there a way to specify a font color when using write-output](http://stackoverflow.com/questions/4647756/is-there-a-way-to-specify-a-font-color-when-using-write-output)

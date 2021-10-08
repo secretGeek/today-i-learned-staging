@@ -8,7 +8,6 @@ Things to attempt first are:
 
 3. get to a point where you have this code running:
 
-
 ```csharp
 // called from Window Constructor after InitializeComponent()
 // note: the `async void` signature is required for environment init

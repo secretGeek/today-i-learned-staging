@@ -1,7 +1,5 @@
 ﻿# F-Sharp: Getting Started (And not for the first time)
 
-
-
 ## External sources and references
 
 - [getting started with F#](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/)

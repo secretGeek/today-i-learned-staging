@@ -10,8 +10,8 @@ Here is the codes:
   <rect width="300" height="100" style="fill:rgb(255,255,30,0.0);stroke-width:1;stroke:rgb(255,128,0)" />
 </svg>
 
- - `stroke-width` e.g. 1, 2, 10%.
- - `stroke` (color) e.g. rgb(255,127,63), green
+- `stroke-width` e.g. 1, 2, 10%.
+- `stroke` (color) e.g. rgb(255,127,63), green
 
 ## Stroke Example (also a circle example)
 
@@ -75,16 +75,16 @@ Can define a stroke using another element.
 
 | __Letter__ | Meaning | `Sample` | Params | _Note_ |
 |--------|---------|--------|------|----|
-|   __M__    | Move to | `M 10 30` | (X,Y)+ | _set current point to abs. _ (10,30) |
-|   __m__   | move delta | `m 1 2` | (dx,dy)+ | _change current point by rel. _ (1,2) |
-|   __L__    | Line to | `L 10 20` | (dx,dy)+ | _line from current point, to rel. _ (10,20) |
-|        |  | `L 10 20 30 40` | (dx,dy)+ | _line from current point to rel. _ (10,20) _and line from there to rel. _ (30,40) |
-|   __H__    | Horiz Line to | `H 10` | x+ | _horiz line from current point to abs. _ x _of_ 10 |
-|   __h__    | Horiz Line delta | `h 10` | dx+ | _horiz line from current point to rel. _ x _of_ x + 10 |
-|        |  | `h -10` | dx+ | _horiz line from current point to rel. _ x _of_ x - 10 |
+|   __M__    | Move to | `M 10 30` | (X,Y)+ | _set current point to abs._ (10,30) |
+|   __m__   | move delta | `m 1 2` | (dx,dy)+ | _change current point by rel._ (1,2) |
+|   __L__    | Line to | `L 10 20` | (dx,dy)+ | _line from current point, to rel._ (10,20) |
+|        |  | `L 10 20 30 40` | (dx,dy)+ | _line from current point to rel._ (10,20) _and line from there to rel._ (30,40) |
+|   __H__    | Horiz Line to | `H 10` | x+ | _horiz line from current point to abs._ x _of_ 10 |
+|   __h__    | Horiz Line delta | `h 10` | dx+ | _horiz line from current point to rel._ x _of_ x + 10 |
+|        |  | `h -10` | dx+ | _horiz line from current point to rel._ x _of_ x - 10 |
 |   __V__    | Vert Line to | `V 10` | y+ | _vertical from current point to_ y _of_ 10 |
-|   __v__    | Vert Line delta | `v 10` | dy+ | _vertical from current point to rel. _ y _of_ y + 10 |
-|            |                 | `v -10` | dy+ | _vertical from current point to rel. _ y _of_ y - 10 |
+|   __v__    | Vert Line delta | `v 10` | dy+ | _vertical from current point to rel._ y _of_ y + 10 |
+|            |                 | `v -10` | dy+ | _vertical from current point to rel._ y _of_ y - 10 |
 |   __C__    | Cubic Bézier | `C 30,90 25,10 50,10` | (x1,y1, x2,y2, x,y)+ | _from current point to end point_ x,y _with control points at_ x1,y1 _and_ x2,y2 |
 |    |  | `C 30,90 25,10 50,10 10,25 90,30 10,50` | (x1,y1, x2,y2, x,y)+ | _subsequent triplets of pairs continue the curve_ |
 |   __c__    | relative Cubic Bézier  | `C 30,90 25,10 50,10` | (dx1,dy1, dx2,dy2, dx,dy)+ | _from current point to relative end point_ x,y _with relative control points at_ dx1,dy1 _and_ dx2,dy2 |
@@ -280,7 +280,7 @@ svg.squiggle:hover {
 }
 </style>
 
-Also consider applying some rounding -- or animating some rounding... https://stackoverflow.com/questions/10177985/svg-rounded-corner
+Also consider applying some rounding -- or [animating some rounding like this example at stackoverflow](https://stackoverflow.com/questions/10177985/svg-rounded-corner)
 
 <br />
 <br />
@@ -373,3 +373,5 @@ Also consider applying some rounding -- or animating some rounding... https://st
 	</g>
 </svg>
 </div>
+
+<!-- markdownlint-disable-file MD033 -->

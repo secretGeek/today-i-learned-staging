@@ -71,8 +71,6 @@ Run:
 
 Stare and compare that the new git repo matches the old hg repo, until you are completely satisfied.
 
-
-
 ## Sources
 
 - [Matthias's Answer to "Convert Mercurial project to Git"](https://stackoverflow.com/a/39906349)

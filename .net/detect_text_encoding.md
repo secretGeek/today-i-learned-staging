@@ -38,7 +38,7 @@ Wikipedia points out that for `UTF-8`, `UTF-7`, `UTF-1`, `UTF-EBCDIC`, `SCSU`, `
 
 (But this doesn't help if no byte order mark is present.)
 
-From stack overflow I've find an answer, with a lot of upvotes, which almost works for me. It relies on the presence of a `BOM` as listed above, and failing that returns `default`.
+From stack overflow I've found an answer, with a lot of upvotes, which almost works for me. It relies on the presence of a `BOM` as listed above, and failing that returns `default`.
 
 Only change I had to make is highlighted below:
 

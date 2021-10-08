@@ -1,4 +1,4 @@
-﻿# To pass an argument to a powershell script
+﻿# How to pass an argument to a powershell script
 
 For named parameters, first line in the script has to be a `param` declaration:
 
@@ -71,3 +71,4 @@ What about -- a filename that must be an existing file...
 ## See also
 
 - [console: ndesk options](../console/ndesk_options.md) -- for doing the same in a C# console app.
+- [How to do default parameter values in Powershell](default_parameter_values.md)

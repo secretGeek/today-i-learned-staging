@@ -146,6 +146,24 @@ Generally a good idea... (though not useful for mobile)
 		cursor: pointer;
 	}
 
+## full example (code afterwards)
+
+	<details>
+	<summary>Expand to see the details....</summary>
+	Once expanded, this is the details you will see.
+	</details>
+
+
+<div id='#efull-example'>
+<style>
+
+<details class=>
+<summary>Expand to see the details....</summary>
+Once expanded, this is the details you will see.
+</details>
+</div>
+
+
 ## Caveat
 
 Details/Summary are not supported in IE. And we're finally getting to a point where those words don't mean so much. 😅.

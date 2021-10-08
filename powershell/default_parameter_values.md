@@ -11,3 +11,8 @@ You have to give a formal declaration of the function's parameter.
 
 		Write-Host -Object "String: $String"
 	}
+
+
+## See also
+
+- [How to pass an argument to a powershell script](pass_argument_to_script.md)

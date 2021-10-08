@@ -1,23 +1,23 @@
-﻿# See all console colors:
+﻿# See all console colors
 
 	[enum]::GetValues([System.ConsoleColor]) | Foreach-Object {Write-Host $_ -ForegroundColor $_}
 
- * Black
- * DarkBlue
- * DarkGreen
- * DarkCyan
- * DarkRed
- * DarkMagenta
- * DarkYellow
- * Gray
- * DarkGray
- * Blue
- * Green
- * Cyan
- * Red
- * Magenta
- * Yellow
- * White
+- Black
+- DarkBlue
+- DarkGreen
+- DarkCyan
+- DarkRed
+- DarkMagenta
+- DarkYellow
+- Gray
+- DarkGray
+- Blue
+- Green
+- Cyan
+- Red
+- Magenta
+- Yellow
+- White
 
 Or to try every possible foreground/background combo:
 
@@ -55,4 +55,4 @@ Or to try every possible foreground/background combo:
 
 ## Source
 
- * http://blogs.technet.com/b/gary/archive/2013/11/21/sample-all-powershell-console-colors.aspx
+- [technet: sample all powershell console colors](http://blogs.technet.com/b/gary/archive/2013/11/21/sample-all-powershell-console-colors.aspx)

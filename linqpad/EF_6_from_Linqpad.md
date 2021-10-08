@@ -12,9 +12,6 @@ Choose "Use a typed context from your own assembly"
 
 (Nearby possibilities include: [adding access to Oracle, MySQL, SQLite](connect_to_oracle.md)... i might prefer that. How about interoperable python-based data providers?)
 
-
-
-
 ## Sources
 
 - https://www.linqpad.net/EntityFramework.aspx

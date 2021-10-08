@@ -593,7 +593,7 @@ Here's some things they have (those these are all standalone...)
 
 - String Functions
 
-#### String Functions
+#### String Functions (Python)
 
 - `capitalize`()	Converts the first character to upper case
 - `casefold`()	Converts string into lower case
@@ -729,7 +729,6 @@ Here's some things they have (those these are all standalone...)
 - `vars`()	Returns the __dict__ property of an object
 - `zip`()	Returns an iterator, from two or more iterators
 
-
 ### terraform
 
 - [Terraform functions](https://www.terraform.io/docs/language/functions/)
@@ -746,7 +745,7 @@ Here's some things they have (those these are all standalone...)
 - `pow`
 - `signum`
 
-#### String Functions
+#### String Functions (terraform)
 
 - `chomp`
 - `format`
@@ -873,7 +872,7 @@ Here's some things they have (those these are all standalone...)
 
 ### SQL Server
 
-#### String Functions
+#### String Functions (SQL Server)
 
 - `ASCII`	Returns the ASCII value for the specific character
 - `CHAR`	Returns the character based on the ASCII code
@@ -915,7 +914,6 @@ Categories here are technical not thematic...
 - [Instance properties]
 - [Instance methods]
 - [HTML wrapper methods] (deprecated)
-
 
 #### Constructor
 
@@ -979,25 +977,25 @@ Categories here are technical not thematic...
 
 **Deprecated** Avoid these methods! They are of limited use, as they provide only a subset of the available HTML tags and attributes.
 
-- `String.prototype.anchor()` <a name="name"> (hypertext target)
-- `String.prototype.big()` <big>
-- `String.prototype.blink()` <blink>
-- `String.prototype.bold()` <b>
-- `String.prototype.fixed()` <tt>
-- `String.prototype.fontcolor()` <font color="color">
-- `String.prototype.fontsize()` <font size="size">
-- `String.prototype.italics()` <i>
-- `String.prototype.link()` <a href="url"> (link to URL)
-- `String.prototype.small()` <small>
-- `String.prototype.strike()` <strike>
-- `String.prototype.sub()` <sub>
-- `String.prototype.sup()` <sup>
+- `String.prototype.anchor()` `<a name="name">` (hypertext target)
+- `String.prototype.big()` `<big>`
+- `String.prototype.blink()` `<blink>`
+- `String.prototype.bold()` `<b>`
+- `String.prototype.fixed()` `<tt>`
+- `String.prototype.fontcolor()` `<font color="color">`
+- `String.prototype.fontsize()` `<font size="size">`
+- `String.prototype.italics()` `<i>`
+- `String.prototype.link()` `<a href="url">` (link to URL)
+- `String.prototype.small()` `<small>`
+- `String.prototype.strike()` `<strike>`
+- `String.prototype.sub()` `<sub>`
+- `String.prototype.sup()` `<sup>`
 
 #### Thematics Listing
 
 The following listing of javascript functions is by theme not by technique of invocation.
 
-#### String Functions
+#### String Functions (JavaScript)
 
 - `charAt()`	Returns the character at the specified index (position)
 - `charCodeAt()`	Returns the Unicode of the character at the specified index
@@ -1025,7 +1023,7 @@ The following listing of javascript functions is by theme not by technique of in
 - `trim()`	Removes whitespace from both ends of a string
 - `valueOf()`	Returns the primitive value of a String object
 
-#### Math Functions
+#### Math Functions (JavaScript)
 
 ##### Math Object Properties
 

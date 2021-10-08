@@ -55,7 +55,6 @@ Here's the output (there was also a permissions prompt)
 	Starting package install...
 	Successfully installed
 
-
 ## How to use winget
 
 And a brief guide to using winget from that same blogpost by Thomas:

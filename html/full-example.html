@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<style>
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    color: #CCC;
+    background: #222;
+    caret-color: #333;
+  }
+
+  p {
+    margin: 1em 10%;
+  }
+    summary {
+      list-style: none;
+      cursor: pointer;
+    }
+
+    details>summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.example3[open]>summary {
+      color: #EEE;
+      outline: none;
+    }
+
+    details.example3[open] article {
+      animation: animateDown 0.2s ease-in forwards;
+    }
+
+
+    /* animation */
+
+    @keyframes animateDown {
+      0% {
+        opacity: 0;
+        transform: translatey(-60px);
+        xheight:0;
+      }
+
+      100% {
+        opacity: 1;
+        transform: translatey(0);
+        xheight:inherit;
+      }
+    }
+    summary {
+      background-color:#111;
+      display:inline;
+      padding:20px;
+      margin:0;
+    }
+    summary:hover {
+      background-color:#181818;
+    }
+
+    details > article {
+      padding:10px;
+      margin:0;
+      background-color:#181818;
+    }
+    details > article > ul > li {
+      list-style-type: none;
+      padding:20px;
+      margin:10px;
+      background-color:#222;
+    }
+    details > article > ul {
+      margin:0;padding:0;
+    }
+  </style>
+
+<body>
+  <details class='example3'>
+    <summary>Menu</summary>
+    <article><ul><li>Item 1</li>
+    <li>Item 2</li></ul></article>
+  </details>
+</body>
+
+</html>

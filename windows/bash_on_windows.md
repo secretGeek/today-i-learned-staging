@@ -89,7 +89,7 @@ or
 
 And guidance from windows is very clear: DO NOT EDIT any files in this \lxss\ folder using Windows applications.
 
- * [Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
+- [Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
 
 This is a pretty fundamental issue... I was bitten by this almost immediately... i edited my profile using Notepad++ -- and linux promptly discarded and recreated the file. I was confused until I read the above article (weeks later!)
 
@@ -113,8 +113,8 @@ Apparently:
 
 from <https://twitter.com/hmemcpy/status/786936955292483584>
 
- * [Fun with the Windows Subsystem for Linux, Pete Brown](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#DYZBzMFA6jH3q4qd.97)
- * [Five fun things you can do with the Windows 10 Bash](https://4sysops.com/archives/five-fun-things-you-can-do-with-the-windows-10-bash/)
+- [Fun with the Windows Subsystem for Linux, Pete Brown](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#DYZBzMFA6jH3q4qd.97)
+- [Five fun things you can do with the Windows 10 Bash](https://4sysops.com/archives/five-fun-things-you-can-do-with-the-windows-10-bash/)
 
 Important thing to do.... keep your packages up to date.
 
@@ -192,22 +192,22 @@ The home folder is now stored at:
 
 Note you can install all the different distributions side by side.
 
-* Ubuntu
-* openSUSE Leap 42
-* SUSE Linux Enterprise Server 12
-* Debian
-* Kali Linux
+- Ubuntu
+- openSUSE Leap 42
+- SUSE Linux Enterprise Server 12
+- Debian
+- Kali Linux
 
 And they have star ratings in the windows store. Ubuntu and Kali are popular. Others not so much.
 
 ## Source
 
- * [How to Install and Use the Linux Bash Shell on Windows 10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
- * [Warning! Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
- * [A Quick Intro to Linux Command Line for Windows Users](http://blog.robertelder.org/intro-to-linux-command-line-for-windows-users/)
- * [A Quick Intro to Linux Shell Scripting for Windows Developers](http://blog.robertelder.org/intro-to-linux-shell-scripting-for-windows-developers/)
+- [How to Install and Use the Linux Bash Shell on Windows 10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
+- [Warning! Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
+- [A Quick Intro to Linux Command Line for Windows Users](http://blog.robertelder.org/intro-to-linux-command-line-for-windows-users/)
+- [A Quick Intro to Linux Shell Scripting for Windows Developers](http://blog.robertelder.org/intro-to-linux-shell-scripting-for-windows-developers/)
 
 ## See also
 
- * [How can I tell which version of Windows is currently running?](which_version.md)
- * [getting started on bash](../linux/bash.md)
+- [How can I tell which version of Windows is currently running?](which_version.md)
+- [getting started on bash](../linux/bash.md)

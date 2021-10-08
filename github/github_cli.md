@@ -104,7 +104,6 @@ Here's how I can get it...
 		% { $repo = $_.repo; gh issue list --repo $_.repo } |
 		% { "$repo`t$($_)" } | out-file "gh_issues.tsv" -encoding utf8
 
-
 ## External references
 
 - [Hanselman: github command line](https://www.hanselman.com/blog/dont-forget-about-the-github-command-line)
