@@ -169,10 +169,11 @@ Though this site is published as a free digital-only book, I've also published a
  | [wordle](wordle/01_summary.md) | 1 article |
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [writing](writing/01_summary.md) | 2 articles |
+ | [xunit](xunit/01_summary.md) | 1 article |
  | [yarn](yarn/01_summary.md) | 1 article |
  | [zettel](zettel/01_summary.md) | 1 article |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-716 articles
-190961 words
+717 articles
+191611 words

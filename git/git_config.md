@@ -2,9 +2,9 @@
 
 Config -- from least specific to most specific, is stored in these locations:
 
-    $(prefix)/etc/gitconfig -- system-wide config
-    ~/.gitconfig -- 'global config' actually config for the current user, i.e. $home\.gitconfig
-    .git/config -- config for the current repo
+1. `[install Location]/etc/gitconfig` -- "system-wide" config (for me it is here: `C:\Program Files\Git\etc\gitconfig`, ymmv)
+2. `~/.gitconfig` -- known as "global" config, actually config for the current user, i.e. `$home\.gitconfig` (a case of scope-exaggeration)
+3. `.git/config` -- config for the current repo
 
 Get all config:
 
@@ -23,7 +23,7 @@ For the current system (i.e. machine) regardless of who is using the machine:
 
 The setting above will be overridden by any of those below:
 
-For the current user (i.e. global) regardless of which repo we are in.
+For the current user (i.e. "global") regardless of which repo we are in.
 
     git config --global user.name "John Doe"
 
@@ -47,6 +47,7 @@ Change:
         url = https://github.com/secretGeek/til.git
 
 To:
+
     [remote "origin"]
         url = https://secretGeek@github.com/secretGeek/til.git
 
@@ -61,8 +62,8 @@ To cache passwords (on windows)
     git config --global credential.helper wincred
 
 > This stores your credentials in the Windows credential store which has a Control Panel interface where you can delete or edit your stored credentials. (Under Control Panel\User Accounts\Credential Manager)
-
-(from <https://stackoverflow.com/questions/15381198/remove-credentials-from-git>)
+>
+> (from <https://stackoverflow.com/questions/15381198/remove-credentials-from-git>)
 
 And to stop caching password on windows:
 
@@ -75,5 +76,5 @@ Or on linux:
 
 ## External links
 
- * [Git Configuration from the Pro Git Book](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
- * [Caching your password](https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux)
+- [Git Configuration from the Pro Git Book](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+- [Caching your password](https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux)
