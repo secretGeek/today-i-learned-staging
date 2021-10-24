@@ -56,6 +56,6 @@ Changing one habit can lead to others changed.
 
 Appendix: A Reader's Guide to Using These Ideas
 
-## References
+## Sources
 
 * [The Power of Habit Summary](http://www.deconstructingexcellence.com/the-power-of-habit-summary/)

@@ -63,6 +63,6 @@ Or can have `awk` load the file, for example:
 	Mary
 	Susie
 
-## References
+## Sources
 
 	* [A Scripter's Notes: awk](https://scripter.co/notes/awk)

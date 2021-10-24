@@ -96,6 +96,6 @@ We can run those tests with:
 
 	which * | ? { $_.Source -eq "Pester" } | % {" - $($_.Name)"} | clipp
 
-## References
+## Sources
 
 - [Getting Started with Pester](http://duffney.io/GettingStartedWithPester) &mdash; I did this guy's powershell course in pluralsight and he discussed pester a bit.

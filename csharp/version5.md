@@ -2,15 +2,20 @@
 
 See [what's new in C#5](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-50)
 
+- [Asynchronous members]
+  - [CPU-Bound example]
+  - [I/O Bound example]
+- [Caller info attributes]
+
 ## Asynchronous members
 
 See [Asynchronous programming](https://docs.microsoft.com/en-us/dotnet/csharp/async) with the [Task Based Asynchronous Pattern](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap)
 
 You will come to know and love definitely not fear:
 
-* The concepts of "I/O bound" versus "CPU-bound code"
-* The classes `Task` and `Task<T>`.
-* The keywords `await` and `async`.
+- The concepts of "I/O bound" versus "CPU-bound code"
+- The classes `Task` and `Task<T>`.
+- The keywords `await` and `async`.
 
 > For I/O-bound code, you `await` an operation which returns a `Task` or `Task<T>` inside of an async method
 
@@ -18,7 +23,7 @@ and
 
 > For CPU-bound code, you `await` an operation which is started on a background thread with the `Task.Run` method.
 
-### CPU-Bound example:
+### CPU-Bound example
 
 Imagine we have a very expensive CPU-bound calculation, such as:
 
@@ -58,7 +63,7 @@ How can we ensure our code stays responsive, even while we do such an *intense* 
 		}
 	}
 
-## I/O Bound code
+## I/O Bound example
 
 Instead of doing something on our local CPU, perhaps we need to do something on someone else's machine (e.g. "in the cloud") or in a database, or on a disk, or by giving a printer some instructions to ignore.
 
@@ -143,6 +148,17 @@ This would've avoided a few `NT1` errors back in `T-S` days.
 
 - [Further Reading](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/caller-information)
 
+## Sources
+
+- [what's new in C#5](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-50)
+- [caller information, Further Reading](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/caller-information)
+
 ## See also
 
-- [C Sharp version 6](version6.md)
+- [C# Version 4](version4.md)
+- [C# version 5](version5.md)
+- [C# version 6](version6.md)
+- [C# version 7](version7.md)
+- [C# version 8](version8.md)
+- [C# version 9](version9.md)
+- [C# version 10](version10.md)

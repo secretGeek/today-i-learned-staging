@@ -23,8 +23,7 @@ For example:
 		Assert.True(result, $"I recognise that {pastaName} is pasta.");
 	}
 
-....takes `InlineData` from multiple attributes and runs the test once for each attribute.
-
+...takes `InlineData` from multiple attributes and runs the test once for each attribute.
 
 Instead of having hard-coded inline data right there -- which quickly becomes unwieldy -- you can use the `MemberData` attribute to specify a method that generates values. The above could be refactored to:
 
@@ -52,7 +51,6 @@ Instead of having hard-coded inline data right there -- which quickly becomes un
 		}
 	}
 
-
 Or -- just for fun -- we might make our test generator use `yield return`, instead.
 
 	public static IEnumerable<object[]> GetPasta()
@@ -63,12 +61,11 @@ Or -- just for fun -- we might make our test generator use `yield return`, inste
 
 The item being yielded is an `object[]` -- and its members and their types should match (or be assignable to) the parameters of the theory method.
 
-In this case, the theory method has 1 parameter, `string pastaName` -- so we are returning just 1 item in that object array, and that item is of type string. 
+In this case, the theory method has 1 parameter, `string pastaName` -- so we are returning just 1 item in that object array, and that item is of type string.
 
 But it's not very nice -- all these `object[]` -- we'd rather specify our types exactly, or we can have invalid tests.
 
-
-## ClassData with valid types:
+## ClassData with valid types
 
 To have strong types, we can use the `Xunit.TheoryData` class -- like so.
 
@@ -90,7 +87,6 @@ We specify the type of our class data, and it is a type that derives from Theory
 
 The `PastaTestGenerator` would have to derive from `TheoryData<string>` -- and be written like so:
 
-
     public class PastaTestGenerator : TheoryData<string>
     {
         public PastaTestGenerator()
@@ -102,11 +98,9 @@ The `PastaTestGenerator` would have to derive from `TheoryData<string>` -- and b
 
 With that, we get the type guarantees we wanted, while using a `classData` attribute.
 
-
-## MemberData with valid types:
+## MemberData with valid types
 
 Alternatively, we can use the `memberData` and the `TheoryData` together like so:
-
 
 We create a method that yields the  type of theory data we need, for example, this static method:
 
@@ -135,11 +129,7 @@ And we reference it from our `MemberData` attribute like so:
 		Assert.True(result, $"I recognise that {pastaName} is pasta.");
 	}
 
-
-
-
 Incidentally -- in case you do need to recognise pasta types, here is the pasta recogniser I wrote which passes all of the tests above:
-
 
 	public class PastaRecognizer
 	{
@@ -148,9 +138,7 @@ Incidentally -- in case you do need to recognise pasta types, here is the pasta 
 
 ...possible we need to add some *negative* test cases as well.
 
-
-## References
-
+## Sources
 
 - [Creating strongly typed xUnit theory test data with TheoryData](https://andrewlock.net/creating-strongly-typed-xunit-theory-test-data-with-theorydata/)
 

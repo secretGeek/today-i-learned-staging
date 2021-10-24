@@ -22,7 +22,7 @@ To see available space use:
 
 	EXEC master..xp_fixeddrives
 
-## Reference
+## Sources
 
 - [Stackoverflow: SQL Server xp_delete_file parameters](https://stackoverflow.com/questions/24582996/sql-server-xp-delete-file-parameters))
 

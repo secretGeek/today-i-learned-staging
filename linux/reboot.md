@@ -41,7 +41,7 @@ To restart supervisor manually I previously needed to use:
 
 But I now have my machines configured to restart the `supervisor` service automatically as described in [cron](cron.md)
 
-## References
+## Sources
 
 - [How to reboot droplet through the command line](https://www.digitalocean.com/community/questions/how-to-reboot-droplet-through-the-command-line-restart-apache-server)
 - [reboot vs shutdown -r now for restarting Linux](http://superuser.com/questions/175391/reboot-vs-shutdown-r-now-for-restarting-linux)

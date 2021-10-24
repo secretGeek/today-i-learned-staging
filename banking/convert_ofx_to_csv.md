@@ -64,6 +64,6 @@ Exporting as OFX included all the details, but it wasn't in a format where it wa
 
 So the bridge, the glue, the duct tape, as always, was [NimbleText](http://NimbleText). There were some tools you could buy that were tailored specifically to OFX -> CSV conversions. But I like my general purpose tool much better.
 
-## References
+## Source
 
- * [NimbleText](http://NimbleText)
+- [NimbleText](http://NimbleText)

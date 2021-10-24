@@ -18,6 +18,6 @@ If you *do* want to append it to a file then you'll want to skip the header row,
 
 But I digress.
 
-## see also
+## See also
 
 - [Get-AdGroup in powershell via RSAT (Remote server administration tools)](../active_directory/get-adgroup.md)

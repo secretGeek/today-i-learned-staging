@@ -432,10 +432,10 @@ Let's have two components, one for the clicking and one for saying how many clic
 		document.getElementById('mountNode'),
 	);
 
-## Reference
+## Source
 
 - [react devtools](https://reactjs.org/blog/2019/08/15/new-react-devtools.html)
 
-## see also
+## See also
 
 - [npx](../npm/npx.md)

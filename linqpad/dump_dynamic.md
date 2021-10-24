@@ -18,7 +18,7 @@ The workaround is simple -- cast it to `object`!
 	// as does this)
 	(d as Object).Dump();
 
-## see also
+## See also
 
 - [Csharp version 4 adds the "Dynamic" feature](../csharp/version4.md#dynamic-binding)
 - [Convert object to dynamic](../csharp/object_to_dynamic.md)

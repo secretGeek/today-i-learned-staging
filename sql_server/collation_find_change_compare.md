@@ -71,6 +71,6 @@ Here is a mood tracker I have on my wall so I can move the little yellow pointer
 
 ![TODAY we are angry about: NULLs or Collation](TODAY_we_are_angry_about_NULLs_Collation.jpg)
 
-## References
+## Sources
 
 - [SO: Collation Error](https://stackoverflow.com/questions/13785814/collation-error)

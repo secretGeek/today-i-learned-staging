@@ -13,13 +13,11 @@ The output you hopefully see is:
 
 > Switched to a new branch 'my-new-branch-name'
 
-
 ## Tell the origin about it
 
 Now inform the origin about this new branch....
 
 	git push -u origin my-new-branch-name
-
 
 ## A quick warning about mixed case
 
@@ -27,11 +25,9 @@ I have had problems before if I create a branch with mixed-case (because windows
 
 **I strongly recommend using all lower-case in your branch names**
 
-
-## References
+## Sources
 
 - [How To Create A GIT Branch With Your Current Changes](https://medium.com/@EeKayOnline/how-to-create-a-git-branch-with-your-current-changes-a79b297c339e)
-
 
 ## See also
 

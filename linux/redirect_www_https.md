@@ -69,11 +69,11 @@ And reload it with:
 
 See [more nginx basics here](nginx.md)
 
-## sources
+## Sources
 
-* [serverfault: Remove "www" and redirect to "https" with nginx](https://serverfault.com/questions/258378/remove-www-and-redirect-to-https-with-nginx)
+- [serverfault: Remove "www" and redirect to "https" with nginx](https://serverfault.com/questions/258378/remove-www-and-redirect-to-https-with-nginx)
 
-## see also
+## See also
 
-* [nginx](nginx.md)
-* [lets encrypt and certbot](lets_encrypt.md)
+- [nginx](nginx.md)
+- [lets encrypt and certbot](lets_encrypt.md)

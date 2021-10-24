@@ -31,7 +31,7 @@ This change can also be effected at the commandline, by running a "Developer Com
 
 If you don't want to add it for all solutions you can allegedly just add a `http_proxy` to the local `nuget.config` within your solution.
 
-## References
+## Sources
 
  * [SO: NuGet Behind Proxy](https://stackoverflow.com/questions/9232160/nuget-behind-proxy)
  * [NuGet.Config reference](https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file)

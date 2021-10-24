@@ -57,6 +57,6 @@ Here's a list of the books in chronological order, (though in the book they are 
 |2013|Temple Grandin|The Autistic Brain: Helping Different Kinds of Minds Succeed|
 |2014|Walter Mischel|The Marshmallow Test|
 
-## Reference
+## Sources
 
 - [50 Psychology Classics](http://www.butler-bowdon.com/50-psychology-classics.html)

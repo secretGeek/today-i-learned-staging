@@ -84,6 +84,6 @@ Also, once it did work, it would *fail* if I added this to the connection string
 
 Enjoy!
 
-## References
+## Sources
 
 * [Stackoverflow: DataReader.GetFieldType returned null](https://stackoverflow.com/questions/6569624/datareader-getfieldtype-returned-null)

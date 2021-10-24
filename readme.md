@@ -65,7 +65,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
- | [csharp](csharp/01_summary.md) | 6 articles |
+ | [csharp](csharp/01_summary.md) | 8 articles |
  | [css](css/01_summary.md) | 11 articles |
  | [csv](csv/01_summary.md) | 3 articles |
  | [cypress](cypress/01_summary.md) | 2 articles |
@@ -175,5 +175,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-717 articles
-191611 words
+719 articles
+192264 words

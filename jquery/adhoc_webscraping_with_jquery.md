@@ -56,8 +56,8 @@ I iterate through all items that match the selector, and push info from each ite
 
 And then I use the intrinsic console-only command, `copy` to put the result onto the clipboard.
 
-## References
+## Sources
 
- * [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
- * [Include jQuery in the JavaScript Console](https://stackoverflow.com/questions/7474354/include-jquery-in-the-javascript-console)
- * [Extracting a Trello board as markdown](http://www.secretgeek.net/trello_ws)
+- [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
+- [Include jQuery in the JavaScript Console](https://stackoverflow.com/questions/7474354/-clude-jquery-in-the-javascript-console)
+- [Extracting a Trello board as markdown](http://www.secretgeek.net/trello_ws)

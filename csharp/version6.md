@@ -2,7 +2,7 @@
 
 See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6)
 
-**Table of contents**
+## Table of contents
 
 - [readonly auto props](#readonly-auto-props)
 - [auto-property initializers](#auto-property-initializers)
@@ -11,7 +11,7 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 - [null conditional operators](#null-conditional-operators)
 - [string interpolations](#string-interpolations)
 - [exception filters](#exception-filters)
-- [the nameof expression](#the-nameof-expression)
+- [the `nameof` expression](#the-nameof-expression)
 - [await in catch and finally blocks](#await-in-catch-and-finally-blocks)
 - [index initializers](#index-initializers)
 - [extension `add` methods for collection initializers](#extension-add-methods-for-collection-initializers)
@@ -25,7 +25,7 @@ You can have properties that can be gotten but cannot be set:
 	public string FirstName { get; }
 	public string LastName { get; }
 
-Wait! What? Then how do they ever get set!? Are they like a one way street out of a deadend ?
+Wait! What? Then how do they ever get set!? Are they like a one way street out of a dead-end ?
 
 Answer: They can only be set in the constructor....
 
@@ -82,7 +82,7 @@ You can initialize the properties underlying value right where the property is d
 
 ^ In the above class, even if there were fifty constructors, none of them would need to think about initializing that property.
 
-And you can mix this with using constructors to perform initialization, from parameters even, if you wish. Constrast these three techniques being used in one class....
+And you can mix this with using constructors to perform initialization, from parameters even, if you wish. Contrast these three techniques being used in one class....
 
 	public class Person
 	{
@@ -131,7 +131,7 @@ This single-expression method can be expressed (pun-intended) as an expression b
 
 	public string FriendlyName() => FirstName + " " + LastName;
 
-... the syntax should be recognisable from expression lambdas, and from javascript arrow functions.
+... the syntax should be recognizable from expression lambdas, and from javascript arrow functions.
 
 (You can add parameters as well...)
 
@@ -159,7 +159,7 @@ Much less ceremonial typing than:
 
 ...for each of these anemic methods.
 
-Also, in somes case if you have *no* parameters, you may as well write a property instead of a method....
+Also, in some case if you have *no* parameters, you may as well write a property instead of a method....
 
 	public string FriendlyName => FirstName + " " + LastName;
 
@@ -199,7 +199,7 @@ You need to use the real name:
 
 	using static System.String;
 
-...and you get firstclass access to `Join`, `IsEmptyOrWhiteSpace` and all your other friends.
+...and you get first-class access to `Join`, `IsEmptyOrWhiteSpace` and all your other friends.
 
 **But what if** there are two WriteLine methods.... a local one, and one you've imported?
 
@@ -412,12 +412,12 @@ Ideally you'd use this in any place where you currently hard code the name of an
 Consider:
 
 - All the other Argument Exceptions Types
-	- ArgumentException
-	- ArgumentOutOfRangeException
+  - ArgumentException
+  - ArgumentOutOfRangeException
 - Logging the current method, a variable etc.
 - Code in MVC Views that mention:
-	- Action Name
-	- Controller Name (this is a questionable, see below)
+  - Action Name
+  - Controller Name (this is a questionable, see below)
 
 ### Logging example with `nameof`
 
@@ -630,6 +630,20 @@ But now times have changed and you can simply say:
 
 ## deterministic compiler option
 
-The compiler now has a `-deterministic` option to make sure that successive builds reuse the same guids and timestamp from one compilation to the next, so you can perform byte-for-byte comparison with more consistency, and less risk of helping humanity race toward the guid-apocalypose.
+The compiler now has a `-deterministic` option to make sure that successive builds reuse the same guids and timestamp from one compilation to the next, so you can perform byte-for-byte comparison with more consistency, and less risk of helping humanity race toward the guid-apocalypse.
 
 I'm not likely to need this option, so I am not committing this to memory.
+
+## Sources
+
+- See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6)
+
+## See also
+
+- [C# Version 4](version4.md)
+- [C# version 5](version5.md)
+- [C# version 6](version6.md)
+- [C# version 7](version7.md)
+- [C# version 8](version8.md)
+- [C# version 9](version9.md)
+- [C# version 10](version10.md)

@@ -2,6 +2,13 @@
 
 See [what's new in C#4](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-40)
 
+## Table of contents
+
+- [Dynamic binding]
+- [Named/optional arguments]
+- [Generic covariant and contravariant]
+- [Embedded interop types]
+
 ## Dynamic binding
 
 A variable with `dynamic` type can be assigned *any* type.
@@ -58,23 +65,23 @@ We can use naming to specify the arguments in whatever order we feel like specif
 
 See <https://stackoverflow.com/questions/2662369/covariance-and-contravariance-real-world-example>
 
-...my favored answer there is a lengthy one, but it provides a rationale as well: https://stackoverflow.com/a/42660356
+...my favored answer there is a lengthy one, but it provides a rationale as well: <https://stackoverflow.com/a/42660356>
 
 Examples:
 
-* `IList<T>` is invariant.
+- `IList<T>` is invariant.
 
 This means a method that accepts a parameter `IList<Feline>` will only accept exactly that. It won't accept `IList<Tiger>` (more derived) and it won't accept `IList<Object>` less derived.
 
 Meanwhile:
 
-* `IEnumerable<T>` is covariant because it is defined as `IEnumerable<out T>`
+- `IEnumerable<T>` is covariant because it is defined as `IEnumerable<out T>`
 
 This means a method that expects `IEnumerable<Feline>` will accept `IEnumerable<Feline>` or `IEnumerable<Tiger>` or `IEnumerable<HouseCat>` because these are more derived. It won't accept `IEnumerable<Object>` (less derived)
 
 And conversely....
 
-* `Action<T>` is contravariant because it is defined as `Action<in T>`
+- `Action<T>` is contravariant because it is defined as `Action<in T>`
 
 This means a method with a parameter that is `Action<Feline>` will accept `Action<Feline>` or `Action<Mammal>` (assuming Felines inherits from Mammal, inherits from Animal, inherits from Object) -- and will ALSO accept `Action<Animal>` and even `Action<Object>` but it will not accept a parameters of type `Action<HouseCat>` or a parameter of type `Action<Tiger>` because these are MORE derived.
 
@@ -84,9 +91,23 @@ This means a method with a parameter that is `Action<Feline>` will accept `Actio
 
 If you publish a COM component, you no longer need to publish a primary interop assembly to be accessible from .net (unless you want it to be accessed from earlier versions)
 
-Hard to summarise, and unless your publishing or using a lot of COM components, the nuances here are likely to escape you. I'm gonna skip going in great depth on this one.
+Hard to summarize, and unless you're publishing or using a lot of COM components, the nuances here are likely to escape you. I'm gonna skip going in great depth on this one.
 
-## see also
+## Sources
+
+- See [what's new in C#4](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-40)
+
+## See also
 
 - [Linqpad Dump Dynamic](../linqpad/dump_dynamic.md)
 - [Convert object to dynamic](object_to_dynamic.md)
+
+And:
+
+- [C# Version 4](version4.md)
+- [C# version 5](version5.md)
+- [C# version 6](version6.md)
+- [C# version 7](version7.md)
+- [C# version 8](version8.md)
+- [C# version 9](version9.md)
+- [C# version 10](version10.md)

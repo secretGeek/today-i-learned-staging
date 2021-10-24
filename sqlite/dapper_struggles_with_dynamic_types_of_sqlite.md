@@ -37,6 +37,6 @@ To overcome it, cast the column to the type you want, *inside* the SQL...
 
 Still -- a nasty problem, because it may not arise during initial testing... only with the right data does the problem occur!
 
-## References
+## Sources
 
- * <https://stackoverflow.com/questions/39980840/sqlite-using-dapper-error-parsing-column-unable-to-cast-object-of-type-system>
+ - <https://stackoverflow.com/questions/39980840/sqlite-using-dapper-error-parsing-column-unable-to-cast-object-of-type-system>
