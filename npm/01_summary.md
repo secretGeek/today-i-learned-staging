@@ -4,7 +4,7 @@
 ## content
 
 - [AMD](amd.md)
-- [Find outpated npm packages with 'npm outdated'](find_outdated_packages.md)
+- [Find outdated npm packages with 'npm outdated'](find_outdated_packages.md)
 - [How do I list all globally installed NPM Packages?](List_Globally_Installed_npm_Packages.md)
 - [How to update npm?](update_npm.md)
 - [Install npm](install_npm.md)
