@@ -18,6 +18,10 @@ It gives very nice output, imo.
 
 To look for outdated **global** packages, supply a `-g` parameter:
 
+	npm outdated -g
+
+To update an outdated package, you can use update, or you can remove it and re-add.
+
 	npm uninstall browser-sync --save-dev
 	npm install browser-sync --save-dev
 

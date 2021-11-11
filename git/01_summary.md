@@ -6,6 +6,7 @@
 - [Adding more files/changes to a commit you've just done](add_more_to_commit.md)
 - [Aliases in git](alias.md)
 - [Branching in git](branch.md)
+- [checkout specific revision](checkout-specific-revision.md)
 - [Cherry-pick some commits from one branch to another](cherry-pick.md)
 - [Compare branches](compare_branches.md)
 - [Delete old branches](delete_old_branches.md)
