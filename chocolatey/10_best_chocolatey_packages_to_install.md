@@ -151,4 +151,3 @@ choco install azure-data-studio -y
 ## See also
 
 - [Best list of best chocolatet software packages](https://blog.atwork.at/post/install-your-essential-software-with-Chocolatey)
-

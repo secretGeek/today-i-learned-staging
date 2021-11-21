@@ -1,21 +1,18 @@
-# checkout specific revision
+# Checkout specific revision
 
 You want to go back to a specific revision... First find the revision#, either the full hash or the short hash, or the tag name.
 
 Then you want to 'describe' that revision...
 
-
 	git describe e908c80cc
 
 ...which will output a fuller name, e.g. `build-3.0.7468-dev-883-ge908c80cc`
 
-Then simply `git checkout {thatname}` e.g. 
+Then simply `git checkout {thatName}` e.g.
 
 	git checkout build-3.0.7468-dev-883-ge908c80cc
 
-
 ...and you'll be greeted with a lengthy message like this:
-
 
 	Note: switching to 'build-3.0.7468-dev-883-ge908c80cc'.
 
@@ -35,7 +32,6 @@ Then simply `git checkout {thatname}` e.g.
 	Turn off this advice by setting config variable advice.detachedHead to false
 
 	HEAD is now at e908c80cc Merged PR 12345: laser targeting systems no longer mistake cats for dogs (sorry mr whiskers, r.i.p.)
-
 
 ## Source(s)
 

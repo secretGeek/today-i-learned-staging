@@ -6,7 +6,7 @@
 - [Adding more files/changes to a commit you've just done](add_more_to_commit.md)
 - [Aliases in git](alias.md)
 - [Branching in git](branch.md)
-- [checkout specific revision](checkout-specific-revision.md)
+- [Checkout specific revision](checkout-specific-revision.md)
 - [Cherry-pick some commits from one branch to another](cherry-pick.md)
 - [Compare branches](compare_branches.md)
 - [Delete old branches](delete_old_branches.md)
@@ -28,3 +28,4 @@
 - [Undo local changes to a file in git](undo_local_changes_to_a_file_in_git.md)
 - [What version of git am I running?](version.md)
 - [When creating a new git repo on bitbucket](git_bitbucket.md)
+- [Who has worked on this git repo?](who_has_worked_on_this_repo.md)

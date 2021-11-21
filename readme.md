@@ -81,7 +81,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 2 articles |
  | [games](games/01_summary.md) | 2 articles |
- | [git](git/01_summary.md) | 25 articles |
+ | [git](git/01_summary.md) | 26 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
@@ -126,7 +126,8 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 104 articles |
+ | [powershell](powershell/01_summary.md) | 105 articles |
+ | [ppmp](ppmp/01_summary.md) | 1 article |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [questions](questions/01_summary.md) | 1 article |
@@ -175,5 +176,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-720 articles
-192512 words
+723 articles
+193180 words
