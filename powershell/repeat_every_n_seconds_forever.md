@@ -4,7 +4,7 @@ Repeat a command, on a loop, so you can monitor a process.
 
 I wanted to repeat this every 5 seconds:
 
-    dir . *.* -recurse | measure | % Count
+	dir . *.* -recurse | measure | % Count
 
 And used this command to achieve it:
 
@@ -14,7 +14,7 @@ And used this command to achieve it:
 
 This example will show you the file size, every second (expressed in GB)
 
-    while($true) { dir *wellsrv* | % { $_.Length / 1gb; sleep 1} }
+	while($true) { dir *wellsrv* | % { $_.Length / 1gb; sleep 1} }
 
 ## Poll disk space
 
@@ -45,6 +45,25 @@ Here's one that shows how much space is left on the drive...
 			};
 			sleep 3;
 	}
+
+## Making repeats obvious
+
+I had a recurring script like the ones above, and it started by clearing the screen and then giving some output.
+
+It was too quick though -- I couldn't tell if it had worked once and hung, or was just getting the same output every time.
+
+So I added this just before the clear screen: `write-host "Checking..." -f yellow; start-sleep -seconds 1;`
+
+
+That is, the script ended like this:
+
+	start-sleep -seconds 5;
+	write-host "Checking..." -f yellow;
+	start-sleep -seconds 1;
+	cls;
+
+It would say "Checking..." in yellow, at the end of other output, for 1 second, before it cleared the screen and repeated the command that was being run.
+
 
 ## See also
 

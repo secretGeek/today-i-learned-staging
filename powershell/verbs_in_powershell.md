@@ -6,7 +6,7 @@ Use `Get-Verb` to find the available verbs.
 
 ## For a better display of approved verbs
 
-	get-verb out-gridview
+	get-verb | out-gridview
 
 ## To find suggested synonyms for unapproved verbs
 

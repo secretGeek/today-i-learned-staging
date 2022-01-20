@@ -160,7 +160,7 @@ And here's the *revised* function that does the copying itself, and which then n
 And I call it via this helper method:
 
 	function copyItemText(item) {
-		copytext(item.textContent, item);
+		copyToClipboard(item.textContent, item);
 	}
 
 And wire that up to every `pre`/`code` element like this:

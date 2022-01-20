@@ -10,7 +10,7 @@
 
 Currently something like.... (this is dynamically loaded from util)
 
-	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx", "*.targets", "*.yml", "*.rdp", "*.less", "*.scss", "*.razor";
+	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx", "*.targets", "*.yml", "*.rdp", "*.less", "*.scss", "*.razor","*.dbml","*.layout", "*.gradle", "*.properties";
 	
 	## Commands:
 	## findtext $pattern                       <-- search all text type files for a particular regex
@@ -221,6 +221,7 @@ Currently something like.... (this is dynamically loaded from util)
 	set-alias f.type findtext_type
 	set-alias f.type-raw findtext_raw_type
 	set-alias f.raw-type findtext_raw_type
+	set-alias findtext_type_raw findtext_raw_type
 	set-alias f.raw-ci findtext_raw_casesensitive
 	set-alias f.no-rec findtext_norecurse
 	set-alias ftx findtext_norecurse

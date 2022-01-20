@@ -3,6 +3,7 @@ write-host -NoNewline "Getting TIL content from util subfolder" -foregroundcolor
 .\get.ps1
 
 
+# we will use this below
 . .\get-title.ps1
 
 write-host "...DONE" -foregroundcolor   "green"

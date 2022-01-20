@@ -81,7 +81,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 2 articles |
  | [games](games/01_summary.md) | 2 articles |
- | [git](git/01_summary.md) | 26 articles |
+ | [git](git/01_summary.md) | 28 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
@@ -129,6 +129,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [powershell](powershell/01_summary.md) | 105 articles |
  | [ppmp](ppmp/01_summary.md) | 1 article |
  | [productivity](productivity/01_summary.md) | 2 articles |
+ | [prometheus](prometheus/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [questions](questions/01_summary.md) | 1 article |
  | [react](react/01_summary.md) | 3 articles |
@@ -165,6 +166,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [webview2](webview2/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 17 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
+ | [windows scheduler](windows_scheduler/01_summary.md) | 1 article |
  | [winget](winget/01_summary.md) | 1 article |
  | [winword](winword/01_summary.md) | 1 article |
  | [wordle](wordle/01_summary.md) | 1 article |
@@ -176,5 +178,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-723 articles
-193180 words
+727 articles
+194436 words
