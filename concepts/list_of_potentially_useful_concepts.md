@@ -14,7 +14,6 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - (dis)Proportionate Response
 - (Un)Forced Error
 - 0,1,infinity
-- [Opportunity Cost](opportunity_cost.md)
 - Ability to entertain a thought without accepting/rejecting
 - Activation Energy
 - Active Listening
@@ -52,6 +51,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Basic Strategy (Blackjack)
 - Batch size optimum shifts over time
 - BATNA (best alternative to negotiated agreement)
+- [Baumol's Cost Disease](baumols_cost_disease.md)
 - Baye's Theorem and background risk (base case)
 - Bayesian Updating
 - Bias for Action
@@ -257,7 +257,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Implementation Intentions when-then
 - Imposter Syndrome
 - Incentives
-- Induced Demand (e.g. [induced demand](https://www.citylab.com/transportation/2018/09/-itylab-university-induced-demand/569455/) 	see also Jevon's paradox)
+- Induced Demand (e.g. [induced demand](https://www.citylab.com/transportation/2018/09/-itylab-university-induced-demand/569455/) see also Jevon's paradox)
 - Induction
 - Inertia
 - Inference
@@ -340,7 +340,8 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Nucleation/Crystallization
 - Occam's Razor (Least assumptions)
 - One Way Valve
-- Optionality (presevering = making choices that keep options open; generally = making choices that -llow new options)
+- [Opportunity Cost](opportunity_cost.md)
+- Optionality (presevering = making choices that keep options open; generally = making choices that allow new options)
 - Orbiting Escape Velocity
 - Order of magnitude
 - Organizational/technical debt
@@ -525,9 +526,9 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 
 ![use a formula](use_a_formula.png 'use a formula')
 
->The more I learn, the less I know."
+> The more I learn, the less I know."
 >
->&mdash;Tony Bennett
+> &mdash;Tony Bennett
 
 ## Sources
 
