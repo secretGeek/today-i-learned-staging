@@ -5,6 +5,7 @@
 
 - ["50 Psychology Classics: the Greatest Books in Psychology"](greatest_books_in_psychology.md)
 - [Art of the data email](art_of_the_data_email.md)
+- [Baumol's Cost Disease](baumols_cost_disease.md)
 - [COIK](coik.md)
 - [Echo chamber](echo_chamber.md)
 - [Expected Value](expected_value.md)

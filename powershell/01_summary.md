@@ -71,6 +71,7 @@
 - [Module and Package Commands](module_commands.md)
 - [Multi line comments in powershell](multi-line_comments.md)
 - [Operation is blocked by software restriction policies](operation_is_blocked_by_software_restriction_policies.md)
+- [Parameters: general guide](parameters_general_guide.md)
 - [Parse a Powershell Comment block](parse_comment_block.md)
 - [PATH: getting it, adding to it and managing it](PATH.md)
 - [Pester: Getting Started with using Pester to test powershell](pester_getting_started.md)

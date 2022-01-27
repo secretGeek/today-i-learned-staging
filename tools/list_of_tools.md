@@ -37,6 +37,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 - .ok (1 files)
 - .pdf (1 files)
 - .ps1 (1 files)
+- .rdp (1 files)
 
 ## Executables
 

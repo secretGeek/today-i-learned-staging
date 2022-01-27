@@ -2,10 +2,10 @@
 
 Breakdown of time spent adding a new feature in [NimbleSET](http://nimbletext.com/SET/About/):
 
-* Time spent writing the feature (implementing natural join, absolute joins, and a hierarchy of possible column joins) 3 hours.
-* Time Spent getting Tooltips and tab order correct and consistent: 1 hour.
-* Time spent working around a bug in the framework that was resolved as 'closed, won't fix' in 2006. 4 hours. (details below).
-* Time spent blogging about it and subsequently finding other improvements to the code: 1 hour.
+- Time spent writing the feature (implementing natural join, absolute joins, and a hierarchy of possible column joins) 3 hours.
+- Time Spent getting Tooltips and tab order correct and consistent: 1 hour.
+- Time spent working around a bug in the framework that was resolved as 'closed, won't fix' in 2006. 4 hours. (details below).
+- Time spent blogging about it and subsequently finding other improvements to the code: 1 hour.
 
 So the bug in the framework is that if a `toolbarstrip` has large icons (e.g. `ToolStrip.ImageScalingSize = new Size(32, 32);`), then 'Checked' items won't render correctly in a child dropdown list of that `toolbarstrip`. Obscure? Yep.
 
@@ -92,3 +92,7 @@ And then abstract some more things away. Instead of drawing the lines twice, I h
         }
 
 (This isn't very cool... I just make the checkmark centred, but no bigger... so with a sufficiently dense DPI it becomes a very small checkmark.)
+
+## Source / Further reading
+
+- [Scaling Toolstrip Images With DPI](https://www.medo64.com/2014/01/scaling-toolstrip-with-dpi/)

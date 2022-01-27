@@ -61,7 +61,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [bookmarklets](bookmarklets/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 8 articles |
- | [concepts](concepts/01_summary.md) | 18 articles |
+ | [concepts](concepts/01_summary.md) | 19 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
@@ -126,7 +126,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 105 articles |
+ | [powershell](powershell/01_summary.md) | 106 articles |
  | [ppmp](ppmp/01_summary.md) | 1 article |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [prometheus](prometheus/01_summary.md) | 1 article |
@@ -178,5 +178,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-727 articles
-194436 words
+729 articles
+195931 words
