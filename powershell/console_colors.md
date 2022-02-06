@@ -53,18 +53,16 @@ Or to try every possible foreground/background combo:
 
 	$Host.PrivateData
 
-
 I seem to have some groovy `write-host` replacement installed called 'Pansies' that means i can express colors in hex rgb, so this produces some nice tones:
 
-	1..9 | % { 
-		$R = $_; 1..9 | % { 
-			$G = $_; 1..9 | % { 
-				$B = $_; 
-				write-host " $($R)$($R)$($G)$($G)$($B)$($B)" -f "#$($R)$($R)$($G)$($G)$($B)$($B)" -n 
+	1..9 | % {
+		$R = $_; 1..9 | % {
+			$G = $_; 1..9 | % {
+				$B = $_;
+				write-host " $($R)$($R)$($G)$($G)$($B)$($B)" -f "#$($R)$($R)$($G)$($G)$($B)$($B)" -n
 			}
 		}
 	}
-
 
 Oh - it has some other methods that are useful too:
 
@@ -81,13 +79,11 @@ Oh - it has some other methods that are useful too:
 
 e.g.
 
-
 	> get-complement "red"
 
 	Mode           RGB (hex) X11ColorName         Ordinals                  XTerm Index ConsoleColor
 	----           --------- ------------         --------                  ----------- ------------
 	Automatic      #00FFFF   Cyan                 R=0.000; G=255; B=255     14          Cyan
-
 
 ## Source
 

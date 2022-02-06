@@ -11,14 +11,14 @@ For both of these methods, the info about their parameters is the same.
 
 `options` is an object containing:
 
- * title String
- * defaultPath String
- * filters Array
- * properties Array - Contains which features the dialog should use, can contain:
-    * openFile,
-    * openDirectory,
-    * multiSelections and
-    * createDirectory
+- title String
+- defaultPath String
+- filters Array
+- properties Array - Contains which features the dialog should use, can contain:
+  - openFile,
+  - openDirectory,
+  - multiSelections and
+  - createDirectory
 
 The filters specifies an array of file types that can be displayed,
 
@@ -35,4 +35,4 @@ for example:
 
 ## Source
 
- * https://github.com/atom/electron/blob/master/docs/api/dialog.md
+- https://github.com/atom/electron/blob/master/docs/api/dialog.md

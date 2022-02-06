@@ -98,4 +98,4 @@ That is all so lengthy, so filled with ceremony... it's not the fun-filled code 
 
 ## Source
 
- * http://blog.e-zest.net/tech-tutorial-select2-with-asp.net-mvc
+- http://blog.e-zest.net/tech-tutorial-select2-with-asp.net-mvc

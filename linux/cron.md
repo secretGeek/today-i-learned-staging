@@ -87,8 +87,8 @@ On Ubuntu, you can put a shell script in one of these folders: /etc/cron.daily, 
 
 ## Sources
 
- * [crontab-generator](https://crontab-generator.org/)
+- [crontab-generator](https://crontab-generator.org/)
 
 ## See also
 
- * [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](lets_encrypt.md)
+- [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](lets_encrypt.md)

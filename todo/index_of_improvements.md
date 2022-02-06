@@ -5,45 +5,34 @@
 ## Inbox
 
 - Generate an 'index.html' under each topic folder that redirects to "/01_summary.html"
-
 - Generate a 'what links here' section for each page.
 
 ### Other features that can be embedded in macros:
-	-[ ] `next`/`previous` buttons
-		- [ ] a "next" link (and a previous) at each one...
-
--	[ ] Ability to do "REDIRECT" for crappy pages I don't like.
+-[ ] `next`/`previous` buttons
+	- [ ] a "next" link (and a previous) at each one...
+- [ ] Ability to do "REDIRECT" for crappy pages I don't like.
 - [ ] TIL Random - random article, or random within category
 - [ ] next/previous buttons
 
 ## Auto Linting of the TIL
 
 - more application of `plaintext` fenced code blocks.
-
 - Linting: 404 check all internal .md references!
-
 - make vs-code use tab (for markdown files, not for other files)
-
 - improve scroll bars, and write them up while you're there
-
 - improve mobile layout - lighthouse etc (elements too close together [in search bar])
-
-- keywords are highlighted.
-
+- keywords are highlighted (what keywords? how are keywords added? i don't have keywords)
 - keywords are inter-related.
-	(many are put in an ignore list?)
-
+	- many are put in an ignore list?
 - code block extraction and listing
-
 - hyperlink extraction and listing
 
 ## Consider
 
-- [ ] Squarified treemap of topics and items
-
+- Squarified treemap of topics and items
 - a page for showing details of embedded macros known to clowncar.
 	- an improved meta language allowing these other meta features.
-		- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.)
+		- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.) i.e. zonk. This is pure zonk.
 
 ## Done
 

@@ -39,6 +39,6 @@ typing:
 
 ## Source
 
- * http://substack.net/task_automation_with_npm_run
- * https://medium.com/@maybekatz/kat-s-short-guide-to-js-devops-ecosystem-9ffef67fdb8e#.jd4ha6udn
- * http://nodeschool.io/
+- <http://substack.net/task_automation_with_npm_run>
+- <https://medium.com/@maybekatz/kat-s-short-guide-to-js-devops-ecosystem-9ffef67fdb8e#.jd4ha6udn>
+- <http://nodeschool.io/>

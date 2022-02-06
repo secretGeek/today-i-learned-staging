@@ -32,4 +32,4 @@ To persist the current session's path (requires admin)
 
 ## See also
 
- * [Environment variables -- view/edit them on windows](../windows/environment_variables.md)
+- [Environment variables -- view/edit them on windows](../windows/environment_variables.md)

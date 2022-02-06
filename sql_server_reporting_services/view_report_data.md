@@ -2,11 +2,11 @@
 
 The "Report Data" pane is the one that lets you edit:
 
- * Built-in Fields
- * Parameters
- * Images
- * Data Sources
- * Datasets
+- Built-in Fields
+- Parameters
+- Images
+- Data Sources
+- Datasets
 
 If you ever close it, it can be a hell of a job trying to find it again.
 

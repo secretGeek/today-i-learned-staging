@@ -1,4 +1,4 @@
-# Count lines of code with powershell
+﻿# Count lines of code with powershell
 
 First naive attempt...
 
@@ -10,7 +10,7 @@ Now -- filter out blanks and whitespace...
 
 Comments starting with "//"
 
-	Get-ChildItem -Filter "*.cs" -Recurse | 
+	Get-ChildItem -Filter "*.cs" -Recurse |
 		Get-Content |
 			? { $_.trim() -like "//*" } |
 				measure
@@ -26,9 +26,9 @@ Comments starting with "/*"
 
 	Get-ChildItem -Filter "*.cs" -Recurse |
 		Get-Content |
-			? { 
+			? {
 				$_.trim() -notlike "/``** -and
-				$_.trim() -notlike "//* -and 
+				$_.trim() -notlike "//* -and
 				$_.trim() -notlike "" } |
 				measure
 

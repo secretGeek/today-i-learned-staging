@@ -1,4 +1,4 @@
-# Baumol's Cost Disease
+﻿# Baumol's Cost Disease
 
 ## What is Baumol's cost disease?
 
@@ -8,7 +8,7 @@
 
 We can describe this with an example. Imagine a world dominated by farm workers and doctors.
 
-Let's say the farm worker works `Fh hours per year`, and thus yields a certain amount of grain, worth `$Fd` 
+Let's say the farm worker works `Fh hours per year`, and thus yields a certain amount of grain, worth `$Fd`
 
 Technological advances means that the farm worker's `Fh hours per year` of labor now yields a much larger amount, say 10 times as much.
 
@@ -53,20 +53,18 @@ Neither BCD or the reasoning above is what we *actually* see happening.
 
 Here's what I see happening:
 
-1. Farm workers are now 10 times as productive. 5 out of 10 farm workers are laid off. 
+1. Farm workers are now 10 times as productive. 5 out of 10 farm workers are laid off.
 2. The remaining farm workers do not see any increase or decrease in wages. They do not physically work as hard as they used to, but the decrease in physical labor is eaten up by an increase in paperwork, qualifications, certifications, meetings, reports, administration, stress, and stress-leave.
 3. The increased yields mean that the cost of grain is momentarily lower -- and people can now afford to consume *far more* than they used to. Their "[revealed preference](https://en.wikipedia.org/wiki/Revealed_preference)" then shows that the demand for grain was higher than previously seen. So the amount of grain being produced also increases -- a feat that is easily achieved due to the highly productive new methods. This leads to a further drop in the cost of grain (which soon disappears as we see in step 6)
 4. The farm workers who were laid off do not become doctors. Everyone is now eating more grain than ever before. Their health deteriorates, there are not enough doctors to treat all the sick people. The number of doctors does not increase, the cost of healthcare goes up in line with the general rule of supply and demand. The doctors themselves work harder than ever before, the wage they receive barely moves up at all.
 5. The surplus money paid for that extra grain and the increase of medical care is funnelled to the capitalists who own the farm and the health care service. *None* of them have ever worked in agriculture or medicine. [Their field of study was economics.](https://wiki.secretgeek.net/economists) They are now making so much extra money that they write wise little articles about how Baumol's cost disease has increased their wages.
 6. Since the capitalists "know" that wages have increased, they raise the cost of grain. There are no non-capitalist competitors to undercut the high prices. People are now hooked on grain and despite the increase they will sacrifice anything they can to maintain their current consumption level. We end up with the ridiculous notion that more grain is produced, by less people, for a higher unit price, by workers whose wages are stagnant, bought by consumers whose wages are also stagneant. (Substitute grain for 'oil' or 'anti-biotics' if you don't believe me.)
 
-
 ## `bonus` The Truth!
 
 > The Population Reference Bureau predicts that the world's total population will double to 7,000,000,000 before the year 2000. I suppose they will all want dignity, I said.
 >
 > &mdash;Kurt Vonnegut, Jr, "Slaughterhouse Five".
-
 
 What I really truly see happening is that -- for example -- people in 2021 treat their **pets** far better than people in 1936 treated their **children**.
 
@@ -77,7 +75,6 @@ I think this very large and very long-term shift in values is why we are willing
 When "old people" complain about "Political Correctness Gone Mad" -- they're buckling at a shift in language that attempts to affords *basic dignity* to everyone... a very recent invention. When, as Stewart Lee says, people confuse the concept of "Political Correctness" with "Occupational Health and Safety" -- they are confusing two new ideas both of which stem from The Rise of -- the Invention of -- Dignity.
 
 And in consequence of this shift in values, we not only pay more for services, but we have invented many (many, MANY) new services. How much did people pay for "Mobile dog grooming" in 1942? I decided to put this question to my Dad, and the answer was "Fucking *what*?". The rise in price, expressed as a percentage, is infinite. And *that's* a more real and significant economic change than the phantom of "Baumol's Cost Disease".
-
 
 ## Footnotes
 
@@ -99,4 +96,3 @@ And in consequence of this shift in values, we not only pay more for services, b
 - More Slate Star Codex links:
   - [Book Review: Why Are The Prices So D*mn High? | Slate Star Codex](https://slatestarcodex.com/2019/06/10/book-review-the-prices-are-too-dmn-high/)
   - [Followup On The Baumol Effect: Thanks, O Baumol | Slate Star Codex](https://slatestarcodex.com/2019/06/17/followup-on-the-baumol-effect-thanks-o-baumol/)
-  

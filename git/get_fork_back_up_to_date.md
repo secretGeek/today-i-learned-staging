@@ -27,4 +27,4 @@ You can view your `remotes` (in detail) by using:
 
 ## Source
 
- * [Stackoverflow: Updating forked GitHub repo to match original's latest code and commits](http://stackoverflow.com/questions/18824956/updating-forked-github-repo-to-match-originals-latest-code-and-commits)
+- [Stackoverflow: Updating forked GitHub repo to match original's latest code and commits](http://stackoverflow.com/questions/18824956/updating-forked-github-repo-to-match-originals-latest-code-and-commits)

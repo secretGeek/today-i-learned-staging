@@ -53,12 +53,12 @@ To go to your home folder, use simply:
 
 ## keyboard shortcuts
 
- * `ctrl-tab`  -- switch tab/document within an application
- * `alt-tab` -- switch applications
- * `ctrl-W` -- close document
- * `ctrl-Q` -- quit application
- * `shift-ctrl-C` -- copy to clipboard
- * `shift-ctrl-V` -- paste from clipboard
+- `ctrl-tab`  -- switch tab/document within an application
+- `alt-tab` -- switch applications
+- `ctrl-W` -- close document
+- `ctrl-Q` -- quit application
+- `shift-ctrl-C` -- copy to clipboard
+- `shift-ctrl-V` -- paste from clipboard
 
 ## Cheat sheet
 
@@ -66,5 +66,5 @@ To go to your home folder, use simply:
 
 ## Source
 
- * <https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos>
- * <http://www.tldp.org/LDP/abs/html/io-redirection.html>
+- <https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos>
+- <http://www.tldp.org/LDP/abs/html/io-redirection.html>

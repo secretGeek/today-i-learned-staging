@@ -105,9 +105,9 @@ With mercurial 4.6.1.
 
 Ran the install for tortoise hg 4.8.1 -- bringin the machine up to:
 
- * Tortoise Hg 4.81
- * Mercurial-4.8.1
- * Python-2.7.13
+- Tortoise Hg 4.81
+- Mercurial-4.8.1
+- Python-2.7.13
 
 Which *should* be adequate to get past the problem.
 

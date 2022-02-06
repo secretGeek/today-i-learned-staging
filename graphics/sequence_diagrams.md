@@ -44,4 +44,4 @@ More details about sequence-diagram syntax here: <http://plantuml.com/sequence-d
 
 ## Source
 
- * [A Smart Bear: How to sell to large companies](https://blog.asmartbear.com/selling-to-large-companies.html)
+- [A Smart Bear: How to sell to large companies](https://blog.asmartbear.com/selling-to-large-companies.html)

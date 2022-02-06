@@ -14,6 +14,6 @@ This extended stored procedure seems to be able to be executed even by low privi
 
 ## See also
 
- * [Backup restore script](backup_restore_script.md)
- * [Need to delete backup files?](delete_backup_files.md)
- * [How much space does my DB use?](how_much_space_does_my_db_use.md)
+- [Backup restore script](backup_restore_script.md)
+- [Need to delete backup files?](delete_backup_files.md)
+- [How much space does my DB use?](how_much_space_does_my_db_use.md)

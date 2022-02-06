@@ -52,5 +52,5 @@ Anyway, to get around the error above, I used the technique above instead.
 
 ## See also
 
- * [Need a shortcut that inserts the current date/time?](todays_date.md)
- * [Resolved: There was an error downloading the plugin list](error_downloading_the_plugin_list.md)
+- [Need a shortcut that inserts the current date/time?](todays_date.md)
+- [Resolved: There was an error downloading the plugin list](error_downloading_the_plugin_list.md)

@@ -23,4 +23,4 @@ Other keywords: synchronous, asynchronous
 
 ## Source
 
- * [TRY...CATCH (Transact-SQL)](https://msdn.microsoft.com/en-us/library/ms175976.aspx)
+- [TRY...CATCH (Transact-SQL)](https://msdn.microsoft.com/en-us/library/ms175976.aspx)

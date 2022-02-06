@@ -12,4 +12,4 @@ In Powershell 3+
 
 ## Source
 
- * [PowerTip: Get the Last Boot Time with PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2013/03/27/powertip-get-the-last-boot-time-with-powershell/)
+- [PowerTip: Get the Last Boot Time with PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2013/03/27/powertip-get-the-last-boot-time-with-powershell/)

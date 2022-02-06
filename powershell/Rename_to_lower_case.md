@@ -23,4 +23,5 @@ For the folders....
         }
 
 ## Source
- * [script from  stuartfromnz](https://social.technet.microsoft.com/Forums/office/en-US/7241cee3-779b-4741-ba16-dbbaefb52d69/powershell-script-to-rename-all-files-and-folders-to-lowercase-in-a-directory?forum=winserverpowershell)
+
+- [script from  stuartfromnz](https://social.technet.microsoft.com/Forums/office/en-US/7241cee3-779b-4741-ba16-dbbaefb52d69/powershell-script-to-rename-all-files-and-folders-to-lowercase-in-a-directory?forum=winserverpowershell)

@@ -38,5 +38,5 @@ To get the location of the current or most recent transcript file:
 ...allegedly. Though so far that only works on half my machines.
 
 ## External links
- * [Colorize PowerShell Transcript with CSS](http://www.spjeff.com/2014/10/02/colorize-powershell-transcript-with-css/)
- * [Unbounded recursion](http://wiki.secretgeek.net/unbounded-recursion)
+- [Colorize PowerShell Transcript with CSS](http://www.spjeff.com/2014/10/02/colorize-powershell-transcript-with-css/)
+- [Unbounded recursion](http://wiki.secretgeek.net/unbounded-recursion)

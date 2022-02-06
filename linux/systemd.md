@@ -26,4 +26,4 @@ To view logs:
 
 ## Source
 
- * [Publish to a Linux Production Environment](https://docs.microsoft.com/en-us/aspnet/core/publishing/linuxproduction)
+- [Publish to a Linux Production Environment](https://docs.microsoft.com/en-us/aspnet/core/publishing/linuxproduction)

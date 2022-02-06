@@ -44,6 +44,11 @@ Aliases from my `~\.gitconfig` file:
 		prune = false
 	[rebase]
 		autoStash = false
+	[difftool "sourcetree"]
+		cmd = '' \"$LOCAL\" \"$REMOTE\"
+	[mergetool "sourcetree"]
+		cmd = "'' "
+		trustExitCode = true
 
 
 ## See also

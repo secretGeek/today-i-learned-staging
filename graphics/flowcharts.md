@@ -8,7 +8,7 @@
 
 To create ascii based flowcharts use:
 
- * <http://asciiflow.com/>
+- <http://asciiflow.com/>
 
 You can use these directly in emails, and especially in code comments.
 
@@ -34,4 +34,4 @@ See also <http://shakydraw.com/>
 
 ## See also
 
- * [create sequence diagrams](sequence_diagrams.md)
+- [create sequence diagrams](sequence_diagrams.md)

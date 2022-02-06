@@ -1,4 +1,4 @@
-# Xunit Theory with Member Data
+﻿# Xunit Theory with Member Data
 
 Broadly speaking, in the Xunit test framework for .net, there are two kinds of tests: facts and theories, and they are distinguished by attributes.
 
@@ -15,10 +15,10 @@ For example:
 	{
 		// Arrange
 		var pastaRecognizer = new PastaRecognizer();
-		
+
 		// Act
 		var result = pastaRecognizer.TryRecognize(pastaName);
-		
+
 		// Assert
 		Assert.True(result, $"I recognise that {pastaName} is pasta.");
 	}
@@ -33,10 +33,10 @@ Instead of having hard-coded inline data right there -- which quickly becomes un
 	{
 		// Arrange
 		var pastaRecognizer = new PastaRecognizer();
-		
+
 		// Act
 		var result = pastaRecognizer.TryRecognize(pastaName);
-		
+
 		// Assert
 		Assert.True(result, $"I recognise that {pastaName} is pasta.");
 	}
@@ -45,8 +45,8 @@ Instead of having hard-coded inline data right there -- which quickly becomes un
 	{
 		public static IEnumerable<object[]> GetPasta()
 		{
-			return new List<object[]>  { 
-				new object[] { "spaghetti" }, 
+			return new List<object[]>  {
+				new object[] { "spaghetti" },
 				new object[] { "tagliatelli" } };
 		}
 	}

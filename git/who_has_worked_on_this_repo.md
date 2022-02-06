@@ -1,4 +1,4 @@
-# Who has worked on this git repo?
+﻿# Who has worked on this git repo?
 
 The amazingly quick way to get a summary of who has worked on a git repo is with this command:
 

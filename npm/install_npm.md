@@ -18,4 +18,4 @@ or
 
 ## See also
 
- * [NPM -- some notes for beginners.](getting_started.md)
+- [NPM -- some notes for beginners.](getting_started.md)

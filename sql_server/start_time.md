@@ -10,4 +10,4 @@ Mohammad Nizamuddin provides 4 different queries to find when the server was sta
 
 ## Source
 
- * [Script to check when was SQL Server restarted](https://gallery.technet.microsoft.com/scriptcenter/Script-to-check-when-was-5d0fe4e8)
+- [Script to check when was SQL Server restarted](https://gallery.technet.microsoft.com/scriptcenter/Script-to-check-when-was-5d0fe4e8)

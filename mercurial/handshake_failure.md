@@ -15,4 +15,4 @@ Note if you're not an admin you can allegedly use the InnoSetup-based installer 
 
 ## Source
 
- * [Handshake failure when trying to push repository to bitbucket](http://stackoverflow.com/questions/26952911/handshake-failure-when-trying-to-push-repository-to-bitbucket)
+- [Handshake failure when trying to push repository to bitbucket](http://stackoverflow.com/questions/26952911/handshake-failure-when-trying-to-push-repository-to-bitbucket)

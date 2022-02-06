@@ -54,6 +54,6 @@ Joke from Emo Phillips:
 
 ## Source
 
- * <https://en.wikipedia.org/wiki/Narcissism_of_small_differences>
- * <http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html>
- * <https://en.wikiquote.org/wiki/Emo_Philips>
+- <https://en.wikipedia.org/wiki/Narcissism_of_small_differences>
+- <http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html>
+- <https://en.wikiquote.org/wiki/Emo_Philips>

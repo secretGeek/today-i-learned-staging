@@ -10,8 +10,8 @@ All you've done is *murder* the cache.
 
 A method that *does* work &mdash; but is reportedly too drastic as it is:
 
- 1. slow and
- 2. blocks access to the cache during that slow operation is:
+1. slow and
+2. blocks access to the cache during that slow operation is:
 
     public static void ClearCaches()
     {

@@ -31,4 +31,4 @@ Here's the script for performing the copy, provided by Pessimist__Prime at reddi
 
 ## Source
 
- * [If you use VoiceAttack, EDDI or any other Text-To-Speech program - and you are on Windows 10, you can install the 'Microsoft Mobile Voices' for more variety](https://www.reddit.com/r/EliteDangerous/comments/5d02vv/if_you_use_voiceattack_eddi_or_any_other/)
+- [If you use VoiceAttack, EDDI or any other Text-To-Speech program - and you are on Windows 10, you can install the 'Microsoft Mobile Voices' for more variety](https://www.reddit.com/r/EliteDangerous/comments/5d02vv/if_you_use_voiceattack_eddi_or_any_other/)

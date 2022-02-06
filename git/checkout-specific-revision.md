@@ -1,4 +1,4 @@
-# Checkout specific revision
+﻿# Checkout specific revision
 
 You want to go back to a specific revision... First find the revision#, either the full hash or the short hash, or the tag name.
 

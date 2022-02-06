@@ -28,7 +28,7 @@ Whereas on my ancient (6 month old) linux machine I have:
     dotnet-hostfxr-1.0.1                            install
     dotnet-sharedframework-microsoft.netcore.app-1.0.0      install
 
-(You can also use `dotnet --version` to see which `dotnet` is installed... but I like the approach above because it tells me more than I need)
+(You can also use `dotnet --version` to see which `dotnet` is installed... but I like the approach above because it tells me more than I need. `dotnet --info` is also quite informative, as it should be.)
 
 Looking into this some more, over at <https://www.microsoft.com/net/download/linux> it says this about the supported and current versions...
 
@@ -40,7 +40,7 @@ And
     .NET Core 1.1 (Current)
     Ubuntu 16.04:  apt-get install dotnet-dev-1.0.0-preview2-003175
 
-(Why is current not the same as what's on the front screen? And why doesn't the current need 'sudo'? ([lodged it with jongalloway via twitter](https://twitter.com/secretGeek/status/823712625942896640) )
+(Why is current not the same as what's on the front screen? And why doesn't the current need 'sudo'? ([lodged it with jongalloway via twitter](https://twitter.com/secretGeek/status/823712625942896640) -- it got fixed 😊 )
 
 Putting all these facts together:
 

@@ -25,8 +25,8 @@ Output:
 
 ## Sources
 
- * [Recycle Bin Corrupted - Cannot Delete File or Folder](https://www.vistax64.com/tutorials/131294-recycle-bin-corrupted-cannot-delete-file-folder.html)
+- [Recycle Bin Corrupted - Cannot Delete File or Folder](https://www.vistax64.com/tutorials/131294-recycle-bin-corrupted-cannot-delete-file-folder.html)
 
  ## See also
 
- * [runas](../powershell/runas.md)
+- [runas](../powershell/runas.md)

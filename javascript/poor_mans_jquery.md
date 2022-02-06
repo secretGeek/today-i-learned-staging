@@ -18,10 +18,10 @@ Note that this returns an array of elements.
 
 ## External links
 
- * [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
- * [vanilla-js](http://vanilla-js.com/)
+- [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
+- [vanilla-js](http://vanilla-js.com/)
 
 ## Source
 
- * https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
- * Suggestion from [George Kinsman](https://github.com/gkinsman)
+- https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+- Suggestion from [George Kinsman](https://github.com/gkinsman)

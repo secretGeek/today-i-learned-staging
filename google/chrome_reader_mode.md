@@ -18,4 +18,4 @@ Other keywords: readability, legible, legibility, declutter, adblock, ad-block
 
 ## Source
 
- * [How to enable reader mode in Chrome](https://www.cnet.com/au/how-to/how-to-enable-reader-mode-in-chrome/) (ironically that page has autoplay video ads. A crime for which there is no trial needed.)
+- [How to enable reader mode in Chrome](https://www.cnet.com/au/how-to/how-to-enable-reader-mode-in-chrome/) (ironically that page has autoplay video ads. A crime for which there is no trial needed.)

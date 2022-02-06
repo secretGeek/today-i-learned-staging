@@ -4,8 +4,8 @@ You have multiple w3wp.exe processes in Task Manager, and *one* of them is peggi
 
 In Task manager, processes tab, select columns and show:
 
- * "command line" and
- * "pid"
+- "command line" and
+- "pid"
 
 "Command Line" will reveal the application pool, e.g.
 

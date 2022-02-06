@@ -433,4 +433,4 @@ Here's the full content of the script from <https://raw.githubusercontent.com/cr
 
 ## source
 
- * [WSL install Node](https://gist.github.com/micahgodbolt/8b9a338c8bab7bc147975646ea20826c)
+- [WSL install Node](https://gist.github.com/micahgodbolt/8b9a338c8bab7bc147975646ea20826c)

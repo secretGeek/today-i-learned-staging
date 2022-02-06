@@ -17,5 +17,5 @@ Note that `x y ?a.`
 
 ## Source
 
- * <https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial>
- * [Video: SPARQL in 11 minutes](https://www.youtube.com/watch?v=FvGndkpa4K0)
+- <https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial>
+- [Video: SPARQL in 11 minutes](https://www.youtube.com/watch?v=FvGndkpa4K0)

@@ -54,7 +54,6 @@ It was too quick though -- I couldn't tell if it had worked once and hung, or wa
 
 So I added this just before the clear screen: `write-host "Checking..." -f yellow; start-sleep -seconds 1;`
 
-
 That is, the script ended like this:
 
 	start-sleep -seconds 5;
@@ -63,7 +62,6 @@ That is, the script ended like this:
 	cls;
 
 It would say "Checking..." in yellow, at the end of other output, for 1 second, before it cleared the screen and repeated the command that was being run.
-
 
 ## See also
 

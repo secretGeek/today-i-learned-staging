@@ -10,4 +10,4 @@ But now...
 
 ## See also
 
- * <https://secretgeek.net/uri_enconding>
+- <https://secretgeek.net/uri_enconding>

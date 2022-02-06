@@ -58,4 +58,4 @@ Putting better support for this into linqPad is a uservoice suggestion [Create I
 
 ## See also
 
- * [Run Linqpad scripts from the command-line](run_linqpad_scripts_from_commandline.md)
+- [Run Linqpad scripts from the command-line](run_linqpad_scripts_from_commandline.md)

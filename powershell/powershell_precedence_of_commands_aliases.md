@@ -8,12 +8,12 @@ Powershell decides what to run based on this order of precedence:
 - `Function`
 - `Cmdlet`
 - External executables, on Windows in this order:
-	- `.com`
-	- `.exe`
-	- `.bat`
-	- `.cmd`
+  - `.com`
+  - `.exe`
+  - `.bat`
+  - `.cmd`
 
-If you type 'doit' at a prompt in powershell, it will look for:
+THEREFORE, if you type 'doit' at a prompt in powershell, it will look for:
 
 - An `alias` called `doit`
 - A function, `doit`
@@ -23,7 +23,7 @@ If you type 'doit' at a prompt in powershell, it will look for:
 - An batch file on the PATH called `doit.bat`
 - An batch file on the PATH called `doit.cmd`
 
-...and it will run the first one it finds.
+...and it will stop looking and run the first one it finds.
 
 ## See also
 

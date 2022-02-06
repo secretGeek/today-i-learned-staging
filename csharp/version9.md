@@ -1,4 +1,4 @@
-# C# version 9
+﻿# C# version 9
 
 See [what's new in C#9](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9)
 
@@ -23,7 +23,6 @@ See [what's new in C#9](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 - [Support for code generators]
   - [Module initializers]
   - [New features for partial methods]
-
 
 
 ## Records

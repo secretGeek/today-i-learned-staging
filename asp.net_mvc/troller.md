@@ -117,12 +117,12 @@ Thereafter, if the route had been requested by a normal click: no problems, it a
 
 Here's the javascript describing *ALL* form submissions... And it depends on the following assumptions:
 
- 1. The form submission should be performed over ajax, not via a regular form submission
- 2. The target of the form submit comes from `form[0].action`
- 2. Any item within the form being submitted that has a class of `progress` should be given a class of `waiting`.
- 3. The nearest parent of the form, classed either `modal` or `span10` should be replaced with the result of this submission.
- 4. A complete description of the form being submitted can be obtained from the `ToJson(form)` method (described below)
- 5. Whatever result comes back, it should have the same rules applied to it, as the entire document did upon ready (via a function called `beCool`)
+1. The form submission should be performed over ajax, not via a regular form submission
+2. The target of the form submit comes from `form[0].action`
+2. Any item within the form being submitted that has a class of `progress` should be given a class of `waiting`.
+3. The nearest parent of the form, classed either `modal` or `span10` should be replaced with the result of this submission.
+4. A complete description of the form being submitted can be obtained from the `ToJson(form)` method (described below)
+5. Whatever result comes back, it should have the same rules applied to it, as the entire document did upon ready (via a function called `beCool`)
 
     here.find('form').submit(function (e) {
         var form, url, action;

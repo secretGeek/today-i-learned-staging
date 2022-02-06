@@ -6,13 +6,13 @@ Find just 500 file folders... (and skip looking in the `node_modules` directory)
 
 Or if written out in full:
 
-    Get-ChildItem -dir -rec | 
-    Where-Object { 
+    Get-ChildItem -dir -rec |
+    Where-Object {
         $_.FullName -notlike "*node_modules*"\
     } |
-        ForEach-Object { 
+        ForEach-Object {
             $name = $_.FullName;
-            Get-ChildItem "$($_.FullName)" -file | 
+            Get-ChildItem "$($_.FullName)" -file |
                 Measure-Object |
                 Where-Object {
                     $_.count -gt 500
@@ -21,7 +21,6 @@ Or if written out in full:
                     write-host "$name $($_.count)" -f darkcyan
                 }
     }
-
 
 
 Show files in all folders, but exclude node_modules, .git and .obj folders....
@@ -36,10 +35,9 @@ Show files in all folders, but exclude node_modules, .git and .obj folders....
 		} | % { Get-ChildItem "$($_.FullName)" *.* -file }
 
 
-
 Just get some files, not all folders
 
     Get-ChildItem -dir -Exclude *node_modules*, .git, obj | % FullName |
         % { write-host "$_" -f yellow;
-            Get-ChildItem $_ -file | 
+            Get-ChildItem $_ -file |
             % { write-host $_ -f blue; } }

@@ -74,4 +74,4 @@ But this doesn't tell us the close reason sub types either!
 
 ## Source
 
- * <http://meta.stackexchange.com/questions/255880/how-can-we-write-a-query-in-data-stackexchange-to-find-the-closeasofftopicreason>
+- <http://meta.stackexchange.com/questions/255880/how-can-we-write-a-query-in-data-stackexchange-to-find-the-closeasofftopicreason>

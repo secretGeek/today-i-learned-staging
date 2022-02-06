@@ -24,12 +24,12 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 ## Inspired by
 
 - [Josh Branchaud's til](https://github.com/jbranchaud/til) &mdash; and [this Hacker news thread](https://news.ycombinator.com/item?id=11068902)
-- [thoughbot inc.'s til](https://github.com/thoughtbot/til)
+- [thoughtbot inc.'s til](https://github.com/thoughtbot/til)
 - [Jake Worth's til](https://github.com/jwworth/til)
 
 ## See also
 
-- [wiki.secretGeek.net](http://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](http://wiki.secretgeek.net/Category/Fractal), [recursion](http://wiki.secretgeek.net/unbounded-recursion) etc.
+- [wiki.secretGeek.net](https://wiki.secretGeek.net) &mdash; Wiki of things I find fascinating, [fractals](https://wiki.secretgeek.net/Category/Fractal), [recursion](https://wiki.secretgeek.net/unbounded-recursion) etc.
 - [secretGeek.net](https://secretGeek.net) &mdash; my blog
 - [List of Second Brains](https://github.com/KasperZutterman/Second-Brain#second-brain) &mdash; Kasper Zutterman's curated list of somewhat similar sites.
 - [Digital Garden Directory](https://github.com/MaggieAppleton/digital-gardeners/#digital-garden-directory) &mdash; via Maggie Appleton
@@ -166,7 +166,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [webview2](webview2/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 17 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
- | [windows scheduler](windows_scheduler/01_summary.md) | 1 article |
+ | [windows scheduler](windows_scheduler/01_summary.md) | 2 articles |
  | [winget](winget/01_summary.md) | 1 article |
  | [winword](winword/01_summary.md) | 1 article |
  | [wordle](wordle/01_summary.md) | 1 article |
@@ -178,5 +178,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-729 articles
-196300 words
+730 articles
+196454 words

@@ -36,8 +36,8 @@ Also, in `RegisterRoutes`
 
 ## See also
 
- * https://code.google.com/p/elmah/wiki/SecuringErrorLogPages
- * http://haacked.com/archive/2007/07/24/securely-implement-elmah-for-plug-and-play-error-logging.aspx/
- * https://www.stormconsultancy.co.uk/blog/development/tools-plugins/allowing-secure-remote-access-to-your-elmah-error-log/
- * http://www.troyhunt.com/2012/01/aspnet-session-hijacking-with-google.html
- * http://stackoverflow.com/questions/1245364/securing-elmah-in-asp-net-website
+- https://code.google.com/p/elmah/wiki/SecuringErrorLogPages
+- http://haacked.com/archive/2007/07/24/securely-implement-elmah-for-plug-and-play-error-logging.aspx/
+- https://www.stormconsultancy.co.uk/blog/development/tools-plugins/allowing-secure-remote-access-to-your-elmah-error-log/
+- http://www.troyhunt.com/2012/01/aspnet-session-hijacking-with-google.html
+- http://stackoverflow.com/questions/1245364/securing-elmah-in-asp-net-website

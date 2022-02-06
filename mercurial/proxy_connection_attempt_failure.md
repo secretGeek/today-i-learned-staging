@@ -50,8 +50,8 @@ I am good at computers today.
 
 ## Source
 
- * [Configuration for using Mercurial with Bitbucket from behind a certificate rewriting proxy?](http://stackoverflow.com/questions/8991608/configuration-for-using-mercurial-with-bitbucket-from-behind-a-certificate-rewri)
+- [Configuration for using Mercurial with Bitbucket from behind a certificate rewriting proxy?](http://stackoverflow.com/questions/8991608/configuration-for-using-mercurial-with-bitbucket-from-behind-a-certificate-rewri)
 
 ## See also
 
- * []()
+- []()

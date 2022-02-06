@@ -111,6 +111,6 @@ Then click the `Update` button at the bottom of the form.
 
 ## Sources
 
- * [Custom Search Parameters](https://developers.google.com/apis-explorer/?hl=en_GB#p/customsearch/v1/search.cse.list)
+- [Custom Search Parameters](https://developers.google.com/apis-explorer/?hl=en_GB#p/customsearch/v1/search.cse.list)
 
- * [Stackoverflow: Direct link to obtain a google custom search API key?](http://stackoverflow.com/questions/7489862/direct-link-to-obtain-a-google-custom-search-api-key)
+- [Stackoverflow: Direct link to obtain a google custom search API key?](http://stackoverflow.com/questions/7489862/direct-link-to-obtain-a-google-custom-search-api-key)

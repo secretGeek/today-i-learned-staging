@@ -35,4 +35,4 @@ Easy to find:
 
 ## Source
 
- * [Get size of all tables in database](http://stackoverflow.com/questions/7892334/get-size-of-all-tables-in-database)
+- [Get size of all tables in database](http://stackoverflow.com/questions/7892334/get-size-of-all-tables-in-database)

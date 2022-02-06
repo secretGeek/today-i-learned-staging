@@ -13,7 +13,6 @@ and set password:
 
 	sudo passwd fred
 
-
 (`tip` - You can list all users by looking in the file `/etc/passwd`, with `cat /etc/passwd`)
 
 ## give that user sudo privileges

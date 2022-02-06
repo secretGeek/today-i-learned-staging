@@ -18,5 +18,5 @@ I think needed to restart Orable (infact I had to restart the instance of visual
 
 ## See also
 
- * [..\Powershell\PATH.md](Path)
- * [Environment variables -- view/edit them on windows](../windows/environment_variables.md)
+- [..\Powershell\PATH.md](Path)
+- [Environment variables -- view/edit them on windows](../windows/environment_variables.md)

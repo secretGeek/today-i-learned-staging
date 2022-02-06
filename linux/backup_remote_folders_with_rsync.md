@@ -10,15 +10,15 @@ And here's the full [explain shell explanation](https://explainshell.com/explain
 
 `chavzP` is, respectively:
 
- * `--checksum`
- * `--human-readable`
- * `--archive` (i.e. get everything, and be recursive)
- * `--verbose`
- * `-P` equivalent to `--partial --progress` ...good for a long transfer that may be interrupted
+- `--checksum`
+- `--human-readable`
+- `--archive` (i.e. get everything, and be recursive)
+- `--verbose`
+- `-P` equivalent to `--partial --progress` ...good for a long transfer that may be interrupted
 
 And
 
- * `--stats` tells  rsync to print a verbose set of statistics on the file transfer
+- `--stats` tells  rsync to print a verbose set of statistics on the file transfer
 
 ...Can backup multiple files/folders by specifying them with, for example:
 
@@ -32,9 +32,9 @@ Can use:
 
 ## Source
 
- * [How to Backup Files in Linux With Rsync on the Command Line](https://www.linux.com/learn/how-backup-files-linux-rsync-command-line)
- * [Stackoverflow: Copying files using rsync from remote server to local machine](https://stackoverflow.com/questions/9090817/copying-files-using-rsync-from-remote-server-to-local-machine)
+- [How to Backup Files in Linux With Rsync on the Command Line](https://www.linux.com/learn/how-backup-files-linux-rsync-command-line)
+- [Stackoverflow: Copying files using rsync from remote server to local machine](https://stackoverflow.com/questions/9090817/copying-files-using-rsync-from-remote-server-to-local-machine)
 
  ## See also
 
- * [Backup multiple remote folders with rsync](backup_multiple_remote_folders_with_rsync.md)
+- [Backup multiple remote folders with rsync](backup_multiple_remote_folders_with_rsync.md)

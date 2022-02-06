@@ -1,4 +1,4 @@
-# Parameters: general guide
+﻿# Parameters: general guide
 
 In powershell, parameters -- arguments -- can be written in a lot of ways.
 
@@ -14,9 +14,7 @@ YOu can declare parameter names without specifying a type, e.g.
 
 ...and a trap for young players, having just written such a function, if you write code that call its, you must note that you pass arguments without putting parenthesese around the whole thing. That is you call it so:
 
-
 	New-Satelitte "The Nazgul Banana" 500
-
 
 and NOT like this:
 
@@ -24,19 +22,15 @@ and NOT like this:
 
 ...as that would be interpreted as you sending a single parameter, an array with two values
 
-
 	("The Nazgul Banana", 500).GetType()
 
 	IsPublic IsSerial Name                                     BaseType
 	-------- -------- ----                                     --------
 	True     True     Object[]                                 System.Array
 
-
 Hence `$SatelliteName` would be an array of objects.
 
-
 Apart from remembering the "no brackets" syntax -- you also need to learn how to give types to your parameters, and so much more.
-
 
 
 todo: param()
@@ -48,18 +42,12 @@ todo: ParameterSetName
 todo: PSAvoidUsingPositionalParameters
 todo: ValueFromRemainingArguments / Passthrough
 
-
-
 ## Source(s)
 
 - looking through my own code and documenting things i've learned once and forgotten since, in hope i will remember them again.
 - https://adamtheautomator.com/powershell-parameter/#Creating_a_Simple_PowerShell_Parameter
 
-
-
 ## See also
 
 - [parameters general guide](../powershell/parameters general guide)
-
 - CmdLetBinding
-- 

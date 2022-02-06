@@ -10,4 +10,4 @@ Paste that code into the box on this page: https://www.linqpad.net/licensing/off
 
 ## Source
 
- * https://www.linqpad.net/licensing/offline.aspx
+- https://www.linqpad.net/licensing/offline.aspx

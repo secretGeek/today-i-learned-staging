@@ -16,4 +16,4 @@ Well this is a nifty trick!
 
 ## Source
 
- * [Convert xlsx to csv in linux command line](http://stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-command-line)
+- [Convert xlsx to csv in linux command line](http://stackoverflow.com/questions/10557360/convert-xlsx-to-csv-in-linux-command-line)

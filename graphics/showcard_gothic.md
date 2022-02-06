@@ -12,4 +12,4 @@ Note: I first [checked the file at Virus Total](https://www.virustotal.com/en/fi
 
 ## Source
 
- * [Microsoft Typography - Showcard Gothic](https://www.microsoft.com/typography/fonts/font.aspx?FMID=599)
+- [Microsoft Typography - Showcard Gothic](https://www.microsoft.com/typography/fonts/font.aspx?FMID=599)

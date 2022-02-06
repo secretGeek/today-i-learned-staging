@@ -44,6 +44,6 @@ Left behind are some .orig files, which I delete with the good old:
 
 ## See also
 
- * [Got a bunch of .orig files you don't want?](orig_files.md)
- * [Configure mercurial to use sourcegear diffmerge for merging](diffmerge_merge.md)
- * [mercurial.ini](mercurial_ini.md)
+- [Got a bunch of .orig files you don't want?](orig_files.md)
+- [Configure mercurial to use sourcegear diffmerge for merging](diffmerge_merge.md)
+- [mercurial.ini](mercurial_ini.md)

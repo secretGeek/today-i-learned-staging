@@ -39,5 +39,5 @@ The rest of the rule is the same as this existing rule, which you should find in
 
 Thanks to Darin Dimitrov's answers here.
 
- * http://stackoverflow.com/questions/14327476/prevent-static-file-handler-from-intercepting-filename-like-url
- * http://stackoverflow.com/questions/16997963/asp-net-mvc-4-filepathresult-and-staticfile-handlers
+- http://stackoverflow.com/questions/14327476/prevent-static-file-handler-from-intercepting-filename-like-url
+- http://stackoverflow.com/questions/16997963/asp-net-mvc-4-filepathresult-and-staticfile-handlers

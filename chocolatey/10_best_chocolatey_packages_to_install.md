@@ -1,10 +1,8 @@
-# 100 Best Chocolatey Packages in 20 Categories
-
+﻿# 100 Best Chocolatey Packages in 20 Categories
 
 ## Editors
 
 choco install notepadplusplus -y
-
 
 ## Languages
 
@@ -21,19 +19,16 @@ choco install chicken -y
 (that is: chicken scheme)
 
 
-
 ## Security Essentials
 
 choco install keepass -y
-
 
 ## Browser
 choco install googlechrome -y
 choco install firefox -y
 choco install adobereader -y
 
-
-## Audio 
+## Audio
 choco install audacity -y
 choco install ffmpeg -y
 choco install vlc -y
@@ -58,7 +53,6 @@ choco install geogebra -y
 
 
 
-
 ## vscode and extensions
 
 (and see above: `choco install vscode -y`)
@@ -69,14 +63,12 @@ choco install geogebra -y
 
 	choco install vscode-gitlens -y
 
-
 ## databases
 
 - mysql
 - sqlite and sqlite tools
 
 choco install sql-server-management-studio -y
-
 
 ## popular tools
 
@@ -101,9 +93,7 @@ choco install git -y
 choco install postman -y
 choco install fiddler -y
 
-
 choco install azure-data-studio -y
-
 
 ## Big 3 Cloud
 
@@ -115,9 +105,7 @@ choco install azure-data-studio -y
 
 	choco install azcopy -y
 
-
 ### GCP
-
 
 ## Other Cloud Services
 
@@ -138,15 +126,12 @@ choco install azure-data-studio -y
 	choco install skype -y
 
 
-
 ### google drive
-
 
 
 ## Misc
 
 	choco install spotify --ignore-checksums -y
-
 
 ## See also
 

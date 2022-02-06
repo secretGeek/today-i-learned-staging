@@ -51,4 +51,4 @@ And why are we doing this? To check VirusTotal for example:
 
 ## Source
 
- * [How to get an MD5 checksum in PowerShell](http://stackoverflow.com/questions/10521061/how-to-get-an-md5-checksum-in-powershell)
+- [How to get an MD5 checksum in PowerShell](http://stackoverflow.com/questions/10521061/how-to-get-an-md5-checksum-in-powershell)

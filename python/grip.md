@@ -24,4 +24,4 @@ Or in powershell-ese...
 
 ## Source
 
- * [Python: Emit some Utf-8 string to windows console](http://stackoverflow.com/questions/10321611/python-emit-some-utf-8-string-to-windows-console)
+- [Python: Emit some Utf-8 string to windows console](http://stackoverflow.com/questions/10321611/python-emit-some-utf-8-string-to-windows-console)

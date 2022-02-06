@@ -126,4 +126,4 @@ Nice and linear
 
 ## Source
 
- * [Rebase Extension](https://www.mercurial-scm.org/wiki/RebaseExtension)
+- [Rebase Extension](https://www.mercurial-scm.org/wiki/RebaseExtension)

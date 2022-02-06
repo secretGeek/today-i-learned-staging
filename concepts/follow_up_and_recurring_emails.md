@@ -37,4 +37,4 @@ Follows up on the next occurrence of the specified time.
 
 ## Source
 
- * [https://www.followupthen.com/how](https://www.followupthen.com/how)
+- [https://www.followupthen.com/how](https://www.followupthen.com/how)

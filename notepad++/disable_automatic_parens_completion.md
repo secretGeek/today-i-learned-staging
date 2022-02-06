@@ -39,4 +39,4 @@ To
 
 ## Source
 
- * [How to disable annoying 'parenthesis completion'?](http://stackoverflow.com/questions/119387/how-to-disable-annoying-parenthesis-completion)
+- [How to disable annoying 'parenthesis completion'?](http://stackoverflow.com/questions/119387/how-to-disable-annoying-parenthesis-completion)

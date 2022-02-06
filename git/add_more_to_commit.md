@@ -14,7 +14,6 @@ And then:
 
 - [SO: 40503417](https://stackoverflow.com/questions/40503417/how-to-add-a-file-to-the-last-commit-in-git) - and a million other places.
 
-
 ## See also
 
 - [change commit message (before you've pushed)](change_commit_message.md)

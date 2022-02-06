@@ -1,4 +1,4 @@
-# C# version 10
+﻿# C# version 10
 
 See [what's new in C#10](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10)
 

@@ -49,4 +49,4 @@ Inside that file, if you specify
 
 ## Source
 
- * [The Secret Life of Connection Strings In Oracle! (Oracle DBA's Hate Me.)](https://secretgeek.net/tnsnames) &mdash; blogpost developed alongside these notes
+- [The Secret Life of Connection Strings In Oracle! (Oracle DBA's Hate Me.)](https://secretgeek.net/tnsnames) &mdash; blogpost developed alongside these notes

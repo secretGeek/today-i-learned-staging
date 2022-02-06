@@ -33,4 +33,4 @@ And then, in the paint method, just render the bitmap.
 
 ## Source
 
- * <http://stackoverflow.com/questions/8046560/how-to-stop-flickering-c-sharp-winforms>
+- <http://stackoverflow.com/questions/8046560/how-to-stop-flickering-c-sharp-winforms>

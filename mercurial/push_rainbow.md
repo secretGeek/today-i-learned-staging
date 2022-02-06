@@ -12,4 +12,4 @@ I wish there'd been a few words, or even a url included. A picture is worth a th
 
 ## Sources
 
- * [Atlassian "logo" after pushing to bitbucket](https://stackoverflow.com/questions/31081919/atlassian-logo-after-pushing-to-bitbucket)
+- [Atlassian "logo" after pushing to bitbucket](https://stackoverflow.com/questions/31081919/atlassian-logo-after-pushing-to-bitbucket)

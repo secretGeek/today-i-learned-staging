@@ -10,4 +10,4 @@ To delete it? You can make it dissappear by drawing over it with a transparent c
 
 ## Source
 
- * [paint.net forum: easy single pixel selection](http://forums.getpaint.net/index.php?/topic/2408-easy-single-pixel-selection/)
+- [paint.net forum: easy single pixel selection](http://forums.getpaint.net/index.php?/topic/2408-easy-single-pixel-selection/)

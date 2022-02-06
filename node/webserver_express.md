@@ -35,4 +35,4 @@ And browse to:
 
 ## Source
 
-  * <http://stackoverflow.com/a/26845720/49> -- user 'thehme'
+- <http://stackoverflow.com/a/26845720/49> -- user 'thehme'

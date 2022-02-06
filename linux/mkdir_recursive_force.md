@@ -8,4 +8,4 @@ If you want to make directories in linux and *force* it to recursively make pare
 
 ## Source
 
- * `man mkdir`
+- `man mkdir`

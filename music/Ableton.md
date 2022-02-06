@@ -2,23 +2,23 @@
 
 <https://learningmusic.ableton.com/>
 
- * Beats
- * Notes and scales
- * Chords
- * Basslines
- * Melodies
- * Song structure
+- Beats
+- Notes and scales
+- Chords
+- Basslines
+- Melodies
+- Song structure
 
 Also from ableton:
 
 <https://learningsynths.ableton.com/>
 
- * Envelopes
- * LFOs
- * Oscillators
- * Filters
- * Recipes
- * Playground
+- Envelopes
+- LFOs
+- Oscillators
+- Filters
+- Recipes
+- Playground
 
 A different tool....
 
@@ -26,4 +26,4 @@ A different tool....
 
 ## External links
 
- * <https://news.ycombinator.com/item?id=14299628>
+- <https://news.ycombinator.com/item?id=14299628>

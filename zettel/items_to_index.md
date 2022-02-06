@@ -22,7 +22,7 @@
 
 ## People with personal knowledge repositories
 
-<!-- 
+<!--
 NimbleText pattern for formatting this list...
 - [<% $row.replace('https://','').replace('www.','').replace('.com','').replace('/',': ').replace(/[\/\.]/g,' ').replace(/\: $/,'').trim() %>]($row)
  -->

@@ -14,10 +14,10 @@ To see available space use:
 
 ## Source
 
- * [Different ways to determine free space for SQL Server databases and database files](https://www.mssqltips.com/sqlservertip/1805/different-ways-to-determine-free-space-for-sql-server-databases-and-database-files/)
+- [Different ways to determine free space for SQL Server databases and database files](https://www.mssqltips.com/sqlservertip/1805/different-ways-to-determine-free-space-for-sql-server-databases-and-database-files/)
 
 ## See also
 
- * [Backup restore script](backup_restore_script.md)
- * [Need to delete backup files?](delete_backup_files.md)
- * [How much space is left on the drives that my sql server can access?](drive_sizes.md)
+- [Backup restore script](backup_restore_script.md)
+- [Need to delete backup files?](delete_backup_files.md)
+- [How much space is left on the drives that my sql server can access?](drive_sizes.md)

@@ -14,10 +14,10 @@ Costs $26.95
 
 3. Run minecraft launcher.
 
-* "Launch Options"
-  * "Add new"
-    * Name: (e.g.) Test of 1.9
-    * Version:  release 1.9
+- "Launch Options"
+  - "Add new"
+    - Name: (e.g.) Test of 1.9
+    - Version:  release 1.9
 
 On the front screen, on the big green button hit the 'up' arrow to change profile. Select this new profile. And press play.
 
@@ -250,5 +250,5 @@ See console.py
 
 ## Sources
 
- * [Minecraft Doesn't Need Java Installed Anymore](https://www.howtogeek.com/210907/minecraft-doesnt-need-java-installed-anymore-its-time-to-remove-it/)
- * [Instructables: Python Coding for Minecraft by arpruss](http://www.instructables.com/id/Python-coding-for-Minecraft/)
+- [Minecraft Doesn't Need Java Installed Anymore](https://www.howtogeek.com/210907/minecraft-doesnt-need-java-installed-anymore-its-time-to-remove-it/)
+- [Instructables: Python Coding for Minecraft by arpruss](http://www.instructables.com/id/Python-coding-for-Minecraft/)

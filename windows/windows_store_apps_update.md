@@ -20,4 +20,4 @@ Maybe turn off your computer too. You know you'll be happier for it.
 
 ## Source
 
- * [Real Windows 10 Problems & How to Fix Them](http://www.gottabemobile.com/2016/04/22/real-windows-10-problems-how-to-fix-them/)
+- [Real Windows 10 Problems & How to Fix Them](http://www.gottabemobile.com/2016/04/22/real-windows-10-problems-how-to-fix-them/)

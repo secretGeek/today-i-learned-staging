@@ -103,4 +103,4 @@ Cmder will no longer be slow to paint over remote connections.
 
 ## Source
 
- * <http://superuser.com/questions/652155/configure-powershell-to-be-conemus-default-shell>
+- <http://superuser.com/questions/652155/configure-powershell-to-be-conemus-default-shell>

@@ -8,4 +8,4 @@ Tested in 2016, in Windows 10: still works.
 
 ## Source
 
- * http://weblog.jamisbuck.org/2015/3/17/task-tracking-for-neurochemical-brains.html#comment-2011700978
+- http://weblog.jamisbuck.org/2015/3/17/task-tracking-for-neurochemical-brains.html#comment-2011700978

@@ -1,4 +1,4 @@
-# Cherry-pick some commits from one branch to another
+﻿# Cherry-pick some commits from one branch to another
 
 This is pretty easy. Many of the guides online talk about using particular tools, so i just want to write down the technique used for the commandline.
 

@@ -37,4 +37,4 @@ Then delete the files of the module (and the folder it is in, which is named aft
 
 ## See also
 
- * More about [package/module commands](../powershell/module_commands.md)
+- More about [package/module commands](../powershell/module_commands.md)

@@ -8,4 +8,4 @@ Or run this in powershell:
 
 ## Source
 
- * [Finding Version of IIS using powershell](http://stackoverflow.com/questions/16784587/finding-version-of-iis-using-powershell)
+- [Finding Version of IIS using powershell](http://stackoverflow.com/questions/16784587/finding-version-of-iis-using-powershell)

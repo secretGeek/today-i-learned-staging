@@ -16,4 +16,4 @@ Or if you want to know the [windows version, I've covered that too](../windows/w
 
 ## Source
 
- * http://stackoverflow.com/questions/1825585/determine-installed-powershell-version
+- <http://stackoverflow.com/questions/1825585/determine-installed-powershell-version>

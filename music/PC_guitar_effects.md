@@ -27,5 +27,5 @@ Sound Slice is an interesting music practice site:
 
 ## Sources
 
- * [Gnuitar](https://sourceforge.net/projects/gnuitar/)
- * [Turning your laptop (or any PC) into a make-shift effects pedal](http://www.effectsbay.com/2011/11/guest-post-turning-your-laptop-or-any-pc-into-a-make-shift-effects-pedal/)
+- [Gnuitar](https://sourceforge.net/projects/gnuitar/)
+- [Turning your laptop (or any PC) into a make-shift effects pedal](http://www.effectsbay.com/2011/11/guest-post-turning-your-laptop-or-any-pc-into-a-make-shift-effects-pedal/)

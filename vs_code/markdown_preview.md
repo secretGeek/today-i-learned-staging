@@ -6,10 +6,10 @@
 >preview side-by-side with the file you are editing
 > and see changes reflected in real-time as you edit.
 
- * Split editor with  `Ctrl+\`
- * Show preview: `Ctrl+Shift+V`
- * `Ctrl + Tab`
+- Split editor with  `Ctrl+\`
+- Show preview: `Ctrl+Shift+V`
+- `Ctrl + Tab`
 
 ## Source
 
- * https://code.visualstudio.com/Docs/languages/markdown
+- https://code.visualstudio.com/Docs/languages/markdown

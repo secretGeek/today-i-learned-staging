@@ -24,8 +24,8 @@ I much prefer the versatility of getting table lists from Information_Schema or 
 
 ## Source
 
- * [NimbleText: How to run the same query against many tables](http://nimbletext.com/HowTo/OneQueryManyTables)
- * [Stack Overflow: Hidden Features of SQL Server](http://stackoverflow.com/questions/121243/hidden-features-of-sql-server)
+- [NimbleText: How to run the same query against many tables](http://nimbletext.com/HowTo/OneQueryManyTables)
+- [Stack Overflow: Hidden Features of SQL Server](http://stackoverflow.com/questions/121243/hidden-features-of-sql-server)
 
 ## See also:
 

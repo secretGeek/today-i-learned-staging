@@ -44,6 +44,6 @@ Here's how to add such a script to your own `kv`. (it should be in your [utils r
 
 ## See also
 
- * [kv](https://secretgeek.net/kv)
- * [here-strings](../powershell/here-strings)
- * [tools](../tools/list_of_tools.md)
+- [kv](https://secretgeek.net/kv)
+- [here-strings](../powershell/here-strings)
+- [tools](../tools/list_of_tools.md)

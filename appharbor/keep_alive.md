@@ -10,4 +10,4 @@ My experience so far is that the application is kept alive and remains very resp
 
 ## Source
 
- * https://coderwall.com/p/qqqxbg/workaround-for-appharbor-s-20-minute-app-pool-recycling
+- https://coderwall.com/p/qqqxbg/workaround-for-appharbor-s-20-minute-app-pool-recycling

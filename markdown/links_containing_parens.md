@@ -30,5 +30,5 @@ Compare '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_(social_psycholo
 
 ## Source
 
- * http://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses
- * http://blog.codinghorror.com/the-problem-with-urls/
+- http://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses
+- http://blog.codinghorror.com/the-problem-with-urls/

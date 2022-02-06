@@ -29,4 +29,4 @@ aka
 
 ## Source
 
- * <http://stackoverflow.com/questions/30884131/remove-trailing-spaces-automatically-or-with-a-shortcut>
+- <http://stackoverflow.com/questions/30884131/remove-trailing-spaces-automatically-or-with-a-shortcut>

@@ -33,5 +33,5 @@ If you don't want to add it for all solutions you can allegedly just add a `http
 
 ## Sources
 
- * [SO: NuGet Behind Proxy](https://stackoverflow.com/questions/9232160/nuget-behind-proxy)
- * [NuGet.Config reference](https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file)
+- [SO: NuGet Behind Proxy](https://stackoverflow.com/questions/9232160/nuget-behind-proxy)
+- [NuGet.Config reference](https://docs.microsoft.com/en-us/nuget/schema/nuget-config-file)

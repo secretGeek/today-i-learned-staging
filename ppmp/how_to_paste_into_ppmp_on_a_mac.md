@@ -1,4 +1,4 @@
-# Solved: How to paste into PPMP when using a Mac
+﻿# Solved: How to paste into PPMP when using a Mac
 
 ## TL/DR
 
@@ -32,7 +32,7 @@ When you click that "down" arrow -- it reveals a menu with 6 icons.
 - "Upload from PC to Server"
 - "ClipBoard" (sic)
 - "Download From Server to PC"
-- "File Manager" and 
+- "File Manager" and
 - "Full screen"
 
 If you click the third one, "ClipBoard" -- it brings up a funny little applet for doing some clipboard and keyboard operations.

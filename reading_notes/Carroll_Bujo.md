@@ -1,10 +1,10 @@
 ﻿# Bullet Journal
 
 Collections
--	Index
--	Future log
--	Monthly log
--	Daily log
+- Index
+- Future log
+- Monthly log
+- Daily log
 
 Rapid logging
  Examples of??
@@ -29,13 +29,13 @@ Signifiers
 
 Dot bullet is drawn for task
 
--Completed - dot x'd out
--Moved forward - right arrow
--Tied to a schedule - left arrow (means moves to future log)
--Strike through - ignore defer
+- Completed - dot x'd out
+- Moved forward - right arrow
+- Tied to a schedule - left arrow (means moves to future log)
+- Strike through - ignore defer
 
 - Sub tasks
-    * Indented
+ -  Indented
 
 Designing a language for your dots is interesting
 

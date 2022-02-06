@@ -153,7 +153,8 @@ At this stage we've learnt all the rules.
 
 We can follow this old skating maxim:
 
-> FIRST: Learn all the rules<br />
+> FIRST: Learn all the rules
+>
 > NEXT: Break all the rules
 
 Here's how we **CAN** put a windowed-function into a WHERE clause...
@@ -453,7 +454,7 @@ Let's add some partition... This time count will show us how many rows in each F
 |BXR_VH200|5|1Y0PY47X|1Y0PY47X|1Y0PY47X|101DY473|1Y0PY47X|ARG447|BXR_VH188|BXR_VH201|
 |BXR_VH201|5|1Y0PY47X|101DY473|1Y0PY47X|101DY473|1Y0PY47X|ARG447|BXR_VH188|BXR_VH201|
 
-## Background reading:
+## Background reading
 
 * [Window Functions, Part 1](https://www.red-gate.com/simple-talk/sql/learn-sql-server/window-functions-in-sql-server/)
 * [Window Functions, Part 2](https://www.red-gate.com/simple-talk/sql/learn-sql-server/window-functions-in-sql-server-part-2-the-frame/)

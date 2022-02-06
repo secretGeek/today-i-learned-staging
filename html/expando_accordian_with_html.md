@@ -153,7 +153,6 @@ Generally a good idea... (though not useful for mobile)
 	Once expanded, this is the details you will see.
 	</details>
 
-
 <div id='#efull-example'>
 <style>
 
@@ -162,7 +161,6 @@ Generally a good idea... (though not useful for mobile)
 Once expanded, this is the details you will see.
 </details>
 </div>
-
 
 ## Caveat
 

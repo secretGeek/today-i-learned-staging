@@ -48,7 +48,7 @@ And:
 
 To get around this you need to login as that email address, from your desktop/regular machine, and then visit this url:
 
- * <https://accounts.google.com/b/0/UnlockCaptcha>
+- <https://accounts.google.com/b/0/UnlockCaptcha>
 
 Leave that url open, and re-initiate the connection on your linux box. (i.e. get your digital ocean droplet to try once again to send an email)
 
@@ -71,8 +71,8 @@ But .net core doesn't yet have an implementation of 'ServiceAccountCredential' -
 
 So you need to ensure your gmail account permits signin without use of a developer token. To enable this for your gmail account, you may need to (login as that user and then) visit:
 
- * <https://www.google.com/settings/security/lesssecureapps>
+- <https://www.google.com/settings/security/lesssecureapps>
 
 ## Sources
 
- * [serverfault question on same](http://serverfault.com/questions/541314/unlocking-server-ip-via-googles-displayunlockcaptcha-over-ssh)
+- [serverfault question on same](http://serverfault.com/questions/541314/unlocking-server-ip-via-googles-displayunlockcaptcha-over-ssh)

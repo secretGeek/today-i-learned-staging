@@ -8,4 +8,4 @@
 
 ## Source
 
- * <http://betanews.com/2016/07/26/cortana-unkillable-in-windows-10-anniversary-update/>
+- <http://betanews.com/2016/07/26/cortana-unkillable-in-windows-10-anniversary-update/>

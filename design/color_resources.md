@@ -39,8 +39,8 @@ And if you understood a single color (which I doubt you ever can)... these thing
 
 ## Tools/techniques for making visual elements color-blind friendly
 
- * [3 Free Tools to Ensure Color Blind-Friendly Designs](https://medium.com/everyone-is-a-product-expert/3-free-tool-to-ensure-color-blind-friendly-designs-28d93cf238d)
- * [How to Design for Color Blindness](https://usabilla.com/blog/how-to-design-for-color-blindness/)
+- [3 Free Tools to Ensure Color Blind-Friendly Designs](https://medium.com/everyone-is-a-product-expert/3-free-tool-to-ensure-color-blind-friendly-designs-28d93cf238d)
+- [How to Design for Color Blindness](https://usabilla.com/blog/how-to-design-for-color-blindness/)
 
 ## Palette Tools
 

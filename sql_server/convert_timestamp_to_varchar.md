@@ -17,9 +17,9 @@ Returns, for example:
 
 Notes:
 
- * fn_varbintohexstr is an undocumented function best avoided
- * In the convert examples, changing the `1` to `2` omits the `0x`.
+- fn_varbintohexstr is an undocumented function best avoided
+- In the convert examples, changing the `1` to `2` omits the `0x`.
 
 ## Sources
 
- * [SO: How to convert TIMESTAMP values to VARCHAR in T-SQL as SSMS does?](https://stackoverflow.com/questions/41014533/how-to-convert-timestamp-values-to-varchar-in-t-sql-as-ssms-does)
+- [SO: How to convert TIMESTAMP values to VARCHAR in T-SQL as SSMS does?](https://stackoverflow.com/questions/41014533/how-to-convert-timestamp-values-to-varchar-in-t-sql-as-ssms-does)

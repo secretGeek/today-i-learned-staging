@@ -22,5 +22,5 @@ To turn that string into a [FileInfo](parts_of_a_fileInfo_object.md) and get its
 
 ## See also
 
- * More about [package/module commands](module_commands.md)
- * [Get Parts of a FileInfo object](parts_of_a_fileInfo_object.md)
+- More about [package/module commands](module_commands.md)
+- [Get Parts of a FileInfo object](parts_of_a_fileInfo_object.md)

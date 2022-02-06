@@ -34,4 +34,4 @@ Copy multiple files from the remote host to your current directory on the local 
 
 ## Source
 
- * [Example syntax for Secure Copy (scp)](http://www.hypexr.org/linux_scp_help.php)
+- [Example syntax for Secure Copy (scp)](http://www.hypexr.org/linux_scp_help.php)

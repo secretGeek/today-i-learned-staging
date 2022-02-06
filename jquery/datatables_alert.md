@@ -34,4 +34,4 @@ To:
 
 ## Source
 
- * [Correctly Suppressing Warnings in DataTables?](http://stackoverflow.com/questions/11941876/correctly-suppressing-warnings-in-datatables)
+- [Correctly Suppressing Warnings in DataTables?](http://stackoverflow.com/questions/11941876/correctly-suppressing-warnings-in-datatables)

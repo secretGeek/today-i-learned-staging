@@ -59,5 +59,5 @@ If you are bulk creating 1000's of books, I suggest writing your own program/scr
 
 ## sources
 
- * http://help.gitbook.com/format/cover.html
- * https://github.com/GitbookIO/plugin-autocover
+- http://help.gitbook.com/format/cover.html
+- https://github.com/GitbookIO/plugin-autocover

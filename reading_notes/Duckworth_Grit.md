@@ -103,7 +103,7 @@ Demanding AND Supportive
 
 (Picture 4 quadrants with those on/off)
 
--warm respectful and demanding
+- warm, respectful and demanding
 
 Short survey about parenting style (for the children to take) parenting assessment by Nancy Darling Eg http://www.academia.edu/33702619/Parenting_Style_and_Its_Correlates -there may be better links than this
 
@@ -123,6 +123,6 @@ Good leadership like good parenting is supportive AND demanding.
 
 3 virtue clusters:
 
-Intrapersonal (Eg grit, self control, mental health) aka resume virtues.
-Interpersonal aka eulogy virtues (according to David Brookes)
-Intellectual - curiosity and zest, engagement with the world of ideas.
+- Intrapersonal (Eg grit, self control, mental health) aka resume virtues.
+- Interpersonal aka eulogy virtues (according to David Brookes)
+- Intellectual - curiosity and zest, engagement with the world of ideas.

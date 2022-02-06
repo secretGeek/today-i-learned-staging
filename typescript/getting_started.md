@@ -115,12 +115,12 @@ But why not spruce it up a bit by adding something like this...
 
 Choices under 'target' are currently:
 
-* ES3 (default)
-* ES5
-* ES6/ES2015
-* ES2016
-* ES2017
-* ESNext
+- ES3 (default)
+- ES5
+- ES6/ES2015
+- ES2016
+- ES2017
+- ESNext
 
 Knowing what these mysterious things mean is part of the magic of being a web developer in 2017. No won nose the whole path around the elephant.
 
@@ -140,12 +140,12 @@ You can learn more about the `tasks.json` file format by visiting <http://code.v
 
 ## Sources
 
- * <http://blog.teamtreehouse.com/getting-started-typescript>
- * <https://code.visualstudio.com/Docs/languages/typescript>
- * <http://code.visualstudio.com/docs/editor/tasks>
+- <http://blog.teamtreehouse.com/getting-started-typescript>
+- <https://code.visualstudio.com/Docs/languages/typescript>
+- <http://code.visualstudio.com/docs/editor/tasks>
 
 ## See also
 
- * [npm](../npm/install_npm.md)
- * [path](../powershell/PATH.md)
- * [editing environment variables](../windows/environment_variables.md)
+- [npm](../npm/install_npm.md)
+- [path](../powershell/PATH.md)
+- [editing environment variables](../windows/environment_variables.md)

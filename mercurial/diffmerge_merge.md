@@ -26,4 +26,4 @@ If you first want to verify that path...
 
 ## Source
 
-  * <https://sourcegear.com/diffmerge/webhelp/sec__mercurial__windows__native.html>
+- <https://sourcegear.com/diffmerge/webhelp/sec__mercurial__windows__native.html>

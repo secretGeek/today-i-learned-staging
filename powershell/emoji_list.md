@@ -1709,4 +1709,4 @@ Retrieved from emoji module (see 'source') and formatted to markdown table, via 
 
 ## Source
 
- * [Emojis in PowerShell? Yes!](https://artofshell.com/2016/04/emojis-in-powershell-yes/)
+- [Emojis in PowerShell? Yes!](https://artofshell.com/2016/04/emojis-in-powershell-yes/)

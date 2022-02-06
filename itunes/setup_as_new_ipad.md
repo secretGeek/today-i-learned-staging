@@ -4,8 +4,8 @@ We have an existing ipad, have used it for a year, but have never plugged it int
 
 We just plugged it in for the first time and were given two options:
 
- 1. restore from backup
- 2. setup as new ipad
+1. restore from backup
+2. setup as new ipad
 
 We definitely don't want 1. but are worried 2. will wipe the ipad.
 

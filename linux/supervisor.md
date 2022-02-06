@@ -141,9 +141,9 @@ Add that to your cron jobs using crontab (described in [cron](cron.md)).
 
 ## Sources
 
- * [Supervisord: Restarting and Reloading](http://www.onurguzel.com/supervisord-restarting-and-reloading/)
- * [Protip: Automatically Running Supervisord on Startup](https://lincolnloop.com/blog/automatically-running-supervisord-startup/)
+- [Supervisord: Restarting and Reloading](http://www.onurguzel.com/supervisord-restarting-and-reloading/)
+- [Protip: Automatically Running Supervisord on Startup](https://lincolnloop.com/blog/automatically-running-supervisord-startup/)
 
 ## See also
 
- * [cron & crontab](cron.md)
+- [cron & crontab](cron.md)

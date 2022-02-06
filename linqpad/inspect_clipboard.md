@@ -74,7 +74,7 @@ And being black listed isn't the only reason you shouldn't use it in domain name
 
 ## See also
 
- * [Run Linqpad scripts from the command-line](run_linqpad_scripts_from_commandline.md)
- * [Invoke a LinqPad Script with Invoke-LinqPadScript CommandLet](invoke_linqpad_commandlet.md)
- * [Zero Width Space](http://www.fileformat.info/info/unicode/char/200b/index.htm)
- * [Zero Width Non Joiner](http://www.fileformat.info/info/unicode/char/200c/index.htm)
+- [Run Linqpad scripts from the command-line](run_linqpad_scripts_from_commandline.md)
+- [Invoke a LinqPad Script with Invoke-LinqPadScript CommandLet](invoke_linqpad_commandlet.md)
+- [Zero Width Space](http://www.fileformat.info/info/unicode/char/200b/index.htm)
+- [Zero Width Non Joiner](http://www.fileformat.info/info/unicode/char/200c/index.htm)

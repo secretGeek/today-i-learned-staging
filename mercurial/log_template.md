@@ -16,13 +16,13 @@ i use this function, `hgl`, a lot
 
 Templates and Styles work with all "log-like" commands:
 
- * log
- * outgoing
- * incoming
- * tip
- * parents
- * heads
- * glog
+- log
+- outgoing
+- incoming
+- tip
+- parents
+- heads
+- glog
 
 ## See also
 

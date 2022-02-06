@@ -112,5 +112,5 @@ The "-L" option: is for specifying the address to use.
 
 ## Source
 
- * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-PuTTY-on-digitalocean-droplets-windows-users> -- includes how to configure PuTTY itself.
- * <http://stackoverflow.com/questions/20840012/ssh-remote-host-identification-has-changed>
+- <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-PuTTY-on-digitalocean-droplets-windows-users> -- includes how to configure PuTTY itself.
+- <http://stackoverflow.com/questions/20840012/ssh-remote-host-identification-has-changed>

@@ -50,4 +50,4 @@ Some day I'll get there...
 
 ## Source
 
- * [Ultimate Beginner Fingerstyle Lesson (Essentials + Exercises) - Guitar Tutorial](https://www.youtube.com/watch?v=8UU4yMkDdBw)
+- [Ultimate Beginner Fingerstyle Lesson (Essentials + Exercises) - Guitar Tutorial](https://www.youtube.com/watch?v=8UU4yMkDdBw)
