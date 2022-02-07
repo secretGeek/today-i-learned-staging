@@ -1,6 +1,6 @@
 ﻿# Group objects in powershell
 
-Grouping is useful. I've mentioned it also in [Count distinct rows](count_distinct_rows.md), [Count Files by Type](file_types.md) and [histogram](histogram.md).
+Grouping is useful. I've mentioned it also in [Count distinct rows](count_distinct_rows.md), [Count Files by Type](filetypes.md) and [histogram](histogram.md).
 
 	dir -rec |
 	group-object -property { ($_.extension) } |
@@ -54,3 +54,11 @@ Group my tasks by Source and Category
 ## Source
 
 - [stackoverflow - group by multiple properties](https://stackoverflow.com/questions/30769809/powershell-group-by-multiple-properties)
+
+## See also
+
+- [Count Files by Type](filetypes.md)
+- [Histograms in Powershell](histogram.md)
+- [Load or Save CSV with Powershell](load_save_csv.md)
+- [Count distinct rows (in powershell)](count_distinct_rows.md)
+- [Count lines of code with powershell](count_lines_of_code.md)

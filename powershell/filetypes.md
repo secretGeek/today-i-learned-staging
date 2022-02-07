@@ -36,3 +36,7 @@ Here's same, explicitly excluding `.git` and `node_modules` again.
 			Files = ($_.Group | % Name)
 		}
 	} | sort -desc Size
+
+## See also
+
+- [Group objects in powershell](group_objects_in_powershell.md)

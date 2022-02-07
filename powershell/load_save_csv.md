@@ -42,3 +42,8 @@ What type do we end up with? A custom object, with a `NoteProperty` for each col
 ## Group CSV
 
 	import-csv "dirinfo.csv" | group -property Name | sort -desc count
+
+## See also
+
+- [Group objects in powershell](group_objects_in_powershell.md)
+- [Import CSV file to a Database, quickly](../csv/import_csv_to_db.md)

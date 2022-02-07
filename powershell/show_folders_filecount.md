@@ -41,3 +41,7 @@ Just get some files, not all folders
         % { write-host "$_" -f yellow;
             Get-ChildItem $_ -file |
             % { write-host $_ -f blue; } }
+
+## See also
+
+- [Group objects in powershell](group_objects_in_powershell.md)
