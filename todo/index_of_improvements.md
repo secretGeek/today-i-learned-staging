@@ -8,11 +8,11 @@
 - Generate a 'what links here' section for each page.
 
 ### Other features that can be embedded in macros:
--[ ] `next`/`previous` buttons
+
+- [ ] `next`/`previous` buttons
 	- [ ] a "next" link (and a previous) at each one...
 - [ ] Ability to do "REDIRECT" for crappy pages I don't like.
 - [ ] TIL Random - random article, or random within category
-- [ ] next/previous buttons
 
 ## Auto Linting of the TIL
 
@@ -20,7 +20,8 @@
 - Linting: 404 check all internal .md references!
 - make vs-code use tab (for markdown files, not for other files)
 - improve scroll bars, and write them up while you're there
-- improve mobile layout - lighthouse etc (elements too close together [in search bar])
+- improve mobile layout 
+	- lighthouse etc (elements too close together [in search bar])
 - keywords are highlighted (what keywords? how are keywords added? i don't have keywords)
 - keywords are inter-related.
 	- many are put in an ignore list?
@@ -32,15 +33,15 @@
 - Squarified treemap of topics and items
 - a page for showing details of embedded macros known to clowncar.
 	- an improved meta language allowing these other meta features.
-		- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.) i.e. zonk. This is pure zonk.
+		- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.) 
+		- i.e. zonk. This is pure zonk.
 
 ## Done
 
 9:56 AM Friday, 22 January 2021
 
--[x] code block highlighting
-
--[x]  pre blocks... correct language:
+- [x] code block highlighting
+- [x] pre blocks... correct language:
 	- plaintext
 	- language-powershell
 	- ...idea: have a default "language" for each folder?
@@ -54,4 +55,4 @@
 ### 8:37 AM Wednesday, 24 February 2021
 
 - [x] styling of internal, external and blank, mailto, and onpage links...
-- [no]  a tag for including the {toc:} in the document. (not needed now that embedded header exists)
+- [ ] ~~a tag for including the `{toc:}` in the document.~~ (not needed now that embedded header exists)

@@ -45,7 +45,7 @@ If you do find results, you may see:
 
 ## Sources
 
--[Nikola Dimitrijevic: How to identify and monitor unused indexes in SQL Server](https://www.sqlshack.com/how-to-identify-and-monitor-unused-indexes-in-sql-server/)
+- [Nikola Dimitrijevic: How to identify and monitor unused indexes in SQL Server](https://www.sqlshack.com/how-to-identify-and-monitor-unused-indexes-in-sql-server/)
 
 ## See also
 

@@ -7,22 +7,37 @@ Grouping is useful. I've mentioned it also in [Count distinct rows](count_distin
 	% {
 		[PSCustomObject]@{
 			Id = $_.Name
-			Size = ($_.Group.Length| Measure -sum).Sum
+			Size = ($_.Group.Length | Measure -sum).Sum
 			Count = $_.Count
 			Files = ($_.Group | % Name)
 		}
 	} | sort -desc Size
 
-	dir -rec |
+
+More comprehensive version:
+
+	Get-ChildItem -rec -file |
+	Where-Object { -not ($_.FullName -like '*\node_modules\*' -or
+		$_.FullName -like '*\obj\*' -or
+		$_.FullName -like '*\.git\*' -or
+		$_.FullName -like '*\.vs\*' -or
+		$_.FullName -like '*\.vscode\*' -or
+		$_.FullName -like '*\packages\*' -or
+		$_.FullName -like '*\.nuget\*') } |
 	group-object -property { ($_.extension) } |
-	% {
+	ForEach-Object {
 		[PSCustomObject]@{
-			Id = $_.Name
-			Size = ($_.Group.Length| Measure -sum).Sum
+			Ext = $_.Name
+			Size_b = ($_.Group.Length | Measure-Object -sum).Sum
 			Count = $_.Count
+			Folders = ($_.Group | % {$_.Directory.FullName} | get-unique | count )
+			Distinct_FileNames = ($_.Group | % Name | get-unique | count )
 			Files = ($_.Group | % Name)
 		}
-	} | sort -desc Size
+	} | Sort-Object -desc Count, size_b | format-table
+
+
+
 
 ## Group by multiple properties
 
