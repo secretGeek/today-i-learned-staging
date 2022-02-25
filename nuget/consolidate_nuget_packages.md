@@ -2,7 +2,7 @@
 
 Right click on the solution and choose
 
-    Manage NuGet Packages for Solution...
+> Manage NuGet Packages for Solution...
 
 This brings you to a page with tabs: `Browse`, `Installed`, `Updates` and `Consolidate`
 

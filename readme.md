@@ -42,10 +42,6 @@ Though this site is published as a free digital-only book, I've also published a
 
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
 <!-- markdownlint-disable-file MD041 -->
-
-
-## Topics
-
 |Topic|# Articles|
 |-----|----------|
 | [.net](.net/01_summary.md) | 8 articles |
@@ -76,7 +72,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles |
  | [Entity Framework](Entity_Framework/01_summary.md) | 5 articles |
  | [examples](examples/01_summary.md) | 3 articles |
- | [excel](excel/01_summary.md) | 7 articles |
+ | [excel](excel/01_summary.md) | 8 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 2 articles |
@@ -164,7 +160,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [vs code](vs_code/01_summary.md) | 9 articles |
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
- | [windows](windows/01_summary.md) | 17 articles |
+ | [windows](windows/01_summary.md) | 18 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
  | [windows scheduler](windows_scheduler/01_summary.md) | 2 articles |
  | [winget](winget/01_summary.md) | 1 article |
@@ -178,5 +174,4 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-732 articles
-197594 words
+734 articles

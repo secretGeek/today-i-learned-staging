@@ -19,15 +19,17 @@ How bout gigabytes, terrabytes or petabytes?
     (763392)/ 1PB
     6.78028300171718E-10
 
-|unit|size|
+|Unit|Size|
 |----|----|
-|1KB|1024|
-|1MB|1048576|
-|1GB|1073741824|
-|1TB|1099511627776|
-|1PB|1125899906842624|
+|`1KB`|1024|
+|`1MB`|1048576|
+|`1GB`|1073741824|
+|`1TB`|1099511627776|
+|`1PB`|1125899906842624|
 
 And you can round them, as follows:
 
     (763392/1MB).ToString("0.00")
     0.73
+
+`.ToString("0.00")` &larr; Click to copy that

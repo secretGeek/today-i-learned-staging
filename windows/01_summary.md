@@ -3,6 +3,7 @@
 
 ## content
 
+- [10 configuration changes to make on a new windows computer](new-computer-steps.md)
 - [Does not have a program associated with it](program_associated.md)
 - [Environment variables -- view/edit them on windows](environment_variables.md)
 - [feature on demand](feature_on_demand.md)
