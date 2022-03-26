@@ -42,6 +42,10 @@ Though this site is published as a free digital-only book, I've also published a
 
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
 <!-- markdownlint-disable-file MD041 -->
+
+
+## Topics
+
 |Topic|# Articles|
 |-----|----------|
 | [.net](.net/01_summary.md) | 8 articles |
@@ -99,7 +103,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [json](json/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 15 articles |
- | [linux](linux/01_summary.md) | 39 articles |
+ | [linux](linux/01_summary.md) | 40 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
@@ -157,7 +161,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [ux](ux/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
- | [vs code](vs_code/01_summary.md) | 9 articles |
+ | [vs code](vs_code/01_summary.md) | 10 articles |
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 18 articles |
@@ -174,4 +178,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-734 articles
+736 articles
+198473 words

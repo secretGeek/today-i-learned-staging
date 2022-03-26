@@ -2,7 +2,7 @@
 
 ## TL/DR:
 
-	$ sudo reboot
+	sudo reboot
 
 ## Story
 

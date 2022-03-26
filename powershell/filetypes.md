@@ -42,7 +42,7 @@ I explicitly exclude the `.git` and `node_modules` folders, because I am usually
 
 ## Summarize Projects in a Solution
 
-This variant finds all project files, and for their home folder, gives a summary of the files/types int that folder:
+This variant finds all project files, and for their home folder, gives a summary of the files/types in that folder:
 
 
 	Get-ChildItem . *.csproj -rec |
@@ -73,7 +73,7 @@ This variant finds all project files, and for their home folder, gives a summary
     format-table
 
 
-`tip` One thing that I keep learning over and over, is that you muse *sort* the input to `get-unique`.
+`tip` One thing that I keep learning over and over, is that you must *sort* the input that you send to `get-unique`. Otherwise it returns entirely the wrong results.
 
 
 ## See also

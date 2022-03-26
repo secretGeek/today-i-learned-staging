@@ -131,6 +131,6 @@ See (for example) [.NET 4.6.2 and long paths on Windows 10 | Microsoft Docs](htt
 	
 ## Source
 
-- [Git checkouts fail on Windows with "Filename too long error: unable to create file" errors](https://confluence.atlassian.com/bamkb/git-checkouts-fail-on-windows-with-filename-too-long-error-unable-to-create-file-errors-867363792.html
+- [Git checkouts fail on Windows with "Filename too long error: unable to create file" errors](https://confluence.atlassian.com/bamkb/git-checkouts-fail-on-windows-with-filename-too-long-error-unable-to-create-file-errors-867363792.html)
 - [Git clone error: Filename too long on Windows 10](https://devopsjournal.io/blog/2020/09/23/Git-clone-Filename-too-long-Windows)
 - [.NET 4.6.2 and long paths on Windows 10 | Microsoft Docs](https://docs.microsoft.com/en-gb/archive/blogs/jeremykuhne/net-4-6-2-and-long-paths-on-windows-10)

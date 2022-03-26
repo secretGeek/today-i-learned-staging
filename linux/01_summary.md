@@ -16,6 +16,7 @@
 - [Cron and crontab](cron.md)
 - [Delete files older than 90 days](delete_files_older_than_90_days.md)
 - [Developing .net core app and deploying to linux at digital ocean](digital_ocean.md)
+- [dkpg was interrupted, you must manually run 'sudo dpkg --configure -a'](dkpg_configure.md)
 - [Get (or list) processes](get_processes_list_processes.md)
 - [Getting started with awk](awk.md)
 - [How do I check a DNS record?](dig.md)
