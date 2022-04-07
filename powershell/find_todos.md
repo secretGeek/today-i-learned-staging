@@ -10,7 +10,7 @@
 
 Currently something like.... (this is dynamically loaded from util)
 
-	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx", "*.targets", "*.yml", "*.rdp", "*.less", "*.scss", "*.razor","*.dbml","*.layout", "*.gradle", "*.properties", "*.bas";
+	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx", "*.targets", "*.yml", "*.rdp", "*.less", "*.scss", "*.razor","*.dbml","*.layout", "*.gradle", "*.properties", "*.bas", "*.java", "*.m", "*.h", "*.iml";
 	
 	
 	
