@@ -68,6 +68,7 @@
 - [Load or Save CSV with Powershell](load_save_csv.md)
 - [Match Operator Examples](match_examples.md)
 - [Maximum of two values (or minimum)](max_of_two_values.md)
+- [Measure-Command is how to measure the time to run a command in powershell](measure_command.md)
 - [Module and Package Commands](module_commands.md)
 - [Multi line comments in powershell](multi-line_comments.md)
 - [Operation is blocked by software restriction policies](operation_is_blocked_by_software_restriction_policies.md)

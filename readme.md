@@ -126,8 +126,8 @@ Though this site is published as a free digital-only book, I've also published a
  | [office](office/01_summary.md) | 2 articles |
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
- | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 106 articles |
+ | [pdf](pdf/01_summary.md) | 4 articles |
+ | [powershell](powershell/01_summary.md) | 107 articles |
  | [ppmp](ppmp/01_summary.md) | 1 article |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [prometheus](prometheus/01_summary.md) | 1 article |
@@ -158,6 +158,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [tutorials](tutorials/01_summary.md) | 1 article |
  | [twitter](twitter/01_summary.md) | 1 article |
  | [typescript](typescript/01_summary.md) | 2 articles |
+ | [userscripts](userscripts/01_summary.md) | 1 article |
  | [usql](usql/01_summary.md) | 1 article |
  | [ux](ux/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
@@ -179,5 +180,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-738 articles
-199938 words
+741 articles
+200616 words

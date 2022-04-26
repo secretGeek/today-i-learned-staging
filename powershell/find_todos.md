@@ -12,9 +12,6 @@ Currently something like.... (this is dynamically loaded from util)
 
 	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx", "*.targets", "*.yml", "*.rdp", "*.less", "*.scss", "*.razor","*.dbml","*.layout", "*.gradle", "*.properties", "*.bas", "*.java", "*.m", "*.h", "*.iml";
 	
-	
-	
-	
 	## Commands:
 	## findtext $pattern                       <-- search all text type files for a particular regex
 	###                                             if the pattern is not valid as a regex we'll treat it as a literal string.
@@ -35,11 +32,11 @@ Currently something like.... (this is dynamically loaded from util)
 	function find-text {
 	<#
 	.SYNOPSIS
-	    Looks for regex or (if $raw -eq $true) literal text patterns in all text files (but ignores `node_modules` folders, yay)
+		Looks for regex or (if $raw -eq $true) literal text patterns in all text files (but ignores `node_modules` folders, yay)
 	.DESCRIPTION
 		Ever need to find some text, or perhaps a regex, in every text file under the current location, and want to skip any node_modules folders (and any .git folders) -- looking *only* in "text" files, such as all code and config files? Find-Text is your friend.
 	.NOTES
-	    Author: Leon Bambrick
+		Author: Leon Bambrick
 	#>
 		Param (
 			# A regular expression or a literal string you wish to find in any text file
@@ -128,7 +125,6 @@ Currently something like.... (this is dynamically loaded from util)
 	$script:previous = $null;
 	
 	
-	
 	function format-foundtext ($result, $raw, $caseSensitive) {
 	    $dimLength = FindLongestCommonStartingSubString ($result.RelativeName) ($script:previous.RelativeName);
 	    # specify what to break on... it returns how many parts in common.... or num chars.
@@ -207,8 +203,6 @@ Currently something like.... (this is dynamically loaded from util)
 	}
 	
 	function list-functions () {
-	
-	
 	    #find-text "^\s*function( )" | % { New-Object psobject -property  @{
 			find-text "^\s*function(.*)" $true ".\" $false $false| % { New-Object psobject -property  @{
 	            FileName     = $_.FileName;
