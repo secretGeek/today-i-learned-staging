@@ -1,4 +1,4 @@
-# Custom Style Tags on Azure Devops Sprint Board
+﻿# Custom Style Tags on Azure Devops Sprint Board
 
 On a kanban board you can use custom rules to color the `tags`.
 
@@ -52,7 +52,7 @@ For reference, here's the html they use for the container of the tags, and the t
 
 Actually, I see now that my rules would select *all* tags on a card, even though I only want to highlight the *relevant* tag.
 
-Unless they improve their html (for example by adding `data-tag-name="BLOCKED"` onto the `.tag-box` itself, there's no simple CSS selector that will do it (we can't select by content.) 
+Unless they improve their html (for example by adding `data-tag-name="BLOCKED"` onto the `.tag-box` itself, there's no simple CSS selector that will do it (we can't select by content.)
 
 If I can add custom javascript to the page, I can use the same technique described here: [CSS: Select by content (by selecting by attribute value, with help from javascript)](../css/select_by_attribute.md).
 

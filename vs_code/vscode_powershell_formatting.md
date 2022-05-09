@@ -7,7 +7,7 @@ But then other people are saying no the Powershell extension no longer has a for
 In your settings file, i.e. in:
 
 	%appdata%\Code\User\settings.json
-	
+
 ...or in powershell friendly syntax:
 
 	$env:appdata\Code\User\settings.json

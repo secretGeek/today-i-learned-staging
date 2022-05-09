@@ -20,7 +20,7 @@
 - Linting: 404 check all internal .md references!
 - make vs-code use tab (for markdown files, not for other files)
 - improve scroll bars, and write them up while you're there
-- improve mobile layout 
+- improve mobile layout
 	- lighthouse etc (elements too close together [in search bar])
 - keywords are highlighted (what keywords? how are keywords added? i don't have keywords)
 - keywords are inter-related.
@@ -33,7 +33,7 @@
 - Squarified treemap of topics and items
 - a page for showing details of embedded macros known to clowncar.
 	- an improved meta language allowing these other meta features.
-		- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.) 
+		- trivially pluggable meta language with other sub-languages (through the provision of named (and findable) language provider classes.)
 		- i.e. zonk. This is pure zonk.
 
 ## Done

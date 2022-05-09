@@ -1,4 +1,4 @@
-# dkpg was interrupted, you must manually run 'sudo dpkg --configure -a'
+﻿# dkpg was interrupted, you must manually run 'sudo dpkg --configure -a'
 
 I was supposed to upgrade the "do agent" (digital ocean)
 
@@ -28,7 +28,7 @@ Okay -- before proceeding I need to see what is on this machine, and make sure I
 
 Then I will restart the computer and do any other obvious fix ups that I can.
 
-Looking then to see if this article can help: [FIXING THE DREADED “ERRORS WERE ENCOUNTERED WHILE PROCESSING” ERRORS](https://journalxtra.com/linux/fixing-the-dreaded-errors-were-encountered-while-processing-errors/)
+Looking then to see if this article can help: [FIXING THE DREADED "ERRORS WERE ENCOUNTERED WHILE PROCESSING" ERRORS](https://journalxtra.com/linux/fixing-the-dreaded-errors-were-encountered-while-processing-errors/)
 
 
 Check the package cache:

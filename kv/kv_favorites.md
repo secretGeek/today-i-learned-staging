@@ -5,7 +5,7 @@ I use `kv` - key value store tool - to hold some favorite little scraps of commo
 
 ## Summary of current folder
 
-Summary of content of current folder. 
+Summary of content of current folder.
 
 Shows the file types, number and size of files, and more.
 
@@ -115,6 +115,6 @@ Shows the file types, number and size of files, and more.
 	  </script>
 	</html>
 	"@
-	
+
 	kv js $value
 

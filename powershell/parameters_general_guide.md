@@ -1,18 +1,22 @@
 ﻿# Parameters: general guide
 
-In powershell, parameters -- arguments -- can be written in a lot of ways.
+In powershell, parameters -- you know, arguments -- can be written in a lot of ways.
 
 Even a script that declares *no* parameters can access the parameters that are handed to it.
 
-As can a function, a named cmdLet, etc.
+As can a `function`, a named cmdLet, etc.
 
-YOu can declare parameter names without specifying a type, e.g.
+You can declare parameter names without specifying a type, e.g.
 
 	function New-Satelitte ($sateliteName, $weightInGrams) {
 		write-host "The $sateliteName will weigh $weightInGrams" -f Yellow;
 	}
 
-...and a trap for young players, having just written such a function, if you write code that call its, you must note that you pass arguments without putting parenthesese around the whole thing. That is you call it so:
+...and a trap for young players, having just written such a `function`...
+
+You call it WITHOUT parentheses.
+
+You call it like this:
 
 	New-Satelitte "The Nazgul Banana" 500
 
@@ -33,10 +37,64 @@ Hence `$SatelliteName` would be an array of objects.
 Apart from remembering the "no brackets" syntax -- you also need to learn how to give types to your parameters, and so much more.
 
 
-todo: param()
-todo: [Parameter()]
-todo: Mandatory
+## `param()`
+
+	Function Invoke-Clippy{
+	param(
+			$text="Hi! I am Clippy, your office assitant. Would you like some assistance today?"
+	)
+
+		write-host $text -foregroundColor yellow;
+	}
+
+
+## `[string]`
+
+    param (
+        [string]$text
+    )
+
+## `[Parameter()]`
+
+
+    param (
+        [Parameter(Mandatory)]
+        $ApiKey
+    )
+
+## `[ValidateNotNullOrEmpty()]`
+
+
+    param (
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string]$ApiKey
+    )
+
+
 todo: ValueFromPipeline
+
+
+## `[ValueFromPipelineByPropertyName()]`
+
+
+
+function kvi {
+ # AAA reads stream. you give it an object. it will iterate it and return an object which is the keys.
+ [CmdletBinding()]
+ Param(
+		[Parameter(ValueFromPipelineByPropertyName)]$Keys,
+		[Parameter(ValueFromPipelineByPropertyName)]$Value
+ )
+
+
+    param (
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string]$ApiKey
+    )
+
+
 todo: ValueFromPipelineByPropertyName
 todo: ParameterSetName
 todo: PSAvoidUsingPositionalParameters

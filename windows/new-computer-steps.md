@@ -14,7 +14,7 @@
 	- "Widgets"
 	- Chat
 	- Show Contacts
-	
+
 (Some people worked very hard to make these. I mean them no disrespect. What did not happen: customers asked very often for these. Or not this customer at any rate.)
 
 ### Taskbar: Combine taskbar buttons - Never

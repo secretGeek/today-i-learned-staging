@@ -42,7 +42,7 @@ Also, you might want to add some very basic print media CSS.
 
 
 	@media print {
-		@page { 
+		@page {
 			margin: 10mm 5mm 10mm 5mm;
 			size:8.25in 11.34in;
 		}

@@ -2,7 +2,7 @@
 
 Windows was previously limited to having filepaths no longer than 260 chars. Since Windows 10 it *can* handle longer paths, but you need to opt in.
 
-If you clone a repo with names longer than that [1](#footnote-1), you will receive errors about "filename too long" 
+If you clone a repo with names longer than that [1](#footnote-1), you will receive errors about "filename too long"
 
 You can configure git to handle those long names like so:
 
@@ -34,7 +34,7 @@ Source #2 also recommends:
 2. Navigate to:
 
       Computer Configuration | Administrative Templates | System | Filesystem | Enable Win32 long paths
-	  
+
 3. Set state to "Enabled"
 
 
@@ -48,7 +48,7 @@ I can see the config for powershell here:
 
 	cat C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe.config
 
-And today it says:	
+And today it says:
 
 ```xml
 <configuration>
@@ -83,19 +83,19 @@ And it produced a file, `powershell.manifest` that looked like this:
       </requestedPrivileges>
     </security>
   </trustInfo>
-  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
-    <application> 
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
       <!--This Id value indicates the application supports Windows Vista/Server 2008 functionality -->
-      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS> 
+      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>
       <!--This Id value indicates the application supports Windows 7/Server 2008 R2 functionality-->
       <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></supportedOS>
       <!--This Id value indicates the application supports Windows 8/Server 2012 functionality-->
       <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>
-      <!-- This Id value indicates the application supports Windows Blue/Server 2012 R2 functionality-->            
+      <!-- This Id value indicates the application supports Windows Blue/Server 2012 R2 functionality-->
       <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"></supportedOS>
-      <!-- This Id value indicates the application supports Windows Threshold functionality-->            
+      <!-- This Id value indicates the application supports Windows Threshold functionality-->
       <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></supportedOS>
-    </application> 
+    </application>
   </compatibility>
   <application xmlns="urn:schemas-microsoft-com:asm.v3">
     <windowsSettings>
@@ -107,7 +107,7 @@ And it produced a file, `powershell.manifest` that looked like this:
 
 ....note the line: `<longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware>`
 
-## Bonus content re .Net Apps...
+## Bonus content re .Net Apps
 
 Some applications, such as .net applications can support long filenames -- but they must have "long path aware" specifiec in their manifest.
 
@@ -128,7 +128,7 @@ See (for example) [.NET 4.6.2 and long paths on Windows 10 | Microsoft Docs](htt
 > names longer than that
 
 ...means longer than 260 characters, *including* the length of the root location into which you are cloning the repo, plus the length of the name of the folder the repo is in.
-	
+
 ## Source
 
 - [Git checkouts fail on Windows with "Filename too long error: unable to create file" errors](https://confluence.atlassian.com/bamkb/git-checkouts-fail-on-windows-with-filename-too-long-error-unable-to-create-file-errors-867363792.html)
