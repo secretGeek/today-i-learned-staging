@@ -4,7 +4,7 @@ I did! I had some adhoc `.bak` files taking up many gigglebytes. I remoted onto 
 
 For one horrible moment I thought I might need to contact the IT department.
 
-Foruntately I found out about `xp_delete_file` just in time.
+Fortunately I found out about `xp_delete_file` just in time.
 
 This procedure only deletes certain types of files. You tell it which folder to look in, which file extension to look for, and the maximum date of the file (so it won't accidentally delete new files or non back up files.)
 
