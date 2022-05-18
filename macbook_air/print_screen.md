@@ -7,3 +7,7 @@ Hence: alt + printscreen == [fn] + [alt] + [shift] + [F11]
 ## Source
 
 - <http://www.mactrast.com/2011/12/how-to-boot-camp-taking-screenshots-in-window-7-with-a-apple-keyboard/>
+
+## See also
+
+- [Cheatsheet: MacOS Keyboard Shortcuts](macos_cheatsheet_keyboard_shortcuts.md)

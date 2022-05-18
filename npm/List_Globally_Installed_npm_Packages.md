@@ -8,4 +8,4 @@ Omit the `depth 0` bit and you'll also see the full ugly rat's nest of dependenc
 
 ## See also
 
-- [Chocolatey List Packages installed on the machine](../chocolatey/list_localonly.md) &mdash; `choco list -lo` (ironic that `localonly` in chocolatey is the same as `global` in NPM. These are opposite meanings for the same thing! #irony.
+- [Chocolatey List Packages installed on the machine](../chocolatey/list_localonly.md) &mdash; `choco list -lo` (ironic that `localonly` in chocolatey is the same as `global` in NPM.)

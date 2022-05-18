@@ -3,6 +3,7 @@
 
 ## content
 
+- [## NPM can't find local packages](rebuild.md)
 - [AMD](amd.md)
 - [Find outdated npm packages with 'npm outdated'](find_outdated_packages.md)
 - [How do I list all globally installed NPM Packages?](List_Globally_Installed_npm_Packages.md)
