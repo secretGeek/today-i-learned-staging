@@ -16,3 +16,4 @@
 - [How to get the most out of chrome profiles](chrome_profiles.md)
 - [Post to google sheets from javascript](post_to_google_sheets.md)
 - [Reopen closed tabs in google chrome](chrome_reopen_closed_tabs.md)
+- [Use Headless Chrome to Convert Html to Pdf](chrome_headless_to_convert_html_to_pdf.md)

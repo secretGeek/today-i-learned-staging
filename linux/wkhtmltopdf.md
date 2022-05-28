@@ -44,4 +44,18 @@ Then the command worked:
 	Printing pages (2/2)
 	Done
 
-(meanwhile i have a similar blocking issue with wkhtmltopdf on windows... it hangs the process... but do not yet have a solution.)
+## wkhtmltopdf on windows
+
+With wkhtmltopdf on windows, I had a blocking issue, where the process would hang.
+
+I haven't been back to see if this solves it -- but from a different project, I think that this is the solution:
+
+	process.Start();
+	// process can fill standard output and hang, without this:
+	string output = process.StandardOutput.ReadToEnd();
+	// Wait up to 5 minutes
+	process.WaitForExit(5 * 60 * 1000);
+
+## See also
+
+- [Use Headless Chrome to Convert Html to Pdf](../google/chrome_headless_to_convert_html_to_pdf.md)

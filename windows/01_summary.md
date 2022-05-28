@@ -21,3 +21,4 @@
 - [Use mstsc.exe to connect, receive Black screen](mstsc_black_screen.md)
 - [Using notepad as a log/journal](notepad_log_file.md)
 - [When does your windows account's password expire?](when_does_password_expire.md)
+- [Windows Path Environment variable -- view/edit in Windows](windows_path.md)

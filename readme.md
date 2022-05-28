@@ -86,7 +86,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [go](go/01_summary.md) | 1 article |
- | [google](google/01_summary.md) | 13 articles |
+ | [google](google/01_summary.md) | 14 articles |
  | [graphics](graphics/01_summary.md) | 9 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [habits](habits/01_summary.md) | 1 article |
@@ -166,7 +166,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [vs code](vs_code/01_summary.md) | 10 articles |
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
- | [windows](windows/01_summary.md) | 18 articles |
+ | [windows](windows/01_summary.md) | 19 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
  | [windows scheduler](windows_scheduler/01_summary.md) | 2 articles |
  | [winget](winget/01_summary.md) | 1 article |
@@ -180,5 +180,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-744 articles
-201338 words
+746 articles
+201809 words
