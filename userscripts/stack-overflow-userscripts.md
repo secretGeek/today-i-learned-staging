@@ -60,8 +60,9 @@ Remove distractions. "#hot-network-questions"
 		}
 
 		function onLoop() {
-			   cleanUpStackoverflow();
+			cleanUpStackoverflow();
 		}
+
 		function onceOnly() {
 
 			addStyle(style);
@@ -70,7 +71,6 @@ Remove distractions. "#hot-network-questions"
 			if (hireMe != null) {
 				hireMe.remove();
 			}
-
 
 			onLoop();
 			setInterval(function () {
