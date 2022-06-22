@@ -97,7 +97,7 @@ Here's the full poor man's dark mode stylesheet...
 
 I've added this to the default built-in template used by [clowncar](https://github.com/secretGeek/clowncar) (my static site generator)
 
-## Poor man's dark mode stylesheet, take 2:
+## Poor man's dark mode stylesheet, take 2
 
 Here's a different take on the same goal. This time instead of straight up "inverting" the whole thing (like a negative) - I want to only invert the "lightness".
 
@@ -123,7 +123,7 @@ Try it for yourself.
 
 ## Implementing a Custom Dark Mode for Real (not relying on the tricks above)
 
-When you want/need to implement a *real* dark mode, not just a poor man's example as shown above, it can be a lot of work.
+When you want/need to implement a *true* dark theme, not just a poor man's example as shown above, it can be a lot of work.
 
 I've hit on a way to get a pretty good result quickly, and I'll record it here. (I've also [tweeted about it](https://twitter.com/secretGeek/status/1534731046709002240?s=20&t=GWR_4LT20Hj4UmvVeNkdjg))
 
@@ -141,7 +141,7 @@ I changed it to:
 
 And at the top, in a `:root` block I would have:
 
-	--a-hover:red;
+	--a-hover: red;
 
 Now that bit of the process was *tedious*. I got into a rhythm where I optimized the key strokes... but I would like to have a little tool to help with it. An "Extract variable" macro.
 
@@ -157,7 +157,7 @@ Then I created a `@media` section to redefine *all* the variables as plain old b
 
 At this point, the whole site *should* be black, as black as [Hotblack Desiato's limoship](https://hitchhikers.fandom.com/wiki/Spacecraft#Hotblack_Desiato's_limoship).
 
-So anywhere you can still see... anything!... it means you haven't yet extracted a color into a variable. At this point, you can use dev tools to track down the source of any other elements that need to be extracted into variables. You may have to hover over or focus on elements for colors to show up. Keep repeating the process until *everything* is black.
+So anywhere you can still see... anything!... it means you haven't yet extracted a color into a variable. At this point, you can use dev tools to track down the source of any other elements that need to be extracted into variables. You may have to `:hover` over or `:focus` on elements for colors to show up. Keep repeating the process until *everything* is black.
 
 That was tedious... but we're not done with the tedious bits yet...
 
@@ -175,11 +175,15 @@ Now change all the dark mode variables to *red*! e.g.
 
 Once you're finished with that you can now trust that you've captured pretty much all the colors into variables.
 
-Comment out you `@media` section for now, to return your site to its usual appearance. And turn on the [dark reader extension](https://darkreader.org) (you may need to install it if you don't have it already).
+Comment out your `@media` section for now, to return your site to its usual appearance.
 
-This will implement a passable example of dark mode for your site.
+You may take this moment to perform some "rationalization" of the different colors you've extracted. If multiple different variables have the same value -- but they should just be one variable? Perhaps some variables are the same color, but expressed in different ways (`hex` versus `rgb()`, versus `hsl()` etc.) Rationalizing/consolidating is optional, but it's a good moment to see any obvious improvements you can make.
 
-Using your browser's dev tools, looked the css that dark reader generated to set new values for all your variables.
+Now install the [dark reader extension](https://darkreader.org) and turn it on.
+
+This will show you a passable example of dark mode for your site.
+
+Using your browser's dev tools, look at the css that `darkreader` generated for all your variables.
 
 If you had variables like this:
 
@@ -199,19 +203,19 @@ The dark reader extension would generate a block like this:
 
 Copy that out, and paste it into your stylesheet's `@media (prefers-color-scheme: dark)` section.
 
-Removed the `--darkreader` prefix and everything up to the second `--`, such as `-bg` or `-text`... and what you are left with is a custom dark version of all your variables, e.g.
+Remove the `--darkreader` prefix and everything up to the second `--`, such as `-bg` or `-text`... and what you are left with is a custom dark version of all your variables, e.g.
 
 	@media (prefers-color-scheme: dark) {
 	:root {
 	        --body-bg: #1f2223;
 	        --body: #c8c3bc;
-	    /* many more darkened color variables here... */
+	        /* many more darkened color variables here... */
 	    }
 	}
 
 Boom! Done!💥
 
-If there are any individual colors you aren't happy with, it's easy to tweak them. Overall this is much faster and gives a more satisfying result than the manual dark theme designs I've attempted in the past.
+If there are any individual colors you aren't happy with, it's easy to tweak them. Overall this is much faster and gives a more satisfying result than the manual dark theme re-designs I've attempted in the past.
 
 ## Source
 
