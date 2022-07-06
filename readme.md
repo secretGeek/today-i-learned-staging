@@ -73,6 +73,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [design](design/01_summary.md) | 2 articles |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article |
  | [domains](domains/01_summary.md) | 1 article |
+ | [edge](edge/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 3 articles |
  | [Entity Framework](Entity_Framework/01_summary.md) | 5 articles |
@@ -120,7 +121,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [neo4j](neo4j/01_summary.md) | 1 article |
  | [new computer](new_computer/01_summary.md) | 1 article |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
- | [node](node/01_summary.md) | 3 articles |
+ | [node](node/01_summary.md) | 4 articles |
  | [notepad++](notepad++/01_summary.md) | 14 articles |
  | [npm](npm/01_summary.md) | 15 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
@@ -181,5 +182,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-748 articles
-202915 words
+750 articles
+203185 words

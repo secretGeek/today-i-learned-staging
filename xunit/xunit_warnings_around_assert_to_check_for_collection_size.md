@@ -16,6 +16,9 @@ use:
 
 	Assert.Single(actual); // No warning 
 
+-----
+
+
 Instead of 
 
 	Assert.Equal(0, actual.Count()); // Warning: Do not use Assert.Equal() to check for collection size
@@ -24,6 +27,9 @@ use:
 
 	Assert.Empty(actual); // No warning
 
+-----
+
+
 Instead of 
 
 	Assert.NotEqual(0, actual.Count());  // Warning: Do not use Assert.NotEqual() to check for collection size
@@ -31,6 +37,8 @@ Instead of
 use:
 
 	Assert.Any(actual); // No warning
+
+-----
 
 
 ## When is Assert.Equal acceptable for checking collection size? 
