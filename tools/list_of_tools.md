@@ -7,7 +7,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files
 
-- .exe (143 files)
+- .exe (144 files)
 - .dll (27 files)
 - .txt (26 files)
 - .bat (13 files)
@@ -120,6 +120,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 - netset.exe
 - NextAction.exe
 - NextActionBERZERKER.exe
+- NextPanic.exe
 - NimbleGeo.exe
 - NimbleSet.exe
 - NimbleText.exe

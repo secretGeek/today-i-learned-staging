@@ -23,3 +23,7 @@ Can extensions be added directly into the loaded namespace? What functions are m
 Would it be better to start again with a different built in languuage.
 
 A commandline parameter or a different exe or a different file extension.
+
+## See also
+
+- [Avoid `#VALUE!` with IFERROR](if_error.md)

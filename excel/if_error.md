@@ -22,4 +22,8 @@ And for completeness, here's a sneaky formula to get everything after the first 
 
 ## Sources
 
-* [Excel Formula: Split text with delimiter](https://exceljet.net/formula/split-text-with-delimiter) &mdash; some nice examples here
+- [Excel Formula: Split text with delimiter](https://exceljet.net/formula/split-text-with-delimiter) &mdash; some nice examples here
+
+## See also
+
+- [In Excel, how do you check IndexOf (or Contains) of a string?](excel_indexof.md)

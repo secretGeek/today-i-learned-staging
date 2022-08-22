@@ -60,6 +60,12 @@ e.g.
 
 	get-adgroupmember "A-SPECIAL-GROUP" | % SamAccountName
 
+
+
+Don't have RSAT? Try this technique:
+
+	(New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=Group)(samAccountName=$('A-SPECIAL-GROUP')))")).FindOne().Properties.member
+
 ## When was the user's password last set?
 
 	$userName = "my-user-name"
@@ -74,6 +80,24 @@ What if we want to find all properties that mention "pass" -- we can do it like 
 	(Get-ADUser "leon.bambrick" -Properties "*") | get-member | ? { $_.MemberType -eq "Property" -and $_.Name -like "*pass*" }
 
 Then we use the syntax in the examples above to fetch and return that property.
+
+
+Or without RSAT, show all of the properties for a user....
+
+   (New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$('leon.bambrick')))")).FindOne().Properties
+
+Or just show the property names (still without RSAT)
+
+   (New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$('leon.bambrick')))")).FindOne().Properties.Keys
+
+Or (still without RSAT) search for a property that matches a pattern:
+
+
+   (New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$($ENV:UserName)))")).FindOne().Properties | 
+      % { $xx = $_; $_.Keys  | ? { $_ -like "*pass*"} | % { write-host "$_" -f yellow -n; write-host "`t`t$($xx[$_])" -f white } }
+
+
+
 
 ## Find user details of a user from a different Domain Controller
 

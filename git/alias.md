@@ -22,7 +22,7 @@ Aliases from my `~\.gitconfig` file:
 		l5 = log --graph --pretty=format:'%C(magenta)%h%Creset %C(blue)%ad%Creset %C(bold cyan)%an%Creset %s%C(yellow)%d%Creset' --date=short --full-history --all
 		l6 = log --graph --decorate --pretty=oneline --abbrev-commit
 		lg = !git l4
-		cheat = !cat 'C:/users/leonb/Dropbox/secretGeek/gh/util/powershell/scriptlets/git_cheat.txt'
+		cheat = !cat 'C:/Users/leonb/Dropbox/secretGeek/gh/util/powershell/scriptlets/git_cheat.txt'
 		co = checkout
 		ec = config --global -e
 		up = !git pull --rebase --prune $@ && git submodule update --init --recursive
