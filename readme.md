@@ -72,6 +72,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [cypress](cypress/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 2 articles |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article |
+ | [docker](docker/01_summary.md) | 1 article |
  | [domains](domains/01_summary.md) | 1 article |
  | [edge](edge/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
@@ -142,6 +143,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [r language](r_language/01_summary.md) | 1 article |
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 3 articles |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
+ | [serilog](serilog/01_summary.md) | 1 article |
  | [sharepoint](sharepoint/01_summary.md) | 2 articles |
  | [sleep](sleep/01_summary.md) | 4 articles |
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
@@ -182,5 +184,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-750 articles
-203282 words
+752 articles
+204188 words
