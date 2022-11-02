@@ -19,14 +19,14 @@ The "simplest" way is half as complex as those but still pretty nerdy.
 
 Here's an example data - and what we want to achieve:
 
-| + | 1 | 2 | 3 |
-|---|----|----|---|
-| A | **Person** | **Feeling** | **Score** |
-| B | Maria | Sometimes |  |
-| C | Jack| Never |  |
-| D | Joan| Occasionally |  |
-| E | Terry | Sometimes |  |
-| F | Dave | Occasionally |  |
+| + | A | B | C |
+|---|---|---|---|
+| 1 | **Person** | **Feeling** | **Score** |
+| 2 | Maria | Sometimes    | 3 |
+| 3 | Jack  | Never        | 1 |
+| 4 | Joan  | Occasionally | 2 |
+| 5 | Terry | Sometimes    | 3 |
+| 6 | Dave  | Occasionally | 2 |
 
 I wrote a "function" ---- a piece of text that starts with the equals sign '='
 
@@ -55,3 +55,7 @@ I took a screenshot of that error when it happened to me earlier. I think i'd le
 90% of the books in computer science are about trying to re-think our lives such that we don't end up with complex nested if expressions.
 
 Now you can use that function in all sorts of places, and if you take your time you can write them for any of these survey questions.
+
+# see also
+
+- [VLOOKUP](VLOOKUP.md)

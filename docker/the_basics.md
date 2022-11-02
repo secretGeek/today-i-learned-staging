@@ -75,11 +75,11 @@ Finally, `mcr.microsoft.com/mssql/server:2019-latest` is the name of the image o
 
 When a container is running, you can copy files to or from it, using `docker cp {FROM_PATH} {TO_PATH}`.
 
-e.g.To copy a file *from* a container called "my_container", to your local file system's current path:
+e.g. To copy a file *from* a container called "my_container", to your local file system's current path:
 
 	docker cp my_container:/var/www/html/.htaccess ./
 
-And conversely, to copy a file from your local file system to a path on a running container:
+And conversely, to copy a file from your local file system to a path on a running container called "my_container":
 
 	docker cp ./.htaccess my_container:/var/www/html/.htaccess
 
