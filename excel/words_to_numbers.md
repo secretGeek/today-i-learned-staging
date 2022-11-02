@@ -22,19 +22,31 @@ Here's an example data - and what we want to achieve:
 | + | A | B | C |
 |---|---|---|---|
 | 1 | **Person** | **Feeling** | **Score** |
+| 2 | Maria | Sometimes    |  |
+| 3 | Jack  | Never        |  |
+| 4 | Joan  | Occasionally |  |
+| 5 | Terry | Sometimes    |  |
+| 6 | Dave  | Occasionally |  |
+
+We have the answers that the person selected, but we don't yet have the Score. When we're doing it will look like this:
+
+| + | A | B | C |
+|---|---|---|---|
+| 1 | **Person** | **Feeling** | **Score** |
 | 2 | Maria | Sometimes    | 3 |
 | 3 | Jack  | Never        | 1 |
 | 4 | Joan  | Occasionally | 2 |
 | 5 | Terry | Sometimes    | 3 |
 | 6 | Dave  | Occasionally | 2 |
 
-I wrote a "function" ---- a piece of text that starts with the equals sign '='
+
+To perform the scoring, I wrote a "function" -- a piece of text that starts with the equals sign '='
 
 The function i wrote was this, i.e. here's what it says in `C2`:
 
 	=IF(B2="Never",1,IF(B2="Occasionally",2,IF(B2="Sometimes",3,IF(B2="Often",4,IF(B2="Always",5)))))
 
-It's a "nested if" function.
+It's a "nested if" function. Nested because there are brackets "nested" inside brackets.
 
 A "nested if" function is a function that is so ugly only it's mother could love it.
 
@@ -42,7 +54,7 @@ But because it's been around forever and because Excel will outlast everything e
 
 We wrote that function in `C2`
 
-When you copy and paste it from row 2 into row 3, excel magically rewrote all of the 2's into 3's ... and the function upfated for me.
+When you copy and paste it from row 2 into row 3, excel magically rewrote all of the 2's into 3's ... and the function updated for me.
 
 (And sometimes you don't want it to do that -- there's a different trick to stop it from doing that.)
 
@@ -56,6 +68,6 @@ I took a screenshot of that error when it happened to me earlier. I think i'd le
 
 Now you can use that function in all sorts of places, and if you take your time you can write them for any of these survey questions.
 
-# see also
+# See also
 
 - [VLOOKUP](VLOOKUP.md)
