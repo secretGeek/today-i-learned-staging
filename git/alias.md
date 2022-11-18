@@ -49,6 +49,8 @@ Aliases from my `~\.gitconfig` file:
 	[mergetool "sourcetree"]
 		cmd = "'' "
 		trustExitCode = true
+	[safe]
+		directory = C:/Users/leonb/Dropbox/secretGeek/all_someday_projects/git_playground/activicta
 
 
 ## See also
