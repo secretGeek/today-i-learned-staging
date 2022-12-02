@@ -21,18 +21,14 @@ Instead of these keys: `Ctrl` `Fn` `Windows` `Alt`, there is `Fn` `control` `opt
 | `control` `tab` | Switch tab | `Ctrl` `tab` |
 | `shift` `⌘` `.` | Show hidden files |  |
 | `⌘` `T` | New Tab in Safari | `Ctrl` `T` |
-| `⌘` `space` | Activate 'spotlight' | | 
+| `⌘` `space` | Activate 'spotlight' | |
 | `Fn` `F11` | Go to desktop | `Win` `D` |
 | `⌘` `Z` | Undo | `Ctrl` `Z` |
 
 
-
-
-
+Here it is as a `PDF`: [macos cheatsheet keyboard shortcuts `pdf`](macos_cheatsheet_keyboard_shortcuts.pdf)
 
 ## See also
 
 - [How to press the Print Screen key on a MacBook Air (running Windows)](print_screen.md)
-
-
 

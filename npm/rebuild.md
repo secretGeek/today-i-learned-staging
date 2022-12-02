@@ -1,6 +1,6 @@
 ## NPM can't find local packages
 
-Ever had a situation where npm can't run local packages? 
+Ever had a situation where npm can't run local packages?
 
 For example `npm run tests` is failing because the first thing it does it `jest` and node can't find `jest`?
 

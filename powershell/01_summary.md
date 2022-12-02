@@ -12,6 +12,7 @@
 - [Base64 Encode and Decode string](base64_encode_decode.md)
 - [Calculate sha256 filehash of a file](get_filehash.md)
 - [Command Precedence in Powershell](powershell_precedence_of_commands_aliases.md)
+- [Convert Text Output into Pipeline Output](Convert_Host_text_to_pipeline_text.md)
 - [Count distinct rows (in powershell)](count_distinct_rows.md)
 - [Count Files by Type](filetypes.md)
 - [Count lines of code with powershell](count_lines_of_code.md)

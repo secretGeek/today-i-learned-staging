@@ -93,7 +93,7 @@ Or just show the property names (still without RSAT)
 Or (still without RSAT) search for a property that matches a pattern:
 
 
-   (New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$($ENV:UserName)))")).FindOne().Properties | 
+   (New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$($ENV:UserName)))")).FindOne().Properties |
       % { $xx = $_; $_.Keys  | ? { $_ -like "*pass*"} | % { write-host "$_" -f yellow -n; write-host "`t`t$($xx[$_])" -f white } }
 
 
