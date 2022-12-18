@@ -57,6 +57,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [angular](angular/01_summary.md) | 1 article |
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 15 articles |
+ | [azure](azure/01_summary.md) | 1 article |
  | [azure devops](azure_devops/01_summary.md) | 3 articles |
  | [banking](banking/01_summary.md) | 1 article |
  | [bookmarklets](bookmarklets/01_summary.md) | 1 article |
@@ -184,5 +185,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-753 articles
-204909 words
+754 articles
+204955 words

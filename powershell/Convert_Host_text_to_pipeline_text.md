@@ -6,11 +6,11 @@ With command line tools from "other platforms", such as tools that originated on
 
 To get the output, of all kinds, and put it into the standard stream, use a stream modifier set like this:
 
-   6>&1 5>&1 4>&1 3>&1 2>&1
+	6>&1 5>&1 4>&1 3>&1 2>&1
 
 For example, to capture *everything* from this `npx` command and pipe it to the `out-file` cmdlet, I used this command:
 
-   npx jest "myjestfile.test.tsx" --runInBand 2>&1 | out-file "c:\apps\jest\myjestfile.test.tsx.txt" -encoding utf8
+	npx jest "myjestfile.test.tsx" --runInBand 2>&1 | out-file "c:\apps\jest\myjestfile.test.tsx.txt" -encoding utf8
 
 What do the numbers 1 and 2 refer to here?
 
@@ -37,7 +37,7 @@ Next problem -- powershell expects standard error to consist of exception object
 
 ...to get around that, convert the pipe into strings along the way... with `% { "$_" } | `
 
-   npx jest "myjestfile.test.tsx" --runInBand 2>&1 | %{ "$_" } | out-file "c:\apps\jest\myjestfile.test.tsx.txt" -encoding utf8
+	npx jest "myjestfile.test.tsx" --runInBand 2>&1 | %{ "$_" } | out-file "c:\apps\jest\myjestfile.test.tsx.txt" -encoding utf8
 
 ## Source
 
