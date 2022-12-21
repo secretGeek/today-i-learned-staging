@@ -20,4 +20,14 @@ Or simply:
 
 	Start-Process ConEmu64.exe -Verb runAs
 
+
+To specify a different user:
+
+	Start-Process SSMS.exe -Verb runAs -Credential "My_Domai\testuser"
+
+Using the `runas` command:
+
+	runas /user:"antony jr" notepad.exe
+
+
 ![run... run as administrator](Run_Runas_Administrator.jpg)

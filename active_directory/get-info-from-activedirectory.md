@@ -30,7 +30,7 @@ In powershell:
 
 You can use all of their tools without manually downloading them by using:
 
-	`net use * \\live.sysinternals.com\tools\`
+	net use * \\live.sysinternals.com\tools\
 
 ...to create a local drive (e.g. `z:` from which you can access all their tools.
 
