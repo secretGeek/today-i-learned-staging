@@ -28,6 +28,7 @@
 - [Merge pull request via command line](merge_pull_request.md)
 - [Remove a file from git but keep the local file](remove_from_git_but_keep_locally.md)
 - [See the .git folder (in a terminal)](see_git_folder.md)
+- [The Github Cli](github_cli.md)
 - [Undo local changes to a file in git](undo_local_changes_to_a_file_in_git.md)
 - [What version of git am I running?](version.md)
 - [When creating a new git repo on bitbucket](git_bitbucket.md)

@@ -42,7 +42,7 @@ Currently something like.... (this is dynamically loaded from util)
 	        # A regular expression or a literal string you wish to find in any text file
 	        [ValidateNotNullOrEmpty()]
 	        [String]
-	        $Pattern, 
+	        $Pattern,
 	        [Bool]
 	        # search all subfolders as well (defaults to $true)
 	        $Recursive = $true,
@@ -65,7 +65,7 @@ Currently something like.... (this is dynamically loaded from util)
 	        }
 	}
 	
-	# 
+	#
 	# NOTE: the alias FINDTEXT points here!
 	#
 	function format-findtext($pattern, $recursive, $raw, $CaseSensitive) {
@@ -225,12 +225,9 @@ Currently something like.... (this is dynamically loaded from util)
 	Set-Alias f.no-rec findtext_norecurse
 	Set-Alias ftx findtext_norecurse
 	
-	
 	<#
 	
-	find-text "Select" | % { [System.IO.DirectoryInfo]$_.Path } | % Extension | group 
+	find-text "Select" | % { [System.IO.DirectoryInfo]$_.Path } | % Extension | group
 	find-text "Select" | % { $last = ($_.Path -split "\." | select -last 1); $last; } | group;
-	
-	
 	
 	#>

@@ -68,6 +68,6 @@ I took a screenshot of that error when it happened to me earlier. I think i'd le
 
 Now you can use that function in all sorts of places, and if you take your time you can write them for any of these survey questions.
 
-# See also
+## See also
 
 - [VLOOKUP](VLOOKUP.md)

@@ -1,4 +1,4 @@
-# Android Studio - Dark Mode
+﻿# Android Studio - Dark Mode
 
 The "standard" dark mode that Android Studio uses has very low contrast. It's called "Darcula" but it's not the same as other software I've seen with a "Darcula" theme.
 

@@ -24,6 +24,7 @@
 - [Determine the width of the console](Width_of_the_Console.md)
 - [Difference between two dates (using powershell)](diff_between_two_dates.md)
 - [Download a webpage to a file, from Powershell](download_webpage_to_file.md)
+- [ErrorAction SilentlyContinue](silently_continue.md)
 - [Find all fonts on your machine](find_all_fonts.md)
 - [Find all the TODO's in a file or folder](find_todos.md)
 - [Find File Types in a Folder](Find_File_Types.md)

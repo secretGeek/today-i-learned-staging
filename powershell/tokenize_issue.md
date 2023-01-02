@@ -78,8 +78,8 @@ and Doug --
 
 ## Using the newer V3 API
 
-	[System.Management.Automation.Language.Parser]::ParseInput('echo "$hello"', [ref] $tokens, [ref] $errors) | out-null;
-	$tokens | format-table
+	$tokens = @(); $errors = @();
+	[System.Management.Automation.Language.Parser]::ParseInput('echo "$hello"', [ref] $tokens, [ref] $errors) | out-null; $tokens | format-table
 
 Gives...
 
@@ -93,7 +93,8 @@ echo            CommandName       Identifier    False echo
 
 Whereas,
 
-	[System.Management.Automation.Language.Parser]::ParseInput("echo '`$hello'", [ref] $tokens, [ref] $errors); | out-null;
+	$tokens = @(); $errors = @();
+	[System.Management.Automation.Language.Parser]::ParseInput("echo '`$hello'", [ref] $tokens, [ref] $errors) | out-null;
 	$tokens | format-table
 
 Gives:
@@ -107,6 +108,21 @@ echo            CommandName    Identifier    False echo
 ```
 
 Note that "ParseInput" directly returns an Abstract Syntax Tree (which is more than I need for this exercise, but super useful when you do need it.) and the `$tokens` variable is a reference to an array of Tokens
+
+The most powerful property there is "Extent". In the table above, `Extent` looks the same as `Text` -- but this is misleading. `Text` is `string`. `Extent` is of type `System.Management.Automation.Language.InternalScriptExtent`.
+
+And `Extent` contains all of these properties (in this example, with values for the first token, for "echo")
+
+	File                :
+	StartScriptPosition : System.Management.Automation.Language.InternalScriptPosition
+	EndScriptPosition   : System.Management.Automation.Language.InternalScriptPosition
+	StartLineNumber     : 1
+	StartColumnNumber   : 1
+	EndLineNumber       : 1
+	EndColumnNumber     : 5
+	Text                : echo
+	StartOffset         : 0
+	EndOffset           : 4
 
 ## PSToken versus Language.Token
 

@@ -28,3 +28,28 @@ returns:
 	----                           -----
 	1                              ed
 	0                              fred
+
+## Regex Options With Powershell
+
+
+Include 1 option...
+
+	$options = [Text.RegularExpressions.RegexOptions]::Singleline
+	$match = [regex]::Match($input, $regex, $options)
+
+Include multiple options by using a "bitwise or" (`-bor`):
+
+
+	$options = [Text.RegularExpressions.RegexOptions]::IgnoreCase -bor [Text.RegularExpressions.RegexOptions]::CultureInvariant
+	$match = [regex]::Match($input, $regex, $options)
+
+
+That's a lot of typing... instead, "let casting do the magic" like so:
+
+	$options = [Text.RegularExpressions.RegexOptions]'IgnoreCase, CultureInvariant'
+	$match = [regex]::Match($input, $regex, $options)
+
+
+## Source
+
+- [Pass regex options to PowerShell [regex] type - Stack Overflow](https://stackoverflow.com/questions/12977338/pass-regex-options-to-powershell-regex-type) -- for "options"

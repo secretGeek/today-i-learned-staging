@@ -85,7 +85,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 2 articles |
  | [games](games/01_summary.md) | 2 articles |
- | [git](git/01_summary.md) | 29 articles |
+ | [git](git/01_summary.md) | 30 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
@@ -131,7 +131,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 4 articles |
- | [powershell](powershell/01_summary.md) | 108 articles |
+ | [powershell](powershell/01_summary.md) | 109 articles |
  | [ppmp](ppmp/01_summary.md) | 1 article |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [prometheus](prometheus/01_summary.md) | 1 article |
@@ -168,7 +168,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [ux](ux/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
- | [vs code](vs_code/01_summary.md) | 10 articles |
+ | [vs code](vs_code/01_summary.md) | 11 articles |
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 19 articles |
@@ -185,5 +185,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-754 articles
-204974 words
+757 articles
+206475 words
