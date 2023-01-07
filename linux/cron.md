@@ -81,9 +81,9 @@ e.g.
 
 	*/10 * * * * curl http://example.com >/dev/null 2>&1
 
-## /et/cron.hourly etc
+## `/etc/cron.hourly` etc
 
-On Ubuntu, you can put a shell script in one of these folders: /etc/cron.daily, /etc/cron.hourly, /etc/cron.monthly or /etc/cron.weekly.
+On Ubuntu, you can put a shell script in one of these folders: `/etc/cron.daily`, `/etc/cron.hourly`, `/etc/cron.monthly` or `/etc/cron.weekly`.
 
 ## Sources
 

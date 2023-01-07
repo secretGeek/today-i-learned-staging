@@ -50,6 +50,15 @@ Concentrate on those last three, the repeated 'rwx's...
 
 If a permission was missing it would be represented by a dash '-'.
 
+## The Building Blocks of a permission
+
+	---   No read, no write, no execute = 0
+	--x   Execute (not read or write) = 1
+	-w-   Write (not read or execute) = 2
+	r--   Read (not execute or write) = 4
+
+All permissions are made by adding some combination of 0,1,2,4.
+
 ## similarly
 
 - `chmod` - modify permissions
@@ -58,6 +67,20 @@ If a permission was missing it would be represented by a dash '-'.
 
 ## Common patterns
 
-### owner can read write but not execute, no one else can read write:
+### 600: Owner can read write but not execute, no one else can read write:
 
 	sudo chmod 600 ~/.ssh/id_dsa
+
+### 777: Everyone can do everything
+
+	sudo chmod 777 /public/publicfile
+
+## Common combos
+
+	r-x   Read Execute, Not write = 5
+	rw-   Read Write, Not execute = 6
+	rwx   Read Write and Execute = 7
+
+## See also
+
+- [ssh](SSH.md)

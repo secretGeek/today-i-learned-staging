@@ -1,12 +1,15 @@
 ﻿# SSH to a linux machine from windows
 
+`warn` wowsers! this is very out of date! As of 2023, this is beyond ancient. TODO: Update.
+
 On windows, you can use PuTTY to connect to your digital ocean droplet via SSH.
 
-(I've since found two better ways to do this:
-   1. with [bash.exe](../windows/bash_on_windows.md) or
+(There have since been invented 300 better ways to achieve this, such as:
+
+   1. with [wsl - bash.exe](../windows/bash_on_windows.md) or
    2. with `cmder` which I think is using OpenSSH by way of gitbash.
 
-Soon I think windows will have better ssh features built in. Powershell will get them for example.)
+..)
 
 ## Creating private/public key pair for use in SSH, using PuTTYgen
 
