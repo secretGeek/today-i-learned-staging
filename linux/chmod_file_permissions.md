@@ -1,8 +1,8 @@
 ﻿# chmod - and the magic of file permissions
 
-## allow everything
+## Allow everything
 
-	$ chmod 777 /opt/webapps
+	chmod 777 /opt/webapps
 
 Causes these permissions:
 
@@ -59,15 +59,9 @@ If a permission was missing it would be represented by a dash '-'.
 
 All permissions are made by adding some combination of 0,1,2,4.
 
-## similarly
-
-- `chmod` - modify permissions
-- `chown` - change the owner of the file
-- `chgrp` - change the group
-
 ## Common patterns
 
-### 600: Owner can read write but not execute, no one else can read write:
+### 600: Owner can read write but not execute, no one else can read write
 
 	sudo chmod 600 ~/.ssh/id_dsa
 
@@ -80,6 +74,46 @@ All permissions are made by adding some combination of 0,1,2,4.
 	r-x   Read Execute, Not write = 5
 	rw-   Read Write, Not execute = 6
 	rwx   Read Write and Execute = 7
+
+## Add read (or write, or execute)
+
+If all you want to do is "add read permissions" (for example) you can use this syntax:
+
+	chmod +r /public/README.md
+
+or add write permissions:
+
+	chmod +w /public/README.md
+
+or add eXecute permissions:
+
+	chmod +x /public/README.md
+
+## Test file permissions with `test`
+
+The `test` command is often used in scripts for testing the `r`,`w` or `x` flag of a file.
+
+e.g.
+
+   test -x /public/deleteEverything
+
+Means "does the file `/public/deleteEverything` exist? and if so, does it have the `x` (execute) bit set?
+
+Similarly:
+
+   test -r /public/README.md
+   test -w /public/README.md
+
+And output success or fail, with:
+
+	test -x /home/leon/.templateengine && echo "The file has the execute flag"
+	test -x /home/leon/.templateengine || echo "The file does not exist or it does exist but does not have the execute flag"
+
+## Related commands
+
+- `chmod` - modify permissions
+- `chown` - change the owner of the file
+- `chgrp` - change the group
 
 ## See also
 
