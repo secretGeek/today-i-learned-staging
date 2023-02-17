@@ -1,9 +1,9 @@
 ﻿# Basic data dictionary
 
-2. Summary of tables:
-3. Data Dictionary
+1. Summary of tables:
+2. Data Dictionary
 
-*****
+---
 
 ## Available space on server
 
@@ -18,7 +18,7 @@
     use dbName
     sp_spaceused
 
-*****
+---
 
 ## Data Dictionary
 
@@ -52,7 +52,7 @@
 	ORDER BY
 		1
 
------
+---
 
 ## Summary of columns
 
@@ -80,5 +80,4 @@ Also
 	- statistics
 	- views
 	- stored procedures
-
 	- summaries of tables etc

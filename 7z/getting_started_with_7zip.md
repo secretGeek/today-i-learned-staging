@@ -9,7 +9,7 @@ Create a *new zip* (or add to an existing zip) called `example1.zip`, and add al
 - If you add a file that is already in the zip, it will replace the old one with the new one.
 - Passwords are applied on a "per file" basis. So people without the password can inspect the files in the zip, but not the contents. I guess double-zipping would get around this.
 
------
+---
 
 ## Add all files to a *new zip*
 
@@ -22,7 +22,7 @@ Create a *new zip* (or add to an existing zip) called `example1.zip`, and add al
 - the wildcard `*` will match **all** files
 - whereas `*.*` will *only* match files **with** an extension (i.e. it will not match files with *no* extension)
 
------
+---
 
 ## Unzip a .zip file to a folder
 
@@ -30,7 +30,7 @@ Create a *new zip* (or add to an existing zip) called `example1.zip`, and add al
 
 	7z x "MyZip.zip" -oMyFolder
 
------
+---
 
 ## Help output
 

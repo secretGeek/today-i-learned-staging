@@ -62,7 +62,7 @@ To go to your home folder, use simply:
 
 ## Cheat sheet
 
-* <https://devhints.io/bash> -- really nice cheat sheet
+- <https://devhints.io/bash> -- really nice cheat sheet
 
 ## Source
 

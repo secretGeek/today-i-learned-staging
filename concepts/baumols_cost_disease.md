@@ -26,9 +26,9 @@ This whole notion strikes me as pretty far fetched. It could only be true if you
 
 Regarding Baumol's Cost disease. Is it generally spoken about by:
 
-1. people who are `dumb  ` and think Baumol's Cost Disease is a `dumb  ` theory?
-2. people who are `clever` and think Baumol's Cost Disease is a `dumb  ` theory?
-3. people who are `dumb  ` and think Baumol's Cost Disease is a `clever` theory?
+1. people who are `dumb` and think Baumol's Cost Disease is a `dumb` theory?
+2. people who are `clever` and think Baumol's Cost Disease is a `dumb` theory?
+3. people who are `dumb` and think Baumol's Cost Disease is a `clever` theory?
 4. people who are `clever` and think Baumol's Cost Disease is a `clever` theory?
 
 I'd argue that I've seen a *lot* more of "4" than any other group.
@@ -47,7 +47,7 @@ If we're working from first principles, here would be an equally compelling gues
 2. The laid off farm workers are now desperate for a job, and will lower the price at which they are willing to do farm work.
 3. Wages for farm work will be much much lower. And since there aren't enough jobs for all the laid off farm workers, they will flood into every other occupation. Many farm workers will become doctors, and due to supply and demand, all doctors will thus be paid less.
 
-This line of reasoning is just as falacious (to me) as BCD, and it is exactly the line of reasoning used by every journalist in the world, in 2014 during [The First Great AI Panic](https://wiki.secretgeek.net/ai-panic) when they all wrote tear-soaked articles about how the rise of automation would mean that no one had to work anymore and would thus all be forced to starve to death unless the owners of the robots would flip us a penny now and then.
+This line of reasoning is just as fallacious (to me) as BCD, and it is exactly the line of reasoning used by every journalist in the world, in 2014 during [The First Great AI Panic](https://wiki.secretgeek.net/ai-panic) when they all wrote tear-soaked articles about how the rise of automation would mean that no one had to work anymore and would thus all be forced to starve to death unless the owners of the robots would flip us a penny now and then.
 
 Neither BCD or the reasoning above is what we *actually* see happening.
 
@@ -60,7 +60,7 @@ Here's what I see happening:
 5. The surplus money paid for that extra grain and the increase of medical care is funnelled to the capitalists who own the farm and the health care service. *None* of them have ever worked in agriculture or medicine. [Their field of study was economics.](https://wiki.secretgeek.net/economists) They are now making so much extra money that they write wise little articles about how Baumol's cost disease has increased their wages.
 6. Since the capitalists "know" that wages have increased, they raise the cost of grain. There are no non-capitalist competitors to undercut the high prices. People are now hooked on grain and despite the increase they will sacrifice anything they can to maintain their current consumption level. We end up with the ridiculous notion that more grain is produced, by less people, for a higher unit price, by workers whose wages are stagnant, bought by consumers whose wages are also stagneant. (Substitute grain for 'oil' or 'anti-biotics' if you don't believe me.)
 
-## `bonus` The Truth!
+## `bonus` The Truth
 
 > The Population Reference Bureau predicts that the world's total population will double to 7,000,000,000 before the year 2000. I suppose they will all want dignity, I said.
 >

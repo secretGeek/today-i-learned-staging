@@ -4,31 +4,26 @@ The following is from [http://daringfireball.net/projects/markdown/syntax.text](
 All rights reserved. It is provided hopefully in accord with the [BSD style license provided here](http://daringfireball.net/projects/markdown/license).
 
 - [Overview]
-	- [Philosophy]
-	- [Inline HTML]
-	- [Automatic Escaping for Special Characters]
+  - [Philosophy]
+  - [Inline HTML]
+  - [Automatic Escaping for Special Characters]
 - [Block Elements]
-	- [Paragraphs and Line Breaks]
-	- [Headers]
-	- [Blockquotes]
-	- [Lists]
-	- [Code Blocks]
-	- [Horizontal Rules]
+  - [Paragraphs and Line Breaks]
+  - [Headers]
+  - [Blockquotes]
+  - [Lists]
+  - [Code Blocks]
+  - [Horizontal Rules]
 - [Span Elements]
-	- [Links]
-	- [Emphasis]
-	- [Code]
-	- [Images]
+  - [Links]
+  - [Emphasis]
+  - [Code]
+  - [Images]
 - [Miscellaneous]
-	- [Backslash Escapes]
-	- [Automatic Links]
+  - [Backslash Escapes]
+  - [Automatic Links]
 
-`note` This document is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL][src].
-
-	[src]: /projects/markdown/syntax.text
-
-* * *
+---
 
 ## Overview
 
@@ -163,7 +158,7 @@ Markdown to write about HTML code. (As opposed to raw HTML, which is a
 terrible format for writing about HTML syntax, because every single `<`
 and `&` in your example code needs to be escaped.)
 
-* * *
+---
 
 ## Block Elements
 
@@ -185,11 +180,8 @@ end a line with two or more spaces, then type return.
 
 Yes, this takes a tad more effort to create a `<br />`, but a simplistic
 "every line break is a `<br />`" rule wouldn't work for Markdown.
-Markdown's email-style [blockquoting][bq] and multi-paragraph [list items][l]
+Markdown's email-style [blockquoting](#blockquote) and multi-paragraph [list items](#list)
 work best -- and look better -- when you format them with hard breaks.
-
-  [bq]: #blockquote
-  [l]:  #list
 
 ### Headers
 
@@ -513,7 +505,7 @@ following lines will produce a horizontal rule:
 
 	---------------------------------------
 
-* * *
+---
 
 ## Span Elements
 
@@ -561,12 +553,12 @@ on a line by itself:
 
 That is:
 
-* Square brackets containing the link identifier (optionally
+- Square brackets containing the link identifier (optionally
 	indented from the left margin using up to three spaces);
-* followed by a colon;
-* followed by one or more spaces (or tabs);
-* followed by the URL for the link;
-* optionally followed by a title attribute for the link, enclosed
+- followed by a colon;
+- followed by one or more spaces (or tabs);
+- followed by the URL for the link;
+- optionally followed by a title attribute for the link, enclosed
 	in double or single quotes, or enclosed in parentheses.
 
 The following three link definitions are equivalent:
@@ -782,10 +774,10 @@ Inline image syntax looks like this:
 
 That is:
 
-* An exclamation mark: `!`;
-* followed by a set of square brackets, containing the `alt`
+- An exclamation mark: `!`;
+- followed by a set of square brackets, containing the `alt`
 	attribute text for the image;
-* followed by a set of parentheses, containing the URL or path to
+- followed by a set of parentheses, containing the URL or path to
 	the image, and an optional `title` attribute enclosed in double
 	or single quotes.
 
@@ -802,7 +794,7 @@ As of this writing, Markdown has no syntax for specifying the
 dimensions of an image; if this is important to you, you can simply
 use regular HTML `<img>` tags.
 
-* * *
+---
 
 ## Miscellaneous
 
@@ -857,7 +849,7 @@ Markdown provides backslash escapes for the following characters:
 	[]  square brackets
 	()  parentheses
 	#   hash mark
-+	plus sign
--	minus sign (hyphen)
+	+	plus sign
+	-	minus sign (hyphen)
 	.   dot
 	!   exclamation mark

@@ -36,7 +36,7 @@ Cool!
 
 Now to add it to cron job, for a specific folder...
 
-Add the following to a new file in the folder `/etc/cron.daily`
+Add the following to a new file in the folder `/etc/cron.daily`  (Learn more about - [cron.daily, cron.hourly etc.](cron_daily.md) in this TIL, if you wish.)
 
 	#!/bin/sh
 
@@ -49,4 +49,5 @@ And as described in [cron](cron.md) we can check the cron logs with:
 ## See also
 
 - [cron](cron.md)
+- [cron.daily, cron.hourly etc.](cron_daily.md)
 - [Count all files in a directory, recursively](count_files_recursively.md)

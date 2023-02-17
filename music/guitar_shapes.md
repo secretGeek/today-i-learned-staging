@@ -50,8 +50,8 @@ And another with some frets drawn in
     E |---|---|---|--
 
 Here's a place where you can play A pentatonic minor. You can shift that pattern up or down the neck.
-I've marked the root note as R and the V note as capital X.
-I call this the 'up' pattern, because it's upward of the root note.
+
+I've marked the root note as R and the V note as capital X. I call this the 'up' pattern, because it's upward of the root note.
 
 It's also known as 'Position 1'
 
@@ -134,33 +134,33 @@ Some blues musicians will noodle around on just those five locations for an enti
 
 (And of course you could shift these patterns up or down to transpose to a different key. This is shown in A)
 
-------
+---
 
-## Pent Minor positions:
+## Pent Minor positions
 
 ![minor pentatonic positions](minorpentatonicpositionsG.png)
 
-------
+---
 
 ## "Natural minor" positions
 
 ![minor heptatonic positions](minorheptatonicpositions.png)
 
-------
+---
 
 ## Major (hept) positions
 
 ![major hept positions](majorheptatonicpositions.png)
 
-------
+---
 
 ## Major Pentatonic Positions
 
 ![major pentatonic positions](majorpentatonicpositions.png)
 
-------
+---
 
 ## See also
 
-* [Guitar Dashboard](guitar_dashboard.md)
-* [Scales and Emotions](scales_and_emotions.md)
+- [Guitar Dashboard](guitar_dashboard.md)
+- [Scales and Emotions](scales_and_emotions.md)

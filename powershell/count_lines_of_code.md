@@ -33,25 +33,23 @@ Comments starting with "/*"
 				$_.trim() -notlike "" } |         # blank
 				measure
 
-
-## Avoid node_modules and obj folders:
+## Avoid node_modules and obj folders
 
 Here are two examples of where conditions
 
 1. Using `-notmatch`
 
-	? { $_.FullName -notmatch "\\node_modules\\|\\obj\\" }
+		? { $_.FullName -notmatch "\\node_modules\\|\\obj\\" }
 
 2. Using `-like`
 
-	? { -not ($_.FullName -like '*\node_modules\*' -or $_.FullName -like '*\obj\*') }
+		? { -not ($_.FullName -like '*\node_modules\*' -or $_.FullName -like '*\obj\*') }
 
 3. Using `-notlike`
 
-	Get-ChildItem -Filter "*.cs" -Recurse |
-	? { $_.FullName -notlike '*\node_modules\*' -and $_.FullName -notlike '*\obj\*' } |
-	Measure | % Count
-
+		Get-ChildItem -Filter "*.cs" -Recurse |
+		? { $_.FullName -notlike '*\node_modules\*' -and $_.FullName -notlike '*\obj\*' } |
+		Measure | % Count
 
 ## Count .cs Files in all folders
 
@@ -67,14 +65,11 @@ Here are two versions -- they seem equally fast/slow to me at the moment...
 		? { $_.FullName -notmatch "\\node_modules\\|\\obj\\" } |
 		Measure | % Count
 
-
 And:
 
 	Get-ChildItem -Filter "*.cs" -Recurse |
 		? { -not ($_.FullName -like '*\node_modules\*' -or $_.FullName -like '*\obj\*') } |
 		Measure | % Count
-
-
 
 ## Lines of .cs code minus blanks and comments, avoiding some folders
 
@@ -90,7 +85,7 @@ Putting it all together:
 				$_.trim() -notlike "" } |         # blank
 				Measure-Object -line -word -character
 
-
+Or try:
 
 	Get-ChildItem -recurse | ?{ $_.PSIsContainer -ne $true } |
 	? { -not ($_.FullName -like '*\node_modules\*' -or $_.FullName -like '*\obj\*') } |
@@ -106,7 +101,6 @@ Putting it all together:
 		Add-Member -inputObject $_ -memberType NoteProperty -name "Lines" -value measureLines.Lines;
 		$_;
 	} group-object -property { ($_.extension) } | sort -desc Count;
-
 
 ## See also
 

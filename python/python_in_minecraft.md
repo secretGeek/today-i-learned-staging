@@ -4,15 +4,15 @@ One of my daughters is getting into minecraft. I've heard you can do python in m
 
 All of the examples below are taken wholly or in part from this awesome guide: [Python Coding for Minecraft by Alex Pruss](http://www.instructables.com/id/Python-coding-for-Minecraft/)
 
-1. Get minecraft for PC
+- Step 1. Get minecraft for PC
 
 Costs $26.95
 
-2. Minecraft no longer requires java. So you don't need to update that.
+- Step 2. Minecraft no longer requires java. So you don't need to update that.
 
 > You still technically need Java, but it is now downloaded by the Minecraft launcher and stored with the launcher instead of installed across the entire system. If Minecraft is the only reason you have Java installed, you now have no reason to open up your system to Java vulnerabilities. The Java executable used by Minecraft stays with Minecraft and is as good as invisible and inaccessible to the rest of the system.
 
-3. Run minecraft launcher.
+- Step 3. Run minecraft launcher.
 
 - "Launch Options"
   - "Add new"
@@ -25,7 +25,7 @@ Make sure it works.
 
 Maybe create a new world, superflat, bonus chest on, cheats on.
 
-4. Install Forge.
+- Step 4. Install Forge.
 
 Default options -- i.e. Client.
 
@@ -33,13 +33,13 @@ It downloads and unpacks a bunch of stuff.
 
 ![forge_install_success.png](forge_install_success.png)
 
-5. Install raspberry jam mod
+- Step 5. Install raspberry jam mod
 
-https://github.com/arpruss/raspberryjammod/releases
+Here it is: <https://github.com/arpruss/raspberryjammod/releases>
 
-RaspberryJamMod-Installer.exe
+Look for .\RaspberryJamMod-Installer.exe
 
-(22.8MB)
+It's approx 22.8MB.
 
 Installing that you need to choose Python 2.7 or 3.x ....
 
@@ -47,7 +47,7 @@ I went with 3.x which I may regret later.
 
 I'm socially progressive and tend to get myself into this kind of problem for fun.
 
-6. Download the latest zip file containing sample Python scripts and the mcpi library from:
+- Step 6. Download the latest zip file containing sample Python scripts and the mcpi library from:
 
 	[https://github.com/arpruss/raspberryjammod/releases](https://github.com/arpruss/raspberryjammod/releases)
 
@@ -55,13 +55,11 @@ Create a new folder: `$env:AppData\.minecraft\mcpipy`
 
 Unzip the file and places its content into the $env:AppData\.minecraft\mcpipy folder.
 
-7. Run minecraft launcher...
+- Step 7. Run minecraft launcher...
 
 pick the 'forge' profile by clicking the up arrow on the green button.
 
-8.
-
-Run a python script by:
+- Step 8. Run a python script by:
 
 /py {scriptname}
 
@@ -69,7 +67,7 @@ e.g.
 
 /py helloworld
 
-## Hello World!
+## Your first "Hello World!" script in MineCraft
 
 Here's a helloworld script...
 
@@ -123,7 +121,7 @@ Here's an advanced trick... if you want to join all of the parameters together i
 	mc = Minecraft()
 	mc.player.setTilePos(int(argv[1]), int(argv[2]), int(argv[3]))
 
-## To find my location:
+## To find my location
 
 	/py whereami
 
@@ -251,4 +249,4 @@ See console.py
 ## Sources
 
 - [Minecraft Doesn't Need Java Installed Anymore](https://www.howtogeek.com/210907/minecraft-doesnt-need-java-installed-anymore-its-time-to-remove-it/)
-- [Instructables: Python Coding for Minecraft by arpruss](http://www.instructables.com/id/Python-coding-for-Minecraft/)
+- [Instructables: Python Coding for Minecraft by arpress](http://www.instructables.com/id/Python-coding-for-Minecraft/)

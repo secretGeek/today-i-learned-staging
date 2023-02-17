@@ -31,7 +31,7 @@ Store the passphrase in your password manager. Note that the passphrase is somet
 
 ## Add your public key to digital ocean
 
-Go to your profile: https://cloud.digitalocean.com/settings/profile
+Go to your DO profile: <https://cloud.digitalocean.com/settings/profile>
 
 Click "Security" on the left hand side...
 
@@ -44,7 +44,7 @@ When informing digital ocean of your public key, you need to paste it into a tex
 
 What I should've done: look at the public key in PuTTYgen, where they provide a textbox with the public key formatted in the right way that you can copy and paste into various programs. Copy it from there. Not from the raw file.
 
-## WARNING: UNPROTECTED PRIVATE KEY FILE!
+## WARNING: UNPROTECTED PRIVATE KEY FILE
 
 Got this error:
 

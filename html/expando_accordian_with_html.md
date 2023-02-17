@@ -202,3 +202,5 @@ Expand/collapse sections are *similar* to Ted Nelson's 1967 idea "Stretch-Text",
 ## See also
 
 - [Underused text-level elements](semantic_tips.md)
+
+<!-- markdownlint-disable-file MD033 -->

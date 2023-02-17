@@ -6,7 +6,6 @@ On a sprint board, custom rules will only color the entire card, not the tags th
 
 (Vote for this feature: [Add colored tags to sprint board/backlog - Visual Studio Feedback](https://developercommunity.visualstudio.com/t/add-colored-tags-to-sprint-boardbacklog/365646) if you too want to customize the colors of the tags themselves.)
 
-
 If you can find a way to inject CSS into the board, you can use rules like this to set custom colors for the labels themselves.
 
 Say you want the `BLOCKED` tag to be fire-engine red. Here is how it's done:
@@ -17,7 +16,6 @@ Say you want the `BLOCKED` tag to be fire-engine red. Here is how it's done:
 
 The `~=` means "contains the word".
 
-
 Or, perhaps you have various tags that "start with" a prefix, such as "customer-" -- you can select those tags and style them blue with a rule like this:
 
 	<style>
@@ -26,9 +24,7 @@ Or, perhaps you have various tags that "start with" a prefix, such as "customer-
 
 The `*=` means "contains".
 
-
 For reference, here's the html they use for the container of the tags, and the tags themselves. This is on a card with two tags, `BLOCKED` and `Customer-Pepsi`.
-
 
 	<div class="tags field-container" field="System.Tags">
 		<div id="vss_549" class="tfs-tags">
@@ -49,7 +45,6 @@ For reference, here's the html they use for the container of the tags, and the t
 		</div>
 	</div>
 
-
 Actually, I see now that my rules would select *all* tags on a card, even though I only want to highlight the *relevant* tag.
 
 Unless they improve their html (for example by adding `data-tag-name="BLOCKED"` onto the `.tag-box` itself, there's no simple CSS selector that will do it (we can't select by content.)
@@ -58,12 +53,9 @@ If I can add custom javascript to the page, I can use the same technique describ
 
 Here's an example of someone with a bunch of "violentmonkey" userscripts: [GitHub - alejandro5042/azdo-userscripts: A collection of userscripts to improve the Azure DevOps UI](https://github.com/alejandro5042/azdo-userscripts). I assume "violentmonkey" is a modern ancestor of "greasemonkey", a firefox plugin that let you run custom scripts at different domains.
 
-
 ## My UserScript
 
-
 And here's a userscript I made, for a chrome extension called "tampermonkey" which does what I want (for now)
-
 
 	// ==UserScript==
 	// @name         Azure Devops Tag Colors
@@ -210,8 +202,6 @@ And here's a userscript I made, for a chrome extension called "tampermonkey" whi
 			document.addEventListener('DOMContentLoaded', onReady);
 		}
 	}());
-
-
 
 ## References
 

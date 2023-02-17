@@ -1,10 +1,10 @@
-﻿# Supervisor... it keeps your app running!
+﻿# Supervisor... it keeps your app running
 
-## Check status:
+## Check status
 
 	service supervisor status
 
-## Tail a service's err:
+## Tail a service's err
 
 (find the file by looking in folder: `/etc/supervisor/conf.d` where file `pdf.nimbletext.com.conf` might mention error log `/var/log/pdf.nimbletext.err.log`)
 
@@ -44,19 +44,19 @@ To create a new service for supervisor to supervise, add a file, e.g. `helloworl
 
 Here's how to view the last 20 lines of the supervisor log, using `tail`
 
-	$ sudo tail -n 20 -f /var/log/supervisor/supervisord.log
+	sudo tail -n 20 -f /var/log/supervisor/supervisord.log
 
 ...in which you might see it struggle to keep your app running...
 
 Or the last 20 lines of your app's error output...
 
-	$ sudo tail -n 20 -f /var/log/helloworld.err.log
+	sudo tail -n 20 -f /var/log/helloworld.err.log
 
 Or the last 20 lines of your app's standard (non error) output...
 
-	$ sudo tail -n 20 -f /var/log/helloworld.out.log
+	sudo tail -n 20 -f /var/log/helloworld.out.log
 
-## Restart supervisor
+## Restart supervisor - troubleshooting
 
 To restart supervisor after you've given it some new configuration:
 

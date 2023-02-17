@@ -55,7 +55,7 @@ setup environment:
 
 - need npm
 - use npm to get angular
-- get npm from https://nodejs.org/en/download
+- get npm from <https://nodejs.org/en/download>
 
 Already have it? check you have version at least `6.9.0` (from 2019)
 
@@ -204,21 +204,21 @@ So, for this project, when we run `npm start` it is a shortcut to running:  `npm
 
 Can download the exercise files from:
 
-https://app.pluralsight.com/library/courses/angular-2-getting-started-update/exercise-files
+<https://app.pluralsight.com/library/courses/angular-2-getting-started-update/exercise-files>
 
 (I've put them in my `~learning/angular/` folder)
 
 ## Concepts
 
- - angular module
-  - component
-   - template
- - directives
- - data-binding
-  - pipes
- - services
- - routing
-   - guards
+- angular module
+- component
+- template
+- directives
+- data-binding
+- pipes
+- services
+- routing
+  - guards
 
 ## See also
 

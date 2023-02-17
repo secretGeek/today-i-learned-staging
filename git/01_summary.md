@@ -13,6 +13,7 @@
 - [Delete old branches](delete_old_branches.md)
 - [Diff of staged files](diff.md)
 - [Discard uncommitted changes](discard_uncommitted_changes.md)
+- [File Too Large I Want to Remove It](file_too_large_I_want_to_remove_it.md)
 - [Filename too long when cloning a git repository on windows](filename_too_long_git_windows.md)
 - [Fix git push timed out with corporate proxy (e.g. visual studio .com)](git_timedout_corporate_vpn.md)
 - [git cheat sheet](cheatsheet.md)

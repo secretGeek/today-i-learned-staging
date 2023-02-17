@@ -43,7 +43,6 @@ Though this site is published as a free digital-only book, I've also published a
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [Your First Product](https://YourFirstProduct.com). Thank you.
 <!-- markdownlint-disable-file MD041 -->
 
-
 ## Topics
 
 |Topic|# Articles|
@@ -51,7 +50,7 @@ Though this site is published as a free digital-only book, I've also published a
 | [.net](.net/01_summary.md) | 8 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
  | [7z](7z/01_summary.md) | 2 articles |
- | [active directory](active_directory/01_summary.md) | 2 articles |
+ | [active directory](active_directory/01_summary.md) | 3 articles |
  | [airtable](airtable/01_summary.md) | 1 article |
  | [android](android/01_summary.md) | 1 article |
  | [angular](angular/01_summary.md) | 1 article |
@@ -85,7 +84,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 2 articles |
  | [games](games/01_summary.md) | 2 articles |
- | [git](git/01_summary.md) | 30 articles |
+ | [git](git/01_summary.md) | 31 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [github](github/01_summary.md) | 2 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
@@ -108,7 +107,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [kv](kv/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 15 articles |
- | [linux](linux/01_summary.md) | 40 articles |
+ | [linux](linux/01_summary.md) | 41 articles |
  | [macbook air](macbook_air/01_summary.md) | 5 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
@@ -185,5 +184,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-757 articles
-206927 words
+760 articles
+207428 words

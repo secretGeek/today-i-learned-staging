@@ -20,9 +20,9 @@ I'm not sure, but I suspect it was because I was urged to run a command `& npm r
 
 Generally if `node_modules` isn't behaving I run `npm i` (full name, `npm install`) and get things back in shape. In this case, it wasn't enough.
 
-A good next step would've been: 
+A good next step would've been:
 
-- delete the package-lock file, and then 
+- delete the package-lock file, and then
 - run `npm i`
 
 ... i didn't do this, but suspect it would've helped.
