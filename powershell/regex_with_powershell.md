@@ -1,4 +1,4 @@
-﻿# regex with powershell - only a few things you need to know to get you started
+﻿# Regex with powershell - only a few things you need to know to get you started
 
 Use operators such as `-replace`, `-match` and `-split`.
 

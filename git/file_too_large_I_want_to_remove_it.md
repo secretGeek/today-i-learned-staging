@@ -26,10 +26,10 @@ You've already committed the file... you have to edit history -- you can't simpl
 
 
 	git rm BIGFILE.rpt
-	git commit -m "deleting the BIG file!"
+	git commit -m "Naively deleting the BIG file... THIS WON'T WORK!"
 
 
-If it was added in the most recent commit -- 
+If it was added in the most recent commit, hey it's easy -- amend like so:
 
 	git rm --cached myfolder/BIGFILE.rpt
 	git commit --amend -C HEAD
@@ -49,30 +49,35 @@ returns....
 	commit ffffffffccccccaaaaabbbbbaaaa
 	Author: Author Name <Author@Example.com>
 	Date:   Mon Feb 6 14:52:11 2023 +1000
-	
+
 	Adding that big file
 
 ...And you need to find the commit before that one... the last 'good' commit....
 
-e.g. it might be -- 
-	
+e.g. it might be --
+
 	c067fde7f3baf86f23ec32a48cae87eaa3a895c2
 
 
 Now you run a rebase back to there...
-	
+
 	git rebase -i c067fde7f3baf86f23ec32a48cae87eaa3a895c2
 
 
-And that will show the list of commits to edit or pick... put "edit" next to the commit in which any big file was added. 
+And that will show the list of commits to edit or pick... put "edit" next to the commit in which any big file was added.
 
 THen use `git rm folder/BIGFILE.rpt` alternated with `git status` (and, as it suggests, `git rebase --continue`) ... until you have removed the large file (or files) along the way, and rebased your way right back to the place where you wanted to end up.
 
 Then try and `git push`... and perhaps you'll learn about other big files you missed, dammit! You'll get there eventually.
 
 
-## source
+## Source
 
 - [Tutorial: Removing Large Files from Git](https://medium.com/analytics-vidhya/tutorial-removing-large-files-from-git-78dbf4cf83a/)
 - [Find the commit where a file was added](https://stackoverflow.com/questions/11533199/how-to-find-the-commit-in-which-a-given-file-was-added)
 
+## See also
+
+- [Adding more files/changes to a commit you've just done](add_more_to_commit.md)
+- [Change commit message (before you've pushed)](change_commit_message.md)
+- [Undo local changes to a file in git](undo_local_changes_to_a_file_in_git.md)

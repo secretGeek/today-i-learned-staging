@@ -1,6 +1,6 @@
-﻿# tools for sqlite
+﻿# Tools for sqlite
 
-## development environments
+## Development environments
 
 - sqlitestudio - https://sqlitestudio.pl/ - create edit browse sqlite databases
 - sqlite plugins in vs code ?

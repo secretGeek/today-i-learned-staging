@@ -1,4 +1,4 @@
-﻿# find a foreign key by searching for the table or column from either end
+﻿# Find a foreign key by searching for the table or column from either end
 
 This is helpful for finding not only "what does this foreign key refer to?" but also "are there any foreign keys out there that refer to this table?"
 

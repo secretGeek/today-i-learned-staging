@@ -1,4 +1,4 @@
-﻿# npm cant find file to rename delete
+﻿# When npm cant find file to rename delete
 
 npm fails while trying to delete or rename a file during an `npm install` with a message of
 

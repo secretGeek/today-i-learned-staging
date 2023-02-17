@@ -121,7 +121,7 @@ Now that property -- it's considered to be a string. (e.g. if you added "1" to i
 
 Ok - that's *simple* props. Next trick: simple "state".
 
-## useState
+## The `useState` hook
 
 Let's give our component some `state`.
 
@@ -187,7 +187,7 @@ and in another...
 encapsulation
 move component to separate file
 
-## the effects of running an `eject`
+## The effects of running an `eject`
 
 	npm run eject
 

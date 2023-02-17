@@ -9,7 +9,7 @@
 
 	EXEC master..xp_fixeddrives
 
-## helpdb
+## Helpdb
 
     sp_helpdb 'dbName'
 

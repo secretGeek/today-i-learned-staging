@@ -164,11 +164,11 @@ Currently something like.... (this is dynamically loaded from util)
 	    $fileTypes = $originalTypes;
 	}
 	
-	function findtext_type($types, $pattern, $recursive) {
+	function findtext_type($types, $pattern, $recursive, $CaseSensitive) {
 	
 	    $originalTypes = $fileTypes;
 	    $fileTypes = $types;
-	    format-findtext $pattern $recursive;
+	    format-findtext $pattern $recursive -caseSensitive $caseSensitive;
 	    $fileTypes = $originalTypes;
 	}
 	

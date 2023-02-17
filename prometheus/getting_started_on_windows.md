@@ -96,7 +96,7 @@ You see the name and help description you specified in the field. The type is `c
 
 When you restart the application, it will restart from 1 (the first time it is called.)
 
-## run prometheus on windows
+## Run prometheus on windows
 
 - If you have a regular 64-bit Windows machine, go to [Download | Prometheus](https://prometheus.io/download/) and select the Operating System 'Windows' and the Architecture 'amd64'
 

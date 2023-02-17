@@ -163,7 +163,7 @@ I learned also that I can see *all* tasks open or closed with:
 
 	task all
 
-## mark a task as started
+## Mark a task as started
 
 To mark a task as started:
 
@@ -244,7 +244,7 @@ remember it created a `.taskrc` file for me, automatucally? let's inspect that!
 
 Oh I see -- all the data is in a `.tasks` directory. Fun fun!!
 
-## sources
+## Sources
 
 - [30 second guide](https://taskwarrior.org/docs/30second.html)
 - [30 minute talk](https://www.youtube.com/watch?&v=zl68asL9jZA) by [Paul Fenwick](https://twitter.com/pjf)

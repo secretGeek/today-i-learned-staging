@@ -2,13 +2,13 @@
 
 	get-Eventlog application | where-Object { $_.source -like "MSSQL*" -and $_.Message -like "SQL Server is starting*" }
 
-## with alias
+## With alias
 
 Or more briefly:
 
 	get-Eventlog application | ? { $_.source -like "MSSQL*" -and $_.Message -like "SQL Server is starting*" }
 
-## specific date range
+## Specific date range
 
 Or for particular message / date range
 

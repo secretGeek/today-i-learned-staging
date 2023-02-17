@@ -69,7 +69,7 @@ Can define a stroke using another element.
   <rect width="100%" height="100%" fill="url(#grid)" />
 </svg>
 
-## svg path commands
+## A few svg path commands
 
 (in the following rel. means relative and abs. means absolute.
 

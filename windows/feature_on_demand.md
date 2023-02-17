@@ -1,4 +1,4 @@
-﻿# feature on demand
+﻿# Feature on demand
 
 In Windows 10, many optional Features are available as "Features on Demand" -- under the Apps & Features area.
 

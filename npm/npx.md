@@ -1,4 +1,4 @@
-﻿# npx - a fun and simple npm package runner
+﻿# Use npx - a fun and simple npm package runner
 
 Okay -- [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) is a fun idea.
 

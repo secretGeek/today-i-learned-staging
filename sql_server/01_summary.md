@@ -23,7 +23,7 @@
 - [Ensure String Is an Integer](ensure_string_is_an_integer.md)
 - [Example query for bucketing up a bunch of values in SQL Server](histogram.md)
 - [Find (and fix) large tables](find_large_tables.md)
-- [find a foreign key by searching for the table or column from either end](find_foreign_key_table_column_either_end.md)
+- [Find a foreign key by searching for the table or column from either end](find_foreign_key_table_column_either_end.md)
 - [Find current sessions/users/who is locking](find_current_sessions.md)
 - [Find missing indexes in sql server](find_missing_indexes_in_sql_server.md)
 - [Find open transactions in SQL Server](find_open_transactions.md)

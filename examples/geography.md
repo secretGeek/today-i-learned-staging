@@ -38,6 +38,6 @@ Five letters:
 - Tunis
 - Dakar
 
-## source
+## Source
 
 - [simplemaps: world-cities](https://simplemaps.com/data/world-cities) csv (where `.capital = 'primary'`)

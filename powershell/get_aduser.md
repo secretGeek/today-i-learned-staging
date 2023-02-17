@@ -1,4 +1,4 @@
-﻿# get-aduser is useful to get info about a user account
+﻿# The `get-aduser` cmdlet is useful to get info about a user account
 
 TO see all of the properties of a user account (example account called "User1")
 
