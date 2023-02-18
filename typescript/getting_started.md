@@ -8,9 +8,9 @@ Note you can install a specific version with [npm](../npm/install_npm.md) by run
 
 Here's the output I saw:
 
-    C:\Users\Leon\AppData\Roaming\npm\tsserver -> C:\Users\Leon\AppData\Roaming\npm\node_modules\typescript\bin\tsserver
-    C:\Users\Leon\AppData\Roaming\npm\tsc -> C:\Users\Leon\AppData\Roaming\npm\node_modules\typescript\bin\tsc
-    C:\Users\Leon\AppData\Roaming\npm
+    C:\Users\user1\AppData\Roaming\npm\tsserver -> C:\Users\user1\AppData\Roaming\npm\node_modules\typescript\bin\tsserver
+    C:\Users\user1\AppData\Roaming\npm\tsc -> C:\Users\user1\AppData\Roaming\npm\node_modules\typescript\bin\tsc
+    C:\Users\user1\AppData\Roaming\npm
     +-- typescript@2.0.10
 
 See if `tsc` (the typescript compiler) was installed by running:
@@ -74,7 +74,7 @@ Why? Because some earlier SDK i'd installed had added that folder to my [path](.
 
 So that old exe was found, instead of finding the one installed by npm, which is located here:
 
-    C:\Users\Leon\AppData\Roaming\npm\tsc.cmd
+    C:\Users\user1\AppData\Roaming\npm\tsc.cmd
 
 So I edited my path to *remove* that folder from it (notes on [editing environment variables here...](../windows/environment_variables.md))
 

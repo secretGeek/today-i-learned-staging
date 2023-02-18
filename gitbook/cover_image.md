@@ -57,7 +57,7 @@ Anyway if you're only doing 1 or 2 books, it is not burdensome to create the cov
 
 If you are bulk creating 1000's of books, I suggest writing your own program/script for generating the cover image, and never using auto cover.
 
-## sources
+## Sources
 
 - http://help.gitbook.com/format/cover.html
 - https://github.com/GitbookIO/plugin-autocover

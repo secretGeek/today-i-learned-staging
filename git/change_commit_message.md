@@ -8,7 +8,7 @@
 
 - [Oh, I need to change the message on my last commit!](https://ohshitgit.com/#change-last-commit-message)
 
-## see also
+## See also
 
 - [Adding more files/changes to a commit you've just done](add_more_to_commit.md)
 - [File Too Large I Want to Remove It](file_too_large_I_want_to_remove_it.md)

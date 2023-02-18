@@ -14,7 +14,7 @@ Or better yet...
 
 e.g.
 
-	Start-Process C:\Users\Leon\Downloads\cmder_mini\vendor\conemu-maximus5\ConEmu64.exe -Verb runAs
+	Start-Process C:\Users\user1\Downloads\cmder_mini\vendor\conemu-maximus5\ConEmu64.exe -Verb runAs
 
 Or simply:
 

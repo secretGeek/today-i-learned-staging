@@ -2,8 +2,6 @@
 
 My previous technique was wkhtmltopdf -- works on both linux and windows, uses qt's web kit. But it wasn't rendering some obscure CSS indenting I needed. I looked up how to automate Chrome - and found it had a headless mode. We can use this to generate PDFs.
 
-C:\Users\leonb\Dropbox\secretGeek\scratch\njb\ppmp\treatment_notes\EpisodeHtml
-
 Firstly, you need to know where Chrome is, so you can run it. We set a variable such as:
 
 	$cromyCromy = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
@@ -61,4 +59,3 @@ And this competes a bit with the above for margins, but if you only need the mos
 	}
 
 ...which is nearly 100% inspired by <https://jrl.ninja/etc/1/>
-

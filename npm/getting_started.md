@@ -11,7 +11,7 @@ You are in a folder, doing some things. You suddenly decided you want to install
 and then spits out these warnings:
 
 ```plaintext
-npm WARN ENOENT ENOENT: no such file or directory, open 'C:\Users\Leon\npm_examples\hello1\package.json'
+npm WARN ENOENT ENOENT: no such file or directory, open 'C:\Users\user1\npm_examples\hello1\package.json'
 npm WARN EPACKAGEJSON hello1 No description
 npm WARN EPACKAGEJSON hello1 No repository field.
 npm WARN EPACKAGEJSON hello1 No README data
@@ -37,7 +37,7 @@ And there's 520 files!
 But back to those warnings:
 
 ```plaintext
-npm WARN ENOENT ENOENT: no such file or directory, open 'C:\Users\Leon\npm_example\hello1\package.json'
+npm WARN ENOENT ENOENT: no such file or directory, open 'C:\Users\user1\npm_example\hello1\package.json'
 ```
 
 There's no package.json file...

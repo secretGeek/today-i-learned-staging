@@ -186,7 +186,7 @@ When it was "ready" I launched it. THis opened a console, and the console said:
 
 The home folder is now stored at:
 
-    C:\Users\leonb\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\leon
+    C:\Users\user1\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\leon
 
 ...which is an ad for using markjump.
 

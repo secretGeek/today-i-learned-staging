@@ -5,7 +5,7 @@
 - test that the new user can use sudo privileges.
 - test that the new user can connect through SSH.
 
-## create a new user
+## Create a new user
 
 	sudo useradd fred
 
@@ -15,7 +15,7 @@ and set password:
 
 (`tip` - You can list all users by looking in the file `/etc/passwd`, with `cat /etc/passwd`)
 
-## give that user sudo privileges
+## Give that user sudo privileges
 
 Add a user to the sudo group with:
 
@@ -25,7 +25,7 @@ Add a user to the sudo group with:
 
 You must be root or have sudo privileges in order to do this.
 
-## test that the new user can use sudo privileges
+## Test that the new user can use sudo privileges
 
 use `su` (switch user) to switch to the new user...
 
@@ -43,11 +43,11 @@ Now sudo do it!
 
 (and enter fred's password...)
 
-## test that the new user can connect through SSH
+## Test that the new user can connect through SSH
 
 	//TODO:
 
-## sources
+## Sources
 
 - [add users in linux](https://www.tecmint.com/add-users-in-linux)
 - [How To Create a Sudo User on Ubuntu [Quickstart]](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart)

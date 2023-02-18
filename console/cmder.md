@@ -30,7 +30,7 @@ Find the `{Powershell::Powershell}` task and move it Up Up Up to the top.
 
 Change the Commands to:
 
-    PowerShell -ExecutionPolicy Bypass -NoLogo -NoExit -new_console:d:"C:\users\leon\dropbox\secretgeek"
+    PowerShell -ExecutionPolicy Bypass -NoLogo -NoExit -new_console:d:"C:\users\user1\dropbox\secretgeek"
 
 ...instead of the default task parameters which swap in a different `profile.ps1` file, etc.
 

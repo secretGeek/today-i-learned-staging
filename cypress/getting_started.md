@@ -40,7 +40,7 @@ I see this...
 
 > It looks like this is your first time using Cypress: 6.5.0
 >
-> √  Verified Cypress! C:\Users\leonb\AppData\Local\Cypress\Cache\6.5.0\Cypress
+> √  Verified Cypress! C:\Users\user1\AppData\Local\Cypress\Cache\6.5.0\Cypress
 
 ![to help get you started](to_help_get_you_started.png)
 

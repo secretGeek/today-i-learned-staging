@@ -12,8 +12,8 @@ Every time I follow a tutorial online I make copious notes in my workbook (my fi
 
 if it fails too horribly on windows I can try the whole thing on linux instead. let's see...
 
-	C:\Users\Leon\AppData\Roaming\npm\create-react-app -> C:\Users\Leon\AppData\Roaming\npm\node_modules\create-react-app\index.js
-	C:\Users\Leon\AppData\Roaming\npm
+	C:\Users\user1\AppData\Roaming\npm\create-react-app -> C:\Users\user1\AppData\Roaming\npm\node_modules\create-react-app\index.js
+	C:\Users\user1\AppData\Roaming\npm
 	+-- create-react-app@1.4.3
 	  +-- commander@2.12.2
 
@@ -21,7 +21,7 @@ if it fails too horribly on windows I can try the whole thing on linux instead. 
 
 ^^^ accidentally ran it for the wrong folder! Still let's see what happens:
 
-	Creating a new React app in C:\users\leon\dropbox\secretgeek\all_someday_projects\four-in-a-ro.
+	Creating a new React app in C:\users\user1\dropbox\secretgeek\all_someday_projects\four-in-a-ro.
 
 	You are using Node v5.4.1 so the project will be bootstrapped with an old unsupported version of tools.
 
@@ -70,8 +70,8 @@ But when I click through I get this as the best answer:
 Okay so i went to privileged powershell and ran the command to update npm (not noticing yet that to update node itself you need to run an installer which updates both)
 
 	> npm install -g npm-windows-upgrade
-	C:\Users\Leon\AppData\Roaming\npm\npm-windows-upgrade -> C:\Users\Leon\AppData\Roaming\npm\node_modules\npm-windows-upgrade\bin\npm-windows-upgrade.js
-	C:\Users\Leon\AppData\Roaming\npm
+	C:\Users\user1\AppData\Roaming\npm\npm-windows-upgrade -> C:\Users\user1\AppData\Roaming\npm\node_modules\npm-windows-upgrade\bin\npm-windows-upgrade.js
+	C:\Users\user1\AppData\Roaming\npm
 	+-- npm-windows-upgrade@4.1.0
 	  +-- babel-polyfill@6.26.0
 	  | +-- babel-runtime@6.26.0
@@ -181,7 +181,7 @@ Stackoverflow answer was so ridiculous. First 90% of the answer is about updatin
 Anyway -- now back to the first command from the tutorial
 
 	> npm install -g create-react-app
-	C:\Users\Leon\AppData\Roaming\npm\create-react-app -> C:\Users\Leon\AppData\Roaming\npm\node_modules\create-react-app\index.js
+	C:\Users\user1\AppData\Roaming\npm\create-react-app -> C:\Users\user1\AppData\Roaming\npm\node_modules\create-react-app\index.js
 	+ create-react-app@1.4.3
 	updated 1 package in 8.322s
 
@@ -189,12 +189,12 @@ Ookay -- create app....
 
 	> create-react-app four-in-a-row
 
-	Creating a new React app in C:\users\leon\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row.
+	Creating a new React app in C:\users\user1\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row.
 
 	Installing packages. This might take a couple of minutes.
 	Installing react, react-dom, and react-scripts...
 
-	> uglifyjs-webpack-plugin@0.4.6 postinstall C:\users\leon\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row\node_modules\uglifyjs-webpack-plugin
+	> uglifyjs-webpack-plugin@0.4.6 postinstall C:\users\user1\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row\node_modules\uglifyjs-webpack-plugin
 	> node lib/post_install.js
 
 	+ react-dom@16.2.0
@@ -202,7 +202,7 @@ Ookay -- create app....
 	+ react-scripts@1.0.17
 	added 1159 packages in 227.933s
 
-	Success! Created four-in-a-row at C:\users\leon\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row
+	Success! Created four-in-a-row at C:\users\user1\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row
 	Inside that directory, you can run several commands:
 
 	  npm start
@@ -233,7 +233,7 @@ And....
 
 	> npm install --save boardgame.io
 
-	> uws@0.14.5 install C:\users\leon\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row\node_modules\uws
+	> uws@0.14.5 install C:\users\user1\dropbox\secretgeek\all_someday_projects\tutorials\four-in-a-row\node_modules\uws
 	> node-gyp rebuild > build_log.txt 2>&1 || exit 0
 
 	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.2 (node_modules\fsevents):
@@ -270,10 +270,10 @@ Now running `npm install` so i can heat my house.
 
 	> npm install
 
-	> uws@0.14.5 install C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\uws
+	> uws@0.14.5 install C:\users\user1\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\uws
 	> node-gyp rebuild > build_log.txt 2>&1 || exit 0
 
-	> uglifyjs-webpack-plugin@0.4.6 postinstall C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\uglifyjs-webpack-plugin
+	> uglifyjs-webpack-plugin@0.4.6 postinstall C:\users\user1\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\uglifyjs-webpack-plugin
 	> node lib/post_install.js
 
 	added 1280 packages in 260.013s
@@ -282,38 +282,38 @@ And... npm run:
 
 	Compiled with warnings.
 
-	C:/Users/Leon/Dropbox/secretGeek/all_someday_projects/git_playground/four-in-a-row/node_modules/object-assign/index.js
+	C:/Users/user1/Dropbox/secretGeek/all_someday_projects/git_playground/four-in-a-row/node_modules/object-assign/index.js
 	There are multiple modules with names that only differ in casing.
 	This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
 	Use equal casing. Compare these module identifiers:
-	* C:\Users\Leon\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\object-assign\index.js
+	* C:\Users\user1\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\object-assign\index.js
 		Used by 1 module(s), i. e.
-		C:\Users\Leon\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\react-scripts\config\polyfills.js
-	* C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\object-assign\index.js
+		C:\Users\user1\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\react-scripts\config\polyfills.js
+	* C:\users\user1\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\object-assign\index.js
 		Used by 2 module(s), i. e.
-		C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\react-dom\cjs\react-dom.development.js
+		C:\users\user1\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\react-dom\cjs\react-dom.development.js
 
-	C:/Users/Leon/Dropbox/secretGeek/all_someday_projects/git_playground/four-in-a-row/node_modules/process/browser.js
+	C:/Users/user1/Dropbox/secretGeek/all_someday_projects/git_playground/four-in-a-row/node_modules/process/browser.js
 	There are multiple modules with names that only differ in casing.
 	This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
 	Use equal casing. Compare these module identifiers:
-	* C:\Users\Leon\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\process\browser.js
+	* C:\Users\user1\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\process\browser.js
 		Used by 3 module(s), i. e.
-		C:\Users\Leon\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\chalk\index.js
-	* C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\process\browser.js
+		C:\Users\user1\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\chalk\index.js
+	* C:\users\user1\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\process\browser.js
 		Used by 1 module(s), i. e.
-		C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\boardgame.io\dist\client.js
+		C:\users\user1\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\boardgame.io\dist\client.js
 
 	(webpack)/buildin/global.js
 	There are multiple modules with names that only differ in casing.
 	This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
 	Use equal casing. Compare these module identifiers:
-	* C:\Users\Leon\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\webpack\buildin\global.js
+	* C:\Users\user1\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\webpack\buildin\global.js
 		Used by 23 module(s), i. e.
-		C:\Users\Leon\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\punycode\punycode.js
-	* C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\webpack\buildin\global.js
+		C:\Users\user1\Dropbox\secretGeek\all_someday_projects\git_playground\four-in-a-row\node_modules\punycode\punycode.js
+	* C:\users\user1\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\webpack\buildin\global.js
 		Used by 1 module(s), i. e.
-		C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\boardgame.io\dist\client.js
+		C:\users\user1\dropbox\secretgeek\all_someday_projects\git_playground\four-in-a-row\node_modules\boardgame.io\dist\client.js
 
 	Search for the keywords to learn more about each warning.
 	To ignore, add // eslint-disable-next-line to the line before.

@@ -57,7 +57,7 @@ This one fails with a familiar though slightly different error...
 	You need to register and get an API key and save it as environment variable $env:GoogleGeoloc_API_Key = "YOUR API KEY"
 	Follow this link and get the API Key - https://developers.google.com/maps/documentation/geolocation/get-api-key
 
-	At C:\Users\Leon\Documents\WindowsPowerShell\Modules\GoogleMap\1.0.0.2\GoogleMap.psm1:703 char:9
+	At C:\Users\user1\Documents\WindowsPowerShell\Modules\GoogleMap\1.0.0.2\GoogleMap.psm1:703 char:9
 	+         Throw "You need to register and get an API key and save it as ...
 	+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			+ CategoryInfo          : OperationStopped: (You need to reg...get-api-key
