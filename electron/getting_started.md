@@ -38,7 +38,7 @@ So `package.json` now says:
 
     > yarn install --save-dev electron
     yarn install v1.22.5
-    error An unexpected error occurred: "C:\\users\\MyLeon\\dropbox\\secretgeek\\scratch\\electron\\nimbletext\\package.json: Unexpected string in JSON at position 196".
+    error An unexpected error occurred: "C:\\users\\user1\\scratch\\electron\\nimbletext\\package.json: Unexpected string in JSON at position 196".
 
 Stupid that it says the missing comma issue is so ridiculously user hostile:
 

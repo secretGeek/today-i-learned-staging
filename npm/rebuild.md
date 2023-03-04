@@ -1,4 +1,4 @@
-## NPM can't find local packages -- empty node_modules bin folder?
+# NPM can't find local packages -- empty node_modules bin folder?
 
 Ever had a situation where npm can't run local packages?
 

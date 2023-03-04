@@ -1,16 +1,29 @@
 # DOCKER - the absolute basics
 
-Some terminology (which may or may not become clear at a later date.)
+Some terminology (which may or may not become clearer at a later date.)
 
-- A "container" is an instance of an "image" with some rules for which ports are exposed where, and possibly which volume it uses.
-- An image is described by a "dockerfile" and may be built upon other images (etc.)
-- Somewhere at the base of the image on which an image is based, etc... you ultimately find there is an operating system.
-- Images are stored in, and retrieved from "container repositories".
-- A volume is a virtual hard drive, a place where files are stored, you know... a disk.
+- A "container" is an instance of an "image" with some rules for which "ports" are exposed where, and possibly which "volume" it uses.
+- An "image" is described by a "dockerfile" and is built upon other images (It's images all the way down)
+	- (Somewhere at the base of the image on which an image is based, etc... you ultimately find there is an operating system. I think. I hope.)
+- "Images" can be stored in, and retrieved from, "repositories", also known as "container repositories". (Why are they not called image repositories?)
+- A "volume" is a virtual hard drive, a place where files are stored, you know... a disk drive, a disk, storage, long term memory, a persistence mechanism.
+- A "host" is the outer computer on which a container is running. A container has limited access to the host, the host has quite good access to the container.
 
 ## Getting Started
 
 First, get docker desktop, install that on your development machine.
+
+No link included, as the location and the name will change before I commit this file.
+
+You can install it on Windows or Linux or Mac. You can't install it on iOS or Android or Gameboy (as far as I know).
+
+## What is docker?
+
+When someone says "docker" they can mean a lot of different things! Docker this, docker that, docker all the things. Sometimes you'll feel you're out of your docking mind!
+
+Docker is: a specific commandline tool; docker refers to the whole (waves hands vaguely) family of docker things; a docker file is a `Dockerfile` (one word) -- a "text file" that contains a pattern for making a docker image...; and docker is the first word in "docker compose" -- or "docker-compose.yml" -- a file that can describe a group of docker images that work together, a fleet of images, a symphony of images, an orchestrated milieu of containers, a deck of docks, a caravan of containers, an infestation of images, a cartload of containers...
+
+In bullet form -- let's say:
 
 - Once you have docker desktop (the windows or linux version) you can then perform the following:
   - use the docker command to get / run containers, from images, with volumes and more.
@@ -32,7 +45,7 @@ If Narnia is a container running inside a wardrobe, then `1234:100` would mean t
 
 Note also that we would call Narnia the container and the wardrobe would be properly referred to as the **host**.
 
-### docker on the command line
+### Docker on the command line
 
 `docker`, (`docker.exe` on windows) is a command line tool for doing all sorts of dockery things.
 
@@ -71,7 +84,7 @@ Explaining these one at a time:
 
 Finally, `mcr.microsoft.com/mssql/server:2019-latest` is the name of the image on which the container is based.
 
-### docker cp
+### Docker cp
 
 When a container is running, you can copy files to or from it, using `docker cp {FROM_PATH} {TO_PATH}`.
 
@@ -86,3 +99,4 @@ And conversely, to copy a file from your local file system to a path on a runnin
 ## See also
 
 - [Install Seq locally for development](../serilog/install_seq_locally_for_development.md) -- local seq install instructions, rely on docker (and put the info above into context)
+- [Docker Compose](../docker/docker-compose)

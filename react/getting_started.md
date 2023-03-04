@@ -303,7 +303,7 @@ Jest - we can now explicitly see that the testing framework is configured like s
 			"<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
 		],
 		"testEnvironment": "jsdom",
-		"testRunner": "C:\\Users\\leonb\\Dropbox\\secretGeek\\learning\\react\\eject-me\\node_modules\\jest-circus\\runner.js",
+		"testRunner": "C:\\Users\\user1\\Dropbox\\secretGeek\\learning\\react\\eject-me\\node_modules\\jest-circus\\runner.js",
 
 		"transform": {
 			"^.+\\.(js|jsx|mjs|cjs|ts|tsx)$": "<rootDir>/node_modules/babel-jest",

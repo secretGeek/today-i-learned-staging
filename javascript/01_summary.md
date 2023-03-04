@@ -15,4 +15,5 @@
 - [Poor Man's JQuery](poor_mans_jquery.md)
 - [Quick start javascript snippet](quickstart.md)
 - [Retrieve a random item from an array](random_item.md)
+- [Sortable Table (with Vanilla JS)](sortable_table.md)
 - [Write errors to the console](console_error.md)

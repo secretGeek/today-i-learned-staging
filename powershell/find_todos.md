@@ -53,10 +53,16 @@ Currently something like.... (this is dynamically loaded from util)
 	        # $true to search for literal pattern, $false (the default) to search for regular expressions
 	        $Raw = $false,
 	        [Bool]
-	        $CaseSensitive = $false
+	        $CaseSensitive = $false,
+			[String[]]
+			$overRideWithFileTypes = $null
 	    )
 	
-	    Get-ChildItem -Path * -Include $fileTypes -Exclude .git, .hg, *jquery*, modernizr* -Recurse:$Recursive |
+		if ($overRideWithFileTypes -eq $null) {
+			$overRideWithFileTypes = $fileTypes;
+		}
+	
+	    Get-ChildItem -Path * -Include $overRideWithFileTypes -Exclude .git, .hg, *jquery*, modernizr* -Recurse:$Recursive |
 	        Where-Object { $_.FullName -inotmatch 'node_modules' } |
 	        Select-String -Pattern $pattern -SimpleMatch:$Raw -CaseSensitive:$CaseSensitive |
 	        ForEach-Object {
@@ -190,8 +196,8 @@ Currently something like.... (this is dynamically loaded from util)
 	    $i = 0;
 	    $max = 0;
 	    do {
-	        $string1.ToCharArray() | % {
-	            if ($string2 -ne $null -and $i -le $string2.length -and $_ -eq $string2[$i]) {
+	        $string1.ToCharArray() | ForEach-Object {
+	            if ($null -ne $string2 -and $i -le $string2.length -and $_ -eq $string2[$i]) {
 	                $max = ($i + 1);
 	            }
 	            else { break; };

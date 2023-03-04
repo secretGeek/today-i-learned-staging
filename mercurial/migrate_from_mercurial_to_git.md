@@ -23,7 +23,7 @@ Clone this -- https://gitea.pep.foundation/claudio/hg-git.git
 Add it to your `mercurial.ini` file
 
 	[extensions]
-	hggit = c:/users/leon/code/hg-repos/hg-git/hggit
+	hggit = c:/users/user1/code/hg-repos/hg-git/hggit
 
 To see if it is now available, type `hg help extensions` and it should be listed under "enabled extensions" like so:
 

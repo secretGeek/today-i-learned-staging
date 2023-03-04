@@ -49,7 +49,19 @@ That's a lot of typing... instead, "let casting do the magic" like so:
 	$options = [Text.RegularExpressions.RegexOptions]'IgnoreCase, CultureInvariant'
 	$match = [regex]::Match($input, $regex, $options)
 
+## Regex Replace with a Lambda or ScriptBlock in Powershell
+
+
+	$callback = {
+	  param($match)
+	  'This is the image: ' + (Get-Base64 $match.Groups[1].Value)
+	}
+
+	$re = [regex]'-(\d*)-'
+	$result = $re.Replace("the image is -12345-", $callback)
+
 
 ## Source
 
 - [Pass regex options to PowerShell [regex] type - Stack Overflow](https://stackoverflow.com/questions/12977338/pass-regex-options-to-powershell-regex-type) -- for "options"
+- [Use a function in Powershell replace](https://stackoverflow.com/questions/30666101/use-a-function-in-powershell-replace)

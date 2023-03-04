@@ -106,8 +106,8 @@ Similarly:
 
 And output success or fail, with:
 
-	test -x /home/leon/.templateengine && echo "The file has the execute flag"
-	test -x /home/leon/.templateengine || echo "The file does not exist or it does exist but does not have the execute flag"
+	test -x /home/user1/.templateengine && echo "The file has the execute flag"
+	test -x /home/user1/.templateengine || echo "The file does not exist or it does exist but does not have the execute flag"
 
 ## Related commands
 

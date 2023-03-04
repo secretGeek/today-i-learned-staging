@@ -83,7 +83,7 @@ Which relies on these functions:
 
 -----
 
-## Fading out Tooltip at Copy Time
+## Fading out the Tooltip at Copy Time
 
 Here's another variation, this time with a fading out tooltip.
 
@@ -196,3 +196,7 @@ And to style that little button, this CSS is my starting point:
 		margin-top: 5px;
 		margin-right: 5px;
 	}
+
+## See also
+
+- [Sortable Table (with Vanilla JS)](sortable_table.md)

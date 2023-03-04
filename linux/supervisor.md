@@ -28,10 +28,10 @@ To create a new service for supervisor to supervise, add a file, e.g. `helloworl
 
 	$ cat helloworld.conf
 	[program:helloworld]
-	command=/usr/bin/dotnet /home/leon/publish/MvcMovie.dll
+	command=/usr/bin/dotnet /home/user1/publish/MvcMovie.dll
 	#var/aspnetcore/HelloMVC/HelloMVC.dll
 	#directory=/var/aspnetcore/HelloMVC/
-	directory=/home/leon/publish/
+	directory=/home/user1/publish/
 	autostart=true
 	autorestart=true
 	stderr_logfile=/var/log/helloworld.err.log

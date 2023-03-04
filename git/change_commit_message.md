@@ -2,8 +2,6 @@
 
 	git commit --amend
 
-
-
 ## Source
 
 - [Oh, I need to change the message on my last commit!](https://ohshitgit.com/#change-last-commit-message)

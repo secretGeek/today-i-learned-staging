@@ -72,7 +72,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [cypress](cypress/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 2 articles |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article |
- | [docker](docker/01_summary.md) | 1 article |
+ | [docker](docker/01_summary.md) | 2 articles |
  | [domains](domains/01_summary.md) | 1 article |
  | [edge](edge/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
@@ -99,7 +99,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [iis](iis/01_summary.md) | 4 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 13 articles |
+ | [javascript](javascript/01_summary.md) | 14 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jest](jest/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
@@ -184,5 +184,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-760 articles
-207907 words
+762 articles
+208926 words

@@ -26,3 +26,8 @@ Example:
     - `Directory.Parent.Name` = "util"
 
 (`FileInfo` and `DirectoryInfo` --  both derive from `FileSystemInfo`)
+
+## See also
+
+- [How to find parts of a pathinfo object in powershell](how_to_find_parts_of_a_pathinfo_object.md)
+- [How to turn a string into a FileInfo in Powershell](how_to_turn_a_string_into_a_fileinfo.md)

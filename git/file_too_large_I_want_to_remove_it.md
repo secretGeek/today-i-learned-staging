@@ -1,6 +1,5 @@
 # File Too Large I Want to Remove It
 
-
 Ah -- at some point I've added a large file to my local copy of a repository.
 
 It only becomes a problem when I try to push to the server...
@@ -28,23 +27,18 @@ You've already committed the file... you have to edit history -- you can't simpl
 	git rm BIGFILE.rpt
 	git commit -m "Naively deleting the BIG file... THIS WON'T WORK!"
 
-
 If it was added in the most recent commit, hey it's easy -- amend like so:
 
 	git rm --cached myfolder/BIGFILE.rpt
 	git commit --amend -C HEAD
 
-
 Otherwise -- FIND the commit where it was added....
 
 (How to find the commit where a file was added...)
 
-
 	git log --diff-filter=A -- myfolder/BIGFILE.rpt
 
-
-returns....
-
+returns...
 
 	commit ffffffffccccccaaaaabbbbbaaaa
 	Author: Author Name <Author@Example.com>
@@ -63,13 +57,11 @@ Now you run a rebase back to there...
 
 	git rebase -i c067fde7f3baf86f23ec32a48cae87eaa3a895c2
 
-
 And that will show the list of commits to edit or pick... put "edit" next to the commit in which any big file was added.
 
-THen use `git rm folder/BIGFILE.rpt` alternated with `git status` (and, as it suggests, `git rebase --continue`) ... until you have removed the large file (or files) along the way, and rebased your way right back to the place where you wanted to end up.
+Then use `git rm folder/BIGFILE.rpt` alternated with `git status` (and, as it suggests, `git rebase --continue`) ... until you have removed the large file (or files) along the way, and rebased your way right back to the place where you wanted to end up.
 
-Then try and `git push`... and perhaps you'll learn about other big files you missed, dammit! You'll get there eventually.
-
+Now, try and `git push`... and perhaps you'll learn about other big files you missed, dammit! You'll get there eventually.
 
 ## Source
 

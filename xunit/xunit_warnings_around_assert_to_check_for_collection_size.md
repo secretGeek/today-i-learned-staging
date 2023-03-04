@@ -1,4 +1,4 @@
-## How to avoid Xunit warnings around 'Do not use Assert to check for collection size'
+# How to avoid Xunit warnings around 'Do not use Assert to check for collection size'
 
 All of these produces "warnings" in C#
 
