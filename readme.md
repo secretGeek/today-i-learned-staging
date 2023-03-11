@@ -124,7 +124,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 4 articles |
  | [notepad++](notepad++/01_summary.md) | 14 articles |
- | [npm](npm/01_summary.md) | 15 articles |
+ | [npm](npm/01_summary.md) | 16 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 2 articles |
  | [oracle](oracle/01_summary.md) | 6 articles |
@@ -143,7 +143,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [r language](r_language/01_summary.md) | 1 article |
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 3 articles |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
- | [serilog](serilog/01_summary.md) | 1 article |
+ | [serilog](serilog/01_summary.md) | 2 articles |
  | [sharepoint](sharepoint/01_summary.md) | 2 articles |
  | [sleep](sleep/01_summary.md) | 4 articles |
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
@@ -184,5 +184,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-762 articles
-208926 words
+764 articles
+209176 words

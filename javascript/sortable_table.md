@@ -27,26 +27,27 @@ And to employ this, it uses a thing called a comparer which is lambda'y lambda l
 
 In summary:
 
-	- Add a 'click' handler to all `th` element in the table header (unless they have `no-sort` class)
-	- The click handler will:
-		- Clear `data-asc` attribute on all the `th's` in the header row
-			(This is done in order to remove any existing up/down arrows... as explained in the CSS section)
-		- Find the body of the table
-			- Sort all of the rows of the table body, by comparing the cells with the same index number as the clicked `th` elekement
+- Add a 'click' handler to all `th` element in the table header (unless they have `no-sort` class)
+- The click handler will:
+	- Clear `data-asc` attribute on all the `th's` in the header row
+		(This is done in order to remove any existing up/down arrows... as explained in the CSS section)
+	- Find the body of the table
+		- Sort all of the rows of the table body, by comparing the cells with the same index number as the clicked `th` element
+	- Set this `data-asc` attribute on the `th` to `true`, or to `false`, for indicating whether we are now sorting in an ascending manner or a descending manner.
 
 
 And the function that sets it all up:
 
 	function makeTableSortable(table) {
 		// add a 'click' handler to all `th`s in the table header (unless they have `no-sort` class)
-		table.querySelectorAll('thead tr th:not(.no-sort)').forEach(th => 
+		table.querySelectorAll('thead tr th:not(.no-sort)').forEach(th =>
 			th.addEventListener('click', (() => {
 				// remove existing up down arrows from all header cells
 				for (let otherTh of th.parentElement.querySelectorAll("th:not(.no-sort)")) {
 					otherTh.setAttribute("data-asc", "");
 				}
 				// Find the tbody - in which we will sort the rows
-				const currentTableBody = th.closest('table.sortable').querySelectorAll('tbody')[0];
+				const currentTableBody = th.closest('table.sortable').querySelector('tbody');
 				// Sort using the comparer, which compares the relevant cells'
 				//   "data-sortable-value" attribute, if present, or inner text otherwise
 				Array.from(currentTableBody.querySelectorAll('tr'))
@@ -68,7 +69,7 @@ For example, you might do this when the page first loads:
 ## Styling the column header with up/down arrows
 
 
-Here's the accompanying CSS, with explanatory comments. 
+Here's the accompanying CSS, with explanatory comments.
 
 Note we're using "up arrow" `\2191` (&#x2191;) and "down arrow" `\2193` (&#x2193;) for the direction indicators.
 
@@ -77,12 +78,14 @@ Note we're using "up arrow" `\2191` (&#x2191;) and "down arrow" `\2193` (&#x2193
 		cursor: pointer;
 	}
 
-	/* To be able to position our up/down arrows absolutely, we give the the a position relative. */
+	/* To be able to position our up/down arrows absolutely,
+	   we must give the column header a position relative. */
 	th[data-asc] {
 		position:relative;
 	}
 
-	/* the up/down arrows are provided by the 'after' pseudo element, located top right of the cell. */
+	/* the up/down arrows are provided by the 'after' pseudo element, 
+	   and we located them in the top right of the cell. */
 	th[data-asc]::after {
 		float: right;
 		position: absolute;
@@ -92,7 +95,6 @@ Note we're using "up arrow" `\2191` (&#x2191;) and "down arrow" `\2193` (&#x2193
 		opacity:0.8;
 	}
 
-	
 	th[data-asc=true]::after {
 		content: " \2193 ";
 	}
@@ -106,7 +108,8 @@ And there we have it.
 
 ## Sources
 
-- [HTML Symbols, Entities, Characters and Codes — HTML Arrows](https://www.toptal.com/designers/htmlarrows/)
+- [StackOverflow: Sorting HTML table with JavaScript](https://stackoverflow.com/a/53880407/49) - answers from Nick Grealy and Jedwards.
+- [HTML Symbols, Entities, Characters and Codes &mdash; HTML Arrows](https://www.toptal.com/designers/htmlarrows/arrows/)
 
 ## See also
 

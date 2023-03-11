@@ -14,6 +14,7 @@
 - [NPM can't find local packages -- empty node_modules bin folder?](rebuild.md)
 - [NPM run scripts](npm_run_scripts.md)
 - [NPM tab completion with powershell](tab_completion_with_powershell.md)
+- [NPM: Troubleshooting](npm_troubleshooting.md)
 - [Requires a peer of... error in npm: You must install peer dependencies yourself](requires_a_peer_of.md)
 - [Treee replacement for tree](treee.md)
 - [Use npx - a fun and simple npm package runner](npx.md)
