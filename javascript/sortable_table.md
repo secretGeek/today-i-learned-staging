@@ -1,9 +1,8 @@
 # Sortable Table (with Vanilla JS)
 
-Back when Moses was a lad we used to use jquery plugins to make our html tables "sortable". And by sortable I mean, you click on the column heading to sort by a column.
+Back when Moses was a lad we used to use [jquery](../jquery/01_summary.md) plugins to make our html tables "sortable". And by sortable I mean, you click on the column heading to sort by a column.
 
 I wanted a new "vanilla JS" solution, so I scraped together a few things from Stack Overflow and other places and here is what I've got.
-
 
 First: -- we need a way to compare two cells (i.e. two `td` table cells, though they can also be `th` cells, if you've got those in your table...) and it decides which goes before which.
 
@@ -73,27 +72,23 @@ Here's the accompanying CSS, with explanatory comments.
 
 Note we're using "up arrow" `\2191` (&#x2191;) and "down arrow" `\2193` (&#x2193;) for the direction indicators.
 
-	/* have the mouse pointer become a hand, unless the column header 'no-sort' class */
-	table.sortable thead tr th:not(.no-sort) {
-		cursor: pointer;
-	}
-
 	/* To be able to position our up/down arrows absolutely,
 	   we must give the column header a position relative. */
-	th[data-asc] {
-		position:relative;
+	table.sortable thead tr th:not(.no-sort) {
+		cursor: pointer;
+		position: relative;
 	}
 
-	/* the up/down arrows are provided by the 'after' pseudo element, 
-	   and we located them in the top right of the cell. */
-	th[data-asc]::after {
-		float: right;
-		position: absolute;
-		right: 0.5em;
-		top:0.5em;
-		font-weight: 100;
-		opacity:0.8;
-	}
+	/* the up/down arrows are in the 'after' pseudo element, 
+	   and located in the top right of the cell. */
+    table.sortable thead tr th:not(.no-sort)::after {
+        float: right;
+        position: absolute;
+        right: 0.5em;
+        top: 0.5em;
+        font-weight: 100;
+        opacity: 0.8;
+    }
 
 	th[data-asc=true]::after {
 		content: " \2193 ";
@@ -101,6 +96,13 @@ Note we're using "up arrow" `\2191` (&#x2191;) and "down arrow" `\2193` (&#x2193
 
 	th[data-asc=false]::after {
 		content: " \2191 ";
+	}
+
+	/* when hovering over a sortable, but not currently sorted column, 
+		show an up-down arrow, to aid discoverability. */
+	table.sortable thead tr th:not([data-asc]):not(.no-sort):hover::after,
+	th[data-asc=""]:hover::after {
+		content: " \2195 "; /* up-down arrow */
 	}
 
 
@@ -114,4 +116,4 @@ And there we have it.
 ## See also
 
 - [Copy element to clipboard](copy_element_to_clipboard.md)
-
+- [jquery](../jquery/01_summary.md)
