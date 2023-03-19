@@ -5,3 +5,7 @@ Since `Math.random()` returns a random number from `0` to `1`, returning a rando
     var items = ['hat', 'puzzle', 'cobra', 'window', 'tooth', 'zebra'];
 
     var  randomItem = items[Math.floor(Math.random() * items.length)];
+
+## See also
+
+- [Get a random number in Powershell](../powershell/Random.md)

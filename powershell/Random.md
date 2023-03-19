@@ -16,7 +16,11 @@ Get a random number with Get-Random
 
 	Get-Random 12,24,36
 
+## Random String from an array of beatles
+
+	Get-Random John, Paul, George, Ringo
+
 
 ## See also
 
-- [Jacvascript: Retrieve a random item from an array](../javascript/random_item.md)
+- [Javascript: Retrieve a random item from an array](../javascript/random_item.md)
