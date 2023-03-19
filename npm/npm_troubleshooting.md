@@ -4,7 +4,7 @@ Generally if you have an npm problem, you should find it can be resolved by one 
 
 1. running `npm install` (aka `npm i`)
 2. running `npm clean-install` (aka `npm ci`)
-3. clearing the cache - e.g. `npm cache clean –force`, and then `npm ci`
+3. clearing the cache - e.g. `npm cache clean -force`, and then `npm ci`
 4. removing the offending subfolder under `node_modules`, and then `npm ci`
 5. deleting the `package-lock.json` file, and then `npm ci`
 6. deleting the entire `node_modules` folder, and then `npm ci`
