@@ -18,4 +18,6 @@
 
 ## See also
 
+- [How Do I Get TODAY in Powershell](today.md)
 - [Date format in powershell](date_format.md)
+- [How do you parse a date in powershell?](parsedate_in_powershell.md)

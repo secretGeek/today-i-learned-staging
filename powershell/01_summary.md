@@ -45,6 +45,7 @@
 - [Histograms in Powershell](histogram.md)
 - [How can I tell which version of powershell I have?](version.md)
 - [How Do I Get the Current Time or Current Date or TODAY in Powershell](current_time.md)
+- [How Do I Get TODAY in Powershell](today.md)
 - [How do you parse a date in powershell?](parsedate_in_powershell.md)
 - [How do you update a password via powershell (solved)](update_password.md)
 - [How to call command line apps like a powershell pro](call_commandline_apps.md)

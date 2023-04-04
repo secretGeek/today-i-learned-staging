@@ -22,8 +22,8 @@
 	$exactDate = [datetime]::ParseExact($DateAsAString,"dd-MM-yyyy",$Null)
 	write-host $exactDate -f blue;
 
------
-
 ## See also
 
 - [Date format in powershell](date_format.md)
+- [How Do I Get TODAY in Powershell](today.md)
+- [How Do I Get the Current Time or Current Date or TODAY in Powershell](current_time.md)

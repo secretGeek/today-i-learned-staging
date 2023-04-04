@@ -130,7 +130,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 4 articles |
- | [powershell](powershell/01_summary.md) | 109 articles |
+ | [powershell](powershell/01_summary.md) | 110 articles |
  | [ppmp](ppmp/01_summary.md) | 1 article |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [prometheus](prometheus/01_summary.md) | 1 article |
@@ -158,7 +158,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [tcl](tcl/01_summary.md) | 1 article |
  | [todo](todo/01_summary.md) | 1 article |
  | [tools](tools/01_summary.md) | 3 articles |
- | [trello](trello/01_summary.md) | 1 article |
+ | [trello](trello/01_summary.md) | 2 articles |
  | [tutorials](tutorials/01_summary.md) | 1 article |
  | [twitter](twitter/01_summary.md) | 1 article |
  | [typescript](typescript/01_summary.md) | 2 articles |
@@ -184,5 +184,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-764 articles
-209261 words
+766 articles
+209442 words

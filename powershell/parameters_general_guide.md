@@ -97,5 +97,5 @@ todo: ValueFromRemainingArguments / Passthrough
 
 ## See also
 
-- [parameters general guide](../powershell/parameters general guide)
+- [parameters general guide](../powershell/parameters general guide.md)
 - CmdLetBinding
