@@ -14,6 +14,14 @@ But... surely a little `gh` won't hurt...
 
 (See "[Getting Started with Winget](../winget/getting_started.md)" if you need to)
 
+
+## Upgrade with winget
+
+Later you'll need to ugrade with winget, so we'll drop that command liberally about the place to make it easier to find
+
+	winget upgrade --id GitHub.cli
+
+
 ## Once only: Authorize the app
 
 	gh auth login

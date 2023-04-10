@@ -86,7 +86,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [games](games/01_summary.md) | 2 articles |
  | [git](git/01_summary.md) | 31 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
- | [github](github/01_summary.md) | 2 articles |
+ | [github](github/01_summary.md) | 3 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [go](go/01_summary.md) | 1 article |
  | [google](google/01_summary.md) | 14 articles |
@@ -128,6 +128,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 2 articles |
  | [oracle](oracle/01_summary.md) | 6 articles |
+ | [other-works](other-works/01_summary.md) | 3 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 4 articles |
  | [powershell](powershell/01_summary.md) | 110 articles |
@@ -142,6 +143,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [robocopy](robocopy/01_summary.md) | 1 article |
  | [r language](r_language/01_summary.md) | 1 article |
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 3 articles |
+ | [scoop](scoop/01_summary.md) | 0 articles |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
  | [serilog](serilog/01_summary.md) | 2 articles |
  | [sharepoint](sharepoint/01_summary.md) | 2 articles |
@@ -184,5 +186,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-766 articles
-209442 words
+770 articles
+210836 words
