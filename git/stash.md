@@ -6,6 +6,16 @@ tl/dr:
 	# then pull/or switch branch
 	git stash pop # apply/merge the changes you stashed
 
+
+Advanced/Common :
+
+	git stash -m "Message to accompany/describe what you are stashing"
+	git stash apply   # same as pop (apply the content of the stash) BUT
+	                  # also leave it on top of the stash-stack (i.e. not popped)
+
+
+## Stash is super dooper
+
 It's nice to have clean commits and branches and so on.
 
 One tool that helps with this is `stash`
