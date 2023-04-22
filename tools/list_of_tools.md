@@ -1,4 +1,4 @@
-﻿
+
 # List of tools in utils folder
 
 Below is a list of all tools in the root of my [utils repo](utils_repo.md) (generated using [pre](https://github.com/secretGeek/pre)).

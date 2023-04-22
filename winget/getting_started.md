@@ -10,7 +10,7 @@ I tried to use [winget](https://docs.microsoft.com/en-us/windows/package-manager
 
 From May 2020:
 
-> Since WinGet is open source, you can clone, build, run, and test the code from the GitHub repository (https://github.com/microsoft/winget-cli).
+> Since WinGet is open source, you can clone, build, run, and test the code from the GitHub repository (<https://github.com/microsoft/winget-cli>).
 >
 > You can also become a Windows Insider an join the Windows Package Manager Insider program by sending your Microsoft Account (MSA) to <winget-feedback@microsoft.com> and request to be included in the preview
 >
@@ -27,9 +27,8 @@ Ah, but this `tip` from October 2020 gives extra options...
 > ==Install the Windows Desktop App Installer package located on the [Releases page for the winget repository](https://github.com/microsoft/winget-cli/releases)==.
 >
 > &mdash; [MS Docs: Install winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/#install-winget)
-https://docs.microsoft.com/en-us/windows/package-manager/winget/
 
-So in March 2021 my best option is to go here: https://github.com/microsoft/winget-cli/releases - scroll down to the latest release... download the '.appxbundle' file -- and run that file.
+So in March 2021 my best option is to go here: <https://github.com/microsoft/winget-cli/releases> - scroll down to the latest release... download the '.appxbundle' file -- and run that file.
 
 (An `.appxbundle` file is a `UWP` program... they're normally installed via the Microsoft Store, but you can also side load them as I'm doing here.)
 
@@ -59,7 +58,7 @@ Here's the output (there was also a permissions prompt)
 
 And a brief guide to using winget from that same blogpost by Thomas:
 
-### Search for available packages:
+### Search for available packages
 
 	winget search APPLICATION
 

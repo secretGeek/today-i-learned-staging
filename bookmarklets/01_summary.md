@@ -1,4 +1,4 @@
-﻿
+
 # bookmarklets{.chapter}
 
 ## content

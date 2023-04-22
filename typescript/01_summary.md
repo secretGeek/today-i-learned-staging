@@ -1,4 +1,4 @@
-﻿
+
 # typescript{.chapter}
 
 ## content

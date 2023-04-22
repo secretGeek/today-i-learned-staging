@@ -1,4 +1,4 @@
-﻿
+
 # sql server reporting services{.chapter}
 
 ## content

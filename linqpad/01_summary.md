@@ -1,4 +1,4 @@
-﻿
+
 # linqpad{.chapter}
 
 ## content

@@ -1,4 +1,4 @@
-﻿
+
 # jekyll{.chapter}
 
 ## content

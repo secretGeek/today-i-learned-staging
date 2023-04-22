@@ -1,11 +1,11 @@
-﻿
+
 # music{.chapter}
 
 ## content
 
+- [B-flat Trumpets](Bb_Trumpet.md)
 - [Background noise](background_noise.md)
 - [Backing beats to play along to](drum_beats.md)
-- [B-flat Trumpets](Bb_Trumpet.md)
 - [Guitar Dashboard by Mike Hadlow](guitar_dashboard.md)
 - [Guitarist's Name Their Thumb and Fingers P-I-M-A](guitar_finger_names.md)
 - [How to use your PC to add effects to the guitar (like pedals)](PC_guitar_effects.md)

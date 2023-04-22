@@ -1,4 +1,4 @@
-﻿
+
 # sql spatial{.chapter}
 
 ## content

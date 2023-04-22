@@ -1,4 +1,4 @@
-﻿
+
 # new computer{.chapter}
 
 ## content

@@ -1,4 +1,4 @@
-﻿
+
 # saltwater swimming pool{.chapter}
 
 ## content

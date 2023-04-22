@@ -1,4 +1,4 @@
-﻿
+
 # sql server{.chapter}
 
 ## content

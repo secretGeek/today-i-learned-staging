@@ -1,4 +1,4 @@
-﻿
+
 # sharepoint{.chapter}
 
 ## content

@@ -1,4 +1,4 @@
-﻿
+
 # sqlite{.chapter}
 
 ## content

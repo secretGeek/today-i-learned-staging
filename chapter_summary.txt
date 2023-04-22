@@ -18,7 +18,7 @@ if ($currentPath -ne $currentfolder)
 
 Get-ChildItem . *.md |
 	Where-Object { $_.Name -ne "01_summary.md" } |
-	ForEach-Object { "- [" + (get-title($_)) + "]($_)"} | sort
+	ForEach-Object { "- [" + (get-title($_)) + "]($($_.Name))"} | sort
 
 
 if ($doPop) { pop-location; $doPop = $false; }

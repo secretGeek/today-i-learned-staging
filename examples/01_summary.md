@@ -1,4 +1,4 @@
-﻿
+
 # examples{.chapter}
 
 ## content

@@ -1,4 +1,4 @@
-﻿
+
 # azure{.chapter}
 
 ## content

@@ -1,4 +1,4 @@
-﻿
+
 # memorize{.chapter}
 
 ## content

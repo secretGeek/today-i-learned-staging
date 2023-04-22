@@ -1,4 +1,4 @@
-﻿
+
 # nimbletext{.chapter}
 
 ## content

@@ -2,98 +2,200 @@
 
 ## Editors
 
-choco install notepadplusplus -y
+	choco install notepadplusplus -y
 
 ## Languages
 
-choco install nodejs -y
-choco install ruby -y
-choco install golang -y
-choco install erlang -y
-choco install haskell-stack -y
-choco install elixir -y
-choco install rust -y
-choco install julia -y
-choco install chicken -y
+### Node JS
+
+	choco install nodejs -y
+
+### Ruby
+
+	choco install ruby -y
+
+### Golang
+
+	choco install golang -y
+
+### Erlang
+
+	choco install erlang -y
+
+
+### Haskell
+
+	choco install haskell-stack -y
+
+### Elixir
+
+	choco install elixir -y
+
+### Rust
+
+	choco install rust -y
+
+### Julia
+
+	choco install julia -y
+
+
+### Chicken
+
+	choco install chicken -y
 
 (that is: chicken scheme)
 
 
 ## Security Essentials
 
-choco install keepass -y
+Keepass....
+
+	choco install keepass -y
 
 ## Browser
-choco install googlechrome -y
-choco install firefox -y
-choco install adobereader -y
 
-## Audio
-choco install audacity -y
-choco install ffmpeg -y
-choco install vlc -y
-choco install picard -y
+### Chrome Browser
+
+	choco install googlechrome -y
+
+### Firefox
+
+	choco install firefox -y
+
+### AdobeReader
+
+	choco install adobereader -y
+
+## Multi-media (Audio and Video, or Audio or Video)
+
+### Audacity
+
+	choco install audacity -y
+
+### FFmpeg
+
+	choco install ffmpeg -y
+
+### VLC
+
+	choco install vlc -y
+
+### Picard
+
+	choco install picard -y
 
 ^^ Official MusicBrainz audio tagger
 
-choco install winamp -y
+### Winamp
+
+slay
+
+	choco install winamp -y
 
 ## Graphics
 
-choco install irfanview -y
-choco install greenshot -y
-choco install gimp -y
-choco install paint.net -y
-choco install inkscape -y
-choco install imagemagick -y
+### Ifranview
+
+	choco install irfanview -y
+
+### Grenshot
+
+	choco install greenshot -y
+
+### Gimp
+
+	choco install gimp -y
+
+
+### Paint.net
+
+	choco install paint.net -y
+
+### Inkscape
+
+	choco install inkscape -y
+
+
+### Imagemagick
+
+	choco install imagemagick -y
 
 ## Mathematics
 
-choco install geogebra -y
+	choco install geogebra -y
 
+## VS code and extensions
 
+(...and see above: `choco install vscode -y`)
 
-## vscode and extensions
-
-(and see above: `choco install vscode -y`)
+## VS Code Powershell extension
 
 	choco install vscode-powershell -y
 
+## VS Code C# extension
+
 	choco install vscode-csharp -y
 
+## VS Code gitlens extension
+
 	choco install vscode-gitlens -y
+
 
 ## databases
 
 - mysql
+
+
 - sqlite and sqlite tools
 
-choco install sql-server-management-studio -y
+	choco install sql-server-management-studio -y
 
 ## popular tools
 
+- 7zip
+
 	choco install 7zip -y
+
+- Filezilla
 
 	choco install filezilla -y
 
+- Youtube DL
+
 	choco install youtube-dl -y
 
-## windows nerd
+## Windows nerd
+
+- PS Core
 
 	choco install powershell-core -y
 
+- Sysinternals
+
 	choco install sysinternals -y
+
+- RDC man
 
 	choco install rdcman -y
 
 ## Dev
 
-choco install git -y
+- git
 
-choco install postman -y
-choco install fiddler -y
+	choco install git -y
 
-choco install azure-data-studio -y
+- postman
+
+	choco install postman -y
+
+- fiddler
+
+	choco install fiddler -y
+
+- azure data studio
+
+	choco install azure-data-studio -y
 
 ## Big 3 Cloud
 
@@ -101,7 +203,11 @@ choco install azure-data-studio -y
 
 ### Azure
 
+- azure CLI
+
 	choco install azure-cli -y
+
+- azure copy (azcopy)
 
 	choco install azcopy -y
 
@@ -133,6 +239,7 @@ choco install azure-data-studio -y
 
 	choco install spotify --ignore-checksums -y
 
-## See also
+## External references
 
-- [Best list of best chocolatet software packages](https://blog.atwork.at/post/install-your-essential-software-with-Chocolatey)
+- [Best list of best chocolatey software packages](https://blog.atwork.at/post/install-your-essential-software-with-Chocolatey)
+

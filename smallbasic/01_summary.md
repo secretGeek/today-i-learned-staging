@@ -1,4 +1,4 @@
-﻿
+
 # smallbasic{.chapter}
 
 ## content

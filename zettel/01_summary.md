@@ -1,4 +1,4 @@
-﻿
+
 # zettel{.chapter}
 
 ## content

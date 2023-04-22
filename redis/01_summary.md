@@ -1,4 +1,4 @@
-﻿
+
 # redis{.chapter}
 
 ## content

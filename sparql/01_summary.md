@@ -1,4 +1,4 @@
-﻿
+
 # sparql{.chapter}
 
 ## content

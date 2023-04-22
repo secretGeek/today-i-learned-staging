@@ -1,4 +1,4 @@
-﻿
+
 # scoop{.chapter}
 
 ## content

@@ -1,4 +1,4 @@
-﻿# Find all the TODO's in a file or folder
+# Find all the TODO's in a file or folder
 
 	function todo()
 	{

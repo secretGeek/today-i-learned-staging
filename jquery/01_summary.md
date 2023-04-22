@@ -1,4 +1,4 @@
-﻿
+
 # jquery{.chapter}
 
 ## content

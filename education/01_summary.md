@@ -1,4 +1,4 @@
-﻿
+
 # education{.chapter}
 
 ## content

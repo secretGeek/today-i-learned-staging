@@ -1,4 +1,4 @@
-﻿
+
 # speech{.chapter}
 
 ## content

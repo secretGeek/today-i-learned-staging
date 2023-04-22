@@ -1,4 +1,4 @@
-﻿
+
 # cpu analyzer{.chapter}
 
 ## content

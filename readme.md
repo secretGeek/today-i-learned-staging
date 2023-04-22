@@ -137,11 +137,11 @@ Though this site is published as a free digital-only book, I've also published a
  | [prometheus](prometheus/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [questions](questions/01_summary.md) | 1 article |
+ | [r language](r_language/01_summary.md) | 1 article |
  | [react](react/01_summary.md) | 3 articles |
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [robocopy](robocopy/01_summary.md) | 1 article |
- | [r language](r_language/01_summary.md) | 1 article |
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 3 articles |
  | [scoop](scoop/01_summary.md) | 1 article |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
@@ -151,10 +151,10 @@ Though this site is published as a free digital-only book, I've also published a
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
- | [sqlite](sqlite/01_summary.md) | 3 articles |
  | [sql server](sql_server/01_summary.md) | 74 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
+ | [sqlite](sqlite/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
  | [svg](svg/01_summary.md) | 4 articles |
  | [tcl](tcl/01_summary.md) | 1 article |
@@ -173,9 +173,9 @@ Though this site is published as a free digital-only book, I've also published a
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 19 articles |
- | [windows.forms](windows.forms/01_summary.md) | 7 articles |
  | [windows scheduler](windows_scheduler/01_summary.md) | 2 articles |
- | [winget](winget/01_summary.md) | 1 article |
+ | [windows.forms](windows.forms/01_summary.md) | 7 articles |
+ | [winget](winget/01_summary.md) | 2 articles |
  | [winword](winword/01_summary.md) | 1 article |
  | [wordle](wordle/01_summary.md) | 1 article |
  | [wordpress](wordpress/01_summary.md) | 1 article |
@@ -186,5 +186,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-771 articles
-211956 words
+772 articles
+212279 words

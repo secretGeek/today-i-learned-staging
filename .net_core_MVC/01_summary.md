@@ -1,4 +1,4 @@
-﻿
+
 # .net core MVC{.chapter}
 
 ## content

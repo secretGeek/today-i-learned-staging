@@ -1,4 +1,4 @@
-﻿# Aliases in git
+# Aliases in git
 
 This is one of my favorite things about git, the alias system. I could play with this all day.
 

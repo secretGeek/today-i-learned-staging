@@ -1,4 +1,4 @@
-﻿
+
 # python{.chapter}
 
 ## content
