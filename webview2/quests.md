@@ -29,7 +29,11 @@ async void InitializeAsync()
    // set the initial URL
    webView.Source = new Uri("https://test.editor/editor.htm");
 }
+```
 
+...which depends on an implementation of `WebView_NavigationCompleted` -- for example:
+
+```csharp
 private void WebView_NavigationCompleted(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationCompletedEventArgs e)
 {
     if (e.IsSuccess)
@@ -41,3 +45,4 @@ private void WebView_NavigationCompleted(object sender, Microsoft.Web.WebView2.C
         webView.Visibility = Visibility.Visible;
     }
 }
+```
