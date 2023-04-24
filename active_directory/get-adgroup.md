@@ -84,20 +84,17 @@ Then we use the syntax in the examples above to fetch and return that property.
 
 Or without RSAT, show all of the properties for a user....
 
-   (New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$('leon.bambrick')))")).FindOne().Properties
+	(New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$('leon.bambrick')))")).FindOne().Properties
 
 Or just show the property names (still without RSAT)
 
-   (New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$('leon.bambrick')))")).FindOne().Properties.Keys
+	(New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$('leon.bambrick')))")).FindOne().Properties.Keys
 
 Or (still without RSAT) search for a property that matches a pattern:
 
 
-   (New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$($ENV:UserName)))")).FindOne().Properties |
+	(New-Object System.DirectoryServices.DirectorySearcher("(&(objectCategory=User)(samAccountName=$($ENV:UserName)))")).FindOne().Properties |
       % { $xx = $_; $_.Keys  | ? { $_ -like "*pass*"} | % { write-host "$_" -f yellow -n; write-host "`t`t$($xx[$_])" -f white } }
-
-
-
 
 ## Find user details of a user from a different Domain Controller
 

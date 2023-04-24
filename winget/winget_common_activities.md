@@ -1,5 +1,7 @@
 # Winget common activities
 
+
+
 ## Search for an available tool at any of the sources you have enabled (that you have not necessarily installed)
 
     winget search <appname>
