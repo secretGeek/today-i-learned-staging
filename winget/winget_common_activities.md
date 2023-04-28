@@ -1,7 +1,5 @@
 # Winget common activities
 
-
-
 ## Search for an available tool at any of the sources you have enabled (that you have not necessarily installed)
 
     winget search <appname>
@@ -21,7 +19,6 @@ Note that you don't use "*" or "?" to search for matches -- just type partial wo
     winget list edge
 
 Will list any locally installed package with "edge" in the name.
-
 
 ## Upgrade an installed package
 

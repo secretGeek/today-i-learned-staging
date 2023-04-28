@@ -61,6 +61,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [banking](banking/01_summary.md) | 1 article |
  | [bookmarklets](bookmarklets/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
+ | [chat-gpt](chat-gpt/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 8 articles |
  | [concepts](concepts/01_summary.md) | 19 articles |
  | [console](console/01_summary.md) | 5 articles |
@@ -77,7 +78,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [edge](edge/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 3 articles |
- | [Entity Framework](Entity_Framework/01_summary.md) | 5 articles |
+ | [Entity Framework](Entity_Framework/01_summary.md) | 6 articles |
  | [examples](examples/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 8 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
@@ -186,5 +187,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-772 articles
-212505 words
+775 articles
+213745 words

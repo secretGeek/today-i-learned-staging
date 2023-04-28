@@ -24,3 +24,7 @@ And for each migration being rolled back you'll see the result of running the 'd
 	Reverting explicit migration: 202106211412384_Migration_After_The_One_Your_Targeting.
 	DELETE [dbo].[__MigrationHistory]
 	WHERE (([MigrationId] = N'202106211412384_Migration_After_The_One_Your_Targeting') AND ([ContextKey] = N'Your_DbContext'))
+
+## See also
+
+- [Rollback Migration In Entity Framework Core](Rollback_Migration_In_Entity_Framework_Core.md)
