@@ -101,6 +101,17 @@ I set `save_preprocessed_data_path` to `preprocessed-data.json` -- this produces
 | `preprocessing_processes`		|1    	| |
 | `fp16`						|False	| If true, enables half precision training which saves space by using 16 bits instead of 32 to store the model's weights. Only available when CUDA/a a GPU is being used.|
 
+
+## About the training data
+
+For the purposes of this example, I generated a file of cheese sandwich making instructions, with one sentence per line.
+
+I used the "spintax" sentence, and plugged it into the spintax spinner here: [spintax test editor](https://wiki.secretgeek.net/article/spin) - then used [NimbleText](https://NimbleText.com) to sort it, remove duplicates, and shuffle it. That gave me a lot of boring examples, for illustration purposes.
+
+'''spintax
+{you can|you should|anyone can} {construct|build|make} {a|a basic|your|your basic|a yummy} cheese sandwich {by|by just|by simply} {putting|placing|sticking|inserting|tucking} a {cheese slice|slice of cheese|cheese slice (or two)|slab of cheese} {between|in-between|inside} two {pieces|slices} of {bread|toast|your favorite bread}
+'''
+
 ## Sources
 
 - [HappyTransformer Learning Parameters](https://happytransformer.com/learning-parameters/)

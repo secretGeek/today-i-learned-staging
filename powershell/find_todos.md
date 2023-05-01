@@ -121,7 +121,7 @@ Currently something like.... (this is dynamically loaded from util)
 	}
 	
 	function format-foundtextdimmed ($result, $len1, $raw, $caseSensitive) {
-	    Write-Host "$($result.RelativeName.SubString(0, $len1))" -f darkblue -n;
+	    Write-Host $result.RelativeName.SubString(0, $len1) -f darkblue -n;
 	    Write-Host "$($result.RelativeName.SubString($len1)) " -f cyan -n;
 	    Write-Host "$($result.LineNumber) " -f yellow -n;
 	    Write-MarkedPatternInline ($result.Pattern) ($result.Line.Trim()) $raw $caseSensitive;
