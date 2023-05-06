@@ -54,13 +54,13 @@ Currently something like.... (this is dynamically loaded from util)
 	        $Raw = $false,
 	        [Bool]
 	        $CaseSensitive = $false,
-			[String[]]
-			$overRideWithFileTypes = $null
+	        [String[]]
+	        $overRideWithFileTypes = $null
 	    )
 	
-		if ($overRideWithFileTypes -eq $null) {
-			$overRideWithFileTypes = $fileTypes;
-		}
+	    if ($overRideWithFileTypes -eq $null) {
+	        $overRideWithFileTypes = $fileTypes;
+	    }
 	
 	    Get-ChildItem -Path * -Include $overRideWithFileTypes -Exclude .git, .hg, *jquery*, modernizr* -Recurse:$Recursive |
 	        Where-Object { $_.FullName -inotmatch 'node_modules' } |

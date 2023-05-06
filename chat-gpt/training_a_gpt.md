@@ -106,7 +106,7 @@ I set `save_preprocessed_data_path` to `preprocessed-data.json` -- this produces
 
 For the purposes of this example, I generated a file of cheese sandwich making instructions, with one sentence per line.
 
-I used the "spintax" sentence, and plugged it into the spintax spinner here: [spintax test editor](https://wiki.secretgeek.net/article/spin) - then used [NimbleText](https://NimbleText.com) to sort it, remove duplicates, and shuffle it. That gave me a lot of boring examples, for illustration purposes.
+I used the "spintax" syntax, and plugged it into the spintax-spinner here: [spintax test editor](https://wiki.secretgeek.net/article/spin) - then used [NimbleText](https://NimbleText.com) to sort it, remove duplicates, and shuffle it. That gave me a lot of boring examples, for illustration purposes.
 
 '''spintax
 {you can|you should|anyone can} {construct|build|make} {a|a basic|your|your basic|a yummy} cheese sandwich {by|by just|by simply} {putting|placing|sticking|inserting|tucking} a {cheese slice|slice of cheese|cheese slice (or two)|slab of cheese} {between|in-between|inside} two {pieces|slices} of {bread|toast|your favorite bread}

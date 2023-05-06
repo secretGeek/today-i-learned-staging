@@ -136,7 +136,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [ppmp](ppmp/01_summary.md) | 1 article |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [prometheus](prometheus/01_summary.md) | 1 article |
- | [python](python/01_summary.md) | 8 articles |
+ | [python](python/01_summary.md) | 10 articles |
  | [questions](questions/01_summary.md) | 1 article |
  | [r language](r_language/01_summary.md) | 1 article |
  | [react](react/01_summary.md) | 3 articles |
@@ -173,7 +173,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [vs code](vs_code/01_summary.md) | 11 articles |
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
- | [windows](windows/01_summary.md) | 19 articles |
+ | [windows](windows/01_summary.md) | 20 articles |
  | [windows scheduler](windows_scheduler/01_summary.md) | 2 articles |
  | [windows.forms](windows.forms/01_summary.md) | 7 articles |
  | [winget](winget/01_summary.md) | 2 articles |
@@ -187,5 +187,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-775 articles
-213843 words
+778 articles
+214238 words

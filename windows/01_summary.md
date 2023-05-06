@@ -4,6 +4,7 @@
 ## content
 
 - [10 configuration changes to make on a new windows computer](new-computer-steps.md)
+- [Developer Settings -- Developer Mode on Windows](developer_settings.md)
 - [Does not have a program associated with it](program_associated.md)
 - [Environment variables -- view/edit them on windows](environment_variables.md)
 - [Feature on demand](feature_on_demand.md)
