@@ -82,15 +82,15 @@ function Prune-Branches($force = $false) {
 
     git branch -vv |
         Select-String ": gone]" |
-        % { 
+        % {
 
             $branchName = (($_.ToString().Trim()) -split "\s")[0];
-            
+
             if ($force) {
                 if ("release", "main", "master", "dev" -notcontains $branchName) {
                     Write-Host "# Removing: $branchName " -f red;
                     Write-Host "> git branch -D $branchName " -f gray;
-                    git branch -D $branchName 
+                    git branch -D $branchName
                 }
                 else {
                     Write-Host "**** Protection against deleting $branchName " -f yellow;

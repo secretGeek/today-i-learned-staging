@@ -1,4 +1,4 @@
-# Upgrade `gh.exe` -- the github CLI
+﻿# Upgrade `gh.exe` -- the github CLI
 
 One ghastly day you'll see a message like this:
 
@@ -8,7 +8,7 @@ One ghastly day you'll see a message like this:
 How do you upgrade?
 
 
-### Upgrade on Windows
+## Upgrade on Windows
 
 For Winget:
 
@@ -37,7 +37,6 @@ For Chocolatey:
     - Use that list to get my full list of issues
   - External references
   - See also
-  
+
 - [Getting Started with Winget](../winget/getting_started.md) -- very useful if WinGet is your thing.
 
-  

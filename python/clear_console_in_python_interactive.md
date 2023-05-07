@@ -5,7 +5,7 @@
 And then --
 
 	cls()
-	
+
 Description, from [stackoverflow answer](https://stackoverflow.com/a/50560686/49) --
 
 

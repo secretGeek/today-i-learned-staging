@@ -1,6 +1,6 @@
 ﻿# Git: how do i revert a single file
 
-## Revert changes to a file if you haven't staged it...
+## Revert changes to a file if you haven't staged it
 
 To revert changes to 1 file and just make it the same as the head....
 
@@ -16,7 +16,7 @@ And if a file is staged -- unstage it with
 
 ## Revert all local changes
 
-You've made a total mess of the local state... and just want things as they were before you messed with the most recent commit....
+You've made a total mess of the local state... and just want things as they were before you messed with the most recent commit...
 
 The infamous `git reset --hard`
 
@@ -31,5 +31,3 @@ Clean those with:
 ...where `-fxd` is a combination of `-f` for "force" (`--force`), `-x` for "don't use standard ignore rules" and `-d` for "recurse into untracked directories too"
 
 `tip` -- Consider all adding `-n` for `--dry-run` if you're not sure what `git clean -fxd` is about to do!
-
-

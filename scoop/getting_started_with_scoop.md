@@ -1,4 +1,4 @@
-# Getting Started With Scoop on Windows
+﻿# Getting Started With Scoop on Windows
 
 As stated at <https://scoop.sh>
 
@@ -48,7 +48,7 @@ It puts all packages in the folder `~\scoop`
 
 That is scoop's "home".
 
-## Upgrading / Updating scoop itself 
+## Upgrading / Updating scoop itself
 
 
 
@@ -80,7 +80,7 @@ Here is a list of all the "repositories" which scoop considers to be buckets:
 - <https://scoop.sh/#/buckets>
 
 From [this webpage you can search all buckets](https://scoop.sh/#/apps), including ones that are not "official", e.g.
-  
+
 - <https://scoop.sh/#/apps?s=0&d=1&o=false&q=chatgpt>
 
 
@@ -147,7 +147,7 @@ Example of the output...
 ## Another example of searching with scoop search
 
 	> scoop search python
-	
+
 	Results from local buckets...
 
 	Name       Version  Source Binaries

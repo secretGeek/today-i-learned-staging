@@ -2,7 +2,7 @@
 
 In Windows search, search for Settings: Developer Settings
 
-This shows you a section under "Privacy & Security" that groups together a bunch of settings that developer are interested in. 
+This shows you a section under "Privacy & Security" that groups together a bunch of settings that developer are interested in.
 
 The first one, "Developer Mode" allows a few features, but allegedly it allows symlinks to be used/created by non-admin apps. (As it should!)
 
