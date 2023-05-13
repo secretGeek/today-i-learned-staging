@@ -52,3 +52,4 @@ When creating a cherry pick for a hot-fix to main -- you probably want to follow
 
 - [Branching in git](branch.md)
 - [Merge a branch to main](merge_branch_to_main.md)
+- [Checkout specific revision](checkout-specific-revision.md)

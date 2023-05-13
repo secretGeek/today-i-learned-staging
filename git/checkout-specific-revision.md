@@ -35,8 +35,8 @@ Then simply `git checkout {thatName}` e.g.
 
 ## Source(s)
 
-- [Checkout a specific revision with Git — SysGears](https://sysgears.com/notes/checkout-a-specific-revision-with-git/)
+- [Checkout a specific revision with Git - SysGears](https://sysgears.com/notes/checkout-a-specific-revision-with-git/)
 
 ## See also
 
-- [checkout specific revision](../git/checkout-specific-revision)
+- [Cherry-pick some commits from one branch to another](cherry-pick.md)

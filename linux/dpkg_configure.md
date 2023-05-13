@@ -1,4 +1,4 @@
-﻿# dkpg was interrupted, you must manually run 'sudo dpkg --configure -a'
+﻿# dpkg was interrupted, you must manually run 'sudo dpkg --configure -a'
 
 I was supposed to upgrade the "do agent" (digital ocean)
 
@@ -55,4 +55,4 @@ I *was* able to run:
 ## Sources
 
 - [How to Upgrade from the Legacy Metrics Agent to the Current Agent](https://docs.digitalocean.com/products/monitoring/how-to/upgrade-legacy-agent/)
-- [FIXING THE DREADED “ERRORS WERE ENCOUNTERED WHILE PROCESSING” ERRORS](https://journalxtra.com/linux/fixing-the-dreaded-errors-were-encountered-while-processing-errors/)
+- [FIXING THE DREADED "ERRORS WERE ENCOUNTERED WHILE PROCESSING" ERRORS](https://journalxtra.com/linux/fixing-the-dreaded-errors-were-encountered-while-processing-errors/)
