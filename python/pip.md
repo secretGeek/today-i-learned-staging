@@ -29,7 +29,7 @@ Here are two folders I added in this case:
 
 I found that installing things with `pip` often requires an elevated shell.
 
-## Upgrading pip
+## Upgrading pip - use an ELEVATED console
 
 Sometimes you see a message like this
 
@@ -39,3 +39,8 @@ Sometimes you see a message like this
 So here is the upgrade command... again, need an `elevated` shell
 
 	python -m pip install --upgrade pip
+
+
+## List locally installed packages
+
+	pip list

@@ -16,14 +16,17 @@ Try the process outlined here [Mark Heath](https://markheath.net/post/how-to-con
 
 ### Get the hg-git extension
 
-Clone this -- https://gitea.pep.foundation/claudio/hg-git.git
+Install hg-git via [pip](../python/pip.md) -- from an elevated console:
 
-(Can no longer be grabbed from its old bitbucket location)
+	pip install mercurial
+	pip install hg-git
 
-Add it to your `mercurial.ini` file
+
+
+Enable it in your `mercurial.ini` file
 
 	[extensions]
-	hggit = c:/users/user1/code/hg-repos/hg-git/hggit
+	hggit =
 
 To see if it is now available, type `hg help extensions` and it should be listed under "enabled extensions" like so:
 
@@ -37,6 +40,14 @@ enabled extensions:
 Also -- this should return some help for it...
 
 	hg help hggit
+
+says:
+
+	hggit extension - push and pull from a Git server
+
+	This extension lets you communicate (push and pull) with a Git server... etc.
+
+	
 
 ## Write down the source and the target
 
@@ -110,8 +121,10 @@ To stop tracking an item that you do not wish to track (see [Remove a file from 
 1. Make sure the `.gitignore` is ignoring the file
 2. Run: `git rm --cached path/to/file/to/stop/tracking.dll`
 3. Verify that the file still exists locally, but git sees it as removed:
-		git stat # git thinks the file is deleted?
-		dir path/to/file/to/stop/tracking.dll # file is still there?
+
+		git stat                              # git thinks file is deleted?
+		dir path/to/file/to/stop/tracking.dll # file still exists on disk?
+
 4. Commit your work with `git commit -a -m "removed a generated file we don't need to track"`
 
 ## Import your new repo into github

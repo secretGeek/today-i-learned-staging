@@ -71,4 +71,4 @@ So there you have it, the 7 most peculiar boshisms in all their glory. And if yo
 - [7 Peculiar Boshisms](7-peculiar-boshisms.md)
 - [The art of keywording](art-of-keywording.md)
 - [Painless Refactoring With Code Maps](refactoring-maps.md)
-
+- [Gaksloope](https://wiki.secretGeek.net/gaksloope)
