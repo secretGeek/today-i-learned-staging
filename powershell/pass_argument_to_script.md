@@ -72,3 +72,4 @@ What about -- a filename that must be an existing file...
 
 - [console: ndesk options](../console/ndesk_options.md) -- for doing the same in a C# console app.
 - [How to do default parameter values in Powershell](default_parameter_values.md)
+- [Parameters: general guide](parameters_general_guide.md)

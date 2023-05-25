@@ -69,7 +69,12 @@ Apart from remembering the "no brackets" syntax -- you also need to learn how to
 
 todo: ValueFromPipeline
 
+
+## `[CmdletBinding()]`
+
 ## `[ValueFromPipelineByPropertyName()]`
+
+
 
     function kvi {
     # AAA reads stream. you give it an object. it will iterate it and return an object which is the keys.
@@ -85,10 +90,45 @@ todo: ValueFromPipeline
         [string]$ApiKey
     )
 
-todo: ValueFromPipelineByPropertyName
-todo: ParameterSetName
-todo: PSAvoidUsingPositionalParameters
-todo: ValueFromRemainingArguments / Passthrough
+
+## `[ParameterSetName]`
+
+	[Parameter(Mandatory, ParameterSetName = 'ById')]
+
+Another example
+
+### `[Parameter(Mandatory, ParameterSetName = 'ById')]`
+
+
+    [CmdletBinding()]
+    Param(
+		[Parameter(Mandatory, ParameterSetName = 'ById')]
+        [ValidateNotNullOrEmpty()]
+        [Alias('BaseName', 'BaseId')]
+        [string]$BaseIdentity,
+
+        [Parameter(Mandatory, ParameterSetName = 'ById')]
+        [ValidateNotNullOrEmpty()]
+        [string]$Table,
+
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [hashtable]$Fields,
+
+        [switch]$PassThru
+    )
+
+## `PSAvoidUsingPositionalParameters` 
+
+- PSAvoidUsingPositionalParameters
+
+## `ValueFromRemainingArguments`
+
+- ValueFromRemainingArguments
+
+## `Passthrough`
+
+- Passthrough
 
 ## Source(s)
 
@@ -97,5 +137,5 @@ todo: ValueFromRemainingArguments / Passthrough
 
 ## See also
 
-- [parameters general guide](../powershell/parameters general guide.md)
-- CmdLetBinding
+- [How to pass an argument to a powershell script](pass_argument_to_script.md)
+- [How to do default parameter values in Powershell](default_parameter_values.md)

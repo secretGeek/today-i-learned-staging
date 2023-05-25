@@ -51,6 +51,7 @@ Aliases from my `~\.gitconfig` file:
 		trustExitCode = true
 	[safe]
 		directory = C:/Users/leonb/Dropbox/secretGeek/all_someday_projects/git_playground/activicta
+		directory = C:/Users/leonb/Dropbox/secretGeek/websites/joy.nt
 
 
 ## See also
