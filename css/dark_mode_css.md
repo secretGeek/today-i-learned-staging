@@ -229,3 +229,5 @@ If there are any individual colors you aren't happy with, it's easy to tweak the
 - [SSMS Dark Mode in SQL Server Management Studio](../sql_server/SSMS_Dark_Mode.md)
 - [Dark Theme in Notepad++](../notepad++/dark_theme_notepad++.md)
 - [Css Properties of Current Page](css_properties_of_current_page.md)
+- [How to show a little arrow glyph after 'target="_blank"' anchors](glyph_after_blank_anchors.md)
+- [CSS Variables are cool](https://secretgeek.net/var_hue)

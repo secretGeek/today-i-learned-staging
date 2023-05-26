@@ -97,3 +97,4 @@ Remove distractions. "#hot-network-questions"
 ## See also
 
 - [Custom Style Tags on Azure Devops Sprint Board](../azure_devops/custom_style_tags.md)
+- [Template for a UserScript](userscript_template.md)
