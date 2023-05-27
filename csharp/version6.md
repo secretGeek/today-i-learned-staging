@@ -336,7 +336,7 @@ Need to deal with different cultures? Implicitly convert formatted string to `Fo
 	Console.WriteLine(str.ToString(new CultureInfo("en-UK")));
 	//Today is 7/16/2019 12:00:00 AM
 
-Escaping is pretty important in strings... we know about "@" strings.... how do thye combine with "$" strings? The dollars come first. That's easy to remember.
+Escaping is pretty important in strings... we know about `@` strings... how do they combine with `$` strings? The dollars come first. (That's easy to remember!)
 
 	var path = $@"C:\Users\{userName}\Documents";
 

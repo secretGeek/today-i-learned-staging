@@ -109,7 +109,7 @@ The class is like this:
 			}
 	}
 
-And in `static void main` Add this as the first line....
+And in `static void main` Add this as the first line...
 
 	if (!ProcessChecker.IsOnlyProcess("Focus")) return;
 

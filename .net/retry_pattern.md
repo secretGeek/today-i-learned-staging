@@ -2,7 +2,7 @@
 
 I'm not sure I want to share this, or encourage this... but it's a piece of code I wrote for doing a "retry" of an unreliable action.
 
-	public bool Retry(Action a, int maxRetries = 10)
+	public bool Retry(Action a, int maxRetries = 3)
 	{
 		int retries = 0;
 		int sleepDelay = 500;
