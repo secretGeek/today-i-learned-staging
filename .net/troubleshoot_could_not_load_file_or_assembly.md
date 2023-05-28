@@ -34,23 +34,23 @@ The last part of the output from this:
 
 Now -- the basic process is:
 
-	1. Run your application (the one that experiences the problem)
-	2. Find out its process id
-	3. Tell `dotnet-trace` to trace that process id, and capture events related to assembly loading
-	4. Stop `dotnet-trace`
-	5. Find the file it has created
-	6. import that file onto your windows machine and inspect it there (using visual studio)
+1. Run your application (the one that experiences the problem)
+2. Find out its process id
+3. Tell `dotnet-trace` to trace that process id, and capture events related to assembly loading
+4. Stop `dotnet-trace`
+5. Find the file it has created
+6. Import that file onto your windows machine and inspect it there (using visual studio)
 
-(There's other ways you can do those last steps -- you could convert it to a different format on linux and inspect it on linux... or bring it to windows/Mac and other tools that visual studio to do the analysis.)
+(There's other ways you can do those last steps -- you could convert it to a different format on linux (`speedscope`) and inspect it right there on linux... or bring it to Windows/Mac and use tools other than Visual Studio to do the analysis.)
 
 
-### Run your application (the one that experiences the problem)
+### 1. Run your application (the one that experiences the problem)
 
 In my case the application is always running, supervisor takes care of that.
 
 Otherwise -- run it from the console. And then leave that console open. From a different console, you will do the next steps:
 
-### Find out its process id
+### 2. Find out its process id
 
 This is something I often have to do anyway... I use "ps x | grep STRING" where string is a part of the name of the application.
 
@@ -65,7 +65,7 @@ Once of those is my target app --
 	1751 ?        SLl    0:07 /usr/bin/dotnet /opt/webapps/mywebapp/app/myapp.dll
 
 
-### Tell `dotnet-trace` to trace that process id, and capture events related to assembly loading
+### 3. Tell `dotnet-trace` to trace that process id, and capture events related to assembly loading
 
 
 Now we know the process id is `1751` -- we run `dotnet-trace` and give it that proess id.
@@ -139,25 +139,21 @@ The first 4 was 'fusion' - the second number is the `clreventlevel` ([see](https
 
 Now that it's running, do whatever is needed to "cause" the File Not Found error you want to debug.
 
-### Stop `dotnet-trace`
+### 4. Stop `dotnet-trace`
 
 Stop dotnet-trace with Ctrl-C.
 
+### 5. Find the file it has created
 
+You will see that it has written a `*.nettrace` file in your `home/user` (`~`) folder -- it will tell you the exact name in its output.
 
-### Find the file it has created
+### 6. Import that file onto your windows machine and inspect it there (using visual studio)
 
-
-You will see that it has written a `.nettrace` file in your `home/user` (`~`) folder -- it will tell you the exact name in its output.
-
-
-### Import that file onto your windows machine and inspect it there (using visual studio)
-
-Copy that  `.nettrace` file onto your windows machine.
+Copy that `*.nettrace` file onto your windows machine.
 
 Open it with visual studio --- sometimes this fails. I found I needed a "clean" instance of visual studio.
 
-First it converts the file into a  `.nettrace.etlx` file.
+First it converts the file into a `*.nettrace.etlx` file.
 
 Now look at what the events says.
 
@@ -168,7 +164,7 @@ Look until the beads of blood begin to pool on your forehead.
 This is where I ran out of luck atm. 
 
 But tomorrow brings fresh hope.
-
+	
 
 ## Other thoughts
 
