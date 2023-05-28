@@ -47,7 +47,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 8 articles |
+| [.net](.net/01_summary.md) | 9 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
  | [7z](7z/01_summary.md) | 2 articles |
  | [active directory](active_directory/01_summary.md) | 3 articles |
@@ -187,5 +187,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-779 articles
+780 articles
 216989 words

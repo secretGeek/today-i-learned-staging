@@ -10,4 +10,5 @@
 - [ParseExact (and TryParseExact)](parse_exact.md)
 - [Pluralization Helper](pluralize.md)
 - [Retry Pattern in C#](retry_pattern.md)
+- [Troubleshooting File Not Found Exception" - "Could not load file or assembly"](troubleshoot_could_not_load_file_or_assembly.md)
 - [Zip a single file](zipfile.md)
