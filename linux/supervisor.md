@@ -139,6 +139,24 @@ i.e.
 
 Add that to your cron jobs using crontab (described in [cron](cron.md)).
 
+
+## Useful `.ok` file for `/etc/supervisor/conf.d` folder
+
+I use [ok.sh](https://github.com/secretGeek/ok-bash) on all my linux/mac systems (and [ok-ps](https://github.com/secretGeek/ok-ps) on all my windows systems)
+
+
+	ls *.conf -al # view config of each app
+	cat *.conf  | grep 'out\.log\|program'
+	sudo tail -n 100 -f /var/log/supervisor/supervisord.log # check sup's log
+	sudo tail -n 150 -f /var/log/myapp1.out.log
+	sudo tail -n 150 -f /var/log/myapp2.out.log
+	service supervisor status
+	cd /etc/nginx/; d # nginx
+
+(Those lines that say for example: `sudo tail -n 150 -f /var/log/myapp1.out.log` ...i have something other than `myapp1` -- i have the name of the log files output by my web apps. The same files I can find the name of with `cat *.conf  | grep 'out\.log\|program'`)
+
+The last line of the `.ok` file takes me to the [nginx](nginx.md) config folder, where I have another [`.ok` file](https://github.com/secretGeek/ok-bash).
+
 ## Sources
 
 - [Supervisord: Restarting and Reloading](http://www.onurguzel.com/supervisord-restarting-and-reloading/)
@@ -147,3 +165,4 @@ Add that to your cron jobs using crontab (described in [cron](cron.md)).
 ## See also
 
 - [cron & crontab](cron.md)
+- [nginx - a web server](nginx.md)

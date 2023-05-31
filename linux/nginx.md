@@ -150,7 +150,21 @@ And reload the nginx service with good old:
 
 I re-run the pagespeed test and my scores are up by 3 points.
 
-## Source
+## .ok file for nginx folder
+
+I use [ok.sh](https://github.com/secretGeek/ok-bash) on all my linux/mac systems (and [ok-ps](https://github.com/secretGeek/ok-ps) on all my windows systems)
+
+Here's a useful `.ok` file for your `/etc/nginx` folder:
+
+	cat sites-available/* | grep 'server_name\|local'
+	ls sites-*/*                    # look at all sites files
+	sudo nginx -t                   # verify config
+	sudo nginx -s reload            # *reload* nginx config
+	cd /etc/supervisor/conf.d/; d   # supervisor
+	
+Note that the last line takes me to the [supervisor](supervisor.md) config folder (where I have a similar `.ok` file)
+
+## Sources
 
 - <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>
 - <https://docs.asp.net/en/latest/publishing/linuxproduction.html>
@@ -160,3 +174,4 @@ I re-run the pagespeed test and my scores are up by 3 points.
 ## See also
 
 - [IP Address in .net core MVC](../.net_core_MVC/ip_address.md)
+- [Supervisor... it keeps your app running](supervisor.md)

@@ -151,3 +151,4 @@ I haven't accurately captured all of the sources for this.
 ## See also
 
 - [How much memory is free?](how_much_memory_is_free.md)
+- [dpkg was interrupted, you must manually run 'sudo dpkg --configure -a'](dpkg_configure.md)
