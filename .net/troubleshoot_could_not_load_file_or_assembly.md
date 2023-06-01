@@ -214,8 +214,123 @@ How is probing performed:
 > 4. The privatePath attribute of the <probing> element, which is the user-defined list of subdirectories under the root location. This location can be specified in the application configuration file and in managed code using the AppDomainSetup.PrivateBinPath property for an application domain. When specified in managed code, the managed code privatePath is probed first, followed by the path specified in the application configuration file.
 
 
+## Running with the LD_DEBUG Enviroment variable
+
+In the error message it sauid:
+
+	System.DllNotFoundException: Unable to load shared library 'e_sqlite3' or one of its dependencies. In order to help diagnose loading problems, consider setting the LD_DEBUG environment variable: libe_sqlite3: cannot open shared object file: No such file or directory
+
+So I decided to take the advice and "consider setting the LD_DEBUG environment variable"
+
+To do this -- I ran the app preceded by `LD_DEBUG="libs"` like so:
+
+	LD_DEBUG="libs" /usr/bin/dotnet /opt/webapps/myapp.dll -r linux-x64 --sc
+	
+(The `-r linux-X64` and `--sc`were already part of my commandline to run the app. I'm running it as a "self-contained" app, on 64 bit linux.)
 
 
+No it gave a lot more output and I got to see a much cleared picture of what was actually failing.
+
+
+There was a few hundred lines of output -- i was interested in what it was saying overall, as well as the first and second major error and how it responded to it.
+
+Here's just those bits...
+
+
+	LD_DEBUG="libs" /usr/bin/dotnet /opt/webapps/myapp.dll -r linux-x64 --sc
+     27968:     find library=libpthread.so.0 [0]; searching
+     ... (100 lines gone)
+     27968:     calling init: /opt/webapps/libcoreclrtraceptprovider.so
+     27968:
+     27968:     /usr/bin/dotnet: error: symbol lookup error: undefined symbol: DllMain (fatal)
+     27968:     /opt/webapps/libcoreclr.so: error: symbol lookup error: undefined symbol: PAL_RegisterModule (fatal)
+	 
+^^ Okay it had a fatal error in `DllMain`	 
+ 
+	 
+     27968:
+     27968:     calling init: /opt/webapps/libclrjit.so
+     27968:
+     27968:     /opt/webapps/libclrjit.so: error: symbol lookup error: undefined symbol: DllMain (fatal)
+     27968:     /usr/bin/dotnet: error: symbol lookup error: undefined symbol: DllMain (fatal)
+     27968:     find library=e_sqlite3.so [0]; searching
+	 
+	 
+	 `libclrjit.so` is trying to find `e_sqlite3.so` 
+	 
+	 
+     27968:      search cache=/etc/ld.so.cache
+     27968:      search path=/lib/x86_64-linux-gnu/tls/x86_64:/lib/x86_64-linux-gnu/tls:/lib/x86_64-linux-gnu/x86_64:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/tls/x86_64:/usr/lib/x86_64-linux-gnu/tls:/usr/lib/x86_64-linux-gnu/x86_64:/usr/lib/x86_64-linux-gnu:/lib/tls/x86_64:/lib/tls:/lib/x86_64:/lib:/usr/lib/tls/x86_64:/usr/lib/tls:/usr/lib/x86_64:/usr/lib            (system search path)
+     27968:       trying file=/lib/x86_64-linux-gnu/tls/x86_64/e_sqlite3.so
+     27968:       trying file=/lib/x86_64-linux-gnu/tls/e_sqlite3.so
+     27968:       trying file=/lib/x86_64-linux-gnu/x86_64/e_sqlite3.so
+     27968:       trying file=/lib/x86_64-linux-gnu/e_sqlite3.so
+     27968:       trying file=/usr/lib/x86_64-linux-gnu/tls/x86_64/e_sqlite3.so
+     27968:       trying file=/usr/lib/x86_64-linux-gnu/tls/e_sqlite3.so
+     27968:       trying file=/usr/lib/x86_64-linux-gnu/x86_64/e_sqlite3.so
+     27968:       trying file=/usr/lib/x86_64-linux-gnu/e_sqlite3.so
+     27968:       trying file=/lib/tls/x86_64/e_sqlite3.so
+     27968:       trying file=/lib/tls/e_sqlite3.so
+     27968:       trying file=/lib/x86_64/e_sqlite3.so
+     27968:       trying file=/lib/e_sqlite3.so
+     27968:       trying file=/usr/lib/tls/x86_64/e_sqlite3.so
+     27968:       trying file=/usr/lib/tls/e_sqlite3.so
+     27968:       trying file=/usr/lib/x86_64/e_sqlite3.so
+     27968:       trying file=/usr/lib/e_sqlite3.so
+     27968:
+     27968:     /lib/x86_64-linux-gnu/libc.so.6: error: version lookup error: version `GLIBC_2.28' not found (required by /opt/webapps/libe_sqlite3.so) (fatal)
+	
+And it ends by saying that `/opt/webapps/libe_sqlite3.so` (the sqlite binary I have included) requries `GLIBC_2.28` - The Gnu C Library, version 2.28.
+
+It seems that on my virtual machine I have version 2.23 not 2.28
+
+Found by running this command, and looking at its output:
+		
+		$ ldd --version
+		ldd (Ubuntu GLIBC 2.23-0ubuntu11.3) 2.23
+		Copyright (C) 2016 Free Software Foundation, Inc.
+		This is free software; see the source for copying conditions.  There is NO
+		warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+		Written by Roland McGrath and Ulrich Drepper.
+
+Or via this other technique ---
+
+Run this to find `libc`...
+
+	$ ldd `which ls` | grep libc
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f8d676e8000)		
+		
+Then run the `libc` library ....
+	
+	/lib/x86_64-linux-gnu/libc.so.6
+
+
+	/lib/x86_64-linux-gnu/libc.so.6
+	GNU C Library (Ubuntu GLIBC 2.23-0ubuntu11.3) stable release version 2.23, by Roland McGrath et al.
+	Copyright (C) 2016 Free Software Foundation, Inc.
+	This is free software; see the source for copying conditions.
+	There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+	PARTICULAR PURPOSE.
+	Compiled by GNU CC version 5.4.0 20160609.
+	Available extensions:
+			crypt add-on version 2.1 by Michael Glad and others
+			GNU Libidn by Simon Josefsson
+			Native POSIX Threads Library by Ulrich Drepper et al
+			BIND-8.2.3-T5B
+		libc ABIs: UNIQUE IFUNC
+		For bug reporting instructions, please see:
+		<https://bugs.launchpad.net/ubuntu/+source/glibc/+bugs>.
+
+
+Further research indicated that this is typical, on Ubuntu 16.04 you have glibc2.23.
+
+I need to upgrade my ubuntu version (or do some other gnarly stuff).
+
+And not only do I need to upgrade from ubuntu 16.04 to ubuntu 18.04 (the next long term support version) -- I then, immediately need to upgrade to Ubuntu 20.04, as the 5 year long support window for Ubuntu 18.04 ended literally yesterday (`2023-05-31`), the day I was researchin this.
+
+Never fear -- I found that by downgrading to use an older version of the SQLite wrapper libraries, I could get the sqlite calls to continue working on Ubuntu 16.
+
+I will separately prepare a new VM with all upgraded parts and then hot-swap everything over to it, like Indiana Jones swapping that golden skull for a bag of sand. Hopefully I don't end up having to outrun a giant rolling ball. But in any case, as they say in Latin, I have my running shoes on. (It sounds better in Latin, sorry I can't do the voices.)
 
 ## Sources
 

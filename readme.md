@@ -132,7 +132,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [other-works](other-works/01_summary.md) | 3 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 4 articles |
- | [powershell](powershell/01_summary.md) | 110 articles |
+ | [powershell](powershell/01_summary.md) | 111 articles |
  | [ppmp](ppmp/01_summary.md) | 1 article |
  | [productivity](productivity/01_summary.md) | 2 articles |
  | [prometheus](prometheus/01_summary.md) | 1 article |
@@ -187,5 +187,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-780 articles
-217245 words
+781 articles
+218073 words

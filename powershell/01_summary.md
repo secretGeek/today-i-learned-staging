@@ -58,6 +58,7 @@
 - [How to do the equivalent of "dir /w" in powershell?](dir_wide.md)
 - [How to find how much free space is left on a drive](how_to_find_free_space_on_C_drive.md)
 - [How to find parts of a pathinfo object in powershell](how_to_find_parts_of_a_pathinfo_object.md)
+- [How to get the version attributes of a DLL using Powershell](How_to_get_version_of_a_DLL_with_Powershell.md)
 - [How to make a custom class](how_to_make_a_custom_class.md)
 - [How to pass an argument to a powershell script](pass_argument_to_script.md)
 - [How to publish a module](publish_module.md)
