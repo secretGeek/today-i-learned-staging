@@ -24,12 +24,14 @@ but the stuff we'll be dealing with mostly is in this folder:
 
 If you're only going to host one site, then go ahead and edit the file `default`.
 
-But we're not going to do things the easy way: we're going to host multiple sites from this VM. So...
+But we're not going to do things the easy way: we'ore going to host multiple sites from this VM. So...
 
-Make a copy of the file, 'default' and in that file tell us how nginx should pass requests onto your account.
+Make a copy of the file, 'default' and in that file tell us how nginx should pass requests onto your process.
 e.g.
 
     sudo cp default yourdomain.com
+
+A cop of the starting config.
 
 then edit the file, via `sudo`, ...
 
@@ -89,8 +91,8 @@ Once everything is tickety-boo you'll see:
 
     $ sudo nginx -t
     nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-    nginx: configuration file /etc/nginx/nginx.conf test is successful
 
+sites-enabled/    nginx: configuration file /etc/nginx/nginx.conf test is successful
 So you can tell nginx to go ahead and use this newly crafted and verified configuration...
 
     sudo nginx -s reload

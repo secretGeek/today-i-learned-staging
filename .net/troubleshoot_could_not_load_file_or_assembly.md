@@ -14,7 +14,7 @@ On windows, to really deeply troubleshoot this we used to use `fuslogvw` (fusion
 
 On ubuntu... I don't know what to do! -- but some research has shown me a way!
 
-TL/DR -- at this point I went down a `dotnet-trace` rabbit hole, which you can go ahead and read, or you can skip down to [Running with the LD_DEBUG Environment variable](#running-with-the-ld_debug-enviroment-variable) to see how I used the `LD_DEBUG` environment variable to *really* solve the issue. I'm sure `dotnet-trace` will be useful for other issues.
+TL/DR -- at this point I went down a `dotnet-trace` rabbit hole, which you can go ahead and read, or you can skip down to [Running with the LD_DEBUG Environment variable](#running-with-the-ld_debug-environment-variable) to see how I used the `LD_DEBUG` environment variable to *really* solve the issue. I'm sure `dotnet-trace` will be useful for other issues.
 
 There is a tool called `dotnet-trace` -- hence here is a guide to:
 

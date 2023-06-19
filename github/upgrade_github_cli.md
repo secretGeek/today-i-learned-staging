@@ -22,6 +22,10 @@ For Chocolatey:
 
 	choco upgrade gh
 
+
+You don't need to run the command from an elevated prompt.
+
+
 ## See also
 
 - [Github cli](github_cli.md) -- more about the github CLI including these contents:

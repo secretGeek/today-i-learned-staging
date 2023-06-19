@@ -105,6 +105,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [jest](jest/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [json](json/01_summary.md) | 1 article |
+ | [kql](kql/01_summary.md) | 1 article |
  | [kv](kv/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 15 articles |
@@ -187,5 +188,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-781 articles
-218192 words
+782 articles
+218307 words
