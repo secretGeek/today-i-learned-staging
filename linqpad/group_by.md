@@ -51,3 +51,10 @@ Here's a more complex example:
 	}
 
 ...)
+
+
+
+## See also
+
+- [Group by count in KQL](../kql/group_by_count_in_kql.md)
+- [Powershell: group object](../powershell/group_objects_in_powershell.md)

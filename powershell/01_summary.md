@@ -103,6 +103,7 @@
 - [To test if the current user is an admin](is_current_user_admin.md)
 - [Top 10 files by size, in all subfolders](top_ten_files.md)
 - [Tree](tree.md)
+- [Typical Chain of Actions in Powershell functions](chain_of_actions.md)
 - [Use Get-Module to list all available modules (packages)](Get_All_Available_Modules.md)
 - [Use Google Maps from the PowerShell](Use_Google_Maps.md)
 - [Use Job to measure Processors](Use_Job_To_Measure_Processors.md)

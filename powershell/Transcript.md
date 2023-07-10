@@ -29,7 +29,7 @@ To get the location of the current or most recent transcript file:
     function Get-TranscriptFilePath {
       try {
         $externalHost = $host.gettype().getproperty("ExternalHost",[reflection.bindingflags]"nonpublic,instance").getvalue($host, @())
-        $externalhost.gettype().getfield("transcriptFileName", "nonpublic,instance").getvalue($externalhost)
+        $externalHost.gettype().getfield("transcriptFileName", "nonpublic,instance").getvalue($externalHost)
       } catch {
         Write-Warning "This host does not support transcription."
       }
@@ -38,5 +38,6 @@ To get the location of the current or most recent transcript file:
 ...allegedly. Though so far that only works on half my machines.
 
 ## External links
+
 - [Colorize PowerShell Transcript with CSS](http://www.spjeff.com/2014/10/02/colorize-powershell-transcript-with-css/)
 - [Unbounded recursion](http://wiki.secretgeek.net/unbounded-recursion)

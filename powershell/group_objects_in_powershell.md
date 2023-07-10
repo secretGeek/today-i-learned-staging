@@ -77,3 +77,5 @@ Group my tasks by Source and Category
 - [Load or Save CSV with Powershell](load_save_csv.md)
 - [Count distinct rows (in powershell)](count_distinct_rows.md)
 - [Count lines of code with powershell](count_lines_of_code.md)
+- [KQL: Group by count](../kql/group_by_count_in_kql.md)
+- [Linqpad: Group by](../linqpad/group_by.md)

@@ -1,18 +1,23 @@
 # Group by count in KQL
 
-Here's a classic query I always need in every technology:
+Here's a classic **SQL** query I always need in every technology:
 
-	Select some_column, Count(*) as Count 
-	from some_table 
-	where random_column = 'X'
-	group by some_column 
-	order by 2 desc
+```sql
+Select some_column, Count(*) as Count 
+from some_table 
+where random_column = 'X'
+group by some_column 
+order by 2 desc
+```
 
 In KQL the equivalent is:
 
-	some_table
-	| where random_column == "X"
-	| summarize Count=count() by some_column
+```kql
+some_table
+| where random_column == "X"
+| summarize Count=count() by some_column
+| order by Count desc
+```
 
 KQL is concise but also very powerful when it comes to aggregates.
 
