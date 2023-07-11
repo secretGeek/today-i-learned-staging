@@ -1,20 +1,20 @@
 # Open Outlook Links in Chrome or Firefox or Default Browser ...Not Edge!
 
-In ~ March 2023 Microsoft pushed a change to Outlook desktop that forces it to open all hyperlinks in the Edge browser, regardless of which browser you have instructed Windows (their own flipping operating system) to use as the default. They do not offer and support for how to alter this setting.
+In ~ March 2023 Microsoft pushed a change to Outlook desktop that forces it to open *all* hyperlinks in the Microsoft Edge browser, regardless of which browser you have instructed Windows (their own flipping operating system) to use as the default. They do not offer any support for how to alter this setting.
 
 The setting is conveniently buried here:
 
 In Outlook
 
-	1. File (main menu of app)
-	2. Options (...down the bottom... opens the "Outlook Options" inspector dialog)
-	3. Advanced (...fifth option from the bottom)
-	4. "File and Browser Preferences" sub heading (others say "Link Handling" subheading...)
-	5. Look for option: "Open hyperlinks from Outlook in:" and choose "Default Browser" (rather than "Edge")
+1. File (main menu of app)
+2. Options (...down the bottom... opens the "Outlook Options" inspector dialog)
+3. Advanced (...fifth option from the bottom)
+4. "File and Browser Preferences" sub heading (others say "Link Handling" subheading...)
+5. Look for option: "Open hyperlinks from Outlook in:" and choose "Default Browser" (rather than "Edge")
 
 ![Open hyperlinks from Outlook in 'Default Browser'](open_links_in_default_browser.png)
 
-**Outlook is a great mail client to use if** you want to write to the European Commission or the United States Government about Microsoft's ongoing abuse of their market dominance - see [Microsoft Corp. v. Commission](https://en.wikipedia.org/wiki/Microsoft_Corp._v._Commission) - and [United States v. Microsoft Corp.](https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.).
+**Outlook is a great mail client to use if** you want to write to the European Commission or the United States Government, about Microsoft's ongoing abuse of their market dominance - see [Microsoft Corp. v. Commission](https://en.wikipedia.org/wiki/Microsoft_Corp._v._Commission) - and [United States v. Microsoft Corp.](https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.).
 
 ## References
 
