@@ -57,7 +57,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 15 articles |
  | [azure](azure/01_summary.md) | 1 article |
- | [azure devops](azure_devops/01_summary.md) | 3 articles |
+ | [azure devops](azure_devops/01_summary.md) | 4 articles |
  | [banking](banking/01_summary.md) | 1 article |
  | [bookmarklets](bookmarklets/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
@@ -87,7 +87,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [games](games/01_summary.md) | 2 articles |
  | [git](git/01_summary.md) | 31 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
- | [github](github/01_summary.md) | 3 articles |
+ | [github](github/01_summary.md) | 4 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [go](go/01_summary.md) | 1 article |
  | [google](google/01_summary.md) | 14 articles |
@@ -124,7 +124,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [neo4j](neo4j/01_summary.md) | 1 article |
  | [new computer](new_computer/01_summary.md) | 1 article |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
- | [node](node/01_summary.md) | 4 articles |
+ | [node](node/01_summary.md) | 5 articles |
  | [notepad++](notepad++/01_summary.md) | 14 articles |
  | [npm](npm/01_summary.md) | 16 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
@@ -189,5 +189,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-784 articles
-218674 words
+787 articles
+220124 words
