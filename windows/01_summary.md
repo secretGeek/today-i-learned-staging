@@ -16,6 +16,7 @@
 - [Remove stored credentials](Remove_Stored_Credentials.md)
 - [Remove unreachable recycle bin crap](remove_unreachable_recyclebin_crap.md)
 - [Shutdown from commandline](shutdown.md)
+- [Snipping Tool is suddenly my default print screen tool?](snipping_tool_being_forced_on_you.md)
 - [Terminal services client, without a mouse](mstsc_without_mouse.md)
 - [Turn off App Updates](windows_store_apps_update.md)
 - [Turn off Bing Search Results from Start Menu in Windows](Turn_off_bing_search_results_from_Start_Menu.md)
