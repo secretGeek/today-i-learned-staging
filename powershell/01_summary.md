@@ -7,7 +7,7 @@
 - [Add note property to object in pipeline](add_property_to_object_along_pipeline.md)
 - [Alias: a guide to powershell and aliases](alias.md)
 - [All Emoji returned by Emoji Module](emoji_list.md)
-- [An issue with Powershell Tokenize](tokenize_issue.md)
+- [An issue with Powershell PSParser Tokenize](tokenize_issue.md)
 - [Avoid 'access is denied' when using Powershell Remoting to Copy to a Shared Network Folder (i.e. Defeating Kerberos)](avoid_access_is_denied_when_remoting_talking_to_share.md)
 - [Base64 Encode and Decode string](base64_encode_decode.md)
 - [Calculate sha256 filehash of a file](get_filehash.md)

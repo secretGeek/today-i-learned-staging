@@ -1,4 +1,4 @@
-﻿# An issue with Powershell Tokenize
+﻿# An issue with Powershell PSParser Tokenize
 
 I am trying to use `[System.Management.Automation.PSParser]::Tokenize` to syntax highlight some code.
 
@@ -128,11 +128,11 @@ And `Extent` contains all of these properties (in this example, with values for 
 
 What sort of tokens are these?
 
-Here's there Assembly Qualified Name:
+Here is their Assembly Qualified Name:
 
 	System.Management.Automation.Language.Token, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 
-Whereas my earlier code was return an array of PSToken -- this type:
+Whereas my earlier code was returning an array of `PSToken` -- this type:
 
 	System.Management.Automation.PSToken, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 
@@ -144,6 +144,9 @@ While on the topic of AST's -- Doug points out you can do this:
 
 And directly access the `AST`.
 
-`todo`: use this in [`.ok`](https://github.com/secretGeek/ok-ps) syntax highlighter!
+I've since updated the [`.ok`](https://github.com/secretGeek/ok-ps) syntax highlighter to use this improved tokenizer.
+
+And have put out this syntax highlighting collection of cmdLets -- [github/secretgeek/highlight](https://github.com/secretGeek/highlight)
+
 
 <!-- markdownlint-disable-file MD046 -->
