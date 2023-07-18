@@ -6,9 +6,15 @@ You need a view which returns all of the unpivoted data, but with all the metric
 
 There's two basic types of columns:
 
-1. Those that you want to group/filter by (e.g. Country, postcode, customerid) and
+1. Those that you want to group/filter by (e.g. Country, postcode, customerid) -- we can call these `facets`
 
-2.  All the metrics, the finest granular details. (These are packed into a single column called 'Details')
+2. All the `metrics`, the finest granular details. (These are packed into a single column called 'Details' -- see the `+ '|' +` concatenations below)
+
+See how the two types of columns are treated below.
+
+Note also, that this relies on a `nums` table. A `nums` table is a handy thing to have! (I believe the writings of Itzik Ben-Gan are where I learned of a `nums` (or Numbers) table.)
+
+-----
 
 	CREATE View dbo.[CustomerPerformance_NumberedDays]
 	as
@@ -20,12 +26,12 @@ There's two basic types of columns:
 		where num <= 31 and num > 1
 	)
 	Select --top 1000
-		cj.Country,
-		cj.Region,
-		cj.PostCode,
-		cj.Name as Customer,
-		cj.Id as CustomerId
-		d.[Date],
+		cj.Country,				-- Facets
+		cj.Region,				-- Facets
+		cj.PostCode,			-- Facets
+		cj.Name as Customer,	-- Facets
+		cj.Id as CustomerId,	-- Facets
+		d.[Date],				-- Facets
 		d.num,
 		p.SalesTotal + '|' +
 		NumberComplaints + '|' +
@@ -39,7 +45,7 @@ There's two basic types of columns:
 	cross join [Days] d
 	left outer join
 	... e.g.SalesHistory p
-	   on p.id = cp.CustomerID and DATEADD(DAY, DATEDIFF(DAY, 0, p.Time), -1) = d.[Date]
+	on p.id = cp.CustomerID and DATEADD(DAY, DATEDIFF(DAY, 0, p.Time), -1) = d.[Date]
 	outer apply
 		(Select top 1
 			i.Value as supportComment,
@@ -117,7 +123,7 @@ Column names are looked up from a little dictionary. So the `num` of "3" will be
 
 Assuming the website receives this as a DataTable, it can be displayed via a View like this....
 
-(Not show: you'll always need a custom class for unpacking the Detail column. And you need to load
+(Not shown: you'll always need a custom class for unpacking the Detail column. And you need to load a datatable with that info.
 
 	class PivottedReport {
 		public Dictionary<int, ColumnInfo> ColumnInfo { get; set; }
@@ -259,3 +265,8 @@ Assuming the website receives this as a DataTable, it can be displayed via a Vie
 			</tfoot>
 		</table>
 	}
+
+
+## See also
+
+- [Nums Table in SQL Server - a table of numbers](nums.md)

@@ -46,6 +46,7 @@
 - [Log message immediately during a long running procedure](Log_Message_During_LongRunning_Proc.md)
 - [Mismatch between estimated and actual number of rows returned in Execution Plan](mismatch_between_estimated_and_actual.md)
 - [Need to delete backup files?](delete_backup_files.md)
+- [Nums Table in SQL Server - a table of numbers](nums.md)
 - [Outer Apply can be very useful](outer_apply.md)
 - [Parse varchar into DateTime](parse_varchar_into_datetime.md)
 - [Pivot reports with dynamic pivoted columns (by day)](pivot.md)

@@ -14,6 +14,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - (dis)Proportionate Response
 - (Un)Forced Error
 - 0,1,infinity
+- AB Problem (me: situational, dynamic, you: fixed, flawed)
 - Ability to entertain a thought without accepting/rejecting
 - Activation Energy
 - Active Listening
@@ -95,7 +96,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Combinatorial Explosion
 - Commandos/Infnatry/Police
 - Commitment and consistency bias
-- Comparative advantage (and "unique value proposition")
+- Comparative advantage ("division of labour" and "unique value proposition")
 - Competition v Cooperation
 - Competitive Advantage
 - Complex Adaptive System
@@ -129,8 +130,10 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Curiosity instinct
 - Curse of Knowledge (COIK)
 - Dark UX Patterns
+- Darwinian evolution
 - Data Structures
 - De-risking early
+- Deadlock
 - Dead reckoning
 - Death
 - Decision tree
@@ -178,7 +181,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Ergodicity
 - Error correction (signal processing)
 - Eventualities
-- Evolution by Natural Selection
+- Evolution by Natural Selection - see Darwinian Evolution
 - Exaptation - reuse one trait for something else
 - Executive Cover
 - Exit Strategy
@@ -188,7 +191,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Exponential
 - Externalities
 - Extinction
-- Extraordinary claims require extraordinary evidence
+- Extraordinary claims require extraordinary evidence - sagan - similar to hitchens razor
 - Extrapolation
 - Extremes
 - Fail fast
@@ -230,7 +233,9 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Golden Hammer (Maslow's Hammer)
 - Goodhart's Law: when measure becomes target it ceases to be a good measure
 - Goods and services
+- Great artist’s steal
 - Gresham's Law
+- Gridlock
 - Group think
 - Guerrilla Logic
 - Guerrilla Warfare
@@ -245,7 +250,8 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Hierarchy (tree)
 - High context v Low context cultures/situations
 - Hindsight bias
-- Hock-stick growth
+- Hitchens razor - Presented without evidence can be dismissed without evidence (hitchen's razor) sim. to “extraordinary claim require extraordinary evidence, sagan)
+- Hockey-stick growth
 - Homeostasis
 - Homology
 - Honeycomb
@@ -261,6 +267,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Induction
 - Inertia
 - Inference
+- Infinity / infinities 
 - Inflation
 - Inflection point
 - influence of authority
@@ -273,6 +280,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Innovation
 - Inside view v outside view
 - Interesting v Useful
+- Internalise
 - Interpolation
 - Introvert/Extrovert
 - Intuition (System 1 thinking/System 2 thinking)
@@ -303,6 +311,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Luck Surface Area
 - Luddites
 - Machines
+- Maintenance Costs
 - Manage Expectations
 - Margin of Safety
 - Marginal gains, marginal utility, marginal unit cost, marginal performance
@@ -319,6 +328,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Minimalism
 - Minimize Energy Output - mental physical
 - Minimum Viable Product
+- Misuse as a catalyst for invention 
 - Modes of Communication (preferred)
 - Monopoly/Oligopoly/Cartel
 - Moore's law
@@ -370,13 +380,12 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Plausability bias (sounds truthy)
 - Plausible Deniability (watch for it)
 - Pleasure seeking/Hedonic treadmill
-- Pollution
+- Pollution - externalities, entropy
 - POV
 - Power law, pareto principle
 - Preferential Attachment
 - Premature optimization
 - Prescriptive v Descriptive (in dictionaries, standards, documentation, ideas)
-- Presented without evidence can be dismissed without evidence (hitchen's razor)
 - Price Elasticity
 - Price Sensitivity
 - Pricing Models (freemium, toner+cartridge, etc)
@@ -388,11 +397,13 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Proxy (can't measure, invest, short, or war with x, so we measure, invest, short, or war with y -here y = proxy(x))
 - Purchasing Power
 - Purchasing Power Parity
+- Quality
 - Queuing theory
 - Randomness
 - Rarity of the exception proves the rule (prove as in harden)
 - Rationalization (explaining with the head what is wanted by the body/heart)
-- Recipricity
+- Razors - occam hitchens hanlon netwon (flaming laser sword) 
+- Reciprocity
 - Recursion (unbounded)
 - Reductio ad absurdum
 - Redundancy/Backup
@@ -407,6 +418,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Representation/Identity
 - Representative Heuristic
 - response bias
+- restorative justice
 - Revealed preference (emergent values... you say you value x but your actions say otherwise)
 - Revenge v Rehabilitate
 - Reverse-Engineering
@@ -420,11 +432,11 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Satir Interaction Model
 - Scale
 - Scarcity
-- Schelling Point, [focal point (game theory)](https://en.wikipedia.org/wiki/Focal_point_-game_theory))
+- Schelling Point, [focal point (game theory)](https://en.m.wikipedia.org/wiki/Focal_point_(game_theory))
 - Science advances one tombstone at a time
 - Second Order Effects/Second Order thinking
 - Second wind
-- Seeing the front (personally)
+- Seeing the front (personally) - go and see or see for yourself in kaizen - get out of the building in Lean  
 - Seize the middle
 - selection bias, sampling bias
 - Self similarity
@@ -434,6 +446,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Sensitivity Analysis: e.g. very uncertain outcome from slightly uncertain input
 - Set logic
 - Shared Belief Systems
+- Shitty First Draft
 - Short term/Long term thinking/strategy/
 - Signal v Noise
 - Signaling (theory) (irrefutability)
@@ -442,6 +455,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Simplicity
 - Simulation/Modelling
 - Skin in the game (Pigs and chickens)
+- Slack - in queueing 
 - Slippery Slope
 - Social Engineering
 - Social Proof
@@ -454,13 +468,13 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Square-Cubed Law
 - Stable Instability (Stable Chaos)
 - Stochastic Process
-- Stock & Flow Diagrams
+- Stock & Flow Diagrams (see early analog hydro "computer")
 - Strategy Tax
 - Strategy v Tactics
 - Straw man
 - Stress and breaking points
 - Structured procrastination
-- Sum/product/Power/Factorial
+- Sum/Product/Power/Factorial
 - Sunk cost
 - Supernormal Stimuli
 - Supply & Demand
@@ -470,7 +484,8 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Switching Costs
 - Systems thinking
 - Tactical Retreat
-- Taxonomy
+- Take it and turn it
+- Taxonomy - classification - aristotle v shades of gray v spectrum 
 - Technology
 - Technology Adoption Lifecycle
 - Tend to stereotype
@@ -488,6 +503,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Thought Experiment
 - Tool Making
 - Tool Making Tools
+- Tool Making Making Tools
 - Top down design/bottom up design
 - Total Cost of Investment
 - Track Record (using the past to predict the future instead of using *nothing*)
@@ -506,7 +522,9 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Two-front war
 - Two-Sided Market
 - Unintended Consequences
+- Universality
 - Unknown Unknowns
+- unpack - as in “let’s unpack that”
 - Utility (marginal/diminishing/increasing)
 - Value (economics)
 - Value (Life)
@@ -518,7 +536,9 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Wicked Problem
 - Winner Takes All
 - Winning Hearts and Minds
-- Wisdom of the crowd, collective intelligence, crowd sourcing, stone soup
+- Wisdom of the crowd, collective intelligence, crowd sourcing, stone soup - v group think, none of us is as dumb as all of us, design by committee
+- XY Problem
+- YAGNI
 - Yerkes Dodson Curve; Eustress
 - Zawinski's law/Greenspuns law (expand to read email, contain lisp)
 - Zero sum (situation), v Win-Win or non-zero sum, "grow the pie"
