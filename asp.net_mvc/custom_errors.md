@@ -19,31 +19,31 @@
 
 3. Create an Error controller.
 
-	public class ErrorController : Controller
-	{
-		public ActionResult Index()
+		public class ErrorController : Controller
 		{
-			Response.TrySkipIisCustomErrors = true;
-			// This will load Views/Shared/Error.cshtml
-			return View("Error");
-		}
+			public ActionResult Index()
+			{
+				Response.TrySkipIisCustomErrors = true;
+				// This will load Views/Shared/Error.cshtml
+				return View("Error");
+			}
 
-		public ActionResult NotFound()
-		{
-			Response.StatusCode = 404;
-			Response.TrySkipIisCustomErrors = true;
-			// This will load Views/Error/View.cshtml
-			return View();
-		}
+			public ActionResult NotFound()
+			{
+				Response.StatusCode = 404;
+				Response.TrySkipIisCustomErrors = true;
+				// This will load Views/Error/View.cshtml
+				return View();
+			}
 
-		public ActionResult Forbidden()
-		{
-			Response.StatusCode = 403;
-			Response.TrySkipIisCustomErrors = true;
-			// This will load Views/Error/Forbidden.cshtml
-			return View();
+			public ActionResult Forbidden()
+			{
+				Response.StatusCode = 403;
+				Response.TrySkipIisCustomErrors = true;
+				// This will load Views/Error/Forbidden.cshtml
+				return View();
+			}
 		}
-	}
 
 In an action where you look for a resource but can't find it... **don't do this**:
 

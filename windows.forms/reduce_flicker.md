@@ -31,6 +31,6 @@ And then, in the paint method, just render the bitmap.
 		e.Graphics.DrawImage(bitMap, new Point(0, 0));
 	}
 
-## Source
+## Reference
 
 - <http://stackoverflow.com/questions/8046560/how-to-stop-flickering-c-sharp-winforms>

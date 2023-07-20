@@ -1,6 +1,6 @@
 # Nums Table in SQL Server - a table of numbers
 
-For various purposes, it can be helpful to have a "nums" table in your SQL Server database. This is simply a table, with (for example) one column, called 'num', and perhpas `10,000` or `100,000` rows, simply containing the integers from `1` to `10,000` (or `100,000` as the case may be.)
+For various purposes, it can be helpful to have a "nums" table in your SQL Server database. This is simply a table, with (for example) one column, called 'num', and perhaps `10,000` or `100,000` rows, simply containing the integers from `1` to `10,000` (or `100,000` as the case may be.)
 
 One particular use for it is when you wish to aggregate (for example) the "Daily Sales Total" -- and you group sales values by the date, all seems good. But soon you realise there are some dates with no sales. You would like to have a value of "0" for those days, rather than just omit the row from your results.
 
