@@ -54,7 +54,7 @@ instead do this:
 
 	throw new System.Web.HttpException(404, "No such project");
 
-..and it will end up on your "NotFound" page.
+...and it will end up on your "NotFound" page.
 
 Inside those error handling views, I have things like this:
 

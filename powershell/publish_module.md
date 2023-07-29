@@ -11,7 +11,7 @@ For now &mdash; this is based entirely on [Building a PowerShell Module](http://
 
 This is just a script file but with a `.psm1` extension, and an `export-moduleMember` declaration(s) at the end, for example:
 
-    Export-Module<ember *-*
+    Export-ModuleMember *-*
 
 ...means "export every function that has a hyphen in the name", i.e. standard cmdLet syntax.
 
