@@ -74,7 +74,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [cypress](cypress/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 2 articles |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article |
- | [docker](docker/01_summary.md) | 2 articles |
+ | [docker](docker/01_summary.md) | 3 articles |
  | [domains](domains/01_summary.md) | 1 article |
  | [edge](edge/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
@@ -190,5 +190,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-789 articles
-221006 words
+790 articles
+221143 words
