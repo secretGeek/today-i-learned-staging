@@ -121,7 +121,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [microsoft terminal](microsoft_terminal/01_summary.md) | 3 articles |
  | [minecraft](minecraft/01_summary.md) | 3 articles |
  | [mstsc](mstsc/01_summary.md) | 1 article |
- | [music](music/01_summary.md) | 13 articles |
+ | [music](music/01_summary.md) | 14 articles |
  | [neo4j](neo4j/01_summary.md) | 1 article |
  | [new computer](new_computer/01_summary.md) | 1 article |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
@@ -190,5 +190,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-790 articles
-221143 words
+791 articles
+221186 words
