@@ -52,6 +52,7 @@
 - [Pivot reports with dynamic pivoted columns (by day)](pivot.md)
 - [Prevent saving changes that require the table to be re-created](table_re_creation.md)
 - [R Services on SQL Server 2016+ (and Regular Expressions)](R_Services_and_Regex.md)
+- [Renaming a database - Simply - In Depth - SQL Server](rename_a_database.md)
 - [Run a command against each table](run_a_command_against_each_table.md)
 - [Scalar Function in SQL that returns everything After a specified character](scalar_function_AfterChar.md)
 - [Search all views functions or sprocs for a piece of text](find_view_function_or_sproc.md)

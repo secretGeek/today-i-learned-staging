@@ -48,6 +48,9 @@ Mothers, tell your children, not to do what I have done, to spend your life, in 
 - [sql server - What is the best way to create and populate a numbers table? - Stack Overflow](https://stackoverflow.com/questions/1393951/what-is-the-best-way-to-create-and-populate-a-numbers-table)
 - [Why should I consider using an auxiliary numbers table?](https://web.archive.org/web/20150812093111/http://web.archive.org/web/20150411042510/http://sqlserver2000.databases.aspfaq.com/why-should-i-consider-using-an-auxiliary-numbers-table.html)
 
+- [SQL Select 'n' records without a Table - StackOverflow](https://stackoverflow.com/questions/6533524/sql-select-n-records-without-a-table) - good answers.
+
+
 ## See also
 
 - [Pivot reports with dynamic pivoted columns (by day)](pivot.md)

@@ -55,7 +55,10 @@ Currently something like.... (this is dynamically loaded from util)
 	        [Bool]
 	        $CaseSensitive = $false,
 	        [String[]]
-	        $overRideWithFileTypes = $null
+	        $overRideWithFileTypes = $null,
+	        [Bool]
+	        $aCaseSensitive = $false
+	
 	    )
 	
 	    if ($overRideWithFileTypes -eq $null) {
@@ -135,7 +138,6 @@ Currently something like.... (this is dynamically loaded from util)
 	    $dimLength = FindLongestCommonStartingSubString ($result.RelativeName) ($script:previous.RelativeName);
 	    # specify what to break on... it returns how many parts in common.... or num chars.
 	
-	
 	    #format-foundtext-old $result $dimLength $raw $caseSensitive
 	    format-foundtextdimmed $result $dimLength $raw $caseSensitive
 	    $script:previous = $result;
@@ -170,11 +172,10 @@ Currently something like.... (this is dynamically loaded from util)
 	    $fileTypes = $originalTypes;
 	}
 	
-	function findtext_type($types, $pattern, $recursive, $CaseSensitive) {
-	
+	function findtext_type($types, $pattern, $recursive, $CaseSensitive, $raw = $false) {
 	    $originalTypes = $fileTypes;
 	    $fileTypes = $types;
-	    format-findtext $pattern $recursive -caseSensitive $caseSensitive;
+	    format-findtext $pattern $recursive -caseSensitive $caseSensitive -raw $raw;
 	    $fileTypes = $originalTypes;
 	}
 	
@@ -192,7 +193,6 @@ Currently something like.... (this is dynamically loaded from util)
 	}
 	
 	function FindLongestCommonStartingSubString($string1, $string2) {
-	
 	    $i = 0;
 	    $max = 0;
 	    do {

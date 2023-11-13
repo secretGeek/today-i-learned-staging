@@ -2,16 +2,19 @@
 
 If you need to move db's around via script, this is me trusty old script since 2000...
 
-    (on source server...)
+    -- On source server...)
     BACKUP DATABASE Northwind
       TO DISK = 'c:\Northwind.bak'
 
-    (target server...)
+    -- On target server.
     RESTORE FILELISTONLY
       FROM DISK = 'c:\Northwind.bak'
 
-    (look at the device names... and determine where you want the mdf and
-    ldf files to go on this target server)
+    -- look at the device names...
+    -- and determine where you want
+    -- the mdf file, and
+	-- the ldf file.
+    -- ldf files to go on the "target server"
 
     RESTORE DATABASE TestDB
       FROM DISK = 'c:\Northwind.bak'

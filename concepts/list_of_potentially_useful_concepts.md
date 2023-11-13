@@ -72,6 +72,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Box and Wire Diagrams
 - Breakthrough (product, idea, marketing, innovation)
 - Bribery
+- Brinkmanship
 - Brownian motion
 - Bug Out Bag
 - Build v Buy
@@ -87,6 +88,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Centralized/Decentralized
 - Chain Reaction - domino effect - Cascade
 - Chasing v Chased
+- Chicken (see Brinkmanship)
 - Chilling Effect
 - Churn
 - Circle of competence
@@ -115,7 +117,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Cooperation Symbiosis
 - Core Competency
 - Correlated risk, and uncorrelated risk
-- Correlation != Causation (xkcd/552
+- Correlation != Causation (xkcd/552)
 - Corruption
 - Cost-Benefit analysis
 - Counter-example
@@ -467,6 +469,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Sprint v Marathon
 - Square-Cubed Law
 - Stable Instability (Stable Chaos)
+- Stag Hunt
 - Stochastic Process
 - Stock & Flow Diagrams (see early analog hydro "computer")
 - Strategy Tax

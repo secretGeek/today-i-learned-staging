@@ -96,6 +96,66 @@ And conversely, to copy a file from your local file system to a path on a runnin
 
 	docker cp ./.htaccess my_container:/var/www/html/.htaccess
 
+## Building an image from a Dockerfile
+
+Simplest thing that can possibly work:
+
+With the docker daemon running (i.e. with Docker Desktop running)
+
+In bash (or gitbash or windows subsystem for linux) or even in PowerShell -- in the same folder as your `Dockerfile`
+
+	docker build .
+
+After which if you use `docker images` you may see that the first image listed is the image you created.
+
+Boom.
+
+
+During the build you can also set metadata of your image -- e.g.
+
+
+	docker build . --label "test=true"
+
+... will then be found by:
+
+	docker images --filter "label=test=true"
+
+Or if there are multiple found, you find just the first one by:
+
+	docker images --filter "label=test=true" -q | head -1
+
+or in PowerShell
+
+	docker images --filter "label=test=true" -q | select -first 1
+
+(due to `-q` for "quiet", returns just the identifier for the image)
+
+Get that identifier as a variable:
+
+	export id=$(docker images --filter "label=test=true" -q | head -1)
+
+Create an container, from that image, with a name of your own choosing...
+
+	docker create --name "My_New_Container_Name" $id
+
+Copy files from that container:
+
+	docker cp My_New_Container_Name:/src/tests/MyProject/TestResults
+
+(In this case we're copying some test results out)
+
+
+## List Images in More Detail 
+
+The `--format 'json'` parameter lets you explore the data more completely.
+
+In Powershell I pipe that json to `ConvertFrom-Json` and turn it into objects I can really do things with.
+
+	docker images --all --format 'json' | ConvertFrom-Json | select *
+  
+(Or, still in powershell, you can pipe to `Out-GridView` to explore it in a grid control)
+
+
 ## See also
 
 - [Install Seq locally for development](../serilog/install_seq_locally_for_development.md) -- local seq install instructions, rely on docker (and put the info above into context)

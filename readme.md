@@ -69,7 +69,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
  | [csharp](csharp/01_summary.md) | 8 articles |
- | [css](css/01_summary.md) | 11 articles |
+ | [css](css/01_summary.md) | 12 articles |
  | [csv](csv/01_summary.md) | 3 articles |
  | [cypress](cypress/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 2 articles |
@@ -155,7 +155,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
- | [sql server](sql_server/01_summary.md) | 75 articles |
+ | [sql server](sql_server/01_summary.md) | 76 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [sqlite](sqlite/01_summary.md) | 3 articles |
@@ -172,7 +172,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [usql](usql/01_summary.md) | 1 article |
  | [ux](ux/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
- | [visual studio](visual_studio/01_summary.md) | 8 articles |
+ | [visual studio](visual_studio/01_summary.md) | 9 articles |
  | [vs code](vs_code/01_summary.md) | 11 articles |
  | [web](web/01_summary.md) | 1 article |
  | [webview2](webview2/01_summary.md) | 1 article |
@@ -190,5 +190,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-791 articles
-221186 words
+794 articles
+223066 words
