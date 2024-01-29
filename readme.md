@@ -64,7 +64,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [bower](bower/01_summary.md) | 2 articles |
  | [chat-gpt](chat-gpt/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 8 articles |
- | [concepts](concepts/01_summary.md) | 19 articles |
+ | [concepts](concepts/01_summary.md) | 20 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
@@ -149,7 +149,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 3 articles |
  | [scoop](scoop/01_summary.md) | 1 article |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
- | [serilog](serilog/01_summary.md) | 2 articles |
+ | [serilog](serilog/01_summary.md) | 3 articles |
  | [sharepoint](sharepoint/01_summary.md) | 2 articles |
  | [sleep](sleep/01_summary.md) | 4 articles |
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
@@ -190,5 +190,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-794 articles
-223066 words
+796 articles
+223616 words

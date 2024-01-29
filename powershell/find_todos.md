@@ -65,11 +65,17 @@ Currently something like.... (this is dynamically loaded from util)
 	        $overRideWithFileTypes = $fileTypes;
 	    }
 	
+	    $activeFile = $null
+	
 	    Get-ChildItem -Path * -Include $overRideWithFileTypes -Exclude .git, .hg, *jquery*, modernizr* -Recurse:$Recursive |
-	        Where-Object { $_.FullName -inotmatch 'node_modules' } |
+	        Where-Object { $_.FullName -inotmatch 'node_modules' -and
+	            $_.FullName -inotmatch '\\packages\\' -and
+	            $_.FullName -inotmatch '\\obj\\'
+	        } | ForEach-Object { $activeFile = $_; $_ } | #.LastWriteTime;
 	        Select-String -Pattern $pattern -SimpleMatch:$Raw -CaseSensitive:$CaseSensitive |
 	        ForEach-Object {
 	            Add-Member -InputObject $_ -MemberType NoteProperty -Name "RelativeName" -Value ($_.Path.SubString($basePath.Length + 1));
+	            Add-Member -InputObject $_ -MemberType NoteProperty -Name "LastWriteTime" -Value ($activeFile.LastWriteTime);
 	            $_;
 	        }
 	}
@@ -219,15 +225,28 @@ Currently something like.... (this is dynamically loaded from util)
 	## LITTLE ALIASES
 	
 	## (there could be an exit here if you have set the "do not set aliases" flag; And/or a way to delete aliases that were put here incorrectly.)
-	Set-Alias findtext format-findtext
-	Set-Alias fi format-findtext # can't use "ft", it's "format-table" already
-	Set-Alias f format-findtext
+	
+	# ALIASES for 							format-findtext
+	Set-Alias findtext 	format-findtext
+	Set-Alias fi 		format-findtext
+	Set-Alias f 		format-findtext
+	# No Alias "ft"  # "format-table"  					...already taken
+	
+	# ALIAS   for							findtext_raw_casesensitive
 	Set-Alias f.raw findtext_raw
+	
+	# ALIAS   for  							findtext_type
 	Set-Alias f.type findtext_type
+	
+	# ALIAS   for  							findtext_raw_type
 	Set-Alias f.type-raw findtext_raw_type
 	Set-Alias f.raw-type findtext_raw_type
 	Set-Alias findtext_type_raw findtext_raw_type
+	
+	# ALIAS   for  							findtext_raw_casesensitive
 	Set-Alias f.raw-ci findtext_raw_casesensitive
+	
+	# ALIASES for  							findtext_norecurse
 	Set-Alias f.no-rec findtext_norecurse
 	Set-Alias ftx findtext_norecurse
 	

@@ -168,10 +168,9 @@ Generally a good idea... (though not useful for mobile)
 	Once expanded, this is the details you will see.
 	</details>
 
-<div id='#efull-example'>
-<style>
+<div id='#expando-full-example'>
 
-<details class=>
+<details class=''>
 <summary>Expand to see the details....</summary>
 Once expanded, this is the details you will see.
 </details>

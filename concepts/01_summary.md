@@ -4,6 +4,7 @@
 ## content
 
 - ["50 Psychology Classics: the Greatest Books in Psychology"](greatest_books_in_psychology.md)
+- [All Models are Wrong, Some Models are Useful](all_models_are_wrong.md)
 - [Art of the data email](art_of_the_data_email.md)
 - [Baumol's Cost Disease](baumols_cost_disease.md)
 - [COIK](coik.md)
