@@ -20,7 +20,7 @@ Get file content, where it starts with a comment indicator
 
 ...via a custom property --
 
-## e.g.
+## For example
 
 ### With "File" and "Where"
 
@@ -36,7 +36,7 @@ Get file content, where it starts with a comment indicator
 
 	SELECT CUSTOM PROPERTY
 
-### AND SORT IT TOO 
+### AND SORT IT TOO
 
 
 e.g. With "From Database" and "Sort"

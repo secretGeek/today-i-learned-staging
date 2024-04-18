@@ -1,4 +1,4 @@
-﻿# What links here?
+# What links here?
 
 <div id='target'></div>
 

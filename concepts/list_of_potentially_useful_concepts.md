@@ -269,7 +269,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Induction
 - Inertia
 - Inference
-- Infinity / infinities 
+- Infinity / infinities
 - Inflation
 - Inflection point
 - influence of authority
@@ -330,7 +330,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Minimalism
 - Minimize Energy Output - mental physical
 - Minimum Viable Product
-- Misuse as a catalyst for invention 
+- Misuse as a catalyst for invention
 - Modes of Communication (preferred)
 - Monopoly/Oligopoly/Cartel
 - Moore's law
@@ -404,7 +404,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Randomness
 - Rarity of the exception proves the rule (prove as in harden)
 - Rationalization (explaining with the head what is wanted by the body/heart)
-- Razors - occam hitchens hanlon netwon (flaming laser sword) 
+- Razors - occam hitchens hanlon netwon (flaming laser sword)
 - Reciprocity
 - Recursion (unbounded)
 - Reductio ad absurdum
@@ -438,7 +438,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Science advances one tombstone at a time
 - Second Order Effects/Second Order thinking
 - Second wind
-- Seeing the front (personally) - go and see or see for yourself in kaizen - get out of the building in Lean  
+- Seeing the front (personally) - go and see or see for yourself in kaizen - get out of the building in Lean
 - Seize the middle
 - selection bias, sampling bias
 - Self similarity
@@ -457,7 +457,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Simplicity
 - Simulation/Modelling
 - Skin in the game (Pigs and chickens)
-- Slack - in queueing 
+- Slack - in queueing
 - Slippery Slope
 - Social Engineering
 - Social Proof
@@ -488,7 +488,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Systems thinking
 - Tactical Retreat
 - Take it and turn it
-- Taxonomy - classification - aristotle v shades of gray v spectrum 
+- Taxonomy - classification - aristotle v shades of gray v spectrum
 - Technology
 - Technology Adoption Lifecycle
 - Tend to stereotype

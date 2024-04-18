@@ -1,6 +1,6 @@
 # All Models are Wrong, Some Models are Useful
 
-The saying 
+The saying
 
 > All models are wrong, some are useful
 
@@ -32,7 +32,7 @@ So the goal must never be to make a perfect "thing" -- but rather to stop when t
 
 The rule doesn't just apply to a statistician's attempt at modelling a process. I'm happy to extend it to every other domain of life...
 
-e.g. 
+e.g.
 
 - All maps are wrong, some are useful
 - All models are wrong, some are useful

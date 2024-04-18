@@ -6,13 +6,13 @@
 
 	select count(*) as Occurrences,
 		   ( sum(Length(@Document)) / count(@Id)  )  as AverageCh,
-		   first(@MessageTemplate) as MessageTemplate, 
+		   first(@MessageTemplate) as MessageTemplate,
 		   ToHexString(first(@EventType)) as EventType,
 		   ToIsoString(Min(@Timestamp)) as MinTime,
 		   ToIsoString(Max(@Timestamp)) as MaxTime
 	from stream
 	where ApplicationName not in  ['SomeOtherApplication1','SomeOtherApplication2']
-	and 
+	and
 		Not(   @Level = 'Verbose'
 			or @Level = 'Trace'
 			or @Level = 'Debug'
@@ -39,15 +39,15 @@ You can show the Hex representation by using the ToHexString function. And you c
 Here is an example of using either form for a comparison, and showing the result in both hex and decimal
 
 
-	Select count(*) from stream 
-	where 
-	   @EventType = 0x34fb5e38 
+	Select count(*) from stream
+	where
+	   @EventType = 0x34fb5e38
 	or @EventType = 888888888
-	group by 
+	group by
 	   @EventType,
 	   ToHexString(@EventType)
-   
-Incidentally if I need to quickly turn a decimal into hex, with leading `0x`, I use powershell, e.g.    
+
+Incidentally if I need to quickly turn a decimal into hex, with leading `0x`, I use powershell, e.g.
 
 	'0x{0:x}' -f 888888888
 
@@ -61,7 +61,7 @@ Incidentally if I need to quickly turn a decimal into hex, with leading `0x`, I 
 (The result is `888888888`)
 
 
-You can also find an EventType value from a template string (`@MessageTemplate`)-- 
+You can also find an EventType value from a template string (`@MessageTemplate`)--
 
     @EventType = ToEventType('Logged in {UserId}')
 
@@ -84,7 +84,7 @@ e.g, errors that effect more than 30 users....
 
     select count(distinct(UserName)) as CountDistinct
 	from stream
-	where @Level = 'Error' 
+	where @Level = 'Error'
 	group by @MessageTemplate
 	having CountDistinct > 30
 	order by CountDistinct desc

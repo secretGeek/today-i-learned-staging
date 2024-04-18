@@ -118,7 +118,7 @@ Another example
         [switch]$PassThru
     )
 
-## `PSAvoidUsingPositionalParameters` 
+## `PSAvoidUsingPositionalParameters`
 
 - PSAvoidUsingPositionalParameters
 

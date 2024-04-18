@@ -95,9 +95,9 @@ Incidentally -- here is the longest sentence in the Jeeves and Wooster stories a
 
 Jeeves has delivered it, toward Bertie and Rocky, and here's the followup:
 
-> Having got which off the old diaphragm, Jeeves was silent. Rocky looked at me in a helpless sort of way. He hasn't been brought up on Jeeves as I have, and he isn't on to his curves. 
-> 
-> "Could he put it a little clearer, Bertie?" he said. "I thought at the start it was going to make sense, but it kind of flickered. What's the idea?" 
+> Having got which off the old diaphragm, Jeeves was silent. Rocky looked at me in a helpless sort of way. He hasn't been brought up on Jeeves as I have, and he isn't on to his curves.
+>
+> "Could he put it a little clearer, Bertie?" he said. "I thought at the start it was going to make sense, but it kind of flickered. What's the idea?"
 
 Leading Bertie to paraphrase.
 

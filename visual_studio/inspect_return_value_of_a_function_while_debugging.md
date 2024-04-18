@@ -4,7 +4,7 @@ I have a lot of methods that are just 1 expression, e.g.
 
 	internal IEnumerable<Employee> CurrentEmployees()
 	=> _employees.Where
-		(e => !e.HasBeenFired && 
+		(e => !e.HasBeenFired &&
 		 e.StartDate >= DateTime.Today &&
 		 !e.OnExtendedLeave);
 
@@ -16,7 +16,7 @@ In the past I've sometimes refacted the method to be two lines -- with a `return
 	{
 		var returnValue =
 			_employees.Where
-			(e => !e.HasBeenFired && 
+			(e => !e.HasBeenFired &&
 			e.StartDate >= DateTime.Today &&
 			!e.OnExtendedLeave);
 		return returnValue; // SET breakpoint here to inspect returnValue

@@ -3,7 +3,7 @@
 Example -- when you hover over a element, have the opacity change to 100%, over a nice curve:
 
 	.face {
-		opacity: 0.5; 
+		opacity: 0.5;
 		transition: opacity 2s;
 	}
 	.face:hover {
@@ -14,7 +14,7 @@ Example -- when you hover over a element, have the opacity change to 100%, over 
 Example -- when you hover over a element, have the opacity change to 100%, but following a nice curve:
 
 	.face {
-		opacity: 0.5; 
+		opacity: 0.5;
 		transition: opacity 2s;
 	}
 	.face:hover {

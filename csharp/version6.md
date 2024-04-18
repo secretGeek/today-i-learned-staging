@@ -18,7 +18,7 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 - [improved overload resolution](#improved-overload-resolution)
 - [deterministic compiler option](#deterministic-compiler-option)
 
-## readonly auto props
+## Readonly auto props
 
 You can have properties that can be gotten but cannot be set:
 

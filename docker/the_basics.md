@@ -145,14 +145,14 @@ Copy files from that container:
 (In this case we're copying some test results out)
 
 
-## List Images in More Detail 
+## List Images in More Detail
 
 The `--format 'json'` parameter lets you explore the data more completely.
 
 In Powershell I pipe that json to `ConvertFrom-Json` and turn it into objects I can really do things with.
 
 	docker images --all --format 'json' | ConvertFrom-Json | select *
-  
+
 (Or, still in powershell, you can pipe to `Out-GridView` to explore it in a grid control)
 
 

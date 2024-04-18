@@ -10,7 +10,7 @@
 
 Currently something like.... (this is dynamically loaded from util)
 
-	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx", "*.targets", "*.yml", "*.yaml", "*.rdp", "*.less", "*.scss", "*.razor", "*.dbml", "*.layout", "*.gradle", "*.properties", "*.bas", "*.java", "*.m", "*.h", "*.iml", "*.swift", "*.xib", "*.strings", "*.storyboard", "*.kt", "*.xcconfig", "*.plist", "*.toml", "*.webmanifest", "*.prettierrc", "*.code-workspace", "*.gitignore", "*.hgignore", "*.dockerignore", "*.tt", "*.hta", "*.lock";
+	[string[]] $fileTypes = "*.md", "*.fmw", "*.txt", "*.cs", "*.cshtml", "*.css", "*.ps1", "*.js", "*.bat", "*.vbs", "*.vb", "*.xml", "*.config", "*.htm", "*.html", "*.pre", "*.ini", "*.sql", "*.linq", "*.json", "*.spark", "*.ts", "*.psm1", "*.psd1", "*.aspx", "*.ascx", "*.asp", "*.asmx", "*.pubxml", "*.dgml", "*.sln", "*.*proj", "*.spark", "*.rdl", "*.py", "*.log", "*.las", "*.ascx", "*.inc", "*.xaml",	"*.sh", "*.csv", "*.tsv", "*.php", "*.ok", "*.tsx", "*.targets", "*.yml", "*.yaml", "*.rdp", "*.less", "*.scss", "*.razor", "*.dbml", "*.layout", "*.gradle", "*.properties", "*.bas", "*.java", "*.m", "*.h", "*.iml", "*.swift", "*.xib", "*.strings", "*.storyboard", "*.kt", "*.xcconfig", "*.plist", "*.toml", "*.webmanifest", "*.prettierrc", "*.code-workspace", "*.gitignore", "*.hgignore", "*.dockerignore", "*.tt", "*.hta", "*.lock","*.nsi";
 	
 	## Commands:
 	## findtext $pattern                       <-- search all text type files for a particular regex
@@ -70,7 +70,8 @@ Currently something like.... (this is dynamically loaded from util)
 	    Get-ChildItem -Path * -Include $overRideWithFileTypes -Exclude .git, .hg, *jquery*, modernizr* -Recurse:$Recursive |
 	        Where-Object { $_.FullName -inotmatch 'node_modules' -and
 	            $_.FullName -inotmatch '\\packages\\' -and
-	            $_.FullName -inotmatch '\\obj\\'
+	            $_.FullName -inotmatch '\\obj\\' -and
+				$_.FullName -inotmatch '\\bin\\debug\\'
 	        } | ForEach-Object { $activeFile = $_; $_ } | #.LastWriteTime;
 	        Select-String -Pattern $pattern -SimpleMatch:$Raw -CaseSensitive:$CaseSensitive |
 	        ForEach-Object {

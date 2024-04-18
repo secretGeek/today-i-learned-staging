@@ -21,3 +21,4 @@ To see available space use:
 - [Backup restore script](backup_restore_script.md)
 - [Need to delete backup files?](delete_backup_files.md)
 - [How much space is left on the drives that my sql server can access?](drive_sizes.md)
+- [Basic data dictionary](data_dictionary.md)

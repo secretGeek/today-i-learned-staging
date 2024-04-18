@@ -25,7 +25,7 @@ Example of sorting results into buckets (ranges), and showing the count in each 
 
 Example -- with:
 
-A table called 
+A table called
 - `TableOfInterest` -- any table we are interested in
 - `MeasuredExpression` -- could be a numeric column from `TableOfInterest`, or a numeric expression using numeric columns from `TableOfInterest`
 
@@ -39,7 +39,7 @@ Find the min and max:
 	select
 		@maxValue = max(MeasuredExpression),
 		@minValue = min(MeasuredExpression)
-	from dbo.TableOfInterest 
+	from dbo.TableOfInterest
 
 Decide how many 'buckets' you want to divide the area into.
 
@@ -56,19 +56,19 @@ Determine the size of the buckets.
 
 Review the settings now, before we fine tune them.
 
-	Select 
+	Select
 		@MinValue as 'MinValue',
 		@MaxValue as 'MaxValue',
 		@BucketSize as 'BucketSize',
 		'Before' as 'StateName';
 
 
-### FINE TUNING....
+### FINE TUNING
 
 Now we need to decide how we'd like to fine tune the region that we are graphing. Maybe we only want to go from 15 to 25?
 
 	-- Fine tune the parameters to show different number of buckets in different size...
-	Select 
+	Select
 		@MinValue = 5816,
 		@MaxValue = 7283,
 
@@ -76,7 +76,7 @@ Now we need to decide how we'd like to fine tune the region that we are graphing
 	Set @BucketSize =  (@Maxvalue - @MinValue) /  @numBuckets;
 
 
-	Select 
+	Select
 		@MinValue as 'MinValue',
 		@MaxValue as 'MaxValue',
 		@BucketSize as 'BucketSize',
@@ -93,7 +93,7 @@ Now we need to decide how we'd like to fine tune the region that we are graphing
 		--AVG(Metres_Per_Minute) as Avg_Metres_Per_Minute,
 		COUNT(*) as Number_of_Examples
 	from
-		dbo.TableOfInterest 
+		dbo.TableOfInterest
 	group by
 		Floor((MeasuredExpression - @minValue)/@BucketSize)
 	having Min(MeasuredExpression) >= @minValue

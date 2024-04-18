@@ -6,7 +6,7 @@
 	$exactDate = [datetime]::ParseExact($DateAsAString,"dd-MM-yyyy",$Null)
 	write-host $exactDate -f blue;
 
-## Minimal Powershell Example for DateTime ParseExact 
+## Minimal Powershell Example for DateTime ParseExact
 
 	[datetime]::ParseExact("30-12-1905","dd-MM-yyyy",$Null)
 

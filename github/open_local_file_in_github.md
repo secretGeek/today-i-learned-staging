@@ -1,16 +1,16 @@
 # Open Local File in Github (or Azure Devops)
 
-If there is a local file, and you want to open github.com *at* that file (to inspect the history etc in the *website*) 
+If there is a local file, and you want to open github.com *at* that file (to inspect the history etc in the *website*)
 
 You can use this little powershell function, `Show-Azuredevops`. (It's orginally built for Azure Devops... but works for Github too!)
- 
+
 As you'll see, it depends on two other functions, `Get-GitRemotePath` and `Get-GitLocalRootPath` which are defined in a subsequent code block.
 
 ```powershell
 function Show-Azuredevops
 {
 	param($searchFilter)
-	
+
     # Determine the correct azure instance to use!
 	#
 	# for example: "https://dev.azure.com/COMPANY/_git/REPONAME?path="; (for a given `COMPANY/REPONAME`)
@@ -63,11 +63,11 @@ Here is the `Get-GitRemotePath` function (comments explain how it works, based o
 
 ```powershell
 function Get-GitRemotePath() {
-    # e.g. 
+    # e.g.
     #   git remote -v
     #   origin  https://COMPANY@dev.azure.com/COMPANY/PROJECTNAME/_git/REPONAME (fetch)
     #   origin  https://COMPANY@dev.azure.com/COMPANY/PROJECTNAME/_git/REPONAME (push)
-    # 
+    #
     #   git remote -v | ? { $_ -like "*(fetch)" }
     #   origin  https://COMPANY@dev.azure.com/COMPANY/PROJECTNAME/_git/REPONAME (fetch)
     #
@@ -75,8 +75,8 @@ function Get-GitRemotePath() {
     #   https://COMPANY@dev.azure.com/COMPANY/PROJECTNAME/_git/REPONAME
     #
     # ... and we remove any leading "COMPANY@" or "USERNAME@" (if present)...
-    return (git remote -v | 
-            Where-Object { $_ -like "*(fetch)" } | 
+    return (git remote -v |
+            Where-Object { $_ -like "*(fetch)" } |
             ForEach-Object { ($_ -split "[`t ]")[1] }) -replace "//.*@", "//";
 }
 ```
@@ -100,4 +100,4 @@ function Get-GitLocalRootPath() {
 
 ## See also
 
-- [Open Local File in Azure Devops website (or Github website)](/azure_devops/open_local_file_in_azure_devops.md)
+- [Open Local File in Azure Devops website (or Github website)](../azure_devops/open_local_file_in_azure_devops.md)

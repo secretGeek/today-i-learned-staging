@@ -126,7 +126,7 @@ opacity:1.0;
 </style>
 
 - [this link should have an svg box and arrow glyph after it](../css/glyph_after_blank_anchors.md){#sample3}
-  
+
  Here's the svg, decoded:
 
 ```svg

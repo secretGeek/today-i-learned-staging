@@ -1,13 +1,13 @@
-# Volta - node version manager
-
-Volta is a cross platform node version manager – this guide is specific to issues that arise when running it on windows and providers a comparison to using Volta on Windows versus nvm for Windows. For more on `nvm` see [Node Version Manager (NVM)](nvm.md)
-
+﻿# Volta - node version manager
 As stated in the getting started guide for Volta:
 
 > Volta's functionality depends on creating symlinks, so you must either:
 >
 > - Enable Developer Mode (recommended)
 > - Run Volta with elevated privileges (not recommended)
+
+
+Volta is a cross platform node version manager – this guide is specific to issues that arise when running it on windows and providers a comparison to using Volta on Windows versus nvm for Windows. For more on `nvm` see [Node Version Manager (NVM)](nvm.md)
 
 See that? Once you enable "Developer Mode" in Windows, you can use symlinks without running as admin. (In linux & Unix, symlinks are a very commonly used OS feature and don't need root/sudo/admin permissions to be used.)
 
@@ -48,7 +48,7 @@ npm.exe C:\Program Files\Volta\npm.exe
 ```
 
 With Both nvm and volta installed – **Volta** dictated which version of node and npm are available.
- 
+
 
 In cmd.exe, we can use the where command to get more information about the various programs that match…
 
@@ -86,7 +86,7 @@ See which versions of node have been installed / controlled by Volta:
     v14.21.3
     v16.15.0
     v18.16.0 (default)
-``` 
+```
 
 
 Install the latest version of node:

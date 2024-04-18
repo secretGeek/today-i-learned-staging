@@ -47,7 +47,7 @@ says:
 
 	This extension lets you communicate (push and pull) with a Git server... etc.
 
-	
+
 
 ## Write down the source and the target
 

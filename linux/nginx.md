@@ -163,7 +163,7 @@ Here's a useful `.ok` file for your `/etc/nginx` folder:
 	sudo nginx -t                   # verify config
 	sudo nginx -s reload            # *reload* nginx config
 	cd /etc/supervisor/conf.d/; d   # supervisor
-	
+
 Note that the last line takes me to the [supervisor](supervisor.md) config folder (where I have a similar `.ok` file)
 
 ## Sources

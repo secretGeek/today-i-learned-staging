@@ -11,7 +11,7 @@ I have a database called "OLD_DB_NAME" -- and I want to rename it (to "NEW_DB_NA
 Right click and rename in SSMS is not too reliable -- it may not be able to get exclusive access. Use this instead:
 
 	use master
-	ALTER DATABASE OLD_DB_NAME SET SINGLE_USER WITH ROLLBACK IMMEDIATE    
+	ALTER DATABASE OLD_DB_NAME SET SINGLE_USER WITH ROLLBACK IMMEDIATE
 	ALTER DATABASE OLD_DB_NAME MODIFY NAME = [NEW_DB_NAME]
 	ALTER DATABASE NEW_DB_NAME SET MULTI_USER
 
@@ -56,10 +56,9 @@ You should see that the physical files, the .ldf and .mdf files, still use the o
 
 To rename the physical files, you need to:
 
-1. Backup your database 
+1. Backup your database
 2. Rename the now defunct database so that's DB Name is out of the way...
 2. Restore the backup to your new physical files.
-
 
 ### Step 1: Back up the database:
 
@@ -71,16 +70,12 @@ You might inspect the physical and logical files that it expects, by running thi
 	RESTORE FILELISTONLY
 	FROM DISK = 'C:\Apps\scratch\NEW_DB_NAME.bak'
 
-
-
-### Step 2: Rename the now defunct DB to get it out of the way...
-
+### Step 2: Rename the now defunct DB to get it out of the way
 
 	use master
-	ALTER DATABASE NEW_DB_NAME SET SINGLE_USER WITH ROLLBACK IMMEDIATE    
+	ALTER DATABASE NEW_DB_NAME SET SINGLE_USER WITH ROLLBACK IMMEDIATE
 	ALTER DATABASE NEW_DB_NAME MODIFY NAME = [zz_NEW_DB_NAME]
 	ALTER DATABASE zz_NEW_DB_NAME SET MULTI_USER
-
 
 ...You might even rename its logical files....
 
@@ -93,7 +88,6 @@ You might inspect the physical and logical files that it expects, by running thi
 
 ### Step 3: Restore the db to the new physical files
 
-
 First inspect the files in the backup....
 
 
@@ -101,7 +95,7 @@ First inspect the files in the backup....
 	FROM DISK = 'C:\Apps\scratch\NEW_DB_NAME.bak'
 
 
-	RESTORE DATABASE NEW_DB_NAME	
+	RESTORE DATABASE NEW_DB_NAME
 	  FROM DISK = 'C:\Apps\scratch\NEW_DB_NAME.bak'
 	  WITH MOVE 'NEW_DB_NAME' TO 'C:\Users\MyUser\NEW_DB_NAME.mdf',
 	  MOVE 'NEW_DB_NAME_log' TO 'C:\Users\MyUser\NEW_DB_NAME_log.ldf'

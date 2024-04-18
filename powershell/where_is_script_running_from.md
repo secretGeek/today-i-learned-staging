@@ -27,7 +27,7 @@ In **PowerShell 3.0 and above** we write:
 
 	write-host "The script's full name and path is $PSCommandPath"
 	# e.g. C:\Scripts\HelloWorld.ps1
-	
+
 	write-host "You are running it from $((Resolve-Path .\).Path)"
 	# e.g. C:\CurrentPath
 

@@ -15,14 +15,14 @@ So you will instead join first with a Common Table Expression of dates, that use
 
 But to do this -- you must first create and populate your nums table.
 
-There are many many different scripts for this, with various performance characteristics or limitations. 
+There are many many different scripts for this, with various performance characteristics or limitations.
 
 Here is one -- it is based on "Method5" from [this excellent stack overflow answer](https://stackoverflow.com/a/1407488/49):
 
 
 
 	-- DROP TABLE Nums
-	CREATE TABLE Nums (Num  int  not null)  
+	CREATE TABLE Nums (Num  int  not null)
 	;WITH
 		Pass0 as (select 1 as C union all select 1), --2 rows
 		Pass1 as (select 1 as C from Pass0 as A, Pass0 as B),--4 rows
@@ -37,7 +37,7 @@ Here is one -- it is based on "Method5" from [this excellent stack overflow answ
 			FROM Tally
 			WHERE Num <= 10000
 	ALTER TABLE Nums ADD CONSTRAINT PK_Nums PRIMARY KEY CLUSTERED (Num)
-		
+
 	SELECT COUNT(*) as [Number of Numbers in Nums Table] FROM Nums
 
 

@@ -4,7 +4,7 @@ Here is a "batteries included" template for a user script.
 
 It includes some little functions for adding elements and styles. And it sets up a loop to continually alter the page. This is needed on complex pages where elements are continually added/removed as you open/close/scroll/interact with the page.
 
-You 
+You
 
 	// ==UserScript==
 	// @name         NAME
@@ -61,7 +61,7 @@ You
 				// ** Do something to the targetElement...
 			}
 			*/
-			
+
 			/* ** Example: remove a particular element
 			let hireMe = document.querySelector("#hireme");
 
@@ -69,8 +69,8 @@ You
               hireMe.remove();
 			}
 			*/
-			
-			/* 
+
+			/*
 			 YOUR CODE HERE!
 			*/
 		}
@@ -79,7 +79,7 @@ You
 		function onceOnly() {
 			// Special styles we apply.
 			var styles = '.lb_altered { background-color:red;}';
-			/* 
+			/*
 			  YOUR STYLES HERE...
 			*/
 			styles += ' .bolt-pill { padding: 0 2px; }';

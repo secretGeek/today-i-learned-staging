@@ -3,10 +3,10 @@
 Here's a classic **SQL** query I always need in every technology:
 
 ```sql
-Select some_column, Count(*) as Count 
-from some_table 
+Select some_column, Count(*) as Count
+from some_table
 where random_column = 'X'
-group by some_column 
+group by some_column
 order by 2 desc
 ```
 

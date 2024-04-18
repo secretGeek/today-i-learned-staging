@@ -6,16 +6,16 @@
 
 - Generate an 'index.html' under each topic folder that redirects to "/01_summary.html"
 - Generate a 'what links here' section for each page.
-- 
+-
 
 
 - Improving  What Links Here
 
 		# What links here?
-		
+
 		## What links to the topic: chocolatey?
 
-		- chocolatey
+		- Chocolatey
 		  - All chocolatey commands
 		  - Install chocolatey (aka choco)
 		  - To List the packages installed
@@ -25,11 +25,11 @@
 		  - How do I list all globally installed NPM Packages?
 		powershell
 		  - Replace a line in a file
-		
+
 	That's okay -- but the listed pages should list each page they link to...
 	Possibly the pages of this topic could be listed on the right -- lit up by the number of things that link to them
-	
-- [ ] USE ChatGPT from Linqpad to index all the articles at TIL.	
+
+- [ ] USE ChatGPT from Linqpad to index all the articles at TIL.
 
 
 ### Other features that can be embedded in macros:
