@@ -1,4 +1,8 @@
-﻿# Supervisor... it keeps your app running
+﻿# Supervisor: it keeps your app running
+
+- [Check status]
+- [Tail a service's err]
+- [Restart supervisor]
 
 ## Check status
 

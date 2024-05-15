@@ -1,5 +1,7 @@
 ﻿# How do you parse a date in powershell?
 
+To `ParseDate` in powershell use `ParseExact` -- it parses a string and return a date -- you may need to provide a format pattern (or, occasionally, an array of format patterns)
+
 ## Use ParseExact!
 
 	$DateAsAString = "30-12-1905";
@@ -25,6 +27,8 @@
 	} else {
 		Write-Host "it was formatted correctly" -f red;
 	}
+
+
 
 
 ## See also

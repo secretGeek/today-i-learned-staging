@@ -48,7 +48,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 9 articles |
+| [.net](.net/01_summary.md) | 10 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
  | [7z](7z/01_summary.md) | 2 articles |
  | [active directory](active_directory/01_summary.md) | 3 articles |
@@ -110,7 +110,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [kv](kv/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 15 articles |
- | [linux](linux/01_summary.md) | 41 articles |
+ | [linux](linux/01_summary.md) | 42 articles |
  | [macbook air](macbook_air/01_summary.md) | 5 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
@@ -190,5 +190,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-797 articles
-224183 words
+799 articles
+224604 words

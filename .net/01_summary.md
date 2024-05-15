@@ -5,6 +5,7 @@
 
 - [Config from an external source](config_external_source.md)
 - [Detect the encoding of a file](detect_text_encoding.md)
+- [Find which .net versions you have](Find_Which_DotNet_Versions_You_Have.md)
 - [Load DataTable from a SQL query](load_datatable.md)
 - [Override equals to compare objects in C#](override_equals.md)
 - [ParseExact (and TryParseExact)](parse_exact.md)
