@@ -11,6 +11,7 @@
 - [chmod - and the magic of file permissions](chmod_file_permissions.md)
 - [Colored output with bash](colored_output_with_bash.md)
 - [Convert excel spreadsheet to csv on linux (xlsx to csv)](xlsx_to_csv.md)
+- [Copy files from A to B -- recursively -- on linux bash ubuntu wsl](copy_files_recursively.md)
 - [Count all files in a directory, recursively](count_files_recursively.md)
 - [Create new user, to use a public key](create_user_with_public_key.md)
 - [Cron and crontab](cron.md)
