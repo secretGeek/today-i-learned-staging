@@ -1,6 +1,6 @@
 ﻿# Javascript function to generate a guid
 
-As seen at [HotGuids](https://secretgeek.net/hotGuids/index.htm) and now included in NimbleText.
+As seen at [HotGuids](https://secretgeek.net/hotGuids/index.htm) and now included in [NimbleText](https://nimbletext.com/Help/Functions#newGuid).
 
 The most widely exploited, non randomly pristine implementation of "new-guid" -- code that will outlast all of us.
 
@@ -21,7 +21,7 @@ Or as a NimbleText snippet....
 
 	<% ((((1+Math.random())*0x10000)|0).toString(16).substring(1)+(((1+Math.random())*0x10000)|0).toString(16).substring(1)+"-"+(((1+Math.random())*0x10000)|0).toString(16).substring(1)+"-"+(((1+Math.random())*0x10000)|0).toString(16).substring(1)+"-"+(((1+Math.random())*0x10000)|0).toString(16).substring(1)+"-"+(((1+Math.random())*0x10000)|0).toString(16).substring(1)+(((1+Math.random())*0x10000)|0).toString(16).substring(1)+(((1+Math.random())*0x10000)|0).toString(16).substring(1)) %>
 
-(I plan to embed a `newGuid()` function in [NimbleText](https://nimbleText.com))
+(I also embed a `newGuid()` function in [NimbleText (desktop only)](https://nimbletext.com/Help/Functions#newGuid))
 
 ....ah, that's "guid-like" but it's not really a guid.
 

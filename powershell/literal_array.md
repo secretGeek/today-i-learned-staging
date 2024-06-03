@@ -83,6 +83,18 @@ returns
 
 ## Add an item to an array
 
+To add an item to an array in powershell - we do not push or concatenate - we "plus equals" or `+=`
+
+	$data = @(
+		'Zero'
+		'One'
+		'Two'
+		'Three'
+	)
+	$data += 'four'
+
+
+
 ## Sources
 
 - [Everything you wanted to know about arrays](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.1)

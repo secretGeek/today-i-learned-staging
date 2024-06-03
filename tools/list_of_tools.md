@@ -7,7 +7,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files
 
-- .exe (144 files)
+- .exe (145 files)
 - .dll (27 files)
 - .txt (26 files)
 - .bat (14 files)
@@ -22,9 +22,9 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 - .com (3 files)
 - .html (3 files)
 - .ini (3 files)
+- .md (3 files)
 - .sys (3 files)
 - .htm (2 files)
-- .md (2 files)
 - .msc (2 files)
 - .ocx (2 files)
 - .2 (1 files)
@@ -33,6 +33,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 - .chk (1 files)
 - .cmd (1 files)
 - .gitconfig (1 files)
+- .gitignore (1 files)
 - .msi (1 files)
 - .ok (1 files)
 - .pdf (1 files)
@@ -129,6 +130,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 - ntfrsutl.exe
 - NuGet.exe
 - paste.exe
+- pdftotext.exe
 - pfmon.exe
 - pmon.exe
 - poolmon.exe
