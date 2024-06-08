@@ -11,6 +11,15 @@
 - [Transmission - Lightweight BitTorrent client]
 - [Kdenlive - Feature-rich video editor]
 
+<br />
+<br />
+
+First you gotta run this --
+
+    sudo apt update
+
+Refresh your list of sources. You're gonna be installing *at least* one thing here.
+
 ## GIMP - Image editing and photo retouching
 
     sudo apt install gimp
