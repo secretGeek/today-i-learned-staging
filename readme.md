@@ -110,7 +110,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [kv](kv/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 15 articles |
- | [linux](linux/01_summary.md) | 43 articles |
+ | [linux](linux/01_summary.md) | 44 articles |
  | [macbook air](macbook_air/01_summary.md) | 5 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
@@ -184,11 +184,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [wordle](wordle/01_summary.md) | 1 article |
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [writing](writing/01_summary.md) | 2 articles |
+ | [wsl](wsl/01_summary.md) | 2 articles |
  | [xunit](xunit/01_summary.md) | 2 articles |
  | [yarn](yarn/01_summary.md) | 1 article |
  | [zettel](zettel/01_summary.md) | 1 article |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-800 articles
-224662 words
+803 articles
+224994 words
