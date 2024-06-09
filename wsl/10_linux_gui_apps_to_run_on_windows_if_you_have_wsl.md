@@ -1,5 +1,6 @@
 # 10 Linux GUI Apps to Run on Windows with WSL
 
+
 - [GIMP] - Image editing and photo retouching
 - [VLC Media Player] - Versatile media player
 - [LibreOffice] - Comprehensive office suite
@@ -21,69 +22,90 @@ First you gotta run this --
 
 Refresh your list of sources. You're gonna be installing *at least* one thing here.
 
-## GIMP - Image editing and photo retouching
+## GIMP
+
+**Image editing and photo retouching**
 
     sudo apt install gimp
     gimp
 
 
 
-## VLC Media Player - Versatile media player
+## VLC Media Player
 
+**Versatile media player**
 
     sudo apt install vlc
     vlc
 
 
-## LibreOffice - Comprehensive office suite
+## LibreOffice
+
+**Comprehensive office suite**
 
     sudo apt install libreoffice
     libreoffice
 
 
-## Visual Studio Code - Lightweight source code editor
+## Visual Studio Code
+
+**Lightweight source code editor**
 
     sudo apt install code
     code
 
 
-## Thunderbird - Email client with powerful customization
+## Thunderbird
+
+**Email client with powerful customization**
 
     sudo apt install thunderbird
     thunderbird
 
 
-## Firefox - Privacy-focused web browser
+## Firefox
+
+**Privacy-focused web browser**
 
     sudo apt install firefox
     firefox
 
 
-## GNOME Terminal - Command-line interface
+## GNOME Terminal
+
+**Command-line interface**
 
     sudo apt install gnome-terminal
     gnome-terminal
 
 
-## Docker - Container platform for developing and running applications
+## Docker
+
+**Container platform for developing and running applications**
 
     sudo apt install docker.io
     docker
 
 
-## Transmission - Lightweight BitTorrent client
+## Transmission
+
+**Lightweight BitTorrent client**
 
     sudo apt install transmission
     transmission-gtk
 
 
-## Kdenlive - Feature-rich video editor
+## Kdenlive
+
+**Feature-rich video editor**
 
     sudo apt install kdenlive
     kdenlive
 
 
-## Steam - Digital distribution platform for video games
+## Steam
+
+**Digital distribution platform for video games**
 
     sudo apt install steam
     steam
