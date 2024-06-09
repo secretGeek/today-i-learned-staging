@@ -33,4 +33,9 @@ Install it and run it, basically.
 
 ## Other Apps you might want to run
 
+See: [10 Linux GUI Apps to Run on Windows with WSL](10_linux_gui_apps_to_run_on_windows_if_you_have_wsl.md)
 
+## See also
+
+- [10 Linux GUI Apps to Run on Windows with WSL](10_linux_gui_apps_to_run_on_windows_if_you_have_wsl.md)
+- [Installing wsl - bash on windows](../windows/bash_on_windows.md) 
