@@ -4,6 +4,9 @@ A common way...
 
 	$ top
 
+(And the newer and prettier `htop`)
+
+
 Also
 
 	$ free -m
@@ -31,13 +34,54 @@ And similarly:
 
 	$ watch -n 5 'cat /proc/meminfo | grep MemAvailable'
 
+
+## How much are particular apps using?
+
+Sort the current processes by memory usage
+
+
+    ps aux --sort=-%mem | head
+
+Note, see also [explain shell for this command](https://www.explainshell.com/explain?cmd=ps+aux+--sort%3D-%25mem+%7C+head)
+
+Columns of `ps aux`
+
+
+- `USER`
+- `PID`
+- `%CPU`
+- `%MEM`
+- `VSZ` -- Virtual Memory Size, in Kb
+- `RSS` -- Resident Set Size, in Kb
+- `TTY`
+- `STAT`
+- `START`
+- `TIME`
+- `COMMAND`  e.g. `/usr/bin/dotnet /opt/webapps/example.com/app/example.dll`
+
+Quickly explanations:
+
+- `Virtual Memory` Size is how much the operating system has been told to set aside for the process, but probably is not all in use.
+- `Resident Set Size` is how much is residing in memory that this app can access... the trick though is that there might be resources counted in there that are used by multiple apps. So, killing one app won't necessarily free this much memory.
+- ...and read more here: [ps output - Difference between VSZ vs RSS memory usage - Linux Tutorials - Learn Linux Configuration](https://linuxconfig.org/ps-output-difference-between-vsz-vs-rss-memory-usage)
+
+
+## Machine information
+
+Related -- 
+
 To see a lot of specific info about your machine...
 
 	$ sudo lshw
 
+Meaning: "list hardware"
+
+
 ## External Resources
 
 - [Linux Ate My Ram](http://www.linuxatemyram.com/)
+- [ps output - Difference between VSZ vs RSS memory usage - Linux Tutorials - Learn Linux Configuration](https://linuxconfig.org/ps-output-difference-between-vsz-vs-rss-memory-usage)
+- [explainshell.com for `ps aux --sort=-%mem | head`](https://www.explainshell.com/explain?cmd=ps+aux+--sort%3D-%25mem+%7C+head)
 
 ## See also
 
