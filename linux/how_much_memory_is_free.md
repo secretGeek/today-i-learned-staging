@@ -24,7 +24,7 @@ To watch it as it changes...
 
 This will refresh every 5 seconds.
 
-Another techinique:
+Another technique:
 
 	$ cat /proc/meminfo | grep MemAvailable
 
@@ -34,11 +34,9 @@ And similarly:
 
 	$ watch -n 5 'cat /proc/meminfo | grep MemAvailable'
 
-
 ## How much are particular apps using?
 
 Sort the current processes by memory usage
-
 
     ps aux --sort=-%mem | head
 
@@ -72,10 +70,11 @@ Related --
 
 To see a lot of specific info about your machine...
 
-	$ sudo lshw
+	sudo lshw
 
 Meaning: "list hardware"
 
+Gives a lot of output.
 
 ## External Resources
 

@@ -26,6 +26,7 @@
 - [How much memory is free?](how_much_memory_is_free.md)
 - [How to edit a file in linux](how_to_edit_a_file.md)
 - [How to enable Brotli compression in nginx on ubuntu](brotli_nginx.md)
+- [How to find files with Spaces in their name](how_to_find_files_with_spaces_in_their_name.md)
 - [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](lets_encrypt.md)
 - [list jobs in 'fg' 'bg' foreground and background](list_jobs_in_fg_bg_foreground_background.md)
 - [ls when files have leading dash](ls_when_files_have_leading_dash.md)

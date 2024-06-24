@@ -1,0 +1,1 @@
+- `encode`()	Returns an encoded version of the string

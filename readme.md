@@ -48,7 +48,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 10 articles |
+| [.net](.net/01_summary.md) | 11 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
  | [7z](7z/01_summary.md) | 2 articles |
  | [active directory](active_directory/01_summary.md) | 3 articles |
@@ -84,7 +84,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [excel](excel/01_summary.md) | 8 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
  | [firebird](firebird/01_summary.md) | 1 article |
- | [functions](functions/01_summary.md) | 3 articles |
+ | [functions](functions/01_summary.md) | 7 articles |
  | [games](games/01_summary.md) | 2 articles |
  | [git](git/01_summary.md) | 31 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
@@ -110,12 +110,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [kv](kv/01_summary.md) | 1 article |
  | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 15 articles |
- | [linux](linux/01_summary.md) | 44 articles |
+ | [linux](linux/01_summary.md) | 45 articles |
  | [macbook air](macbook_air/01_summary.md) | 5 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
  | [marketing](marketing/01_summary.md) | 6 articles |
- | [math](math/01_summary.md) | 2 articles |
+ | [math](math/01_summary.md) | 3 articles |
  | [memorize](memorize/01_summary.md) | 4 articles |
  | [mercurial](mercurial/01_summary.md) | 21 articles |
  | [microsoft terminal](microsoft_terminal/01_summary.md) | 3 articles |
@@ -184,12 +184,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [wordle](wordle/01_summary.md) | 1 article |
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [writing](writing/01_summary.md) | 2 articles |
- | [wsl](wsl/01_summary.md) | 2 articles |
+ | [wsl](wsl/01_summary.md) | 4 articles |
  | [xunit](xunit/01_summary.md) | 2 articles |
  | [yarn](yarn/01_summary.md) | 1 article |
  | [zettel](zettel/01_summary.md) | 1 article |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-803 articles
-225308 words
+812 articles
+227755 words
