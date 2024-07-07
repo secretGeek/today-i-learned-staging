@@ -84,7 +84,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [excel](excel/01_summary.md) | 8 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
  | [firebird](firebird/01_summary.md) | 1 article |
- | [functions](functions/01_summary.md) | 7 articles |
+ | [functions](functions/01_summary.md) | 8 articles |
  | [games](games/01_summary.md) | 2 articles |
  | [git](git/01_summary.md) | 31 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
@@ -191,5 +191,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-812 articles
-227755 words
+813 articles
+230700 words

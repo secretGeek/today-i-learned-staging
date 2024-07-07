@@ -9,18 +9,31 @@
 # "STRING CONVERSION"
 
 
+# Matrix of Formats
 
-Html       to     Text
-XML        to     JSON
-JSON       to     CSV
-CSV        to     Markdown
-Markdown   to     Html
-Text       to     XML
+- Html       to     Text
+- XML        to     JSON
+- JSON       to     CSV
+- CSV        to     Markdown
+- Markdown   to     Html
+- Text       to     XML
 
-PREDICATES --
-FORMATTERS --
-AGGREGATES --
-CONVERSIONS
+- "Higher Level" formats (less consistent)
+- PDF
+- Word
+- Excel
+- Index
+- Tuple
+- SQL Table Row
+- Python
+
+
+
+
+- PREDICATES --
+- FORMATTERS --
+- AGGREGATES --
+- CONVERSIONS
  - encoders
  - decoders
 

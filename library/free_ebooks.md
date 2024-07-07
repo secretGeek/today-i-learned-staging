@@ -6,8 +6,10 @@ Apart from your local library (for example [Brisbane City Council free ebooks an
 - [Standard EBooks](https://standardebooks.org) -- beautifully formatted free ebooks.
 - [Open Library](https://openlibrary.org/) -- part of the Internet Archive. (which is great!)
 - [Google ebook store](https://play.google.com/store/books/collection/topselling_free) - access to the topselling free ebooks
-
-There is a system called Library Genesis or LibGen, currently available at https://libgen.is/ which allows you to find ebooks. It's similar to sci-hub.
+- [Anna's Archive](https://annas-archive.org/) -- "the largest truly open library in human history" (because if we include the history of ants, whales or bacterium, theirs are much bigger)
+- More [datasets listed at Anna's Archive](https://annas-archive.org/datasets), and mirrors at <https://annas-archive.org>, <https://annas-archive.gs>, <https://annas-archive.se>
+- There is a system called Library Genesis or LibGen, currently available at <https://libgen.is/> which allows you to find ebooks. It's similar to sci-hub.
+- Z-Lib is kind of a fork of Library Genesis/
 
 Free audio books at:
 
@@ -32,3 +34,13 @@ And another thing is the smithsonian open access:
 (I'm not really sure where/how to catalog that? When will I need this? It has awesome old pictures, and machines and diagrams and drawings of animals and places and buildings...)
 
 ![smithsonian-example][smithsonian-example.jpg]
+
+
+
+## Shadow Libraries
+
+Some of the libraries above are [Shadow Libraries](https://en.wikipedia.org/wiki/Shadow_library) the existence of which implies the existence of:
+
+**Shadow Librarians**
+
+I have hidden a novel about shadow librarians in an unexpected book.

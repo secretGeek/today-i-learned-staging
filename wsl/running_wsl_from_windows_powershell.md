@@ -28,7 +28,7 @@ Normally when I run wsl, I run it via a function of mine called `bash` -- and wh
 	wsl.exe -d Ubuntu;
 
 And I've just read that -- to set the default profile of Ubuntu you can do this: 
-
+	
 
 	wsl --setdefault Ubuntu
 
@@ -50,3 +50,9 @@ MEANS --
 
 
 Go figure!
+
+
+
+	wsl.exe -e "ls" | % { wh "- $_  " -f red -n}
+	
+	<3>WSL (9) ERROR: CreateProcessParseCommon:711: Failed to translate \\wsl.localhost\Ubuntu\home\nosferatu
