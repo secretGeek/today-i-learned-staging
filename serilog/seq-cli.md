@@ -1,16 +1,20 @@
 
 # seq-cli
 
-
-Get it from <https://github.com/datalust/seqcli>
+Get it from [datalust](https://github.com/datalust/) at <https://github.com/datalust/seqcli>
 
 Or get it via `dotnet`
 
 	dotnet tool install --global seqcli
 
-
+-----
 
 ## `seqcli -?`
+
+Commandline tool for [seq (see overview)](https://docs.datalust.co/docs/an-overview-of-seq).
+
+> Supports logging (`seqcli log`), searching (`seqcli search`), tailing (`seqcli  tail`), querying (`seqcli query`) and JSON or plain-text log file ingestion (`seqcli ingest`), and much more.
+> &mdash; [seqcli at github](https://github.com/datalust/seqcli)
 
 	> seqcli -?
 	Usage: seqcli <command> [<args>]
@@ -20,22 +24,33 @@ Or get it via `dotnet`
 ## `seqcli help`
 
 
-	> seqcli help
+	seqcli help
 
 Help command for help with available commands.
 
-  > seqcli help <command> <sub-command>
+  seqcli help <command> <sub-command>
+  seqcli help <command> <sub-command>
 
 
 ## `Commands`
 
-- [apikey] &mdash; `sqcli apikey <sub-command>`
+- [apikey](#apikey) &mdash; `sqcli apikey <sub-command>`
   - [apikey create](#seqcli-apikey-create) &mdash; `sqcli apikey create`
   - [apikey list](#seqcli-apikey-list) &mdash; `sqcli apikey list`
   - [apikey remove](#seqcli-apikey-remove) &mdash; `sqcli apikey remove`
   - [apikey update](#seqcli-apikey-update) &mdash; `sqcli apikey update`
-- [app] &mdash; `<sub-command>`
-- [appinstance] &mdash; `<sub-command>`
+- [app](#app) &mdash; `<sub-command>`
+  - [app define](#seqcli-app-define) &mdash;  Generate an app definition for a .NET `[SeqApp]` plug-in
+  - [app install](#seqcli-app-install)     &mdash; Install an app package
+  - [app list](#seqcli-app-list)           &mdash; List installed app packages
+  - [app run](#seqcli-app-run)             &mdash; Host a .NET `[SeqApp]` plug-in
+  - [app uninstall](#seqcli-app-uninstall) &mdash; Uninstall an app package
+  - [app update](#seqcli-app-update)       &mdash; Update an installed app package
+- [appinstance](#appinstance) &mdash; `<sub-command>`
+  - [appinstance create](#seqcli-appinstance-create) &mdash; Create an instance of an installed app
+  - [appinstance list](#seqcli-appinstance-list) &mdash; List instances of installed apps
+  - [appinstance remove](#seqcli-appinstance-remove) &mdash; Remove an app instance from the server
+  - [appinstance update](#seqcli-appinstance-update) &mdash; Update an existing app instance
 - [bench] &mdash; Measure query performance
 - [config] &mdash; View and set fields in the `SeqCli.json` file; run with no arguments to list all fields
 - [dashboard] &mdash; `<sub-command>`
@@ -157,41 +172,38 @@ Uninstall an app package
 
 Update an installed app package
 
-
 ### appinstance
 
 
-<sub-command>
+Via `seqcli help appinstance`
 
-  seqcli help appinstance
+Usage: `seqcli appinstance <sub-command> [<args>]`
 
+`appinstance` *sub-commands*:
 
-Usage: seqcli appinstance <sub-command> [<args>]
-
-Available sub-commands are:
-  create      Create an instance of an installed app
-  list        List instances of installed apps
-  remove      Remove an app instance from the server
-  update      Update an existing app instance
+- [create]      Create an instance of an installed app
+- [list]      List instances of installed apps
+- [remove]      Remove an app instance from the server
+- [update]      Update an existing app instance
 
 Type `seqcli help appinstance <sub-command>` for detailed help
 
 
-#### sqlcli appinstance create
+#### seqcli appinstance create
 
 Create an instance of an installed app
 
 
-#### sqlcli appinstance list
+#### seqcli appinstance list
 
 List instances of installed apps
 
-#### sqlcli appinstance remove
+#### seqcli appinstance remove
 
 Remove an app instance from the server
 
 
-#### sqlcli appinstance update
+### seqcli appinstance update
 
 Update an existing app instance
 
@@ -200,7 +212,7 @@ Update an existing app instance
 
 ### bench
 
-#### sqlcli bench
+#### seqcli bench
 
 Measure query performance
 
@@ -504,14 +516,15 @@ Type `seqcli help profile <sub-command>` for detailed help
 
 ### query
 
-Execute an SQL query and receive results in CSV format
+Execute an SEQ query and receive results in CSV format
 
-  seqcli help query
+    seqcli help query
 
+See:
 
-seqcli query [<args>]
+    seqcli query [<args>]
 
-Execute an SQL query and receive results in CSV format
+Execute an SEQ query and receive results in CSV format
 
 Example:
   seqcli query -q "select count(*) from stream group by @Level" --start="2018-02-28T13:00Z"
