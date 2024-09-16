@@ -55,7 +55,7 @@ Help command for help with available commands.
 - [config] &mdash; View and set fields in the `SeqCli.json` file; run with no arguments to list all fields
 - [dashboard] &mdash; `<sub-command>`
 - [expressionindex] &mdash; `<sub-command>`
-- [feed] &mdash; `<sub-command>`
+- [feed](#feed) &mdash; `<sub-command>`
 - [help] &mdash; Show information about available commands
 - [index] &mdash; `<sub-command>`
 - [ingest] &mdash; Send log events from a file or `STDIN`
