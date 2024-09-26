@@ -48,7 +48,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 11 articles |
+| [.net](.net/01_summary.md) | 12 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
  | [7z](7z/01_summary.md) | 2 articles |
  | [active directory](active_directory/01_summary.md) | 3 articles |
@@ -84,7 +84,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [excel](excel/01_summary.md) | 8 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
  | [firebird](firebird/01_summary.md) | 1 article |
- | [functions](functions/01_summary.md) | 8 articles |
+ | [functions](functions/01_summary.md) | 9 articles |
  | [games](games/01_summary.md) | 2 articles |
  | [git](git/01_summary.md) | 31 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
@@ -191,5 +191,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-816 articles
-237915 words
+818 articles
+238407 words

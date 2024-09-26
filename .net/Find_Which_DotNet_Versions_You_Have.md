@@ -30,7 +30,11 @@ Gives output such as --
 
 ## Windows - looking for .net version post "framework"
 
-dotnet --list-runtimes
+
+
+    dotnet --list-runtimes
+
+
 
 
 ## On ubuntu linux
@@ -41,3 +45,12 @@ dotnet --list-runtimes
 	dpkg --get-selections | grep -v deinstall | grep dot
 
 
+## To Install a Dotnet SDK:
+
+- [Install latest dotnet sdk version](install_dotnet_sdk.md)
+
+
+
+## See aslo
+
+- [Install latest dotnet sdk version](install_dotnet_sdk.md)
