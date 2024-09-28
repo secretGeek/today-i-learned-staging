@@ -1,12 +1,11 @@
 ﻿# String Functions
 
-https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions)
 
-## String Functions
+## Reference Systems
 
-- Alteryx
-- SDU
-- SQL Server
+- [Alteryx]
+- [SDU]
+- [SQL Server]
 
 ### Alteryx
 
@@ -114,3 +113,7 @@ https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functi
 - `TRIM`	Removes leading and trailing spaces (or other specified characters) from a string
 - `UNICODE`	Returns the Unicode value for the first character of the input expression
 - `UPPER`	Converts a string to upper-case
+
+## External references
+
+- [Wikipedia: Comparison of Programming Languages: string functions](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(string_functions))

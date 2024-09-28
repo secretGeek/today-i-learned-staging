@@ -1,5 +1,13 @@
 # Examples of Data Types in Different Systems
 
+I'm not quite sure why I've started to pull this together. It's a simple comparison of the "fundamental data types" in a few different systems.
+
+I think the idea is to see what types are considered most fundamental, and what the differences in these data types says about the systems themselves. A sort of "reverse-engineered" card-sorting exercise.
+
+Ultimately it's to do with thinking about "universal ontologies" -- which are things I am certain you cannot have. So why I am thinking about something that is unattainable... I do not know.
+
+
+
 ## Examples from c# (.Net)
 
 (Via [Built-in types - C# References](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types))
