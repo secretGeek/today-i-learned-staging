@@ -3,9 +3,8 @@
 
 ## content
 
-- [](DateFunctions.md)
-- [](EncodingDecodingFunctions.md)
-- [](NamesOfStringFunctions.md)
+- [Date Functions](DateFunctions.md)
+- [Encoding Decoding Functions](EncodingDecodingFunctions.md)
 - [Examples of Data Types in Different Systems](datatypes.md)
 - [Function Research](list_of_common_functions.md)
 - [Math Functions](MathFunctions.md)
