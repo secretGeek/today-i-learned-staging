@@ -37,6 +37,7 @@
 - [How much space does my DB use?](how_much_space_does_my_db_use.md)
 - [How much space is left on the drives that my sql server can access?](drive_sizes.md)
 - [How to insert identity values into an identity column](identity_insert_off.md)
+- [How to run sql queries, to CSV, in powershell, on the commandline](sql_to_csv_on_the_commandline.md)
 - [How to use SQL Server Management Studio (SSMS) to access Windows authenticated databases across a VPN](use_ssms_across_vpn.md)
 - [Import CSV using SSMS tools](import_csv.md)
 - [Index fragmentation and nasty page splits](index_fragmentation_and_nasty_page_splits.md)

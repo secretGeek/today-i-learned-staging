@@ -33,10 +33,16 @@ What goes up, must come down. To stop all those running containers from running,
 
 
 
-## Concepts! More Concepts!
 
-- `docker-compose.override.yml`
-- ``
+
+## Override the behaviour of `docker-compose.yml` by using a `docker-compose.override.yml` file
+
+When you're writing code, you need to be able to run it locally for development purposes, and later run it perhaps in a test environment, a pre-prod and a production environment.
+
+Here's the dealio with "override.yml". You setup the `docker-compose.yml` file, as you would like it to be when run in a production environment.
+
+Then, if you wish, you can create a 
+
 
 
 ## Source(s)
