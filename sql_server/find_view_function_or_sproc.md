@@ -1,4 +1,4 @@
-﻿# Search all views functions or sprocs for a piece of text
+﻿# Find Tables or Columns by Name, and or Search all views functions or sprocs for a piece of text
 
 This is my most used snippet in "[kv](https://secretgeek.net/kv)" (key value snippet storer). "kv sysc"
 

@@ -18,19 +18,21 @@ That succeeded then retried installing pester.
 
 I then received this error message:
 
-	> Find-Module pester -Repository psgallery | Install-Module
-	PackageManagement\Install-Package : A Microsoft-signed module named 'Pester' with version '3.4.0' that was previously installed conflicts with the new module
-	'Pester' from publisher 'CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US' with version '4.10.1'. Installing the new module may
-	result in system instability. If you still want to install or update, use -SkipPublisherCheck parameter.
-	At C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1.0.0.1\PSModule.psm1:1912 char:34
-	+ ...          $null = PackageManagement\Install-Package @PSBoundParameters
-	+                      ~~~~~ ~~~~~~~~~ ~~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~ ~~~~~
-			+ CategoryInfo          : InvalidOperation: (Microsoft.Power....InstallPackage:InstallPackage) [Install-Package], Exception
-			+ FullyQualifiedErrorId : PublishersMismatch,Validate-ModuleAuthenticodeSignature,Microsoft.PowerShell.PackageManagement.Cmdlets.InstallPackage
+```plaintext
+> Find-Module pester -Repository psgallery | Install-Module
+PackageManagement\Install-Package : A Microsoft-signed module named 'Pester' with version '3.4.0' that was previously installed conflicts with the new module
+'Pester' from publisher 'CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US' with version '4.10.1'. Installing the new module may
+result in system instability. If you still want to install or update, use -SkipPublisherCheck parameter.
+At C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1.0.0.1\PSModule.psm1:1912 char:34
++ ...          $null = PackageManagement\Install-Package @PSBoundParameters
++                      ~~~~~ ~~~~~~~~~ ~~~~ ~~~~~ ~~~~~~~~ ~~~~~~~~~~ ~~~~~
+		+ CategoryInfo          : InvalidOperation: (Microsoft.Power....InstallPackage:InstallPackage) [Install-Package], Exception
+		+ FullyQualifiedErrorId : PublishersMismatch,Validate-ModuleAuthenticodeSignature,Microsoft.PowerShell.PackageManagement.Cmdlets.InstallPackage
+```
 
 So I tried:
 
-Find-Module pester -Repository psgallery | Install-Module -SkipPublisherCheck
+	Find-Module pester -Repository psgallery | Install-Module -SkipPublisherCheck
 
 ## Get Help
 

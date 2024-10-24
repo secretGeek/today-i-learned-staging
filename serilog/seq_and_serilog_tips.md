@@ -94,3 +94,18 @@ e.g, errors that effect more than 30 users....
 
 	@EventType = ToEventType('Unhandled exception when retrieving {PizzaType}')
 
+
+
+## Overview of tips
+
+
+- overly generic naming of a property
+- inconsistent name of a property
+- case insensitive naming of a property
+- using $"interpolated {strings}" prevents serilog doing "proper {structured}", logging
+- suggest enriching a context if multiple log events will be recorded -- and helping correlation anyway you can -- 
+- Error(ex.Message, ex) versus -- Error(ex, "Description here")
+- lack of "environment" / "machine" / "applicationName" properties
+	- inconsistent or slightly different variants on those... "EnvironmentName", "MachineName" etc -- ruins grouping.
+- any and all string concatentation  ruins the message template pattern
+- putting `@` before a property, when it is not a good idea to do so .... and the times when it is a good idea (simple arrays).
