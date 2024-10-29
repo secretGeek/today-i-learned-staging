@@ -23,7 +23,7 @@
 - [Slaughterhouse five](Vonn_Five.md)
 - [Sweet spot - Christine Carer](Carter_SweetSpot.md)
 - [Teach your child how to think Edward de Bono](Debono_child.md)
-- [Thanks for the feedback](StoneHeen_Feedback.md)
+- [Thanks for the Feedback](StoneHeen_Feedback.md)
 - [The Achievement Habit, Bernard Roth](Roth_Achievement.md)
 - [The idea generator, Ken Hudson](Hudson_Idea.md)
 - [The life changing magic of tidying - Marie Kondo](kondo_tidying.md)
