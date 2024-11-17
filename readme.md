@@ -142,7 +142,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [python](python/01_summary.md) | 10 articles |
  | [questions](questions/01_summary.md) | 1 article |
  | [r language](r_language/01_summary.md) | 1 article |
- | [react](react/01_summary.md) | 3 articles |
+ | [react](react/01_summary.md) | 4 articles |
  | [reading notes](reading_notes/01_summary.md) | 30 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [robocopy](robocopy/01_summary.md) | 1 article |
@@ -191,5 +191,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-819 articles
-241516 words
+820 articles
+241673 words

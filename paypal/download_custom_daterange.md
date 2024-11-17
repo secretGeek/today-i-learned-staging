@@ -16,9 +16,13 @@ You want "All transactions" (not the default of "Balance affecting")
 
 If the transaction history is big enough then they email you when it's ready and it's available from:
 
-	https://business.paypal.com/merchantdata/reportHome?reportType=DLOG
+	https://www.paypal.com/reports/dlog
 
 Previously it was:
+
+	https://business.paypal.com/merchantdata/reportHome?reportType=DLOG
+
+Previous to that it was:
 
 	https://www.paypal.com/au/HISTORY-DOWNLOAD
 

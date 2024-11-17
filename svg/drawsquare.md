@@ -307,7 +307,7 @@ Also consider applying some rounding -- or [animating some rounding like this ex
 </svg>
 </div>
 
-![svg](nt.svg)
+![svg](nt.svg)    nt.svg
 
 <div style='padding:30px;background-color:#333;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#333'>
@@ -363,13 +363,13 @@ Also consider applying some rounding -- or [animating some rounding like this ex
 </svg>
 </div>
 
-![nt.svg](nt.svg)
+![nt.svg](nt.svg) - nt.svg
 
 <div style='padding:30px;background-color:#111;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>
-  <g transform="scale(1 1)">
-  <circle cx="203" cy="203" r="203" fill="#383838" stroke="none"/>
-		<path d="M 96,106 L 96,310 120,310 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#000" stroke="none" />
+<g transform="scale(1 1)">
+  <circle cx="192" cy="203" r="136" fill="#383838" stroke="none"></circle>
+		<path d="M 96,106 L 96,306 120,320 120,163 278,310 278,129 330,129 330,106 203,106 203,129 255,129 255,256 96,106 C" fill="#000" stroke="none"></path>
 	</g>
 </svg>
 </div>
