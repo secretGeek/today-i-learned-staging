@@ -2,20 +2,37 @@
 
 Here is the codes:
 
-	<svg width="400" height="110">
-		<rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
-	</svg>
+```svg
+<svg width="400" height="110">
+  <rect width="100" height="100" style="fill:rgb(255,255,30,0.0);stroke-width:1;stroke:rgb(255,128,0)" />
+</svg>
+```
+
+Is:
 
 <svg width="400" height="110">
   <rect width="300" height="100" style="fill:rgb(255,255,30,0.0);stroke-width:1;stroke:rgb(255,128,0)" />
 </svg>
 
-- `stroke-width` e.g. 1, 2, 10%.
-- `stroke` (color) e.g. rgb(255,127,63), green
+- `stroke-width` e.g. `1`, `2`, `10%`.
+- `stroke` (color) e.g. `rgb(255,127,63)`, `green`
 
 ## Stroke Example (also a circle example)
 
 Can define a stroke using another element.
+
+```svg
+<svg width="200" height="200">
+  <circle cx="100" cy="100" r="97" fill="none"
+      stroke="url(#myGradient)" />
+  <defs>
+    <linearGradient id="myGradient">
+    <stop offset="0%"   stop-color="green" />
+    <stop offset="100%" stop-color="white" />
+    </linearGradient>
+  </defs>
+</svg>
+```
 
 <svg width="200" height="200">
   <circle cx="100" cy="100" r="97" fill="none"
@@ -27,6 +44,7 @@ Can define a stroke using another element.
     </linearGradient>
   </defs>
 </svg>
+
 
   <svg width="200" height="200">
     <circle cx="100" cy="100" r="97" fill="none"
@@ -307,7 +325,9 @@ Also consider applying some rounding -- or [animating some rounding like this ex
 </svg>
 </div>
 
-![svg](nt.svg)    nt.svg
+## nt.svg
+
+![svg](nt.svg)
 
 <div style='padding:30px;background-color:#333;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#333'>
@@ -363,7 +383,12 @@ Also consider applying some rounding -- or [animating some rounding like this ex
 </svg>
 </div>
 
-![nt.svg](nt.svg) - nt.svg
+
+## nt.svg
+
+![nt.svg](nt.svg)
+
+-----
 
 <div style='padding:30px;background-color:#111;'>
 <svg class='nt-logo' width="406" height="406" xmlns="http://www.w3.org/2000/svg" style='background-color:#111'>

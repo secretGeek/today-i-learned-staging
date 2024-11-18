@@ -72,6 +72,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [css](css/01_summary.md) | 12 articles |
  | [csv](csv/01_summary.md) | 3 articles |
  | [cypress](cypress/01_summary.md) | 2 articles |
+ | [d3](d3/01_summary.md) | 1 article |
  | [design](design/01_summary.md) | 2 articles |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article |
  | [docker](docker/01_summary.md) | 6 articles |
@@ -160,7 +161,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [sqlite](sqlite/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
- | [svg](svg/01_summary.md) | 4 articles |
+ | [svg](svg/01_summary.md) | 5 articles |
  | [tcl](tcl/01_summary.md) | 1 article |
  | [todo](todo/01_summary.md) | 1 article |
  | [tools](tools/01_summary.md) | 3 articles |
@@ -191,5 +192,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-820 articles
-241673 words
+822 articles
+242983 words
