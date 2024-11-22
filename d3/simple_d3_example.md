@@ -28,3 +28,7 @@ let svg = d3.select('#chart')
 	.append('g')
 	.attr('transform', `translate(${margin.left}, ${margin.top})`);
 ```
+
+## See also
+
+- [Draw Path](../svg/drawpath.md)

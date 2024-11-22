@@ -2,6 +2,6 @@
 
 	cp -r source target
 
-i.e. 
+i.e.
 
 	cp -r /some/src/path /mnt/c/some/path

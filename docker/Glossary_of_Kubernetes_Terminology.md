@@ -1,4 +1,4 @@
-# Glossary of Kubernetes Terminology
+﻿# Glossary of Kubernetes Terminology
 
 ## Kubernetes Architecture
 

@@ -235,7 +235,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Golden Hammer (Maslow's Hammer)
 - Goodhart's Law: when measure becomes target it ceases to be a good measure
 - Goods and services
-- Great artist’s steal
+- Great artist's steal
 - Gresham's Law
 - Gridlock
 - Group think
@@ -527,7 +527,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 - Unintended Consequences
 - Universality
 - Unknown Unknowns
-- unpack - as in “let’s unpack that”
+- unpack - as in "let's unpack that"
 - Utility (marginal/diminishing/increasing)
 - Value (economics)
 - Value (Life)

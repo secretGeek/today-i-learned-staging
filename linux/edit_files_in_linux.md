@@ -1,8 +1,5 @@
 # Edit files in linux (mostly for beginners)
 
-## 
-
-
 Exactly as it says in [How to edit a file in linux](how_to_edit_a_file.md){.canonical}
 
 Simplest way to get started is to use `nano`. It's included in many distros including ubuntu.

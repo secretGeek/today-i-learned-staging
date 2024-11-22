@@ -18,22 +18,18 @@ A function to do it for you....
           RETURN DATEADD(dd, 0, DATEDIFF(dd, 0, @date))
     END
 
-
-## Today in SQL (with no time component) 
+## Today in SQL (with no time component)
 
 You can use the above to return "today" without a time component:
 
 	DATEADD(dd, 0, DATEDIFF(dd, 0, GetDate()))
-	
 
-## Yesterday in SQL (with no time component) 
+## Yesterday in SQL (with no time component)
 
 Or Yesterday
 
-	
-	DATEADD(dd, 0, DATEDIFF(dd, 0, GetDate()))
-
+	DATEADD(dd, -1, DATEDIFF(dd, 0, GetDate()))
 
 ## See also
 
- - [First (and last) day of the month.](first_day_of_month.md)
+- [First (and last) day of the month.](first_day_of_month.md)

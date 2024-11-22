@@ -114,4 +114,4 @@ Refresh your list of sources. You're gonna be installing *at least* one thing he
 ## See also
 
 - [running gui apps from the linux subsystem for windows](running_gui_apps_from_the_linux_subsystem_for_windows.md)
-- [Installing wsl - bash on windows](../windows/bash_on_windows.md) 
+- [Installing wsl - bash on windows](../windows/bash_on_windows.md)

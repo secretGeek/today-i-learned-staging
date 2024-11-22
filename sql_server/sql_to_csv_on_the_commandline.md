@@ -62,7 +62,7 @@ Given a folder full of `.sql` files that conform to some naming pattern, you can
 	$DBServer = "";
 	$DBName =   "";
 
-	dir . "??somepattern??*.sql" | % { 
+	dir . "??somepattern??*.sql" | % {
 			"Executing: '$($_.Name)',`nOn DBServer: $DBServer,`nAnd DB: $DBName,`nWith output: '$($_.Name).csv'";
 			Invoke-Sqlcmd -InputFile $_.Name -ConnectionString "data source=$($DBServer);initial catalog=$($DBName);integrated security=True;MultipleActiveResultSets=True;App=AdhocSqlScript;Encrypt=false;"  | Export-Csv -Path $($_.BaseName + ".csv") -NoTypeInformation;
 			dir $($_.BaseName + ".csv") | % { "Output: $($_.Length) bytes (see $($_.Name))"}

@@ -66,7 +66,7 @@ Quickly explanations:
 
 ## Machine information
 
-Related -- 
+Related --
 
 To see a lot of specific info about your machine...
 

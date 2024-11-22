@@ -4,12 +4,9 @@ I'm not quite sure why I've started to pull this together. It's a simple compari
 
 I think the idea is to see what types are considered most fundamental, and what the differences in these data types says about the systems themselves. A sort of "reverse-engineered" card-sorting exercise.Ultimately it's to do with thinking about "universal ontologies" -- which are things I am certain you cannot have. So why I am thinking about something that is unattainable... I do not know.
 
-
-
 ## Example Data Types from c# (.Net)
 
 (Via [Built-in types - C# References](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types))
-
 
 ### "Value Types"
 
@@ -59,7 +56,6 @@ I think the idea is to see what types are considered most fundamental, and what 
 
 (Via [Data types (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql))
 
-
 ### "Exact numerics"
 
 - `tinyint`
@@ -86,7 +82,7 @@ I think the idea is to see what types are considered most fundamental, and what 
 - `smalldatetime`
 
 ### "Character strings"
-  
+
 - `char`
 - `varchar`
 - `text`

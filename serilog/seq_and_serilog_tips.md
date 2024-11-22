@@ -1,6 +1,5 @@
 # Tips for QUERYING Seq (Structured Exception Queries)
 
-
 ## Grouped up exception by EventType
 
 
@@ -103,7 +102,7 @@ e.g, errors that effect more than 30 users....
 - inconsistent name of a property
 - case insensitive naming of a property
 - using $"interpolated {strings}" prevents serilog doing "proper {structured}", logging
-- suggest enriching a context if multiple log events will be recorded -- and helping correlation anyway you can -- 
+- suggest enriching a context if multiple log events will be recorded -- and helping correlation anyway you can --
 - Error(ex.Message, ex) versus -- Error(ex, "Description here")
 - lack of "environment" / "machine" / "applicationName" properties
 	- inconsistent or slightly different variants on those... "EnvironmentName", "MachineName" etc -- ruins grouping.

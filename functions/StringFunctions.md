@@ -6,10 +6,10 @@
 
 
 
-# "STRING CONVERSION"
+## "STRING CONVERSION"
 
 
-# Matrix of Formats
+## Matrix of Formats
 
 - Html       to     Text
 - XML        to     JSON
@@ -46,7 +46,7 @@
 - `CobolCase` - Converts a string to COBOL-CASE
 - `KebabCase` - Converts a string to kebab-case
 - `Lower`
-	- `ToLower` - 
+	- `ToLower` -
 	- `LowerCase(x)`
 	- `LCase(x)`
 - `PascalCase` - Converts a string to PascalCase
@@ -102,7 +102,6 @@
 - "throw / catch" (previously "onError goto")
 
 
-#####################################################################
 
 ## Strippers
 
@@ -111,11 +110,9 @@
 - `AlphabeticOnly` - Removes any non-alphabetic characters from a string
 - `AlphanumericOnly` - Removes any non-alphanumeric characters from a string
 - `AsciiOnly` - Removes non-ASCII characters from a string
-- Strip 
+- Strip
 
 ## Lookups
-
-
 
 - `ASCII`	Returns the ASCII value for the specific character
 - `CHAR`	Returns the character based on the ASCII code

@@ -41,11 +41,11 @@
 - `trim`()	Returns a trimmed version of the string
 - `ltrim`()	Returns a trimmed version of the string
 - `rtrim`()	Returns a trimmed version of the string
-- reserved: `strip`(x)	Returns a string with matching areas removed, e.g. remove spaces, remove 
+- reserved: `strip`(x)	Returns a string with matching areas removed, e.g. remove spaces, remove
 - `replace`()	Returns a string where a specified value is replaced with a specified value
 - `rfind`()	Searches the string for a specified value and returns the last position of where it was found
 - `rindex`()	Searches the string for a specified value and returns the last position of where it was found
-	
+
 - lpad
 - rpad
 

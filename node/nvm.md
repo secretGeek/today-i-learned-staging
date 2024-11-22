@@ -1,6 +1,12 @@
-# Node Version Manager - nvm
+﻿# Node Version Manager - nvm
 
 `nvm` lets you have multiple side by side versions of node on your machine, and switch between which one is used at any point in time.
+
+> `tip` Note that `NVM for windows` is not the other more famous `nvm`, so when searching for help or information, or hearing about nvm's features... much of it does not apply to `nvm for windows`. 🥹
+>
+> `tip` Note also: `NVM for Windows` requires an elevated console.
+
+
 
 Once nvm is installed:
 
@@ -36,3 +42,8 @@ To install the specific version of node you need, use `nvm install` followed by 
 	nvm install 10.22.0
 
 That does *not* mean it is the current version. To switch to it, use `nvm use 10.22.0` (as described above)
+
+
+## See also
+
+- [Volta - node version manager](volta.md) (includes a comparison with nvm)

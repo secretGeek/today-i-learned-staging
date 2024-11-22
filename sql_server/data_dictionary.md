@@ -84,11 +84,9 @@ Also
 	- stored procedures
 	- summaries of tables etc
 
-
 ---
 
 ## Formatted data for table sizes
-
 
 This is the same as the first query above, but it also formats the numbers to be more readable (via a CTE and `Format`)
 
@@ -118,7 +116,7 @@ This is the same as the first query above, but it also formats the numbers to be
 		GROUP BY
 			t.Name, s.Name, p.Rows
 	)
-	Select 
+	Select
 		[Schema],
 		[Table],
 		FORMAT([Rows],'#,0') as [Rows],
@@ -127,11 +125,10 @@ This is the same as the first query above, but it also formats the numbers to be
 		FORMAT([UnusedPages]*8.0/1024,'#,0.0') as [Unused Space MB],
 		FORMAT(PagesPerRow * 8.0, '#,0.0') as [Avg KB/Row],
 		FORMAT(PagesPerRow * 8.0/(1024), '#,0.0') as [Avg MB/Row]
-	from 
+	from
 	Summary
 		ORDER BY		[TotalPages] desc, 7 desc
 
-		
 ## See also
 
 - [How much space is left on the drives that my sql server can access?](drive_sizes.md)

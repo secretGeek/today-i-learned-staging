@@ -1,4 +1,4 @@
-# Glossary of Docker and Container Terminology
+﻿# Glossary of Docker and Container Terminology
 
 ## Containers
 

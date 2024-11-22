@@ -24,7 +24,7 @@ This will:
 - If necessary, download the container images referenced in the compose file.
 - Run the images (i.e. start "containers" based on the downloaded images) with the connections and dependencies (the plumbing) as described in the docker compose file. (Sorry I mean the 'orchestration')
 
-## To stop the Orchestra of containers, to stop the `docker-compose.yml` images from running....
+## To stop the Orchestra of containers, to stop the `docker-compose.yml` images from running
 
 
 What goes up, must come down. To stop all those running containers from running, execute the complementary command, "down", like so:
@@ -41,7 +41,7 @@ When you're writing code, you need to be able to run it locally for development 
 
 Here's the dealio with "override.yml". You setup the `docker-compose.yml` file, as you would like it to be when run in a production environment.
 
-Then, if you wish, you can create a 
+Then, if you wish, you can create a
 
 
 

@@ -1,20 +1,17 @@
 # Find which .net versions you have
 
-
-
 ## On Windows 10 or 11
 
-    reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s | 
-		? { $_ -like "*version*" } | 
-		% { ($_ -split " ") | 
-		? { $_ -match "[0-9.]+" } | 
-				% { $_ } 
+    reg query "HKLM\SOFTWARE\Microsoft\Net Framework Setup\NDP" /s |
+		? { $_ -like "*version*" } |
+		% { ($_ -split " ") |
+		? { $_ -match "[0-9.]+" } |
+				% { $_ }
 			} |
 		sort -desc |
 		unique
 
 Gives output such as --
-
 
 	4.8.09032
 	4.0.0.0
@@ -27,30 +24,18 @@ Gives output such as --
 	3.0.0.0
 	2.0.50727.4927
 
-
 ## Windows - looking for .net version post "framework"
-
-
 
     dotnet --list-runtimes
 
-
-
-
 ## On ubuntu linux
-
-
-
 
 	dpkg --get-selections | grep -v deinstall | grep dot
 
-
-## To Install a Dotnet SDK:
+## To Install a Dotnet SDK
 
 - [Install latest dotnet sdk version](install_dotnet_sdk.md)
 
-
-
-## See aslo
+## See also
 
 - [Install latest dotnet sdk version](install_dotnet_sdk.md)
