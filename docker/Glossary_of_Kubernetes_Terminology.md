@@ -14,8 +14,8 @@
 - **ReplicaSet**: Ensures that a specific number of pod replicas are running at any given time. Deployments usually manage ReplicaSets.
 - **Service**: An abstraction that defines a logical set of pods and a policy for accessing them. Kubernetes services allow stable endpoints for a set of dynamic pods.
   - **ClusterIP**: The default service type that exposes the service on a cluster-internal IP.
-  - **NodePort**: Exposes the service on each node’s IP at a static port.
-  - **LoadBalancer**: Exposes the service using a cloud provider’s load balancer.
+  - **NodePort**: Exposes the service on each node's IP at a static port.
+  - **LoadBalancer**: Exposes the service using a cloud provider's load balancer.
 
 ## Advanced Kubernetes Concepts
 
