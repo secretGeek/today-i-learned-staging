@@ -1,8 +1,14 @@
 # Relative Dates
 
+This is a function that gives a whole bunch of day functions --
+
+- Yesterday
+- Tomorrow
+- A week Today
 
 
-	ALTER FUNCTION dbo.[DaysRelative]
+
+	CREATE FUNCTION dbo.[DaysRelative]
 	(	
 		-- Add the parameters for the function here
 		@BaseTime DateTime
@@ -10,8 +16,6 @@
 	RETURNS TABLE 
 	AS
 	RETURN 
-
-
 	(
 	-- Declare @BaseTime DateTime = DateAdd(d, 0, GetDate());
 
@@ -25,24 +29,29 @@
 		DateAdd(d, -7, cast(Cast(@BaseTime as Date) as DateTime)) as [A_Week_Ago],
 		DateAdd(d, -14, cast(Cast(@BaseTime as Date) as DateTime)) as [A_Fortnight_Ago],
 
+		-- Mondays
 		DateAdd(day, 1, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_this_week,
 		DateAdd(day, 1+7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_next_week,
 		DateAdd(day, 1+14, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_Fortnight,
-
+		-- This week
+		DateAdd(day, 1, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_this_week,
 		DateAdd(day, 2, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Tuesday_of_this_week,
 		DateAdd(day, 3, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Wednesday_of_this_week,
 		DateAdd(day, 4, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Thursday_of_this_week,
 		DateAdd(day, 5, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Friday_of_this_week,
 		DateAdd(day, 6, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Saturday_of_this_week,
 		DateAdd(day, 7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Sunday_of_this_week,
-
+		-- Next week
+		DateAdd(day, 1+7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_next_week,
 		DateAdd(day, 2+7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Tuesday_of_next_week,
 		DateAdd(day, 3+7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Wednesday_of_next_week,
 		DateAdd(day, 4+7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Thursday_of_next_week,
 		DateAdd(day, 5+7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Friday_of_next_week,
 		DateAdd(day, 6+7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Saturday_of_next_week,
 		DateAdd(day, 7+7, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Sunday_of_next_week,
-
+		-- Fortnight
+		DateAdd(day, 1+14, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_Fortnight,
+		DateAdd(day, 2+14, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Tuesday_Fortnight,
 		DateAdd(day, 3+14, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Wednesday_Fortnight,
 		DateAdd(day, 4+14, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Thursday_Fortnight,
 		DateAdd(day, 5+14, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Friday_Fortnight,
@@ -50,11 +59,9 @@
 		DateAdd(day, 7+14, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Sunday_Fortnight
 	)
 
-
-# Columns / Results
+## Columns / Results
 
 Given any base date (such as, the day after tomorrow), it will tell you, relative to that date when is:
-
 
 - `Now` - Now
 - `Today` - Today
