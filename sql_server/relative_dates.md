@@ -6,6 +6,7 @@ This is a function that gives a whole bunch of day functions --
 - Tomorrow
 - A week Today
 
+The function itself
 
 
 	CREATE FUNCTION dbo.[DaysRelative]
