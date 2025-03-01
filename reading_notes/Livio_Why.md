@@ -1,10 +1,10 @@
 ﻿# Why? Mario Livio
 
-* Epistemic curiosity is the type Einstein had in abundance
-* Specific curiosity - when u want to know what film that actress was in
-* Diversive curiosity - restless desire to explore.   Seeking of novel stimulation to avoid boredom. Checking for new email. Impatient etc.
-* Empathic curiosity - trying to understand a person as in citizen Kane plot
-* Morbid curiosity - can't look away
+- Epistemic curiosity is the type Einstein had in abundance
+- Specific curiosity - when u want to know what film that actress was in
+- Diversive curiosity - restless desire to explore.   Seeking of novel stimulation to avoid boredom. Checking for new email. Impatient etc.
+- Empathic curiosity - trying to understand a person as in citizen Kane plot
+- Morbid curiosity - can't look away
 
 ## Details about Leonardo
 
@@ -34,10 +34,10 @@ Wait - isn't there arousal toward stimulation and secondly satisfaction of the a
 
 Four factors that lead to things being worthy of curiosity:
 
-* Novelty
-* Complexity
-* Uncertainty and
-* Conflict
+- Novelty
+- Complexity
+- Uncertainty and
+- Conflict
 
 Curiosity is a cognitive induced deprivation- an information gap
 
@@ -47,4 +47,7 @@ Having filled it a new gap is thus made smaller and within reach - or we believe
 
 (Could We model the size of the information gaps at each stage of a game of sudoku, and work out if or when it is maximally satisfying - when are people least likely to lose interest? - and from this develop genetic algorithms that evolve novel games with maximally enjoyable rulesets? Again modeling the human brain in some rudimentary way is an obvious need of such systems. A definition of fun. )
 
-"Everywhere there is a source of food there's some form of life that finds it." Told to Feynman by his dad in relation to lice on birds whose excretions caused bacteria to blossom
+> Everywhere there is a source of food there's some form of life that finds it.
+>
+> &mdash; Told to Feynman by his dad in relation to lice on birds whose excretions caused bacteria to blossom
+

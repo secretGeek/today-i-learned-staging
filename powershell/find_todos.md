@@ -67,6 +67,11 @@ Currently something like.... (this is dynamically loaded from util)
 	    Get-ChildItem -Path * -Include $overRideWithFileTypes -Exclude .git, .hg, *jquery*, modernizr* -Recurse:$Recursive |
 	        Where-Object { $_.FullName -inotmatch 'node_modules' -and
 	            $_.FullName -inotmatch '\\packages\\' -and
+				$_.FullName -inotmatch '\\abandoned_nonstarter_projects\\' -and
+				$_.FullName -inotmatch '\\wwwroot\\lib\\' -and
+				$_.FullName -inotmatch '\\src\\sample-files\\' -and
+				$_.FullName -inotmatch '\\all_someday_projects\\ebooks\\' -and
+				$_.FullName -inotmatch '\\all_someday_projects\\bambrick_brothers_bakery\\' -and
 	            $_.FullName -inotmatch '\\obj\\' -and
 	            $_.FullName -inotmatch '\\bin\\debug\\'
 	        } | ForEach-Object { $activeFile = $_; $_ } | #.LastWriteTime;
