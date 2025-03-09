@@ -1,10 +1,17 @@
 # Relative Dates
 
-This is a function that gives a whole bunch of day functions --
+This is a function that gives a whole bunch of day functions, relative to any given DateTime
 
-- Yesterday
-- Tomorrow
-- A week Today
+- *Now*
+- *Today*
+- *Yesterday*
+- *Tomorrow*
+- *A week Today*
+- *Monday of this week*
+- *Monday of last week*
+- *Monday Fortnight* - (Although not commonly used in the American English, a "**fortnight**" is a two-week period, and is used in other variants of English) 
+- ...and so on for the other days of the week.
+
 
 The function itself
 
@@ -23,7 +30,7 @@ The function itself
 	Select
 		-- Basic date terms
 		@BaseTime as [Now],	
-							cast(Cast(@BaseTime as Date) as DateTime) as [Today],
+		Cast(Cast(@BaseTime as Date) as DateTime) as [Today],
 		Cast(DateAdd(d, -1, Cast(@BaseTime as Date)) as DateTime) as [Yesterday],
 		Cast(DateAdd(d, 1,	Cast(@BaseTime as Date)) as DateTime) as [Tomorrow],
 		DateAdd(d, 7, 		Cast(Cast(@BaseTime as Date) as DateTime)) as [A_Week_Today],
@@ -31,9 +38,9 @@ The function itself
 		DateAdd(d, -7, 		Cast(Cast(@BaseTime as Date) as DateTime)) as [A_Week_Ago],
 		DateAdd(d, -14, 	Cast(Cast(@BaseTime as Date) as DateTime)) as [A_Fortnight_Ago],
 		-- Mondays
-		DateAdd(day, 1, 	DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_this_week,
-		DateAdd(day, 1+7, 	DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_next_week,
-		DateAdd(day, 1+14, 	DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_Fortnight,
+		DateAdd(day, 1, 	DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_this_week_,
+		DateAdd(day, 1+7, 	DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_next_week_,
+		DateAdd(day, 1+14, 	DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_Fortnight_,
 		-- This week
 		DateAdd(day, 1, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Monday_of_this_week,
 		DateAdd(day, 2, DATEADD(wk, DATEDIFF(wk, 6, @BaseTime), 6)) as Tuesday_of_this_week,

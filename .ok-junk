@@ -1,0 +1,20 @@
+j today-i-learned
+pow: cd powershell
+# ERROR CHECKING
+.\Errors.ps1
+# LINT
+dir . *.md -rec | %  { lint-markdown $_.FullName } | Export-Csv linterrors.csv -NTI # . .\lint-it.ps1
+.\linty.ps1 # show main lint messages, in groups
+# REPAIR
+fif -FilePath .\readme.md -Find "`r`n`r`n`r`n" -Replace "`r`n`r`n" # Remove extra blank lines
+dir *.md | % { fif -FilePath $_.FullName -Find "[ `t]+`r`n" -Replace "`r`n" } # Remove trailing space
+dir . *.md -rec | % { fif -FilePath $_.FullName -Find "[ ]+$" } # trailing spaces
+dir . *.md -rec | % { fif -FilePath $_.FullName -Find "`r`n`r`n`r`n" -Replace "`r`n`r`n"; } # LessBlank
+# Utilities
+toc: & .\toc.ps1; # Make TOC
+get-toc "$arg"  | % { "- [$($_.title)]"  }
+link: make-link "$arg" # make link to filename
+last15: dir . *.md -rec | sort lastwritetime -desc | select -first 15 | % FullName
+todo: n .\todo\index_of_improvements.md
+find-pattern "(``todo``|todo|\[ \])"
+findlinks_part1:. .\find-links.ps1; find-links | Export-Csv links.csv -NTI -encoding utf8;

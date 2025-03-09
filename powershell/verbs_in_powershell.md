@@ -15,3 +15,4 @@ Use `Get-Verb` to find the available verbs.
 ## Source
 
  - [powershell approved verb synonyms](https://tommymaynard.com/powershell-approved-verb-synonyms/)
+ - [PATH: getting it, adding to it and managing it](PATH.md)
