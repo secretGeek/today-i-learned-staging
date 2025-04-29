@@ -114,7 +114,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [linux](linux/01_summary.md) | 45 articles |
  | [macbook air](macbook_air/01_summary.md) | 5 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
- | [markdown](markdown/01_summary.md) | 3 articles |
+ | [markdown](markdown/01_summary.md) | 4 articles |
  | [marketing](marketing/01_summary.md) | 6 articles |
  | [math](math/01_summary.md) | 3 articles |
  | [memorize](memorize/01_summary.md) | 4 articles |
@@ -192,5 +192,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-824 articles
-242641 words
+825 articles
+242669 words

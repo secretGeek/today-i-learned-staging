@@ -14,10 +14,11 @@ I've placed related resources here for myself:
 
 Two stages:
 
-- Query Tuning
+1. Query Tuning
   - i.e. you tune individual queries and come up with decent indexes for them in isolation
-- Server Tuning
-  - consolidate indexes for all typical queries to avoid:
+2. Server Tuning
+  - consolidate indexes for all typical queries.
+  - This way you reduce or avoid:
     - unused indexes
     - duplicate indexes
     - too-similar indexes
@@ -27,12 +28,21 @@ Two stages:
 - When running queries to be analysed:
   - Turn on statistics io
 
-	SET STATISTICS IO ON;
+		SET STATISTICS IO ON;
 
   - Turn on show plan (i.e. "show actual execution plan" button -- Kimberly calls it 'Show Plan')
 
 - To inspect indexes:
-  - DMV for index (Kimberly uses '[sys].[dm_db_index_physical_stats]' so much she just refers to it as 'the DMV')
+
+### Run the 'DMV'  @IndexId
+
+
+Kimberly uses 
+
+	[sys].[dm_db_index_physical_stats]
+	
+...so much she just refers to it as 'the DMV')
+
 
 		-- Now, use the DMV (adding index ID) to review all indexes:
 		SELECT [index_id] AS [ID]

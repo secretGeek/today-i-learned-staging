@@ -1,20 +1,13 @@
-j today-i-learned
-pow: cd powershell
-# ERROR CHECKING
-.\Errors.ps1
-# LINT
-dir . *.md -rec | %  { lint-markdown $_.FullName } | Export-Csv linterrors.csv -NTI # . .\lint-it.ps1
-.\linty.ps1 # show main lint messages, in groups
-# REPAIR
-fif -FilePath .\readme.md -Find "`r`n`r`n`r`n" -Replace "`r`n`r`n" # Remove extra blank lines
-dir *.md | % { fif -FilePath $_.FullName -Find "[ `t]+`r`n" -Replace "`r`n" } # Remove trailing space
-dir . *.md -rec | % { fif -FilePath $_.FullName -Find "[ ]+$" } # trailing spaces
-dir . *.md -rec | % { fif -FilePath $_.FullName -Find "`r`n`r`n`r`n" -Replace "`r`n`r`n"; } # LessBlank
-# Utilities
-toc: & .\toc.ps1; # Make TOC
-get-toc "$arg"  | % { "- [$($_.title)]"  }
-link: make-link "$arg" # make link to filename
-last15: dir . *.md -rec | sort lastwritetime -desc | select -first 15 | % FullName
-todo: n .\todo\index_of_improvements.md
-find-pattern "(``todo``|todo|\[ \])"
+
+
+
 findlinks_part1:. .\find-links.ps1; find-links | Export-Csv links.csv -NTI -encoding utf8;
+findlinks_part2:import-csv links.csv | ConvertTo-Json | out-file links.json -encoding utf8; # make 'links.json'
+ends_badly: j uuu; . .\last-bytes.ps1; popd; c; dir *.md -rec | % { $endy = (describe-end $_.FullName); if ($endy -ne "PERFECT") {  write-host "`t$($_ | rel)`t" -f white -n; write-host ($endy) -f magenta; } }
+ends_well: c; dir *.md -rec | % { if ((describe-end $_.FullName) -eq "PERFECT") {  write-host "$($_.Directory.Name) ::: $($_.Name) " -f darkcyan; }}
+findtext "[^a-zA-Z0-9,./;'[\]=``~!@#$%^&*()<>?:""{}|\\+`r`n `t_-]" # findtext "—"
+c;dir . *.md -rec | % { $_.DirectoryName.replace("C:\Users\leonb\Dropbox\secretGeek\gh\util\TIL\","🍧 ") } | group | select -prop count, name | sort -prop count -desc | select -first 28 | % { wh ("  $($_.Name)  ") -n; wh ((" " * (21 - ($_.Name.Length + $_.count.tostring().length)) + ("" + $_.Count + " 🌟"))) -f magenta; }
+dir . *.md -rec -depth 1 | sort -prop lastwritetime -desc | select -first 10 | rel # latest edits
+dir . *.md -rec -depth 1 | sort -prop creationtime -desc | select -first 10 | rel # latest created
+FIND_RAW: dir . *.md -rec | % { $file = "$_"; get-content -raw $_ | % { if ($_ -match "`r`n`r`n`r`n`r`n") { write-host $File;} }}
+to-merge: dir *asp*,*net*,*csha* -dir | sort | unique
