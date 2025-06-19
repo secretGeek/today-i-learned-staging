@@ -16,4 +16,5 @@
 - [Quick start javascript snippet](quickstart.md)
 - [Retrieve a random item from an array](random_item.md)
 - [Sortable Table (with Vanilla JS)](sortable_table.md)
+- [Using browser's Dev Tools to collect elements from a page](use_dev_tools_to_collect_elements_from_page.md)
 - [Write errors to the console](console_error.md)

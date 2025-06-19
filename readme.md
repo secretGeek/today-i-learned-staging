@@ -82,7 +82,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles |
  | [Entity Framework](Entity_Framework/01_summary.md) | 6 articles |
  | [examples](examples/01_summary.md) | 3 articles |
- | [excel](excel/01_summary.md) | 8 articles |
+ | [excel](excel/01_summary.md) | 9 articles |
  | [f-sharp](f-sharp/01_summary.md) | 1 article |
  | [firebird](firebird/01_summary.md) | 1 article |
  | [functions](functions/01_summary.md) | 6 articles |
@@ -102,7 +102,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [iis](iis/01_summary.md) | 4 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 14 articles |
+ | [javascript](javascript/01_summary.md) | 15 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jest](jest/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
@@ -192,5 +192,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-825 articles
-242723 words
+827 articles
+243519 words

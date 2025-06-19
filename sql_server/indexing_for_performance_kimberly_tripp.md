@@ -37,10 +37,10 @@ Two stages:
 ### Run the 'DMV'  @IndexId
 
 
-Kimberly uses 
+Kimberly uses
 
 	[sys].[dm_db_index_physical_stats]
-	
+
 ...so much she just refers to it as 'the DMV')
 
 

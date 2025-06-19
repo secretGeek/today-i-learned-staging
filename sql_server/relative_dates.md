@@ -9,7 +9,7 @@ This is a function that gives a whole bunch of day functions, relative to any gi
 - *A week Today*
 - *Monday of this week*
 - *Monday of last week*
-- *Monday Fortnight* - (Although not commonly used in the American English, a "**fortnight**" is a two-week period, and is used in other variants of English) 
+- *Monday Fortnight* - (Although not commonly used in the American English, a "**fortnight**" is a two-week period, and is used in other variants of English)
 - ...and so on for the other days of the week.
 
 
@@ -17,19 +17,19 @@ The function itself
 
 
 	CREATE FUNCTION dbo.[DaysRelative]
-	(	
+	(
 		-- Add the parameters for the function here
 		@BaseTime DateTime
 	)
-	RETURNS TABLE 
+	RETURNS TABLE
 	AS
-	RETURN 
+	RETURN
 	(
 	-- Declare @BaseTime DateTime = DateAdd(d, 0, GetDate());
 
 	Select
 		-- Basic date terms
-		@BaseTime as [Now],	
+		@BaseTime as [Now],
 		Cast(Cast(@BaseTime as Date) as DateTime) as [Today],
 		Cast(DateAdd(d, -1, Cast(@BaseTime as Date)) as DateTime) as [Yesterday],
 		Cast(DateAdd(d, 1,	Cast(@BaseTime as Date)) as DateTime) as [Tomorrow],
@@ -99,6 +99,7 @@ Given any base date (such as, the day after tomorrow), it will tell you, relativ
 
 ## See also
 
+- [List today and the last 7 days](list_every_hour_of_this_week.md)
 - [Trim or zero-out a portion of a datetime](datetime_trim_hours_milliseconds.md)
 - [Format DateTime as yyyy-MM-dd](format_datetime_yyyy-MM-dd.md)
 - [Parse varchar into DateTime](parse_varchar_into_datetime.md)
