@@ -77,6 +77,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [digital gardens](digital_gardens/01_summary.md) | 1 article |
  | [docker](docker/01_summary.md) | 6 articles |
  | [domains](domains/01_summary.md) | 1 article |
+ | [dropbox](dropbox/01_summary.md) | 1 article |
  | [edge](edge/01_summary.md) | 1 article |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 3 articles |
@@ -192,5 +193,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-827 articles
-243519 words
+828 articles
+243726 words
