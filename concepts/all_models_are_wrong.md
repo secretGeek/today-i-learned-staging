@@ -53,6 +53,18 @@ e.g.
 (Never listen to anyone who gives you advice, particularly me. (See also [Paradox](https://wiki.secretgeek.net/paradox)))
 
 
+## A Question
+
+
+All models are wrong -- some are useful.
+
+But who owns the models? Who chooses the models? Who filters the models?
+
+The question is:
+
+> If all models are wrong, but some are useful, who are they useful for?
+
+
 ## References
 
 - [James Clear on 'All Models are Wrong'](https://jamesclear.com/all-models-are-wrong)

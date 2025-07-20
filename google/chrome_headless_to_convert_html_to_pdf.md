@@ -4,13 +4,14 @@ TL/DR
 
 ## Simple example
 
-  chrome.exe --headless --print-to-pdf-no-header --print-to-pdf="C:\Output\MyPdf.pdf" "file:///C:/temp/MyHtml.html"
+
+	chrome.exe --headless --print-to-pdf-no-header --print-to-pdf="C:\Output\MyPdf.pdf" "file:///C:/temp/MyHtml.html"
 
 ## Example with more parameters
 
 This example has more (and quite useful) parameters
 
-  chrome.exe --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf="C:\Output\MyPdf.pdf" --no-margins "file:///C:/temp/MyHtml.html"
+	chrome.exe --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf="C:\Output\MyPdf.pdf" --no-margins "file:///C:/temp/MyHtml.html"
 
 ## More realistic (battle tested) example
 
