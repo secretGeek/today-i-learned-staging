@@ -30,7 +30,7 @@ The solution, according to <http://unix.stackexchange.com/questions/192642/wkhtm
 
     xvfb-run wkhtmltopdf
 
-i.e., just put xvfb-run before any wkhtmltopdf command.)
+i.e., just put `xvfb-run` inline, before any wkhtmltopdf command.
 
 Okay so I ran:
 
