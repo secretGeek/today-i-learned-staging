@@ -93,7 +93,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [github](github/01_summary.md) | 4 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [go](go/01_summary.md) | 1 article |
- | [google](google/01_summary.md) | 14 articles |
+ | [google](google/01_summary.md) | 15 articles |
  | [graphics](graphics/01_summary.md) | 9 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [habits](habits/01_summary.md) | 1 article |
@@ -103,7 +103,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [iis](iis/01_summary.md) | 4 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 15 articles |
+ | [javascript](javascript/01_summary.md) | 17 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jest](jest/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
@@ -193,5 +193,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-828 articles
-243870 words
+831 articles
+244420 words

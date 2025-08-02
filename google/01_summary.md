@@ -11,6 +11,7 @@
 - [Custom Search for Images](customsearch_api.md)
 - [Dead man's switch at google](dead_mans_switch.md)
 - [FileType](search_by_file_extension.md)
+- [Get Data from Trello Page as Markdown Using Javascript in the Developer Tools](chrome_get-elements.md)
 - [Google Chrome: Design Mode = ON let's you edit inline](chrome_design_mode.md)
 - [How to find your largest files in gmail](largest_files_in_gmail.md)
 - [How to get the most out of chrome profiles](chrome_profiles.md)

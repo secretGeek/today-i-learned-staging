@@ -1,5 +1,7 @@
 # Using browser's Dev Tools to collect elements from a page
 
+Any page!
+
 Example -- you want to grab all of the `h2` headings from the current page.
 
 Use the browser's dev tools (available with key Function 12,  `F12`) -- and enter this command in the console:
@@ -10,9 +12,14 @@ You may use different selectors instead for other text.
 
 ## Source
 
-- [Extracting a Trello board as markdown (secretGeek.net)](https://secretgeek.net/trello_ws) This is a variation on something I wrote about previously here. But many people use this kind of technique in all sorts of ways. I haven't seen very much written on it.
+Similar to the [trello-get implementation](trello-get.md) that runs in Chrome's F12 Dev tools.
+
+
+- [Extracting a Trello board as markdown (secretGeek.net)](https://secretgeek.net/trello_ws) This is a variation on something I wrote about previously here. But many people use this kind of technique in all sorts of ways. I haven't seen enough written on it.
 
 
 ## See also
 
+- [Get Data from Trello Page as Markdown Using Javascript in the Developer Tools](trello-get.md)
+- [secretGeek.net Blogpost: Extracting a Trello board as markdown](https://secretgeek.net/trello_ws)
 - [Useful bookmarklets](../bookmarkets/useful_bookmarklets.md)

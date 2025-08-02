@@ -6,6 +6,8 @@
 - [Add or remove a class](add_remove_class.md)
 - [Copy element to clipboard](copy_element_to_clipboard.md)
 - [Eval is Evil, so use this instead](eval.md)
+- [Get Data from Trello Page as Markdown Using Javascript in the Developer Tools](get-from-trello-page-using-javascript.md)
+- [Get Data from Trello Page as Markdown Using Javascript in the Developer Tools](trello-get.md)
 - [How do you take a screenshot of a div in javascript?](take_screenshot_of_div.md)
 - [How to perform two way interaction with a hosted iframe or a popup](interactive_iframes_and_popups.md)
 - [Immediately-invoked function expression](iife.md)

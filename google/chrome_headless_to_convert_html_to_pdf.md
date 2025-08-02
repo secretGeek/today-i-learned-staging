@@ -35,7 +35,7 @@ Here's an *actual* script I used for converting hundreds of html files into pdf.
 			sleep 1;
 		});
 		Write-host "$fileNum / $numFiles`t" -f darkgray -n;
-		Write-Host "`t$($commandTime.TotalMilliseconds)ms " -n;
+		Write-Host "`t$($commandTime.TotalMilliseconds.ToString().PadLeft(10))ms" -n;
 		Write-Host "`t$ff" -f white;
 	}
 
