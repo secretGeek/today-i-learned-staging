@@ -16,7 +16,7 @@ Still works as of 2023.
 
 
 
-# # Using browser's Dev Tools to collect elements from a page
+## Using browser's Dev Tools to collect elements from a page
 
 Example -- you want to grab all of the `h2` headings from the current page.
 

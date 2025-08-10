@@ -8,7 +8,7 @@ There's a lot of word cloud generators, all inspired by "[Wordle](https://web.ar
 
 ## Naming is hard
 
-The word "wordle", which was originally associated with word clouds, has now been entirely subsumed by its use for the daily word-guessing game "Wordle". 
+The word "wordle", which was originally associated with word clouds, has now been entirely subsumed by its use for the daily word-guessing game "Wordle".
 
 The *error* in this choice of name, is that although the game "Wordle" is entirely focused on words with 5 letters, `Wordle` has six letters.
 

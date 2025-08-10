@@ -11,7 +11,7 @@ The command used to **serve** this file is:
 
 	.\serve-md.ps1 -FilePath .\serve_markdown_from_powershell.md -Port 8086
 
-The powershell script is here: [serve-md.ps1](./serve-md.ps1)
+The powershell script is here: [serve-md.ps1](serve-md.ps1)
 
 It relies on `Microsoft.PowerShell.Utility` to perform the markdown to html conversion.
 
