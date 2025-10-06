@@ -2,7 +2,7 @@
 
 # Today I Learned
 
-> This is a place where I store short descriptions of things I learn each day.
+> "today I learned" is a website, where I publish short descriptions of Things I Learn each day. It's online at <https://TIL.secretGeek.net>
 >
 > &mdash;Leon Bambrick.
 
@@ -48,7 +48,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 12 articles |
+| [.net](.net/01_summary.md) | 13 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
  | [7z](7z/01_summary.md) | 2 articles |
  | [active directory](active_directory/01_summary.md) | 3 articles |
@@ -193,5 +193,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-831 articles
-244417 words
+832 articles
+244756 words
