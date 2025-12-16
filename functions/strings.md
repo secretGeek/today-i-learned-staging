@@ -1,10 +1,10 @@
-﻿# String Functions
+﻿# String Functions by Reference System
 
 
 ## Reference Systems
 
 - [Alteryx]
-- [SDU]
+- [Sql Down Under]
 - [SQL Server]
 
 ### Alteryx

@@ -25,7 +25,8 @@ write-host "...DONE" -foregroundcolor   "green"
 write-host -NoNewline "Adding list of topics to ReadMe" -foregroundcolor   "white"
 
 Add-Content .\readme.md "`r`n`r`n## Topics`r`n"  
-$totalCount = 0;
+$totalArticleCount = 0;
+$totalWordCount = 0;
 
 $topLevelTopics = (Get-ChildItem . |
      Where-Object { 
@@ -35,18 +36,34 @@ $topLevelTopics = (Get-ChildItem . |
 		($_.Name -ne ".vscode") -and 
 		($_.Name -ne "node_modules") } |
         ForEach-Object { 
-            $count = (Get-ChildItem ($_.Name) *.md -recurse |
+            $articleCount = (Get-ChildItem ($_.Name) *.md -recurse |
                         Where-Object { !$_.PSIsContainer -and ($_.Name -ne "01_summary.md") -and ($_.Name -ne "summary.md") } | 
-                            measure-object).Count
-            $totalCount += $count;                
+                            measure-object | % Count);
+
+
+			$wordCount = (Get-ChildItem ($_.Name) *.md -recurse |
+                        Where-Object { !$_.PSIsContainer -and ($_.Name -ne "01_summary.md") -and ($_.Name -ne "summary.md") } | 
+                            cat | measure -word | % words);
+			# 1,2,3 | % { 
+			   # wh "**WARNING**" -f white -b darkyellow -n;
+			   # wh "**WARNING**" -f yellow -b darkgray -n;
+			# }
+			   # wh $wordCount -f red -n;
+			   # wh "!!!!!!!!" -b red -f black;
+			   
+
+            $totalArticleCount += $articleCount;                
+			$totalWordCount += $wordCount;
             #" * [{0}]({1}/01_summary.md) &mdash; {2} article{3}" -f $_.Name.replace("_"," "), $_.Name, $count, (plural $count "s") 
-            "| [{0}]({1}/01_summary.md) | {2} article{3} |`n" -f $_.Name.replace("_"," "), $_.Name, $count, (plural $count "s") 
+            #"| [{0}]({1}/01_summary.md) | {2} article{3} | {4} words |`n" -f $_.Name.replace("_"," "), $_.Name, $articleCount, (plural $articleCount "s"), $wordCount.ToString("{0:0,0}");
+            "| [{0}]({1}/01_summary.md) | {2} article{3} | {4} words |`n" -f $_.Name.replace("_"," "), $_.Name, $articleCount, (plural $articleCount "s"), $wordCount;
+
         }
     )
 
-$topLevelTopics = ("|Topic|# Articles|`n|-----|----------|`n" + $topLevelTopics)
+$topLevelTopics = ("|Topic|# Articles|# Words`n|-----|---------|-------|`n" + $topLevelTopics)
 Add-Content .\readme.md $topLevelTopics
-Add-Content .\readme.md ("`r`n{0} articles" -f $totalCount)
+Add-Content .\readme.md ("`r`n{0} articles" -f $totalArticleCount)
 Add-Content .\readme.md (.\wordcount.ps1)
 
 write-host "...DONE" -foregroundcolor   "green"

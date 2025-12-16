@@ -46,152 +46,152 @@ Though this site is published as a free digital-only book, I've also published a
 
 ## Topics
 
-|Topic|# Articles|
-|-----|----------|
-| [.net](.net/01_summary.md) | 13 articles |
- | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles |
- | [7z](7z/01_summary.md) | 2 articles |
- | [active directory](active_directory/01_summary.md) | 3 articles |
- | [airtable](airtable/01_summary.md) | 1 article |
- | [android](android/01_summary.md) | 1 article |
- | [angular](angular/01_summary.md) | 1 article |
- | [appharbor](appharbor/01_summary.md) | 1 article |
- | [asp.net mvc](asp.net_mvc/01_summary.md) | 15 articles |
- | [azure](azure/01_summary.md) | 1 article |
- | [azure devops](azure_devops/01_summary.md) | 4 articles |
- | [banking](banking/01_summary.md) | 1 article |
- | [bookmarklets](bookmarklets/01_summary.md) | 1 article |
- | [bower](bower/01_summary.md) | 2 articles |
- | [chat-gpt](chat-gpt/01_summary.md) | 2 articles |
- | [chocolatey](chocolatey/01_summary.md) | 8 articles |
- | [concepts](concepts/01_summary.md) | 20 articles |
- | [console](console/01_summary.md) | 5 articles |
- | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
- | [crypto](crypto/01_summary.md) | 1 article |
- | [csharp](csharp/01_summary.md) | 8 articles |
- | [css](css/01_summary.md) | 12 articles |
- | [csv](csv/01_summary.md) | 3 articles |
- | [cypress](cypress/01_summary.md) | 2 articles |
- | [d3](d3/01_summary.md) | 1 article |
- | [design](design/01_summary.md) | 2 articles |
- | [digital gardens](digital_gardens/01_summary.md) | 1 article |
- | [docker](docker/01_summary.md) | 6 articles |
- | [domains](domains/01_summary.md) | 1 article |
- | [dropbox](dropbox/01_summary.md) | 1 article |
- | [edge](edge/01_summary.md) | 1 article |
- | [education](education/01_summary.md) | 1 article |
- | [electron](electron/01_summary.md) | 3 articles |
- | [Entity Framework](Entity_Framework/01_summary.md) | 6 articles |
- | [examples](examples/01_summary.md) | 3 articles |
- | [excel](excel/01_summary.md) | 9 articles |
- | [f-sharp](f-sharp/01_summary.md) | 1 article |
- | [firebird](firebird/01_summary.md) | 1 article |
- | [functions](functions/01_summary.md) | 6 articles |
- | [games](games/01_summary.md) | 2 articles |
- | [git](git/01_summary.md) | 31 articles |
- | [gitbook](gitbook/01_summary.md) | 7 articles |
- | [github](github/01_summary.md) | 4 articles |
- | [gmail](gmail/01_summary.md) | 1 article |
- | [go](go/01_summary.md) | 1 article |
- | [google](google/01_summary.md) | 15 articles |
- | [graphics](graphics/01_summary.md) | 9 articles |
- | [gulp](gulp/01_summary.md) | 1 article |
- | [habits](habits/01_summary.md) | 1 article |
- | [html](html/01_summary.md) | 6 articles |
- | [http](http/01_summary.md) | 1 article |
- | [http2](http2/01_summary.md) | 1 article |
- | [iis](iis/01_summary.md) | 4 articles |
- | [inkscape](inkscape/01_summary.md) | 1 article |
- | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 17 articles |
- | [jekyll](jekyll/01_summary.md) | 1 article |
- | [jest](jest/01_summary.md) | 1 article |
- | [jquery](jquery/01_summary.md) | 3 articles |
- | [json](json/01_summary.md) | 1 article |
- | [kql](kql/01_summary.md) | 1 article |
- | [kv](kv/01_summary.md) | 1 article |
- | [library](library/01_summary.md) | 4 articles |
- | [linqpad](linqpad/01_summary.md) | 15 articles |
- | [linux](linux/01_summary.md) | 45 articles |
- | [macbook air](macbook_air/01_summary.md) | 5 articles |
- | [mailgun](mailgun/01_summary.md) | 1 article |
- | [markdown](markdown/01_summary.md) | 4 articles |
- | [marketing](marketing/01_summary.md) | 6 articles |
- | [math](math/01_summary.md) | 3 articles |
- | [memorize](memorize/01_summary.md) | 4 articles |
- | [mercurial](mercurial/01_summary.md) | 21 articles |
- | [microsoft terminal](microsoft_terminal/01_summary.md) | 3 articles |
- | [minecraft](minecraft/01_summary.md) | 3 articles |
- | [mstsc](mstsc/01_summary.md) | 1 article |
- | [music](music/01_summary.md) | 14 articles |
- | [neo4j](neo4j/01_summary.md) | 1 article |
- | [new computer](new_computer/01_summary.md) | 1 article |
- | [nimbletext](nimbletext/01_summary.md) | 1 article |
- | [node](node/01_summary.md) | 5 articles |
- | [notepad++](notepad++/01_summary.md) | 14 articles |
- | [npm](npm/01_summary.md) | 16 articles |
- | [nuget](nuget/01_summary.md) | 2 articles |
- | [office](office/01_summary.md) | 2 articles |
- | [oracle](oracle/01_summary.md) | 6 articles |
- | [other-works](other-works/01_summary.md) | 3 articles |
- | [outlook](outlook/01_summary.md) | 1 article |
- | [paypal](paypal/01_summary.md) | 1 article |
- | [pdf](pdf/01_summary.md) | 4 articles |
- | [powershell](powershell/01_summary.md) | 112 articles |
- | [ppmp](ppmp/01_summary.md) | 1 article |
- | [productivity](productivity/01_summary.md) | 2 articles |
- | [prometheus](prometheus/01_summary.md) | 1 article |
- | [python](python/01_summary.md) | 10 articles |
- | [questions](questions/01_summary.md) | 1 article |
- | [r language](r_language/01_summary.md) | 1 article |
- | [react](react/01_summary.md) | 4 articles |
- | [reading notes](reading_notes/01_summary.md) | 30 articles |
- | [redis](redis/01_summary.md) | 2 articles |
- | [robocopy](robocopy/01_summary.md) | 1 article |
- | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 3 articles |
- | [scoop](scoop/01_summary.md) | 1 article |
- | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
- | [serilog](serilog/01_summary.md) | 6 articles |
- | [sharepoint](sharepoint/01_summary.md) | 2 articles |
- | [sleep](sleep/01_summary.md) | 4 articles |
- | [smallbasic](smallbasic/01_summary.md) | 1 article |
- | [sparql](sparql/01_summary.md) | 1 article |
- | [speech](speech/01_summary.md) | 1 article |
- | [sql server](sql_server/01_summary.md) | 79 articles |
- | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
- | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
- | [sqlite](sqlite/01_summary.md) | 3 articles |
- | [stackexchange](stackexchange/01_summary.md) | 3 articles |
- | [svg](svg/01_summary.md) | 5 articles |
- | [tcl](tcl/01_summary.md) | 1 article |
- | [todo](todo/01_summary.md) | 1 article |
- | [tools](tools/01_summary.md) | 3 articles |
- | [trello](trello/01_summary.md) | 2 articles |
- | [tutorials](tutorials/01_summary.md) | 1 article |
- | [twitter](twitter/01_summary.md) | 1 article |
- | [typescript](typescript/01_summary.md) | 2 articles |
- | [userscripts](userscripts/01_summary.md) | 3 articles |
- | [usql](usql/01_summary.md) | 1 article |
- | [ux](ux/01_summary.md) | 1 article |
- | [virtual box](virtual_box/01_summary.md) | 2 articles |
- | [visual studio](visual_studio/01_summary.md) | 9 articles |
- | [vs code](vs_code/01_summary.md) | 11 articles |
- | [web](web/01_summary.md) | 1 article |
- | [webview2](webview2/01_summary.md) | 1 article |
- | [windows](windows/01_summary.md) | 21 articles |
- | [windows scheduler](windows_scheduler/01_summary.md) | 2 articles |
- | [windows.forms](windows.forms/01_summary.md) | 7 articles |
- | [winget](winget/01_summary.md) | 2 articles |
- | [winword](winword/01_summary.md) | 1 article |
- | [wordle](wordle/01_summary.md) | 1 article |
- | [wordpress](wordpress/01_summary.md) | 1 article |
- | [writing](writing/01_summary.md) | 2 articles |
- | [wsl](wsl/01_summary.md) | 4 articles |
- | [xunit](xunit/01_summary.md) | 2 articles |
- | [yarn](yarn/01_summary.md) | 1 article |
- | [zettel](zettel/01_summary.md) | 1 article |
- | [zoho](zoho/01_summary.md) | 2 articles |
+|Topic|# Articles|# Words
+|-----|---------|-------|
+| [.net](.net/01_summary.md) | 13 articles | 4444 words |
+ | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles | 2142 words |
+ | [7z](7z/01_summary.md) | 2 articles | 590 words |
+ | [active directory](active_directory/01_summary.md) | 3 articles | 1222 words |
+ | [airtable](airtable/01_summary.md) | 1 article | 196 words |
+ | [android](android/01_summary.md) | 1 article | 214 words |
+ | [angular](angular/01_summary.md) | 1 article | 1027 words |
+ | [appharbor](appharbor/01_summary.md) | 1 article | 119 words |
+ | [asp.net mvc](asp.net_mvc/01_summary.md) | 15 articles | 4174 words |
+ | [azure](azure/01_summary.md) | 1 article | 40 words |
+ | [azure devops](azure_devops/01_summary.md) | 4 articles | 2013 words |
+ | [banking](banking/01_summary.md) | 1 article | 318 words |
+ | [bookmarklets](bookmarklets/01_summary.md) | 1 article | 244 words |
+ | [bower](bower/01_summary.md) | 2 articles | 171 words |
+ | [chat-gpt](chat-gpt/01_summary.md) | 2 articles | 1257 words |
+ | [chocolatey](chocolatey/01_summary.md) | 8 articles | 1679 words |
+ | [concepts](concepts/01_summary.md) | 20 articles | 8422 words |
+ | [console](console/01_summary.md) | 5 articles | 979 words |
+ | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article | 395 words |
+ | [crypto](crypto/01_summary.md) | 1 article | 3154 words |
+ | [csharp](csharp/01_summary.md) | 8 articles | 6166 words |
+ | [css](css/01_summary.md) | 12 articles | 3865 words |
+ | [csv](csv/01_summary.md) | 3 articles | 1556 words |
+ | [cypress](cypress/01_summary.md) | 2 articles | 1128 words |
+ | [d3](d3/01_summary.md) | 1 article | 86 words |
+ | [design](design/01_summary.md) | 2 articles | 609 words |
+ | [digital gardens](digital_gardens/01_summary.md) | 1 article | 36 words |
+ | [docker](docker/01_summary.md) | 6 articles | 3969 words |
+ | [domains](domains/01_summary.md) | 1 article | 973 words |
+ | [dropbox](dropbox/01_summary.md) | 1 article | 201 words |
+ | [edge](edge/01_summary.md) | 1 article | 68 words |
+ | [education](education/01_summary.md) | 1 article | 60 words |
+ | [electron](electron/01_summary.md) | 3 articles | 864 words |
+ | [Entity Framework](Entity_Framework/01_summary.md) | 6 articles | 911 words |
+ | [examples](examples/01_summary.md) | 3 articles | 362 words |
+ | [excel](excel/01_summary.md) | 9 articles | 1965 words |
+ | [f-sharp](f-sharp/01_summary.md) | 1 article | 37 words |
+ | [firebird](firebird/01_summary.md) | 1 article | 50 words |
+ | [functions](functions/01_summary.md) | 6 articles | 14543 words |
+ | [games](games/01_summary.md) | 2 articles | 263 words |
+ | [git](git/01_summary.md) | 31 articles | 5823 words |
+ | [gitbook](gitbook/01_summary.md) | 7 articles | 1172 words |
+ | [github](github/01_summary.md) | 4 articles | 1281 words |
+ | [gmail](gmail/01_summary.md) | 1 article | 15 words |
+ | [go](go/01_summary.md) | 1 article | 87 words |
+ | [google](google/01_summary.md) | 15 articles | 2206 words |
+ | [graphics](graphics/01_summary.md) | 9 articles | 1031 words |
+ | [gulp](gulp/01_summary.md) | 1 article | 2062 words |
+ | [habits](habits/01_summary.md) | 1 article | 573 words |
+ | [html](html/01_summary.md) | 6 articles | 1603 words |
+ | [http](http/01_summary.md) | 1 article | 33 words |
+ | [http2](http2/01_summary.md) | 1 article | 205 words |
+ | [iis](iis/01_summary.md) | 4 articles | 296 words |
+ | [inkscape](inkscape/01_summary.md) | 1 article | 41 words |
+ | [itunes](itunes/01_summary.md) | 1 article | 93 words |
+ | [javascript](javascript/01_summary.md) | 17 articles | 3262 words |
+ | [jekyll](jekyll/01_summary.md) | 1 article | 870 words |
+ | [jest](jest/01_summary.md) | 1 article | 318 words |
+ | [jquery](jquery/01_summary.md) | 3 articles | 513 words |
+ | [json](json/01_summary.md) | 1 article | 91 words |
+ | [kql](kql/01_summary.md) | 1 article | 101 words |
+ | [kv](kv/01_summary.md) | 1 article | 292 words |
+ | [library](library/01_summary.md) | 4 articles | 1062 words |
+ | [linqpad](linqpad/01_summary.md) | 15 articles | 2816 words |
+ | [linux](linux/01_summary.md) | 45 articles | 12389 words |
+ | [macbook air](macbook_air/01_summary.md) | 5 articles | 496 words |
+ | [mailgun](mailgun/01_summary.md) | 1 article | 1044 words |
+ | [markdown](markdown/01_summary.md) | 4 articles | 4302 words |
+ | [marketing](marketing/01_summary.md) | 6 articles | 30 words |
+ | [math](math/01_summary.md) | 3 articles | 1384 words |
+ | [memorize](memorize/01_summary.md) | 4 articles | 487 words |
+ | [mercurial](mercurial/01_summary.md) | 21 articles | 5803 words |
+ | [microsoft terminal](microsoft_terminal/01_summary.md) | 3 articles | 198 words |
+ | [minecraft](minecraft/01_summary.md) | 3 articles | 714 words |
+ | [mstsc](mstsc/01_summary.md) | 1 article | 629 words |
+ | [music](music/01_summary.md) | 14 articles | 3287 words |
+ | [neo4j](neo4j/01_summary.md) | 1 article | 383 words |
+ | [new computer](new_computer/01_summary.md) | 1 article | 204 words |
+ | [nimbletext](nimbletext/01_summary.md) | 1 article | 63 words |
+ | [node](node/01_summary.md) | 5 articles | 2731 words |
+ | [notepad++](notepad++/01_summary.md) | 14 articles | 3127 words |
+ | [npm](npm/01_summary.md) | 16 articles | 2886 words |
+ | [nuget](nuget/01_summary.md) | 2 articles | 236 words |
+ | [office](office/01_summary.md) | 2 articles | 298 words |
+ | [oracle](oracle/01_summary.md) | 6 articles | 498 words |
+ | [other-works](other-works/01_summary.md) | 3 articles | 1218 words |
+ | [outlook](outlook/01_summary.md) | 1 article | 193 words |
+ | [paypal](paypal/01_summary.md) | 1 article | 139 words |
+ | [pdf](pdf/01_summary.md) | 4 articles | 690 words |
+ | [powershell](powershell/01_summary.md) | 112 articles | 30540 words |
+ | [ppmp](ppmp/01_summary.md) | 1 article | 340 words |
+ | [productivity](productivity/01_summary.md) | 2 articles | 1496 words |
+ | [prometheus](prometheus/01_summary.md) | 1 article | 702 words |
+ | [python](python/01_summary.md) | 10 articles | 1977 words |
+ | [questions](questions/01_summary.md) | 1 article | 36 words |
+ | [r language](r_language/01_summary.md) | 1 article | 32 words |
+ | [react](react/01_summary.md) | 4 articles | 2794 words |
+ | [reading notes](reading_notes/01_summary.md) | 30 articles | 5346 words |
+ | [redis](redis/01_summary.md) | 2 articles | 342 words |
+ | [robocopy](robocopy/01_summary.md) | 1 article | 1313 words |
+ | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 3 articles | 378 words |
+ | [scoop](scoop/01_summary.md) | 1 article | 1077 words |
+ | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles | 162 words |
+ | [serilog](serilog/01_summary.md) | 6 articles | 6620 words |
+ | [sharepoint](sharepoint/01_summary.md) | 2 articles | 305 words |
+ | [sleep](sleep/01_summary.md) | 4 articles | 983 words |
+ | [smallbasic](smallbasic/01_summary.md) | 1 article | 295 words |
+ | [sparql](sparql/01_summary.md) | 1 article | 58 words |
+ | [speech](speech/01_summary.md) | 1 article | 181 words |
+ | [sql server](sql_server/01_summary.md) | 79 articles | 21556 words |
+ | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles | 262 words |
+ | [sql spatial](sql_spatial/01_summary.md) | 3 articles | 1125 words |
+ | [sqlite](sqlite/01_summary.md) | 3 articles | 316 words |
+ | [stackexchange](stackexchange/01_summary.md) | 3 articles | 484 words |
+ | [svg](svg/01_summary.md) | 5 articles | 4062 words |
+ | [tcl](tcl/01_summary.md) | 1 article | 668 words |
+ | [todo](todo/01_summary.md) | 1 article | 464 words |
+ | [tools](tools/01_summary.md) | 3 articles | 761 words |
+ | [trello](trello/01_summary.md) | 2 articles | 261 words |
+ | [tutorials](tutorials/01_summary.md) | 1 article | 1457 words |
+ | [twitter](twitter/01_summary.md) | 1 article | 43 words |
+ | [typescript](typescript/01_summary.md) | 2 articles | 736 words |
+ | [userscripts](userscripts/01_summary.md) | 3 articles | 1641 words |
+ | [usql](usql/01_summary.md) | 1 article | 480 words |
+ | [ux](ux/01_summary.md) | 1 article | 233 words |
+ | [virtual box](virtual_box/01_summary.md) | 2 articles | 341 words |
+ | [visual studio](visual_studio/01_summary.md) | 9 articles | 853 words |
+ | [vs code](vs_code/01_summary.md) | 11 articles | 1062 words |
+ | [web](web/01_summary.md) | 1 article | 29 words |
+ | [webview2](webview2/01_summary.md) | 1 article | 166 words |
+ | [windows](windows/01_summary.md) | 21 articles | 5450 words |
+ | [windows scheduler](windows_scheduler/01_summary.md) | 2 articles | 321 words |
+ | [windows.forms](windows.forms/01_summary.md) | 7 articles | 1713 words |
+ | [winget](winget/01_summary.md) | 2 articles | 631 words |
+ | [winword](winword/01_summary.md) | 1 article | 111 words |
+ | [wordle](wordle/01_summary.md) | 1 article | 188 words |
+ | [wordpress](wordpress/01_summary.md) | 1 article | 198 words |
+ | [writing](writing/01_summary.md) | 2 articles | 2211 words |
+ | [wsl](wsl/01_summary.md) | 4 articles | 724 words |
+ | [xunit](xunit/01_summary.md) | 2 articles | 806 words |
+ | [yarn](yarn/01_summary.md) | 1 article | 169 words |
+ | [zettel](zettel/01_summary.md) | 1 article | 388 words |
+ | [zoho](zoho/01_summary.md) | 2 articles | 642 words |
 
 
 833 articles
-245490 words
+246270 words

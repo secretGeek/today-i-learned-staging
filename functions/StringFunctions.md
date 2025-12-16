@@ -1,9 +1,5 @@
 # String Functions
 
-- [String] Alteryx
-- [Strings] SDU
-- [String Functions] SQL Server
-
 
 
 ## "STRING CONVERSION"
@@ -15,8 +11,15 @@
 - XML        to     JSON
 - JSON       to     CSV
 - CSV        to     Markdown
-- Markdown   to     Html
-- Text       to     XML
+- Markdown   to     XML
+- Text       to     Html
+
+- Text - XML - JSON - CSV - Markdown
+
+- Html - Rasterized.
+
+
+
 
 - "Higher Level" formats (less consistent)
 - PDF
@@ -105,35 +108,30 @@
 
 ## Strippers
 
-- SLUGGIFY is like this -- it's a mapping to a smaller but still big enough map.
+- `Sluggify` is like this -- it's a mapping to a smaller map, a reduction.
 
 - `AlphabeticOnly` - Removes any non-alphabetic characters from a string
 - `AlphanumericOnly` - Removes any non-alphanumeric characters from a string
 - `AsciiOnly` - Removes non-ASCII characters from a string
-- Strip
+- `DigitsOnly` - Removes non-digit characters from a string
+- `Filter` - Filters a string based on a filter.
+- `Strip` - remove all blah.
+- `Trim` (`TrimEnd`) (`TrimStart`) - trims sets of chars, or strings, or regexen.
+
 
 ## Lookups
 
 - `ASCII`	Returns the ASCII value for the specific character
 - `CHAR`	Returns the character based on the ASCII code
 - `CHARINDEX`	Returns the position of a substring in a string
-
-
-
-
 - `Concat with +`	Adds two or more strings together
 - `CONCAT_WS`	Adds two or more strings together with a separator
 - `CONCAT`	Adds two or more strings together
-
-
-
-
 - `CountWords(String)`
 - `CountWords` - Counts the number of words in a string
 - `DATALENGTH`	Returns the number of bytes used to represent an expression
 - `DecomposeUnicodeForMatch(String)`
 - `DIFFERENCE`	Compares two SOUNDEX values, and returns an integer value
-- `DigitsOnly` - Removes non-digit characters from a string
 - `ExtractToken` - Extracts a specific token number from a delimited string like a CSV or TSV
 - `ExtractTrigrams` - Extracts trigrams (segments of up to 3 characters) from a string for fast searching
 - `ExtractTrimmedWords` - Extracts words from a string and trims them
@@ -142,7 +140,6 @@
 - `GetWord(String, n)`
 - `InitialsFromName` - Extracts a person's initials from their name
 - `InvertString` - Returns an upside down version of the string
-
 - `Left(x, len)`
 - `LEFT`	Extracts a number of characters from a string (starting from left)
 - `LeftPad` - Left pads a string

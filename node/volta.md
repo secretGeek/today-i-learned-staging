@@ -53,7 +53,7 @@ With Both nvm and volta installed – **Volta** dictated which version of node a
 In cmd.exe, we can use the where command to get more information about the various programs that match…
 
 ```shell
-C:\>where node
+>where node
 C:\Program Files\Volta\node.exe
 C:\Program Files\nodejs\node.exe
 
@@ -66,7 +66,7 @@ C:\Program Files\nodejs\npm.cmd
 
 We see that even though node and npm are both available from more than one location, the *Volta* instance is discovered **first**.
 
-When looking at my `%path%` (`$env:path` in powershell) environment variable I can see that this is because Volta has placed itself at the absolute start of the list. Good work Volta. You win. (It does make sense: if Volta wants to control the version of Node/Npm it is more effectively able to do this from the front of the path.)
+When looking at my `%PATH%` (`$env:Path` in powershell) environment variable I can see that this is because Volta has placed itself at the absolute start of the list. Good work Volta. You win. (It does make sense: if Volta wants to control the version of Node/Npm it is more effectively able to do this from the front of the path.)
 
 To find out "which" actual file on your computer will be used by Volta for a given tool, use volta's which command --
 
