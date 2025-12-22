@@ -3,7 +3,7 @@ write-host -NoNewline "Getting TIL content from util subfolder" -foregroundcolor
 .\get.ps1
 
 
-# we will use this below
+# The `get-title` function is used within the "01_summary.md.pre" file (in each folder)
 . .\get-title.ps1
 
 write-host "...DONE" -foregroundcolor   "green"
@@ -54,14 +54,16 @@ $topLevelTopics = (Get-ChildItem . |
 
             $totalArticleCount += $articleCount;                
 			$totalWordCount += $wordCount;
+
             #" * [{0}]({1}/01_summary.md) &mdash; {2} article{3}" -f $_.Name.replace("_"," "), $_.Name, $count, (plural $count "s") 
             #"| [{0}]({1}/01_summary.md) | {2} article{3} | {4} words |`n" -f $_.Name.replace("_"," "), $_.Name, $articleCount, (plural $articleCount "s"), $wordCount.ToString("{0:0,0}");
+
             "| [{0}]({1}/01_summary.md) | {2} article{3} | {4} words |`n" -f $_.Name.replace("_"," "), $_.Name, $articleCount, (plural $articleCount "s"), $wordCount;
 
         }
     )
 
-$topLevelTopics = ("|Topic|# Articles|# Words`n|-----|---------|-------|`n" + $topLevelTopics)
+$topLevelTopics = ("|Topic|# Articles|# Words |`n|-----|---------|-------|`n" + $topLevelTopics)
 Add-Content .\readme.md $topLevelTopics
 Add-Content .\readme.md ("`r`n{0} articles" -f $totalArticleCount)
 Add-Content .\readme.md (.\wordcount.ps1)

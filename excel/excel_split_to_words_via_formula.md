@@ -4,7 +4,7 @@ To get everything before the first space:
 
 	=LEFT(B2,FIND(" ",B2)-1)
 
-BETTER: get everything before the first space, but if there is not space get everything:
+BETTER: get everything before the first space, but if there is no, space get everything:
 
 	=IFERROR(LEFT(B2,FIND(" ",B2)-1), B2)
 

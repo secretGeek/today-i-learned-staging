@@ -1,10 +1,10 @@
 ﻿# Avoid `#VALUE!` with IFERROR
 
-Sick of you carefully crafted excel formula resulted in `#VALUE!` for all the edge cases you don't care about?
+Sick of your carefully crafted excel formula resulting in `#VALUE!` for all the edge cases you don't care about?
 
-Just wrap your formula in an IFERROR function.....
+Just wrap your formula in an IFERROR function...
 
-e.g. here's a formula for grabbing everything before the first comma....
+e.g. here's a formula for grabbing everything before the first comma...
 
 	=LEFT(B3, FIND(",", B3)-1)
 

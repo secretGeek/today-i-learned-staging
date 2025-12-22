@@ -46,7 +46,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 ## Topics
 
-|Topic|# Articles|# Words
+|Topic|# Articles|# Words |
 |-----|---------|-------|
 | [.net](.net/01_summary.md) | 13 articles | 4444 words |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 16 articles | 2142 words |
@@ -83,7 +83,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles | 864 words |
  | [Entity Framework](Entity_Framework/01_summary.md) | 6 articles | 911 words |
  | [examples](examples/01_summary.md) | 3 articles | 362 words |
- | [excel](excel/01_summary.md) | 9 articles | 1965 words |
+ | [excel](excel/01_summary.md) | 9 articles | 2060 words |
  | [f-sharp](f-sharp/01_summary.md) | 1 article | 37 words |
  | [firebird](firebird/01_summary.md) | 1 article | 50 words |
  | [functions](functions/01_summary.md) | 6 articles | 14543 words |
@@ -194,4 +194,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 833 articles
-246270 words
+246366 words

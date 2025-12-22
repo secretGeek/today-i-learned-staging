@@ -1,5 +1,4 @@
-# LAMBA and LET in Excel
-
+# LAMBDA and LET in Excel
 
 The `LAMBDA` function lets you create custom, reusable functions directly in Excel formulas.
 
@@ -33,23 +32,34 @@ So, as we all know from our boring buddies who bang on about functional programm
 Naming, you may recall, is one of the two hardest problems in computer science. So with this one neat trick, Alonzo Church has eradicated 50% of the difficulties of computer science.
 
 
+## Many parameters
+
+A Lambda can have as many parameters as it needs. e.g. 
+
+	=LAMBDA(a, b, c, d, e, f, a - b + c - d + e - f)(3,4,5,6,7,8)
+
+All of the "parameters" are treated as *input* parameters, and the final parameter is the expression that may use those parameters.
+
+
 ## Why mention LET ?
 
 
-`LET` is a complementary concept to LAMBDA... as you'll see. But forget LAMBDA for now. 
+`LET` is a complementary concept to LAMBDA... as you'll see. But forget LAMBDA for a moment. 
 
-Think about a boring repetitive expression like this:
+Think instead about a boring repetitive expression like this:
 
 
 	=SQRT(A1) + SQRT(A1) * 10
 
-Look at all that repetition! Over and over we've had to type that same boring bit, `SQRT(A1)`. Wouldn't it be cool if we could save our fingers all that typing. Let `LET` do it!
+Look at all that nasty nasty repetition! Over and over we've had to type that same boring bit, `SQRT(A1)`. Wouldn't it be cool if we could save our fingers all that typing?
 
-`LET` lets you define a name and a value, then use that name (as many times as you want) in an expression.
+Here's how we can let `LET` do it!
+
+`LET` lets you define name and values, then lets you *use* those names, as many times as you want, in an expression.
 
 So we can say:
 
-- "Let x be `SQRT(A1)`. Please calculate the expression:  `x + x * 10`"
+- "Let `x` be `SQRT(A1)`. Please calculate the expression:  `x + x * 10`"
 
 To say that, we use this syntax:
 
@@ -70,10 +80,22 @@ We could use `LET` with multiple pairs of names and values. For example here is 
 	  volume, height * width * length,
 	  volume
 	)
+	
+which in pseudo-code could be written like this:
 
-But rather than having our variables intermingled with our formula, we can combine LET with LAMBDA to make a more elegant function, like this:
+	LET
+	  height = 5
+	  width = 4,
+	  length = 3,
+	  volume =  height * width * length
+	RETURN the answer: 
+	  volume
+	
 
 
+That's kind of cool... but intermingling our variables and our values is pretty messy.
+
+To avoid that intermingling, we can combine LET with LAMBDA to make a function, like this:
 
 
 	=LAMBDA(height, width, length,
@@ -84,14 +106,15 @@ But rather than having our variables intermingled with our formula, we can combi
 	)(5, 4, 3)
 
 
+
 ## PROPER reusable functions without macros
 
 But even better, you can define an actual reusable function -- by doing the following:
 
 1. Go to "Formulas" > "Name Manager"
-2. Click New
+2. Click "New"
 3. Give your new formula a name, e.g. `BlockVolume`
-4. And a formula of:
+4. And define the formula:
 
 	=LAMBDA(height, width, length,
 	  LET(
