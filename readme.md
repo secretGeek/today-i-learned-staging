@@ -137,7 +137,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [outlook](outlook/01_summary.md) | 1 article | 193 words |
  | [paypal](paypal/01_summary.md) | 1 article | 139 words |
  | [pdf](pdf/01_summary.md) | 4 articles | 690 words |
- | [powershell](powershell/01_summary.md) | 112 articles | 30540 words |
+ | [powershell](powershell/01_summary.md) | 112 articles | 30539 words |
  | [ppmp](ppmp/01_summary.md) | 1 article | 340 words |
  | [productivity](productivity/01_summary.md) | 2 articles | 1496 words |
  | [prometheus](prometheus/01_summary.md) | 1 article | 702 words |
@@ -194,4 +194,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 833 articles
-246366 words
+246365 words

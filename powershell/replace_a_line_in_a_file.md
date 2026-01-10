@@ -5,9 +5,9 @@ This is a common admin task. You might need to replace the publishing date, or t
     $targetFile = 'FileName.ps1'
     $regex = '^This is the old line$"'
     $with = "This is the new line"
-    (Get-Content $targetFile) -replace $regex, $hashyLine | Set-Content $targetFile
+    (Get-Content $targetFile -encoding utf8) -replace $regex, $with | Set-Content $targetFile -encoding utf8
 
-Unexplored edge cases... what happens to the encoding? What if you want to replace one thing many times on a single line? What if it's not the whole line, etc. What if you only want to do the replace on the first match, or on the last match?
+Unexplored edge cases... What if you want to replace one thing many times on a single line? What if it's not the whole line, etc. What if you only want to do the replace on the first match, or on the last match?
 
 ## See also
 
