@@ -53,3 +53,10 @@ For example:
 	"@
 
 	parseComment $example | format-table -property token, body -auto
+
+
+## See also
+
+
+- [Match Operator Examples](match_examples.md) `-match`, '-cmatch' etc.
+- [Regex with powershell - only a few things you need to know to get you started](regex_with_powershell.md)

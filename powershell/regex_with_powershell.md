@@ -65,3 +65,7 @@ That's a lot of typing... instead, "let casting do the magic" like so:
 
 - [Pass regex options to PowerShell [regex] type - Stack Overflow](https://stackoverflow.com/questions/12977338/pass-regex-options-to-powershell-regex-type) -- for "options"
 - [Use a function in Powershell replace](https://stackoverflow.com/questions/30666101/use-a-function-in-powershell-replace)
+
+## See also
+
+- [Match Operator Examples](match_examples.md) `-match`, '-cmatch' etc.

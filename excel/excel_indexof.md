@@ -18,7 +18,7 @@ is:
 
 Excel needs more and better built-in functions.
 
-Can extensions be added directly into the loaded namespace? What functions are missing?
+Can extensions be added directly into the loaded namespace? What functions are missing? (See [LAMBDA and LET in Excel](LAMBDA_and_LET_in_Excel.md) for some answers here)
 
 Would it be better to start again with a different built in languuage.
 
@@ -27,3 +27,4 @@ A commandline parameter or a different exe or a different file extension.
 ## See also
 
 - [Avoid `#VALUE!` with IFERROR](if_error.md)
+- [LAMBDA and LET in Excel](LAMBDA_and_LET_in_Excel.md)

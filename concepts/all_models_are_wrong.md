@@ -68,6 +68,8 @@ The question is:
 ## References
 
 - [James Clear on 'All Models are Wrong'](https://jamesclear.com/all-models-are-wrong)
+- [Are all models wrong? | Theory, Evolution, and Games Group](https://egtheory.wordpress.com/2013/11/06/wrong-models/)
+- [Three types of mathematical models | Theory, Evolution, and Games Group](https://egtheory.wordpress.com/2013/09/08/mathematical-models/)
 
 ## See also
 

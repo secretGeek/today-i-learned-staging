@@ -64,7 +64,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [bower](bower/01_summary.md) | 2 articles | 171 words |
  | [chat-gpt](chat-gpt/01_summary.md) | 2 articles | 1257 words |
  | [chocolatey](chocolatey/01_summary.md) | 8 articles | 1679 words |
- | [concepts](concepts/01_summary.md) | 20 articles | 8422 words |
+ | [concepts](concepts/01_summary.md) | 20 articles | 8445 words |
  | [console](console/01_summary.md) | 5 articles | 979 words |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article | 395 words |
  | [crypto](crypto/01_summary.md) | 1 article | 3154 words |
@@ -83,7 +83,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [electron](electron/01_summary.md) | 3 articles | 864 words |
  | [Entity Framework](Entity_Framework/01_summary.md) | 6 articles | 911 words |
  | [examples](examples/01_summary.md) | 3 articles | 362 words |
- | [excel](excel/01_summary.md) | 9 articles | 2060 words |
+ | [excel](excel/01_summary.md) | 9 articles | 2076 words |
  | [f-sharp](f-sharp/01_summary.md) | 1 article | 37 words |
  | [firebird](firebird/01_summary.md) | 1 article | 50 words |
  | [functions](functions/01_summary.md) | 6 articles | 14543 words |
@@ -137,7 +137,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [outlook](outlook/01_summary.md) | 1 article | 193 words |
  | [paypal](paypal/01_summary.md) | 1 article | 139 words |
  | [pdf](pdf/01_summary.md) | 4 articles | 690 words |
- | [powershell](powershell/01_summary.md) | 112 articles | 30539 words |
+ | [powershell](powershell/01_summary.md) | 112 articles | 30611 words |
  | [ppmp](ppmp/01_summary.md) | 1 article | 340 words |
  | [productivity](productivity/01_summary.md) | 2 articles | 1496 words |
  | [prometheus](prometheus/01_summary.md) | 1 article | 702 words |
@@ -194,4 +194,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 833 articles
-246365 words
+246476 words
