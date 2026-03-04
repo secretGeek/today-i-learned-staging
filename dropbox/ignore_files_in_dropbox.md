@@ -1,6 +1,6 @@
-# Ignore Files in Dropbox
+﻿# Ignore Files in Dropbox
 
-There is no `.gitignore` equivalent for Dropbox. 
+There is no `.gitignore` equivalent for Dropbox.
 
 But you can tell dropbox to ignore a specific file or folder:
 - just set the file's `com.dropbox.ignored` stream to `1`.
@@ -29,7 +29,6 @@ Get the value of the stream...
 	Clear-Content -Path '~\Dropbox\FolderToIgnore\' -Stream com.dropbox.ignored
 	Clear-Content -Path '~\Dropbox\FolderToIgnore\' -Stream com.dropbox.ignored
 
-
 ## See all the streams that a file/folder has
 
 	Get-item -Path '~\Dropbox\FolderToIgnore\FileToIgnore.pdf' -Stream * | select -prop stream, length
@@ -40,9 +39,6 @@ Returns (for example)
 	------               ------
 	:$DATA              1495529
 	com.dropbox.ignored       3
-
-
-
 
 ## Source
 

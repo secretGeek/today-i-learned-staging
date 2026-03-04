@@ -9,18 +9,14 @@ This gives the file a width of 200 pixels, and a height in proportion to the cur
 It also applies an `unsharp` filter, which sharpens the image (go figure!)
 
 ImageMagick is here (and is in my `path`)
-	
+
 	C:\Program Files\ImageMagick-7.1.2-Q16-HDRI\magick.exe
-
-
 
 (Previously here: `	C:\Program Files\ImageMagick-7.0.7-Q16\magick.exe`)
 
 ## Download ImageMagick from the official site
 
-
 - <https://imagemagick.org/script/download.php>
-
 
 ## See also
 

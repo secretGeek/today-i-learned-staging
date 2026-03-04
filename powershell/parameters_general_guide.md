@@ -41,7 +41,7 @@ Apart from remembering the "no brackets" syntax -- you also need to learn how to
 
 ## `param()`
 
-We can move the parameters out of a `(){}` and into a  `{param()}` 
+We can move the parameters out of a `(){}` and into a  `{param()}`
 
 	Function Invoke-Clippy{
 	param(
@@ -74,17 +74,13 @@ We can move the parameters out of a `(){}` and into a  `{param()}`
 
 
 
-# QUESTION: DOES VALUE FROM PIPELINE REQUIRE A CMDLEt bindinG???
-
-
+## QUESTION: Does value from Pipeline required a cmdLet binding?
 
 
 	Param(
         [parameter(ValueFromPipeline=$True)]
         [string[]]$Computername
     )
-	
-
 
 
 ## `[CmdletBinding()]`
@@ -94,7 +90,7 @@ Okay, so here's what it is about `CmdLetBinding`
 
 - You get access too all the `Common Parameters` -- these are things that come in handy all the time.
 
-## Common Parameters are: 
+## Common Parameters are:
 
 - `Verbose`,
 - `Debug`,
@@ -105,15 +101,9 @@ Okay, so here's what it is about `CmdLetBinding`
 - `PipelineVariable`, and
 - `WarningAction`.
 
-
 These handy parameters, provide arguably consistent behavior and debugging capabilities across all your scripts.
 
-
-
 ## Parameter Validation and Type Checking
-
-
-
 
 When you use CmdletBinding you choose to opt in to robust parameter validation and `type checking`.
 
@@ -122,22 +112,23 @@ These confirm that input to your function has the correct form, and prevents man
 
 With cmdLetBinding you get -- and this is a big deal right here -- *Pipeline Support*!
 
-
 Your *`Advanced functions`* can seamlessly integrate with the PowerShell pipeline, allowing them to process objects passed from previous commands and enabling more flexible and modular scripting.
 
 You get access to other advanced features too, including:
 
-SupportsShouldProcess: Enables 
-
+SupportsShouldProcess: Enables
 
 Confirm and  WhatIf parameters -- there are available if the SupportsShouldProcess feature is enabled. These  work together providing another safety layer, preventing some potentially destructive operations.
 
 
-You can now use Parameter Sets
+### You can now use Parameter Sets
 
 Parameter sets allow you to define different sets of parameters for different scenarios. This offers more flexibility in how your function can be called, giving optional competing distinct sets of parameters names and types, in a priority order.
-$PSCmdlet Automatic Variable: Provides access to the $PSCmdlet automatic variable, which offers methods and properties for interacting with the PowerShell runtime environment (e.g., WriteVerbose, WriteWarning).
+
+`$PSCmdlet` Automatic Variable: Provides access to the $PSCmdlet automatic variable, which offers methods and properties for interacting with the PowerShell runtime environment (e.g., WriteVerbose, WriteWarning).
+
 ConfirmImpact: Allows setting a confirmation impact level for the function, influencing when the Confirm prompt appears.
+
 Improved Error Handling: CmdletBinding enhances error handling by automatically generating errors for unknown parameters and unhandled positional arguments, making your scripts more robust.
 
 

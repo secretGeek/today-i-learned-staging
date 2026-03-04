@@ -1,4 +1,5 @@
 ﻿# Volta - node version manager
+
 As stated in the getting started guide for Volta:
 
 > Volta's functionality depends on creating symlinks, so you must either:
@@ -74,7 +75,7 @@ To find out "which" actual file on your computer will be used by Volta for a giv
 > volta which node
 C:\Users\user1\AppData\Local\Volta\tools\image\node\18.16.0\node.exe
 ```
-	
+
 ## Using Volta
 
 Install Volta from the Official Website after enabling Developer mode as described above.

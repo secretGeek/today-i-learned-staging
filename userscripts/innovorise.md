@@ -1,10 +1,8 @@
-# UserScripts to Use while using innovorise
+﻿# UserScripts to Use while using innovorise
 
 Userscripts. They let you customize the appearance and behaviour of any website. But you need to read, understand, and trust the userscript, or you need to write your own userscripts.
 
 ## Custom colors for tags at innovorise
-
-
 
 	// ==UserScript==
 	// @name         innovorise tags
@@ -124,14 +122,14 @@ Userscripts. They let you customize the appearance and behaviour of any website.
 			styles += ' .table_tag[data-content="hp-newsletter"] { background-color: hsl(86deg 80% 99%);}';
 			styles += ' .table_tag[data-content="hp-newsletter"]::after { content: " 📰";text-shadow:1px 1px 1px #000;}';
 			styles += ' .table_tag[data-content="beta particpant"]::after { content: " ⭐";text-shadow:1px 1px 1px #000;}';
-			
-			
+
+
 			// styles += ' .table_tag[data-content="break-in"] { box-shadow: 0 0 3px red;}';
-															 
+
 			addStyle(styles);
 
 			// And now we set up the loop that will call "onLoop" over and over.
-			// this is needed because elements are continually added/removed 
+			// this is needed because elements are continually added/removed
 			// as you open/close/scroll/interact with the page
 			// the loop is only called once every 3 seconds because i don't want to cause performance issues.
 			setInterval(function () {

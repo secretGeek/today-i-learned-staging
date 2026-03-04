@@ -93,7 +93,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [github](github/01_summary.md) | 4 articles | 1281 words |
  | [gmail](gmail/01_summary.md) | 1 article | 15 words |
  | [go](go/01_summary.md) | 1 article | 87 words |
- | [google](google/01_summary.md) | 15 articles | 2206 words |
+ | [google](google/01_summary.md) | 15 articles | 2215 words |
  | [graphics](graphics/01_summary.md) | 9 articles | 1031 words |
  | [gulp](gulp/01_summary.md) | 1 article | 2062 words |
  | [habits](habits/01_summary.md) | 1 article | 573 words |
@@ -137,7 +137,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [outlook](outlook/01_summary.md) | 1 article | 193 words |
  | [paypal](paypal/01_summary.md) | 1 article | 139 words |
  | [pdf](pdf/01_summary.md) | 4 articles | 690 words |
- | [powershell](powershell/01_summary.md) | 112 articles | 30611 words |
+ | [powershell](powershell/01_summary.md) | 112 articles | 30612 words |
  | [ppmp](ppmp/01_summary.md) | 1 article | 340 words |
  | [productivity](productivity/01_summary.md) | 2 articles | 1496 words |
  | [prometheus](prometheus/01_summary.md) | 1 article | 702 words |
@@ -194,4 +194,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 833 articles
-246476 words
+246486 words

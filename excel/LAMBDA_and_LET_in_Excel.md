@@ -1,4 +1,4 @@
-# LAMBDA and LET in Excel
+﻿# LAMBDA and LET in Excel
 
 The `LAMBDA` function lets you create custom, reusable functions directly in Excel formulas.
 
@@ -34,7 +34,7 @@ Naming, you may recall, is one of the two hardest problems in computer science. 
 
 ## Many parameters
 
-A Lambda can have as many parameters as it needs. e.g. 
+A Lambda can have as many parameters as it needs. e.g.
 
 	=LAMBDA(a, b, c, d, e, f, a - b + c - d + e - f)(3,4,5,6,7,8)
 
@@ -44,7 +44,7 @@ All of the "parameters" are treated as *input* parameters, and the final paramet
 ## Why mention LET ?
 
 
-`LET` is a complementary concept to LAMBDA... as you'll see. But forget LAMBDA for a moment. 
+`LET` is a complementary concept to LAMBDA... as you'll see. But forget LAMBDA for a moment.
 
 Think instead about a boring repetitive expression like this:
 
@@ -80,7 +80,7 @@ We could use `LET` with multiple pairs of names and values. For example here is 
 	  volume, height * width * length,
 	  volume
 	)
-	
+
 which in pseudo-code could be written like this:
 
 	LET
@@ -88,9 +88,9 @@ which in pseudo-code could be written like this:
 	  width = 4,
 	  length = 3,
 	  volume =  height * width * length
-	RETURN the answer: 
+	RETURN the answer:
 	  volume
-	
+
 
 
 That's kind of cool... but intermingling our variables and our values is pretty messy.
