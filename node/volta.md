@@ -7,7 +7,6 @@ As stated in the getting started guide for Volta:
 > - Enable Developer Mode (recommended)
 > - Run Volta with elevated privileges (not recommended)
 
-
 Volta is a cross platform node version manager – this guide is specific to issues that arise when running it on windows and providers a comparison to using Volta on Windows versus nvm for Windows. For more on `nvm` see [Node Version Manager (NVM)](nvm.md)
 
 See that? Once you enable "Developer Mode" in Windows, you can use symlinks without running as admin. (In linux & Unix, symlinks are a very commonly used OS feature and don't need root/sudo/admin permissions to be used.)
@@ -24,13 +23,13 @@ Both are capable of doing their prescribed task.
 
 NVM for Windows requires an elevated console.
 
-NVM also has the drawback that it is not the other more famous nvm, so when searching for help or information, or hearing about nvm's features… much of it does not apply. 🥹
+NVM also has the drawback that it is not the other more famous nvm, so when searching for help or information, or hearing about nvm's features... much of what you'll find is irrelevant. 🥹
 
-Be warned though: Volta and NVM do not work **TOGETHEER**. Once you have installed Volta on Windows, you can probably no longer use nvm for windows.
+Be warned though: Volta and NVM do not work **TOGETHER**. Once you have installed Volta on Windows, you can probably no longer use nvm for windows.
 
 Watch this:
 
-I have both nvm and volta installed… let's see where powershell or cmd.exe locate the "node" command...
+I have both nvm and volta installed... let's see where powershell or cmd.exe locate the "node" command...
 
 In powershell:
 
@@ -48,10 +47,9 @@ Name    Source
 npm.exe C:\Program Files\Volta\npm.exe
 ```
 
-With Both nvm and volta installed – **Volta** dictated which version of node and npm are available.
+With both nvm and volta installed, **Volta** dictated which versions of node and npm are available.
 
-
-In cmd.exe, we can use the where command to get more information about the various programs that match…
+In cmd.exe, we can use the where command to get more information about the various programs available...
 
 ```shell
 >where node
@@ -90,7 +88,6 @@ volta list node
     v16.15.0
     v18.16.0 (default)
 ```
-
 
 Install the latest version of node:
 

@@ -2,7 +2,7 @@
 
 > Some npm plugins need node-gyp to be installed.<br />
 > However, node-gyp has its own dependencies ([from the github page](https://github.com/TooTallNate/node-gyp))
-> <br />&mdash;http://stackoverflow.com/a/21366601/49
+> <br />&mdash;<https://stackoverflow.com/a/21366601/49>
 
 Try this first:
 

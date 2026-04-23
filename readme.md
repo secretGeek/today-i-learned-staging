@@ -90,7 +90,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [games](games/01_summary.md) | 2 articles | 263 words |
  | [git](git/01_summary.md) | 31 articles | 5823 words |
  | [gitbook](gitbook/01_summary.md) | 7 articles | 1172 words |
- | [github](github/01_summary.md) | 4 articles | 1281 words |
+ | [github](github/01_summary.md) | 5 articles | 1672 words |
  | [gmail](gmail/01_summary.md) | 1 article | 15 words |
  | [go](go/01_summary.md) | 1 article | 87 words |
  | [google](google/01_summary.md) | 15 articles | 2215 words |
@@ -127,7 +127,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [neo4j](neo4j/01_summary.md) | 1 article | 383 words |
  | [new computer](new_computer/01_summary.md) | 1 article | 204 words |
  | [nimbletext](nimbletext/01_summary.md) | 1 article | 63 words |
- | [node](node/01_summary.md) | 5 articles | 2731 words |
+ | [node](node/01_summary.md) | 5 articles | 2730 words |
  | [notepad++](notepad++/01_summary.md) | 14 articles | 3127 words |
  | [npm](npm/01_summary.md) | 16 articles | 2886 words |
  | [nuget](nuget/01_summary.md) | 2 articles | 236 words |
@@ -193,5 +193,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles | 642 words |
 
 
-833 articles
-246486 words
+834 articles
+246876 words
