@@ -2,16 +2,19 @@
 
 Install `QRCodeGenerator` module -- 
 
-	# Install the module (click 'Y' or 'A' when prompted)
-	Install-Module -Name QRCodeGenerator -Scope CurrentUser -Force
+```powershell
+# Install the module (click 'Y' or 'A' when prompted)
+Install-Module -Name QRCodeGenerator -Scope CurrentUser -Force
 
-	# Import the module into your session
-	Import-Module QRCodeGenerator
-
+# Import the module into your session
+Import-Module QRCodeGenerator
+```
 
 Now generate the code:
 
-	New-PSOneQRCodeText -Text "https://til.secretGeek.net" -OutPath "C:\temp\QR_til.png" -Show
+```powershell
+New-PSOneQRCodeText -Text "https://til.secretGeek.net" -OutPath "C:\temp\QR_til.png" -Show
+```
 
 result:
 

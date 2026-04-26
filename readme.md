@@ -53,6 +53,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [7z](7z/01_summary.md) | 2 articles | 590 words |
  | [active directory](active_directory/01_summary.md) | 3 articles | 1222 words |
  | [airtable](airtable/01_summary.md) | 1 article | 196 words |
+ | [AmazonWebServices](AmazonWebServices/01_summary.md) | 1 article | 53 words |
  | [android](android/01_summary.md) | 1 article | 214 words |
  | [angular](angular/01_summary.md) | 1 article | 1027 words |
  | [appharbor](appharbor/01_summary.md) | 1 article | 119 words |
@@ -142,7 +143,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [productivity](productivity/01_summary.md) | 2 articles | 1496 words |
  | [prometheus](prometheus/01_summary.md) | 1 article | 702 words |
  | [python](python/01_summary.md) | 10 articles | 1977 words |
- | [QR Code Generator](QR_Code_Generator/01_summary.md) | 1 article | 63 words |
+ | [QR Code Generator](QR_Code_Generator/01_summary.md) | 1 article | 67 words |
  | [questions](questions/01_summary.md) | 1 article | 36 words |
  | [r language](r_language/01_summary.md) | 1 article | 32 words |
  | [react](react/01_summary.md) | 4 articles | 2794 words |
@@ -194,5 +195,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles | 642 words |
 
 
-835 articles
-246989 words
+836 articles
+247055 words
