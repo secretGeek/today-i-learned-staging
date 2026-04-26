@@ -156,6 +156,13 @@ In Powershell I pipe that json to `ConvertFrom-Json` and turn it into objects I 
 (Or, still in powershell, you can pipe to `Out-GridView` to explore it in a grid control)
 
 
+## Updating docker.exe
+
+You can see the current version of docker.exe by using `docker --version`
+
+When docker desktop is running, it constantly checks for updates. If you update docker desktop to the latest version, this will also updated docker.exe.
+
+
 ## See also
 
 - [Install Seq locally for development](../serilog/install_seq_locally_for_development.md) -- local seq install instructions, rely on docker (and put the info above into context)

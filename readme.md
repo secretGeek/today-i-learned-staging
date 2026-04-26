@@ -75,7 +75,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [d3](d3/01_summary.md) | 1 article | 86 words |
  | [design](design/01_summary.md) | 2 articles | 609 words |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article | 36 words |
- | [docker](docker/01_summary.md) | 6 articles | 3969 words |
+ | [docker](docker/01_summary.md) | 6 articles | 4008 words |
  | [domains](domains/01_summary.md) | 1 article | 973 words |
  | [dropbox](dropbox/01_summary.md) | 1 article | 201 words |
  | [edge](edge/01_summary.md) | 1 article | 68 words |
@@ -142,6 +142,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [productivity](productivity/01_summary.md) | 2 articles | 1496 words |
  | [prometheus](prometheus/01_summary.md) | 1 article | 702 words |
  | [python](python/01_summary.md) | 10 articles | 1977 words |
+ | [QR Code Generator](QR_Code_Generator/01_summary.md) | 1 article | 63 words |
  | [questions](questions/01_summary.md) | 1 article | 36 words |
  | [r language](r_language/01_summary.md) | 1 article | 32 words |
  | [react](react/01_summary.md) | 4 articles | 2794 words |
@@ -193,5 +194,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles | 642 words |
 
 
-834 articles
-246876 words
+835 articles
+246989 words
