@@ -1,6 +1,6 @@
 # Generate a QR Code with Powershell
 
-Install `QRCodeGenerator` module -- 
+Install `QRCodeGenerator` module --
 
 ```powershell
 # Install the module (click 'Y' or 'A' when prompted)

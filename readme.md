@@ -76,7 +76,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [d3](d3/01_summary.md) | 1 article | 86 words |
  | [design](design/01_summary.md) | 2 articles | 609 words |
  | [digital gardens](digital_gardens/01_summary.md) | 1 article | 36 words |
- | [docker](docker/01_summary.md) | 6 articles | 4008 words |
+ | [docker](docker/01_summary.md) | 6 articles | 4028 words |
  | [domains](domains/01_summary.md) | 1 article | 973 words |
  | [dropbox](dropbox/01_summary.md) | 1 article | 201 words |
  | [edge](edge/01_summary.md) | 1 article | 68 words |
@@ -138,7 +138,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [outlook](outlook/01_summary.md) | 1 article | 193 words |
  | [paypal](paypal/01_summary.md) | 1 article | 139 words |
  | [pdf](pdf/01_summary.md) | 4 articles | 690 words |
- | [powershell](powershell/01_summary.md) | 112 articles | 30612 words |
+ | [powershell](powershell/01_summary.md) | 112 articles | 30685 words |
  | [ppmp](ppmp/01_summary.md) | 1 article | 340 words |
  | [productivity](productivity/01_summary.md) | 2 articles | 1496 words |
  | [prometheus](prometheus/01_summary.md) | 1 article | 702 words |
@@ -196,4 +196,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 836 articles
-247055 words
+247148 words

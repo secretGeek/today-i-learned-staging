@@ -160,7 +160,14 @@ In Powershell I pipe that json to `ConvertFrom-Json` and turn it into objects I 
 
 You can see the current version of docker.exe by using `docker --version`
 
-When docker desktop is running, it constantly checks for updates. If you update docker desktop to the latest version, this will also updated docker.exe.
+When docker desktop is running, it constantly checks for updates. If you update docker desktop to the latest version, this will also update `docker.exe`.
+
+
+## View docker logs for a particular container
+
+assume the container is called `container-1` (a snazzy name)
+
+	docker logs container-1
 
 
 ## See also
