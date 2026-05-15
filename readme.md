@@ -53,7 +53,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [7z](7z/01_summary.md) | 2 articles | 590 words |
  | [active directory](active_directory/01_summary.md) | 3 articles | 1222 words |
  | [airtable](airtable/01_summary.md) | 1 article | 196 words |
- | [AmazonWebServices](AmazonWebServices/01_summary.md) | 1 article | 53 words |
+ | [AmazonWebServices](AmazonWebServices/01_summary.md) | 1 article | 58 words |
  | [android](android/01_summary.md) | 1 article | 214 words |
  | [angular](angular/01_summary.md) | 1 article | 1027 words |
  | [appharbor](appharbor/01_summary.md) | 1 article | 119 words |
@@ -65,6 +65,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [bower](bower/01_summary.md) | 2 articles | 171 words |
  | [chat-gpt](chat-gpt/01_summary.md) | 2 articles | 1257 words |
  | [chocolatey](chocolatey/01_summary.md) | 8 articles | 1679 words |
+ | [claude](claude/01_summary.md) | 1 article | 23 words |
  | [concepts](concepts/01_summary.md) | 20 articles | 8445 words |
  | [console](console/01_summary.md) | 5 articles | 979 words |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article | 395 words |
@@ -138,6 +139,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [outlook](outlook/01_summary.md) | 1 article | 193 words |
  | [paypal](paypal/01_summary.md) | 1 article | 139 words |
  | [pdf](pdf/01_summary.md) | 4 articles | 690 words |
+ | [postgres](postgres/01_summary.md) | 1 article | 347 words |
  | [powershell](powershell/01_summary.md) | 112 articles | 30685 words |
  | [ppmp](ppmp/01_summary.md) | 1 article | 340 words |
  | [productivity](productivity/01_summary.md) | 2 articles | 1496 words |
@@ -195,5 +197,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles | 642 words |
 
 
-836 articles
-247148 words
+838 articles
+247541 words

@@ -7,3 +7,4 @@
 - RDS - Relational database service
 - ARN - Amazon resource name (identifier used by each resource created)
 - ALB - Application load balancer
+- OIDC - OpenID Connect
